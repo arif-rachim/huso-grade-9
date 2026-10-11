@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 390" role="img">
+<title>ABO blood groups</title>
+<desc>Four cards for blood groups A, B, AB and O showing antigens on the red cells and antibodies in the plasma, and a table of which donor groups can give red cells to which recipients.</desc>
+<defs><marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="600" height="390" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="300" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold" >ABO blood groups: antigens on the red cells, antibodies in the plasma</text>
+<rect x="14" y="40" width="136" height="176" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2.5" />
+<text x="82" y="66" font-size="15" text-anchor="middle" fill="#15803d" font-weight="bold" >Group A</text>
+<circle cx="82" cy="112" r="26" fill="#fecaca" stroke="#dc2626" stroke-width="2.5"/>
+<ellipse cx="82" cy="112" rx="10" ry="5" fill="#ffffff" fill-opacity="0.6" stroke="#dc2626" stroke-width="1" />
+<circle cx="82" cy="86" r="8" fill="#6b7280" stroke="#111827" stroke-width="1.5"/>
+<text x="82" y="90" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A</text>
+<circle cx="58" cy="122" r="8" fill="#6b7280" stroke="#111827" stroke-width="1.5"/>
+<text x="58" y="126" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A</text>
+<circle cx="106" cy="122" r="8" fill="#6b7280" stroke="#111827" stroke-width="1.5"/>
+<text x="106" y="126" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A</text>
+<text x="82" y="160" font-size="12" text-anchor="middle" fill="#111827" >Antigens: A</text>
+<text x="82" y="180" font-size="12" text-anchor="middle" fill="#6b7280" >Antibodies in plasma:</text>
+<text x="82" y="198" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold" >anti-B</text>
+<text x="82" y="222" font-size="12" text-anchor="middle" fill="#111827" ></text>
+<rect x="160" y="40" width="136" height="176" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2.5" />
+<text x="228" y="66" font-size="15" text-anchor="middle" fill="#15803d" font-weight="bold" >Group B</text>
+<circle cx="228" cy="112" r="26" fill="#fecaca" stroke="#dc2626" stroke-width="2.5"/>
+<ellipse cx="228" cy="112" rx="10" ry="5" fill="#ffffff" fill-opacity="0.6" stroke="#dc2626" stroke-width="1" />
+<circle cx="228" cy="86" r="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="228" y="90" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold" >B</text>
+<circle cx="204" cy="122" r="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="204" y="126" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold" >B</text>
+<circle cx="252" cy="122" r="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="252" y="126" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold" >B</text>
+<text x="228" y="160" font-size="12" text-anchor="middle" fill="#111827" >Antigens: B</text>
+<text x="228" y="180" font-size="12" text-anchor="middle" fill="#6b7280" >Antibodies in plasma:</text>
+<text x="228" y="198" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold" >anti-A</text>
+<text x="228" y="222" font-size="12" text-anchor="middle" fill="#111827" ></text>
+<rect x="306" y="40" width="136" height="176" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2.5" />
+<text x="374" y="66" font-size="15" text-anchor="middle" fill="#15803d" font-weight="bold" >Group AB</text>
+<circle cx="374" cy="112" r="26" fill="#fecaca" stroke="#dc2626" stroke-width="2.5"/>
+<ellipse cx="374" cy="112" rx="10" ry="5" fill="#ffffff" fill-opacity="0.6" stroke="#dc2626" stroke-width="1" />
+<circle cx="356" cy="92" r="8" fill="#6b7280" stroke="#111827" stroke-width="1.5"/>
+<text x="356" y="96" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A</text>
+<circle cx="392" cy="92" r="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="392" y="96" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold" >B</text>
+<circle cx="348" cy="120" r="8" fill="#6b7280" stroke="#111827" stroke-width="1.5"/>
+<text x="348" y="124" font-size="12" text-anchor="middle" fill="#ffffff" font-weight="bold" >A</text>
+<circle cx="400" cy="120" r="8" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="400" y="124" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold" >B</text>
+<text x="374" y="160" font-size="12" text-anchor="middle" fill="#111827" >Antigens: A and B</text>
+<text x="374" y="180" font-size="12" text-anchor="middle" fill="#6b7280" >Antibodies in plasma:</text>
+<text x="374" y="198" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="bold" >none</text>
+<text x="374" y="222" font-size="12" text-anchor="middle" fill="#111827" ></text>
+<rect x="452" y="40" width="136" height="176" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2.5" />
+<text x="520" y="66" font-size="15" text-anchor="middle" fill="#15803d" font-weight="bold" >Group O</text>
+<circle cx="520" cy="112" r="26" fill="#fecaca" stroke="#dc2626" stroke-width="2.5"/>
+<ellipse cx="520" cy="112" rx="10" ry="5" fill="#ffffff" fill-opacity="0.6" stroke="#dc2626" stroke-width="1" />
+<text x="520" y="160" font-size="12" text-anchor="middle" fill="#111827" >Antigens: none</text>
+<text x="520" y="180" font-size="12" text-anchor="middle" fill="#6b7280" >Antibodies in plasma:</text>
+<text x="520" y="198" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold" >anti-A + anti-B</text>
+<text x="520" y="222" font-size="12" text-anchor="middle" fill="#111827" ></text>
+<text x="300" y="262" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold" >Who can give red cells to whom? (the recipient's antibodies must not attack the donor's antigens)</text>
+<rect x="14" y="274" width="136" height="56" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<text x="82" y="296" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Donor O</text>
+<text x="82" y="316" font-size="13" text-anchor="middle" fill="#111827" >→ A, B, AB, O</text>
+<rect x="160" y="274" width="136" height="56" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<text x="228" y="296" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Donor A</text>
+<text x="228" y="316" font-size="13" text-anchor="middle" fill="#111827" >→ A, AB</text>
+<rect x="306" y="274" width="136" height="56" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<text x="374" y="296" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Donor B</text>
+<text x="374" y="316" font-size="13" text-anchor="middle" fill="#111827" >→ B, AB</text>
+<rect x="452" y="274" width="136" height="56" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<text x="520" y="296" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Donor AB</text>
+<text x="520" y="316" font-size="13" text-anchor="middle" fill="#111827" >→ AB</text>
+<text x="300" y="356" font-size="13" text-anchor="middle" fill="#15803d" font-weight="bold" >O = universal donor (no antigens)   ·   AB = universal acceptor (no antibodies)</text>
+<text x="300" y="376" font-size="12" text-anchor="middle" fill="#6b7280" >This follows the school (ICSE) convention and ignores the Rh factor (+ or −).</text>
+
+</g>
+</svg>

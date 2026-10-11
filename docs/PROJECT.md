@@ -75,9 +75,13 @@ All under `content/`. JSON, UTF-8, 2-space indent. A Rust test validates every f
   Slugs are dotted paths: `biology.cell.division`. **Subtopic** is the unit whose mastery
   is tracked; 76 subtopics in total.
 - `content/plan.json`: 35 `days` (2026‑10‑12 … 2026‑11‑15), each with `date`, `phase`
-  (`intensive` | `daily` | `exam`), `minutes`, `subject` (a subject slug or `diagnostic`,
-  `mixed`, `review`, `prep`, `exam`), `title`, `issue` (GitHub issue number), `blocks[]`
-  (`label`, `minutes`, `tasks[]` strings).
+  (`intensive` | `daily` | `weekend` | `readiness` | `exam`), `minutes` (= sum of the blocks),
+  `subject` (a subject slug or `diagnostic`, `mixed`, `prep`, `exam`), `title`, `issue` (GitHub
+  issue number), `new_subtopics[]` (slugs first studied that day) and `blocks[]` (`label`,
+  `minutes`, `tasks[]` strings, and optionally `subtopics[]`: the subtopic slugs studied in that
+  block, so the app can link `materi/<subject>/<topic>-<subtopic>.md`). Each of the 76 subtopics
+  is in exactly one block, none after 2026‑11‑07; `scripts/check_plan.py` checks this. Root
+  `readiness` holds the READY definition. See `docs/CURRICULUM.md`.
 - `content/sources.json`: official links, past papers (links + question counts), practice
   and visual resources per subject.
 - `content/flashcards/<subject>.json` (written by the content issues):

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 450" role="img">
+  <title>The urinary system, seen from the back</title>
+  <desc>Two bean-shaped kidneys lie on either side of the backbone just under the ribs. A ureter runs from each kidney down to the bladder in the lower pelvis. The urethra leads from the bladder out of the body.</desc>
+  <defs>
+    <marker id="arG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#14532d"/></marker>
+  </defs>
+  <rect width="560" height="450" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="280" y="22" font-size="16" font-weight="bold" text-anchor="middle">Urinary system (back view)</text>
+    <path d="M120,60 H320 Q345,230 330,360 Q300,425 220,435 Q140,425 110,360 Q95,230 120,60 Z" fill="#f3f4f6" stroke="#d1d5db" stroke-width="2"/>
+    <!-- lowest ribs hint -->
+    <g fill="none" stroke="#d1d5db" stroke-width="3" stroke-linecap="round">
+      <path d="M124,78 Q175,105 205,100"/><path d="M122,98 Q170,128 205,122"/><path d="M316,78 Q265,105 235,100"/><path d="M318,98 Q270,128 235,122"/>
+    </g>
+    <!-- backbone -->
+    <g fill="#e5e7eb" stroke="#9ca3af" stroke-width="1">
+      <rect x="208" y="64" width="24" height="14" rx="4"/><rect x="208" y="82" width="24" height="14" rx="4"/><rect x="208" y="100" width="24" height="14" rx="4"/>
+      <rect x="208" y="118" width="24" height="14" rx="4"/><rect x="208" y="136" width="24" height="14" rx="4"/><rect x="208" y="154" width="24" height="14" rx="4"/>
+      <rect x="208" y="172" width="24" height="14" rx="4"/><rect x="208" y="190" width="24" height="14" rx="4"/><rect x="208" y="208" width="24" height="14" rx="4"/>
+      <rect x="208" y="226" width="24" height="14" rx="4"/><rect x="208" y="244" width="24" height="14" rx="4"/><rect x="208" y="262" width="24" height="14" rx="4"/>
+    </g>
+    <!-- ureters -->
+    <g fill="none" stroke="#14532d" stroke-width="3.5" stroke-linecap="round" data-label="ureter">
+      <path d="M178,190 C200,230 192,290 205,326"/>
+      <path d="M262,175 C240,225 248,290 235,326"/>
+    </g>
+    <!-- kidneys: left of picture = right kidney (a little lower) -->
+    <g data-label="kidney">
+      <path d="M165,122 C140,122 130,154 138,184 C145,209 170,209 178,194 C170,179 172,154 184,139 C184,126 176,122 165,122 Z" fill="#86efac" stroke="#14532d" stroke-width="2"/>
+      <path d="M275,107 C300,107 310,139 302,169 C295,194 270,194 262,179 C270,164 268,139 256,124 C256,111 264,107 275,107 Z" fill="#86efac" stroke="#14532d" stroke-width="2"/>
+    </g>
+    <!-- bladder and urethra -->
+    <g data-label="urinary bladder">
+      <path d="M195,332 Q195,322 206,324 L234,324 Q245,322 245,332 Q252,368 220,384 Q188,368 195,332 Z" fill="#bbf7d0" stroke="#14532d" stroke-width="2"/>
+    </g>
+    <g data-label="urethra"><line x1="220" y1="384" x2="220" y2="428" stroke="#14532d" stroke-width="4" stroke-linecap="round"/></g>
+    <line x1="220" y1="420" x2="220" y2="446" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <!-- leaders & labels -->
+    <g stroke="#6b7280" stroke-width="1.2" fill="none">
+      <path d="M140,150 L88,150"/><path d="M302,150 L360,140"/><path d="M246,262 L360,262"/><path d="M244,350 L360,350"/><path d="M221,405 L360,408"/>
+    </g>
+    <text x="10" y="130" font-size="15" font-weight="bold" fill="#14532d">Kidneys</text>
+    <text x="10" y="147" font-size="12">filter the blood,</text>
+    <text x="10" y="162" font-size="12">make urine</text>
+    <text x="366" y="138" font-size="12">partly under the lowest ribs,</text>
+    <text x="366" y="153" font-size="12">on each side of the backbone</text>
+    <text x="366" y="258" font-size="15" font-weight="bold" fill="#14532d">Ureter (2)</text>
+    <text x="366" y="275" font-size="12">tube: kidney → bladder</text>
+    <text x="366" y="346" font-size="15" font-weight="bold" fill="#14532d">Urinary bladder</text>
+    <text x="366" y="363" font-size="12">muscular bag: stores urine</text>
+    <text x="366" y="404" font-size="15" font-weight="bold" fill="#14532d">Urethra</text>
+    <text x="366" y="421" font-size="12">tube: bladder → outside</text>
+    <text x="230" y="446" font-size="12" fill="#14532d" font-weight="bold">urine out</text>
+  </g>
+</svg>

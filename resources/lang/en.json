@@ -1,6 +1,15 @@
 {
-  "home": {
-    "running": "Your Renox app is running.",
-    "edit": "Edit resources/views/home/index.html and refresh: templates reload without a rebuild."
+  "nav": {
+    "today": "Today",
+    "plan": "Plan",
+    "flashcards": "Flashcards",
+    "practice": "Practice",
+    "errors": "Error Log",
+    "syllabus": "Syllabus",
+    "progress": "Progress",
+    "parent": "Parent",
+    "account": "Account",
+    "logout": "Log out",
+    "countdown_hint": "Days until HUSO Round 1 (15 Nov 2026)"
   }
 }

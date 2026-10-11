@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" role="img" aria-labelledby="t d">
+  <title id="t">Magnification formula</title>
+  <desc id="d">Magnification equals image size divided by actual size. A cell that is 50 micrometers wide and appears 40 millimeters wide in a drawing is magnified 800 times. One millimeter is 1000 micrometers.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="440" height="330" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Microscopy: M = I ÷ A</text>
+    <path d="M160,76 L100,186 L220,186 Z" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="128" y1="134" x2="192" y2="134" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <text x="160" y="118" font-size="22" text-anchor="middle" fill="#111827" font-weight="bold">I</text>
+    <text x="132" y="170" font-size="20" text-anchor="middle" fill="#111827" font-weight="bold">A</text>
+    <text x="188" y="170" font-size="20" text-anchor="middle" fill="#111827" font-weight="bold">M</text>
+    <text x="160" y="170" font-size="16" text-anchor="middle" fill="#111827">×</text>
+    <text x="160" y="208" font-size="12" text-anchor="middle" fill="#6b7280">cover the one you want</text>
+    <text x="300" y="100" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">M = I ÷ A</text>
+    <text x="300" y="124" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">I = M × A</text>
+    <text x="300" y="148" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">A = I ÷ M</text>
+    <text x="300" y="172" font-size="12" text-anchor="middle" fill="#6b7280">I = image size</text>
+    <text x="300" y="188" font-size="12" text-anchor="middle" fill="#6b7280">A = actual size</text>
+    <text x="300" y="204" font-size="12" text-anchor="middle" fill="#6b7280">M = magnification</text>
+    <rect x="30" y="226" width="380" height="92" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="220" y="248" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Units: change both to the same unit first</text>
+    <text x="220" y="272" font-size="13" text-anchor="middle" fill="#111827">1 mm = 1000 µm  and  1 µm = 1000 nm</text>
+    <text x="220" y="292" font-size="12" text-anchor="middle" fill="#111827">Example: cell 50 µm, drawing 40 mm = 40 000 µm</text>
+    <text x="220" y="308" font-size="13" text-anchor="middle" fill="#16a34a" font-weight="bold">M = 40 000 ÷ 50 = ×800</text>
+  </g>
+</svg>

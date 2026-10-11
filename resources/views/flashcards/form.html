@@ -1,0 +1,23 @@
+<rx-page layout="layouts/app.html" title="{{ title }}">
+  <rx-page-header title="{{ title }}" subtitle="A picture or a drawing prompt makes the card easier to remember." back="{{ route('flashcards.index') }}"/>
+  <rx-card>
+    <rx-form action="{{ route('flashcards.update', card.id) if card else route('flashcards.store') }}" enctype="multipart/form-data">
+      <rx-form-errors/>
+      <div hx-get="{{ route('flashcards.topics') }}" hx-trigger="rx:select:changed" hx-target="#fc-topic" hx-include="this">
+        <rx-select name="subject" label="Subject" :options="subject_options" :selected="subject" placeholder="Choose a subject" required id="fc-subject"/>
+      </div>
+      <div id="fc-topic">{% include "flashcards/_topic_select.html" %}</div>
+      <rx-input name="front" label="Front (the question)" :value="card.front if card else ''" required hint="Short and clear. One idea per card."/>
+      <rx-textarea name="back" label="Back (the answer)" :value="card.back if card else ''" rows="3" required/>
+      <rx-file name="image" label="Picture" accept="image/png,image/jpeg,image/svg+xml" preview hint="PNG, JPG or SVG, up to 2 MB." :current="card.visual if card else none"/>
+      {% if card and card.visual %}
+        <rx-checkbox name="remove_image" label="Remove the current picture"/>
+      {% endif %}
+      <rx-textarea name="sketch_prompt" label="Or: what should you draw on paper?" :value="card.sketch_prompt if card else ''" rows="2" hint="Used when there is no picture. Example: Draw the heart and label the four chambers."/>
+      <rx-row>
+        <rx-button label="{{ 'Save card' if card else 'Add card' }}"/>
+        <rx-link-button route="flashcards.index" variant="plain" label="Cancel"/>
+      </rx-row>
+    </rx-form>
+  </rx-card>
+</rx-page>

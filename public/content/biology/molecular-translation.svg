@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 350" role="img" aria-labelledby="t d">
+  <title id="t">Translation at the ribosome</title>
+  <desc id="d">The mRNA is read three letters at a time. The ribosome sits on two codons. A tRNA with the matching anticodon brings an amino acid, and the ribosome joins the amino acids into a chain. Start codon AUG, stop codon UAA.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="440" height="350" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Translation: the ribosome reads codons</text>
+    <rect x="112" y="130" width="148" height="138" rx="22" fill="#d1d5db" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.6"/>
+    <text x="186" y="286" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">ribosome</text>
+    <rect x="40" y="236" width="64" height="30" rx="4" fill="#ffffff" stroke="#111827" stroke-width="1.6"/>
+    <text x="72" y="256" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">AUG</text>
+    <rect x="112" y="236" width="64" height="30" rx="4" fill="#ffffff" stroke="#111827" stroke-width="1.6"/>
+    <text x="144" y="256" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">UUC</text>
+    <rect x="184" y="236" width="64" height="30" rx="4" fill="#ffffff" stroke="#111827" stroke-width="1.6"/>
+    <text x="216" y="256" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">GGA</text>
+    <rect x="256" y="236" width="64" height="30" rx="4" fill="#ffffff" stroke="#111827" stroke-width="1.6"/>
+    <text x="288" y="256" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">GCU</text>
+    <rect x="328" y="236" width="64" height="30" rx="4" fill="#ffffff" stroke="#111827" stroke-width="1.6"/>
+    <text x="360" y="256" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">UAA</text>
+    <text x="22" y="256" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">5′</text>
+    <text x="414" y="256" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">3′</text>
+    <text x="72" y="288" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">start codon</text>
+    <text x="72" y="304" font-size="12" text-anchor="middle" fill="#6b7280">AUG = Met</text>
+    <text x="360" y="288" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">STOP codon</text>
+    <text x="360" y="304" font-size="12" text-anchor="middle" fill="#6b7280">no amino acid</text>
+    <rect x="124" y="160" width="40" height="76" rx="6" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+    <text x="144" y="226" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">AAG</text>
+    <text x="144" y="198" font-size="12" text-anchor="middle" fill="#6b7280">tRNA</text>
+    <circle cx="144" cy="146" r="13" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.6"/>
+    <text x="144" y="150" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Phe</text>
+    <rect x="196" y="160" width="40" height="76" rx="6" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+    <text x="216" y="226" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">CCU</text>
+    <text x="216" y="198" font-size="12" text-anchor="middle" fill="#6b7280">tRNA</text>
+    <circle cx="216" cy="146" r="13" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.6"/>
+    <text x="216" y="150" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Gly</text>
+    <circle cx="144" cy="100" r="13" fill="#16a34a" fill-opacity="0.45" stroke="#16a34a" stroke-width="1.6"/>
+    <text x="144" y="104" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Met</text>
+    <line x1="144" y1="113" x2="144" y2="133" stroke="#16a34a" stroke-width="2.4" stroke-linecap="round"/>
+    <line x1="157" y1="146" x2="203" y2="146" stroke="#16a34a" stroke-width="2.4" stroke-linecap="round"/>
+    <text x="220" y="64" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">growing chain: Met – Phe – Gly …</text>
+    <text x="290" y="116" font-size="12" text-anchor="start" fill="#6b7280">ribosome moves</text>
+    <line x1="290" y1="126" x2="396" y2="126" stroke="#6b7280" stroke-width="1.8" stroke-linecap="round" marker-end="url(#arM)"/>
+    <text x="290" y="146" font-size="12" text-anchor="start" fill="#6b7280">next codon: GCU</text>
+    <text x="220" y="330" font-size="12" text-anchor="middle" fill="#111827">Anticodon letters pair with the codon above them: UUC ↔ AAG, GGA ↔ CCU</text>
+  </g>
+</svg>

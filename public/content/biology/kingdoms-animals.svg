@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" role="img" aria-labelledby="kvt kvd">
+  <title id="kvt">Vertebrates and invertebrates</title>
+  <desc id="kvd">Animalia split into vertebrates (animals with a backbone): fish, amphibians, reptiles, birds and mammals, and invertebrates (no backbone) such as insects, worms, snails and jellyfish.</desc>
+  <defs>
+    <marker id="kva" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="kvg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="380" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="20" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Kingdom Animalia: backbone or no backbone?</text>
+    <rect x="170" y="34" width="140" height="34" rx="9" fill="#16a34a" fill-opacity="0.85"/>
+    <text x="240" y="56" font-size="15" text-anchor="middle" fill="#ffffff" font-weight="bold">Animalia</text>
+    <line x1="240" y1="68" x2="240" y2="84" stroke="#111827" stroke-width="1.8"/><line x1="120" y1="84" x2="370" y2="84" stroke="#111827" stroke-width="1.8"/><line x1="120" y1="84" x2="120" y2="100" stroke="#111827" stroke-width="1.8"/><line x1="370" y1="84" x2="370" y2="100" stroke="#111827" stroke-width="1.8"/>
+    <rect x="30" y="100" width="180" height="42" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+    <text x="120" y="119" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Vertebrates</text>
+    <text x="120" y="135" font-size="12" text-anchor="middle" fill="#6b7280">have a backbone</text>
+    <rect x="280" y="100" width="180" height="42" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+    <text x="370" y="119" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Invertebrates</text>
+    <text x="370" y="135" font-size="12" text-anchor="middle" fill="#6b7280">no backbone</text>
+    <line x1="120" y1="142" x2="120" y2="156" stroke="#111827" stroke-width="1.8"/>
+    <g data-label="fish"><rect x="30" y="156" width="180" height="34" rx="8" fill="#16a34a" fill-opacity="0.12" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="40" y="171" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Fish</text>
+    <text x="40" y="185" font-size="11" text-anchor="start" fill="#6b7280">gills, scales, fins</text>
+    </g>
+    <g data-label="amphibians"><rect x="30" y="196" width="180" height="34" rx="8" fill="#16a34a" fill-opacity="0.12" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="40" y="211" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Amphibians</text>
+    <text x="40" y="225" font-size="11" text-anchor="start" fill="#6b7280">moist skin, eggs in water</text>
+    </g>
+    <g data-label="reptiles"><rect x="30" y="236" width="180" height="34" rx="8" fill="#16a34a" fill-opacity="0.12" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="40" y="251" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Reptiles</text>
+    <text x="40" y="265" font-size="11" text-anchor="start" fill="#6b7280">dry scaly skin</text>
+    </g>
+    <g data-label="birds"><rect x="30" y="276" width="180" height="34" rx="8" fill="#16a34a" fill-opacity="0.12" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="40" y="291" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Birds</text>
+    <text x="40" y="305" font-size="11" text-anchor="start" fill="#6b7280">feathers, wings</text>
+    </g>
+    <g data-label="mammals"><rect x="30" y="316" width="180" height="34" rx="8" fill="#16a34a" fill-opacity="0.12" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="40" y="331" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Mammals</text>
+    <text x="40" y="345" font-size="11" text-anchor="start" fill="#6b7280">hair, milk for young</text>
+    </g>
+    <rect x="280" y="156" width="180" height="34" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="290" y="171" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Insects</text>
+    <text x="290" y="185" font-size="11" text-anchor="start" fill="#6b7280">6 legs: ant, bee</text>
+    <rect x="280" y="196" width="180" height="34" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="290" y="211" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Worms</text>
+    <text x="290" y="225" font-size="11" text-anchor="start" fill="#6b7280">earthworm</text>
+    <rect x="280" y="236" width="180" height="34" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="290" y="251" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Molluscs</text>
+    <text x="290" y="265" font-size="11" text-anchor="start" fill="#6b7280">snail, octopus</text>
+    <rect x="280" y="276" width="180" height="34" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="290" y="291" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Jellyfish</text>
+    <text x="290" y="305" font-size="11" text-anchor="start" fill="#6b7280">soft body, stings</text>
+    <line x1="370" y1="142" x2="370" y2="156" stroke="#111827" stroke-width="1.8"/>
+    <text x="370" y="330" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">More than 95% of animal species</text>
+    <text x="370" y="346" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">are invertebrates</text>
+    <text x="120" y="368" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">5 classes of vertebrates</text>
+  </g>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="ebt ebd">
+  <title id="ebt">Biotic and abiotic factors</title>
+  <desc id="ebd">Left: biotic factors, the living parts: producers, consumers and decomposers. Right: abiotic factors, the non-living parts: air, soil, water, sunlight, temperature, humidity and wind.</desc>
+  <defs>
+    <marker id="eba" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="ebg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="300" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="20" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">An ecosystem = living things + their non-living surroundings</text>
+    <rect x="15" y="34" width="215" height="236" rx="12" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="2"/>
+    <rect x="250" y="34" width="215" height="236" rx="12" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+    <text x="122" y="60" font-size="15" text-anchor="middle" fill="#16a34a" font-weight="bold">BIOTIC (living)</text>
+    <text x="357" y="60" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">ABIOTIC (non-living)</text>
+    <rect x="30" y="88" width="185" height="46" rx="8" fill="#ffffff" stroke="#16a34a"/>
+    <text x="122" y="108" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Producers</text>
+    <text x="122" y="125" font-size="12" text-anchor="middle" fill="#6b7280">plants, algae</text>
+    <rect x="30" y="146" width="185" height="46" rx="8" fill="#ffffff" stroke="#16a34a"/>
+    <text x="122" y="166" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Consumers</text>
+    <text x="122" y="183" font-size="12" text-anchor="middle" fill="#6b7280">herbivores, carnivores</text>
+    <rect x="30" y="204" width="185" height="46" rx="8" fill="#ffffff" stroke="#16a34a"/>
+    <text x="122" y="224" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Decomposers</text>
+    <text x="122" y="241" font-size="12" text-anchor="middle" fill="#6b7280">bacteria, fungi</text>
+    <rect x="262" y="84" width="92" height="30" rx="8" fill="#ffffff" stroke="#6b7280"/>
+    <text x="308" y="104" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Air</text>
+    <rect x="262" y="124" width="92" height="30" rx="8" fill="#ffffff" stroke="#6b7280"/>
+    <text x="308" y="144" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Soil</text>
+    <rect x="262" y="164" width="92" height="30" rx="8" fill="#ffffff" stroke="#6b7280"/>
+    <text x="308" y="184" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Water</text>
+    <rect x="262" y="204" width="92" height="30" rx="8" fill="#ffffff" stroke="#6b7280"/>
+    <text x="308" y="224" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Sunlight</text>
+    <rect x="362" y="84" width="92" height="30" rx="8" fill="#ffffff" stroke="#6b7280"/>
+    <text x="408" y="104" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Temperature</text>
+    <rect x="362" y="124" width="92" height="30" rx="8" fill="#ffffff" stroke="#6b7280"/>
+    <text x="408" y="144" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Humidity</text>
+    <rect x="362" y="164" width="92" height="30" rx="8" fill="#ffffff" stroke="#6b7280"/>
+    <text x="408" y="184" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Wind</text>
+    <text x="357" y="258" font-size="11" text-anchor="middle" fill="#6b7280">(humidity = water vapor in the air)</text>
+    <text x="240" y="290" font-size="12" text-anchor="middle" fill="#6b7280">Each factor affects the others: temperature changes which plants can grow.</text>
+  </g>
+</svg>

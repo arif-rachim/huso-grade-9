@@ -1,0 +1,23 @@
+{#- The live checklist (src/app/today/mod.rs). `state` is the component's struct,
+    `data` what its `data` returned: blocks, done, total, percent, complete. -#}
+<div class="today-progress" aria-live="polite">
+  <rx-progress :value="data.percent" label="Tasks done today" :show-value="false"/>
+  <strong class="today-progress__count" id="today-count">{{ data.done }}/{{ data.total }} tasks</strong>
+</div>
+{% if data.complete %}
+<rx-alert kind="success" message="Today is done! 🎉"/>
+{% endif %}
+{% if state.readonly %}
+<rx-alert kind="info" message="Read-only: you are looking at the student's checklist."/>
+{% endif %}
+{% for block in data.blocks %}
+<rx-card title="{{ block.label }} · {{ block.minutes }} minutes">
+  <ul class="rx-list today-tasks">
+    {% for task in block.tasks %}
+    <li>
+      <rx-checkbox name="task" id="task-{{ task.id }}-{{ 'on' if task.checked else 'off' }}" label="{{ task.label }}" :checked="task.checked" :disabled="state.readonly" rx-click="toggle({{ task.id }})"/>
+    </li>
+    {% endfor %}
+  </ul>
+</rx-card>
+{% endfor %}

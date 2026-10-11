@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="ibt ibd">
+  <title id="ibt">An antibody fits one antigen</title>
+  <desc id="ibd">A Y-shaped antibody whose two arm tips fit the antigens on the surface of a germ, and how a B cell becomes a plasma cell that makes many antibodies.</desc>
+  <defs>
+    <marker id="iba" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="ibg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="340" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Antibodies: Y-shaped proteins that match one antigen</text>
+    <g transform="translate(0,40)">
+    <g data-label="germ"><circle cx="360" cy="110" r="52" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <rect x="305.1" y="86.2" width="12" height="12" fill="#dc2626" transform="rotate(290 311.1 92.2)"/>
+    <rect x="328.0" y="59.0" width="12" height="12" fill="#dc2626" transform="rotate(330 334.0 65.0)"/>
+    <rect x="363.0" y="52.8" width="12" height="12" fill="#dc2626" transform="rotate(370 369.0 58.8)"/>
+    <rect x="393.8" y="70.6" width="12" height="12" fill="#dc2626" transform="rotate(410 399.8 76.6)"/>
+    <text x="372" y="120" font-size="13" text-anchor="middle">germ</text></g>
+    <g data-label="antibody" transform="translate(243.5,12.3) rotate(130)">
+      <path d="M0,0 L0,-70 L-17,-98 M0,-70 L17,-98" stroke="#16a34a" stroke-width="9" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    </g>
+    <text x="30" y="86" font-size="14" text-anchor="start" fill="#16a34a" font-weight="bold">antibody</text>
+    <text x="30" y="103" font-size="12" text-anchor="start" fill="#16a34a">a Y-shaped protein</text>
+    <line x1="125" y1="90" x2="222" y2="76" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="260" y="222" font-size="12" text-anchor="start" fill="#dc2626">antigens: markers on the germ</text>
+    <line x1="330" y1="205" x2="372" y2="196" stroke="#dc2626" stroke-width="1"/>
+    <text x="240" y="244" font-size="12" text-anchor="middle" fill="#6b7280">Antibody and antigen fit like a key and a lock: one antibody matches one antigen.</text>
+    <rect x="15" y="262" width="120" height="50" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+    <text x="75" y="283" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">B cell</text>
+    <text x="75" y="300" font-size="11" text-anchor="middle" fill="#111827">meets its antigen</text>
+    <rect x="180" y="262" width="120" height="50" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+    <text x="240" y="283" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Plasma cell</text>
+    <text x="240" y="300" font-size="11" text-anchor="middle" fill="#111827">a factory for antibodies</text>
+    <rect x="345" y="262" width="120" height="50" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+    <text x="405" y="283" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Antibodies</text>
+    <text x="405" y="300" font-size="11" text-anchor="middle" fill="#111827">go into the blood</text>
+    <line x1="135" y1="287" x2="178" y2="287" stroke="#111827" stroke-width="2" marker-end="url(#iba)"/>
+    <line x1="300" y1="287" x2="343" y2="287" stroke="#111827" stroke-width="2" marker-end="url(#iba)"/>
+    <text x="240" y="332" font-size="12" text-anchor="middle" fill="#6b7280">Some B cells stay behind as memory cells.</text>
+  </g>
+</svg>

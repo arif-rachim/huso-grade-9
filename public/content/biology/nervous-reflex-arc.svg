@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 430" role="img">
+  <title>A reflex arc through the spinal cord</title>
+  <desc>A hot pan (stimulus) touches the skin. A receptor in the skin starts an impulse that runs along a sensory neuron into the spinal cord. A relay neuron passes it to a motor neuron, which carries it out to a muscle (the effector). The muscle pulls the hand away (the response). A branch of the message also goes up to the brain, so you feel pain a moment later.</desc>
+  <defs>
+    <marker id="arG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#14532d"/></marker>
+    <marker id="arK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+  </defs>
+  <rect width="560" height="430" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="280" y="22" font-size="16" font-weight="bold" text-anchor="middle">Reflex arc: pulling your hand off a hot pan</text>
+    <!-- spinal cord cross-section -->
+    <g data-label="spinal cord">
+      <ellipse cx="170" cy="205" rx="88" ry="78" fill="#e5e7eb" stroke="#6b7280" stroke-width="2"/>
+      <g fill="#bbf7d0" stroke="#16a34a" stroke-width="1.5">
+        <ellipse cx="170" cy="205" rx="20" ry="42"/>
+        <ellipse cx="140" cy="168" rx="12" ry="30" transform="rotate(-30 140 168)"/>
+        <ellipse cx="200" cy="168" rx="12" ry="30" transform="rotate(30 200 168)"/>
+        <ellipse cx="136" cy="238" rx="22" ry="18" transform="rotate(25 136 238)"/>
+        <ellipse cx="204" cy="238" rx="22" ry="18" transform="rotate(-25 204 238)"/>
+      </g>
+      <ellipse cx="170" cy="200" rx="4" ry="4" fill="#ffffff" stroke="#16a34a"/>
+    </g>
+    <text x="170" y="302" font-size="12" text-anchor="middle" fill="#6b7280">spinal cord (cross-section)</text>
+    <text x="170" y="112" font-size="12" text-anchor="middle" fill="#6b7280">back</text>
+    <!-- sensory neuron -->
+    <g fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linecap="round">
+      <path d="M455,92 C410,92 340,112 262,138"/>
+      <path d="M262,138 L214,166 L204,176" marker-end="url(#arG)"/>
+    </g>
+    <circle cx="268" cy="136" r="9" fill="#86efac" stroke="#14532d" stroke-width="1.5"/>
+    <!-- relay neuron -->
+    <g fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linecap="round">
+      <path d="M204,176 L196,205 L200,232" marker-end="url(#arG)"/>
+    </g>
+    <circle cx="198" cy="205" r="6" fill="#86efac" stroke="#14532d" stroke-width="1.5"/>
+    <!-- motor neuron -->
+    <circle cx="206" cy="240" r="11" fill="#16a34a" stroke="#14532d" stroke-width="1.5"/>
+    <path d="M214,250 C240,300 330,332 408,326" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linecap="round" marker-end="url(#arG)"/>
+    <!-- skin and pan -->
+    <g>
+      <rect x="440" y="78" width="110" height="38" rx="8" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+      <text x="495" y="102" font-size="12" text-anchor="middle" fill="#6b7280">skin</text>
+      <circle cx="456" cy="92" r="7" fill="#ffffff" stroke="#14532d" stroke-width="2.5"/>
+      <rect x="448" y="38" width="94" height="18" rx="4" fill="#6b7280"/>
+      <rect x="520" y="42" width="38" height="8" rx="3" fill="#6b7280"/>
+      <path d="M462,74 q-5,-5 0,-10 q5,-5 0,-8 M484,74 q-5,-5 0,-10 q5,-5 0,-8 M506,74 q-5,-5 0,-10 q5,-5 0,-8" stroke="#6b7280" stroke-width="1.6" fill="none" stroke-dasharray="3 2"/>
+    </g>
+    <!-- muscle -->
+    <g data-label="effector (muscle)">
+      <rect x="408" y="302" width="130" height="50" rx="22" fill="#f3f4f6" stroke="#6b7280" stroke-width="2"/>
+      <path d="M430,310 L430,344 M455,308 L455,346 M480,308 L480,346 M505,310 L505,344" stroke="#d1d5db" stroke-width="2"/>
+    </g>
+    <!-- message to brain -->
+    <path d="M150,132 C120,110 80,95 52,72" fill="none" stroke="#6b7280" stroke-width="2.5" stroke-dasharray="6 4" marker-end="url(#arK)"/>
+    <rect x="12" y="38" width="76" height="30" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="50" y="58" font-size="14" font-weight="bold" text-anchor="middle">Brain</text>
+    <text x="98" y="50" font-size="12" fill="#6b7280">pain is felt here,</text>
+    <text x="98" y="64" font-size="12" fill="#6b7280">a moment later</text>
+    <!-- numbered badges -->
+    <g font-weight="bold" font-size="13" text-anchor="middle" fill="#ffffff">
+      <g><circle cx="500" cy="30" r="0"/></g>
+      <circle cx="424" cy="48" r="11" fill="#14532d"/><text x="424" y="53">1</text>
+      <circle cx="431" cy="112" r="11" fill="#14532d"/><text x="431" y="117">2</text>
+      <circle cx="345" cy="122" r="11" fill="#14532d"/><text x="345" y="127">3</text>
+      <circle cx="235" cy="205" r="11" fill="#14532d"/><text x="235" y="210">4</text>
+      <circle cx="318" cy="305" r="11" fill="#14532d"/><text x="318" y="310">5</text>
+      <circle cx="473" cy="372" r="11" fill="#14532d"/><text x="473" y="377">6</text>
+    </g>
+    <text x="473" y="397" font-size="12" text-anchor="middle" fill="#14532d" font-weight="bold">7 Response:</text>
+    <text x="473" y="411" font-size="12" text-anchor="middle" fill="#14532d">the hand pulls away</text>
+    <!-- legend list -->
+    <g font-size="13">
+      <text x="14" y="334" font-weight="bold" fill="#14532d">1 Stimulus</text><text x="94" y="334">a hot pan</text>
+      <text x="14" y="352" font-weight="bold" fill="#14532d">2 Receptor</text><text x="94" y="352">in the skin: starts the impulse</text>
+      <text x="14" y="370" font-weight="bold" fill="#14532d">3 Sensory neuron</text><text x="130" y="370">carries it to the spinal cord</text>
+      <text x="14" y="388" font-weight="bold" fill="#14532d">4 Spinal cord</text><text x="110" y="388">relay neuron passes it on</text>
+      <text x="14" y="406" font-weight="bold" fill="#14532d">5 Motor neuron</text><text x="116" y="406">carries it out to the muscle</text>
+      <text x="14" y="424" font-weight="bold" fill="#14532d">6 Effector</text><text x="86" y="424">the muscle that acts</text>
+    </g>
+  </g>
+</svg>

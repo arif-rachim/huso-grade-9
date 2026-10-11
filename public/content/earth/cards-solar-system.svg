@@ -85,7 +85,7 @@
 <text x="233" y="224" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">Gas giants</text>
 <polyline points="284,198 284,206 348,206 348,198" fill="none" stroke="#92400e" stroke-width="2" stroke-linejoin="round"/>
 <text x="316" y="224" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">Ice giants</text>
-<text x="200" y="290" font-size="12" text-anchor="middle" fill="#6b7280">Grey numbers = distance from the Sun in AU (1 AU = Earth–Sun).</text>
+<text x="200" y="290" font-size="12" text-anchor="middle" fill="#6b7280">Gray numbers = distance from the Sun in AU (1 AU = Earth–Sun).</text>
 <text x="200" y="306" font-size="12" text-anchor="middle" fill="#6b7280">Pluto is a dwarf planet in the Kuiper belt.</text>
 </g>
 </svg>

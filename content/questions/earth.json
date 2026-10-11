@@ -1,0 +1,2832 @@
+{
+  "version": 1,
+  "subject": "earth",
+  "questions": [
+    {
+      "id": "earth-0001",
+      "subtopic": "earth.atmosphere.structure",
+      "difficulty": 1,
+      "stem": "A swimmer puts on sunscreen to block UV light. The ozone layer, which also blocks UV, is in which atmospheric layer?",
+      "visual": "content/earth/cards-atmosphere-layers.svg",
+      "choices": {
+        "A": "Mesosphere",
+        "B": "Thermosphere",
+        "C": "Stratosphere",
+        "D": "Exosphere",
+        "E": "Troposphere"
+      },
+      "answer": "C",
+      "explanation": "Most ozone is found in the stratosphere at about 20-30 km. It absorbs UV light, which is why this layer warms with height.",
+      "explanation_visual": "content/earth/cards-atmosphere-layers.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0002",
+      "subtopic": "earth.atmosphere.structure",
+      "difficulty": 1,
+      "stem": "A swim coach checks the weather before an outdoor meet. In which atmospheric layer does almost all weather happen?",
+      "visual": "content/earth/cards-atmosphere-layers.svg",
+      "choices": {
+        "A": "Troposphere",
+        "B": "Thermosphere",
+        "C": "Mesosphere",
+        "D": "Stratosphere",
+        "E": "Exosphere"
+      },
+      "answer": "A",
+      "explanation": "The troposphere holds most of the air and nearly all the water vapor, so clouds, rain and storms form here.",
+      "explanation_visual": "content/earth/cards-atmosphere-layers.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0003",
+      "subtopic": "earth.atmosphere.structure",
+      "difficulty": 1,
+      "stem": "A chef boils soup in a mountain village at high altitude. The water boils below 100 °C because the",
+      "visual": null,
+      "choices": {
+        "A": "gravity is much weaker",
+        "B": "oxygen level is higher",
+        "C": "water is purer",
+        "D": "air pressure is lower",
+        "E": "air is colder so the soup cannot heat"
+      },
+      "answer": "D",
+      "explanation": "Water boils when its vapor pressure equals the air pressure. Higher up, air pressure is lower, so the boiling point is lower.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0004",
+      "subtopic": "earth.atmosphere.structure",
+      "difficulty": 2,
+      "stem": "On a mountain map (suppose) the air cools by 6.5 °C for every kilometer. If it is 20 °C at the base, what is the temperature at the 8 km summit?",
+      "visual": null,
+      "choices": {
+        "A": "-52 °C",
+        "B": "-45 °C",
+        "C": "-26 °C",
+        "D": "-12 °C",
+        "E": "-32 °C"
+      },
+      "answer": "E",
+      "explanation": "Drop = 6.5 × 8 = 52 °C. 20 - 52 = -32 °C.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0005",
+      "subtopic": "earth.atmosphere.structure",
+      "difficulty": 2,
+      "stem": "Which boundary between layers is the coldest place in the atmosphere (roughly -85 to -90 °C)?",
+      "visual": "content/earth/cards-atmosphere-layers.svg",
+      "choices": {
+        "A": "The tropopause",
+        "B": "The mesopause",
+        "C": "The thermopause",
+        "D": "The ground",
+        "E": "The stratopause"
+      },
+      "answer": "B",
+      "explanation": "Temperature falls through the mesosphere and reaches its lowest value, roughly -85 to -90 °C, at the mesopause (about 85 km).",
+      "explanation_visual": "content/earth/cards-atmosphere-layers.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0006",
+      "subtopic": "earth.atmosphere.structure",
+      "difficulty": 2,
+      "stem": "The International Space Station orbits about 400 km above Earth. In which layer is it?",
+      "visual": "content/earth/cards-atmosphere-layers.svg",
+      "choices": {
+        "A": "Exosphere",
+        "B": "Mesosphere",
+        "C": "Troposphere",
+        "D": "Stratosphere",
+        "E": "Thermosphere"
+      },
+      "answer": "E",
+      "explanation": "The thermosphere extends from about 85 km to about 600 km. The ISS and the aurora are in this layer.",
+      "explanation_visual": "content/earth/cards-atmosphere-layers.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0007",
+      "subtopic": "earth.atmosphere.structure",
+      "difficulty": 3,
+      "stem": "Air pressure at sea level is 1013 hPa and it roughly halves every 5.5 km. About what is the pressure at 16.5 km?",
+      "visual": null,
+      "choices": {
+        "A": "506 hPa",
+        "B": "63 hPa",
+        "C": "127 hPa",
+        "D": "338 hPa",
+        "E": "253 hPa"
+      },
+      "answer": "C",
+      "explanation": "16.5 km is 3 halvings (16.5 ÷ 5.5 = 3). 1013 ÷ 2 ÷ 2 ÷ 2 ≈ 127 hPa.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0008",
+      "subtopic": "earth.atmosphere.structure",
+      "difficulty": 3,
+      "stem": "The thermosphere can reach 1500 °C, yet an astronaut outside would not feel burned by the air. The best reason is that the air there",
+      "visual": null,
+      "choices": {
+        "A": "is so thin that it transfers almost no heat",
+        "B": "reflects all heat away",
+        "C": "is protected by the ozone layer",
+        "D": "is actually colder than the astronaut",
+        "E": "contains no molecules at all"
+      },
+      "answer": "A",
+      "explanation": "Temperature measures the speed of the few molecules. With so few particles per cubic meter, almost no heat energy is passed on.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0009",
+      "subtopic": "earth.atmosphere.fronts",
+      "difficulty": 1,
+      "stem": "Practice at an outdoor pool is stopped by a sudden thunderstorm, and the air turns cooler. Which front usually brings brief heavy showers and thunderstorms?",
+      "visual": "content/earth/cards-fronts.svg",
+      "choices": {
+        "A": "Dry line",
+        "B": "Occluded front only",
+        "C": "Warm front",
+        "D": "Cold front",
+        "E": "Stationary front"
+      },
+      "answer": "D",
+      "explanation": "A cold front is steep and fast, so it lifts the warm air quickly. That makes tall cumulonimbus clouds and storms.",
+      "explanation_visual": "content/earth/cards-fronts.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0010",
+      "subtopic": "earth.atmosphere.fronts",
+      "difficulty": 1,
+      "stem": "In the Northern Hemisphere, winds around a low-pressure center blow",
+      "visual": "content/earth/cards-high-low.svg",
+      "choices": {
+        "A": "straight into the center without turning",
+        "B": "counterclockwise and inward",
+        "C": "clockwise and inward",
+        "D": "clockwise and outward",
+        "E": "counterclockwise and outward"
+      },
+      "answer": "B",
+      "explanation": "Air flows inward toward low pressure and the Coriolis effect turns it to the right, giving a counterclockwise spiral.",
+      "explanation_visual": "content/earth/cards-high-low.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0011",
+      "subtopic": "earth.atmosphere.fronts",
+      "difficulty": 1,
+      "stem": "A continental polar (cP) air mass is",
+      "visual": null,
+      "choices": {
+        "A": "cold and dry",
+        "B": "hot and moist",
+        "C": "cool and moist",
+        "D": "hot and dry",
+        "E": "warm and moist"
+      },
+      "answer": "A",
+      "explanation": "'Continental' means it formed over land (dry). 'Polar' means it formed in cold high latitudes.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0012",
+      "subtopic": "earth.atmosphere.fronts",
+      "difficulty": 2,
+      "stem": "A swimmer notices a cold front has passed the pool: the wind shifted and it got cooler. What will the barometer most likely do next?",
+      "visual": null,
+      "choices": {
+        "A": "Fall slowly",
+        "B": "Swing back and forth",
+        "C": "Stay exactly the same",
+        "D": "Fall quickly",
+        "E": "Rise"
+      },
+      "answer": "E",
+      "explanation": "Behind a cold front the cold, dense air is heavier, so pressure rises and the skies clear.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0013",
+      "subtopic": "earth.atmosphere.fronts",
+      "difficulty": 2,
+      "stem": "A warm front has a slope of 1 : 200. The warm air is 2 km above the ground. How far ahead of the surface front is that point?",
+      "visual": "content/earth/cards-fronts.svg",
+      "choices": {
+        "A": "200 km",
+        "B": "40 km",
+        "C": "400 km",
+        "D": "100 km",
+        "E": "4 km"
+      },
+      "answer": "C",
+      "explanation": "A 1 : 200 slope means 200 units across for every 1 up. 2 km × 200 = 400 km. That is why warm fronts bring rain far ahead of them.",
+      "explanation_visual": "content/earth/cards-fronts.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0014",
+      "subtopic": "earth.atmosphere.fronts",
+      "difficulty": 2,
+      "stem": "Steam rises from a pot on the stove, so the pressure at the surface directly under the rising air tends to be lower. In the atmosphere, what do surface winds do near a region of rising air?",
+      "visual": null,
+      "choices": {
+        "A": "Stop completely",
+        "B": "Blow toward it",
+        "C": "Blow in a perfect circle without moving inward",
+        "D": "Blow straight up only",
+        "E": "Blow away from it"
+      },
+      "answer": "B",
+      "explanation": "Rising air leaves a lower surface pressure. Air flows from higher to lower pressure, so winds converge toward the low.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0015",
+      "subtopic": "earth.atmosphere.fronts",
+      "difficulty": 3,
+      "stem": "A cold front moves at 40 km/h and a warm front 300 km ahead of it moves at 25 km/h in the same direction. How long until the cold front catches up?",
+      "visual": null,
+      "choices": {
+        "A": "7.5 hours",
+        "B": "60 hours",
+        "C": "12 hours",
+        "D": "20 hours",
+        "E": "5 hours"
+      },
+      "answer": "D",
+      "explanation": "The cold front gains 40 - 25 = 15 km/h. Time = 300 ÷ 15 = 20 hours. Then they form an occluded front.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0016",
+      "subtopic": "earth.atmosphere.fronts",
+      "difficulty": 3,
+      "stem": "At a beach in Australia (Southern Hemisphere), what is the usual wind pattern around a low-pressure system?",
+      "visual": null,
+      "choices": {
+        "A": "Counterclockwise and inward",
+        "B": "No turning at all",
+        "C": "Counterclockwise and outward",
+        "D": "Clockwise and outward",
+        "E": "Clockwise and inward"
+      },
+      "answer": "E",
+      "explanation": "The Coriolis effect turns air to the left in the Southern Hemisphere, so the spiral around a low is reversed: clockwise and inward.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0017",
+      "subtopic": "earth.atmosphere.humidity",
+      "difficulty": 1,
+      "stem": "A kitchen's air holds 6 g of water vapor per cubic meter. At this temperature it could hold at most 12 g. What is the relative humidity?",
+      "visual": null,
+      "choices": {
+        "A": "200%",
+        "B": "12%",
+        "C": "6%",
+        "D": "50%",
+        "E": "72%"
+      },
+      "answer": "D",
+      "explanation": "RH = 6 ÷ 12 × 100% = 50%.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0018",
+      "subtopic": "earth.atmosphere.humidity",
+      "difficulty": 1,
+      "stem": "On a cool evening beside the pool, the air cools but gains no water vapor. Its relative humidity",
+      "visual": null,
+      "choices": {
+        "A": "decreases",
+        "B": "stays the same",
+        "C": "increases",
+        "D": "cannot be said",
+        "E": "drops to zero"
+      },
+      "answer": "C",
+      "explanation": "Cooler air can hold less vapor, so the same vapor is closer to the maximum. RH goes up.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0019",
+      "subtopic": "earth.atmosphere.humidity",
+      "difficulty": 1,
+      "stem": "A cook notices that the herbs on a window sill make the air damp. Which process is the release of water vapor from plant leaves?",
+      "visual": "content/earth/cards-water-cycle.svg",
+      "choices": {
+        "A": "Transpiration",
+        "B": "Runoff",
+        "C": "Condensation",
+        "D": "Infiltration",
+        "E": "Deposition"
+      },
+      "answer": "A",
+      "explanation": "Plants take water in through roots and release vapor through stomata in leaves. This is transpiration.",
+      "explanation_visual": "content/earth/cards-water-cycle.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0020",
+      "subtopic": "earth.atmosphere.humidity",
+      "difficulty": 2,
+      "stem": "A glass of cold lemonade 'sweats' on a hot day. Why?",
+      "visual": null,
+      "choices": {
+        "A": "The lemonade evaporates through the glass",
+        "B": "The glass is cooled below the dew point of the surrounding air",
+        "C": "Hot air has no water vapor",
+        "D": "Water leaks through the glass",
+        "E": "The glass absorbs heat and makes water"
+      },
+      "answer": "B",
+      "explanation": "Air touching the cold glass cools below its dew point, so vapor condenses into droplets on the outside.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0021",
+      "subtopic": "earth.atmosphere.humidity",
+      "difficulty": 2,
+      "stem": "Cloud base height can be estimated as 125 m for every °C between air temperature and dew point. The air is 28 °C and the dew point is 18 °C. Where is the cloud base?",
+      "visual": null,
+      "choices": {
+        "A": "4500 m",
+        "B": "2800 m",
+        "C": "1250 m",
+        "D": "125 m",
+        "E": "180 m"
+      },
+      "answer": "C",
+      "explanation": "Difference = 28 - 18 = 10 °C. 10 × 125 m = 1250 m.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0022",
+      "subtopic": "earth.atmosphere.humidity",
+      "difficulty": 2,
+      "stem": "The pool water level drops a little every day without any leak. Evaporation is fastest when the air is",
+      "visual": null,
+      "choices": {
+        "A": "cold, dry and still",
+        "B": "cool, humid and windy",
+        "C": "cold, humid and still",
+        "D": "warm, dry and windy",
+        "E": "warm, humid and still"
+      },
+      "answer": "D",
+      "explanation": "Heat gives molecules energy to escape. Dry air can take more vapor, and wind removes the vapor above the water.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0023",
+      "subtopic": "earth.atmosphere.humidity",
+      "difficulty": 3,
+      "stem": "Air at 30 °C has relative humidity 40%. The air can hold at most 30.4 g/m³ at 30 °C and 9.4 g/m³ at 10 °C. If it cools to 10 °C, how much vapor condenses per m³?",
+      "visual": null,
+      "choices": {
+        "A": "About 2.8 g",
+        "B": "About 9.4 g",
+        "C": "About 12.2 g",
+        "D": "About 0 g",
+        "E": "About 21 g"
+      },
+      "answer": "A",
+      "explanation": "Vapor = 0.40 × 30.4 = 12.2 g/m³. At 10 °C the air can hold only 9.4 g/m³, so 12.2 - 9.4 ≈ 2.8 g condenses.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0024",
+      "subtopic": "earth.atmosphere.humidity",
+      "difficulty": 3,
+      "stem": "A cook cuts open hailstones found after a storm: they have layers like an onion. This happens because they",
+      "visual": null,
+      "choices": {
+        "A": "melt and refreeze at sea level",
+        "B": "are made of compressed snow flakes only",
+        "C": "freeze all at once on the ground",
+        "D": "form when rain passes through warm air",
+        "E": "are carried up and down in the updraft of a thunderstorm, adding ice layers"
+      },
+      "answer": "E",
+      "explanation": "In a strong updraft a stone repeatedly passes through supercooled water, which freezes on it in layers until it is too heavy to be held up.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0025",
+      "subtopic": "earth.atmosphere.circulation",
+      "difficulty": 1,
+      "stem": "In the Hadley cell, where does the air rise?",
+      "visual": "content/earth/cards-circulation-cells.svg",
+      "choices": {
+        "A": "At 60° latitude",
+        "B": "At the equator",
+        "C": "Everywhere equally",
+        "D": "At 30° latitude",
+        "E": "At the poles"
+      },
+      "answer": "B",
+      "explanation": "Strong sunshine heats the equator, so air rises there. It moves poleward aloft and sinks near 30°.",
+      "explanation_visual": "content/earth/cards-circulation-cells.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0026",
+      "subtopic": "earth.atmosphere.circulation",
+      "difficulty": 1,
+      "stem": "On a Valorant map (suppose) a flag shows a westerly wind. It blows from the",
+      "visual": null,
+      "choices": {
+        "A": "north",
+        "B": "west",
+        "C": "south",
+        "D": "up",
+        "E": "east"
+      },
+      "answer": "B",
+      "explanation": "Winds are named after the direction they come from, so a westerly blows from the west toward the east.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0027",
+      "subtopic": "earth.atmosphere.circulation",
+      "difficulty": 1,
+      "stem": "At which latitude is the Coriolis effect zero?",
+      "visual": null,
+      "choices": {
+        "A": "At the poles",
+        "B": "At 45° N",
+        "C": "At 60° S",
+        "D": "At 30° N",
+        "E": "At the equator"
+      },
+      "answer": "E",
+      "explanation": "The Coriolis effect depends on the sine of latitude. It is zero at the equator and largest at the poles.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0028",
+      "subtopic": "earth.atmosphere.circulation",
+      "difficulty": 2,
+      "stem": "A Valorant map is set in a desert near 30° N. Which feature of the circulation helps explain deserts at that latitude?",
+      "visual": "content/earth/cards-circulation-cells.svg",
+      "choices": {
+        "A": "Dry air sinking in the Hadley cell",
+        "B": "Warm ocean currents only",
+        "C": "Strong westerly storms",
+        "D": "The ITCZ passing overhead all year",
+        "E": "Moist air rising in the polar cell"
+      },
+      "answer": "A",
+      "explanation": "At about 30° air sinks, warms and dries, which gives high pressure and clear skies. Many big deserts lie in this belt.",
+      "explanation_visual": "content/earth/cards-circulation-cells.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0029",
+      "subtopic": "earth.atmosphere.circulation",
+      "difficulty": 2,
+      "stem": "At a tropical beach in the Northern Hemisphere, the steady trade wind blows from the",
+      "visual": null,
+      "choices": {
+        "A": "south",
+        "B": "southeast",
+        "C": "northeast",
+        "D": "northwest",
+        "E": "southwest"
+      },
+      "answer": "C",
+      "explanation": "Air flows toward the equator (south). The Coriolis effect turns it right, so it comes from the northeast.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0030",
+      "subtopic": "earth.atmosphere.circulation",
+      "difficulty": 2,
+      "stem": "Soup in a pot rises in the middle, spreads at the top, cools, and sinks at the edges. In the atmosphere, which part is like the rising middle of the soup?",
+      "visual": "content/earth/cards-circulation-cells.svg",
+      "choices": {
+        "A": "The air sinking at the poles",
+        "B": "The air sinking at 30°",
+        "C": "The jet stream",
+        "D": "The air rising at the equator (ITCZ)",
+        "E": "The air at the Ferrel cell's top only"
+      },
+      "answer": "D",
+      "explanation": "Both are convection. Hot fluid rises where heated most. The equator is the hottest region, so air rises there.",
+      "explanation_visual": "content/earth/cards-circulation-cells.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0031",
+      "subtopic": "earth.atmosphere.circulation",
+      "difficulty": 3,
+      "stem": "Which statement about the Ferrel cell is correct?",
+      "visual": "content/earth/cards-circulation-cells.svg",
+      "choices": {
+        "A": "It is driven by direct heating at the equator",
+        "B": "It is driven by its neighbors and has rising air at about 60° and sinking air at about 30°",
+        "C": "It carries surface air from the poles to the equator",
+        "D": "It has rising air at 30° and sinking air at 60°",
+        "E": "It exists only in summer"
+      },
+      "answer": "B",
+      "explanation": "The Ferrel cell is an indirect cell that sits between the Hadley and polar cells. Its surface air flows poleward (the westerlies).",
+      "explanation_visual": "content/earth/cards-circulation-cells.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0032",
+      "subtopic": "earth.atmosphere.circulation",
+      "difficulty": 3,
+      "stem": "A ship sails from the Southern Hemisphere at 20° S toward the equator and the wind is a steady trade wind. Which direction does the wind come from?",
+      "visual": null,
+      "choices": {
+        "A": "Due east",
+        "B": "Northwest",
+        "C": "Southwest",
+        "D": "Northeast",
+        "E": "Southeast"
+      },
+      "answer": "E",
+      "explanation": "Air flows from 30° S toward the equator (north). In the Southern Hemisphere the Coriolis effect turns it left, so it comes from the southeast.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0033",
+      "subtopic": "earth.atmosphere.phenomena",
+      "difficulty": 1,
+      "stem": "A swim meet is called off when tall dark clouds build up. Which cloud type produces thunderstorms?",
+      "visual": "content/earth/cards-cloud-types.svg",
+      "choices": {
+        "A": "Nimbostratus",
+        "B": "Altocumulus",
+        "C": "Stratus",
+        "D": "Cumulonimbus",
+        "E": "Cirrus"
+      },
+      "answer": "D",
+      "explanation": "Cumulonimbus clouds are tall clouds with strong updrafts that produce lightning, thunder, hail and heavy showers.",
+      "explanation_visual": "content/earth/cards-cloud-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0034",
+      "subtopic": "earth.atmosphere.phenomena",
+      "difficulty": 1,
+      "stem": "The calm center of a hurricane is called the",
+      "visual": "content/earth/cards-hurricane.svg",
+      "choices": {
+        "A": "outflow",
+        "B": "eyewall",
+        "C": "eye",
+        "D": "front",
+        "E": "rainband"
+      },
+      "answer": "C",
+      "explanation": "In the eye, air sinks and skies are often clear. The strongest winds are in the eyewall around it.",
+      "explanation_visual": "content/earth/cards-hurricane.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0035",
+      "subtopic": "earth.atmosphere.phenomena",
+      "difficulty": 1,
+      "stem": "On a beach camping trip at night, the wind near the coast usually blows from the",
+      "visual": null,
+      "choices": {
+        "A": "land to the sea",
+        "B": "sky to the ground",
+        "C": "sea to the sea",
+        "D": "north only",
+        "E": "sea to the land"
+      },
+      "answer": "A",
+      "explanation": "Land cools faster at night, so the sea is warmer. Air rises over the warmer sea and cooler land air flows out: a land breeze.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0036",
+      "subtopic": "earth.atmosphere.phenomena",
+      "difficulty": 2,
+      "stem": "During El Niño, which change usually happens in the Pacific?",
+      "visual": "content/earth/cards-enso.svg",
+      "choices": {
+        "A": "Indonesia gets more rain than usual",
+        "B": "Trade winds weaken and warm water spreads east",
+        "C": "Upwelling off Peru increases",
+        "D": "Trade winds strengthen and the west becomes cooler",
+        "E": "The thermocline tilts more steeply"
+      },
+      "answer": "B",
+      "explanation": "Weaker trade winds let the warm pool move east, so upwelling off Peru shuts down and rain shifts east. Indonesia becomes dry.",
+      "explanation_visual": "content/earth/cards-enso.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0037",
+      "subtopic": "earth.atmosphere.phenomena",
+      "difficulty": 2,
+      "stem": "Afternoon thunderstorms are common on tropical coasts. A good reason is that",
+      "visual": null,
+      "choices": {
+        "A": "the Moon pulls the clouds up",
+        "B": "the sea breeze ends at noon",
+        "C": "ozone breaks up in the afternoon",
+        "D": "the warm, humid ground heats air strongly so it rises quickly",
+        "E": "the air is coldest in the afternoon"
+      },
+      "answer": "D",
+      "explanation": "Strong daytime heating makes moist air rise rapidly (convection), building tall cumulonimbus clouds.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0038",
+      "subtopic": "earth.atmosphere.phenomena",
+      "difficulty": 2,
+      "stem": "A hurricane forms only over ocean water warmer than about",
+      "visual": "content/earth/cards-hurricane.svg",
+      "choices": {
+        "A": "40 °C",
+        "B": "20 °C",
+        "C": "26.5 °C",
+        "D": "15 °C",
+        "E": "10 °C"
+      },
+      "answer": "C",
+      "explanation": "Warm water supplies the heat and moisture that power a hurricane. Over cooler water or land it weakens.",
+      "explanation_visual": "content/earth/cards-hurricane.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0039",
+      "subtopic": "earth.atmosphere.phenomena",
+      "difficulty": 3,
+      "stem": "Hurricanes almost never form within about 5° of the equator because",
+      "visual": null,
+      "choices": {
+        "A": "the Coriolis effect there is too weak to start the spin",
+        "B": "the trade winds are too strong",
+        "C": "there are no thunderstorms",
+        "D": "the water is too cold",
+        "E": "the air is too dry"
+      },
+      "answer": "A",
+      "explanation": "A storm needs the Coriolis effect to start rotating. It is nearly zero at the equator.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0040",
+      "subtopic": "earth.atmosphere.phenomena",
+      "difficulty": 3,
+      "stem": "Why does a hurricane weaken quickly after it moves over land?",
+      "visual": null,
+      "choices": {
+        "A": "It runs out of oxygen",
+        "B": "Land is always colder than 0 °C",
+        "C": "The Coriolis effect stops",
+        "D": "The eye closes because of gravity",
+        "E": "It loses its supply of warm water and friction slows its winds"
+      },
+      "answer": "E",
+      "explanation": "A hurricane is powered by heat and moisture from warm ocean water. Over land that supply ends and friction is greater.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0041",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "difficulty": 1,
+      "stem": "River discharge is found by multiplying cross-section area by",
+      "visual": null,
+      "choices": {
+        "A": "water velocity",
+        "B": "rainfall",
+        "C": "sediment size",
+        "D": "water temperature",
+        "E": "channel length"
+      },
+      "answer": "A",
+      "explanation": "Q = A × v. Discharge is the volume of water passing a point each second, in m³/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0042",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "difficulty": 1,
+      "stem": "A fan-shaped deposit of sediment where a river meets the sea is a",
+      "visual": null,
+      "choices": {
+        "A": "moraine",
+        "B": "cut bank",
+        "C": "oxbow lake",
+        "D": "levee",
+        "E": "delta"
+      },
+      "answer": "E",
+      "explanation": "The river slows in the sea and drops its sediment, building a delta.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0043",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "difficulty": 1,
+      "stem": "On a river bend, erosion is strongest on the",
+      "visual": "content/earth/cards-river-meander.svg",
+      "choices": {
+        "A": "floodplain",
+        "B": "outside of the bend",
+        "C": "both banks equally",
+        "D": "inside of the bend",
+        "E": "river bed only"
+      },
+      "answer": "B",
+      "explanation": "Water flows fastest on the outside of a bend, so it cuts the bank there (a cut bank). Deposition happens on the inside (point bar).",
+      "explanation_visual": "content/earth/cards-river-meander.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0044",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "difficulty": 2,
+      "stem": "A river is 12 m wide, has an average depth of 1.5 m and flows at 0.8 m/s. What is its discharge?",
+      "visual": null,
+      "choices": {
+        "A": "21.6 m³/s",
+        "B": "9.6 m³/s",
+        "C": "14.4 m³/s",
+        "D": "144 m³/s",
+        "E": "18.0 m³/s"
+      },
+      "answer": "C",
+      "explanation": "A = 12 × 1.5 = 18 m². Q = 18 × 0.8 = 14.4 m³/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0045",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "difficulty": 2,
+      "stem": "A tap delivers 0.15 L of water every second. A cook fills a 6 L pot. How long does it take?",
+      "visual": null,
+      "choices": {
+        "A": "25 s",
+        "B": "90 s",
+        "C": "0.9 s",
+        "D": "40 s",
+        "E": "4 s"
+      },
+      "answer": "D",
+      "explanation": "Discharge is volume per time. Time = 6 L ÷ 0.15 L/s = 40 s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0046",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "difficulty": 2,
+      "stem": "A 25 m × 10 m pool is 2 m deep (500 m³). A stream with a discharge of 0.5 m³/s is used to fill it. About how long does it take?",
+      "visual": null,
+      "choices": {
+        "A": "About 4 minutes",
+        "B": "About 1 hour",
+        "C": "About 17 minutes",
+        "D": "About 2 minutes",
+        "E": "About 250 seconds"
+      },
+      "answer": "C",
+      "explanation": "Time = 500 ÷ 0.5 = 1000 s ≈ 16.7 minutes.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0047",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "difficulty": 3,
+      "stem": "A river has a discharge of 60 m³/s, is 20 m wide and flows at 1.5 m/s. What is its average depth?",
+      "visual": null,
+      "choices": {
+        "A": "0.5 m",
+        "B": "1.5 m",
+        "C": "4 m",
+        "D": "3 m",
+        "E": "2 m"
+      },
+      "answer": "E",
+      "explanation": "A = Q ÷ v = 60 ÷ 1.5 = 40 m². Depth = A ÷ width = 40 ÷ 20 = 2 m.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0048",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "difficulty": 3,
+      "stem": "After a storm the same river rises from 2 m to 3 m deep (still 20 m wide) and its velocity increases from 1.5 m/s to 2.0 m/s. By what factor does the discharge change?",
+      "visual": null,
+      "choices": {
+        "A": "Doubles",
+        "B": "Increases by 1.33 times",
+        "C": "Stays the same",
+        "D": "Increases by 1.5 times",
+        "E": "Triples"
+      },
+      "answer": "A",
+      "explanation": "Before: 20 × 2 × 1.5 = 60 m³/s. After: 20 × 3 × 2.0 = 120 m³/s. That is twice as much.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0049",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 1,
+      "stem": "A swimmer tastes salt in the sea. The average salinity of the oceans is about",
+      "visual": null,
+      "choices": {
+        "A": "3.5 g per kg",
+        "B": "35 g of salt per kg of seawater",
+        "C": "35 mg per kg",
+        "D": "0.35 g per kg",
+        "E": "350 g per kg"
+      },
+      "answer": "B",
+      "explanation": "Seawater is about 3.5% salt by mass, which is 35 parts per thousand (35 g per kg).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0050",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 1,
+      "stem": "A lifeguard warns of very high high tides and very low low tides. These spring tides occur at",
+      "visual": "content/earth/cards-tides.svg",
+      "choices": {
+        "A": "the equinoxes only",
+        "B": "first and third quarter moon",
+        "C": "only at full moon",
+        "D": "new moon and full moon",
+        "E": "only at new moon"
+      },
+      "answer": "D",
+      "explanation": "At new and full moon the Sun, Moon and Earth line up and their tidal pulls add together.",
+      "explanation_visual": "content/earth/cards-tides.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0051",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 1,
+      "stem": "Lifeguards on a beach learn that most tsunamis are caused by",
+      "visual": null,
+      "choices": {
+        "A": "the Moon's pull",
+        "B": "strong winds over the ocean",
+        "C": "undersea earthquakes",
+        "D": "ocean currents",
+        "E": "ship traffic"
+      },
+      "answer": "C",
+      "explanation": "A sudden vertical movement of the sea floor pushes up a huge volume of water and starts the waves.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0052",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 2,
+      "stem": "Waves in a pool pass a lane marker 2 times every second (f = 2 Hz). The crests are 0.5 m apart. How fast do the waves travel?",
+      "visual": "content/earth/cards-wave-anatomy.svg",
+      "choices": {
+        "A": "1 m/s",
+        "B": "0.5 m/s",
+        "C": "4 m/s",
+        "D": "0.25 m/s",
+        "E": "2.5 m/s"
+      },
+      "answer": "A",
+      "explanation": "v = f × λ = 2 × 0.5 = 1 m/s.",
+      "explanation_visual": "content/earth/cards-wave-anatomy.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0053",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 2,
+      "stem": "A tsunami crosses an ocean 4000 m deep. Use v = √(g × d) with g = 9.8 m/s². About how fast is it?",
+      "visual": null,
+      "choices": {
+        "A": "20 m/s",
+        "B": "63 m/s",
+        "C": "2000 m/s",
+        "D": "40 m/s",
+        "E": "200 m/s"
+      },
+      "answer": "E",
+      "explanation": "v = √(9.8 × 4000) = √39 200 ≈ 198 m/s, about 710 km/h.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0054",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 2,
+      "stem": "A cook boils away 3.0 kg of seawater (salinity 35 g per kg) to make sea salt. How much salt remains?",
+      "visual": null,
+      "choices": {
+        "A": "10.5 g",
+        "B": "35 g",
+        "C": "11.7 g",
+        "D": "105 g",
+        "E": "1.05 kg"
+      },
+      "answer": "D",
+      "explanation": "Salt = 3.0 kg × 35 g/kg = 105 g.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0055",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 2,
+      "stem": "The Gulf Stream is a",
+      "visual": null,
+      "choices": {
+        "A": "cold current moving south along the west coast of North America",
+        "B": "warm current moving north along the east coast of North America",
+        "C": "deep-water current in the Pacific",
+        "D": "warm current in the Indian Ocean only",
+        "E": "tidal flow in the Mediterranean"
+      },
+      "answer": "B",
+      "explanation": "It carries warm tropical water north and then east across the Atlantic. It is part of the North Atlantic gyre.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0056",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 3,
+      "stem": "A tsunami has a wavelength of 200 km and travels at 200 m/s in the deep ocean. What is its period?",
+      "visual": null,
+      "choices": {
+        "A": "40 s",
+        "B": "1000 s (about 17 minutes)",
+        "C": "4 hours",
+        "D": "100 s",
+        "E": "1 s"
+      },
+      "answer": "B",
+      "explanation": "T = λ ÷ v = 200 000 m ÷ 200 m/s = 1000 s ≈ 16.7 minutes.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0057",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 3,
+      "stem": "Why does surface water sink in the North Atlantic and start the deep conveyor belt?",
+      "visual": "content/earth/cards-ocean-conveyor.svg",
+      "choices": {
+        "A": "It is full of sediment",
+        "B": "The wind pushes it down",
+        "C": "It is cold and salty, so it is dense",
+        "D": "It is warm and fresh, so it is dense",
+        "E": "The Moon pulls it down"
+      },
+      "answer": "C",
+      "explanation": "Cooling and sea-ice formation make surface water colder and saltier, so denser. Dense water sinks.",
+      "explanation_visual": "content/earth/cards-ocean-conveyor.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0058",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "difficulty": 1,
+      "stem": "An icy Valorant map (suppose) has a wide valley with a flat floor and steep sides (a U shape). Real valleys like this are mostly made by",
+      "visual": "content/earth/cards-glacier.svg",
+      "choices": {
+        "A": "wind",
+        "B": "earthquakes",
+        "C": "rivers",
+        "D": "glaciers",
+        "E": "waves"
+      },
+      "answer": "D",
+      "explanation": "A glacier fills the whole valley and scours the bottom and sides, making a U shape. Rivers cut V-shaped valleys.",
+      "explanation_visual": "content/earth/cards-glacier.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0059",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "difficulty": 1,
+      "stem": "A glacier grows when",
+      "visual": "content/earth/cards-glacier.svg",
+      "choices": {
+        "A": "the sea level rises",
+        "B": "the air is always above 0 °C",
+        "C": "it rains every day",
+        "D": "melting is more than snow accumulation",
+        "E": "snow accumulation is more than melting"
+      },
+      "answer": "E",
+      "explanation": "Mass balance = accumulation - ablation. A positive balance makes the glacier thicker and it advances.",
+      "explanation_visual": "content/earth/cards-glacier.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0060",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "difficulty": 1,
+      "stem": "A ridge of rock debris dropped at the front of a glacier is a",
+      "visual": "content/earth/cards-glacier.svg",
+      "choices": {
+        "A": "terminal moraine",
+        "B": "esker",
+        "C": "medial moraine",
+        "D": "arête",
+        "E": "cirque"
+      },
+      "answer": "A",
+      "explanation": "At the snout, the ice melts and drops the rock it carried, forming a terminal moraine.",
+      "explanation_visual": "content/earth/cards-glacier.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0061",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "difficulty": 2,
+      "stem": "A glacier gains 2.5 m of ice (water equivalent) per year and loses 3.1 m per year. What is the mass balance?",
+      "visual": null,
+      "choices": {
+        "A": "0 m per year, so it is stable",
+        "B": "+0.6 m per year, so it advances",
+        "C": "-0.6 m per year, so the glacier retreats",
+        "D": "-5.6 m per year",
+        "E": "+5.6 m per year"
+      },
+      "answer": "C",
+      "explanation": "Balance = 2.5 - 3.1 = -0.6 m per year. A negative balance means the glacier shrinks and retreats.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0062",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "difficulty": 2,
+      "stem": "An ice cube floats in a glass of water with about 90% under the surface. Glacier ice (917 kg/m³) in sea water (1025 kg/m³) has what fraction of an iceberg underwater?",
+      "visual": null,
+      "choices": {
+        "A": "About 50%",
+        "B": "About 89%",
+        "C": "About 75%",
+        "D": "About 100%",
+        "E": "About 11%"
+      },
+      "answer": "B",
+      "explanation": "Fraction submerged = density of ice ÷ density of seawater = 917 ÷ 1025 ≈ 0.89.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0063",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "difficulty": 2,
+      "stem": "On a Valorant map with a frozen region, suppose a glacier gains 4 m of snow-equivalent and loses 3 m each year. What will probably happen?",
+      "visual": null,
+      "choices": {
+        "A": "It will stay the same",
+        "B": "It will melt away at once",
+        "C": "It will shrink",
+        "D": "It will thicken and advance",
+        "E": "It will move uphill"
+      },
+      "answer": "D",
+      "explanation": "The balance is +1 m per year, so the glacier slowly thickens and its front advances.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0064",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "difficulty": 3,
+      "stem": "A cook drops ice cubes into a glass. Which melting will raise global sea level the most?",
+      "visual": null,
+      "choices": {
+        "A": "Ice sheets on land such as Greenland",
+        "B": "Ice on the Moon",
+        "C": "Icebergs already floating in the sea",
+        "D": "Floating ice cubes in a glass",
+        "E": "Floating sea ice in the Arctic"
+      },
+      "answer": "A",
+      "explanation": "Floating ice already displaces its own mass of water. Land ice adds new water to the ocean.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0065",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "difficulty": 3,
+      "stem": "Ice at the equilibrium line moves 80 m per year toward the terminus 4 km away. About how long does it take to arrive?",
+      "visual": "content/earth/cards-glacier.svg",
+      "choices": {
+        "A": "0.02 years",
+        "B": "320 years",
+        "C": "5 years",
+        "D": "500 years",
+        "E": "50 years"
+      },
+      "answer": "E",
+      "explanation": "Time = distance ÷ speed = 4000 m ÷ 80 m/yr = 50 years.",
+      "explanation_visual": "content/earth/cards-glacier.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0066",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "difficulty": 1,
+      "stem": "A swimmer digs a hole on the beach and finds water at some depth. The top of the zone where all pores are filled with water is the",
+      "visual": "content/earth/cards-aquifer.svg",
+      "choices": {
+        "A": "aquitard",
+        "B": "spring",
+        "C": "bedrock",
+        "D": "capillary tube",
+        "E": "water table"
+      },
+      "answer": "E",
+      "explanation": "Below the water table the rock is saturated (all pores full). Above it the pores contain air and some water.",
+      "explanation_visual": "content/earth/cards-aquifer.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0067",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "difficulty": 1,
+      "stem": "A kitchen sponge of 100 cm³ has 30 cm³ of empty pore space. Treat it like a rock sample: its porosity is",
+      "visual": null,
+      "choices": {
+        "A": "30%",
+        "B": "70%",
+        "C": "3%",
+        "D": "0.3%",
+        "E": "130%"
+      },
+      "answer": "A",
+      "explanation": "Porosity = 30 ÷ 100 = 0.30 = 30%.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0068",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "difficulty": 1,
+      "stem": "Which material is most likely to be an aquitard?",
+      "visual": "content/earth/cards-aquifer.svg",
+      "choices": {
+        "A": "Fractured limestone",
+        "B": "Gravelly sandstone",
+        "C": "Gravel",
+        "D": "Clay",
+        "E": "Coarse sand"
+      },
+      "answer": "D",
+      "explanation": "Clay has tiny pores, so water moves through it extremely slowly.",
+      "explanation_visual": "content/earth/cards-aquifer.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0069",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "difficulty": 2,
+      "stem": "A saturated sand layer is 2 m thick over an area of 100 m² and has a porosity of 25%. How much water does it hold?",
+      "visual": null,
+      "choices": {
+        "A": "25 m³",
+        "B": "500 m³",
+        "C": "50 m³",
+        "D": "200 m³",
+        "E": "8 m³"
+      },
+      "answer": "C",
+      "explanation": "Volume of sand = 2 × 100 = 200 m³. Water = 0.25 × 200 = 50 m³.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0070",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "difficulty": 2,
+      "stem": "A cook pours the same amount of water on a bowl of dry rice and on a bowl of flour. The water passes quickly through the rice but not the flour. In geology, the rice is like a layer with higher",
+      "visual": null,
+      "choices": {
+        "A": "temperature",
+        "B": "permeability",
+        "C": "albedo",
+        "D": "salinity",
+        "E": "density only"
+      },
+      "answer": "B",
+      "explanation": "Rice has larger connected gaps, like gravel. Flour has tiny pores that block flow, like clay.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0071",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "difficulty": 2,
+      "stem": "In an artesian well, water rises above the top of the aquifer because",
+      "visual": null,
+      "choices": {
+        "A": "capillary action pulls it up 50 m",
+        "B": "the aquifer is empty",
+        "C": "water is lighter than rock",
+        "D": "the aquifer is confined and the water is under pressure",
+        "E": "there is a pump below"
+      },
+      "answer": "D",
+      "explanation": "A confined aquifer sealed by aquitards receives water from a higher recharge area. That pressure pushes water up the well.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0072",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "difficulty": 3,
+      "stem": "Sample A (clay) has porosity 40%. Sample B (sand) has porosity 25%. Which supplies more water to a well, and why?",
+      "visual": null,
+      "choices": {
+        "A": "Neither, since porosity decides everything",
+        "B": "B, because water can flow through it much more easily",
+        "C": "A, because clay is denser",
+        "D": "They supply the same amount",
+        "E": "A, because its porosity is higher"
+      },
+      "answer": "B",
+      "explanation": "A well needs water to flow to it, which depends on permeability. Sand has high permeability. Clay holds water but gives it up very slowly.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0073",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "difficulty": 3,
+      "stem": "A hilltop and a valley are both over an unconfined aquifer. The water table roughly follows the land surface. Which statement is correct?",
+      "visual": "content/earth/cards-aquifer.svg",
+      "choices": {
+        "A": "A well on the hilltop must be deeper to reach water",
+        "B": "A well on the hilltop is shallower",
+        "C": "Both wells have the same depth",
+        "D": "The water table is flat everywhere",
+        "E": "Wells in the valley are always dry"
+      },
+      "answer": "A",
+      "explanation": "The water table is a subdued copy of the land surface: higher under hills, near the surface in valleys.",
+      "explanation_visual": "content/earth/cards-aquifer.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0074",
+      "subtopic": "earth.geosphere.geochemistry",
+      "difficulty": 1,
+      "stem": "Which mineral is the hardest on the Mohs scale (10)?",
+      "visual": "content/earth/cards-mohs-scale.svg",
+      "choices": {
+        "A": "Quartz",
+        "B": "Topaz",
+        "C": "Diamond",
+        "D": "Corundum",
+        "E": "Calcite"
+      },
+      "answer": "C",
+      "explanation": "Diamond is 10 on the Mohs scale. Corundum is 9, topaz 8, quartz 7.",
+      "explanation_visual": "content/earth/cards-mohs-scale.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0075",
+      "subtopic": "earth.geosphere.geochemistry",
+      "difficulty": 1,
+      "stem": "In the kitchen, table salt is the mineral halite. Which of these is NOT a mineral?",
+      "visual": null,
+      "choices": {
+        "A": "Quartz",
+        "B": "Halite (table salt)",
+        "C": "Ice",
+        "D": "Calcite",
+        "E": "Coal"
+      },
+      "answer": "E",
+      "explanation": "Coal is made of plant remains (organic), so it is a rock, not a mineral.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0076",
+      "subtopic": "earth.geosphere.geochemistry",
+      "difficulty": 1,
+      "stem": "In Bowen's reaction series, which mineral crystallizes first from a cooling magma?",
+      "visual": "content/earth/cards-bowen-series.svg",
+      "choices": {
+        "A": "Quartz",
+        "B": "Biotite",
+        "C": "Muscovite",
+        "D": "K-feldspar",
+        "E": "Olivine (and Ca-rich plagioclase)"
+      },
+      "answer": "E",
+      "explanation": "High-temperature minerals such as olivine and Ca-rich plagioclase form first. Quartz forms last.",
+      "explanation_visual": "content/earth/cards-bowen-series.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0077",
+      "subtopic": "earth.geosphere.geochemistry",
+      "difficulty": 2,
+      "stem": "Salt crystals from a salt shaker look like tiny cubes because halite has",
+      "visual": null,
+      "choices": {
+        "A": "a white streak",
+        "B": "cubic cleavage",
+        "C": "conchoidal fracture",
+        "D": "high hardness",
+        "E": "a metallic luster"
+      },
+      "answer": "B",
+      "explanation": "Halite breaks along planes at right angles, so fragments keep a cube shape.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0078",
+      "subtopic": "earth.geosphere.geochemistry",
+      "difficulty": 2,
+      "stem": "White crust in a pool or kettle (limescale) is mostly calcite. A drop of vinegar on it would",
+      "visual": null,
+      "choices": {
+        "A": "do nothing",
+        "B": "make it harder",
+        "C": "fizz as CO₂ bubbles form",
+        "D": "turn black",
+        "E": "make it magnetic"
+      },
+      "answer": "C",
+      "explanation": "Calcite (CaCO₃) reacts with acids, releasing carbon dioxide gas.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0079",
+      "subtopic": "earth.geosphere.geochemistry",
+      "difficulty": 2,
+      "stem": "A cook finds a mineral that scratches a glass plate (5.5) but is scratched by quartz (7). Its hardness is",
+      "visual": "content/earth/cards-mohs-scale.svg",
+      "choices": {
+        "A": "exactly 7",
+        "B": "below 5.5",
+        "C": "exactly 5.5",
+        "D": "between 5.5 and 7",
+        "E": "above 7"
+      },
+      "answer": "D",
+      "explanation": "It is harder than glass but softer than quartz.",
+      "explanation_visual": "content/earth/cards-mohs-scale.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0080",
+      "subtopic": "earth.geosphere.geochemistry",
+      "difficulty": 3,
+      "stem": "Which pair of minerals would you most likely find together in the same igneous rock?",
+      "visual": "content/earth/cards-bowen-series.svg",
+      "choices": {
+        "A": "Quartz and muscovite",
+        "B": "Olivine and quartz",
+        "C": "Ca-rich plagioclase and muscovite",
+        "D": "Olivine and muscovite",
+        "E": "Olivine and K-feldspar"
+      },
+      "answer": "A",
+      "explanation": "Minerals far apart in Bowen's series do not usually coexist. Olivine reacts with the melt before quartz forms. Quartz and muscovite crystallize late together.",
+      "explanation_visual": "content/earth/cards-bowen-series.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0081",
+      "subtopic": "earth.geosphere.geochemistry",
+      "difficulty": 3,
+      "stem": "A pressure cooker raises the pressure of the steam inside. On a water phase diagram, what does this do to the boiling point?",
+      "visual": null,
+      "choices": {
+        "A": "It removes the triple point",
+        "B": "It lowers it",
+        "C": "It raises it, so food cooks at over 100 °C",
+        "D": "It turns water into ice",
+        "E": "It does not change it"
+      },
+      "answer": "C",
+      "explanation": "The liquid-gas line slopes upward: higher pressure needs a higher temperature to boil.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0082",
+      "subtopic": "earth.geosphere.rocks",
+      "difficulty": 1,
+      "stem": "A granite kitchen counter is an example of an",
+      "visual": null,
+      "choices": {
+        "A": "metamorphic rock",
+        "B": "intrusive igneous rock",
+        "C": "extrusive igneous rock",
+        "D": "mineral",
+        "E": "sedimentary rock"
+      },
+      "answer": "B",
+      "explanation": "Granite forms when magma cools slowly deep underground, giving large visible crystals.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0083",
+      "subtopic": "earth.geosphere.rocks",
+      "difficulty": 1,
+      "stem": "On a volcano map (suppose), lava that cools quickly at the surface forms rock with",
+      "visual": null,
+      "choices": {
+        "A": "layers of ripples",
+        "B": "fossils",
+        "C": "foliation",
+        "D": "tiny crystals or glass",
+        "E": "very large crystals"
+      },
+      "answer": "D",
+      "explanation": "Fast cooling gives atoms little time to build large crystals, as in basalt and obsidian.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0084",
+      "subtopic": "earth.geosphere.rocks",
+      "difficulty": 1,
+      "stem": "A baker rolls dough on a marble slab. Marble forms when which rock is changed by heat and pressure?",
+      "visual": "content/earth/cards-rock-cycle.svg",
+      "choices": {
+        "A": "Limestone",
+        "B": "Shale",
+        "C": "Basalt",
+        "D": "Sandstone",
+        "E": "Granite"
+      },
+      "answer": "A",
+      "explanation": "Limestone (calcite) recrystallizes into marble under heat and pressure.",
+      "explanation_visual": "content/earth/cards-rock-cycle.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0085",
+      "subtopic": "earth.geosphere.rocks",
+      "difficulty": 2,
+      "stem": "A cook cools sugar syrup slowly and gets big crystals (rock candy). Quickly cooled syrup makes tiny crystals or glass. Which pair of rocks behaves like this?",
+      "visual": null,
+      "choices": {
+        "A": "Shale and gneiss",
+        "B": "Marble (slow) and slate (fast)",
+        "C": "Granite (fast) and basalt (slow)",
+        "D": "Sandstone and limestone",
+        "E": "Granite (slow) and basalt (fast)"
+      },
+      "answer": "E",
+      "explanation": "Slow cooling underground gives granite's big crystals. Fast cooling at the surface gives basalt's tiny crystals.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0086",
+      "subtopic": "earth.geosphere.rocks",
+      "difficulty": 2,
+      "stem": "A sheet of igneous rock lies parallel to the sedimentary layers around it. It is called a",
+      "visual": "content/earth/cards-igneous-bodies.svg",
+      "choices": {
+        "A": "xenolith",
+        "B": "batholith",
+        "C": "dike",
+        "D": "sill",
+        "E": "volcanic neck"
+      },
+      "answer": "D",
+      "explanation": "A sill goes along the layers, a dike cuts across them.",
+      "explanation_visual": "content/earth/cards-igneous-bodies.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0087",
+      "subtopic": "earth.geosphere.rocks",
+      "difficulty": 2,
+      "stem": "On a volcano map, suppose one island has gentle, flowing lava while another erupts explosively. The island with gentle lava most likely has magma that is",
+      "visual": null,
+      "choices": {
+        "A": "full of ice",
+        "B": "high in silica (felsic)",
+        "C": "low in silica (mafic)",
+        "D": "cooler than 500 °C",
+        "E": "completely solid"
+      },
+      "answer": "C",
+      "explanation": "Low-silica magma is runny, so gas escapes easily and eruptions are gentle (like Hawaii).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0088",
+      "subtopic": "earth.geosphere.rocks",
+      "difficulty": 3,
+      "stem": "Sandstone shows mud cracks and ripple marks at the same level. What best describes the environment?",
+      "visual": null,
+      "choices": {
+        "A": "A glacier",
+        "B": "Underground at 10 km depth",
+        "C": "The inside of a volcano",
+        "D": "A deep ocean basin",
+        "E": "A shallow area that was sometimes covered by water and sometimes dried out"
+      },
+      "answer": "E",
+      "explanation": "Ripple marks need shallow moving water, and mud cracks form when mud dries. Together they suggest a tidal flat or shoreline.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0089",
+      "subtopic": "earth.geosphere.rocks",
+      "difficulty": 3,
+      "stem": "Why are explosive eruptions more common with felsic magma?",
+      "visual": null,
+      "choices": {
+        "A": "It contains less gas",
+        "B": "It is viscous, so gas gets trapped and builds up pressure",
+        "C": "It has no water",
+        "D": "It flows easily",
+        "E": "It is hotter than basalt"
+      },
+      "answer": "B",
+      "explanation": "Thick magma does not let gas bubbles escape. When the pressure is released, the gas expands violently.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0090",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 1,
+      "stem": "Which layer of the Earth is liquid?",
+      "visual": "content/earth/cards-earth-interior.svg",
+      "choices": {
+        "A": "Outer core",
+        "B": "Lithosphere",
+        "C": "Crust",
+        "D": "Mantle",
+        "E": "Inner core"
+      },
+      "answer": "A",
+      "explanation": "The outer core is liquid iron and nickel. It is below the solid mantle and surrounds the solid inner core.",
+      "explanation_visual": "content/earth/cards-earth-interior.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0091",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 1,
+      "stem": "Which seismic wave arrives first at a station?",
+      "visual": "content/earth/cards-seismic-shadow-zones.svg",
+      "choices": {
+        "A": "P wave",
+        "B": "S wave",
+        "C": "Tsunami wave",
+        "D": "Surface wave",
+        "E": "They arrive together"
+      },
+      "answer": "A",
+      "explanation": "P waves are the fastest seismic waves, so they arrive first (P for 'primary').",
+      "explanation_visual": "content/earth/cards-seismic-shadow-zones.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0092",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 1,
+      "stem": "A normal fault is mostly caused by",
+      "visual": "content/earth/cards-fault-types.svg",
+      "choices": {
+        "A": "sliding sideways only",
+        "B": "tension (stretching)",
+        "C": "tides",
+        "D": "compression (squeezing)",
+        "E": "volcanic gas"
+      },
+      "answer": "B",
+      "explanation": "In a normal fault the hanging wall moves down because the crust is being pulled apart.",
+      "explanation_visual": "content/earth/cards-fault-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0093",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 2,
+      "stem": "A seismometer shows S waves arriving 20 s after P waves. P waves travel at 6.0 km/s and S waves at 3.5 km/s. How far away is the earthquake?",
+      "visual": null,
+      "choices": {
+        "A": "84 km",
+        "B": "70 km",
+        "C": "350 km",
+        "D": "168 km",
+        "E": "120 km"
+      },
+      "answer": "D",
+      "explanation": "Let distance = d. d/3.5 - d/6.0 = 20, so d × (0.2857 - 0.1667) = 20 and d = 168 km.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0094",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 2,
+      "stem": "You can pass a shout through water like a P wave, but you cannot shake the water sideways and pass that motion along like an S wave. This explains why S waves",
+      "visual": null,
+      "choices": {
+        "A": "pass through the whole Earth",
+        "B": "are faster than P waves",
+        "C": "need air to move",
+        "D": "only travel on the surface",
+        "E": "cannot pass through the liquid outer core"
+      },
+      "answer": "E",
+      "explanation": "Liquids cannot support shear. So S waves stop at the outer core, which makes the S-wave shadow zone.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0095",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 2,
+      "stem": "Where is the oldest rock on the sea floor found?",
+      "visual": "content/earth/cards-plate-boundaries.svg",
+      "choices": {
+        "A": "At the equator",
+        "B": "At the mid-ocean ridge",
+        "C": "Far from the mid-ocean ridge",
+        "D": "In the middle of the Pacific only",
+        "E": "In the same place everywhere"
+      },
+      "answer": "C",
+      "explanation": "New crust forms at the ridge and spreads away. So age increases with distance from the ridge.",
+      "explanation_visual": "content/earth/cards-plate-boundaries.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0096",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 2,
+      "stem": "In which soil horizon do clay and dissolved minerals from above often accumulate?",
+      "visual": "content/earth/cards-soil-horizons.svg",
+      "choices": {
+        "A": "B horizon (subsoil)",
+        "B": "The surface only",
+        "C": "A horizon",
+        "D": "O horizon",
+        "E": "R horizon"
+      },
+      "answer": "A",
+      "explanation": "Water carries clay and minerals down from the A horizon and drops them in the B horizon.",
+      "explanation_visual": "content/earth/cards-soil-horizons.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0097",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 3,
+      "stem": "A seismic station is 120° from an earthquake. What direct waves does it receive?",
+      "visual": "content/earth/cards-seismic-shadow-zones.svg",
+      "choices": {
+        "A": "Only surface waves",
+        "B": "Neither P nor S waves (it is in the P shadow zone)",
+        "C": "Only P waves",
+        "D": "Only S waves",
+        "E": "Both P and S waves"
+      },
+      "answer": "B",
+      "explanation": "The P shadow zone is 104°-140° and S waves cannot be detected beyond 104°. So neither direct P nor S arrives.",
+      "explanation_visual": "content/earth/cards-seismic-shadow-zones.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0098",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 3,
+      "stem": "The Himalayas were pushed up where two continents collided, but there is no deep subduction trench. The best reason is that continental crust",
+      "visual": "content/earth/cards-plate-boundaries.svg",
+      "choices": {
+        "A": "is heavier than oceanic crust",
+        "B": "moves very fast",
+        "C": "melts at the surface",
+        "D": "has no minerals",
+        "E": "is too light (buoyant) to sink into the mantle"
+      },
+      "answer": "E",
+      "explanation": "Continental crust is less dense than the mantle, so it resists subduction and crumples into mountains.",
+      "explanation_visual": "content/earth/cards-plate-boundaries.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0099",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 3,
+      "stem": "In a reverse fault, which statement is correct?",
+      "visual": "content/earth/cards-fault-types.svg",
+      "choices": {
+        "A": "The hanging wall moves down because of tension",
+        "B": "The footwall moves up because of tension",
+        "C": "The blocks slide sideways only",
+        "D": "The hanging wall moves up relative to the footwall because of compression",
+        "E": "No block moves"
+      },
+      "answer": "D",
+      "explanation": "Compression squeezes the crust, pushing the hanging wall up over the footwall.",
+      "explanation_visual": "content/earth/cards-fault-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0100",
+      "subtopic": "earth.geosphere.dating",
+      "difficulty": 1,
+      "stem": "A baked lasagne has layers like sedimentary rock. In rock layers that have not been disturbed, the oldest layer is",
+      "visual": "content/earth/cards-strata-dating.svg",
+      "choices": {
+        "A": "the one with fossils",
+        "B": "at the top",
+        "C": "at the bottom",
+        "D": "in the middle",
+        "E": "the thickest one"
+      },
+      "answer": "C",
+      "explanation": "By the principle of superposition, each layer is laid down on top of older ones.",
+      "explanation_visual": "content/earth/cards-strata-dating.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0101",
+      "subtopic": "earth.geosphere.dating",
+      "difficulty": 1,
+      "stem": "Suppose a Valorant smoke cloud fades so that half of it is left every 5 s, like a half-life. After 10 s (two half-lives) how much of it remains?",
+      "visual": "content/earth/cards-radioactive-decay.svg",
+      "choices": {
+        "A": "50%",
+        "B": "25%",
+        "C": "0%",
+        "D": "75%",
+        "E": "12.5%"
+      },
+      "answer": "B",
+      "explanation": "Each half-life halves the amount: 100% → 50% → 25%.",
+      "explanation_visual": "content/earth/cards-radioactive-decay.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0102",
+      "subtopic": "earth.geosphere.dating",
+      "difficulty": 1,
+      "stem": "An igneous dike cuts through three sedimentary layers. The dike is",
+      "visual": "content/earth/cards-strata-dating.svg",
+      "choices": {
+        "A": "impossible to date",
+        "B": "the same age",
+        "C": "younger than the layers",
+        "D": "older than the bottom layer",
+        "E": "older than the layers"
+      },
+      "answer": "C",
+      "explanation": "A feature that cuts across something must be younger than it (cross-cutting relationships).",
+      "explanation_visual": "content/earth/cards-strata-dating.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0103",
+      "subtopic": "earth.geosphere.dating",
+      "difficulty": 2,
+      "stem": "A lasagne is built from a bottom layer of pasta, then sauce, pasta, cheese. A chef cuts a slice. By superposition, which layer was added last?",
+      "visual": null,
+      "choices": {
+        "A": "The middle pasta",
+        "B": "The first sauce",
+        "C": "They were all made at the same time",
+        "D": "The top cheese",
+        "E": "The bottom pasta"
+      },
+      "answer": "D",
+      "explanation": "Layers are added in order from the bottom, so the top layer is the youngest.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0104",
+      "subtopic": "earth.geosphere.dating",
+      "difficulty": 2,
+      "stem": "Archaeologists find a wooden cooking spoon with 12.5% of its original carbon-14. The half-life is 5730 years. How old is it?",
+      "visual": "content/earth/cards-radioactive-decay.svg",
+      "choices": {
+        "A": "11 460 years",
+        "B": "22 920 years",
+        "C": "45 840 years",
+        "D": "5 730 years",
+        "E": "17 190 years"
+      },
+      "answer": "E",
+      "explanation": "12.5% = (½)³, so 3 half-lives. 3 × 5730 = 17 190 years.",
+      "explanation_visual": "content/earth/cards-radioactive-decay.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0105",
+      "subtopic": "earth.geosphere.dating",
+      "difficulty": 2,
+      "stem": "A rock sample has 1 atom of parent isotope for every 3 atoms of daughter isotope (all daughters came from the parent). The parent half-life is 100 million years. The rock age is",
+      "visual": null,
+      "choices": {
+        "A": "200 million years",
+        "B": "400 million years",
+        "C": "300 million years",
+        "D": "100 million years",
+        "E": "50 million years"
+      },
+      "answer": "A",
+      "explanation": "Parent fraction = 1 ÷ 4 = 25% = (½)², so 2 half-lives = 200 million years.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0106",
+      "subtopic": "earth.geosphere.dating",
+      "difficulty": 3,
+      "stem": "Layers 1 (bottom) to 3 (top) are tilted. A granite dike cuts layers 1-3. Flat layer 4 lies on top of all of them and is not cut by the dike. What is the order from oldest to youngest?",
+      "visual": null,
+      "choices": {
+        "A": "1, dike, 2, 3, 4",
+        "B": "1, 2, 3, 4, dike",
+        "C": "4, 3, 2, 1, dike",
+        "D": "1, 2, 3, dike, 4",
+        "E": "dike, 1, 2, 3, 4"
+      },
+      "answer": "D",
+      "explanation": "The dike cuts 1-3, so they are older. Layer 4 is not cut and lies on the erosion surface, so it is younger than the dike.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0107",
+      "subtopic": "earth.geosphere.dating",
+      "difficulty": 3,
+      "stem": "Which is the most suitable method to date a 40 000-year-old wooden cooking spoon and a 3-billion-year-old granite?",
+      "visual": null,
+      "choices": {
+        "A": "Uranium-lead for both",
+        "B": "Carbon-14 for the tool and uranium-lead for the granite",
+        "C": "Superposition for both",
+        "D": "Carbon-14 for both",
+        "E": "Uranium-lead for the tool and carbon-14 for the granite"
+      },
+      "answer": "B",
+      "explanation": "C-14 (5730 years) fades after about 50 000 years but suits wood. U-238 (4.47 billion years) suits very old rocks.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0108",
+      "subtopic": "earth.astronomy.mechanics",
+      "difficulty": 1,
+      "stem": "The orbit of a planet around the Sun is an",
+      "visual": "content/earth/cards-kepler-laws.svg",
+      "choices": {
+        "A": "perfect circle with the Sun at the center",
+        "B": "parabola",
+        "C": "ellipse with the Sun at one focus",
+        "D": "straight line",
+        "E": "ellipse with the Sun at the center"
+      },
+      "answer": "C",
+      "explanation": "This is Kepler's first law.",
+      "explanation_visual": "content/earth/cards-kepler-laws.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0109",
+      "subtopic": "earth.astronomy.mechanics",
+      "difficulty": 1,
+      "stem": "Where in its orbit does a planet move fastest?",
+      "visual": "content/earth/cards-kepler-laws.svg",
+      "choices": {
+        "A": "At perihelion",
+        "B": "Halfway between the two",
+        "C": "At the same speed everywhere",
+        "D": "At aphelion",
+        "E": "At the empty focus"
+      },
+      "answer": "A",
+      "explanation": "To sweep equal areas in equal times, the planet must move faster when it is closer to the Sun.",
+      "explanation_visual": "content/earth/cards-kepler-laws.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0110",
+      "subtopic": "earth.astronomy.mechanics",
+      "difficulty": 1,
+      "stem": "The distance between two masses is doubled. The gravitational force between them becomes",
+      "visual": null,
+      "choices": {
+        "A": "unchanged",
+        "B": "four times as big",
+        "C": "half as big",
+        "D": "twice as big",
+        "E": "one quarter as big"
+      },
+      "answer": "E",
+      "explanation": "F ∝ 1 ÷ r². Doubling r makes the force 1 ÷ 4.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0111",
+      "subtopic": "earth.astronomy.mechanics",
+      "difficulty": 2,
+      "stem": "An asteroid orbits the Sun with a semi-major axis of 4 AU. Using T² = a³, what is its period?",
+      "visual": "content/earth/cards-kepler-laws.svg",
+      "choices": {
+        "A": "64 years",
+        "B": "16 years",
+        "C": "2 years",
+        "D": "8 years",
+        "E": "4 years"
+      },
+      "answer": "D",
+      "explanation": "T² = 4³ = 64, so T = 8 years.",
+      "explanation_visual": "content/earth/cards-kepler-laws.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0112",
+      "subtopic": "earth.astronomy.mechanics",
+      "difficulty": 2,
+      "stem": "The hydrogen line has a laboratory wavelength of 656.3 nm. In a star it is measured at 656.6 nm. About how fast is the star moving and in which direction? (c = 3.0 × 10⁵ km/s)",
+      "visual": "content/earth/cards-doppler.svg",
+      "choices": {
+        "A": "About 14 km/s, toward us",
+        "B": "About 140 km/s, toward us",
+        "C": "About 1400 km/s, away from us",
+        "D": "About 0.3 km/s, away from us",
+        "E": "About 140 km/s, away from us"
+      },
+      "answer": "E",
+      "explanation": "Δλ = 0.3 nm. v = c × Δλ ÷ λ = 3.0 × 10⁵ × 0.3 ÷ 656.3 ≈ 137 km/s. A longer wavelength is a redshift, so it moves away.",
+      "explanation_visual": "content/earth/cards-doppler.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0113",
+      "subtopic": "earth.astronomy.mechanics",
+      "difficulty": 2,
+      "stem": "In a binary system, the stars are separated by 2 AU and orbit each other every 2 years. What is the total mass?",
+      "visual": null,
+      "choices": {
+        "A": "0.5 solar mass",
+        "B": "1 solar mass",
+        "C": "2 solar masses",
+        "D": "4 solar masses",
+        "E": "8 solar masses"
+      },
+      "answer": "C",
+      "explanation": "M₁ + M₂ = a³ ÷ T² = 8 ÷ 4 = 2 solar masses.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0114",
+      "subtopic": "earth.astronomy.mechanics",
+      "difficulty": 3,
+      "stem": "A comet's orbit takes it to 1 AU from the Sun at perihelion and 9 AU at aphelion. Its orbital period is about",
+      "visual": "content/earth/cards-kepler-laws.svg",
+      "choices": {
+        "A": "3 years",
+        "B": "11 years",
+        "C": "5 years",
+        "D": "125 years",
+        "E": "25 years"
+      },
+      "answer": "B",
+      "explanation": "Semi-major axis a = (1 + 9) ÷ 2 = 5 AU. T² = 5³ = 125, so T ≈ 11.2 years.",
+      "explanation_visual": "content/earth/cards-kepler-laws.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0115",
+      "subtopic": "earth.astronomy.mechanics",
+      "difficulty": 3,
+      "stem": "Two stars of 3 and 1 solar masses are 4 AU apart. How far is the center of mass from the heavier star?",
+      "visual": null,
+      "choices": {
+        "A": "1 AU",
+        "B": "4 AU",
+        "C": "2 AU",
+        "D": "0.25 AU",
+        "E": "3 AU"
+      },
+      "answer": "A",
+      "explanation": "The center of mass is closer to the heavier star: r = 4 × 1 ÷ (3 + 1) = 1 AU. The two distances multiply by mass to balance: 1 × 3 = 3 × 1.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0116",
+      "subtopic": "earth.astronomy.radiation",
+      "difficulty": 1,
+      "stem": "A swimmer wears a white cap on a sunny day. White is like a surface with a high albedo, which",
+      "visual": "content/earth/cards-albedo.svg",
+      "choices": {
+        "A": "is always very hot",
+        "B": "absorbs most of the sunlight",
+        "C": "reflects most of the sunlight",
+        "D": "emits no radiation",
+        "E": "is always dark"
+      },
+      "answer": "C",
+      "explanation": "Albedo is the fraction reflected. Fresh snow reflects about 80%.",
+      "explanation_visual": "content/earth/cards-albedo.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0117",
+      "subtopic": "earth.astronomy.radiation",
+      "difficulty": 1,
+      "stem": "A gas stove has a blue flame and an electric coil glows dull red. By the same idea (Wien's law), which star looks bluest?",
+      "visual": "content/earth/cards-blackbody.svg",
+      "choices": {
+        "A": "The oldest one",
+        "B": "The hottest one",
+        "C": "The coolest one",
+        "D": "The nearest one",
+        "E": "The biggest one"
+      },
+      "answer": "B",
+      "explanation": "By Wien's law, hotter stars peak at shorter (bluer) wavelengths.",
+      "explanation_visual": "content/earth/cards-blackbody.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0118",
+      "subtopic": "earth.astronomy.radiation",
+      "difficulty": 1,
+      "stem": "Which star is brightest in the sky?",
+      "visual": "content/earth/cards-magnitude-scale.svg",
+      "choices": {
+        "A": "One with magnitude +3",
+        "B": "One with magnitude 0",
+        "C": "One with magnitude +1",
+        "D": "One with magnitude +6",
+        "E": "One with magnitude -1"
+      },
+      "answer": "E",
+      "explanation": "On the magnitude scale, smaller numbers are brighter. -1 is the smallest of these.",
+      "explanation_visual": "content/earth/cards-magnitude-scale.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0119",
+      "subtopic": "earth.astronomy.radiation",
+      "difficulty": 2,
+      "stem": "Star A has magnitude 1 and star B has magnitude 6. How do their brightnesses compare?",
+      "visual": "content/earth/cards-magnitude-scale.svg",
+      "choices": {
+        "A": "A is 5 times brighter than B",
+        "B": "They are equally bright",
+        "C": "A is 10 times brighter than B",
+        "D": "A is 100 times brighter than B",
+        "E": "B is 100 times brighter than A"
+      },
+      "answer": "D",
+      "explanation": "5 magnitudes equals a factor of 100, and the smaller number is brighter.",
+      "explanation_visual": "content/earth/cards-magnitude-scale.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0120",
+      "subtopic": "earth.astronomy.radiation",
+      "difficulty": 2,
+      "stem": "The Sun's surface is 5800 K. Using λmax = 2.898 × 10⁻³ m·K ÷ T, at what wavelength does its radiation peak?",
+      "visual": "content/earth/cards-blackbody.svg",
+      "choices": {
+        "A": "About 500 nm",
+        "B": "About 5000 nm",
+        "C": "About 50 nm",
+        "D": "About 0.5 nm",
+        "E": "About 10 µm"
+      },
+      "answer": "A",
+      "explanation": "λmax = 2.898 × 10⁻³ ÷ 5800 = 5.0 × 10⁻⁷ m = 500 nm (green-yellow light).",
+      "explanation_visual": "content/earth/cards-blackbody.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0121",
+      "subtopic": "earth.astronomy.radiation",
+      "difficulty": 2,
+      "stem": "A baker notices a dark baking tray cooks the bottom of cookies faster than a shiny one. The dark tray has a",
+      "visual": null,
+      "choices": {
+        "A": "lower gravity",
+        "B": "higher mass",
+        "C": "lower albedo, so it absorbs more radiant heat",
+        "D": "lower density",
+        "E": "higher albedo, so it reflects more"
+      },
+      "answer": "C",
+      "explanation": "Dark surfaces reflect less and absorb more radiation, so they heat up faster.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0122",
+      "subtopic": "earth.astronomy.radiation",
+      "difficulty": 3,
+      "stem": "Star X has twice the radius of star Y and half its surface temperature. How do their luminosities compare (L ∝ R²T⁴)?",
+      "visual": "content/earth/cards-blackbody.svg",
+      "choices": {
+        "A": "X is 1/16 as luminous",
+        "B": "X is 2 times as luminous",
+        "C": "X is 4 times as luminous as Y",
+        "D": "They are equal",
+        "E": "X is one quarter as luminous as Y"
+      },
+      "answer": "E",
+      "explanation": "L ∝ R²T⁴ = 2² × (½)⁴ = 4 × 1/16 = 1/4.",
+      "explanation_visual": "content/earth/cards-blackbody.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0123",
+      "subtopic": "earth.astronomy.radiation",
+      "difficulty": 3,
+      "stem": "A planet at 1 AU has albedo 0.30. Its equilibrium temperature is T = 278 K × (1 − albedo)^(1/4). What is it?",
+      "visual": "content/earth/cards-albedo.svg",
+      "choices": {
+        "A": "About 254 K (-19 °C)",
+        "B": "About 330 K",
+        "C": "About 303 K",
+        "D": "About 278 K",
+        "E": "About 194 K"
+      },
+      "answer": "A",
+      "explanation": "(1 - 0.30)^(1/4) = 0.7^0.25 ≈ 0.915. 278 × 0.915 ≈ 254 K, which is about -19 °C.",
+      "explanation_visual": "content/earth/cards-albedo.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0124",
+      "subtopic": "earth.astronomy.sphere",
+      "difficulty": 1,
+      "stem": "Which constellation contains Polaris?",
+      "visual": "content/earth/cards-north-sky.svg",
+      "choices": {
+        "A": "Lyra",
+        "B": "Ursa Minor",
+        "C": "Cassiopeia",
+        "D": "Ursa Major",
+        "E": "Orion"
+      },
+      "answer": "B",
+      "explanation": "Polaris is at the end of the handle of the Little Dipper, in Ursa Minor.",
+      "explanation_visual": "content/earth/cards-north-sky.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0125",
+      "subtopic": "earth.astronomy.sphere",
+      "difficulty": 1,
+      "stem": "Which is the brightest star in the night sky (not counting the Sun)?",
+      "visual": null,
+      "choices": {
+        "A": "Polaris",
+        "B": "Betelgeuse",
+        "C": "Proxima Centauri",
+        "D": "Sirius",
+        "E": "Vega"
+      },
+      "answer": "D",
+      "explanation": "Sirius (α Canis Majoris) has magnitude -1.46.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0126",
+      "subtopic": "earth.astronomy.sphere",
+      "difficulty": 1,
+      "stem": "M31 is the",
+      "visual": null,
+      "choices": {
+        "A": "Milky Way",
+        "B": "Pleiades",
+        "C": "Orion Nebula",
+        "D": "Crab Nebula",
+        "E": "Andromeda Galaxy"
+      },
+      "answer": "E",
+      "explanation": "M31 is the nearest big spiral galaxy, about 2.5 million light-years away.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0127",
+      "subtopic": "earth.astronomy.sphere",
+      "difficulty": 2,
+      "stem": "A star has a parallax of 0.05 arcseconds. How far away is it?",
+      "visual": "content/earth/cards-parallax.svg",
+      "choices": {
+        "A": "0.05 parsecs",
+        "B": "50 parsecs",
+        "C": "20 parsecs",
+        "D": "5 parsecs",
+        "E": "0.2 parsecs"
+      },
+      "answer": "C",
+      "explanation": "d = 1 ÷ p = 1 ÷ 0.05 = 20 parsecs.",
+      "explanation_visual": "content/earth/cards-parallax.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0128",
+      "subtopic": "earth.astronomy.sphere",
+      "difficulty": 2,
+      "stem": "A swimmer at a night-swim camp at latitude 45° N looks at Polaris. At what altitude above the horizon is Polaris?",
+      "visual": "content/earth/cards-north-sky.svg",
+      "choices": {
+        "A": "About 0°",
+        "B": "About 135°",
+        "C": "About 90°",
+        "D": "About 45°",
+        "E": "About 23°"
+      },
+      "answer": "D",
+      "explanation": "Polaris is almost at the north celestial pole. Its altitude equals the observer's latitude.",
+      "explanation_visual": "content/earth/cards-north-sky.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0129",
+      "subtopic": "earth.astronomy.sphere",
+      "difficulty": 2,
+      "stem": "A swimmer trains at night in Jakarta (about 6° S). Polaris is",
+      "visual": "content/earth/cards-north-sky.svg",
+      "choices": {
+        "A": "below the horizon",
+        "B": "circumpolar",
+        "C": "at 6° above the north horizon",
+        "D": "at 45° altitude",
+        "E": "almost overhead"
+      },
+      "answer": "A",
+      "explanation": "In the Southern Hemisphere the north celestial pole lies below the horizon, so Polaris cannot be seen from there.",
+      "explanation_visual": "content/earth/cards-north-sky.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0130",
+      "subtopic": "earth.astronomy.sphere",
+      "difficulty": 3,
+      "stem": "A night-swim camp is at 40° N. Which star is circumpolar there?",
+      "visual": null,
+      "choices": {
+        "A": "A star with declination +30°",
+        "B": "A star with declination +60°",
+        "C": "A star with declination 0°",
+        "D": "A star with declination -60°",
+        "E": "A star with declination +45°"
+      },
+      "answer": "B",
+      "explanation": "It needs dec > 90° − 40° = 50°. Only +60° meets this.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0131",
+      "subtopic": "earth.astronomy.sphere",
+      "difficulty": 3,
+      "stem": "Swimmers in Jakarta and in London can both see Orion at night because it lies",
+      "visual": "content/earth/cards-orion.svg",
+      "choices": {
+        "A": "on the ecliptic only",
+        "B": "close to the celestial equator",
+        "C": "close to the north celestial pole",
+        "D": "inside the Milky Way only",
+        "E": "close to the south celestial pole"
+      },
+      "answer": "B",
+      "explanation": "The belt of Orion is at about 0° declination, so it is above the horizon for most observers on Earth.",
+      "explanation_visual": "content/earth/cards-orion.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0132",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 1,
+      "stem": "A solar eclipse can only happen at",
+      "visual": "content/earth/cards-eclipses.svg",
+      "choices": {
+        "A": "any phase",
+        "B": "third quarter",
+        "C": "full moon",
+        "D": "first quarter",
+        "E": "new moon"
+      },
+      "answer": "E",
+      "explanation": "The Moon must be between the Sun and Earth for its shadow to fall on Earth.",
+      "explanation_visual": "content/earth/cards-eclipses.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0133",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 1,
+      "stem": "Which planet is the largest?",
+      "visual": "content/earth/cards-solar-system.svg",
+      "choices": {
+        "A": "Uranus",
+        "B": "Earth",
+        "C": "Jupiter",
+        "D": "Neptune",
+        "E": "Saturn"
+      },
+      "answer": "C",
+      "explanation": "Jupiter has more than twice the mass of all other planets combined.",
+      "explanation_visual": "content/earth/cards-solar-system.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0134",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 1,
+      "stem": "During a full moon, the Moon is",
+      "visual": "content/earth/cards-moon-phases.svg",
+      "choices": {
+        "A": "always eclipsed",
+        "B": "behind the Sun",
+        "C": "between the Earth and the Sun",
+        "D": "on the opposite side of Earth from the Sun",
+        "E": "at a right angle to the Earth-Sun line"
+      },
+      "answer": "D",
+      "explanation": "At full moon we see the fully lit side because the Sun lights the face turned toward Earth.",
+      "explanation_visual": "content/earth/cards-moon-phases.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0135",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 2,
+      "stem": "The Moon orbits Earth in 27.32 days relative to the stars, and Earth's year is 365.25 days. What is the synodic month (new moon to new moon)?",
+      "visual": "content/earth/cards-moon-phases.svg",
+      "choices": {
+        "A": "About 29.5 days",
+        "B": "About 27.3 days",
+        "C": "About 31 days",
+        "D": "About 365 days",
+        "E": "About 25 days"
+      },
+      "answer": "A",
+      "explanation": "1 ÷ S = 1 ÷ 27.32 - 1 ÷ 365.25 = 0.03387 per day. S = 29.5 days.",
+      "explanation_visual": "content/earth/cards-moon-phases.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0136",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 2,
+      "stem": "Mars orbits the Sun in 1.881 years. About how often does Earth catch up with Mars (synodic period)?",
+      "visual": "content/earth/cards-solar-system.svg",
+      "choices": {
+        "A": "About 2.1 years",
+        "B": "About 0.9 years",
+        "C": "About 0.5 years",
+        "D": "About 4.1 years",
+        "E": "About 1.9 years"
+      },
+      "answer": "A",
+      "explanation": "1 ÷ S = 1 ÷ 1 - 1 ÷ 1.881 = 0.468 per year. S = 2.14 years.",
+      "explanation_visual": "content/earth/cards-solar-system.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0137",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 2,
+      "stem": "Light needs how long to travel from the Moon (384 400 km away) to Earth? (c = 300 000 km/s)",
+      "visual": null,
+      "choices": {
+        "A": "About 8 minutes",
+        "B": "About 13 s",
+        "C": "About 1.3 minutes",
+        "D": "About 0.13 s",
+        "E": "About 1.3 s"
+      },
+      "answer": "E",
+      "explanation": "t = 384 400 ÷ 300 000 ≈ 1.28 s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0138",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 3,
+      "stem": "A full moon occurs on 1 January. About when is the next full moon?",
+      "visual": null,
+      "choices": {
+        "A": "About 1 March",
+        "B": "About 30-31 January",
+        "C": "About 28 January",
+        "D": "About 14 February",
+        "E": "About 15 January"
+      },
+      "answer": "B",
+      "explanation": "The synodic month is 29.5 days, so the next full moon is about 30-31 January.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0139",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 3,
+      "stem": "Venus has an orbital period of 0.615 years. How often does it return to the same position relative to Earth and the Sun (synodic period)?",
+      "visual": "content/earth/cards-solar-system.svg",
+      "choices": {
+        "A": "About 2.4 years",
+        "B": "About 0.6 years",
+        "C": "About 3.2 years",
+        "D": "About 1.6 years",
+        "E": "About 0.4 years"
+      },
+      "answer": "D",
+      "explanation": "1 ÷ S = 1 ÷ 0.615 - 1 ÷ 1 = 0.626. S = 1.60 years (about 584 days).",
+      "explanation_visual": "content/earth/cards-solar-system.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0140",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 3,
+      "stem": "During a total solar eclipse an observer inside the umbra sees",
+      "visual": "content/earth/cards-eclipses.svg",
+      "choices": {
+        "A": "only part of the Sun covered",
+        "B": "no change",
+        "C": "the Sun completely covered by the Moon",
+        "D": "the Moon in Earth's shadow",
+        "E": "a full moon"
+      },
+      "answer": "C",
+      "explanation": "Inside the umbra the Moon covers the whole disk of the Sun. In the penumbra the eclipse is only partial.",
+      "explanation_visual": "content/earth/cards-eclipses.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0141",
+      "subtopic": "earth.atmosphere.structure",
+      "difficulty": 2,
+      "stem": "A Valorant map (suppose) is a mountain 5.5 km high. If the air pressure at the base is 1000 hPa, about what is it at the summit?",
+      "visual": null,
+      "choices": {
+        "A": "About 100 hPa",
+        "B": "About 500 hPa",
+        "C": "About 750 hPa",
+        "D": "About 900 hPa",
+        "E": "About 250 hPa"
+      },
+      "answer": "B",
+      "explanation": "Air pressure roughly halves every 5.5 km of height, so it is about 1000 ÷ 2 = 500 hPa.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0142",
+      "subtopic": "earth.atmosphere.fronts",
+      "difficulty": 1,
+      "stem": "A swimmer watches thin clouds thicken slowly over many hours into steady light rain, with a long gentle slope of cloud ahead. Which front is arriving?",
+      "visual": "content/earth/cards-fronts.svg",
+      "choices": {
+        "A": "A dry line",
+        "B": "A cold front",
+        "C": "A warm front",
+        "D": "A sea breeze front only",
+        "E": "A hurricane eyewall"
+      },
+      "answer": "C",
+      "explanation": "A warm front has a gentle slope and brings widespread steady rain, with clouds lowering slowly.",
+      "explanation_visual": "content/earth/cards-fronts.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0143",
+      "subtopic": "earth.atmosphere.humidity",
+      "difficulty": 1,
+      "stem": "A cook boils a pot with a lid on. Water drops form on the inside of the lid. This process is",
+      "visual": "content/earth/cards-water-cycle.svg",
+      "choices": {
+        "A": "infiltration",
+        "B": "transpiration",
+        "C": "sublimation",
+        "D": "condensation",
+        "E": "evaporation"
+      },
+      "answer": "D",
+      "explanation": "Hot water vapor touches the cooler lid and turns back into liquid. This is the same process that forms clouds.",
+      "explanation_visual": "content/earth/cards-water-cycle.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0144",
+      "subtopic": "earth.atmosphere.circulation",
+      "difficulty": 1,
+      "stem": "At a beach near 45° N, the wind usually blows from the west. Which wind belt is this?",
+      "visual": "content/earth/cards-circulation-cells.svg",
+      "choices": {
+        "A": "The polar easterlies",
+        "B": "The trade winds",
+        "C": "The horse latitudes",
+        "D": "The doldrums",
+        "E": "The westerlies"
+      },
+      "answer": "E",
+      "explanation": "The westerlies blow between about 30° and 60° latitude, from west to east.",
+      "explanation_visual": "content/earth/cards-circulation-cells.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0145",
+      "subtopic": "earth.atmosphere.phenomena",
+      "difficulty": 2,
+      "stem": "During the day a cooling breeze blows from the sea onto a hot beach. The reason is that",
+      "visual": null,
+      "choices": {
+        "A": "land heats faster, so warm air rises over land and cooler sea air flows in",
+        "B": "land cools faster in the day",
+        "C": "the Moon pulls the air inland",
+        "D": "the trade winds blow the other way",
+        "E": "the sea is warmer than the land, so sea air rises"
+      },
+      "answer": "A",
+      "explanation": "Land has a lower heat capacity than water, so it warms more. Rising air over land makes lower pressure, and sea air moves in to replace it.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0146",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "difficulty": 1,
+      "stem": "A Valorant map has a river through the middle (suppose it is 8 m wide, 1 m deep and flows at 2 m/s). What is its discharge?",
+      "visual": null,
+      "choices": {
+        "A": "32 m³/s",
+        "B": "4 m³/s",
+        "C": "16 m³/s",
+        "D": "8 m³/s",
+        "E": "11 m³/s"
+      },
+      "answer": "C",
+      "explanation": "Q = width × depth × velocity = 8 × 1 × 2 = 16 m³/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0147",
+      "subtopic": "earth.hydrosphere.oceans",
+      "difficulty": 1,
+      "stem": "It is easier to float in the sea than in a swimming pool because seawater is",
+      "visual": null,
+      "choices": {
+        "A": "denser because of the dissolved salt",
+        "B": "always deeper",
+        "C": "warmer than pool water",
+        "D": "free of waves",
+        "E": "less dense than pool water"
+      },
+      "answer": "A",
+      "explanation": "Seawater has a density of about 1025 kg/m³, a little higher than fresh water (1000 kg/m³). A denser fluid gives a larger upward force.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0148",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "difficulty": 1,
+      "stem": "On an icy Valorant map, a huge boulder sits alone on a flat plain, far from any rock like it. Geologists call a boulder moved by ice this way an",
+      "visual": null,
+      "choices": {
+        "A": "esker",
+        "B": "kettle",
+        "C": "cirque",
+        "D": "arête",
+        "E": "erratic"
+      },
+      "answer": "E",
+      "explanation": "A glacier can carry rocks for many kilometers and leave them behind when it melts. They do not match the rock below them.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0149",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "difficulty": 2,
+      "stem": "An empty swimming pool built below the water table can 'pop up' out of the ground. Why?",
+      "visual": "content/earth/cards-aquifer.svg",
+      "choices": {
+        "A": "Air pressure falls inside it",
+        "B": "Groundwater pushes up on it with a buoyant force",
+        "C": "The soil absorbs the pool",
+        "D": "Gravity gets weaker",
+        "E": "Clay layers expand upward"
+      },
+      "answer": "B",
+      "explanation": "Below the water table groundwater pushes up like water pushes up on a boat. An empty pool is light, so it can float up.",
+      "explanation_visual": "content/earth/cards-aquifer.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0150",
+      "subtopic": "earth.geosphere.geochemistry",
+      "difficulty": 2,
+      "stem": "A kitchen window is made of glass with hardness about 5.5. Which mineral could scratch it?",
+      "visual": "content/earth/cards-mohs-scale.svg",
+      "choices": {
+        "A": "Talc (1)",
+        "B": "Gypsum (2)",
+        "C": "Calcite (3)",
+        "D": "Quartz (7)",
+        "E": "Fluorite (4)"
+      },
+      "answer": "D",
+      "explanation": "Only a mineral harder than glass (5.5) can scratch it. Quartz at 7 qualifies, the others are too soft.",
+      "explanation_visual": "content/earth/cards-mohs-scale.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0151",
+      "subtopic": "earth.geosphere.rocks",
+      "difficulty": 1,
+      "stem": "Some restaurants serve food on slate plates. Slate is a metamorphic rock formed from",
+      "visual": null,
+      "choices": {
+        "A": "shale",
+        "B": "limestone",
+        "C": "basalt",
+        "D": "granite",
+        "E": "sandstone"
+      },
+      "answer": "A",
+      "explanation": "Low-grade heat and pressure change shale (a mudstone) into slate.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0152",
+      "subtopic": "earth.geosphere.interior",
+      "difficulty": 1,
+      "stem": "In a simmering pot of soup, hot soup rises in the middle and sinks at the edges. In the Earth, this is most like",
+      "visual": null,
+      "choices": {
+        "A": "soil formation",
+        "B": "ocean tides",
+        "C": "convection in the mantle",
+        "D": "earthquake waves",
+        "E": "the spin of the outer core"
+      },
+      "answer": "C",
+      "explanation": "Heat from the core makes mantle rock rise slowly while cooler rock sinks. These slow currents move the plates. The difference: the mantle is solid and flows over millions of years.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0153",
+      "subtopic": "earth.geosphere.dating",
+      "difficulty": 2,
+      "stem": "On a layered cliff on a game map (suppose), a conglomerate layer contains pebbles of the sandstone below it. What does this tell you?",
+      "visual": null,
+      "choices": {
+        "A": "The sandstone is younger than its pebbles",
+        "B": "They have the same age",
+        "C": "The conglomerate is older than the sandstone",
+        "D": "Nothing about their order",
+        "E": "The pebbles (sandstone) are older than the conglomerate"
+      },
+      "answer": "E",
+      "explanation": "By the principle of inclusions, pieces inside a rock are older than the rock that contains them.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0154",
+      "subtopic": "earth.astronomy.mechanics",
+      "difficulty": 1,
+      "stem": "Swimmers doing laps in a small pool finish a lap faster than swimmers in a big pool. In the same way, which planet has the shortest year?",
+      "visual": "content/earth/cards-kepler-laws.svg",
+      "choices": {
+        "A": "All planets have the same year",
+        "B": "Earth",
+        "C": "Jupiter",
+        "D": "Mercury, the closest to the Sun",
+        "E": "Neptune"
+      },
+      "answer": "D",
+      "explanation": "Kepler's third law: the smaller the orbit, the shorter the period (T² = a³). Mercury takes 88 days, Neptune about 165 years.",
+      "explanation_visual": "content/earth/cards-kepler-laws.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0155",
+      "subtopic": "earth.astronomy.radiation",
+      "difficulty": 1,
+      "stem": "A cook moves a heat lamp from 30 cm to 60 cm above the food. The heat flux on the food becomes",
+      "visual": null,
+      "choices": {
+        "A": "twice as strong",
+        "B": "one quarter as strong",
+        "C": "unchanged",
+        "D": "four times as strong",
+        "E": "half as strong"
+      },
+      "answer": "B",
+      "explanation": "Flux follows the inverse-square law. Doubling the distance gives 1 ÷ 2² = 1 ÷ 4 of the flux.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "earth-0156",
+      "subtopic": "earth.astronomy.sphere",
+      "difficulty": 2,
+      "stem": "A swimmer on a night swim in Jakarta sees Betelgeuse, the red shoulder of Orion. Betelgeuse looks red because its surface is",
+      "visual": "content/earth/cards-orion.svg",
+      "choices": {
+        "A": "very hot, over 30 000 K",
+        "B": "relatively cool, about 3500 K",
+        "C": "moving away very fast",
+        "D": "the same temperature as the Sun",
+        "E": "covered in dust only"
+      },
+      "answer": "B",
+      "explanation": "By Wien's law cool stars peak at longer (redder) wavelengths. Betelgeuse is a red supergiant at about 3500 K.",
+      "explanation_visual": "content/earth/cards-orion.svg",
+      "source": "original"
+    },
+    {
+      "id": "earth-0157",
+      "subtopic": "earth.astronomy.solar-system",
+      "difficulty": 2,
+      "stem": "On an evening in the Northern Hemisphere you see the Moon with its right half lit. Which phase is it?",
+      "visual": "content/earth/cards-moon-phases.svg",
+      "choices": {
+        "A": "Full Moon",
+        "B": "Third quarter",
+        "C": "New Moon",
+        "D": "First quarter",
+        "E": "Waning gibbous"
+      },
+      "answer": "D",
+      "explanation": "A right-lit half Moon in the evening is the first quarter (waxing) Moon, seen after sunset. In the Southern Hemisphere the lit side appears on the left.",
+      "explanation_visual": "content/earth/cards-moon-phases.svg",
+      "source": "original"
+    }
+  ]
+}

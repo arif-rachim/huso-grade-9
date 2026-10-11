@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 336" role="img" aria-labelledby="t d">
 <title id="t">Hurricane structure</title>
-<desc id="d">Cross section of a hurricane: calm eye with sinking air, eyewall with the strongest winds, outer rainbands, warm moist air spiralling in at the surface and outflow at the top.</desc>
+<desc id="d">Cross section of a hurricane: calm eye with sinking air, eyewall with the strongest winds, outer rainbands, warm moist air spiraling in at the surface and outflow at the top.</desc>
 <defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
 <rect x="0" y="0" width="400" height="336" fill="#ffffff"/>
 <g font-family="sans-serif" fill="#111827">

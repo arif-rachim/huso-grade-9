@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 490" role="img" aria-labelledby="t d">
+  <title id="t">Angular momentum of a spinner</title>
+  <desc id="d">Arms out: I = 3.0 kg m2 and omega 2.0 rad/s, L = 6.0. Arms in: I = 1.0 and omega 6.0, L = 6.0. Diver in layout spins slowly, in a tuck spins fast.</desc>
+  <rect x="0" y="0" width="440" height="490" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">L = Iω stays the same: smaller I ⇒ faster spin</text>
+    <rect x="15.0" y="40.0" width="200.0" height="250.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="115.0" y="60.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">Arms out (seen from above)</text>
+    <circle cx="115.0" cy="150.0" r="16" fill="#dc2626" fill-opacity="0.3" stroke="#111827" stroke-width="1.8"/>
+    <line x1="115.0" y1="150.0" x2="67.0" y2="150.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="67.0" cy="150.0" r="6" fill="#dc2626" stroke="#111827" stroke-width="1.5"/>
+    <line x1="115.0" y1="150.0" x2="163.0" y2="150.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="163.0" cy="150.0" r="6" fill="#dc2626" stroke="#111827" stroke-width="1.5"/>
+    <path d="M 82.0 92.8 A 66 66 0 0 1 148.0 92.8" fill="none" stroke="#dc2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="156.7,97.8 143.8,96.2 148.8,87.5" fill="#dc2626"/>
+    <text x="115.0" y="240.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">I = 3.0 kg·m²</text>
+    <text x="115.0" y="258.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">ω = 2.0 rad/s</text>
+    <text x="115.0" y="276.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">L = Iω = 6.0</text>
+    <rect x="225.0" y="40.0" width="200.0" height="250.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="325.0" y="60.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">Arms in</text>
+    <circle cx="325.0" cy="150.0" r="16" fill="#dc2626" fill-opacity="0.3" stroke="#111827" stroke-width="1.8"/>
+    <line x1="325.0" y1="150.0" x2="306.0" y2="150.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="306.0" cy="150.0" r="6" fill="#dc2626" stroke="#111827" stroke-width="1.5"/>
+    <line x1="325.0" y1="150.0" x2="344.0" y2="150.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="344.0" cy="150.0" r="6" fill="#dc2626" stroke="#111827" stroke-width="1.5"/>
+    <path d="M 292.0 92.8 A 66 66 0 1 1 336.5 215.0" fill="none" stroke="#dc2626" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <polygon points="326.6,216.7 337.6,209.7 339.3,219.6" fill="#dc2626"/>
+    <text x="325.0" y="240.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">I = 1.0 kg·m²</text>
+    <text x="325.0" y="258.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">ω = 6.0 rad/s</text>
+    <text x="325.0" y="276.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">L = Iω = 6.0</text>
+    <rect x="10.0" y="304.0" width="420.0" height="170.0" rx="8" fill="#dc2626" fill-opacity="0.06"/>
+    <text x="24.0" y="326.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">No outside torque (a push that twists) ⇒ L is constant.</text>
+    <text x="24.0" y="348.0" font-size="13" text-anchor="start" fill="#111827">I = Σmr²: mass far from the axis gives a big I.</text>
+    <text x="24.0" y="370.0" font-size="13" text-anchor="start" fill="#111827">A diver in a LAYOUT (long body) spins slowly; in a TUCK</text>
+    <text x="24.0" y="388.0" font-size="13" text-anchor="start" fill="#111827">(small I) the same L means a much faster spin.</text>
+    <text x="24.0" y="412.0" font-size="13" text-anchor="start" fill="#111827">Pizza dough tossed with spin gets wider ⇒ I grows ⇒ spin slows.</text>
+    <text x="24.0" y="438.0" font-size="13" text-anchor="start" fill="#6b7280">Not conserved: the skater's KE = ½Iω² goes from 6 J to 18 J.</text>
+    <text x="24.0" y="458.0" font-size="13" text-anchor="start" fill="#6b7280">Her muscles did the work of pulling the arms in.</text>
+  </g>
+</svg>

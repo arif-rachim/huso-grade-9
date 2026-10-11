@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 318" role="img">
+  <title>Mixing hot and cold water</title>
+  <desc>Hot water 0.20 kg at 80 C and cold water 0.30 kg at 20 C are mixed. The final temperature is 44 C because the heat lost by the hot water equals the heat gained by the cold water.</desc>
+  <rect x="0" y="0" width="440" height="318" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="16" text-anchor="middle" font-weight="bold">Mixing: heat lost = heat gained</text>
+    <rect x="25.0" y="100.0" width="90.0" height="69.0" rx="0" fill="#dc2626" fill-opacity="0.35" stroke="#dc2626" stroke-width="0"/>
+    <path d="M24 70 L24 170 L116 170 L116 70" fill="none" stroke="#111827" stroke-width="2.5"/>
+    <text x="70.0" y="62.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#dc2626">hot water</text>
+    <text x="70.0" y="190.0" font-size="13" text-anchor="middle">0.20 kg</text>
+    <text x="70.0" y="208.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#dc2626">80 °C</text>
+    <rect x="175.0" y="80.0" width="90.0" height="89.0" rx="0" fill="#6b7280" fill-opacity="0.3" stroke="#6b7280" stroke-width="0"/>
+    <path d="M174 70 L174 170 L266 170 L266 70" fill="none" stroke="#111827" stroke-width="2.5"/>
+    <text x="220.0" y="62.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#6b7280">cold water</text>
+    <text x="220.0" y="190.0" font-size="13" text-anchor="middle">0.30 kg</text>
+    <text x="220.0" y="208.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#6b7280">20 °C</text>
+    <text x="144.0" y="118.0" font-size="26" text-anchor="middle" font-weight="bold">+</text>
+    <line x1="282.0" y1="130.0" x2="322.0" y2="130.0" stroke="#111827" stroke-width="2.5"/>
+    <path d="M313.7 133.5 L322.0 130.0 L313.7 126.5" fill="none" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+    <rect x="333.0" y="70.0" width="90.0" height="99.0" rx="0" fill="#dc2626" fill-opacity="0.15" stroke="#dc2626" stroke-width="0"/>
+    <path d="M332 70 L332 170 L424 170 L424 70" fill="none" stroke="#111827" stroke-width="2.5"/>
+    <text x="378.0" y="62.0" font-size="13" text-anchor="middle" font-weight="bold">mixed</text>
+    <text x="378.0" y="190.0" font-size="13" text-anchor="middle">0.50 kg</text>
+    <text x="378.0" y="208.0" font-size="14" text-anchor="middle" font-weight="bold">T = 44 °C</text>
+    <rect x="24.0" y="226.0" width="400.0" height="72.0" rx="8" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="224.0" y="248.0" font-size="13" text-anchor="middle">Hot water loses: 0.20 × 4186 × (80 − 44) = 30 139 J</text>
+    <text x="224.0" y="268.0" font-size="13" text-anchor="middle">Cold water gains: 0.30 × 4186 × (44 − 20) = 30 139 J</text>
+    <text x="224.0" y="286.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#dc2626">Equal, so T = 44 °C is right.</text>
+
+  </g>
+</svg>

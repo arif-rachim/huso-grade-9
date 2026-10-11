@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" role="img" aria-labelledby="t d">
+  <title id="t">Energy bar charts on a smooth track</title>
+  <desc id="d">A 2 kg ball rolls down a frictionless track from 5 m high. At the top: 98 J potential, 0 kinetic. At 3 m: 58.8 J potential, 39.2 J kinetic. At the bottom: 0 potential, 98 J kinetic. The total stays 98 J.</desc>
+  <rect x="0" y="0" width="440" height="440" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Energy changes form, the total stays 98 J</text>
+    <polygon points="40.0,80.0 42.0,80.0 44.0,80.0 46.0,80.1 48.0,80.2 50.0,80.3 52.0,80.4 54.0,80.6 56.0,80.8 58.0,81.0 60.0,81.2 62.0,81.5 64.0,81.8 66.0,82.1 68.0,82.4 70.0,82.8 72.0,83.2 74.0,83.6 76.0,84.0 78.0,84.5 80.0,84.9 82.0,85.4 84.0,86.0 86.0,86.5 88.0,87.1 90.0,87.7 92.0,88.3 94.0,89.0 96.0,89.6 98.0,90.3 100.0,91.0 102.0,91.8 104.0,92.6 106.0,93.3 108.0,94.1 110.0,95.0 112.0,95.8 114.0,96.7 116.0,97.6 118.0,98.5 120.0,99.5 122.0,100.4 124.0,101.4 126.0,102.4 128.0,103.5 130.0,104.5 132.0,105.6 134.0,106.7 136.0,107.8 138.0,108.9 140.0,110.1 142.0,111.3 144.0,112.5 146.0,113.7 148.0,114.9 150.0,116.2 152.0,117.5 154.0,118.8 156.0,120.1 158.0,121.4 160.0,122.8 162.0,124.1 164.0,125.5 166.0,126.9 168.0,128.3 170.0,129.8 172.0,131.3 174.0,132.7 176.0,134.2 178.0,135.7 180.0,137.3 182.0,138.8 184.0,140.4 186.0,142.0 188.0,143.5 190.0,145.2 192.0,146.8 194.0,148.4 196.0,150.1 198.0,151.7 200.0,153.4 202.0,155.1 204.0,156.8 206.0,158.6 208.0,160.3 210.0,162.1 212.0,163.8 214.0,165.6 216.0,167.4 218.0,169.2 220.0,171.0 222.0,172.8 224.0,174.7 226.0,176.5 228.0,178.4 230.0,180.2 232.0,182.1 234.0,184.0 236.0,185.9 238.0,187.8 240.0,189.7 242.0,191.6 244.0,193.6 246.0,195.5 248.0,197.5 250.0,199.4 252.0,201.4 254.0,203.4 256.0,205.3 258.0,207.3 260.0,209.3 262.0,211.3 264.0,213.3 266.0,215.3 268.0,217.3 270.0,219.4 272.0,221.4 274.0,223.4 276.0,225.4 278.0,227.5 280.0,229.5 282.0,231.5 284.0,233.6 286.0,235.6 288.0,237.7 290.0,239.7 292.0,241.8 294.0,243.8 296.0,245.9 298.0,247.9 300.0,250.0 410.0,250.0 410.0,264.0 40.0,264.0" fill="#d1d5db" fill-opacity="0.35"/>
+    <polyline points="40.0,80.0 42.0,80.0 44.0,80.0 46.0,80.1 48.0,80.2 50.0,80.3 52.0,80.4 54.0,80.6 56.0,80.8 58.0,81.0 60.0,81.2 62.0,81.5 64.0,81.8 66.0,82.1 68.0,82.4 70.0,82.8 72.0,83.2 74.0,83.6 76.0,84.0 78.0,84.5 80.0,84.9 82.0,85.4 84.0,86.0 86.0,86.5 88.0,87.1 90.0,87.7 92.0,88.3 94.0,89.0 96.0,89.6 98.0,90.3 100.0,91.0 102.0,91.8 104.0,92.6 106.0,93.3 108.0,94.1 110.0,95.0 112.0,95.8 114.0,96.7 116.0,97.6 118.0,98.5 120.0,99.5 122.0,100.4 124.0,101.4 126.0,102.4 128.0,103.5 130.0,104.5 132.0,105.6 134.0,106.7 136.0,107.8 138.0,108.9 140.0,110.1 142.0,111.3 144.0,112.5 146.0,113.7 148.0,114.9 150.0,116.2 152.0,117.5 154.0,118.8 156.0,120.1 158.0,121.4 160.0,122.8 162.0,124.1 164.0,125.5 166.0,126.9 168.0,128.3 170.0,129.8 172.0,131.3 174.0,132.7 176.0,134.2 178.0,135.7 180.0,137.3 182.0,138.8 184.0,140.4 186.0,142.0 188.0,143.5 190.0,145.2 192.0,146.8 194.0,148.4 196.0,150.1 198.0,151.7 200.0,153.4 202.0,155.1 204.0,156.8 206.0,158.6 208.0,160.3 210.0,162.1 212.0,163.8 214.0,165.6 216.0,167.4 218.0,169.2 220.0,171.0 222.0,172.8 224.0,174.7 226.0,176.5 228.0,178.4 230.0,180.2 232.0,182.1 234.0,184.0 236.0,185.9 238.0,187.8 240.0,189.7 242.0,191.6 244.0,193.6 246.0,195.5 248.0,197.5 250.0,199.4 252.0,201.4 254.0,203.4 256.0,205.3 258.0,207.3 260.0,209.3 262.0,211.3 264.0,213.3 266.0,215.3 268.0,217.3 270.0,219.4 272.0,221.4 274.0,223.4 276.0,225.4 278.0,227.5 280.0,229.5 282.0,231.5 284.0,233.6 286.0,235.6 288.0,237.7 290.0,239.7 292.0,241.8 294.0,243.8 296.0,245.9 298.0,247.9 300.0,250.0 410.0,250.0" fill="none" stroke="#111827" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="48.0" cy="69.0" r="9" fill="#dc2626" stroke="#111827" stroke-width="1.8"/>
+    <circle cx="193.5" cy="139.0" r="9" fill="#dc2626" stroke="#111827" stroke-width="1.8"/>
+    <circle cx="300.0" cy="241.0" r="9" fill="#dc2626" stroke="#111827" stroke-width="1.8"/>
+    <text x="30.0" y="56.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">A</text>
+    <text x="185.5" y="118.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">B</text>
+    <text x="300.0" y="220.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">C</text>
+    <line x1="22.0" y1="250.0" x2="22.0" y2="80.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="18.0" y1="250.0" x2="26.0" y2="250.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <line x1="18.0" y1="80.0" x2="26.0" y2="80.0" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="18.0" y="169.0" font-size="12" text-anchor="end" fill="#6b7280">5 m</text>
+    <line x1="193.5" y1="250.0" x2="193.5" y2="148.0" stroke="#6b7280" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 3"/>
+    <text x="199.5" y="202.4" font-size="12" text-anchor="start" fill="#6b7280">3 m</text>
+    <text x="350.0" y="70.0" font-size="12" text-anchor="middle" fill="#6b7280">m = 2.0 kg, no friction</text>
+    <text x="350.0" y="88.0" font-size="12" text-anchor="middle" fill="#6b7280">PE = mgh = 2.0 · 9.8 · h</text>
+    <text x="80.0" y="316.1" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">A: top</text>
+    <line x1="28.0" y1="396.0" x2="132.0" y2="396.0" stroke="#111827" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="88.0" y="342.1" width="32.0" height="53.9" rx="0" fill="#6b7280" fill-opacity="0.55" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="56.0" y="391.0" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold">0</text>
+    <text x="104.0" y="337.1" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">98</text>
+    <text x="56.0" y="412.0" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold">KE</text>
+    <text x="104.0" y="412.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">PE</text>
+    <line x1="28.0" y1="342.1" x2="132.0" y2="342.1" stroke="#111827" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+    <text x="220.0" y="316.1" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">B: 3 m</text>
+    <line x1="168.0" y1="396.0" x2="272.0" y2="396.0" stroke="#111827" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="180.0" y="374.4" width="32.0" height="21.6" rx="0" fill="#dc2626" fill-opacity="0.85" stroke="#dc2626" stroke-width="1.2"/>
+    <rect x="228.0" y="363.7" width="32.0" height="32.3" rx="0" fill="#6b7280" fill-opacity="0.55" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="196.0" y="369.4" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold">39.2</text>
+    <text x="244.0" y="358.7" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">58.8</text>
+    <text x="196.0" y="412.0" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold">KE</text>
+    <text x="244.0" y="412.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">PE</text>
+    <line x1="168.0" y1="342.1" x2="272.0" y2="342.1" stroke="#111827" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+    <text x="360.0" y="316.1" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">C: bottom</text>
+    <line x1="308.0" y1="396.0" x2="412.0" y2="396.0" stroke="#111827" stroke-width="1.5" stroke-linecap="round"/>
+    <rect x="320.0" y="342.1" width="32.0" height="53.9" rx="0" fill="#dc2626" fill-opacity="0.85" stroke="#dc2626" stroke-width="1.2"/>
+    <text x="336.0" y="337.1" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold">98</text>
+    <text x="384.0" y="391.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">0</text>
+    <text x="336.0" y="412.0" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold">KE</text>
+    <text x="384.0" y="412.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">PE</text>
+    <line x1="308.0" y1="342.1" x2="412.0" y2="342.1" stroke="#111827" stroke-width="1" stroke-linecap="round" stroke-dasharray="4 3"/>
+    <text x="220.0" y="436.0" font-size="12" text-anchor="middle" fill="#6b7280">dashed line = total KE + PE = 98 J (joules)</text>
+  </g>
+</svg>

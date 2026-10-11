@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 372" role="img">
+  <title>An echo in a pool hall</title>
+  <desc>A coach claps at one end of a 50 m pool hall. The sound travels 50 m to the far wall and 50 m back, a total of 100 m, which takes about 0.29 seconds at 343 meters per second.</desc>
+  <rect x="0" y="0" width="440" height="372" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="16" text-anchor="middle" font-weight="bold">Echo: the sound goes there and back</text>
+    <rect x="30.0" y="70.0" width="380.0" height="110.0" rx="0" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="30.0" y1="92.0" x2="410.0" y2="92.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4"/>
+    <line x1="30.0" y1="114.0" x2="410.0" y2="114.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4"/>
+    <line x1="30.0" y1="136.0" x2="410.0" y2="136.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4"/>
+    <line x1="30.0" y1="158.0" x2="410.0" y2="158.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="6 4"/>
+    <rect x="404.0" y="70.0" width="10.0" height="110.0" rx="0" fill="#111827" fill-opacity="0.7" stroke="#111827" stroke-width="0"/>
+    <text x="409.0" y="196.0" font-size="12" text-anchor="middle" fill="#6b7280">wall</text>
+    <circle cx="46.0" cy="125.0" r="9.0" fill="#dc2626" fill-opacity="0.4" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="58.0" y="152.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#dc2626">coach</text>
+    <line x1="60.0" y1="112.0" x2="396.0" y2="112.0" stroke="#dc2626" stroke-width="2.5"/>
+    <path d="M387.7 115.5 L396.0 112.0 L387.7 108.5" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linejoin="round"/>
+    <line x1="396.0" y1="138.0" x2="60.0" y2="138.0" stroke="#dc2626" stroke-width="2.5"/>
+    <path d="M68.3 134.5 L60.0 138.0 L68.3 141.5" fill="none" stroke="#dc2626" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="228.0" y="104.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#dc2626">sound goes out</text>
+    <text x="228.0" y="158.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#dc2626">echo comes back</text>
+    <line x1="30.0" y1="210.0" x2="410.0" y2="210.0" stroke="#111827" stroke-width="1.5"/>
+    <line x1="30.0" y1="204.0" x2="30.0" y2="216.0" stroke="#111827" stroke-width="1.5"/>
+    <line x1="410.0" y1="204.0" x2="410.0" y2="216.0" stroke="#111827" stroke-width="1.5"/>
+    <text x="220.0" y="230.0" font-size="13" text-anchor="middle" font-weight="bold">d = 50 m (one way)</text>
+    <rect x="30.0" y="252.0" width="380.0" height="104.0" rx="8" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="220.0" y="276.0" font-size="13" text-anchor="middle">Total path = out + back = 2 d = 100 m</text>
+    <text x="220.0" y="298.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#dc2626">t = 2 d ÷ v = 100 ÷ 343 ≈ 0.29 s</text>
+    <text x="220.0" y="322.0" font-size="13" text-anchor="middle" font-weight="bold">Turn it around: d = v t ÷ 2</text>
+    <text x="220.0" y="340.0" font-size="12" text-anchor="middle" fill="#6b7280">(÷ 2 because the sound travels the distance twice)</text>
+
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 435" role="img" aria-labelledby="t d">
+  <title id="t">Four triangle centers</title>
+  <desc id="d">Four panels on the same triangle: medians meet at the centroid, perpendicular bisectors at the circumcenter with its circumcircle, altitudes at the orthocenter, angle bisectors at the incenter with its incircle.</desc>
+  <rect x="0" y="0" width="440" height="435" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <polygon points="110.0,40.0 38.0,145.0 182.0,155.0" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+    <line x1="110.0" y1="40.0" x2="110.0" y2="150.0" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="38.0" y1="145.0" x2="146.0" y2="97.5" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="182.0" y1="155.0" x2="74.0" y2="92.5" stroke="#6b7280" stroke-width="1.5"/>
+    <circle cx="110.0" cy="113.3" r="4.5" fill="#2563eb"/>
+    <text x="110.0" y="207.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" data-label="Centroid">Centroid</text>
+    <polygon points="325.0,40.0 253.0,145.0 397.0,155.0" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+    <circle cx="327.2" cy="118.7" r="78.7" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <line x1="289.0" y1="92.5" x2="327.2" y2="118.7" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="325.0" y1="150.0" x2="327.2" y2="118.7" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="361.0" y1="97.5" x2="327.2" y2="118.7" stroke="#6b7280" stroke-width="1.5"/>
+    <circle cx="327.2" cy="118.7" r="4.5" fill="#2563eb"/>
+    <text x="325.0" y="207.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" data-label="Circumcenter">Circumcenter</text>
+    <polygon points="110.0,252.0 38.0,357.0 182.0,367.0" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+    <line x1="110.0" y1="252.0" x2="102.4" y2="361.5" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="38.0" y1="357.0" x2="137.0" y2="295.0" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="182.0" y1="367.0" x2="79.4" y2="296.6" stroke="#6b7280" stroke-width="1.5"/>
+    <circle cx="105.6" cy="314.6" r="4.5" fill="#2563eb"/>
+    <text x="110.0" y="419.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" data-label="Orthocenter">Orthocenter</text>
+    <polygon points="325.0,252.0 253.0,357.0 397.0,367.0" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+    <circle cx="323.5" cy="322.9" r="38.9" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <line x1="325.0" y1="252.0" x2="323.5" y2="322.9" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="253.0" y1="357.0" x2="323.5" y2="322.9" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="397.0" y1="367.0" x2="323.5" y2="322.9" stroke="#6b7280" stroke-width="1.5"/>
+    <circle cx="323.5" cy="322.9" r="4.5" fill="#2563eb"/>
+    <text x="325.0" y="419.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" data-label="Incenter">Incenter</text>
+  </g>
+</svg>

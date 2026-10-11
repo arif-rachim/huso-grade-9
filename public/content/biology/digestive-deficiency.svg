@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 390" role="img">
+  <title>Missing nutrient and the deficiency disease it causes</title>
+  <desc>Vitamin A: night blindness. Vitamin B1: beriberi. Vitamin C: scurvy. Vitamin D: rickets. Iron: anemia. Iodine: goiter. Protein: kwashiorkor. Too little food overall: marasmus.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#14532d"/></marker></defs>
+  <rect width="620" height="390" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="310" y="22" font-size="16" font-weight="bold" text-anchor="middle">If you lack this... you can get this</text>
+    <text x="20" y="50" font-size="13" font-weight="bold" fill="#6b7280">MISSING</text>
+    <text x="190" y="50" font-size="13" font-weight="bold" fill="#6b7280">DISEASE</text>
+    <text x="360" y="50" font-size="13" font-weight="bold" fill="#6b7280">WHAT YOU SEE</text>
+    <g data-label="vitamin a - night blindness">
+      <rect x="12" y="58" width="150" height="36" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="87" y="81" font-size="14" font-weight="bold" fill="#14532d" text-anchor="middle">Vitamin A</text>
+      <line x1="164" y1="76" x2="180" y2="76" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+      <rect x="184" y="58" width="160" height="36" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="264" y="81" font-size="14" font-weight="bold" text-anchor="middle">night blindness</text>
+      <rect x="348" y="58" width="262" height="36" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+      <text x="358" y="81" font-size="12">poor sight in dim light</text>
+    </g>
+    <g data-label="vitamin b1 - beriberi">
+      <rect x="12" y="99" width="150" height="36" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="87" y="122" font-size="14" font-weight="bold" fill="#14532d" text-anchor="middle">Vitamin B1</text>
+      <line x1="164" y1="117" x2="180" y2="117" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+      <rect x="184" y="99" width="160" height="36" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="264" y="122" font-size="14" font-weight="bold" text-anchor="middle">beriberi</text>
+      <rect x="348" y="99" width="262" height="36" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+      <text x="358" y="122" font-size="12">weak muscles, nerve and heart problems</text>
+    </g>
+    <g data-label="vitamin c - scurvy">
+      <rect x="12" y="140" width="150" height="36" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="87" y="163" font-size="14" font-weight="bold" fill="#14532d" text-anchor="middle">Vitamin C</text>
+      <line x1="164" y1="158" x2="180" y2="158" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+      <rect x="184" y="140" width="160" height="36" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="264" y="163" font-size="14" font-weight="bold" text-anchor="middle">scurvy</text>
+      <rect x="348" y="140" width="262" height="36" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+      <text x="358" y="163" font-size="12">bleeding gums, slow healing</text>
+    </g>
+    <g data-label="vitamin d - rickets">
+      <rect x="12" y="181" width="150" height="36" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="87" y="204" font-size="14" font-weight="bold" fill="#14532d" text-anchor="middle">Vitamin D</text>
+      <line x1="164" y1="199" x2="180" y2="199" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+      <rect x="184" y="181" width="160" height="36" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="264" y="204" font-size="14" font-weight="bold" text-anchor="middle">rickets</text>
+      <rect x="348" y="181" width="262" height="36" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+      <text x="358" y="204" font-size="12">soft, weak, bent bones</text>
+    </g>
+    <g data-label="iron - anemia">
+      <rect x="12" y="222" width="150" height="36" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="87" y="245" font-size="14" font-weight="bold" fill="#14532d" text-anchor="middle">Iron</text>
+      <line x1="164" y1="240" x2="180" y2="240" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+      <rect x="184" y="222" width="160" height="36" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="264" y="245" font-size="14" font-weight="bold" text-anchor="middle">anemia</text>
+      <rect x="348" y="222" width="262" height="36" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+      <text x="358" y="245" font-size="12">pale and tired: too little hemoglobin</text>
+    </g>
+    <g data-label="iodine - goiter">
+      <rect x="12" y="263" width="150" height="36" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="87" y="286" font-size="14" font-weight="bold" fill="#14532d" text-anchor="middle">Iodine</text>
+      <line x1="164" y1="281" x2="180" y2="281" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+      <rect x="184" y="263" width="160" height="36" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="264" y="286" font-size="14" font-weight="bold" text-anchor="middle">goiter</text>
+      <rect x="348" y="263" width="262" height="36" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+      <text x="358" y="286" font-size="12">swollen neck (thyroid gland)</text>
+    </g>
+    <g data-label="protein - kwashiorkor">
+      <rect x="12" y="304" width="150" height="36" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="87" y="327" font-size="14" font-weight="bold" fill="#14532d" text-anchor="middle">Protein</text>
+      <line x1="164" y1="322" x2="180" y2="322" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+      <rect x="184" y="304" width="160" height="36" rx="8" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="264" y="327" font-size="14" font-weight="bold" text-anchor="middle">kwashiorkor</text>
+      <rect x="348" y="304" width="262" height="36" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+      <text x="358" y="327" font-size="12">swollen belly and feet, low protein</text>
+    </g>
+    <g data-label="all food (energy) - marasmus">
+      <rect x="12" y="345" width="150" height="36" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="87" y="368" font-size="14" font-weight="bold" fill="#14532d" text-anchor="middle">All food (energy)</text>
+      <line x1="164" y1="363" x2="180" y2="363" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+      <rect x="184" y="345" width="160" height="36" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="264" y="368" font-size="14" font-weight="bold" text-anchor="middle">marasmus</text>
+      <rect x="348" y="345" width="262" height="36" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5"/>
+      <text x="358" y="368" font-size="12">very thin: too little food overall</text>
+    </g>
+  </g>
+</svg>

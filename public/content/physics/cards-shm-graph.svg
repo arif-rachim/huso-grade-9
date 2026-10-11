@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" aria-label="Displacement–time graph of simple harmonic motion">
+<title>Displacement–time graph of simple harmonic motion</title>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+<marker id="ahd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker>
+</defs>
+<rect width="400" height="260" fill="#ffffff"/>
+<line x1="60" y1="120" x2="370" y2="120" stroke="#111827" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="60" y1="20" x2="60" y2="230" stroke="#111827" stroke-width="2"/>
+<polyline points="60,120.0 63,114.5 66,109.0 69,103.7 72,98.4 75,93.2 78,88.2 81,83.4 84,78.9 87,74.5 90,70.5 93,66.8 96,63.4 99,60.3 102,57.6 105,55.3 108,53.4 111,51.9 114,50.9 117,50.2 120,50.0 123,50.2 126,50.9 129,51.9 132,53.4 135,55.3 138,57.6 141,60.3 144,63.4 147,66.8 150,70.5 153,74.5 156,78.9 159,83.4 162,88.2 165,93.2 168,98.4 171,103.7 174,109.0 177,114.5 180,120.0 183,125.5 186,131.0 189,136.3 192,141.6 195,146.8 198,151.8 201,156.6 204,161.1 207,165.5 210,169.5 213,173.2 216,176.6 219,179.7 222,182.4 225,184.7 228,186.6 231,188.1 234,189.1 237,189.8 240,190.0 243,189.8 246,189.1 249,188.1 252,186.6 255,184.7 258,182.4 261,179.7 264,176.6 267,173.2 270,169.5 273,165.5 276,161.1 279,156.6 282,151.8 285,146.8 288,141.6 291,136.3 294,131.0 297,125.5 300,120.0 303,114.5 306,109.0 309,103.7 312,98.4 315,93.2 318,88.2 321,83.4 324,78.9 327,74.5 330,70.5 333,66.8 336,63.4 339,60.3 342,57.6 345,55.3 348,53.4 351,51.9 354,50.9 357,50.2 360,50.0" fill="none" stroke="#dc2626" stroke-width="4"/>
+<g data-label="equilibrium x = 0"><text x="372" y="138" font-family="sans-serif" font-size="14" fill="#6b7280" text-anchor="end">x = 0</text></g>
+<g data-label="amplitude A"><text x="68" y="42" font-family="sans-serif" font-size="14" fill="#dc2626" text-anchor="start" font-weight="bold">amplitude A</text></g>
+<g data-label="period T"><text x="180" y="222" font-family="sans-serif" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">period T</text></g>
+<g data-label="displacement x"><text x="14" y="16" font-family="sans-serif" font-size="14" fill="#111827" text-anchor="start">x</text></g>
+<line x1="70" y1="52" x2="70" y2="118" stroke="#dc2626" stroke-width="2" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<line x1="60" y1="205" x2="300" y2="205" stroke="#dc2626" stroke-width="2" marker-start="url(#ah)" marker-end="url(#ah)"/>
+<text x="372" y="200" font-family="sans-serif" font-size="13" fill="#111827" text-anchor="end">time t</text>
+</svg>

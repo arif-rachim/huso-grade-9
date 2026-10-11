@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 336" role="img" aria-labelledby="t d">
+<title id="t">Hurricane structure</title>
+<desc id="d">Cross section of a hurricane: calm eye with sinking air, eyewall with the strongest winds, outer rainbands, warm moist air spiraling in at the surface and outflow at the top.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="336" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Hurricane cross section</text>
+<rect x="10" y="250" width="380" height="18" fill="#92400e" fill-opacity="0.3"/>
+<text x="200" y="264" font-size="12" text-anchor="middle" fill="#111827">warm ocean (above 26.5 °C)</text>
+<polygon points="168,250 155,120 118,75 150,66 185,120 186,250" fill="#d1d5db" fill-opacity="0.95" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="232,250 245,120 282,75 250,66 215,120 214,250" fill="#d1d5db" fill-opacity="0.95" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="30,215 55,188 105,182 125,215" fill="#d1d5db" fill-opacity="0.9" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="275,215 295,188 345,182 370,215" fill="#d1d5db" fill-opacity="0.9" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<text data-label="Eye" x="200" y="40" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Eye</text>
+<text x="200" y="56" font-size="12" text-anchor="middle" fill="#6b7280">calm, sinking air</text>
+<line x1="200" y1="80" x2="200" y2="236" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text data-label="Eyewall" x="128" y="118" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">Eyewall</text>
+<text x="128" y="134" font-size="12" text-anchor="end" fill="#6b7280">strongest</text>
+<text x="128" y="148" font-size="12" text-anchor="end" fill="#6b7280">winds</text>
+<text data-label="Rainbands" x="78" y="206" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Rainbands</text>
+<line x1="110" y1="62" x2="50" y2="62" stroke="#92400e" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#ahB)"/>
+<line x1="290" y1="62" x2="350" y2="62" stroke="#92400e" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#ahB)"/>
+<text x="70" y="52" font-size="12" text-anchor="middle" fill="#6b7280">outflow aloft</text>
+<text x="330" y="52" font-size="12" text-anchor="middle" fill="#6b7280">outflow aloft</text>
+<line x1="20" y1="242" x2="150" y2="242" stroke="#92400e" stroke-width="2.5" marker-end="url(#ahB)"/>
+<line x1="380" y1="242" x2="250" y2="242" stroke="#92400e" stroke-width="2.5" marker-end="url(#ahB)"/>
+<text x="75" y="234" font-size="12" text-anchor="middle" fill="#111827">warm moist air in</text>
+<text x="325" y="234" font-size="12" text-anchor="middle" fill="#111827">warm moist air in</text>
+<text x="200" y="292" font-size="12" text-anchor="middle" fill="#6b7280">Needs: warm ocean, humid air, little wind shear.</text>
+<text x="200" y="308" font-size="12" text-anchor="middle" fill="#6b7280">Forms 5–30° from the equator (needs the Coriolis effect).</text>
+<text x="200" y="324" font-size="12" text-anchor="middle" fill="#6b7280">Winds over 119 km/h: hurricane / typhoon / cyclone.</text>
+</g>
+</svg>

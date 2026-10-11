@@ -21,6 +21,7 @@ pub fn app() -> renox::App {
         .module(app::syllabus::Syllabus)
         .module(app::progress::Progress)
         .module(app::parent::Parent)
+        .module(app::canvas::Canvas)
         // "D-N to HUSO" in the navigation bar of every page.
         .share("huso_countdown", |_ctx| async move {
             Ok(clock::countdown_label(clock::today()))

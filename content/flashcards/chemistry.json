@@ -1,0 +1,1534 @@
+{
+  "version": 1,
+  "subject": "chemistry",
+  "cards": [
+    {
+      "id": "chemistry-0001",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "type": "occlusion",
+      "front": "Name the five labeled regions of the periodic table.",
+      "back": "Alkali metals, Alkaline earth metals, Transition metals, Halogens, Noble gases",
+      "visual": "content/chemistry/cards-periodic-blocks.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0002",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "type": "match",
+      "front": "Match each group number with its family name.",
+      "back": "Group 1 = alkali metals, 2 = alkaline earth, 17 = halogens, 18 = noble gases.",
+      "visual": "content/chemistry/cards-periodic-blocks.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "pairs": [
+        [
+          "Group 1",
+          "Alkali metals"
+        ],
+        [
+          "Group 2",
+          "Alkaline earth metals"
+        ],
+        [
+          "Group 17",
+          "Halogens"
+        ],
+        [
+          "Group 18",
+          "Noble gases"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0003",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "type": "basic",
+      "front": "How many valence electrons does a main-group element have?",
+      "back": "Group 1: 1. Group 2: 2. Groups 13-18: group number minus 10 (halogens 7, noble gases 8; helium has 2).",
+      "visual": "content/chemistry/cards-periodic-blocks.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0004",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "type": "basic",
+      "front": "Why are the noble gases so unreactive?",
+      "back": "Their outer shell is full (an octet; helium has a full 1s²), so they neither gain nor lose electrons easily.",
+      "visual": null,
+      "sketch_prompt": "Draw a neon atom and a sodium atom as rings with dots. Circle the full outer ring of neon and the lonely outer dot of sodium.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0005",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "type": "cloze",
+      "front": "Transition metals fill {{d}} orbitals, often form ions with {{more than one}} charge (Fe²⁺, Fe³⁺) and many make {{colored}} compounds.",
+      "back": "d-block elements sit in Groups 3-12.",
+      "visual": null,
+      "sketch_prompt": "Draw a row of five test tubes with colored solutions (Cu²⁺ blue, Fe³⁺ yellow-brown, MnO₄⁻ purple) and label the ions.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0006",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "type": "order",
+      "front": "Put the alkali metals in order of INCREASING reactivity with water.",
+      "back": "Li → Na → K → Rb → Cs (reactivity grows down the group).",
+      "visual": null,
+      "sketch_prompt": "Draw a column of five beakers. Add bigger splashes and flames going down, and an arrow labeled 'more reactive'.",
+      "tags": [],
+      "items": [
+        "Li",
+        "Na",
+        "K",
+        "Rb",
+        "Cs"
+      ]
+    },
+    {
+      "id": "chemistry-0007",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "type": "occlusion",
+      "front": "Which three materials stop alpha, beta and gamma radiation? (named in the diagram)",
+      "back": "Paper, Aluminum, Lead",
+      "visual": "content/chemistry/cards-radiation.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0008",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "type": "cloze",
+      "front": "Alpha decay: the nucleus loses {{2}} protons and {{2}} neutrons, so the mass number drops by {{4}}.",
+      "back": "An alpha particle is a helium nucleus, ⁴₂He.",
+      "visual": "content/chemistry/cards-radiation.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0009",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "type": "basic",
+      "front": "What happens to Z and A in beta-minus decay?",
+      "back": "A neutron turns into a proton and an electron (the beta particle). Z goes up by 1; the mass number A stays the same.",
+      "visual": null,
+      "sketch_prompt": "Draw a nucleus with a grey neutron turning gold (proton) and an electron flying out. Write 'Z → Z + 1, A unchanged'.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0010",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "type": "cloze",
+      "front": "Half-life: N = N₀ × ({{½}})^{{n}} where n = time ÷ half-life.",
+      "back": "After 3 half-lives only 1/8 is left.",
+      "visual": "content/chemistry/cards-half-life.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0011",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "type": "match",
+      "front": "Match each particle with its symbol.",
+      "back": "alpha = ⁴₂He, beta-minus = ⁰₋₁e, gamma = γ, neutron = ¹₀n.",
+      "visual": null,
+      "sketch_prompt": "Draw four small boxes, one per particle, each with the symbol and its charge written under it.",
+      "tags": [],
+      "pairs": [
+        [
+          "alpha",
+          "⁴₂He"
+        ],
+        [
+          "beta-minus",
+          "⁰₋₁e"
+        ],
+        [
+          "gamma",
+          "γ (no mass, no charge)"
+        ],
+        [
+          "neutron",
+          "¹₀n"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0012",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "type": "basic",
+      "front": "How do you calculate the relative atomic mass of an element with isotopes?",
+      "back": "A weighted average: add (fractional abundance × isotope mass) for each isotope. Example: 75% Cl-35 and 25% Cl-37 gives 35.5.",
+      "visual": null,
+      "sketch_prompt": "Draw a bar chart: a tall bar at 35 (75%) and a short bar at 37 (25%). Mark the average 35.5 closer to the tall bar.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0013",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "type": "occlusion",
+      "front": "Name the labeled orbitals in the energy ladder.",
+      "back": "1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p",
+      "visual": "content/chemistry/cards-orbital-order.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0014",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "type": "order",
+      "front": "Put the orbitals in the order they fill (lowest energy first).",
+      "back": "1s → 2s → 2p → 3s → 3p → 4s → 3d → 4p",
+      "visual": "content/chemistry/cards-orbital-order.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "items": [
+        "1s",
+        "2s",
+        "2p",
+        "3s",
+        "3p",
+        "4s",
+        "3d",
+        "4p"
+      ]
+    },
+    {
+      "id": "chemistry-0015",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "type": "basic",
+      "front": "How many electrons fit in an s, p and d subshell? And in shell n?",
+      "back": "s: 2, p: 6, d: 10. Shell n holds 2n² electrons (n = 3 holds 18).",
+      "visual": "content/chemistry/cards-orbital-order.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0016",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "type": "basic",
+      "front": "State the Pauli exclusion principle and Hund's rule.",
+      "back": "Pauli: an orbital holds at most 2 electrons, with opposite spins. Hund: fill each orbital of a subshell with one electron (same spin) before pairing up.",
+      "visual": null,
+      "sketch_prompt": "Draw three p boxes. Fill them ↑ ↑ ↑ for N, then ↑↓ ↑ ↑ for O. Cross out a version that pairs early.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0017",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "type": "cloze",
+      "front": "Quantum numbers: l = 0 is {{s}}, l = 1 is {{p}}, l = 2 is {{d}}; mₗ runs from {{-l}} to {{+l}}.",
+      "back": "n is the shell; l gives the shape; mₗ the orientation.",
+      "visual": null,
+      "sketch_prompt": "Draw an s sphere, a p dumbbell along x, y and z, and write l = 0 and l = 1 under them.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0018",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "type": "basic",
+      "front": "What is the ground-state configuration of Cr and of Cu?",
+      "back": "Cr: [Ar] 4s¹ 3d⁵. Cu: [Ar] 4s¹ 3d¹⁰. A half-full or full d subshell is extra stable.",
+      "visual": null,
+      "sketch_prompt": "Draw the 4s and five 3d boxes for Cr with six single arrows, and for Cu with 4s single and 3d all paired.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0019",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "type": "basic",
+      "front": "What is the difference between paramagnetic and diamagnetic?",
+      "back": "Paramagnetic: at least one unpaired electron, pulled into a magnetic field (Fe has 4 unpaired). Diamagnetic: all paired, weakly repelled (Zn).",
+      "visual": null,
+      "sketch_prompt": "Draw a magnet with an iron atom (4 single arrows) pulled in and a zinc atom (all paired arrows) pushed away.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0020",
+      "subtopic": "chemistry.inorganic.trends",
+      "type": "occlusion",
+      "front": "Which three trends are written in the box?",
+      "back": "Ionization energy, Electronegativity, Atomic radius",
+      "visual": "content/chemistry/cards-trends.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0021",
+      "subtopic": "chemistry.inorganic.trends",
+      "type": "basic",
+      "front": "How does atomic radius change across a period and down a group?",
+      "back": "Across a period it decreases (more protons pull the same shell closer). Down a group it increases (extra shells).",
+      "visual": "content/chemistry/cards-trends.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0022",
+      "subtopic": "chemistry.inorganic.trends",
+      "type": "basic",
+      "front": "Which element has the highest electronegativity, and which the lowest?",
+      "back": "Fluorine is highest (4.0 on the Pauling scale). Cesium and francium are the lowest.",
+      "visual": "content/chemistry/cards-trends.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0023",
+      "subtopic": "chemistry.inorganic.trends",
+      "type": "basic",
+      "front": "Why is the first ionization energy of oxygen lower than nitrogen's?",
+      "back": "In O, one 2p orbital holds a PAIR of electrons that repel each other, so one is easier to remove. Similar dip: Be to B.",
+      "visual": null,
+      "sketch_prompt": "Draw ionization energy against atomic number for Li to Ne as a zigzag. Mark the two dips at B and O.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0024",
+      "subtopic": "chemistry.inorganic.trends",
+      "type": "order",
+      "front": "Put in order of INCREASING atomic radius.",
+      "back": "F → O → N → C → Li",
+      "visual": null,
+      "sketch_prompt": "Draw six circles of growing size labeled F, O, N, C, Li from left to right.",
+      "tags": [],
+      "items": [
+        "F",
+        "O",
+        "N",
+        "C",
+        "Li"
+      ]
+    },
+    {
+      "id": "chemistry-0025",
+      "subtopic": "chemistry.inorganic.trends",
+      "type": "basic",
+      "front": "How do cation and anion sizes compare with their atoms? What about isoelectronic ions?",
+      "back": "Cations are smaller than their atoms; anions are larger. For isoelectronic ions, more protons means smaller: Al³⁺ < Mg²⁺ < Na⁺ < F⁻ < O²⁻.",
+      "visual": null,
+      "sketch_prompt": "Draw Na and Na⁺ side by side (Na⁺ clearly smaller), then Cl and Cl⁻ (Cl⁻ clearly larger).",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0026",
+      "subtopic": "chemistry.inorganic.trends",
+      "type": "basic",
+      "front": "Which halogen releases the most energy when it gains an electron (most negative electron affinity)?",
+      "back": "Chlorine, not fluorine. Fluorine is so small that the extra electron is crowded by its dense 2p electrons.",
+      "visual": null,
+      "sketch_prompt": "Draw F and Cl as circles (F smaller). Show an electron arriving at each and write 'crowded' next to F.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0027",
+      "subtopic": "chemistry.inorganic.bonding",
+      "type": "occlusion",
+      "front": "Name the three bond types in the picture.",
+      "back": "Ionic, Covalent, Metallic",
+      "visual": "content/chemistry/cards-bonding-types.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0028",
+      "subtopic": "chemistry.inorganic.bonding",
+      "type": "occlusion",
+      "front": "Name the three VSEPR geometries in the picture.",
+      "back": "Linear, Trigonal planar, Tetrahedral",
+      "visual": "content/chemistry/cards-vsepr.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0029",
+      "subtopic": "chemistry.inorganic.bonding",
+      "type": "match",
+      "front": "Match each molecular shape with its ideal bond angle.",
+      "back": "Linear 180°, trigonal planar 120°, tetrahedral 109.5°, bent (H₂O) 104.5°, pyramidal (NH₃) 107°.",
+      "visual": "content/chemistry/cards-vsepr.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "pairs": [
+        [
+          "Linear",
+          "180°"
+        ],
+        [
+          "Trigonal planar",
+          "120°"
+        ],
+        [
+          "Tetrahedral",
+          "109.5°"
+        ],
+        [
+          "Bent (H₂O)",
+          "104.5°"
+        ],
+        [
+          "Pyramidal (NH₃)",
+          "107°"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0030",
+      "subtopic": "chemistry.inorganic.bonding",
+      "type": "basic",
+      "front": "Which hybridization goes with 2, 3 and 4 electron regions?",
+      "back": "2 regions: sp (linear: CO₂, C₂H₂). 3 regions: sp² (trigonal planar: BF₃, C₂H₄). 4 regions: sp³ (tetrahedral: CH₄, NH₃, H₂O).",
+      "visual": "content/chemistry/cards-vsepr.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0031",
+      "subtopic": "chemistry.inorganic.bonding",
+      "type": "order",
+      "front": "Order these attractions from WEAKEST to STRONGEST (typical).",
+      "back": "London dispersion → dipole-dipole → hydrogen bond → ionic bond",
+      "visual": null,
+      "sketch_prompt": "Draw four arrows of growing thickness, each labeled with one attraction.",
+      "tags": [],
+      "items": [
+        "London dispersion",
+        "Dipole-dipole",
+        "Hydrogen bond",
+        "Ionic bond"
+      ]
+    },
+    {
+      "id": "chemistry-0032",
+      "subtopic": "chemistry.inorganic.bonding",
+      "type": "basic",
+      "front": "When can molecules form hydrogen bonds?",
+      "back": "When H is bonded to N, O or F, and a neighboring molecule has a lone pair on N, O or F. Examples: H₂O, NH₃, HF.",
+      "visual": null,
+      "sketch_prompt": "Draw two water molecules. Draw a dotted line from an H of one to the O of the other and label it 'hydrogen bond'.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0033",
+      "subtopic": "chemistry.inorganic.bonding",
+      "type": "basic",
+      "front": "What kind of oxides are acidic, basic and amphoteric?",
+      "back": "Metal oxides are basic (Na₂O + H₂O → 2NaOH). Nonmetal oxides are acidic (CO₂, SO₃). Al₂O₃ and ZnO are amphoteric (react with both).",
+      "visual": null,
+      "sketch_prompt": "Draw a line from left to right across period 3 (Na₂O, MgO, Al₂O₃, SiO₂, P₄O₁₀, SO₃) shading basic → amphoteric → acidic.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0034",
+      "subtopic": "chemistry.inorganic.reactions",
+      "type": "occlusion",
+      "front": "Name the five reaction types.",
+      "back": "Synthesis, Decomposition, Single replacement, Double replacement, Combustion",
+      "visual": "content/chemistry/cards-reaction-types.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0035",
+      "subtopic": "chemistry.inorganic.reactions",
+      "type": "occlusion",
+      "front": "Name the four boxes of the mole map.",
+      "back": "Mass, Moles, Particles, Gas volume",
+      "visual": "content/chemistry/cards-mole-map.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0036",
+      "subtopic": "chemistry.inorganic.reactions",
+      "type": "cloze",
+      "front": "n = m ÷ {{M}}; particles N = n × {{6.02 × 10²³}}; gas volume at STP V = n × {{22.4 L}}.",
+      "back": "M is molar mass in g/mol. At STP (0 °C, 1 atm) 1 mol of gas is 22.4 L.",
+      "visual": "content/chemistry/cards-mole-map.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0037",
+      "subtopic": "chemistry.inorganic.reactions",
+      "type": "cloze",
+      "front": "Empirical formula: grams → {{moles}} → divide by the {{smallest}} → multiply to get {{whole numbers}}.",
+      "back": "Example: C 40%, H 6.7%, O 53.3% gives C:H:O = 1:2:1, so CH₂O.",
+      "visual": null,
+      "sketch_prompt": "Draw four boxes in a row for the four steps, with the C/H/O example filled in under them.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0038",
+      "subtopic": "chemistry.inorganic.reactions",
+      "type": "basic",
+      "front": "Balance: C₃H₈ + O₂ → CO₂ + H₂O",
+      "back": "C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. Balance C first, then H, and O last.",
+      "visual": null,
+      "sketch_prompt": "Write the equation and make a small table of atoms left/right (C, H, O). Fix one row at a time.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0039",
+      "subtopic": "chemistry.inorganic.reactions",
+      "type": "basic",
+      "front": "How do you find the limiting reactant?",
+      "back": "Convert each amount to moles and divide by its coefficient. The smallest result is the limiting reactant; it decides how much product forms.",
+      "visual": null,
+      "sketch_prompt": "Draw sandwiches: 2 slices of bread per 1 slice of cheese. Count how many sandwiches 10 bread and 3 cheese can make.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0040",
+      "subtopic": "chemistry.inorganic.reactions",
+      "type": "match",
+      "front": "Match each reaction with its type.",
+      "back": "Synthesis, decomposition, single replacement, double replacement.",
+      "visual": "content/chemistry/cards-reaction-types.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "pairs": [
+        [
+          "2H₂ + O₂ → 2H₂O",
+          "Synthesis"
+        ],
+        [
+          "2H₂O₂ → 2H₂O + O₂",
+          "Decomposition"
+        ],
+        [
+          "Zn + CuSO₄ → ZnSO₄ + Cu",
+          "Single replacement"
+        ],
+        [
+          "AgNO₃ + NaCl → AgCl + NaNO₃",
+          "Double replacement"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0041",
+      "subtopic": "chemistry.analytical.solutions",
+      "type": "occlusion",
+      "front": "Name the two labeled parts of the beaker.",
+      "back": "Solute, Solution volume",
+      "visual": "content/chemistry/cards-molarity.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0042",
+      "subtopic": "chemistry.analytical.solutions",
+      "type": "cloze",
+      "front": "Molarity M = {{moles of solute}} ÷ {{liters of solution}}; molality m = moles of solute ÷ {{kg of solvent}}.",
+      "back": "Molarity uses the whole solution; molality uses only the solvent.",
+      "visual": "content/chemistry/cards-molarity.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0043",
+      "subtopic": "chemistry.analytical.solutions",
+      "type": "cloze",
+      "front": "Dilution: {{M₁V₁}} = {{M₂V₂}}, because the moles of solute stay the same.",
+      "back": "Add solvent only; the amount of solute does not change.",
+      "visual": "content/chemistry/cards-molarity.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0044",
+      "subtopic": "chemistry.analytical.solutions",
+      "type": "cloze",
+      "front": "Water self-ionization: Kw = [H⁺][OH⁻] = {{1.0 × 10⁻¹⁴}} at 25 °C, so pH + pOH = {{14}}.",
+      "back": "Pure water: [H⁺] = [OH⁻] = 10⁻⁷ M, so pH = 7.",
+      "visual": "content/chemistry/cards-ph-scale.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0045",
+      "subtopic": "chemistry.analytical.solutions",
+      "type": "occlusion",
+      "front": "Name the three zones of the pH scale.",
+      "back": "Acidic, Neutral, Basic",
+      "visual": "content/chemistry/cards-ph-scale.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0046",
+      "subtopic": "chemistry.analytical.solutions",
+      "type": "basic",
+      "front": "Which salts make acidic, basic or neutral solutions?",
+      "back": "Strong acid + strong base (NaCl): neutral. Weak acid + strong base (sodium acetate): basic. Strong acid + weak base (NH₄Cl): acidic.",
+      "visual": null,
+      "sketch_prompt": "Draw a 2 × 2 table: acid strong/weak across, base strong/weak down. Fill each box with an example salt and write acidic, basic or neutral.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0047",
+      "subtopic": "chemistry.analytical.solutions",
+      "type": "basic",
+      "front": "Does pure water at 50 °C have pH 7?",
+      "back": "No. Kw rises with temperature (5.5 × 10⁻¹⁴ at 50 °C) so pH ≈ 6.63. It is still NEUTRAL because [H⁺] = [OH⁻].",
+      "visual": null,
+      "sketch_prompt": "Draw the pH scale with a tick at 7 (25 °C) and another at 6.63 (50 °C) both labeled 'neutral'.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0048",
+      "subtopic": "chemistry.analytical.acid-base",
+      "type": "occlusion",
+      "front": "Name the four boxes of the conjugate-pair picture.",
+      "back": "Acid, Base, Conjugate base, Conjugate acid",
+      "visual": "content/chemistry/cards-conjugate-pairs.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0049",
+      "subtopic": "chemistry.analytical.acid-base",
+      "type": "basic",
+      "front": "State the Arrhenius, Brønsted and Lewis definitions of an acid.",
+      "back": "Arrhenius: gives H⁺ in water. Brønsted: donates H⁺. Lewis: accepts an electron pair (so BF₃ is a Lewis acid).",
+      "visual": null,
+      "sketch_prompt": "Draw three small panels: H⁺ leaving HCl in water; H⁺ jumping from one molecule to another; an arrow of electrons from NH₃ to BF₃.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0050",
+      "subtopic": "chemistry.analytical.acid-base",
+      "type": "cloze",
+      "front": "pH = -log[{{H⁺}}]; pOH = -log[{{OH⁻}}]; pH + pOH = {{14}}.",
+      "back": "Each pH step is a factor of 10 in [H⁺].",
+      "visual": "content/chemistry/cards-ph-scale.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0051",
+      "subtopic": "chemistry.analytical.acid-base",
+      "type": "cloze",
+      "front": "For a weak acid, Ka = [H⁺][A⁻] ÷ [{{HA}}]. For a conjugate pair, Ka × Kb = {{Kw}}.",
+      "back": "A bigger Ka means a stronger acid.",
+      "visual": null,
+      "sketch_prompt": "Draw HA splitting into H⁺ and A⁻ with a double arrow; write Ka under the arrow.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0052",
+      "subtopic": "chemistry.analytical.acid-base",
+      "type": "basic",
+      "front": "Write the Henderson-Hasselbalch equation and when a buffer works best.",
+      "back": "pH = pKa + log([A⁻] ÷ [HA]). A buffer resists pH change; it works best when [A⁻] ≈ [HA], so pH ≈ pKa.",
+      "visual": null,
+      "sketch_prompt": "Draw a beaker with acetic acid (HA) and acetate (A⁻). One arrow from added H⁺ to A⁻, one from added OH⁻ to HA.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0053",
+      "subtopic": "chemistry.analytical.acid-base",
+      "type": "match",
+      "front": "Match each acid with its conjugate base.",
+      "back": "HCl → Cl⁻, H₂O → OH⁻, NH₄⁺ → NH₃, H₂SO₄ → HSO₄⁻.",
+      "visual": "content/chemistry/cards-conjugate-pairs.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "pairs": [
+        [
+          "HCl",
+          "Cl⁻"
+        ],
+        [
+          "H₂O",
+          "OH⁻"
+        ],
+        [
+          "NH₄⁺",
+          "NH₃"
+        ],
+        [
+          "H₂SO₄",
+          "HSO₄⁻"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0054",
+      "subtopic": "chemistry.analytical.acid-base",
+      "type": "order",
+      "front": "Order 0.1 M solutions from HIGHEST pH to LOWEST.",
+      "back": "NaOH → NH₃ → NaCl → CH₃COOH → HCl",
+      "visual": "content/chemistry/cards-ph-scale.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "items": [
+        "NaOH",
+        "NH₃",
+        "NaCl",
+        "CH₃COOH",
+        "HCl"
+      ]
+    },
+    {
+      "id": "chemistry-0055",
+      "subtopic": "chemistry.analytical.solubility",
+      "type": "occlusion",
+      "front": "Name the three kinds of solution in the picture.",
+      "back": "Unsaturated, Saturated, Supersaturated",
+      "visual": "content/chemistry/cards-saturation.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0056",
+      "subtopic": "chemistry.analytical.solubility",
+      "type": "cloze",
+      "front": "Ksp of AgCl = [{{Ag⁺}}][{{Cl⁻}}]. For CaF₂: Ksp = [Ca²⁺][F⁻]{{²}}.",
+      "back": "Solids are left out of the Ksp expression.",
+      "visual": "content/chemistry/cards-saturation.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0057",
+      "subtopic": "chemistry.analytical.solubility",
+      "type": "basic",
+      "front": "Compare Q with Ksp: what does each case mean?",
+      "back": "Q < Ksp: unsaturated, more can dissolve. Q = Ksp: saturated (equilibrium). Q > Ksp: a precipitate forms.",
+      "visual": "content/chemistry/cards-saturation.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0058",
+      "subtopic": "chemistry.analytical.solubility",
+      "type": "basic",
+      "front": "Name the main solubility rules.",
+      "back": "Always soluble: Group 1 and NH₄⁺ salts, nitrates, acetates. Halides soluble except Ag⁺, Pb²⁺. Sulfates soluble except Ba²⁺, Pb²⁺. Carbonates, hydroxides, sulfides, phosphates mostly insoluble.",
+      "visual": null,
+      "sketch_prompt": "Draw a table with 'always soluble' on top and 'insoluble' below it, and place an example salt in each row.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0059",
+      "subtopic": "chemistry.analytical.solubility",
+      "type": "basic",
+      "front": "What is the common-ion effect?",
+      "back": "Adding an ion that is already in the equilibrium lowers the solubility of a salt. AgCl dissolves less in NaCl solution than in pure water.",
+      "visual": null,
+      "sketch_prompt": "Draw a beaker with AgCl solid and a few ions. Then draw a second beaker with extra Cl⁻ and even less dissolved.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0060",
+      "subtopic": "chemistry.analytical.solubility",
+      "type": "match",
+      "front": "Match each salt with its solubility in water.",
+      "back": "NaNO₃ soluble, AgCl insoluble, BaSO₄ insoluble, (NH₄)₂CO₃ soluble.",
+      "visual": null,
+      "sketch_prompt": "Draw two beakers: one clear with dissolved ions, one with white solid at the bottom. Put each salt under the correct beaker.",
+      "tags": [],
+      "pairs": [
+        [
+          "NaNO₃",
+          "Soluble"
+        ],
+        [
+          "AgCl",
+          "Insoluble"
+        ],
+        [
+          "BaSO₄",
+          "Insoluble"
+        ],
+        [
+          "(NH₄)₂CO₃",
+          "Soluble"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0061",
+      "subtopic": "chemistry.analytical.solubility",
+      "type": "cloze",
+      "front": "For AB₂ (like CaF₂) with molar solubility s: Ksp = s × (2s)² = {{4s³}}. For AB: Ksp = {{s²}}.",
+      "back": "Count ions: each formula unit gives 1 Ca²⁺ and 2 F⁻.",
+      "visual": null,
+      "sketch_prompt": "Write CaF₂ → Ca²⁺ + 2F⁻ and under it s and 2s. Multiply the two concentration terms.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0062",
+      "subtopic": "chemistry.analytical.quantitative",
+      "type": "occlusion",
+      "front": "What is the labeled point on the titration curve?",
+      "back": "Equivalence point",
+      "visual": "content/chemistry/cards-titration-curve.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0063",
+      "subtopic": "chemistry.analytical.quantitative",
+      "type": "cloze",
+      "front": "At equivalence, mol H⁺ = mol {{OH⁻}}: Mₐ Vₐ nₐ = {{M_b V_b n_b}}.",
+      "back": "n = H⁺ or OH⁻ per formula unit; H₂SO₄ has n = 2.",
+      "visual": "content/chemistry/cards-titration-curve.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0064",
+      "subtopic": "chemistry.analytical.quantitative",
+      "type": "basic",
+      "front": "What is the pH at equivalence for strong/strong, weak acid/strong base, strong acid/weak base?",
+      "back": "Strong/strong: 7. Weak acid + strong base: above 7 (the conjugate base is basic). Strong acid + weak base: below 7.",
+      "visual": "content/chemistry/cards-titration-curve.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0065",
+      "subtopic": "chemistry.analytical.quantitative",
+      "type": "match",
+      "front": "Match each indicator with its color change.",
+      "back": "Methyl orange 3.1-4.4, methyl red 4.4-6.2, bromothymol blue 6.0-7.6, phenolphthalein 8.2-10.",
+      "visual": null,
+      "sketch_prompt": "Draw a pH ruler from 0 to 14 and color a bar under it for each indicator's range.",
+      "tags": [],
+      "pairs": [
+        [
+          "Methyl orange",
+          "pH 3.1-4.4, red to yellow"
+        ],
+        [
+          "Methyl red",
+          "pH 4.4-6.2, red to yellow"
+        ],
+        [
+          "Bromothymol blue",
+          "pH 6.0-7.6, yellow to blue"
+        ],
+        [
+          "Phenolphthalein",
+          "pH 8.2-10, colorless to pink"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0066",
+      "subtopic": "chemistry.analytical.quantitative",
+      "type": "basic",
+      "front": "How do you pick an indicator?",
+      "back": "Choose one whose color-change range lies on the steep (vertical) part of the curve around the equivalence point pH.",
+      "visual": null,
+      "sketch_prompt": "Sketch a titration curve and shade a horizontal band across the steep rise. Write 'indicator range must fall here'.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0067",
+      "subtopic": "chemistry.analytical.quantitative",
+      "type": "basic",
+      "front": "Where is the half-equivalence point of a weak acid titration, and what is the pH there?",
+      "back": "At half the equivalence volume [HA] = [A⁻], so pH = pKa. It is the middle of the buffer region.",
+      "visual": "content/chemistry/cards-titration-curve.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0068",
+      "subtopic": "chemistry.analytical.quantitative",
+      "type": "order",
+      "front": "Put the steps of a titration in order.",
+      "back": "Rinse burette → fill and read it → add indicator to flask → titrate to a faint lasting color → read the end volume",
+      "visual": null,
+      "sketch_prompt": "Draw a burette over a flask with a swirling arrow. Number the five steps beside it.",
+      "tags": [],
+      "items": [
+        "Rinse the burette with titrant",
+        "Fill the burette and read the start volume",
+        "Add indicator to the flask",
+        "Titrate to a faint lasting color change",
+        "Read the end volume"
+      ]
+    },
+    {
+      "id": "chemistry-0069",
+      "subtopic": "chemistry.analytical.qualitative",
+      "type": "occlusion",
+      "front": "Which ion gives each of the six flame colors?",
+      "back": "Li⁺, Na⁺, K⁺, Ca²⁺, Cu²⁺, Ba²⁺",
+      "visual": "content/chemistry/cards-flame-tests.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0070",
+      "subtopic": "chemistry.analytical.qualitative",
+      "type": "match",
+      "front": "Match each ion with its flame color.",
+      "back": "Li⁺ crimson, Na⁺ intense yellow, K⁺ lilac, Cu²⁺ blue-green.",
+      "visual": "content/chemistry/cards-flame-tests.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "pairs": [
+        [
+          "Li⁺",
+          "Crimson red"
+        ],
+        [
+          "Na⁺",
+          "Intense yellow"
+        ],
+        [
+          "K⁺",
+          "Lilac"
+        ],
+        [
+          "Cu²⁺",
+          "Blue-green"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0071",
+      "subtopic": "chemistry.analytical.qualitative",
+      "type": "basic",
+      "front": "How do you test for chloride, bromide and iodide?",
+      "back": "Add dilute HNO₃ then AgNO₃. Cl⁻: white precipitate. Br⁻: cream. I⁻: yellow. AgCl dissolves in dilute NH₃.",
+      "visual": null,
+      "sketch_prompt": "Draw three test tubes with a white, a cream and a yellow cloud and label each with its ion.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0072",
+      "subtopic": "chemistry.analytical.qualitative",
+      "type": "basic",
+      "front": "How do you test for sulfate?",
+      "back": "Add dilute HCl, then BaCl₂. A white precipitate of BaSO₄ confirms sulfate. The acid first removes carbonate.",
+      "visual": null,
+      "sketch_prompt": "Draw a test tube with a white solid at the bottom and write Ba²⁺ + SO₄²⁻ → BaSO₄ next to it.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0073",
+      "subtopic": "chemistry.analytical.qualitative",
+      "type": "basic",
+      "front": "How do you test for carbonate and for ammonium?",
+      "back": "Carbonate: add acid; CO₂ gas turns limewater milky. Ammonium: add NaOH and warm; NH₃ gas turns damp red litmus blue.",
+      "visual": null,
+      "sketch_prompt": "Draw a flask with bubbles leading through a tube into limewater turning cloudy. Beside it draw damp litmus turning blue over a warm flask.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0074",
+      "subtopic": "chemistry.analytical.qualitative",
+      "type": "basic",
+      "front": "What do cations give with NaOH solution?",
+      "back": "Cu²⁺: pale blue precipitate. Fe²⁺: green. Fe³⁺: red-brown. Al³⁺ and Zn²⁺: white, dissolving in excess NaOH. Ca²⁺ and Mg²⁺: white, insoluble in excess.",
+      "visual": null,
+      "sketch_prompt": "Draw a row of test tubes with colored precipitates (blue, green, red-brown, white) and label the ion above each.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0075",
+      "subtopic": "chemistry.analytical.qualitative",
+      "type": "basic",
+      "front": "Why do metals give flame colors?",
+      "back": "Heat lifts electrons to higher energy levels. When they fall back they emit light of specific colors, and that color is a fingerprint of the metal.",
+      "visual": null,
+      "sketch_prompt": "Draw energy levels with an arrow up (heat) and a wavy arrow down labeled 'light of one color'.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0076",
+      "subtopic": "chemistry.physical.equilibrium",
+      "type": "occlusion",
+      "front": "Name the five labels on the phase diagram.",
+      "back": "Solid, Liquid, Gas, Triple point, Critical point",
+      "visual": "content/chemistry/cards-phase-diagram.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0077",
+      "subtopic": "chemistry.physical.equilibrium",
+      "type": "cloze",
+      "front": "Ideal gas law: PV = {{nRT}}. T must be in {{kelvin}}. R = {{0.0821}} L·atm/(mol·K).",
+      "back": "At STP (0 °C, 1 atm) one mole of gas is 22.4 L.",
+      "visual": "content/chemistry/cards-gas-law.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0078",
+      "subtopic": "chemistry.physical.equilibrium",
+      "type": "basic",
+      "front": "How does N₂ + 3H₂ ⇌ 2NH₃ (exothermic) respond to more pressure, more heat and a catalyst?",
+      "back": "More pressure: shifts right (fewer gas moles). More heat: shifts left (toward the endothermic side). Catalyst: no shift, just faster.",
+      "visual": "content/chemistry/cards-le-chatelier.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0079",
+      "subtopic": "chemistry.physical.equilibrium",
+      "type": "cloze",
+      "front": "Kc = [products]^coefficients ÷ [reactants]^coefficients; pure {{solids}} and {{liquids}} are left out.",
+      "back": "Example: for 2NO₂ ⇌ N₂O₄, Kc = [N₂O₄] ÷ [NO₂]².",
+      "visual": "content/chemistry/cards-equilibrium-k.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0080",
+      "subtopic": "chemistry.physical.equilibrium",
+      "type": "cloze",
+      "front": "ΔG° = {{-RT ln K}}. If K > 1, ΔG° is {{negative}}.",
+      "back": "R = 8.314 J/(mol·K).",
+      "visual": "content/chemistry/cards-equilibrium-k.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0081",
+      "subtopic": "chemistry.physical.equilibrium",
+      "type": "basic",
+      "front": "Write the colligative formulas for freezing point and boiling point.",
+      "back": "ΔTf = i·Kf·m and ΔTb = i·Kb·m. For water Kf = 1.86 and Kb = 0.512 °C·kg/mol. i = particles per formula unit (NaCl ≈ 2).",
+      "visual": "content/chemistry/cards-equilibrium-k.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0082",
+      "subtopic": "chemistry.physical.equilibrium",
+      "type": "basic",
+      "front": "How are Kp and Kc related?",
+      "back": "Kp = Kc (RT)^Δn, where Δn = gas moles of products minus gas moles of reactants.",
+      "visual": "content/chemistry/cards-equilibrium-k.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0083",
+      "subtopic": "chemistry.physical.equilibrium",
+      "type": "basic",
+      "front": "Why does the solid-liquid line of water slope to the left?",
+      "back": "Ice is less dense than liquid water, so pressure favors the liquid and the melting point falls as pressure rises.",
+      "visual": "content/chemistry/cards-phase-diagram.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0084",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "cloze",
+      "front": "First law: ΔU = {{q}} + {{w}}, where w is work done ON the system.",
+      "back": "A system that does work loses energy.",
+      "visual": "content/chemistry/cards-thermo-formulas.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0085",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "cloze",
+      "front": "Heat: q = {{m c ΔT}}. For water, c = 4.18 J/(g·°C).",
+      "back": "q in joules when m is in grams.",
+      "visual": "content/chemistry/cards-thermo-formulas.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0086",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "cloze",
+      "front": "ΔH°rxn = Σ ΔHf°({{products}}) - Σ ΔHf°({{reactants}}). ΔHf° of an element in its standard state is {{0}}.",
+      "back": "Example: ΔHf°(O₂) = 0.",
+      "visual": "content/chemistry/cards-thermo-formulas.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0087",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "cloze",
+      "front": "Bond enthalpies: ΔH°rxn = Σ bonds {{broken}} - Σ bonds {{formed}}.",
+      "back": "Breaking bonds costs energy; forming bonds releases energy.",
+      "visual": "content/chemistry/cards-thermo-formulas.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0088",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "occlusion",
+      "front": "Name the two levels in the enthalpy diagram.",
+      "back": "Reactants, Products",
+      "visual": "content/chemistry/cards-enthalpy.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0089",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "basic",
+      "front": "State Hess's law and how to handle a reversed or multiplied step.",
+      "back": "The total ΔH is the sum of the ΔH of the steps. Reverse a step: flip the sign. Multiply a step: multiply its ΔH.",
+      "visual": "content/chemistry/cards-enthalpy.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0090",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "basic",
+      "front": "When is a reaction spontaneous? (ΔG = ΔH - TΔS)",
+      "back": "When ΔG < 0. ΔH < 0 and ΔS > 0: always. ΔH > 0 and ΔS < 0: never. Otherwise it depends on T.",
+      "visual": "content/chemistry/cards-thermo-formulas.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0091",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "order",
+      "front": "Order by increasing entropy.",
+      "back": "Ice → liquid water → steam",
+      "visual": null,
+      "sketch_prompt": "Draw three boxes with a few particles in a neat lattice, a loose crowd, and spread far apart.",
+      "tags": [],
+      "items": [
+        "Ice",
+        "Liquid water",
+        "Steam"
+      ]
+    },
+    {
+      "id": "chemistry-0092",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "basic",
+      "front": "What are ΔHfus and ΔHvap for water, and what happens to the temperature during a phase change?",
+      "back": "ΔHfus = 6.01 kJ/mol; ΔHvap = 40.7 kJ/mol. During a phase change the temperature stays constant while q = n·ΔH.",
+      "visual": null,
+      "sketch_prompt": "Draw a heating curve for water with two flat steps (melting at 0 °C, boiling at 100 °C) and label them.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0093",
+      "subtopic": "chemistry.physical.thermo",
+      "type": "basic",
+      "front": "What makes lattice energy larger?",
+      "back": "Higher ion charges and smaller ions. MgO (2+/2-) has a much larger lattice energy than NaCl (1+/1-).",
+      "visual": null,
+      "sketch_prompt": "Draw two crystals: Mg²⁺ with O²⁻ close together and Na⁺ with Cl⁻ farther apart. Write 'stronger attraction' on the first.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0094",
+      "subtopic": "chemistry.organic.concepts",
+      "type": "occlusion",
+      "front": "Name the three family endings in the picture.",
+      "back": "alkane -ane, alkene -ene, alkyne -yne",
+      "visual": "content/chemistry/cards-organic-naming.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0095",
+      "subtopic": "chemistry.organic.concepts",
+      "type": "order",
+      "front": "Order the carbon-chain prefixes from 1 to 6 carbons.",
+      "back": "meth → eth → prop → but → pent → hex",
+      "visual": "content/chemistry/cards-organic-naming.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "items": [
+        "meth-",
+        "eth-",
+        "prop-",
+        "but-",
+        "pent-",
+        "hex-"
+      ]
+    },
+    {
+      "id": "chemistry-0096",
+      "subtopic": "chemistry.organic.concepts",
+      "type": "basic",
+      "front": "What are the three steps of IUPAC naming?",
+      "back": "1) Find the longest chain. 2) Number from the end nearest the double bond or first branch. 3) Name branches alphabetically with their numbers, such as 2-methylbutane.",
+      "visual": "content/chemistry/cards-organic-naming.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0097",
+      "subtopic": "chemistry.organic.concepts",
+      "type": "basic",
+      "front": "What is the difference between constitutional isomers and stereoisomers?",
+      "back": "Constitutional isomers have the same formula but different connections (butane and 2-methylpropane). Stereoisomers have the same connections but a different 3D arrangement.",
+      "visual": null,
+      "sketch_prompt": "Draw butane as a straight chain and 2-methylpropane with a branch. Under them write C₄H₁₀ for both.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0098",
+      "subtopic": "chemistry.organic.concepts",
+      "type": "basic",
+      "front": "What makes a carbon chiral, and what are enantiomers?",
+      "back": "A chiral carbon has four DIFFERENT groups. Its two mirror images (enantiomers) cannot be stacked on each other and rotate polarized light in opposite directions.",
+      "visual": null,
+      "sketch_prompt": "Draw a carbon with four different colored balls and its mirror image next to it. Show that you cannot rotate one into the other.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0099",
+      "subtopic": "chemistry.organic.concepts",
+      "type": "basic",
+      "front": "Which butane conformation is the most stable, and which is the least?",
+      "back": "Anti (CH₃ groups 180° apart) is the most stable. Fully eclipsed (CH₃ groups 0° apart) is the least stable. Gauche (60°) is in between.",
+      "visual": null,
+      "sketch_prompt": "Draw three Newman projections of butane (anti, gauche, eclipsed) and rank them with an energy arrow.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0100",
+      "subtopic": "chemistry.organic.concepts",
+      "type": "basic",
+      "front": "What do curved arrows show in an arrow-pushing mechanism?",
+      "back": "They show the movement of an electron PAIR, from the electron-rich place (a lone pair or a bond) to the electron-poor place.",
+      "visual": null,
+      "sketch_prompt": "Draw OH⁻ attacking a carbon with a curved arrow starting at the lone pair and ending at the carbon.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0101",
+      "subtopic": "chemistry.organic.reactions",
+      "type": "occlusion",
+      "front": "Name the two labeled species in the SN2 picture.",
+      "back": "Nucleophile, Leaving group",
+      "visual": "content/chemistry/cards-sn2-mechanism.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0102",
+      "subtopic": "chemistry.organic.reactions",
+      "type": "basic",
+      "front": "Summarize SN2.",
+      "back": "One step; the nucleophile attacks from the BACK, so the carbon is inverted. Rate = k[RX][Nu]. Best on methyl and primary carbons.",
+      "visual": "content/chemistry/cards-sn2-mechanism.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0103",
+      "subtopic": "chemistry.organic.reactions",
+      "type": "basic",
+      "front": "Summarize SN1.",
+      "back": "Two steps: the leaving group leaves first, giving a carbocation. Rate = k[RX]. Best on tertiary carbons. The product is a racemic mixture.",
+      "visual": "content/chemistry/cards-sn2-mechanism.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0104",
+      "subtopic": "chemistry.organic.reactions",
+      "type": "basic",
+      "front": "What is Markovnikov's rule for adding HBr to an alkene?",
+      "back": "H adds to the carbon that already has more hydrogens; Br ends up on the more substituted carbon (the more stable carbocation).",
+      "visual": null,
+      "sketch_prompt": "Draw propene. Add HBr with two arrows: the double bond attacks H, then Br⁻ attacks the secondary carbon. Name the product 2-bromopropane.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0105",
+      "subtopic": "chemistry.organic.reactions",
+      "type": "basic",
+      "front": "What happens in an E2 elimination?",
+      "back": "A strong base removes an H while the leaving group leaves, in one step, making a C=C. Zaitsev: the more substituted alkene is the major product. Heat favors elimination.",
+      "visual": null,
+      "sketch_prompt": "Draw a C-C with H on one carbon and Br on the other, opposite each other (anti). Show the base pulling H and a new double bond forming.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0106",
+      "subtopic": "chemistry.organic.reactions",
+      "type": "order",
+      "front": "Order carbocations from LEAST to MOST stable.",
+      "back": "Methyl → primary → secondary → tertiary",
+      "visual": null,
+      "sketch_prompt": "Draw four carbocations with 0, 1, 2 and 3 alkyl groups and an arrow labeled 'more stable'.",
+      "tags": [],
+      "items": [
+        "Methyl",
+        "Primary",
+        "Secondary",
+        "Tertiary"
+      ]
+    },
+    {
+      "id": "chemistry-0107",
+      "subtopic": "chemistry.organic.reactions",
+      "type": "match",
+      "front": "Match each reaction with its key feature.",
+      "back": "SN2 inversion, SN1 carbocation, E2 strong base, addition Markovnikov.",
+      "visual": null,
+      "sketch_prompt": "Draw four boxes with a small energy diagram in each: one hump for SN2 and E2, two humps for SN1.",
+      "tags": [],
+      "pairs": [
+        [
+          "SN2",
+          "One step, inversion"
+        ],
+        [
+          "SN1",
+          "Carbocation, racemization"
+        ],
+        [
+          "E2",
+          "Strong base, makes C=C"
+        ],
+        [
+          "Electrophilic addition",
+          "Alkene + HBr, Markovnikov"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0108",
+      "subtopic": "chemistry.organic.functional-groups",
+      "type": "occlusion",
+      "front": "Name the six functional groups in the picture.",
+      "back": "Alcohol, Aldehyde, Ketone, Carboxylic acid, Ester, Amine",
+      "visual": "content/chemistry/cards-functional-groups.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0109",
+      "subtopic": "chemistry.organic.functional-groups",
+      "type": "match",
+      "front": "Match each group with its general formula.",
+      "back": "R-OH, R-CHO, R-CO-R, R-COOH, R-COO-R, R-NH₂.",
+      "visual": "content/chemistry/cards-functional-groups.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "pairs": [
+        [
+          "Alcohol",
+          "R-OH"
+        ],
+        [
+          "Aldehyde",
+          "R-CHO"
+        ],
+        [
+          "Ketone",
+          "R-CO-R"
+        ],
+        [
+          "Carboxylic acid",
+          "R-COOH"
+        ],
+        [
+          "Ester",
+          "R-COO-R"
+        ],
+        [
+          "Amine",
+          "R-NH₂"
+        ]
+      ]
+    },
+    {
+      "id": "chemistry-0110",
+      "subtopic": "chemistry.organic.functional-groups",
+      "type": "order",
+      "front": "Order from STRONGEST acid to WEAKEST.",
+      "back": "Carboxylic acid → phenol → water → alcohol",
+      "visual": "content/chemistry/cards-functional-groups.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "items": [
+        "Carboxylic acid",
+        "Phenol",
+        "Water",
+        "Alcohol"
+      ]
+    },
+    {
+      "id": "chemistry-0111",
+      "subtopic": "chemistry.organic.functional-groups",
+      "type": "basic",
+      "front": "Why is an amine basic?",
+      "back": "The lone pair on nitrogen can pick up H⁺: R-NH₂ + H⁺ → R-NH₃⁺.",
+      "visual": "content/chemistry/cards-functional-groups.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0112",
+      "subtopic": "chemistry.organic.functional-groups",
+      "type": "basic",
+      "front": "How does bromine water tell an alkene from an alkane?",
+      "back": "Alkenes and alkynes decolorize orange bromine water at once (addition across C=C). Alkanes do not react in the dark.",
+      "visual": null,
+      "sketch_prompt": "Draw two test tubes with orange liquid. Show one turning colorless after adding an alkene and the other staying orange with an alkane.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0113",
+      "subtopic": "chemistry.organic.functional-groups",
+      "type": "basic",
+      "front": "How do you tell an aldehyde from a ketone?",
+      "back": "An aldehyde has an H on the carbonyl carbon and is easily oxidized to a carboxylic acid. Tollens' reagent gives a silver mirror with aldehydes only.",
+      "visual": null,
+      "sketch_prompt": "Draw a test tube with a shiny silver coating labeled 'aldehyde' and a clear tube labeled 'ketone'.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0114",
+      "subtopic": "chemistry.organic.functional-groups",
+      "type": "basic",
+      "front": "Rank the boiling points of molecules of similar mass by functional group.",
+      "back": "Alkane < ketone or ether < alcohol < carboxylic acid. More hydrogen bonding means a higher boiling point.",
+      "visual": null,
+      "sketch_prompt": "Draw a bar chart with five bars of growing height labeled alkane, ether, ketone, alcohol, carboxylic acid.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0115",
+      "subtopic": "chemistry.organic.functional-groups",
+      "type": "basic",
+      "front": "How do alkanes react?",
+      "back": "Alkanes are fairly unreactive. They burn (combustion) and react with Cl₂ or Br₂ in UV light by radical substitution.",
+      "visual": null,
+      "sketch_prompt": "Draw methane next to Cl₂ with a UV bulb above. Show CH₃Cl and HCl as products.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0116",
+      "subtopic": "chemistry.lab.skills",
+      "type": "occlusion",
+      "front": "Name the four pieces of glassware.",
+      "back": "Graduated cylinder, Burette, Volumetric flask, Erlenmeyer flask",
+      "visual": "content/chemistry/cards-glassware.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "chemistry-0117",
+      "subtopic": "chemistry.lab.skills",
+      "type": "basic",
+      "front": "Which glassware gives the most precise volume?",
+      "back": "Volumetric flask and volumetric pipette: one exact volume. Burette: precise variable volume. Beakers and Erlenmeyer flasks are only rough guides.",
+      "visual": "content/chemistry/cards-glassware.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "chemistry-0118",
+      "subtopic": "chemistry.lab.skills",
+      "type": "basic",
+      "front": "How do you dilute a concentrated acid safely?",
+      "back": "Always add the ACID to the WATER, slowly, while stirring, with goggles on. Adding water to acid can spatter.",
+      "visual": null,
+      "sketch_prompt": "Draw a beaker of water with a small stream of acid going in and goggles beside it. Cross out the reverse.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0119",
+      "subtopic": "chemistry.lab.skills",
+      "type": "basic",
+      "front": "How do you read a meniscus correctly?",
+      "back": "Put your eye level with the liquid and read the bottom of the curve. Looking from above or below gives a parallax error.",
+      "visual": null,
+      "sketch_prompt": "Draw a burette with a curved liquid surface. Mark the correct eye level with a horizontal arrow and wrong angles with crossed arrows.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0120",
+      "subtopic": "chemistry.lab.skills",
+      "type": "basic",
+      "front": "What is the difference between systematic and random error, and between accuracy and precision?",
+      "back": "Systematic error pushes every reading the same way (fix by calibrating). Random error scatters readings (reduce by repeating). Accuracy = close to the true value. Precision = close together.",
+      "visual": null,
+      "sketch_prompt": "Draw four dartboards: accurate and precise, precise only, accurate only, neither.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0121",
+      "subtopic": "chemistry.lab.skills",
+      "type": "cloze",
+      "front": "Percent error = |experimental - accepted| ÷ {{accepted}} × {{100}} %.",
+      "back": "Always divide by the accepted (true) value.",
+      "visual": null,
+      "sketch_prompt": "Write the formula and fill in a worked example with 2.85 and 2.70.",
+      "tags": []
+    },
+    {
+      "id": "chemistry-0122",
+      "subtopic": "chemistry.lab.skills",
+      "type": "order",
+      "front": "Put the steps of making a standard solution in order.",
+      "back": "Weigh → dissolve → transfer and rinse → fill to the mark → invert to mix",
+      "visual": "content/chemistry/cards-glassware.svg",
+      "sketch_prompt": null,
+      "tags": [],
+      "items": [
+        "Weigh the solid",
+        "Dissolve it in a beaker with a little water",
+        "Transfer to the volumetric flask and rinse",
+        "Fill to the mark",
+        "Stopper and invert to mix"
+      ]
+    }
+  ]
+}

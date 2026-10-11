@@ -1,0 +1,1590 @@
+{
+  "version": 1,
+  "subject": "physics",
+  "questions": [
+    {
+      "id": "physics-0001",
+      "subtopic": "physics.mechanics.kinematics",
+      "difficulty": 1,
+      "stem": "A swimmer glides at a constant 2 m/s. How far does she go in 12 s?",
+      "visual": null,
+      "choices": {
+        "A": "24 m",
+        "B": "14 m",
+        "C": "20 m",
+        "D": "6 m",
+        "E": "48 m"
+      },
+      "answer": "A",
+      "explanation": "Constant speed: x = vt = 2 × 12 = 24 m.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0002",
+      "subtopic": "physics.mechanics.kinematics",
+      "difficulty": 1,
+      "stem": "A car speeds up uniformly from rest to 24 m/s in 6 s. What is its acceleration?",
+      "visual": null,
+      "choices": {
+        "A": "0.25 m/s²",
+        "B": "18 m/s²",
+        "C": "144 m/s²",
+        "D": "30 m/s²",
+        "E": "4 m/s²"
+      },
+      "answer": "E",
+      "explanation": "a = Δv/Δt = 24 ÷ 6 = 4 m/s².",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0003",
+      "subtopic": "physics.mechanics.kinematics",
+      "difficulty": 1,
+      "stem": "A ball is dropped from rest. Ignoring air, what is its speed after 3.0 s? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "88.2 m/s",
+        "B": "29.4 m/s",
+        "C": "9.8 m/s",
+        "D": "44.1 m/s",
+        "E": "14.7 m/s"
+      },
+      "answer": "B",
+      "explanation": "v = gt = 9.8 × 3.0 = 29.4 m/s. (44.1 is the distance fallen, in meters.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0004",
+      "subtopic": "physics.mechanics.kinematics",
+      "difficulty": 2,
+      "stem": "Suppose an agent dashes from rest with acceleration 5 m/s² for 2.0 s, then keeps that speed for 3.0 s. What is the total displacement?",
+      "visual": null,
+      "choices": {
+        "A": "40 m",
+        "B": "25 m",
+        "C": "30 m",
+        "D": "35 m",
+        "E": "50 m"
+      },
+      "answer": "A",
+      "explanation": "Phase 1: x₁ = ½at² = ½ × 5 × 2² = 10 m, and v = at = 10 m/s. Phase 2: x₂ = vt = 10 × 3 = 30 m. Total = 40 m.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0005",
+      "subtopic": "physics.mechanics.kinematics",
+      "difficulty": 2,
+      "stem": "A stone is thrown straight up at 14.7 m/s. How high above the launch point does it rise? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "1.5 m",
+        "B": "22.1 m",
+        "C": "11.0 m",
+        "D": "14.7 m",
+        "E": "5.5 m"
+      },
+      "answer": "C",
+      "explanation": "At the top v = 0, so v² = v₀² − 2gh gives h = v₀²/(2g) = 216.1 ÷ 19.6 ≈ 11.0 m.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0006",
+      "subtopic": "physics.mechanics.kinematics",
+      "difficulty": 2,
+      "stem": "In a 50 m pool a swimmer goes down in 20 s, turns, and comes back in 40 s. What is her average speed for the whole 100 m?",
+      "visual": null,
+      "choices": {
+        "A": "1.88 m/s",
+        "B": "0 m/s",
+        "C": "1.25 m/s",
+        "D": "1.67 m/s",
+        "E": "3.33 m/s"
+      },
+      "answer": "D",
+      "explanation": "Average speed = total distance ÷ total time = 100 ÷ 60 ≈ 1.67 m/s. (The average velocity would be 0, and the mean of the two speeds, 1.88 m/s, is not the answer.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0007",
+      "subtopic": "physics.mechanics.kinematics",
+      "difficulty": 3,
+      "stem": "Car A drives at a constant 20 m/s. Car B starts from rest 100 m behind A at the same moment and accelerates at 2.0 m/s². How long until B catches A?",
+      "visual": null,
+      "choices": {
+        "A": "20 s",
+        "B": "14 s",
+        "C": "10 s",
+        "D": "34 s",
+        "E": "24 s"
+      },
+      "answer": "E",
+      "explanation": "Put B at x = 0. B: x = ½(2)t² = t². A: x = 100 + 20t. Set equal: t² − 20t − 100 = 0, so t = 10 + √200 ≈ 24.1 s.",
+      "explanation_visual": "content/physics/kinematics-graphs.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0008",
+      "subtopic": "physics.mechanics.kinematics",
+      "difficulty": 3,
+      "stem": "A ball is thrown straight up at 20 m/s from the edge of a 25 m cliff. About how long until it hits the ground at the bottom of the cliff? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "6.1 s",
+        "B": "2.3 s",
+        "C": "5.1 s",
+        "D": "4.1 s",
+        "E": "2.0 s"
+      },
+      "answer": "C",
+      "explanation": "Take up as positive and the ground at y = −25: −25 = 20t − 4.9t². So 4.9t² − 20t − 25 = 0 and t = (20 + √(400 + 490)) ÷ 9.8 ≈ 5.1 s. (4.1 s is only the trip back to the cliff edge.)",
+      "explanation_visual": "content/physics/kinematics-freefall.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0009",
+      "subtopic": "physics.mechanics.dynamics",
+      "difficulty": 1,
+      "stem": "A 4.0 kg cart accelerates at 3.0 m/s². What is the net force on it?",
+      "visual": null,
+      "choices": {
+        "A": "0.75 N",
+        "B": "39 N",
+        "C": "12 N",
+        "D": "7.0 N",
+        "E": "1.3 N"
+      },
+      "answer": "C",
+      "explanation": "F = ma = 4.0 × 3.0 = 12 N.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0010",
+      "subtopic": "physics.mechanics.dynamics",
+      "difficulty": 1,
+      "stem": "A 2.0 kg pot sits at rest on a stove. What force does the stove exert on the pot? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "9.8 N upward",
+        "B": "2.0 N upward",
+        "C": "0 N",
+        "D": "19.6 N upward",
+        "E": "39.2 N upward"
+      },
+      "answer": "D",
+      "explanation": "The pot is at rest, so the net force is zero. The stove's normal force balances the weight: N = mg = 2.0 × 9.8 = 19.6 N upward.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0011",
+      "subtopic": "physics.mechanics.dynamics",
+      "difficulty": 1,
+      "stem": "A 50 N pull makes a 10 kg box accelerate at 3.0 m/s² along a floor. What is the friction force?",
+      "visual": null,
+      "choices": {
+        "A": "80 N",
+        "B": "20 N",
+        "C": "30 N",
+        "D": "0 N",
+        "E": "50 N"
+      },
+      "answer": "B",
+      "explanation": "F_net = ma = 10 × 3 = 30 N. So 50 − f = 30, giving f = 20 N.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0012",
+      "subtopic": "physics.mechanics.dynamics",
+      "difficulty": 2,
+      "stem": "A 60 kg swimmer pushes off the wall with an average force of 450 N for 0.40 s. What speed does she gain?",
+      "visual": null,
+      "choices": {
+        "A": "3.0 m/s",
+        "B": "1.2 m/s",
+        "C": "180 m/s",
+        "D": "7.5 m/s",
+        "E": "30 m/s"
+      },
+      "answer": "A",
+      "explanation": "Impulse = FΔt = 450 × 0.40 = 180 N·s = Δp = mΔv. So Δv = 180 ÷ 60 = 3.0 m/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0013",
+      "subtopic": "physics.mechanics.dynamics",
+      "difficulty": 2,
+      "stem": "A 5.0 kg block slides down a smooth 30° incline. What is its acceleration? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "24.5 m/s²",
+        "B": "4.9 m/s²",
+        "C": "8.5 m/s²",
+        "D": "9.8 m/s²",
+        "E": "2.45 m/s²"
+      },
+      "answer": "B",
+      "explanation": "Along the slope only mg sin θ acts: a = g sin 30° = 9.8 × 0.5 = 4.9 m/s². The mass cancels.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0014",
+      "subtopic": "physics.mechanics.dynamics",
+      "difficulty": 2,
+      "stem": "Suppose a 70 kg player stands in an elevator that accelerates upward at 2.0 m/s². What force does the floor push with? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "546 N",
+        "B": "826 N",
+        "C": "840 N",
+        "D": "686 N",
+        "E": "966 N"
+      },
+      "answer": "B",
+      "explanation": "N − mg = ma, so N = m(g + a) = 70 × 11.8 = 826 N. (686 N is the weight at rest.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0015",
+      "subtopic": "physics.mechanics.dynamics",
+      "difficulty": 3,
+      "stem": "Masses of 3.0 kg and 5.0 kg hang from a light rope over a frictionless pulley. What is the tension in the rope? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "49 N",
+        "B": "29 N",
+        "C": "39 N",
+        "D": "78 N",
+        "E": "37 N"
+      },
+      "answer": "E",
+      "explanation": "System: a = (5 − 3)g ÷ (5 + 3) = 2.45 m/s². For the 3.0 kg mass going up: T − mg = ma, so T = 3.0 × (9.8 + 2.45) = 36.75 ≈ 37 N. (39 N is the wrong 'average weight' idea.)",
+      "explanation_visual": "content/physics/dynamics-pulley.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0016",
+      "subtopic": "physics.mechanics.dynamics",
+      "difficulty": 3,
+      "stem": "A box slides down a 30° incline with kinetic friction coefficient 0.20. What is its acceleration? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "6.6 m/s²",
+        "B": "3.2 m/s²",
+        "C": "4.9 m/s²",
+        "D": "2.9 m/s²",
+        "E": "1.7 m/s²"
+      },
+      "answer": "B",
+      "explanation": "Along the slope: a = g(sin θ − μ cos θ) = 9.8 × (0.500 − 0.20 × 0.866) = 9.8 × 0.327 ≈ 3.2 m/s². (Note N = mg cos θ, not mg.)",
+      "explanation_visual": "content/physics/dynamics-incline.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0017",
+      "subtopic": "physics.mechanics.conservation",
+      "difficulty": 1,
+      "stem": "What is the kinetic energy of a 2.0 kg object moving at 3.0 m/s?",
+      "visual": null,
+      "choices": {
+        "A": "18 J",
+        "B": "9.0 J",
+        "C": "4.5 J",
+        "D": "6.0 J",
+        "E": "36 J"
+      },
+      "answer": "B",
+      "explanation": "KE = ½mv² = ½ × 2.0 × 9.0 = 9.0 J.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0018",
+      "subtopic": "physics.mechanics.conservation",
+      "difficulty": 1,
+      "stem": "A 55 kg diver climbs onto a 3.0 m platform. By how much does her gravitational potential energy increase? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "1.6 kJ",
+        "B": "0.54 kJ",
+        "C": "16 kJ",
+        "D": "5.3 kJ",
+        "E": "0.17 kJ"
+      },
+      "answer": "A",
+      "explanation": "ΔPE = mgh = 55 × 9.8 × 3.0 = 1617 J ≈ 1.6 kJ.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0019",
+      "subtopic": "physics.mechanics.conservation",
+      "difficulty": 1,
+      "stem": "A 1.0 kg cart moving at 4.0 m/s hits a 3.0 kg cart at rest and they stick together. What is their speed afterwards?",
+      "visual": null,
+      "choices": {
+        "A": "1.0 m/s",
+        "B": "4.0 m/s",
+        "C": "1.3 m/s",
+        "D": "2.0 m/s",
+        "E": "3.0 m/s"
+      },
+      "answer": "A",
+      "explanation": "Momentum is conserved: 1.0 × 4.0 = (1.0 + 3.0) × v, so v = 1.0 m/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0020",
+      "subtopic": "physics.mechanics.conservation",
+      "difficulty": 2,
+      "stem": "A ball is dropped from rest at a height of 5.0 m. Ignoring air, how fast is it moving just before it hits the floor? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "49 m/s",
+        "B": "19.8 m/s",
+        "C": "9.9 m/s",
+        "D": "7.0 m/s",
+        "E": "4.9 m/s"
+      },
+      "answer": "C",
+      "explanation": "mgh = ½mv², so v = √(2gh) = √(2 × 9.8 × 5.0) = √98 ≈ 9.9 m/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0021",
+      "subtopic": "physics.mechanics.conservation",
+      "difficulty": 2,
+      "stem": "Suppose an 80 kg agent running at 5.0 m/s grabs a stationary 60 kg teammate and they move off together. What is their speed?",
+      "visual": null,
+      "choices": {
+        "A": "3.3 m/s",
+        "B": "2.5 m/s",
+        "C": "2.9 m/s",
+        "D": "4.3 m/s",
+        "E": "5.0 m/s"
+      },
+      "answer": "C",
+      "explanation": "Momentum: 80 × 5.0 = (80 + 60) × v, so v = 400 ÷ 140 ≈ 2.9 m/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0022",
+      "subtopic": "physics.mechanics.conservation",
+      "difficulty": 2,
+      "stem": "A 1500 W kettle runs for 3.0 minutes. How much energy does it use?",
+      "visual": null,
+      "choices": {
+        "A": "4.5 kJ",
+        "B": "90 kJ",
+        "C": "27 kJ",
+        "D": "540 kJ",
+        "E": "270 kJ"
+      },
+      "answer": "E",
+      "explanation": "E = Pt = 1500 W × 180 s = 270 000 J = 270 kJ. (Convert minutes to seconds first.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0023",
+      "subtopic": "physics.mechanics.conservation",
+      "difficulty": 3,
+      "stem": "A 2.0 kg block slides at 6.0 m/s on a frictionless floor into a spring with k = 200 N/m. What is the maximum compression of the spring?",
+      "visual": null,
+      "choices": {
+        "A": "0.60 m",
+        "B": "1.2 m",
+        "C": "3.6 m",
+        "D": "0.30 m",
+        "E": "0.36 m"
+      },
+      "answer": "A",
+      "explanation": "All KE becomes spring energy: ½mv² = ½kx². So x = v√(m/k) = 6.0 × √(2.0 ÷ 200) = 6.0 × 0.10 = 0.60 m.",
+      "explanation_visual": "content/physics/conservation-energy-bars.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0024",
+      "subtopic": "physics.mechanics.conservation",
+      "difficulty": 3,
+      "stem": "A 10 g bullet moving at 400 m/s embeds in a 1.99 kg block hanging from strings (the block and bullet together are 2.00 kg). How high do they swing? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "2.0 m",
+        "B": "0.20 m",
+        "C": "1.0 m",
+        "D": "0.41 m",
+        "E": "0.10 m"
+      },
+      "answer": "B",
+      "explanation": "Step 1, momentum: 0.010 × 400 = 2.00 × v, so v = 2.0 m/s. Step 2, energy: h = v²/(2g) = 4.0 ÷ 19.6 ≈ 0.20 m.",
+      "explanation_visual": "content/physics/conservation-momentum.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0025",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "difficulty": 1,
+      "stem": "An object moves around a circle of radius 2.0 m at a constant 4.0 m/s. What is its centripetal acceleration?",
+      "visual": null,
+      "choices": {
+        "A": "4.0 m/s²",
+        "B": "32 m/s²",
+        "C": "2.0 m/s²",
+        "D": "8.0 m/s²",
+        "E": "16 m/s²"
+      },
+      "answer": "D",
+      "explanation": "a = v²/r = 16 ÷ 2.0 = 8.0 m/s².",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0026",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "difficulty": 1,
+      "stem": "A fan blade turns at 5.0 revolutions per second. What is its period?",
+      "visual": null,
+      "choices": {
+        "A": "2.0 s",
+        "B": "0.20 s",
+        "C": "0.032 s",
+        "D": "5.0 s",
+        "E": "31 s"
+      },
+      "answer": "B",
+      "explanation": "T = 1/f = 1 ÷ 5.0 = 0.20 s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0027",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "difficulty": 1,
+      "stem": "Wet salad leaves at the edge of a spinner basket of radius 0.10 m move at 2.0 m/s. What is their centripetal acceleration?",
+      "visual": null,
+      "choices": {
+        "A": "4.0 m/s²",
+        "B": "0.40 m/s²",
+        "C": "20 m/s²",
+        "D": "200 m/s²",
+        "E": "40 m/s²"
+      },
+      "answer": "E",
+      "explanation": "a = v²/r = 4.0 ÷ 0.10 = 40 m/s².",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0028",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "difficulty": 2,
+      "stem": "A 20 N force pulls on a wrench handle 0.30 m from the bolt, at 30° to the handle. What is the torque on the bolt?",
+      "visual": null,
+      "choices": {
+        "A": "3.0 N·m",
+        "B": "0.60 N·m",
+        "C": "6.0 N·m",
+        "D": "5.2 N·m",
+        "E": "1.5 N·m"
+      },
+      "answer": "A",
+      "explanation": "τ = rF sin θ = 0.30 × 20 × sin 30° = 6.0 × 0.50 = 3.0 N·m.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0029",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "difficulty": 2,
+      "stem": "A 1000 kg car takes a flat circular curve of radius 20 m. The coefficient of static friction is 0.50. What is the greatest speed without slipping? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "4.9 m/s",
+        "B": "31 m/s",
+        "C": "98 m/s",
+        "D": "9.9 m/s",
+        "E": "14 m/s"
+      },
+      "answer": "D",
+      "explanation": "Friction supplies the centripetal force: μmg = mv²/r, so v = √(μgr) = √(0.50 × 9.8 × 20) = √98 ≈ 9.9 m/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0030",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "difficulty": 2,
+      "stem": "A solid circular pizza stone (a disk, I = ½MR²) has mass 2.0 kg and radius 0.25 m. A net torque of 0.25 N·m acts on it. What is its angular acceleration?",
+      "visual": null,
+      "choices": {
+        "A": "4.0 rad/s²",
+        "B": "2.0 rad/s²",
+        "C": "0.25 rad/s²",
+        "D": "8.0 rad/s²",
+        "E": "1.0 rad/s²"
+      },
+      "answer": "A",
+      "explanation": "I = ½ × 2.0 × 0.25² = 0.0625 kg·m². α = τ/I = 0.25 ÷ 0.0625 = 4.0 rad/s². (2.0 comes from using the ring formula I = MR².)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0031",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "difficulty": 3,
+      "stem": "A 0.50 kg ball on a 1.0 m string is whirled in a vertical circle. At the very top its speed is 5.0 m/s. What is the tension in the string there? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "12.5 N",
+        "B": "4.9 N",
+        "C": "17.4 N",
+        "D": "2.6 N",
+        "E": "7.6 N"
+      },
+      "answer": "E",
+      "explanation": "At the top both tension and weight point down, toward the center: T + mg = mv²/r. T = 0.50 × 25 ÷ 1.0 − 0.50 × 9.8 = 12.5 − 4.9 = 7.6 N.",
+      "explanation_visual": "content/physics/circular-motion.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0032",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "difficulty": 3,
+      "stem": "A diver in layout position (I = 3.0 kg·m², ω = 2.0 rad/s) tucks so that I = 1.2 kg·m². By what factor does her rotational kinetic energy change?",
+      "visual": null,
+      "choices": {
+        "A": "×6.25",
+        "B": "×5",
+        "C": "×0.4",
+        "D": "×2.5",
+        "E": "×1 (it does not change)"
+      },
+      "answer": "D",
+      "explanation": "Angular momentum is conserved: ω₂ = 3.0 × 2.0 ÷ 1.2 = 5.0 rad/s. KE = ½Iω²: before 6.0 J, after ½ × 1.2 × 25 = 15 J. Ratio 15 ÷ 6.0 = 2.5. (The extra energy comes from her muscles.)",
+      "explanation_visual": "content/physics/conservation-angular.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0033",
+      "subtopic": "physics.mechanics.shm",
+      "difficulty": 1,
+      "stem": "A kitchen spring with k = 50 N/m is stretched 0.20 m by a pan. What is the spring force?",
+      "visual": null,
+      "choices": {
+        "A": "10 N",
+        "B": "100 N",
+        "C": "250 N",
+        "D": "0.40 N",
+        "E": "2.5 N"
+      },
+      "answer": "A",
+      "explanation": "F = kx = 50 × 0.20 = 10 N.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0034",
+      "subtopic": "physics.mechanics.shm",
+      "difficulty": 1,
+      "stem": "An oscillator completes 30 cycles in 12 s. What is its frequency?",
+      "visual": null,
+      "choices": {
+        "A": "18 Hz",
+        "B": "0.40 Hz",
+        "C": "2.5 Hz",
+        "D": "360 Hz",
+        "E": "42 Hz"
+      },
+      "answer": "C",
+      "explanation": "f = cycles ÷ time = 30 ÷ 12 = 2.5 Hz.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0035",
+      "subtopic": "physics.mechanics.shm",
+      "difficulty": 1,
+      "stem": "A lifeguard's whistle hangs on a 1.0 m string and swings as a simple pendulum. What is its period? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "4.0 s",
+        "B": "6.3 s",
+        "C": "1.0 s",
+        "D": "2.0 s",
+        "E": "0.32 s"
+      },
+      "answer": "D",
+      "explanation": "T = 2π√(L/g) = 2π × √(1.0 ÷ 9.8) = 2π × 0.319 ≈ 2.0 s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0036",
+      "subtopic": "physics.mechanics.shm",
+      "difficulty": 2,
+      "stem": "A 0.50 kg mass hangs from a spring with k = 200 N/m. What is the period of its vertical oscillation?",
+      "visual": null,
+      "choices": {
+        "A": "0.050 s",
+        "B": "3.2 s",
+        "C": "0.31 s",
+        "D": "1.0 s",
+        "E": "0.63 s"
+      },
+      "answer": "C",
+      "explanation": "T = 2π√(m/k) = 2π × √(0.50 ÷ 200) = 2π × 0.050 ≈ 0.31 s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0037",
+      "subtopic": "physics.mechanics.shm",
+      "difficulty": 2,
+      "stem": "A spring scale in a kitchen bounces with a load. If the load mass is quadrupled, the period changes by what factor?",
+      "visual": null,
+      "choices": {
+        "A": "×½",
+        "B": "×¼",
+        "C": "×2",
+        "D": "×16",
+        "E": "×4"
+      },
+      "answer": "C",
+      "explanation": "T = 2π√(m/k) so T ∝ √m. Quadruple m gives √4 = 2 times the period.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0038",
+      "subtopic": "physics.mechanics.shm",
+      "difficulty": 2,
+      "stem": "An oscillator has amplitude 0.10 m and angular frequency 4.0 rad/s. What is its maximum speed?",
+      "visual": null,
+      "choices": {
+        "A": "1.6 m/s",
+        "B": "4.0 m/s",
+        "C": "0.40 m/s",
+        "D": "0.025 m/s",
+        "E": "0.10 m/s"
+      },
+      "answer": "C",
+      "explanation": "v_max = Aω = 0.10 × 4.0 = 0.40 m/s, reached at x = 0.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0039",
+      "subtopic": "physics.mechanics.shm",
+      "difficulty": 3,
+      "stem": "A 0.40 kg mass on a spring (k = 100 N/m) oscillates with amplitude 0.10 m. What is its speed when x = 0.060 m?",
+      "visual": null,
+      "choices": {
+        "A": "1.6 m/s",
+        "B": "0.95 m/s",
+        "C": "1.3 m/s",
+        "D": "0.80 m/s",
+        "E": "2.5 m/s"
+      },
+      "answer": "C",
+      "explanation": "ω = √(k/m) = √250 ≈ 15.8 rad/s. v = ω√(A² − x²) = 15.8 × √(0.0100 − 0.0036) = 15.8 × 0.080 ≈ 1.3 m/s. (1.6 m/s is v_max.)",
+      "explanation_visual": "content/physics/shm-graph.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0040",
+      "subtopic": "physics.mechanics.shm",
+      "difficulty": 3,
+      "stem": "A pendulum has period 2.0 s on the ground. It is carried in an elevator that accelerates upward at 2.45 m/s² (= g/4). What is its period now?",
+      "visual": null,
+      "choices": {
+        "A": "1.8 s",
+        "B": "2.2 s",
+        "C": "2.0 s",
+        "D": "1.5 s",
+        "E": "1.6 s"
+      },
+      "answer": "A",
+      "explanation": "Upward acceleration makes the effective gravity g_eff = g + g/4 = 1.25g. T ∝ 1/√g_eff, so T = 2.0 ÷ √1.25 = 2.0 ÷ 1.118 ≈ 1.8 s.",
+      "explanation_visual": "content/physics/shm-pendulum.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0041",
+      "subtopic": "physics.mechanics.gravity",
+      "difficulty": 1,
+      "stem": "The distance between two planets doubles. The gravitational force between them becomes…",
+      "visual": null,
+      "choices": {
+        "A": "The same",
+        "B": "One quarter as large",
+        "C": "Four times as large",
+        "D": "Twice as large",
+        "E": "Half as large"
+      },
+      "answer": "B",
+      "explanation": "F ∝ 1/r². Doubling r divides F by 2² = 4.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0042",
+      "subtopic": "physics.mechanics.gravity",
+      "difficulty": 1,
+      "stem": "A 2.0 kg bag of rice sits on a kitchen scale. What is the gravitational force on it? (g = 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "9.8 N",
+        "B": "0.20 N",
+        "C": "19.6 N",
+        "D": "2.0 N",
+        "E": "196 N"
+      },
+      "answer": "C",
+      "explanation": "W = mg = 2.0 × 9.8 = 19.6 N.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0043",
+      "subtopic": "physics.mechanics.gravity",
+      "difficulty": 1,
+      "stem": "A 70 kg swimmer visits the Moon, where g = 1.6 m/s². What is her weight there?",
+      "visual": null,
+      "choices": {
+        "A": "11.4 N",
+        "B": "686 N",
+        "C": "7.1 N",
+        "D": "112 N",
+        "E": "70 N"
+      },
+      "answer": "D",
+      "explanation": "W = mg = 70 × 1.6 = 112 N. Her mass is still 70 kg. (686 N is her weight on Earth.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0044",
+      "subtopic": "physics.mechanics.gravity",
+      "difficulty": 2,
+      "stem": "At what distance from Earth's center is g one quarter of its surface value, if the surface is at distance R? ",
+      "visual": null,
+      "choices": {
+        "A": "4R",
+        "B": "R/4",
+        "C": "R/2",
+        "D": "3R",
+        "E": "2R"
+      },
+      "answer": "E",
+      "explanation": "g ∝ 1/r². For g/4 we need r² four times larger, so r = 2R (that is, R above the surface).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0045",
+      "subtopic": "physics.mechanics.gravity",
+      "difficulty": 2,
+      "stem": "Suppose a new map is set on a planet with 4 times Earth's mass and 2 times Earth's radius. What is its surface gravity? (Earth: 9.8 m/s²)",
+      "visual": null,
+      "choices": {
+        "A": "9.8 m/s²",
+        "B": "2.5 m/s²",
+        "C": "39 m/s²",
+        "D": "19.6 m/s²",
+        "E": "4.9 m/s²"
+      },
+      "answer": "A",
+      "explanation": "g = GM/R². Mass ×4 and radius² ×4 cancel, so g is unchanged: 9.8 m/s².",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0046",
+      "subtopic": "physics.mechanics.gravity",
+      "difficulty": 2,
+      "stem": "A satellite orbits at r = 6.77 × 10⁶ m from Earth's center. Using G = 6.674 × 10⁻¹¹ N·m²/kg² and M = 5.97 × 10²⁴ kg, what is its orbital speed?",
+      "visual": null,
+      "choices": {
+        "A": "0.77 km/s",
+        "B": "7.7 km/s",
+        "C": "3.8 km/s",
+        "D": "11 km/s",
+        "E": "59 km/s"
+      },
+      "answer": "B",
+      "explanation": "v = √(GM/r) = √(6.674e-11 × 5.97e24 ÷ 6.77e6) = √(5.89e7) ≈ 7.7 × 10³ m/s = 7.7 km/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0047",
+      "subtopic": "physics.mechanics.gravity",
+      "difficulty": 3,
+      "stem": "Two satellites circle the same planet. Satellite B's orbital radius is 4 times that of satellite A. B's period is how many times A's?",
+      "visual": null,
+      "choices": {
+        "A": "4",
+        "B": "2",
+        "C": "16",
+        "D": "64",
+        "E": "8"
+      },
+      "answer": "E",
+      "explanation": "Kepler's third law: T² ∝ r³. So T ∝ r^(3/2) = 4^(3/2) = 8.",
+      "explanation_visual": "content/physics/gravity-orbit.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0048",
+      "subtopic": "physics.mechanics.gravity",
+      "difficulty": 3,
+      "stem": "The Moon's mass is 1/81 of Earth's. On the line between them, where do their gravitational pulls on a small probe cancel? Give the distance from Earth as a fraction of the Earth–Moon distance D.",
+      "visual": null,
+      "choices": {
+        "A": "0.11 D",
+        "B": "0.99 D",
+        "C": "0.80 D",
+        "D": "0.50 D",
+        "E": "0.90 D"
+      },
+      "answer": "E",
+      "explanation": "Set M/x² = (M/81)/(D − x)². Taking square roots: (D − x)/x = 1/9, so 9D − 9x = x and x = 0.90 D.",
+      "explanation_visual": "content/physics/gravity-inverse-square.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0049",
+      "subtopic": "physics.electromagnetism.circuits",
+      "difficulty": 1,
+      "stem": "A 6.0 Ω resistor is connected across a 12 V battery. What is the current?",
+      "visual": null,
+      "choices": {
+        "A": "0.50 A",
+        "B": "2.0 A",
+        "C": "18 A",
+        "D": "72 A",
+        "E": "6.0 A"
+      },
+      "answer": "B",
+      "explanation": "I = V/R = 12 ÷ 6.0 = 2.0 A.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0050",
+      "subtopic": "physics.electromagnetism.circuits",
+      "difficulty": 1,
+      "stem": "A toaster is rated 1200 W on a 120 V supply. What current does it draw?",
+      "visual": null,
+      "choices": {
+        "A": "100 A",
+        "B": "20 A",
+        "C": "1.2 A",
+        "D": "0.10 A",
+        "E": "10 A"
+      },
+      "answer": "E",
+      "explanation": "P = IV, so I = P/V = 1200 ÷ 120 = 10 A.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0051",
+      "subtopic": "physics.electromagnetism.circuits",
+      "difficulty": 1,
+      "stem": "Two identical 4.0 Ω heating elements in a pool heater are wired in series. What is their combined resistance?",
+      "visual": null,
+      "choices": {
+        "A": "4.0 Ω",
+        "B": "16 Ω",
+        "C": "8.0 Ω",
+        "D": "2.0 Ω",
+        "E": "0.5 Ω"
+      },
+      "answer": "C",
+      "explanation": "Series resistances add: 4.0 + 4.0 = 8.0 Ω.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0052",
+      "subtopic": "physics.electromagnetism.circuits",
+      "difficulty": 2,
+      "stem": "An 8.0 Ω and a 24 Ω resistor are in parallel across a 24 V battery. What total current does the battery supply?",
+      "visual": null,
+      "choices": {
+        "A": "3.0 A",
+        "B": "0.75 A",
+        "C": "4.0 A",
+        "D": "1.5 A",
+        "E": "1.0 A"
+      },
+      "answer": "C",
+      "explanation": "R_total = (8 × 24) ÷ (8 + 24) = 6.0 Ω, so I = 24 ÷ 6.0 = 4.0 A. (Or 24/8 + 24/24 = 3 + 1 = 4 A.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0053",
+      "subtopic": "physics.electromagnetism.circuits",
+      "difficulty": 2,
+      "stem": "A 2000 W kettle runs for 3.0 minutes. How much electrical energy is that in kilowatt-hours?",
+      "visual": null,
+      "choices": {
+        "A": "6.0 kWh",
+        "B": "0.010 kWh",
+        "C": "1.0 kWh",
+        "D": "0.10 kWh",
+        "E": "0.60 kWh"
+      },
+      "answer": "D",
+      "explanation": "E = 2.0 kW × (3.0/60) h = 0.10 kWh.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0054",
+      "subtopic": "physics.electromagnetism.circuits",
+      "difficulty": 2,
+      "stem": "A 10 μF capacitor is charged to 12 V. How much energy does it store?",
+      "visual": null,
+      "choices": {
+        "A": "7.2 J",
+        "B": "0.36 mJ",
+        "C": "0.12 mJ",
+        "D": "1.4 mJ",
+        "E": "0.72 mJ"
+      },
+      "answer": "E",
+      "explanation": "U = ½CV² = ½ × 10 × 10⁻⁶ × 144 = 7.2 × 10⁻⁴ J = 0.72 mJ.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0055",
+      "subtopic": "physics.electromagnetism.circuits",
+      "difficulty": 3,
+      "stem": "A 12 V battery drives current through a 4.0 Ω resistor in series with a parallel pair of 6.0 Ω and 12 Ω resistors. What power is dissipated in the 12 Ω resistor?",
+      "visual": null,
+      "choices": {
+        "A": "1.5 W",
+        "B": "12 W",
+        "C": "9.0 W",
+        "D": "6.0 W",
+        "E": "3.0 W"
+      },
+      "answer": "E",
+      "explanation": "Parallel pair: (6 × 12) ÷ 18 = 4.0 Ω. Total = 8.0 Ω, I = 1.5 A. Voltage across the pair = 1.5 × 4.0 = 6.0 V. P = V²/R = 36 ÷ 12 = 3.0 W.",
+      "explanation_visual": "content/physics/circuits-series-parallel.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0056",
+      "subtopic": "physics.electromagnetism.circuits",
+      "difficulty": 3,
+      "stem": "Capacitors of 6.0 μF and 3.0 μF are connected in series to a 9.0 V battery. What charge is on the 3.0 μF capacitor?",
+      "visual": null,
+      "choices": {
+        "A": "18 μC",
+        "B": "54 μC",
+        "C": "81 μC",
+        "D": "27 μC",
+        "E": "9 μC"
+      },
+      "answer": "A",
+      "explanation": "In series, 1/C = 1/6 + 1/3 = 1/2, so C = 2.0 μF. Q = CV = 2.0 × 9.0 = 18 μC, and series capacitors all carry the same charge.",
+      "explanation_visual": "content/physics/circuits-capacitors.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0057",
+      "subtopic": "physics.thermodynamics.laws",
+      "difficulty": 1,
+      "stem": "A gas absorbs 500 J of heat and does 200 J of work on its surroundings. What is its change in internal energy?",
+      "visual": null,
+      "choices": {
+        "A": "+300 J",
+        "B": "−700 J",
+        "C": "+700 J",
+        "D": "−300 J",
+        "E": "+100 J"
+      },
+      "answer": "A",
+      "explanation": "First law: ΔU = Q − W = 500 − 200 = +300 J.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0058",
+      "subtopic": "physics.thermodynamics.laws",
+      "difficulty": 1,
+      "stem": "Heat always flows from a hot pan into cold water, never the other way by itself. Which law says this?",
+      "visual": null,
+      "choices": {
+        "A": "The second law",
+        "B": "Newton's third law",
+        "C": "The third law",
+        "D": "The first law",
+        "E": "The zeroth law"
+      },
+      "answer": "A",
+      "explanation": "The direction of spontaneous heat flow, and the rising entropy, is the second law of thermodynamics.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0059",
+      "subtopic": "physics.thermodynamics.laws",
+      "difficulty": 1,
+      "stem": "A pool is at 25 °C. What is that temperature in kelvin?",
+      "visual": null,
+      "choices": {
+        "A": "−248 K",
+        "B": "298 K",
+        "C": "273 K",
+        "D": "373 K",
+        "E": "25 K"
+      },
+      "answer": "B",
+      "explanation": "T(K) = T(°C) + 273 = 25 + 273 = 298 K.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0060",
+      "subtopic": "physics.thermodynamics.laws",
+      "difficulty": 2,
+      "stem": "A Carnot engine runs between 500 K and 300 K. What is its maximum efficiency?",
+      "visual": null,
+      "choices": {
+        "A": "60%",
+        "B": "20%",
+        "C": "40%",
+        "D": "67%",
+        "E": "83%"
+      },
+      "answer": "C",
+      "explanation": "e = 1 − T_c/T_h = 1 − 300/500 = 0.40 = 40%.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0061",
+      "subtopic": "physics.thermodynamics.laws",
+      "difficulty": 2,
+      "stem": "A heat engine takes 800 J from a hot reservoir and does 200 J of work. How much heat does it reject to the cold reservoir?",
+      "visual": null,
+      "choices": {
+        "A": "25 J",
+        "B": "1000 J",
+        "C": "200 J",
+        "D": "600 J",
+        "E": "400 J"
+      },
+      "answer": "D",
+      "explanation": "Energy balance: Q_c = Q_h − W = 800 − 200 = 600 J.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0062",
+      "subtopic": "physics.thermodynamics.laws",
+      "difficulty": 2,
+      "stem": "A cook stirs soup, doing 150 J of work on it, while 40 J of heat leaves the pot. What is the change in the soup's internal energy?",
+      "visual": null,
+      "choices": {
+        "A": "+40 J",
+        "B": "+190 J",
+        "C": "−110 J",
+        "D": "−190 J",
+        "E": "+110 J"
+      },
+      "answer": "E",
+      "explanation": "Work done ON the system is W = −150 J (by the system). ΔU = Q − W = −40 − (−150) = +110 J.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0063",
+      "subtopic": "physics.thermodynamics.laws",
+      "difficulty": 3,
+      "stem": "An inventor claims an engine working between 400 K and 300 K takes in 1000 J of heat and does 300 J of work. Is that possible?",
+      "visual": null,
+      "choices": {
+        "A": "Possible: it equals the Carnot limit of 30%",
+        "B": "Possible: 30% is below the Carnot limit of 75%",
+        "C": "Possible if all friction is removed",
+        "D": "Impossible: it rejects 700 J, more than the 300 J of work",
+        "E": "Impossible: 30% is above the Carnot limit of 25%"
+      },
+      "answer": "E",
+      "explanation": "Carnot limit: e = 1 − 300/400 = 25%. The claimed efficiency is 300/1000 = 30%, larger than the best possible, so the claim breaks the second law.",
+      "explanation_visual": "content/physics/laws-engine.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0064",
+      "subtopic": "physics.thermodynamics.laws",
+      "difficulty": 3,
+      "stem": "A Carnot engine has efficiency 40% with a cold reservoir at 300 K. To raise its efficiency to 60% with the same cold reservoir, to what temperature must the hot reservoir be raised?",
+      "visual": null,
+      "choices": {
+        "A": "500 K",
+        "B": "600 K",
+        "C": "1125 K",
+        "D": "750 K",
+        "E": "900 K"
+      },
+      "answer": "D",
+      "explanation": "At 40%: T_h = 300 ÷ (1 − 0.40) = 500 K. At 60%: T_h = 300 ÷ (1 − 0.60) = 750 K.",
+      "explanation_visual": "content/physics/laws-engine.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0065",
+      "subtopic": "physics.thermodynamics.heat",
+      "difficulty": 1,
+      "stem": "How much heat is needed to warm 0.50 kg of water from 20 °C to 100 °C? (c = 4186 J/(kg·K))",
+      "visual": null,
+      "choices": {
+        "A": "42 kJ",
+        "B": "167 kJ",
+        "C": "335 kJ",
+        "D": "1.7 kJ",
+        "E": "209 kJ"
+      },
+      "answer": "B",
+      "explanation": "Q = mcΔT = 0.50 × 4186 × 80 = 167 440 J ≈ 167 kJ.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0066",
+      "subtopic": "physics.thermodynamics.heat",
+      "difficulty": 1,
+      "stem": "The Sun warms Earth across empty space. Which heat transfer method is this?",
+      "visual": null,
+      "choices": {
+        "A": "Evaporation",
+        "B": "Conduction",
+        "C": "Convection",
+        "D": "Compression",
+        "E": "Radiation"
+      },
+      "answer": "E",
+      "explanation": "There is no material between the Sun and Earth, so only radiation (electromagnetic waves) can carry the heat.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0067",
+      "subtopic": "physics.thermodynamics.heat",
+      "difficulty": 1,
+      "stem": "A pool holds 1000 kg of water. How much heat raises its temperature by 1.0 K? (c = 4186 J/(kg·K))",
+      "visual": null,
+      "choices": {
+        "A": "42 MJ",
+        "B": "42 kJ",
+        "C": "0.42 MJ",
+        "D": "4.2 MJ",
+        "E": "420 MJ"
+      },
+      "answer": "D",
+      "explanation": "Q = mcΔT = 1000 × 4186 × 1.0 = 4.19 × 10⁶ J ≈ 4.2 MJ. Water's big c is why pools warm slowly.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0068",
+      "subtopic": "physics.thermodynamics.heat",
+      "difficulty": 2,
+      "stem": "How much heat melts 0.30 kg of ice at 0 °C? (L_f = 3.34 × 10⁵ J/kg)",
+      "visual": null,
+      "choices": {
+        "A": "678 kJ",
+        "B": "33 kJ",
+        "C": "100 kJ",
+        "D": "334 kJ",
+        "E": "1.0 kJ"
+      },
+      "answer": "C",
+      "explanation": "Q = mL_f = 0.30 × 3.34 × 10⁵ = 1.00 × 10⁵ J = 100 kJ.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0069",
+      "subtopic": "physics.thermodynamics.heat",
+      "difficulty": 2,
+      "stem": "A cook pours 200 g of 80 °C water into 300 g of 20 °C water. Ignoring losses, what is the final temperature?",
+      "visual": null,
+      "choices": {
+        "A": "56 °C",
+        "B": "40 °C",
+        "C": "60 °C",
+        "D": "50 °C",
+        "E": "44 °C"
+      },
+      "answer": "E",
+      "explanation": "Heat lost = heat gained: 0.2(80 − T) = 0.3(T − 20), so 16 − 0.2T = 0.3T − 6 and T = 22 ÷ 0.5 = 44 °C.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0070",
+      "subtopic": "physics.thermodynamics.heat",
+      "difficulty": 2,
+      "stem": "Equal masses of A and B get the same heat. A warms by 20 K and B warms by 10 K. What is c_A divided by c_B?",
+      "visual": null,
+      "choices": {
+        "A": "2.0",
+        "B": "1.0",
+        "C": "4.0",
+        "D": "0.50",
+        "E": "0.25"
+      },
+      "answer": "D",
+      "explanation": "Q = mcΔT with equal Q and m means c ∝ 1/ΔT. So c_A/c_B = 10/20 = 0.50.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0071",
+      "subtopic": "physics.thermodynamics.heat",
+      "difficulty": 3,
+      "stem": "How much heat turns 0.10 kg of ice at −10 °C into liquid water at 100 °C? (c_ice = 2100, c_water = 4186 J/(kg·K); L_f = 3.34 × 10⁵ J/kg)",
+      "visual": null,
+      "choices": {
+        "A": "303 kJ",
+        "B": "75 kJ",
+        "C": "35 kJ",
+        "D": "43 kJ",
+        "E": "77 kJ"
+      },
+      "answer": "E",
+      "explanation": "Warm ice: 0.10 × 2100 × 10 = 2.1 kJ. Melt: 0.10 × 3.34 × 10⁵ = 33.4 kJ. Warm water: 0.10 × 4186 × 100 = 41.9 kJ. Total ≈ 77.4 kJ.",
+      "explanation_visual": "content/physics/heat-curve.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0072",
+      "subtopic": "physics.thermodynamics.heat",
+      "difficulty": 3,
+      "stem": "A 0.50 kg metal block at 200 °C is dropped into 2.0 kg of pool water at 20 °C. The final temperature is 22 °C. What is the metal's specific heat? (c_water = 4186 J/(kg·K))",
+      "visual": null,
+      "choices": {
+        "A": "94 J/(kg·K)",
+        "B": "188 J/(kg·K)",
+        "C": "837 J/(kg·K)",
+        "D": "376 J/(kg·K)",
+        "E": "4186 J/(kg·K)"
+      },
+      "answer": "B",
+      "explanation": "Heat gained by water = 2.0 × 4186 × 2 = 16 744 J. Heat lost by metal = 0.50 × c × (200 − 22) = 89c. So c = 16 744 ÷ 89 ≈ 188 J/(kg·K).",
+      "explanation_visual": "content/physics/heat-mixing.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0073",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "difficulty": 1,
+      "stem": "A gas in a rigid container is heated from 300 K to 600 K. By what factor does its pressure change?",
+      "visual": null,
+      "choices": {
+        "A": "×¼",
+        "B": "×½",
+        "C": "×2",
+        "D": "×1 (unchanged)",
+        "E": "×4"
+      },
+      "answer": "C",
+      "explanation": "At constant V, P ∝ T (kelvin). Doubling T doubles P.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0074",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "difficulty": 1,
+      "stem": "A sealed pressure cooker holds air at 100 kPa and 300 K. It is heated to 450 K. What is the pressure now (volume fixed)?",
+      "visual": null,
+      "choices": {
+        "A": "67 kPa",
+        "B": "150 kPa",
+        "C": "225 kPa",
+        "D": "100 kPa",
+        "E": "300 kPa"
+      },
+      "answer": "B",
+      "explanation": "P₂ = P₁ × T₂/T₁ = 100 × 450/300 = 150 kPa.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0075",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "difficulty": 1,
+      "stem": "A pool pump traps 2.0 L of air at 100 kPa and squeezes it at constant temperature to 0.50 L. What is the new pressure?",
+      "visual": null,
+      "choices": {
+        "A": "400 kPa",
+        "B": "25 kPa",
+        "C": "50 kPa",
+        "D": "200 kPa",
+        "E": "800 kPa"
+      },
+      "answer": "A",
+      "explanation": "Boyle: P₁V₁ = P₂V₂, so P₂ = 100 × 2.0 ÷ 0.50 = 400 kPa.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0076",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "difficulty": 2,
+      "stem": "How many moles of gas are in 2.0 L at 300 K and 1.0 × 10⁵ Pa? (R = 8.315 J/(mol·K))",
+      "visual": null,
+      "choices": {
+        "A": "8.0 mol",
+        "B": "0.080 mol",
+        "C": "0.0080 mol",
+        "D": "0.80 mol",
+        "E": "12.5 mol"
+      },
+      "answer": "B",
+      "explanation": "n = PV/(RT) with V = 2.0 × 10⁻³ m³: n = 1.0e5 × 2.0e-3 ÷ (8.315 × 300) = 200 ÷ 2494 ≈ 0.080 mol.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0077",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "difficulty": 2,
+      "stem": "A diver's air bubble has volume 2.0 mL at 20 m depth, where the pressure is 3.0 atm. What is its volume at the surface (1.0 atm), at the same temperature?",
+      "visual": null,
+      "choices": {
+        "A": "3.0 mL",
+        "B": "18 mL",
+        "C": "0.67 mL",
+        "D": "6.0 mL",
+        "E": "2.0 mL"
+      },
+      "answer": "D",
+      "explanation": "Boyle: V₂ = V₁P₁/P₂ = 2.0 × 3.0 ÷ 1.0 = 6.0 mL.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0078",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "difficulty": 2,
+      "stem": "A gas expands at a constant pressure of 2.0 × 10⁵ Pa from 1.0 L to 4.0 L. How much work does the gas do?",
+      "visual": null,
+      "choices": {
+        "A": "600 J",
+        "B": "1000 J",
+        "C": "400 J",
+        "D": "200 J",
+        "E": "6.0 J"
+      },
+      "answer": "A",
+      "explanation": "W = PΔV with ΔV = 3.0 L = 3.0 × 10⁻³ m³: W = 2.0e5 × 3.0e-3 = 600 J.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0079",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "difficulty": 3,
+      "stem": "A fixed amount of gas starts at 1.0 × 10⁵ Pa and 300 K. It is heated and compressed until its pressure is 3 times larger and its volume is half as big. What is the new temperature?",
+      "visual": null,
+      "choices": {
+        "A": "200 K",
+        "B": "150 K",
+        "C": "900 K",
+        "D": "450 K",
+        "E": "600 K"
+      },
+      "answer": "D",
+      "explanation": "P₁V₁/T₁ = P₂V₂/T₂, so T₂ = T₁ × (P₂/P₁)(V₂/V₁) = 300 × 3 × 0.5 = 450 K.",
+      "explanation_visual": "content/physics/idealgas-laws.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0080",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "difficulty": 3,
+      "stem": "A monatomic ideal gas expands at constant pressure and does 400 J of work. How much heat was added? (For this gas Q = (5/2)PΔV at constant pressure.)",
+      "visual": null,
+      "choices": {
+        "A": "1400 J",
+        "B": "1000 J",
+        "C": "600 J",
+        "D": "667 J",
+        "E": "400 J"
+      },
+      "answer": "B",
+      "explanation": "Work W = PΔV = 400 J. Q = (5/2)PΔV = 2.5 × 400 = 1000 J. The first law checks: ΔU = Q − W = 600 J = (3/2)PΔV.",
+      "explanation_visual": "content/physics/idealgas-work.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0081",
+      "subtopic": "physics.acoustics.sound",
+      "difficulty": 1,
+      "stem": "A 440 Hz tone travels at 343 m/s in air. What is its wavelength?",
+      "visual": null,
+      "choices": {
+        "A": "1.6 m",
+        "B": "0.39 m",
+        "C": "0.78 m",
+        "D": "1.3 m",
+        "E": "3.1 m"
+      },
+      "answer": "C",
+      "explanation": "λ = v/f = 343 ÷ 440 ≈ 0.78 m.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0082",
+      "subtopic": "physics.acoustics.sound",
+      "difficulty": 1,
+      "stem": "Which property of a sound wave sets its pitch?",
+      "visual": null,
+      "choices": {
+        "A": "Amplitude",
+        "B": "Frequency",
+        "C": "Speed",
+        "D": "Medium density",
+        "E": "Phase"
+      },
+      "answer": "B",
+      "explanation": "Higher frequency means higher pitch. Amplitude sets loudness.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0083",
+      "subtopic": "physics.acoustics.sound",
+      "difficulty": 1,
+      "stem": "Suppose a footstep cue in a game echoes back from a far wall after 0.40 s. If sound moves at 343 m/s, how far away is the wall?",
+      "visual": null,
+      "choices": {
+        "A": "34 m",
+        "B": "860 m",
+        "C": "137 m",
+        "D": "69 m",
+        "E": "1.2 km"
+      },
+      "answer": "D",
+      "explanation": "The sound goes there and back, so d = vt/2 = 343 × 0.40 ÷ 2 = 68.6 ≈ 69 m.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0084",
+      "subtopic": "physics.acoustics.sound",
+      "difficulty": 2,
+      "stem": "Sound travels at about 1480 m/s in water. How long does a splash sound take to cross 37 m of pool water?",
+      "visual": null,
+      "choices": {
+        "A": "25 s",
+        "B": "0.25 s",
+        "C": "40 s",
+        "D": "0.025 s",
+        "E": "0.11 s"
+      },
+      "answer": "D",
+      "explanation": "t = d/v = 37 ÷ 1480 = 0.025 s. (In air it would take 0.11 s.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0085",
+      "subtopic": "physics.acoustics.sound",
+      "difficulty": 2,
+      "stem": "A blender is 90 dB and a quiet kitchen is 60 dB. How many times greater is the blender's sound intensity?",
+      "visual": null,
+      "choices": {
+        "A": "1000",
+        "B": "100",
+        "C": "30",
+        "D": "10",
+        "E": "1.5"
+      },
+      "answer": "A",
+      "explanation": "Every 10 dB is a factor of 10 in intensity. 30 dB more is 10³ = 1000 times.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0086",
+      "subtopic": "physics.acoustics.sound",
+      "difficulty": 2,
+      "stem": "The speed of sound in air is about v = 331 + 0.6T m/s, where T is in °C. What is it at 30 °C?",
+      "visual": null,
+      "choices": {
+        "A": "343 m/s",
+        "B": "313 m/s",
+        "C": "331 m/s",
+        "D": "349 m/s",
+        "E": "361 m/s"
+      },
+      "answer": "D",
+      "explanation": "v = 331 + 0.6 × 30 = 331 + 18 = 349 m/s.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "physics-0087",
+      "subtopic": "physics.acoustics.sound",
+      "difficulty": 3,
+      "stem": "A pipe closed at one end is 0.25 m long. What is its fundamental frequency? (v = 343 m/s)",
+      "visual": null,
+      "choices": {
+        "A": "1372 Hz",
+        "B": "686 Hz",
+        "C": "86 Hz",
+        "D": "172 Hz",
+        "E": "343 Hz"
+      },
+      "answer": "E",
+      "explanation": "A closed pipe has a node at the closed end and an antinode at the open end, so L = λ/4. λ = 1.00 m and f = v/λ = 343 Hz. (686 Hz would be an open pipe.)",
+      "explanation_visual": "content/physics/sound-wave.svg",
+      "source": "original"
+    },
+    {
+      "id": "physics-0088",
+      "subtopic": "physics.acoustics.sound",
+      "difficulty": 3,
+      "stem": "You stand between two cliffs and clap. You hear echoes 0.50 s and 1.20 s later. If sound moves at 343 m/s, how far apart are the cliffs?",
+      "visual": null,
+      "choices": {
+        "A": "292 m",
+        "B": "120 m",
+        "C": "206 m",
+        "D": "584 m",
+        "E": "146 m"
+      },
+      "answer": "A",
+      "explanation": "Distances: d₁ = 343 × 0.50 ÷ 2 = 85.8 m and d₂ = 343 × 1.20 ÷ 2 = 205.8 m. You are between them, so the gap is 85.8 + 205.8 ≈ 292 m.",
+      "explanation_visual": "content/physics/sound-echo.svg",
+      "source": "original"
+    }
+  ]
+}

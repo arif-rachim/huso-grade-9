@@ -1,0 +1,88 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="{{ mode_label }} result" subtitle="Right = +1, wrong = −0.25, blank = 0." :back="route('practice.index')"/>
+
+  <div class="pq-summary">
+    <div class="pq-big">
+      <span class="pq-big__label">Score</span>
+      <span class="pq-big__value">{{ overall.raw }}</span>
+      <span class="pq-big__sub">out of {{ overall.total }} points</span>
+    </div>
+    <div class="pq-big">
+      <span class="pq-big__label">Correct</span>
+      <span class="pq-big__value">{{ overall.percent }}%</span>
+      <span class="pq-big__sub">{{ overall.correct }} right · {{ overall.wrong }} wrong · {{ overall.blank }} blank</span>
+    </div>
+    {% if best %}
+    <div class="pq-big pq-big--best">
+      <span class="pq-big__label">Best {{ best.count }} subjects</span>
+      <span class="pq-big__value">{{ best.total }} / {{ best.out_of }}</span>
+      <span class="pq-big__sub">{% if best.dropped %}Dropped: {{ best.dropped }} (lowest percent){% else %}Every subject counts{% endif %}</span>
+    </div>
+    {% endif %}
+  </div>
+
+  <rx-card title="{{ 'Subjects' if subjects | length > 1 else 'Result' }}">
+    <div class="pq-bars">
+      {% for s in subjects %}
+      <div class="pq-bar{% if s.dropped %} is-dropped{% endif %}" style="--c: {{ s.color }}">
+        <span class="pq-bar__name">{{ s.emoji }} {{ s.name }}</span>
+        <span class="pq-bar__track"><span class="pq-bar__fill" style="width: {{ s.width }}%"></span></span>
+        <span class="pq-bar__pct">{{ s.percent }}%</span>
+        {% if s.dropped %}<span class="pq-bar__tag">dropped</span>{% elif is_simulation %}<span class="pq-bar__tag pq-bar__tag--kept">counts</span>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <table class="pq-table">
+      <thead><tr><th>Subject</th><th>Right</th><th>Wrong</th><th>Blank</th><th>Raw score</th><th>Percent</th></tr></thead>
+      <tbody>
+      {% for s in subjects %}
+        <tr class="{% if s.dropped %}is-dropped{% endif %}">
+          <td><span class="subject-dot" data-subject="{{ s.slug }}" style="background: {{ s.color }}"></span> {{ s.name }}{% if s.dropped %} <rx-badge kind="warning">dropped</rx-badge>{% endif %}</td>
+          <td>{{ s.correct }}</td><td>{{ s.wrong }}</td><td>{{ s.blank }}</td><td><strong>{{ s.raw }}</strong></td><td>{{ s.percent }}%</td>
+        </tr>
+      {% endfor %}
+      {% if subjects | length > 1 %}
+        <tr class="pq-table__total"><td>All</td><td>{{ overall.correct }}</td><td>{{ overall.wrong }}</td><td>{{ overall.blank }}</td><td><strong>{{ overall.raw }}</strong></td><td>{{ overall.percent }}%</td></tr>
+      {% endif %}
+      </tbody>
+    </table>
+    {% if best %}
+    <p class="pq-note">The real exam turns each subject into a z-score. We cannot do that at home, so this page adds up the percent of your best {{ best.count }} subjects instead.</p>
+    {% endif %}
+  </rx-card>
+
+  <h2 class="pq-h2">Your answers</h2>
+  {% for r in review %}
+  <details class="pq-review pq-review--{{ r.status }}" style="--c: {{ r.color }}"{% if r.status != 'correct' or r.guessed %} open{% endif %}>
+    <summary>
+      <span class="pq-review__n">{{ r.number }}</span>
+      <span class="pq-review__stem">{{ r.stem }}</span>
+      <span class="pq-review__answers">You: <strong>{{ r.your }}</strong> · Key: <strong>{{ r.key }}</strong></span>
+      {% if r.status == 'correct' %}<rx-badge kind="success">Right</rx-badge>{% elif r.status == 'wrong' %}<rx-badge kind="error">Wrong</rx-badge>{% else %}<rx-badge>Blank</rx-badge>{% endif %}
+      {% if r.guessed %}<rx-badge kind="warning">Guessed</rx-badge>{% endif %}
+      {% if r.error_log %}<span class="pq-errlog">→ added to Error Log</span>{% endif %}
+    </summary>
+    <div class="pq-review__body">
+      <p class="pq-review__meta"><span class="subject-dot" style="background: {{ r.color }}"></span> {{ r.subject_name }} · {{ r.topic_name }} · {{ r.seconds }} s</p>
+      {% if r.visual %}<figure class="pq-visual"><img src="/{{ r.visual }}" alt="Picture for question {{ r.number }}"></figure>{% endif %}
+      <ul class="pq-lines">
+        {% for c in r.choices %}
+        <li class="{% if c.is_key %}is-key{% endif %}{% if c.is_chosen and not c.is_key %} is-wrong{% endif %}">
+          <strong>{{ c.letter }}</strong> {{ c.text }}
+          {% if c.is_key %}<em>correct answer</em>{% endif %}{% if c.is_chosen %}<em>your answer</em>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      <div class="pq-explain">
+        <strong>Explanation</strong>
+        <p>{{ r.explanation }}</p>
+        {% if r.explanation_visual %}<figure class="pq-visual"><img src="/{{ r.explanation_visual }}" alt="Picture that explains the answer"></figure>{% endif %}
+      </div>
+    </div>
+  </details>
+  {% endfor %}
+
+  {% if not is_parent %}
+  <p class="pq-after"><rx-link-button route="practice.index" label="Practice again"/></p>
+  {% endif %}
+</rx-page>

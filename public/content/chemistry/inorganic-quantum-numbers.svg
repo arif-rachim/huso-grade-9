@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 322" role="img">
+  <title>Quantum numbers and orbitals</title>
+  <desc>For shells n = 1, 2 and 3: the subshells s (l = 0), p (l = 1) and d (l = 2), and the orbital boxes labeled by m from minus l to plus l. Shell n has n squared orbitals and holds at most 2 n squared electrons.</desc>
+  <rect x="0" y="0" width="440" height="322" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="22" font-size="15" text-anchor="middle" font-weight="bold">n = shell, l = subshell, m = which orbital</text>
+    <text x="14" y="80" font-size="14" text-anchor="start" font-weight="bold">n = 1</text>
+    <text x="79.5" y="56" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">1s  (l = 0)</text>
+    <rect x="66" y="64" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="79.5" y="84" font-size="13" text-anchor="middle">0</text>
+    <text x="14" y="112" font-size="12" text-anchor="start" fill="#6b7280">1 orbital, up to 2 electrons</text>
+    <text x="14" y="164" font-size="14" text-anchor="start" font-weight="bold">n = 2</text>
+    <text x="79.5" y="140" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">2s  (l = 0)</text>
+    <rect x="66" y="148" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="79.5" y="168" font-size="13" text-anchor="middle">0</text>
+    <text x="149.5" y="140" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">2p  (l = 1)</text>
+    <rect x="107" y="148" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.18" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="120.5" y="168" font-size="13" text-anchor="middle">−1</text>
+    <rect x="136" y="148" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.18" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="149.5" y="168" font-size="13" text-anchor="middle">0</text>
+    <rect x="165" y="148" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.18" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="178.5" y="168" font-size="13" text-anchor="middle">+1</text>
+    <text x="14" y="196" font-size="12" text-anchor="start" fill="#6b7280">4 orbitals, up to 8 electrons</text>
+    <text x="14" y="248" font-size="14" text-anchor="start" font-weight="bold">n = 3</text>
+    <text x="79.5" y="224" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">3s  (l = 0)</text>
+    <rect x="66" y="232" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="79.5" y="252" font-size="13" text-anchor="middle">0</text>
+    <text x="149.5" y="224" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">3p  (l = 1)</text>
+    <rect x="107" y="232" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.18" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="120.5" y="252" font-size="13" text-anchor="middle">−1</text>
+    <rect x="136" y="232" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.18" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="149.5" y="252" font-size="13" text-anchor="middle">0</text>
+    <rect x="165" y="232" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.18" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="178.5" y="252" font-size="13" text-anchor="middle">+1</text>
+    <text x="277.5" y="224" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">3d  (l = 2)</text>
+    <rect x="206" y="232" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.24" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="219.5" y="252" font-size="13" text-anchor="middle">−2</text>
+    <rect x="235" y="232" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.24" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="248.5" y="252" font-size="13" text-anchor="middle">−1</text>
+    <rect x="264" y="232" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.24" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="277.5" y="252" font-size="13" text-anchor="middle">0</text>
+    <rect x="293" y="232" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.24" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="306.5" y="252" font-size="13" text-anchor="middle">+1</text>
+    <rect x="322" y="232" width="27" height="30" rx="0" fill="#ca8a04" fill-opacity="0.24" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="335.5" y="252" font-size="13" text-anchor="middle">+2</text>
+    <text x="14" y="280" font-size="12" text-anchor="start" fill="#6b7280">9 orbitals, up to 18 electrons</text>
+    <text x="300" y="112" font-size="12" text-anchor="start" fill="#6b7280">Boxes show m (from −l to +l).</text>
+    <text x="300" y="128" font-size="12" text-anchor="start" fill="#6b7280">Each box holds 2 electrons.</text>
+    <text x="220" y="312" font-size="13" text-anchor="middle" font-weight="bold">s: 1 box (2 e⁻)    p: 3 boxes (6 e⁻)    d: 5 boxes (10 e⁻)</text>
+  </g>
+</svg>

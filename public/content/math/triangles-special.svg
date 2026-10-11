@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 500" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 500" role="img" aria-labeledby="t d">
   <title id="t">Special triangles and area formulas</title>
   <desc id="d">45-45-90 triangle with sides 1, 1, root 2; 30-60-90 triangle with sides 1, root 3, 2; and a box of formulas: area, Heron, inradius, circumradius.</desc>
   <rect x="0" y="0" width="440" height="500" fill="#ffffff"/>

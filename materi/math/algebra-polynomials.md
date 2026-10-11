@@ -2,7 +2,7 @@
 > 📅 Study date: Tue 13 Oct · ⏱️ ~12 min read · 📋 Syllabus: Divisibility and factorization of polynomials, Vieta's formulas, Binomial theorem, Rational root theorem
 
 ## 🏊 Start with the swimming pool
-The training pool at your school is a rectangle. Its length is **(x + 5)** metres and its width is **(x + 2)** metres. What is its area?
+The training pool at your school is a rectangle. Its length is **(x + 5)** meters and its width is **(x + 2)** meters. What is its area?
 
 Draw the tiles and the area appears by itself: **x² + 7x + 10**. Now run it backwards: if someone only tells you the area is **x² + 7x + 10**, you can work out the sides of the pool. That is **factoring**. A polynomial is like the pool: you have the total area, and you have the sides that build it.
 
@@ -79,7 +79,7 @@ Do these without looking at the page. You are **READY** if you get at least 4 ou
 
 (A) 5  (B) 6  (C) 11  (D) 17  (E) 27
 
-**2.** 🏊 A rectangular swimming pool has area x² − 7x + 10 square metres and length (x − 2) metres. If x = 9, what is the width of the pool, in metres?
+**2.** 🏊 A rectangular swimming pool has area x² − 7x + 10 square meters and length (x − 2) meters. If x = 9, what is the width of the pool, in meters?
 
 (A) 2  (B) 4  (C) 7  (D) 10  (E) 28
 

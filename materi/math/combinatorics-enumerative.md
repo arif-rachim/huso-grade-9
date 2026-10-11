@@ -13,7 +13,7 @@ That one question splits counting into two families: **permutations** (order mat
 1. **Permutations (order matters).** n! = n × (n−1) × … × 1 counts ways to line up n different things. Choosing and lining up k of n: **P(n, k) = n! / (n − k)!** = n × (n−1) × … (k factors).
 2. **Combinations (order ignored).** Each team of k people was counted k! times in P(n, k), so **C(n, k) = n! / (k! (n − k)!)**. Also C(n, k) = C(n, n − k): choosing the people who are *in* equals choosing the people who are *out*.
 3. **Repeated letters.** Arrange n things where some are identical: divide by the factorial of each repeat. Letters of BOOK: 4! / 2! = 12. In general n! / (a! b! …).
-4. **Partitions.** *Splitting people into groups*: first count the labelled version (n! / (a! b! …)). If groups of the **same size** have no names, divide by the number of ways to swap them. *Integer partitions*: ways to write a number as a sum where **order does not matter** (4 + 1 and 1 + 4 are the same). The number 5 has 7 partitions.
+4. **Partitions.** *Splitting people into groups*: first count the labeled version (n! / (a! b! …)). If groups of the **same size** have no names, divide by the number of ways to swap them. *Integer partitions*: ways to write a number as a sum where **order does not matter** (4 + 1 and 1 + 4 are the same). The number 5 has 7 partitions.
 5. **Pascal's triangle.** Row n lists C(n, 0), C(n, 1), …, C(n, n). Each number is the **sum of the two above it**: C(n, k) = C(n−1, k−1) + C(n−1, k). Row n adds up to **2ⁿ** (every subset of n things is counted once).
 6. **Stars and bars.** Split n **identical** items into k **different** bowls (empty allowed): **C(n + k − 1, k − 1)**. If each bowl needs at least 1: put 1 in each bowl first, so the count is **C(n − 1, k − 1)**.
 
@@ -49,7 +49,7 @@ Steps:
 
 ## ⚠️ Common traps
 - **Order or no order?** "Choose a team" is a combination; "choose a captain, a vice-captain and a coach" is a permutation. Ask: if I swap two people, is it a *different* result?
-- **Forgetting to divide** for repeated letters (PANCAKE has two A's) or for **unlabelled** equal groups (two teams with no names).
+- **Forgetting to divide** for repeated letters (PANCAKE has two A's) or for **unlabeled** equal groups (two teams with no names).
 - **Stars and bars with the wrong "at least"**: "at least 1 each" and "empty allowed" give different formulas. Check which one the question says.
 - **Pascal row numbers start at 0**: the row 1, 3, 3, 1 is row n = 3, not row 4.
 
@@ -97,5 +97,5 @@ Do these without looking at the material. You are **READY** if you get at least 
 2. **(D) 2,520.** PANCAKE has 7 letters with the letter A twice: 7! / 2! = 5040 / 2 = 2520. (E) 5040 forgets to divide.
 3. **(B) 330.** C(10, 3) = 120 and C(10, 4) = 210, so the sum is 330. Pascal shortcut: C(10, 3) + C(10, 4) = C(11, 4) = 330. (A) 252 is C(10, 5).
 4. **(D) 120.** Stars and bars with 7 stars and 3 bars: C(7 + 4 − 1, 3) = C(10, 3) = 120. (A) 20 is the answer if every variable had to be at least 1: C(6, 3). (E) 210 is C(10, 4), the wrong choose.
-5. **(A) 10.** First pick the 3 players for "team 1": C(6, 3) = 20. But swapping the two teams gives the same split, so divide by 2: 10. (B) 20 treats the teams as labelled.
+5. **(A) 10.** First pick the 3 players for "team 1": C(6, 3) = 20. But swapping the two teams gives the same split, so divide by 2: 10. (B) 20 treats the teams as labeled.
 </details>

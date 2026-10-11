@@ -1,4 +1,4 @@
-# 🟦 HUSO Maths Cheat Sheet, Grade 9–10
+# 🟦 HUSO Math Cheat Sheet, Grade 9–10
 
 > 🖨️ Print 2 pages (Ctrl+P). The HUSO exam does **not** give you formulas, so learn all of these by heart. Round 1 allows a scientific calculator (not graphing).
 
@@ -68,7 +68,7 @@
 - **Inscribed angle = ½ the central angle** · an angle in a semicircle = 90°.
 - **Cyclic quadrilateral:** opposite angles add up to **180°**.
 - **Power of a point:** two chords PA·PB = PC·PD · tangent PT² = PA·PB.
-- **Tangent ⟂ radius.** Two circles touching externally: distance between centres = r₁ + r₂ · internally: \|r₁ − r₂\|.
+- **Tangent ⟂ radius.** Two circles touching externally: distance between centers = r₁ + r₂ · internally: \|r₁ − r₂\|.
 
 ### 🏊 Transformations (about the origin)
 | | Aturan |
@@ -101,6 +101,6 @@
 - **Stars and bars:** x₁ + … + xₖ = n → integers ≥ 0: **C(n + k − 1, k − 1)** · integers ≥ 1: **C(n − 1, k − 1)**.
 
 ### 🎮 Probability & 🏊 strategies
-- P(A) = favourable outcomes / all outcomes (equally likely) · **P(not A) = 1 − P(A)**.
+- P(A) = favorable outcomes / all outcomes (equally likely) · **P(not A) = 1 − P(A)**.
 - P(A ∪ B) = P(A) + P(B) − P(A ∩ B) · independent: **P(A ∩ B) = P(A)·P(B)** · conditional: **P(A \| B) = P(A ∩ B) / P(B)**.
 - **Strategies:** split into cases (*casework*) · "at least one" → **count the opposite** (*complementary counting*) · find a one-to-one pairing (*bijection*) · use symmetry.

@@ -1,6 +1,6 @@
-# 🟦 Maths: visual study material for HUSO Grade 9–10
+# 🟦 Math: visual study material for HUSO Grade 9–10
 
-Question level: like the **AMC 10**. In the HUSO exam, Maths has about 12 questions in about 36 minutes, so each question gets about 3 minutes: **depth matters more than speed**.
+Question level: like the **AMC 10**. In the HUSO exam, Math has about 12 questions in about 36 minutes, so each question gets about 3 minutes: **depth matters more than speed**.
 
 🖨️ **Print first:** [Formula cheat sheet (2 pages)](lembar-ringkas.md). Stick it on your study wall.
 

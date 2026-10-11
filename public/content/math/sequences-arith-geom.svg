@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" role="img" aria-labeledby="t d">
 <title id="t">Arithmetic and geometric sequences</title>
 <desc id="d">Left: the staircase 3,5,7,9,11 and its reversed copy form a 5 by 14 rectangle, so the sum is 35. Right: bars 1,2,4,8,16 add up to 31, which is 32 minus 1.</desc>
 <rect x="0" y="0" width="440" height="330" fill="#ffffff"/>
@@ -25,7 +25,7 @@
 <rect x="161.0" y="82.0" width="30.0" height="36.0" fill="#d1d5db" fill-opacity="0.6" stroke="#6b7280" stroke-width="1.5" />
 <text x="176.0" y="189.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >11</text>
 <text x="176.0" y="105.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="normal" >3</text>
-<text x="110.0" y="272.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal" >Stack a reversed copy (grey) on top (blue):</text>
+<text x="110.0" y="272.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal" >Stack a reversed copy (gray) on top (blue):</text>
 <text x="110.0" y="290.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="normal" >5 columns × 14 = 70, take half</text>
 <text x="110.0" y="310.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold" >S = 5 × (3 + 11) ÷ 2 = 35</text>
 <rect x="250.0" y="242.5" width="32.0" height="7.5" fill="#2563eb" fill-opacity="0.35" stroke="#2563eb" stroke-width="1.5" />

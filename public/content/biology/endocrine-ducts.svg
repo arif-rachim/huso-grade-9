@@ -29,8 +29,7 @@
       <path d="M270,222 C310,206 350,206 440,222" stroke="#dc2626" stroke-width="10" fill="none" stroke-opacity="0.35"/>
       <text x="355" y="244" font-size="12" fill="#dc2626">blood vessel</text>
       <circle cx="310" cy="208" r="3.5" fill="#16a34a"/><circle cx="332" cy="212" r="3.5" fill="#16a34a"/><circle cx="356" cy="215" r="3.5" fill="#16a34a"/><circle cx="380" cy="217" r="3.5" fill="#16a34a"/>
-      <text x="312" y="130" font-size="12">hormones (green dots)</text>
-      <path d="M312,150 L312,200" stroke="#16a34a" stroke-width="1.5" marker-end="url(#edg)"/>
+      <text x="312" y="130" font-size="12" text-anchor="middle">hormones = green dots</text>
       <rect x="395" y="106" width="52" height="40" rx="8" fill="#16a34a" fill-opacity="0.08" stroke="#16a34a" stroke-width="1.5"/>
       <text x="421" y="130" font-size="12" text-anchor="middle">target</text>
       <path d="M382,212 C400,190 410,170 421,148" stroke="#16a34a" stroke-width="1.5" fill="none" marker-end="url(#edg)"/>

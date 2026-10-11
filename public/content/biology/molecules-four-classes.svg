@@ -1,24 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 436" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" role="img" aria-labelledby="t d">
   <title id="t">The four biomolecule classes</title>
   <desc id="d">Four rows. Carbohydrates: glucose units join into starch, glycogen or cellulose (C H O). Lipids: glycerol plus three fatty acids make a fat (C H O). Proteins: amino acids join into a polypeptide (C H O N, some S). Nucleic acids: nucleotides join into DNA or RNA (C H O N P).</desc>
   <defs><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
-  <rect x="0" y="0" width="440" height="436" fill="#ffffff"/>
+  <rect x="0" y="0" width="440" height="440" fill="#ffffff"/>
   <g font-family="sans-serif" fill="#111827">
     <text x="220.0" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Four classes: small building blocks, big molecules</text>
     <text x="150" y="50" font-size="12" text-anchor="middle" fill="#6b7280">building block</text>
     <text x="342" y="50" font-size="12" text-anchor="middle" fill="#6b7280">big molecule</text>
     <rect x="8" y="62" width="424" height="84" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
     <text x="16" y="92" font-size="14" text-anchor="start" fill="#16a34a" font-weight="bold">Carbohydrates</text>
-    <text x="16" y="110" font-size="12" text-anchor="start" fill="#111827">C H O</text>
+    <text x="16" y="110" font-size="12" text-anchor="start" fill="#111827">C, H, O</text>
     <rect x="8" y="152" width="424" height="84" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
     <text x="16" y="182" font-size="14" text-anchor="start" fill="#16a34a" font-weight="bold">Lipids</text>
-    <text x="16" y="200" font-size="12" text-anchor="start" fill="#111827">C H O  (some P)</text>
+    <text x="16" y="200" font-size="12" text-anchor="start" fill="#111827">C, H, O (P)</text>
     <rect x="8" y="242" width="424" height="84" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
     <text x="16" y="272" font-size="14" text-anchor="start" fill="#16a34a" font-weight="bold">Proteins</text>
-    <text x="16" y="290" font-size="12" text-anchor="start" fill="#111827">C H O N  (some S)</text>
+    <text x="16" y="290" font-size="12" text-anchor="start" fill="#111827">C, H, O, N (S)</text>
     <rect x="8" y="332" width="424" height="84" rx="6" fill="#ffffff" stroke="#d1d5db" stroke-width="1.2"/>
     <text x="16" y="362" font-size="14" text-anchor="start" fill="#16a34a" font-weight="bold">Nucleic acids</text>
-    <text x="16" y="380" font-size="12" text-anchor="start" fill="#111827">C H O N P</text>
+    <text x="16" y="380" font-size="12" text-anchor="start" fill="#111827">C, H, O, N, P</text>
+    <g transform="translate(14,0)">
     <polygon points="163.9,106.0 150.0,114.0 136.1,106.0 136.1,90.0 150.0,82.0 163.9,90.0" fill="#16a34a" fill-opacity="0.2" stroke="#16a34a" stroke-width="1.8"/>
     <text x="150" y="102" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">G</text>
     <text x="150" y="134" font-size="12" text-anchor="middle" fill="#6b7280">glucose</text>
@@ -43,7 +44,7 @@
     <path d="M252,174 l10,-5 l10,10 l10,-10 l10,10 l10,-5 l10,5 l10,-5" fill="none" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M252,188 l10,-5 l10,10 l10,-10 l10,10 l10,-5 l10,5 l10,-5" fill="none" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
     <path d="M252,202 l10,-5 l10,10 l10,-10 l10,10 l10,-5 l10,5 l10,-5" fill="none" stroke="#16a34a" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
-    <text x="335" y="225" font-size="12" text-anchor="middle" fill="#6b7280">fat (triglyceride): not a long chain</text>
+    <text x="335" y="225" font-size="12" text-anchor="middle" fill="#6b7280">fat (triglyceride)</text>
     <circle cx="150" cy="278" r="12" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="1.6"/>
     <text x="150" y="282" font-size="11" text-anchor="middle" fill="#111827" font-weight="bold">aa</text>
     <text x="150" y="314" font-size="12" text-anchor="middle" fill="#6b7280">amino acid</text>
@@ -79,5 +80,7 @@
     <rect x="377.4" y="368.8" width="11.200000000000001" height="9.600000000000001" rx="0" fill="#ffffff" stroke="#111827" stroke-width="1.3"/>
     <text x="383.0" y="376.8" font-size="8.8" text-anchor="middle" fill="#111827" font-weight="bold">C</text>
     <text x="335" y="404" font-size="12" text-anchor="middle" fill="#6b7280">DNA, RNA</text>
+    </g>
+    <text x="220" y="428" font-size="12" text-anchor="middle" fill="#6b7280">(P) and (S) = only in some of them</text>
   </g>
 </svg>

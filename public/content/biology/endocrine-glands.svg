@@ -16,17 +16,13 @@
       <path d="M96,300 L100,350 L126,350 L130,300 L134,300 L138,350 L160,350 L164,300"/>
     </g>
     <path d="M110,70 C108,52 152,52 150,70 C152,80 108,80 110,70 z" fill="#16a34a" fill-opacity="0.12" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="3 2"/>
-    <ellipse cx="150" cy="215" rx="16" ry="11" fill="none" stroke="#d1d5db" stroke-width="2" stroke-dasharray="4 3"/>
+    <ellipse cx="150" cy="200" rx="18" ry="12" fill="none" stroke="#d1d5db" stroke-width="2" stroke-dasharray="4 3"/>
     <path d="M104,247 C98,232 108,222 116,226 C120,236 118,248 112,254 C108,256 104,252 104,247 z" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
     <path d="M156,247 C162,232 152,222 144,226 C140,236 142,248 148,254 C152,256 156,252 156,247 z" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
     <g data-label="pituitary"><circle cx="130" cy="82" r="5" fill="#16a34a"/></g>
     <g data-label="thyroid"><ellipse cx="121" cy="111" rx="7" ry="10" fill="#16a34a"/><ellipse cx="139" cy="111" rx="7" ry="10" fill="#16a34a"/><rect x="121" y="108" width="18" height="5" fill="#16a34a"/></g>
     <g data-label="adrenal"><path d="M106,226 L118,226 L116,218 L108,218 z" fill="#16a34a"/><path d="M142,226 L154,226 L152,218 L144,218 z" fill="#16a34a"/></g>
     <g data-label="pancreas"><path d="M104,264 C120,254 140,256 160,270 C150,282 128,280 106,272 z" fill="#16a34a" fill-opacity="0.75" stroke="#16a34a" stroke-width="1.5"/></g>
-    <text x="215" y="214" font-size="12" fill="#6b7280">stomach (dashed)</text>
-    <line x1="213" y1="211" x2="168" y2="215" stroke="#6b7280" stroke-width="1"/>
-    <text x="215" y="244" font-size="12" fill="#6b7280">kidneys (gray)</text>
-    <line x1="213" y1="241" x2="160" y2="238" stroke="#6b7280" stroke-width="1"/>
     <line x1="143" y1="82" x2="238" y2="56" stroke="#16a34a" stroke-width="1.4"/>
     <text x="244" y="60" font-size="15" text-anchor="start" fill="#16a34a" font-weight="bold">Pituitary</text>
     <text x="244" y="76" font-size="12" text-anchor="start" fill="#111827">base of the brain, under the hypothalamus</text>
@@ -39,6 +35,6 @@
     <line x1="166" y1="268" x2="238" y2="296" stroke="#16a34a" stroke-width="1.4"/>
     <text x="244" y="300" font-size="15" text-anchor="start" fill="#16a34a" font-weight="bold">Pancreas</text>
     <text x="244" y="316" font-size="12" text-anchor="start" fill="#111827">behind the stomach</text>
-    <text x="240" y="366" font-size="12" text-anchor="middle" fill="#6b7280">Gray shapes are only here to help you place the glands.</text>
+    <text x="240" y="366" font-size="12" text-anchor="middle" fill="#6b7280">Gray shapes: kidneys. Dashed shape: stomach. They only help you place the glands.</text>
   </g>
 </svg>

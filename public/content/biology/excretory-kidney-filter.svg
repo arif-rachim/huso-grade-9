@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 340" role="img">
+  <title>The kidney as a blood filter</title>
+  <desc>Blood with waste enters a kidney through the renal artery. About a million tiny filters called nephrons in each kidney clean it. Cleaned blood leaves through the renal vein. Waste, extra water and extra salts leave as urine through the ureter.</desc>
+  <defs>
+    <marker id="arG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#14532d"/></marker>
+    <marker id="arK" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+  </defs>
+  <rect width="580" height="340" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="290" y="22" font-size="16" font-weight="bold" text-anchor="middle">The kidney: a filter for blood</text>
+    <!-- kidney -->
+    <g data-label="kidney">
+      <path d="M280,78 C220,78 200,130 205,185 C210,240 245,272 290,268 C335,264 345,235 322,215 C305,198 305,155 322,138 C345,118 335,78 280,78 Z" fill="#bbf7d0" stroke="#14532d" stroke-width="2.5"/>
+    </g>
+    <g fill="#16a34a" opacity="0.8"><circle cx="246" cy="182" r="2.4"/><circle cx="263" cy="192" r="2.4"/><circle cx="296" cy="105" r="2.4"/><circle cx="249" cy="132" r="2.4"/><circle cx="298" cy="119" r="2.4"/><circle cx="298" cy="234" r="2.4"/><circle cx="283" cy="214" r="2.4"/><circle cx="302" cy="105" r="2.4"/><circle cx="308" cy="236" r="2.4"/><circle cx="308" cy="242" r="2.4"/><circle cx="266" cy="223" r="2.4"/><circle cx="273" cy="245" r="2.4"/><circle cx="233" cy="130" r="2.4"/><circle cx="296" cy="143" r="2.4"/><circle cx="281" cy="157" r="2.4"/><circle cx="261" cy="189" r="2.4"/><circle cx="291" cy="240" r="2.4"/><circle cx="304" cy="244" r="2.4"/><circle cx="302" cy="121" r="2.4"/><circle cx="308" cy="129" r="2.4"/><circle cx="252" cy="105" r="2.4"/><circle cx="268" cy="119" r="2.4"/><circle cx="253" cy="218" r="2.4"/><circle cx="295" cy="102" r="2.4"/><circle cx="255" cy="107" r="2.4"/><circle cx="293" cy="100" r="2.4"/><circle cx="241" cy="160" r="2.4"/><circle cx="294" cy="120" r="2.4"/><circle cx="256" cy="248" r="2.4"/><circle cx="275" cy="178" r="2.4"/><circle cx="299" cy="190" r="2.4"/><circle cx="288" cy="194" r="2.4"/><circle cx="271" cy="210" r="2.4"/><circle cx="246" cy="143" r="2.4"/><circle cx="286" cy="97" r="2.4"/><circle cx="269" cy="188" r="2.4"/><circle cx="297" cy="105" r="2.4"/><circle cx="297" cy="170" r="2.4"/><circle cx="303" cy="151" r="2.4"/><circle cx="307" cy="213" r="2.4"/><circle cx="303" cy="249" r="2.4"/><circle cx="248" cy="168" r="2.4"/><circle cx="292" cy="146" r="2.4"/><circle cx="262" cy="145" r="2.4"/><circle cx="263" cy="190" r="2.4"/><circle cx="254" cy="155" r="2.4"/><circle cx="289" cy="213" r="2.4"/><circle cx="255" cy="131" r="2.4"/><circle cx="239" cy="165" r="2.4"/><circle cx="306" cy="111" r="2.4"/><circle cx="257" cy="148" r="2.4"/><circle cx="326" cy="122" r="2.4"/><circle cx="259" cy="199" r="2.4"/><circle cx="244" cy="114" r="2.4"/><circle cx="284" cy="126" r="2.4"/><circle cx="320" cy="229" r="2.4"/><circle cx="239" cy="140" r="2.4"/><circle cx="232" cy="142" r="2.4"/><circle cx="260" cy="162" r="2.4"/><circle cx="270" cy="161" r="2.4"/></g>
+    <text x="262" y="296" font-size="13" text-anchor="middle" font-weight="bold" fill="#14532d">about 1 million nephrons</text>
+    <text x="262" y="312" font-size="13" text-anchor="middle" fill="#14532d">(tiny filters) in each kidney</text>
+    <!-- blood in -->
+    <path d="M545,92 L430,112 L336,160" stroke="#14532d" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arG)"/>
+    <text x="545" y="52" font-size="14" font-weight="bold" fill="#14532d" text-anchor="end">Blood in (renal artery)</text>
+    <text x="545" y="68" font-size="12" text-anchor="end">carries urea, extra water and salts</text>
+    <!-- blood out -->
+    <path d="M336,182 L430,198 L545,198" stroke="#14532d" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#arG)"/>
+    <text x="545" y="224" font-size="14" font-weight="bold" fill="#14532d" text-anchor="end">Cleaned blood out</text>
+    <text x="545" y="240" font-size="12" text-anchor="end">(renal vein)</text>
+    <!-- urine out -->
+    <path d="M318,226 C330,262 380,284 436,284" stroke="#6b7280" stroke-width="4" fill="none" stroke-linecap="round" marker-end="url(#arK)"/>
+    <text x="452" y="280" font-size="14" font-weight="bold" fill="#111827">Urine</text>
+    <text x="452" y="296" font-size="12">through the ureter</text>
+    <text x="452" y="311" font-size="12">to the bladder</text>
+    <!-- note -->
+    <rect x="12" y="110" width="170" height="64" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="97" y="130" font-size="12" text-anchor="middle">Useful things (like glucose)</text>
+    <text x="97" y="146" font-size="12" text-anchor="middle">and most of the water</text>
+    <text x="97" y="162" font-size="12" text-anchor="middle">go back into the blood</text>
+  </g>
+</svg>

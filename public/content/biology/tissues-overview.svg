@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="tot tod">
+  <title id="tot">Three tissue groups</title>
+  <desc id="tod">A tissue is a group of similar cells doing one job. Epithelial tissue covers and lines surfaces. Connective tissue supports and joins. Muscular tissue contracts to cause movement.</desc>
+  <defs>
+    <marker id="toa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="tog" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="360" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Tissue = a group of similar cells that do one job</text>
+    <g data-label="epithelial"><rect x="12" y="38" width="150" height="310" rx="12" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="87" y="62" font-size="15" text-anchor="middle" fill="#16a34a" font-weight="bold">Epithelial</text>
+    <text x="87" y="79" font-size="12" text-anchor="middle" fill="#6b7280">covers and lines</text>
+    <rect x="27" y="100" width="24" height="30" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="1.5"/><circle cx="39" cy="115" r="4" fill="#16a34a"/>
+    <rect x="51" y="100" width="24" height="30" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="1.5"/><circle cx="63" cy="115" r="4" fill="#16a34a"/>
+    <rect x="75" y="100" width="24" height="30" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="1.5"/><circle cx="87" cy="115" r="4" fill="#16a34a"/>
+    <rect x="99" y="100" width="24" height="30" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="1.5"/><circle cx="111" cy="115" r="4" fill="#16a34a"/>
+    <rect x="123" y="100" width="24" height="30" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="1.5"/><circle cx="135" cy="115" r="4" fill="#16a34a"/>
+    <line x1="27" y1="132" x2="147" y2="132" stroke="#6b7280" stroke-width="2"/>
+    <text x="87" y="170" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Where?</text>
+    <text x="87" y="190" font-size="12" text-anchor="middle" fill="#111827">skin surface (outside)</text>
+    <text x="87" y="224" font-size="12" text-anchor="middle" fill="#111827">lining of mouth and gut</text>
+    <text x="87" y="258" font-size="12" text-anchor="middle" fill="#111827">lining of airways</text>
+    <text x="87" y="272" font-size="12" text-anchor="middle" fill="#111827">and blood vessels</text>
+    <text x="87" y="300" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Job</text>
+    <text x="87" y="320" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">protects,</text>
+    <text x="87" y="336" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">absorbs, secretes</text>
+    </g>
+    <g data-label="connective"><rect x="170" y="38" width="150" height="310" rx="12" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="245" y="62" font-size="15" text-anchor="middle" fill="#16a34a" font-weight="bold">Connective</text>
+    <text x="245" y="79" font-size="12" text-anchor="middle" fill="#6b7280">supports and joins</text>
+    <rect x="185" y="96" width="120" height="40" rx="8" fill="#d1d5db" fill-opacity="0.45"/>
+    <circle cx="200" cy="110" r="6" fill="#16a34a" fill-opacity="0.5" stroke="#16a34a"/>
+    <circle cx="232" cy="126" r="6" fill="#16a34a" fill-opacity="0.5" stroke="#16a34a"/>
+    <circle cx="260" cy="108" r="6" fill="#16a34a" fill-opacity="0.5" stroke="#16a34a"/>
+    <circle cx="286" cy="124" r="6" fill="#16a34a" fill-opacity="0.5" stroke="#16a34a"/>
+    <circle cx="215" cy="128" r="6" fill="#16a34a" fill-opacity="0.5" stroke="#16a34a"/>
+    <path d="M190,104 C220,110 240,100 300,112 M190,130 C230,120 260,134 300,124" stroke="#6b7280" stroke-width="1" fill="none"/>
+    <text x="245" y="170" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Where?</text>
+    <text x="245" y="190" font-size="12" text-anchor="middle" fill="#111827">bone, cartilage</text>
+    <text x="245" y="224" font-size="12" text-anchor="middle" fill="#111827">blood</text>
+    <text x="245" y="258" font-size="12" text-anchor="middle" fill="#111827">ligament, tendon</text>
+    <text x="245" y="300" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Job</text>
+    <text x="245" y="320" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">supports,</text>
+    <text x="245" y="336" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">connects, transports</text>
+    </g>
+    <g data-label="muscular"><rect x="328" y="38" width="150" height="310" rx="12" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="403" y="62" font-size="15" text-anchor="middle" fill="#16a34a" font-weight="bold">Muscular</text>
+    <text x="403" y="79" font-size="12" text-anchor="middle" fill="#6b7280">contracts</text>
+    <rect x="343" y="102" width="120" height="10" rx="5" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a"/>
+    <line x1="350" y1="103" x2="350" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="359" y1="103" x2="359" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="368" y1="103" x2="368" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="377" y1="103" x2="377" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="386" y1="103" x2="386" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="395" y1="103" x2="395" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="404" y1="103" x2="404" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="413" y1="103" x2="413" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="422" y1="103" x2="422" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="431" y1="103" x2="431" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="440" y1="103" x2="440" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="449" y1="103" x2="449" y2="111" stroke="#16a34a" stroke-width="0.8"/>
+    <rect x="343" y="114" width="120" height="10" rx="5" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a"/>
+    <line x1="350" y1="115" x2="350" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="359" y1="115" x2="359" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="368" y1="115" x2="368" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="377" y1="115" x2="377" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="386" y1="115" x2="386" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="395" y1="115" x2="395" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="404" y1="115" x2="404" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="413" y1="115" x2="413" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="422" y1="115" x2="422" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="431" y1="115" x2="431" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="440" y1="115" x2="440" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="449" y1="115" x2="449" y2="123" stroke="#16a34a" stroke-width="0.8"/>
+    <rect x="343" y="126" width="120" height="10" rx="5" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a"/>
+    <line x1="350" y1="127" x2="350" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="359" y1="127" x2="359" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="368" y1="127" x2="368" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="377" y1="127" x2="377" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="386" y1="127" x2="386" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="395" y1="127" x2="395" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="404" y1="127" x2="404" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="413" y1="127" x2="413" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="422" y1="127" x2="422" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="431" y1="127" x2="431" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="440" y1="127" x2="440" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <line x1="449" y1="127" x2="449" y2="135" stroke="#16a34a" stroke-width="0.8"/>
+    <text x="403" y="170" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Where?</text>
+    <text x="403" y="190" font-size="12" text-anchor="middle" fill="#111827">attached to bones</text>
+    <text x="403" y="224" font-size="12" text-anchor="middle" fill="#111827">walls of stomach and gut</text>
+    <text x="403" y="258" font-size="12" text-anchor="middle" fill="#111827">wall of the heart</text>
+    <text x="403" y="300" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Job</text>
+    <text x="403" y="320" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">moves the body and its organs</text>
+    </g>
+  </g>
+</svg>

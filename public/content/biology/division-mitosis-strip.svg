@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 368" role="img" aria-labelledby="t d">
+  <title id="t">Mitosis in six pictures</title>
+  <desc id="d">A cell with 2n equals 4 chromosomes: interphase copies the DNA, prophase condenses the chromosomes, metaphase lines them up in the middle, anaphase pulls the sister chromatids apart, telophase and cytokinesis make two identical cells with 4 chromosomes each.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="440" height="368" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Mitosis: one cell → two identical cells</text>
+    <circle cx="75" cy="84" r="52" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <circle cx="75" cy="84" r="30" fill="#ffffff" fill-opacity="0.7" stroke="#6b7280" stroke-width="1.6"/>
+    <path d="M50,73 q4,-8 8,0 q4,8 8,0" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M68,73 q4,-8 8,0 q4,8 8,0" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M50,93 q4,-8 8,0 q4,8 8,0" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M68,93 q4,-8 8,0 q4,8 8,0" fill="none" stroke="#6b7280" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="75" y="152" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">1  Interphase</text>
+    <text x="75" y="168" font-size="12" text-anchor="middle" fill="#111827">DNA is copied first</text>
+    <text x="75" y="184" font-size="12" text-anchor="middle" fill="#6b7280">4 chromosomes</text>
+    <circle cx="220" cy="84" r="52" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <circle cx="178" cy="84" r="3.5" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="262" cy="84" r="3.5" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <g transform="translate(206,66) rotate(20)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(230,68) rotate(-25)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(208,100) rotate(60)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(234,102) rotate(-50)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <text x="220" y="152" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">2  Prophase</text>
+    <text x="220" y="168" font-size="12" text-anchor="middle" fill="#111827">chromosomes condense</text>
+    <text x="220" y="184" font-size="12" text-anchor="middle" fill="#6b7280">4 X's = 8 chromatids</text>
+    <circle cx="365" cy="84" r="52" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <circle cx="319" cy="84" r="3.5" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="411" cy="84" r="3.5" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <line x1="319" y1="84" x2="365" y2="56" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="411" y1="84" x2="365" y2="56" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="319" y1="84" x2="365" y2="74" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="411" y1="84" x2="365" y2="74" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="319" y1="84" x2="365" y2="92" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="411" y1="84" x2="365" y2="92" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="319" y1="84" x2="365" y2="108" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="411" y1="84" x2="365" y2="108" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <g transform="translate(365,56) rotate(90)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(365,74) rotate(90)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(365,92) rotate(90)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(365,108) rotate(90)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <text x="365" y="152" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3  Metaphase</text>
+    <text x="365" y="168" font-size="12" text-anchor="middle" fill="#111827">line up in the middle</text>
+    <text x="365" y="184" font-size="12" text-anchor="middle" fill="#6b7280">4 X's = 8 chromatids</text>
+    <circle cx="75" cy="252" r="52" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <circle cx="29" cy="252" r="3.5" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="121" cy="252" r="3.5" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <line x1="29" y1="252" x2="51" y2="224" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="121" y1="252" x2="99" y2="224" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <g transform="translate(51,224) rotate(90)">
+    <line x1="0" y1="-15.0" x2="0" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(99,224) rotate(90)">
+    <line x1="0" y1="-15.0" x2="0" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <line x1="29" y1="252" x2="51" y2="242" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="121" y1="252" x2="99" y2="242" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <g transform="translate(51,242) rotate(90)">
+    <line x1="0" y1="-15.0" x2="0" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(99,242) rotate(90)">
+    <line x1="0" y1="-15.0" x2="0" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <line x1="29" y1="252" x2="51" y2="260" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="121" y1="252" x2="99" y2="260" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <g transform="translate(51,260) rotate(90)">
+    <line x1="0" y1="-9.0" x2="0" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(99,260) rotate(90)">
+    <line x1="0" y1="-9.0" x2="0" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <line x1="29" y1="252" x2="51" y2="276" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <line x1="121" y1="252" x2="99" y2="276" stroke="#6b7280" stroke-width="0.8" stroke-linecap="round"/>
+    <g transform="translate(51,276) rotate(90)">
+    <line x1="0" y1="-9.0" x2="0" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(99,276) rotate(90)">
+    <line x1="0" y1="-9.0" x2="0" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <text x="75" y="320" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">4  Anaphase</text>
+    <text x="75" y="336" font-size="12" text-anchor="middle" fill="#111827">chromatids pulled apart</text>
+    <text x="75" y="352" font-size="12" text-anchor="middle" fill="#6b7280">4 + 4 chromatids</text>
+    <ellipse cx="220" cy="252" rx="60" ry="50" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <path d="M220,202 q-12,50 0,100" fill="none" stroke="#6b7280" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 3"/>
+    <circle cx="190" cy="252" r="20" fill="#ffffff" fill-opacity="0.7" stroke="#6b7280" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <line x1="181" y1="243" x2="199" y2="243" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
+    <line x1="181" y1="249" x2="199" y2="249" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <line x1="181" y1="255" x2="199" y2="255" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
+    <line x1="181" y1="261" x2="199" y2="261" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="250" cy="252" r="20" fill="#ffffff" fill-opacity="0.7" stroke="#6b7280" stroke-width="1.4" stroke-dasharray="3 3"/>
+    <line x1="241" y1="243" x2="259" y2="243" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
+    <line x1="241" y1="249" x2="259" y2="249" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <line x1="241" y1="255" x2="259" y2="255" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
+    <line x1="241" y1="261" x2="259" y2="261" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <text x="220" y="320" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">5  Telophase</text>
+    <text x="220" y="336" font-size="12" text-anchor="middle" fill="#111827">two nuclei, cell pinches</text>
+    <text x="220" y="352" font-size="12" text-anchor="middle" fill="#6b7280">then the cell splits</text>
+    <circle cx="335" cy="252" r="26" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="2"/>
+    <circle cx="335" cy="252" r="15" fill="#ffffff" fill-opacity="0.7" stroke="#6b7280" stroke-width="1.4"/>
+    <line x1="327" y1="244" x2="343" y2="244" stroke="#16a34a" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="327" y1="249" x2="343" y2="249" stroke="#6b7280" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="327" y1="255" x2="343" y2="255" stroke="#16a34a" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="327" y1="260" x2="343" y2="260" stroke="#6b7280" stroke-width="2.6" stroke-linecap="round"/>
+    <circle cx="395" cy="252" r="26" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="2"/>
+    <circle cx="395" cy="252" r="15" fill="#ffffff" fill-opacity="0.7" stroke="#6b7280" stroke-width="1.4"/>
+    <line x1="387" y1="244" x2="403" y2="244" stroke="#16a34a" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="387" y1="249" x2="403" y2="249" stroke="#6b7280" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="387" y1="255" x2="403" y2="255" stroke="#16a34a" stroke-width="2.6" stroke-linecap="round"/>
+    <line x1="387" y1="260" x2="403" y2="260" stroke="#6b7280" stroke-width="2.6" stroke-linecap="round"/>
+    <text x="365" y="320" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">6  Two daughter cells</text>
+    <text x="365" y="336" font-size="12" text-anchor="middle" fill="#111827">identical to each other</text>
+    <text x="365" y="352" font-size="12" text-anchor="middle" fill="#6b7280">each 2n = 4 again</text>
+  </g>
+</svg>

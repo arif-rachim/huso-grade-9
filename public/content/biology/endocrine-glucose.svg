@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="eut eud">
   <title id="eut">Insulin and glucagon keep blood sugar steady</title>
-  <desc id="eud">A balance: high blood sugar makes the pancreas release insulin, which lowers it; low blood sugar makes the pancreas release glucagon, which raises it.</desc>
+  <desc id="eud">Two columns. High blood sugar after a meal makes the pancreas release insulin, which lowers blood sugar. Low blood sugar makes the pancreas release glucagon, which raises it.</desc>
   <defs>
     <marker id="eua" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
     <marker id="eug" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
@@ -8,29 +8,37 @@
   <rect x="0" y="0" width="480" height="330" fill="#ffffff"/>
   <g font-family="sans-serif" fill="#111827">
     <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Two pancreas hormones, two opposite jobs</text>
-    <rect x="170" y="130" width="140" height="60" rx="12" fill="#16a34a" fill-opacity="0.18" stroke="#16a34a" stroke-width="2"/>
-    <text x="240" y="156" font-size="14" text-anchor="middle" font-weight="bold">Blood sugar</text>
-    <text x="240" y="176" font-size="13" text-anchor="middle">(glucose) is steady</text>
-    <g data-label="insulin"><rect x="20" y="52" width="170" height="64" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
-    <text x="105" y="76" font-size="13" text-anchor="middle" font-weight="bold">Blood sugar too HIGH</text>
-    <text x="105" y="96" font-size="13" text-anchor="middle">(after a meal)</text></g>
-    <g data-label="glucagon"><rect x="290" y="214" width="170" height="64" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
-    <text x="375" y="238" font-size="13" text-anchor="middle" font-weight="bold">Blood sugar too LOW</text>
-    <text x="375" y="258" font-size="13" text-anchor="middle">(long after a meal)</text></g>
-    <path d="M105,116 L105,166 L166,166" fill="none" stroke="#111827" stroke-width="2" marker-end="url(#eua)" opacity="0"/>
-    <text x="40" y="150" font-size="13" fill="#16a34a" font-weight="bold">INSULIN</text>
-    <text x="40" y="168" font-size="12">cells take up sugar,</text>
-    <text x="40" y="184" font-size="12">liver stores it as glycogen</text>
-    <path d="M190,92 C230,92 240,100 240,126" fill="none" stroke="#16a34a" stroke-width="2" marker-end="url(#eug)"/>
-    <text x="200" y="84" font-size="12" fill="#16a34a" font-weight="bold">pancreas: insulin</text>
-    <text x="214" y="104" font-size="12" fill="#16a34a">sugar goes DOWN</text>
-    <path d="M290,246 C250,246 240,236 240,194" fill="none" stroke="#16a34a" stroke-width="2" marker-end="url(#eug)"/>
-    <text x="186" y="262" font-size="12" fill="#16a34a" font-weight="bold">pancreas: glucagon</text>
-    <text x="186" y="280" font-size="12" fill="#16a34a">sugar goes UP</text>
-    <text x="330" y="200" font-size="13" fill="#16a34a" font-weight="bold" display="none">x</text>
-    <text x="300" y="150" font-size="13" fill="#16a34a" font-weight="bold">GLUCAGON</text>
-    <text x="300" y="168" font-size="12">liver breaks glycogen</text>
-    <text x="300" y="184" font-size="12">into sugar</text>
-    <text x="240" y="316" font-size="12" text-anchor="middle" fill="#6b7280">Opposite jobs keep the level steady. When diabetes stops insulin from working, sugar stays high.</text>
+    <g><rect x="25" y="40" width="200" height="56" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+    <text x="125.0" y="64" font-size="13" text-anchor="middle" font-weight="bold">Blood sugar too HIGH</text>
+    <text x="125.0" y="84" font-size="12" text-anchor="middle">(just after a meal)</text>
+    </g>
+    <line x1="125" y1="96" x2="125" y2="122" stroke="#111827" stroke-width="2" marker-end="url(#eua)"/>
+    <g data-label="insulin"><rect x="25" y="124" width="200" height="56" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="125.0" y="148" font-size="13" text-anchor="middle" font-weight="bold">Pancreas releases</text>
+    <text x="125.0" y="168" font-size="12" text-anchor="middle">INSULIN</text>
+    </g>
+    <line x1="125" y1="180" x2="125" y2="206" stroke="#111827" stroke-width="2" marker-end="url(#eua)"/>
+    <g><rect x="25" y="208" width="200" height="72" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+    <text x="125.0" y="232" font-size="13" text-anchor="middle" font-weight="bold">Cells take up sugar;</text>
+    <text x="125.0" y="252" font-size="12" text-anchor="middle">liver stores it as glycogen</text>
+    </g>
+    <text x="125" y="270" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">blood sugar goes DOWN</text>
+    <g><rect x="255" y="40" width="200" height="56" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+    <text x="355.0" y="64" font-size="13" text-anchor="middle" font-weight="bold">Blood sugar too LOW</text>
+    <text x="355.0" y="84" font-size="12" text-anchor="middle">(long after a meal)</text>
+    </g>
+    <line x1="355" y1="96" x2="355" y2="122" stroke="#111827" stroke-width="2" marker-end="url(#eua)"/>
+    <g data-label="glucagon"><rect x="255" y="124" width="200" height="56" rx="10" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+    <text x="355.0" y="148" font-size="13" text-anchor="middle" font-weight="bold">Pancreas releases</text>
+    <text x="355.0" y="168" font-size="12" text-anchor="middle">GLUCAGON</text>
+    </g>
+    <line x1="355" y1="180" x2="355" y2="206" stroke="#111827" stroke-width="2" marker-end="url(#eua)"/>
+    <g><rect x="255" y="208" width="200" height="72" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+    <text x="355.0" y="232" font-size="13" text-anchor="middle" font-weight="bold">Liver breaks glycogen</text>
+    <text x="355.0" y="252" font-size="12" text-anchor="middle">down into sugar</text>
+    </g>
+    <text x="355" y="270" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">blood sugar goes UP</text>
+    <text x="240" y="312" font-size="12" text-anchor="middle" fill="#6b7280">Opposite jobs keep the level steady.</text>
+    <text x="240" y="328" font-size="12" text-anchor="middle" fill="#6b7280">In diabetes, insulin is missing or does not work, so sugar stays high.</text>
   </g>
 </svg>

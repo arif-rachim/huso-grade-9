@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 422" role="img">
+<title>The starch test</title>
+<desc>Five steps of the iodine starch test and three results: a covered strip stays brown, the white edge of a variegated leaf stays brown, and a leaf in a jar with KOH stays brown.</desc>
+<defs><marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="620" height="422" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="310" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >The starch test: did the leaf make food in the light?</text>
+<rect x="14" y="40" width="112" height="96" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<circle cx="30" cy="58" r="10" fill="#16a34a" stroke="#16a34a" stroke-width="1"/>
+<text x="30" y="63" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="bold" >1</text>
+<text x="70" y="90" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Destarch</text>
+<text x="70" y="108" font-size="12" text-anchor="middle" fill="#111827" >Plant in the dark</text>
+<text x="70" y="124" font-size="12" text-anchor="middle" fill="#111827" >for 24+ hours</text>
+<line x1="126" y1="88" x2="136" y2="88" stroke="#16a34a" stroke-width="2" marker-end="url(#aG)" stroke-linecap="round"/>
+<rect x="136" y="40" width="112" height="96" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<circle cx="152" cy="58" r="10" fill="#16a34a" stroke="#16a34a" stroke-width="1"/>
+<text x="152" y="63" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="bold" >2</text>
+<text x="192" y="90" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Light</text>
+<text x="192" y="108" font-size="12" text-anchor="middle" fill="#111827" >Give the test</text>
+<text x="192" y="124" font-size="12" text-anchor="middle" fill="#111827" >condition</text>
+<line x1="248" y1="88" x2="258" y2="88" stroke="#16a34a" stroke-width="2" marker-end="url(#aG)" stroke-linecap="round"/>
+<rect x="258" y="40" width="112" height="96" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<circle cx="274" cy="58" r="10" fill="#16a34a" stroke="#16a34a" stroke-width="1"/>
+<text x="274" y="63" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="bold" >3</text>
+<text x="314" y="90" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Boil in water</text>
+<text x="314" y="108" font-size="12" text-anchor="middle" fill="#111827" >Kills the cells,</text>
+<text x="314" y="124" font-size="12" text-anchor="middle" fill="#111827" >softens the leaf</text>
+<line x1="370" y1="88" x2="380" y2="88" stroke="#16a34a" stroke-width="2" marker-end="url(#aG)" stroke-linecap="round"/>
+<rect x="380" y="40" width="112" height="96" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<circle cx="396" cy="58" r="10" fill="#16a34a" stroke="#16a34a" stroke-width="1"/>
+<text x="396" y="63" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="bold" >4</text>
+<text x="436" y="90" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Warm in alcohol</text>
+<text x="436" y="108" font-size="12" text-anchor="middle" fill="#111827" >Water bath! Green</text>
+<text x="436" y="124" font-size="12" text-anchor="middle" fill="#111827" >color comes out</text>
+<line x1="492" y1="88" x2="502" y2="88" stroke="#16a34a" stroke-width="2" marker-end="url(#aG)" stroke-linecap="round"/>
+<rect x="502" y="40" width="112" height="96" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<circle cx="518" cy="58" r="10" fill="#16a34a" stroke="#16a34a" stroke-width="1"/>
+<text x="518" y="63" font-size="13" text-anchor="middle" fill="#ffffff" font-weight="bold" >5</text>
+<text x="558" y="90" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Add iodine</text>
+<text x="558" y="108" font-size="12" text-anchor="middle" fill="#111827" >Starch: blue-black</text>
+<text x="558" y="124" font-size="12" text-anchor="middle" fill="#111827" >No starch: brown</text>
+<rect x="14" y="146" width="184" height="262" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="2" />
+<text x="106" y="168" font-size="14" text-anchor="middle" fill="#15803d" font-weight="bold" >Light is needed</text>
+<rect x="218" y="146" width="184" height="262" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="2" />
+<text x="310" y="168" font-size="14" text-anchor="middle" fill="#15803d" font-weight="bold" >Chlorophyll is needed</text>
+<rect x="422" y="146" width="184" height="262" rx="8" fill="#ffffff" stroke="#d1d5db" stroke-width="2" />
+<text x="514" y="168" font-size="14" text-anchor="middle" fill="#15803d" font-weight="bold" >CO₂ is needed</text>
+<text x="44" y="188" font-size="12" text-anchor="middle" fill="#111827" ></text>
+<text x="106" y="190" font-size="12" text-anchor="middle" fill="#6b7280" >In the light</text>
+<path d="M44,222 Q106.0,196 168,222 Q106.0,248 44,222 Z" fill="#4ade80" stroke="#111827" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 106.0 222)"/>
+<rect x="92" y="203" width="28" height="38" rx="2" fill="#111827" stroke="#111827" stroke-width="1" />
+<text x="106" y="262" font-size="12" text-anchor="middle" fill="#111827" >black paper strip</text>
+<line x1="106" y1="270" x2="106" y2="284" stroke="#6b7280" stroke-width="2" marker-end="url(#aY)" stroke-linecap="round"/>
+<text x="106" y="300" font-size="12" text-anchor="middle" fill="#6b7280" >After the test with iodine</text>
+<path d="M44,334 Q106.0,308 168,334 Q106.0,360 44,334 Z" fill="#1e1b4b" stroke="#111827" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 106.0 334)"/>
+<rect x="92" y="315" width="28" height="38" rx="2" fill="#b45309" stroke="#111827" stroke-width="1" />
+<text x="106" y="380" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold" >Strip stays brown:</text>
+<text x="106" y="396" font-size="12" text-anchor="middle" fill="#111827" >no light, no starch</text>
+<text x="310" y="190" font-size="12" text-anchor="middle" fill="#6b7280" >Variegated leaf</text>
+<path d="M248,222 Q310.0,196 372,222 Q310.0,248 248,222 Z" fill="#ffffff" stroke="#111827" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 310.0 222)"/>
+<path d="M266,222 Q310.0,207 354,222 Q310.0,237 266,222 Z" fill="#4ade80" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 310.0 222)"/>
+<text x="310" y="262" font-size="12" text-anchor="middle" fill="#111827" >green center, white edge</text>
+<line x1="310" y1="270" x2="310" y2="284" stroke="#6b7280" stroke-width="2" marker-end="url(#aY)" stroke-linecap="round"/>
+<text x="310" y="300" font-size="12" text-anchor="middle" fill="#6b7280" >After the test with iodine</text>
+<path d="M248,334 Q310.0,308 372,334 Q310.0,360 248,334 Z" fill="#b45309" stroke="#111827" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 310.0 334)"/>
+<path d="M266,334 Q310.0,319 354,334 Q310.0,349 266,334 Z" fill="#1e1b4b" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 310.0 334)"/>
+<text x="310" y="380" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold" >Only green part blue-black:</text>
+<text x="310" y="396" font-size="12" text-anchor="middle" fill="#111827" >no chlorophyll, no starch</text>
+<text x="514" y="190" font-size="12" text-anchor="middle" fill="#6b7280" >Two sealed jars, same light</text>
+<rect x="436" y="204" width="66" height="62" rx="6" fill="#f9fafb" stroke="#6b7280" stroke-width="2" />
+<path d="M446,226 Q469.0,216 492,226 Q469.0,236 446,226 Z" fill="#4ade80" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 469.0 226)"/>
+<rect x="452" y="250" width="34" height="12" rx="2" fill="#e5e7eb" stroke="#6b7280" stroke-width="1" />
+<text x="469" y="260" font-size="11" text-anchor="middle" fill="#111827" >KOH</text>
+<line x1="469" y1="270" x2="469" y2="284" stroke="#6b7280" stroke-width="2" marker-end="url(#aY)" stroke-linecap="round"/>
+<path d="M446,342 Q469.0,332 492,342 Q469.0,352 446,342 Z" fill="#b45309" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 469.0 342)"/>
+<rect x="526" y="204" width="66" height="62" rx="6" fill="#f9fafb" stroke="#6b7280" stroke-width="2" />
+<path d="M536,226 Q559.0,216 582,226 Q559.0,236 536,226 Z" fill="#4ade80" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 559.0 226)"/>
+<rect x="542" y="250" width="34" height="12" rx="2" fill="#e5e7eb" stroke="#6b7280" stroke-width="1" />
+<text x="559" y="260" font-size="11" text-anchor="middle" fill="#111827" >water</text>
+<line x1="559" y1="270" x2="559" y2="284" stroke="#6b7280" stroke-width="2" marker-end="url(#aY)" stroke-linecap="round"/>
+<path d="M536,342 Q559.0,332 582,342 Q559.0,352 536,342 Z" fill="#1e1b4b" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" transform="rotate(0 559.0 342)"/>
+<text x="514" y="300" font-size="12" text-anchor="middle" fill="#6b7280" >iodine test</text>
+<text x="469" y="372" font-size="12" text-anchor="middle" fill="#b45309" font-weight="bold" >brown</text>
+<text x="559" y="372" font-size="12" text-anchor="middle" fill="#1e1b4b" font-weight="bold" >blue-black</text>
+<text x="514" y="392" font-size="12" text-anchor="middle" fill="#111827" >KOH absorbs CO₂: no starch</text>
+
+</g>
+</svg>

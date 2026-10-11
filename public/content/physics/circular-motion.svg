@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 380" role="img" aria-labeledby="t d">
+  <title id="t">Uniform circular motion</title>
+  <desc id="d">A ball moves counterclockwise on a circle of radius r. Velocity v points along the tangent, acceleration and net force point to the center. Formulas for v, omega, a and F.</desc>
+  <defs>
+    <marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+  </defs>
+  <rect x="0" y="0" width="440" height="380" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Uniform circular motion</text>
+    <circle cx="130" cy="220" r="90" fill="#dc2626" fill-opacity="0.08" stroke="#dc2626" stroke-width="2"/>
+    <line x1="130.0" y1="220.0" x2="40.0" y2="220.0" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4"/>
+    <circle cx="130" cy="220" r="3.5" fill="#111827"/>
+    <text x="138.0" y="238.0" font-size="12" text-anchor="start" fill="#6b7280">center</text>
+    <text x="85.0" y="212.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">r</text>
+    <line x1="203.7" y1="168.4" x2="162.4" y2="109.4" stroke="#dc2626" stroke-width="3" marker-end="url(#arR)"/>
+    <text x="195.1" y="144.9" font-size="15" text-anchor="start" fill="#dc2626" font-weight="bold">v</text>
+    <line x1="162.4" y1="109.4" x2="139.5" y2="76.6" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arG)"/>
+    <text x="153.5" y="82.6" font-size="12" text-anchor="start" fill="#6b7280">let go: straight line</text>
+    <line x1="203.7" y1="168.4" x2="161.1" y2="198.2" stroke="#111827" stroke-width="3" marker-end="url(#arK)"/>
+    <text x="163.1" y="220.2" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">a, F</text>
+    <circle cx="203.7" cy="168.4" r="8" fill="#dc2626" stroke="#111827" stroke-width="1.5"/>
+    <text x="130.0" y="340.0" font-size="12" text-anchor="middle" fill="#6b7280">constant speed, but the direction changes</text>
+    <text x="262.0" y="66.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">One lap takes T seconds</text>
+    <text x="262.0" y="96.0" font-size="15" text-anchor="start" fill="#dc2626" font-weight="bold">f = 1/T</text>
+    <text x="262.0" y="112.0" font-size="12" text-anchor="start" fill="#6b7280">laps per second (Hz)</text>
+    <text x="262.0" y="140.0" font-size="15" text-anchor="start" fill="#dc2626" font-weight="bold">v = 2πr / T</text>
+    <text x="262.0" y="156.0" font-size="12" text-anchor="start" fill="#6b7280">speed (m/s)</text>
+    <text x="262.0" y="184.0" font-size="15" text-anchor="start" fill="#dc2626" font-weight="bold">ω = 2π / T</text>
+    <text x="262.0" y="200.0" font-size="12" text-anchor="start" fill="#6b7280">angle per second (rad/s)</text>
+    <text x="262.0" y="228.0" font-size="15" text-anchor="start" fill="#dc2626" font-weight="bold">v = ωr</text>
+    <text x="262.0" y="244.0" font-size="12" text-anchor="start" fill="#6b7280">link between the two</text>
+    <text x="262.0" y="272.0" font-size="15" text-anchor="start" fill="#dc2626" font-weight="bold">a = v² / r</text>
+    <text x="262.0" y="288.0" font-size="12" text-anchor="start" fill="#6b7280">points to the center</text>
+    <text x="262.0" y="316.0" font-size="15" text-anchor="start" fill="#dc2626" font-weight="bold">F = mv² / r</text>
+    <text x="262.0" y="332.0" font-size="12" text-anchor="start" fill="#6b7280">net force, also to the center</text>
+    <text x="220.0" y="366.0" font-size="13" text-anchor="middle" fill="#111827">1 lap = 2π rad = 360°.  rpm → rad/s: multiply by 2π/60.</text>
+  </g>
+</svg>

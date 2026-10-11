@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 486" role="img" aria-labeledby="t d">
+  <title id="t">Collisions and momentum</title>
+  <desc id="d">A 2 kg cart at 3 m/s hits a 1 kg cart at rest. If they stick: 3 kg at 2 m/s, kinetic energy drops from 9 J to 6 J. If elastic: 2 kg at 1 m/s and 1 kg at 4 m/s, kinetic energy stays 9 J. Momentum is 6 kg m/s in both cases.</desc>
+  <rect x="0" y="0" width="440" height="486" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Momentum p = mv is always conserved</text>
+    <rect x="10.0" y="40.0" width="420.0" height="206.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="24.0" y="60.0" font-size="13" text-anchor="start" fill="#dc2626" font-weight="bold">Sticky collision (perfectly inelastic)</text>
+    <text x="24.0" y="84.0" font-size="12" text-anchor="start" fill="#6b7280">before</text>
+    <text x="24.0" y="144.0" font-size="12" text-anchor="start" fill="#6b7280">after</text>
+    <rect x="70.0" y="92.0" width="68.0" height="34.0" rx="3" fill="#dc2626" fill-opacity="0.2" stroke="#111827" stroke-width="1.8"/>
+    <text x="104.0" y="114.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">2 kg</text>
+    <line x1="104.0" y1="86.0" x2="150.0" y2="86.0" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="158.0,86.0 149.0,90.0 149.0,82.0" fill="#111827"/>
+    <text x="131.0" y="78.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">3 m/s</text>
+    <rect x="200.0" y="92.0" width="54.0" height="34.0" rx="3" fill="#dc2626" fill-opacity="0.2" stroke="#111827" stroke-width="1.8"/>
+    <text x="227.0" y="114.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">1 kg</text>
+    <rect x="150.0" y="152.0" width="82.0" height="34.0" rx="3" fill="#dc2626" fill-opacity="0.2" stroke="#111827" stroke-width="1.8"/>
+    <text x="191.0" y="174.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3 kg</text>
+    <line x1="191.0" y1="146.0" x2="219.0" y2="146.0" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="227.0,146.0 218.0,150.1 218.0,141.9" fill="#111827"/>
+    <text x="209.0" y="138.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">2 m/s</text>
+    <text x="24.0" y="206.0" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">p: 2·3 + 0 = 6 = 3·2 ✓     KE: 9 J → 6 J (3 J lost as heat, sound)</text>
+    <rect x="10.0" y="262.0" width="420.0" height="206.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="24.0" y="282.0" font-size="13" text-anchor="start" fill="#dc2626" font-weight="bold">Bouncy collision (elastic)</text>
+    <text x="24.0" y="306.0" font-size="12" text-anchor="start" fill="#6b7280">before</text>
+    <text x="24.0" y="366.0" font-size="12" text-anchor="start" fill="#6b7280">after</text>
+    <rect x="70.0" y="314.0" width="68.0" height="34.0" rx="3" fill="#dc2626" fill-opacity="0.2" stroke="#111827" stroke-width="1.8"/>
+    <text x="104.0" y="336.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">2 kg</text>
+    <line x1="104.0" y1="308.0" x2="150.0" y2="308.0" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="158.0,308.0 149.0,312.1 149.0,303.9" fill="#111827"/>
+    <text x="131.0" y="300.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">3 m/s</text>
+    <rect x="200.0" y="314.0" width="54.0" height="34.0" rx="3" fill="#dc2626" fill-opacity="0.2" stroke="#111827" stroke-width="1.8"/>
+    <text x="227.0" y="336.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">1 kg</text>
+    <rect x="120.0" y="374.0" width="68.0" height="34.0" rx="3" fill="#dc2626" fill-opacity="0.2" stroke="#111827" stroke-width="1.8"/>
+    <text x="154.0" y="396.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">2 kg</text>
+    <line x1="154.0" y1="368.0" x2="164.0" y2="368.0" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="172.0,368.0 163.0,372.1 163.0,363.9" fill="#111827"/>
+    <text x="163.0" y="360.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">1 m/s</text>
+    <rect x="210.0" y="374.0" width="54.0" height="34.0" rx="3" fill="#dc2626" fill-opacity="0.2" stroke="#111827" stroke-width="1.8"/>
+    <text x="237.0" y="396.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">1 kg</text>
+    <line x1="237.0" y1="368.0" x2="301.0" y2="368.0" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="309.0,368.0 300.0,372.1 300.0,363.9" fill="#111827"/>
+    <text x="273.0" y="360.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">4 m/s</text>
+    <text x="24.0" y="428.0" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">p: 2·1 + 1·4 = 6 ✓     KE: ½·2·1² + ½·1·4² = 1 + 8 = 9 J ✓</text>
+    <text x="24.0" y="448.0" font-size="12" text-anchor="start" fill="#6b7280">Same p before and after in BOTH. Only elastic keeps KE too.</text>
+    <text x="24.0" y="226.0" font-size="12" text-anchor="start" fill="#6b7280">Sticky: the carts end up with one common velocity.</text>
+  </g>
+</svg>

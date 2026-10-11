@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 420" role="img" aria-labeledby="t d">
+  <title id="t">Moment of inertia and the spinning analogy</title>
+  <desc id="d">Moment of inertia of a ring, a disk, a stick about its center and a stick about its end, and a table of linear versus rotational quantities.</desc>
+  <defs>
+    <marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+  </defs>
+  <rect x="0" y="0" width="440" height="420" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="22.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Moment of inertia I: how hard it is to spin</text>
+    <circle cx="55" cy="80" r="32" fill="none" stroke="#dc2626" stroke-width="7"/>
+    <circle cx="55" cy="80" r="3" fill="#111827"/>
+    <text x="55.0" y="134.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">ring</text>
+    <text x="55.0" y="154.0" font-size="15" text-anchor="middle" fill="#dc2626" font-weight="bold">mr²</text>
+    <circle cx="165" cy="80" r="32" fill="#dc2626" fill-opacity="0.25" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="165" cy="80" r="3" fill="#111827"/>
+    <text x="165.0" y="134.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">solid disk</text>
+    <text x="165.0" y="154.0" font-size="15" text-anchor="middle" fill="#dc2626" font-weight="bold">mr²/2</text>
+    <rect x="230" y="74" width="90" height="12" rx="3" fill="#dc2626" fill-opacity="0.25" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="275" cy="80" r="4.5" fill="#111827"/>
+    <text x="275.0" y="134.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">stick, center</text>
+    <text x="275.0" y="154.0" font-size="15" text-anchor="middle" fill="#dc2626" font-weight="bold">ml²/12</text>
+    <rect x="340" y="74" width="90" height="12" rx="3" fill="#dc2626" fill-opacity="0.25" stroke="#dc2626" stroke-width="2"/>
+    <circle cx="340" cy="80" r="4.5" fill="#111827"/>
+    <text x="385.0" y="134.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">stick, end</text>
+    <text x="385.0" y="154.0" font-size="15" text-anchor="middle" fill="#dc2626" font-weight="bold">ml²/3</text>
+    <text x="385.0" y="172.0" font-size="12" text-anchor="middle" fill="#6b7280">(from I₀ + md²)</text>
+    <text x="220.0" y="190.0" font-size="12" text-anchor="middle" fill="#6b7280">l = length of the stick, r = radius, dot = the axis</text>
+    <text x="10.0" y="190.0" font-size="12" text-anchor="start" fill="#111827"></text>
+    <text x="220.0" y="214.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Parallel axis:  I = I₀ + m·d²   (d = shift of the axis)</text>
+    <rect x="20" y="232" width="400" height="172" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="130.0" y="254.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="bold">Straight line</text>
+    <text x="310.0" y="254.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">Spinning</text>
+    <text x="130.0" y="278.0" font-size="13" text-anchor="middle" fill="#111827">position x</text>
+    <text x="310.0" y="278.0" font-size="13" text-anchor="middle" fill="#111827">angle θ</text>
+    <text x="130.0" y="300.0" font-size="13" text-anchor="middle" fill="#111827">speed v</text>
+    <text x="310.0" y="300.0" font-size="13" text-anchor="middle" fill="#111827">angular speed ω</text>
+    <text x="130.0" y="322.0" font-size="13" text-anchor="middle" fill="#111827">acceleration a</text>
+    <text x="310.0" y="322.0" font-size="13" text-anchor="middle" fill="#111827">angular acceleration α</text>
+    <text x="130.0" y="344.0" font-size="13" text-anchor="middle" fill="#111827">mass m</text>
+    <text x="310.0" y="344.0" font-size="13" text-anchor="middle" fill="#111827">moment of inertia I</text>
+    <text x="130.0" y="366.0" font-size="13" text-anchor="middle" fill="#111827">force F</text>
+    <text x="310.0" y="366.0" font-size="13" text-anchor="middle" fill="#111827">torque τ</text>
+    <text x="130.0" y="388.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">F = m·a</text>
+    <text x="310.0" y="388.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">τ = I·α</text>
+  </g>
+</svg>

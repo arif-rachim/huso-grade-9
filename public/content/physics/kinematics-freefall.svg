@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" role="img" aria-labeledby="t d">
+  <title id="t">Free fall and projectiles</title>
+  <desc id="d">A dropped ball and a ball thrown sideways at 10 m/s fall together: after 1, 2 and 3 s both have fallen 4.9, 19.6 and 44.1 m. Vertical speeds 9.8, 19.6, 29.4 m/s.</desc>
+  <rect x="0" y="0" width="440" height="400" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Dropped vs thrown sideways: the same fall</text>
+    <line x1="78.0" y1="56.0" x2="234.0" y2="56.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+    <text x="68.0" y="60.0" font-size="12" text-anchor="end" fill="#6b7280">t = 0 s</text>
+    <line x1="78.0" y1="75.6" x2="234.0" y2="75.6" stroke="#d1d5db" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+    <text x="68.0" y="79.6" font-size="12" text-anchor="end" fill="#6b7280">t = 1 s</text>
+    <line x1="78.0" y1="134.4" x2="234.0" y2="134.4" stroke="#d1d5db" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+    <text x="68.0" y="138.4" font-size="12" text-anchor="end" fill="#6b7280">t = 2 s</text>
+    <line x1="78.0" y1="232.4" x2="234.0" y2="232.4" stroke="#d1d5db" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+    <text x="68.0" y="236.4" font-size="12" text-anchor="end" fill="#6b7280">t = 3 s</text>
+    <polyline points="92.0,56.0 94.0,56.0 96.0,56.2 98.0,56.4 100.0,56.8 102.0,57.2 104.0,57.8 106.0,58.4 108.0,59.1 110.0,60.0 112.0,60.9 114.0,61.9 116.0,63.1 118.0,64.3 120.0,65.6 122.0,67.0 124.0,68.5 126.0,70.2 128.0,71.9 130.0,73.7 132.0,75.6 134.0,77.6 136.0,79.7 138.0,81.9 140.0,84.2 142.0,86.6 144.0,89.1 146.0,91.7 148.0,94.4 150.0,97.2 152.0,100.1 154.0,103.1 156.0,106.2 158.0,109.4 160.0,112.6 162.0,116.0 164.0,119.5 166.0,123.1 168.0,126.8 170.0,130.5 172.0,134.4 174.0,138.4 176.0,142.4 178.0,146.6 180.0,150.9 182.0,155.2 184.0,159.7 186.0,164.2 188.0,168.9 190.0,173.6 192.0,178.5 194.0,183.4 196.0,188.5 198.0,193.6 200.0,198.9 202.0,204.2 204.0,209.7 206.0,215.2 208.0,220.8 210.0,226.6 212.0,232.4" fill="none" stroke="#dc2626" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="5 4"/>
+    <line x1="92.0" y1="56.0" x2="92.0" y2="232.4" stroke="#dc2626" stroke-width="2" stroke-linecap="round" stroke-dasharray="5 4"/>
+    <circle cx="92.0" cy="56.0" r="7" fill="#dc2626" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="92.0" cy="56.0" r="7" fill="#dc2626" fill-opacity="0.45" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="92.0" cy="75.6" r="7" fill="#dc2626" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="132.0" cy="75.6" r="7" fill="#dc2626" fill-opacity="0.45" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="92.0" cy="134.4" r="7" fill="#dc2626" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="172.0" cy="134.4" r="7" fill="#dc2626" fill-opacity="0.45" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="92.0" cy="232.4" r="7" fill="#dc2626" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="212.0" cy="232.4" r="7" fill="#dc2626" fill-opacity="0.45" stroke="#111827" stroke-width="1.5"/>
+    <text x="290.0" y="79.6" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">v_y = 9.8 m/s</text>
+    <text x="290.0" y="138.4" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">v_y = 19.6 m/s</text>
+    <text x="290.0" y="236.4" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">v_y = 29.4 m/s</text>
+    <text x="92.0" y="40.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">dropped</text>
+    <text x="176.0" y="40.0" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">thrown sideways at 10 m/s</text>
+    <text x="112.0" y="91.6" font-size="12" text-anchor="middle" fill="#111827"></text>
+    <text x="290.0" y="40.0" font-size="12" text-anchor="middle" fill="#111827"></text>
+    <text x="290.0" y="62.0" font-size="12" text-anchor="start" fill="#6b7280">same v_y for both</text>
+    <text x="190.0" y="256.4" font-size="12" text-anchor="middle" fill="#6b7280">x = 30 m after 3 s</text>
+    <rect x="20.0" y="264.4" width="400.0" height="116.0" rx="8" fill="#dc2626" fill-opacity="0.07"/>
+    <text x="32.0" y="284.4" font-size="12" text-anchor="start" fill="#111827">• Free fall: a = 9.8 m/s² down, for heavy and light.</text>
+    <text x="32.0" y="306.4" font-size="12" text-anchor="start" fill="#111827">• Sideways speed never changes; the fall is unaffected.</text>
+    <text x="32.0" y="328.4" font-size="12" text-anchor="start" fill="#111827">• Thrown up: v = 0 at the top, but a is still 9.8 m/s² down.</text>
+    <text x="32.0" y="350.4" font-size="12" text-anchor="start" fill="#111827">• Up and down take equal time; it lands at its launch speed.</text>
+    <text x="32.0" y="372.4" font-size="12" text-anchor="start" fill="#111827">• Fall from rest: Δx = ½gt² = 4.9t²  (1 s → 4.9 m)</text>
+  </g>
+</svg>

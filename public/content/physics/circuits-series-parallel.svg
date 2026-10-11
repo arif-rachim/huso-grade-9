@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 450" role="img" aria-labelledby="t d">
+  <title id="t">Resistors in series and in parallel</title>
+  <desc id="d">Left: 6 ohm and 3 ohm in series with a 12 V battery, same current everywhere, total 9 ohm. Right: 6 ohm and 3 ohm in parallel with the same battery, same voltage on both, currents add, total 2 ohm.</desc>
+  <defs>
+    <marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+  </defs>
+  <rect x="0" y="0" width="440" height="450" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="22.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Same battery, same two resistors, two ways</text>
+    <text x="130.0" y="52.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">SERIES</text>
+    <polyline points="72.0,100.0 72.0,145.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="55.0" y1="145.0" x2="89.0" y2="145.0" stroke="#111827" stroke-width="2.6"/>
+    <line x1="63.0" y1="155.0" x2="81.0" y2="155.0" stroke="#111827" stroke-width="5"/>
+    <polyline points="72.0,155.0 72.0,210.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="52.0" y="148.0" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">12 V</text>
+    <text x="80.0" y="141.0" font-size="13" text-anchor="start" fill="#dc2626" font-weight="bold">+</text>
+    <polyline points="72.0,100.0 110.0,100.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="110.0,100.0 116.0,100.0 119.7,108.0 127.0,92.0 134.3,108.0 141.7,92.0 149.0,108.0 156.3,92.0 160.0,100.0 166.0,100.0" fill="none" stroke="#dc2626" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="166.0,100.0 205.0,100.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="205.0,100.0 205.0,210.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="205.0,210.0 166.0,210.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="110.0,210.0 116.0,210.0 119.7,218.0 127.0,202.0 134.3,218.0 141.7,202.0 149.0,218.0 156.3,202.0 160.0,210.0 166.0,210.0" fill="none" stroke="#dc2626" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="110.0,210.0 72.0,210.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="138.0" y="84.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">6 Ω</text>
+    <text x="138.0" y="242.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3 Ω</text>
+    <line x1="84.0" y1="100.0" x2="106.0" y2="100.0" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arR)"/>
+    <text x="130.0" y="270.0" font-size="12" text-anchor="middle" fill="#6b7280">same current everywhere</text>
+    <text x="130.0" y="288.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">I = 12 V ÷ 9 Ω ≈ 1.3 A</text>
+    <text x="130.0" y="308.0" font-size="12" text-anchor="middle" fill="#6b7280">voltages add: 8 V + 4 V = 12 V</text>
+    <text x="130.0" y="330.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">R = R₁ + R₂ = 9 Ω</text>
+    <text x="335.0" y="52.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">PARALLEL</text>
+    <polyline points="272.0,100.0 272.0,145.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="255.0" y1="145.0" x2="289.0" y2="145.0" stroke="#111827" stroke-width="2.6"/>
+    <line x1="263.0" y1="155.0" x2="281.0" y2="155.0" stroke="#111827" stroke-width="5"/>
+    <polyline points="272.0,155.0 272.0,210.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="258.0" y="148.0" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">12 V</text>
+    <text x="280.0" y="141.0" font-size="13" text-anchor="start" fill="#dc2626" font-weight="bold">+</text>
+    <polyline points="272.0,100.0 408.0,100.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="272.0,210.0 408.0,210.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="332.0,100.0 332.0,130.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="332.0,130.0 332.0,136.0 340.0,139.2 324.0,145.5 340.0,151.8 324.0,158.2 340.0,164.5 324.0,170.8 332.0,174.0 332.0,180.0" fill="none" stroke="#dc2626" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="332.0,180.0 332.0,210.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="332.0" y="160.0" font-size="12" text-anchor="start" fill="#111827"></text>
+    <polyline points="394.0,100.0 394.0,130.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="394.0,130.0 394.0,136.0 402.0,139.2 386.0,145.5 402.0,151.8 386.0,158.2 402.0,164.5 386.0,170.8 394.0,174.0 394.0,180.0" fill="none" stroke="#dc2626" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="394.0,180.0 394.0,210.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="394.0" y="160.0" font-size="12" text-anchor="start" fill="#111827"></text>
+    <text x="318.0" y="160.0" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">6 Ω</text>
+    <text x="380.0" y="160.0" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">3 Ω</text>
+    <circle cx="332" cy="100" r="3.5" fill="#111827"/>
+    <circle cx="394" cy="100" r="3.5" fill="#111827"/>
+    <circle cx="332" cy="210" r="3.5" fill="#111827"/>
+    <circle cx="394" cy="210" r="3.5" fill="#111827"/>
+    <line x1="284.0" y1="100.0" x2="312.0" y2="100.0" stroke="#dc2626" stroke-width="2.2" marker-end="url(#arR)"/>
+    <text x="288.0" y="90.0" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">6 A</text>
+    <text x="340.0" y="130.0" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">2 A</text>
+    <text x="402.0" y="130.0" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">4 A</text>
+    <text x="335.0" y="270.0" font-size="12" text-anchor="middle" fill="#6b7280">same voltage on each: 12 V</text>
+    <text x="335.0" y="288.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">I = 2 A + 4 A = 6 A</text>
+    <text x="335.0" y="308.0" font-size="12" text-anchor="middle" fill="#6b7280">total is smaller than 3 Ω</text>
+    <text x="335.0" y="330.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">1/R = 1/R₁ + 1/R₂ → R = 2 Ω</text>
+    <line x1="20.0" y1="352.0" x2="420.0" y2="352.0" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="220.0" y="378.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Ohm's law: V = I·R     Power: P = I·V = I²R = V²/R</text>
+    <text x="220.0" y="404.0" font-size="12" text-anchor="middle" fill="#6b7280">Series: one path, the bigger R gets the bigger share of the voltage.</text>
+    <text x="220.0" y="424.0" font-size="12" text-anchor="middle" fill="#6b7280">Parallel: many paths, the smaller R gets the bigger share of the current.</text>
+  </g>
+</svg>

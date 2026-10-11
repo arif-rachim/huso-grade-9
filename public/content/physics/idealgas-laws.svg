@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 390" role="img">
+  <title>Boyle, Charles and Gay-Lussac</title>
+  <desc>Three small graphs for a fixed amount of ideal gas: Boyle P against V is a falling curve, Charles V against T in kelvin is a straight line through zero, Gay-Lussac P against T in kelvin is a straight line through zero.</desc>
+  <rect x="0" y="0" width="440" height="390" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="16" text-anchor="middle" font-weight="bold">Three special cases (same amount of gas)</text>
+    <rect x="8.0" y="38.0" width="136.0" height="270.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="76.0" y="58.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#dc2626">Boyle</text>
+    <text x="76.0" y="76.0" font-size="12" text-anchor="middle">T constant</text>
+    <line x1="34.0" y1="104.0" x2="34.0" y2="200.0" stroke="#111827" stroke-width="1.6"/>
+    <line x1="34.0" y1="200.0" x2="140.0" y2="200.0" stroke="#111827" stroke-width="1.6"/>
+    <text x="38.0" y="99.0" font-size="12" text-anchor="start">P</text>
+    <text x="140.0" y="216.0" font-size="12" text-anchor="end">V</text>
+    <path d="M47.8 116.5 L49.9 122.3 L51.9 127.4 L54.0 131.9 L56.1 135.8 L58.1 139.3 L60.2 142.4 L62.3 145.3 L64.3 147.8 L66.4 150.2 L68.5 152.3 L70.5 154.3 L72.6 156.1 L74.7 157.7 L76.7 159.3 L78.8 160.7 L80.9 162.1 L82.9 163.3 L85.0 164.5 L87.1 165.6 L89.1 166.6 L91.2 167.6 L93.3 168.5 L95.3 169.4 L97.4 170.2 L99.5 171.0 L101.5 171.7 L103.6 172.4 L105.7 173.1 L107.7 173.7 L109.8 174.3 L111.9 174.9 L113.9 175.4 L116.0 176.0 L118.1 176.5 L120.1 177.0 L122.2 177.4 L124.3 177.9 L126.4 178.3 L128.4 178.7 L130.5 179.1" fill="none" stroke="#dc2626" stroke-width="3"/>
+    <rect x="152.0" y="38.0" width="136.0" height="270.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="220.0" y="58.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#dc2626">Charles</text>
+    <text x="220.0" y="76.0" font-size="12" text-anchor="middle">P constant</text>
+    <line x1="178.0" y1="104.0" x2="178.0" y2="200.0" stroke="#111827" stroke-width="1.6"/>
+    <line x1="178.0" y1="200.0" x2="284.0" y2="200.0" stroke="#111827" stroke-width="1.6"/>
+    <text x="182.0" y="99.0" font-size="12" text-anchor="start">V</text>
+    <text x="284.0" y="216.0" font-size="12" text-anchor="end">T (K)</text>
+    <path d="M178.0 200.0 L274.0 112.0" fill="none" stroke="#dc2626" stroke-width="3"/>
+    <rect x="296.0" y="38.0" width="136.0" height="270.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="364.0" y="58.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#dc2626">Gay-Lussac</text>
+    <text x="364.0" y="76.0" font-size="12" text-anchor="middle">V constant</text>
+    <line x1="322.0" y1="104.0" x2="322.0" y2="200.0" stroke="#111827" stroke-width="1.6"/>
+    <line x1="322.0" y1="200.0" x2="428.0" y2="200.0" stroke="#111827" stroke-width="1.6"/>
+    <text x="326.0" y="99.0" font-size="12" text-anchor="start">P</text>
+    <text x="428.0" y="216.0" font-size="12" text-anchor="end">T (K)</text>
+    <path d="M322.0 200.0 L418.0 112.0" fill="none" stroke="#dc2626" stroke-width="3"/>
+    <text x="76.0" y="240.0" font-size="13" text-anchor="middle" font-weight="bold">P·V = constant</text>
+    <text x="76.0" y="260.0" font-size="13" text-anchor="middle">P₁V₁ = P₂V₂</text>
+    <text x="76.0" y="282.0" font-size="12" text-anchor="middle" fill="#6b7280">squeeze it: P goes up</text>
+    <text x="220.0" y="240.0" font-size="13" text-anchor="middle" font-weight="bold">V ÷ T = constant</text>
+    <text x="220.0" y="260.0" font-size="13" text-anchor="middle">V₁/T₁ = V₂/T₂</text>
+    <text x="220.0" y="282.0" font-size="12" text-anchor="middle" fill="#6b7280">heat it: V grows</text>
+    <text x="364.0" y="240.0" font-size="13" text-anchor="middle" font-weight="bold">P ÷ T = constant</text>
+    <text x="364.0" y="260.0" font-size="13" text-anchor="middle">P₁/T₁ = P₂/T₂</text>
+    <text x="364.0" y="282.0" font-size="12" text-anchor="middle" fill="#6b7280">heat it: P grows</text>
+    <rect x="8.0" y="322.0" width="424.0" height="56.0" rx="8" fill="none" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="220.0" y="344.0" font-size="14" text-anchor="middle" font-weight="bold">Together: P₁V₁/T₁ = P₂V₂/T₂      (PV = nRT)</text>
+    <text x="220.0" y="366.0" font-size="13" text-anchor="middle">T must be in kelvin: K = °C + 273. The lines start at 0 K.</text>
+
+  </g>
+</svg>

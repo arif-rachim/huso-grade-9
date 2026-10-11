@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 388" role="img" aria-labeledby="t d">
+  <title id="t">Position against time in SHM</title>
+  <desc id="d">A cosine wave of position against time with amplitude A and period T. Speed is zero at the peaks and largest where the curve crosses zero. A dashed wave with half the amplitude has the same period.</desc>
+  <defs>
+    <marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+  </defs>
+  <rect x="0" y="0" width="440" height="388" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="22.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">x–t graph of SHM (released at x = +A)</text>
+    <line x1="60.0" y1="150.0" x2="424.0" y2="150.0" stroke="#111827" stroke-width="1.8" marker-end="url(#arK)"/>
+    <line x1="60.0" y1="250.0" x2="60.0" y2="48.0" stroke="#111827" stroke-width="1.8" marker-end="url(#arK)"/>
+    <text x="52.0" y="56.0" font-size="14" text-anchor="end" fill="#111827" font-weight="bold">x</text>
+    <text x="420.0" y="170.0" font-size="14" text-anchor="end" fill="#111827" font-weight="bold">t</text>
+    <line x1="56.0" y1="70.0" x2="410.0" y2="70.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="56.0" y1="230.0" x2="410.0" y2="230.0" stroke="#d1d5db" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="52.0" y="75.0" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">+A</text>
+    <text x="52.0" y="235.0" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">−A</text>
+    <text x="52.0" y="155.0" font-size="13" text-anchor="end" fill="#111827">0</text>
+    <polyline points="60.0,110.0 64.0,110.1 68.0,110.5 72.0,111.1 76.0,112.0 80.0,113.0 84.0,114.4 88.0,115.9 92.0,117.6 96.0,119.6 100.0,121.7 104.0,124.0 108.0,126.5 112.0,129.1 116.0,131.8 120.0,134.7 124.0,137.6 128.0,140.7 132.0,143.7 136.0,146.9 140.0,150.0 144.0,153.1 148.0,156.3 152.0,159.3 156.0,162.4 160.0,165.3 164.0,168.2 168.0,170.9 172.0,173.5 176.0,176.0 180.0,178.3 184.0,180.4 188.0,182.4 192.0,184.1 196.0,185.6 200.0,187.0 204.0,188.0 208.0,188.9 212.0,189.5 216.0,189.9 220.0,190.0 224.0,189.9 228.0,189.5 232.0,188.9 236.0,188.0 240.0,187.0 244.0,185.6 248.0,184.1 252.0,182.4 256.0,180.4 260.0,178.3 264.0,176.0 268.0,173.5 272.0,170.9 276.0,168.2 280.0,165.3 284.0,162.4 288.0,159.3 292.0,156.3 296.0,153.1 300.0,150.0 304.0,146.9 308.0,143.7 312.0,140.7 316.0,137.6 320.0,134.7 324.0,131.8 328.0,129.1 332.0,126.5 336.0,124.0 340.0,121.7 344.0,119.6 348.0,117.6 352.0,115.9 356.0,114.4 360.0,113.0 364.0,112.0 368.0,111.1 372.0,110.5 376.0,110.1 380.0,110.0" fill="none" stroke="#6b7280" stroke-width="2" stroke-dasharray="5 4"/>
+    <polyline points="60.0,70.0 64.0,70.2 68.0,71.0 72.0,72.2 76.0,73.9 80.0,76.1 84.0,78.7 88.0,81.8 92.0,85.3 96.0,89.2 100.0,93.4 104.0,98.0 108.0,103.0 112.0,108.2 116.0,113.7 120.0,119.4 124.0,125.3 128.0,131.3 132.0,137.5 136.0,143.7 140.0,150.0 144.0,156.3 148.0,162.5 152.0,168.7 156.0,174.7 160.0,180.6 164.0,186.3 168.0,191.8 172.0,197.0 176.0,202.0 180.0,206.6 184.0,210.8 188.0,214.7 192.0,218.2 196.0,221.3 200.0,223.9 204.0,226.1 208.0,227.8 212.0,229.0 216.0,229.8 220.0,230.0 224.0,229.8 228.0,229.0 232.0,227.8 236.0,226.1 240.0,223.9 244.0,221.3 248.0,218.2 252.0,214.7 256.0,210.8 260.0,206.6 264.0,202.0 268.0,197.0 272.0,191.8 276.0,186.3 280.0,180.6 284.0,174.7 288.0,168.7 292.0,162.5 296.0,156.3 300.0,150.0 304.0,143.7 308.0,137.5 312.0,131.3 316.0,125.3 320.0,119.4 324.0,113.7 328.0,108.2 332.0,103.0 336.0,98.0 340.0,93.4 344.0,89.2 348.0,85.3 352.0,81.8 356.0,78.7 360.0,76.1 364.0,73.9 368.0,72.2 372.0,71.0 376.0,70.2 380.0,70.0" fill="none" stroke="#dc2626" stroke-width="3.5"/>
+    <line x1="60.0" y1="146.0" x2="60.0" y2="154.0" stroke="#111827" stroke-width="1.5"/>
+    <line x1="140.0" y1="146.0" x2="140.0" y2="154.0" stroke="#111827" stroke-width="1.5"/>
+    <text x="135.0" y="169.0" font-size="12" text-anchor="end" fill="#111827">T/4</text>
+    <line x1="220.0" y1="146.0" x2="220.0" y2="154.0" stroke="#111827" stroke-width="1.5"/>
+    <text x="220.0" y="169.0" font-size="12" text-anchor="middle" fill="#111827">T/2</text>
+    <line x1="300.0" y1="146.0" x2="300.0" y2="154.0" stroke="#111827" stroke-width="1.5"/>
+    <text x="305.0" y="169.0" font-size="12" text-anchor="start" fill="#111827">3T/4</text>
+    <line x1="380.0" y1="146.0" x2="380.0" y2="154.0" stroke="#111827" stroke-width="1.5"/>
+    <text x="380.0" y="169.0" font-size="12" text-anchor="middle" fill="#111827">T</text>
+    <line x1="61.0" y1="252.0" x2="379.0" y2="252.0" stroke="#6b7280" stroke-width="1.3" marker-end="url(#arG)"/>
+    <line x1="379.0" y1="252.0" x2="61.0" y2="252.0" stroke="#6b7280" stroke-width="1.3" marker-end="url(#arG)"/>
+    <text x="220.0" y="270.0" font-size="12" text-anchor="middle" fill="#6b7280">one period T = one full back-and-forth</text>
+    <circle cx="60" cy="70" r="5" fill="#dc2626"/>
+    <text x="70.0" y="60.0" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">peak: v = 0, all PE</text>
+    <circle cx="140.0" cy="150" r="5" fill="#111827"/>
+    <text x="148.0" y="140.0" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">crossing 0: fastest, all KE</text>
+    <text x="220.0" y="300.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">f = 1/T  (hertz = cycles per second)</text>
+    <text x="220.0" y="324.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">Smaller or larger swing: the period stays the same.</text>
+    <text x="220.0" y="348.0" font-size="13" text-anchor="middle" fill="#6b7280">Total energy ½kA² is constant, it only swaps between PE and KE.</text>
+    <text x="220.0" y="372.0" font-size="13" text-anchor="middle" fill="#6b7280">Dashed wave: half the amplitude, same period.</text>
+  </g>
+</svg>

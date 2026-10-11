@@ -10,152 +10,27 @@ from chemistry_p2_helpers import Chk
 C = Chk("materi/chemistry/organic-concepts.md")
 ok = C.ok
 
-# ------------------------------------------------------------------ molecule graphs (trees)
-class Mol:
-    def __init__(self):
-        self.lab, self.adj = {}, {}
+from chemistry_p2_organic import parse, canon, name, formula
 
-    def add(self, label, bonded_to=None):
-        i = len(self.lab)
-        self.lab[i] = label
-        self.adj[i] = set()
-        if bonded_to is not None:
-            self.adj[i].add(bonded_to); self.adj[bonded_to].add(i)
-        return i
-
-
-def chain_mol(n, subs=None, oh=None):
-    """Main chain of n carbons; subs = {position: number of carbons in an n-alkyl branch}; oh = position of OH."""
-    m = Mol()
-    ids = []
-    for k in range(n):
-        ids.append(m.add("C", ids[-1] if ids else None))
-    for pos, size in (subs or {}).items():
-        prev = ids[pos - 1]
-        for _ in range(size):
-            prev = m.add("C", prev)
-    if oh:
-        m.add("O", ids[oh - 1])
-    return m
-
-
-def canon(m):
-    """Canonical string of a labeled tree (AHU encoding rooted at the tree center(s))."""
-    deg = {i: len(a) for i, a in m.adj.items()}
-    left = set(m.adj)
-    leaves = [i for i in left if deg[i] <= 1]
-    while len(left) > 2:
-        nxt = []
-        for l in leaves:
-            left.discard(l)
-            for nb in m.adj[l]:
-                if nb in left:
-                    deg[nb] -= 1
-                    if deg[nb] == 1:
-                        nxt.append(nb)
-        leaves = nxt
-    def enc(v, parent):
-        return "(" + m.lab[v] + "".join(sorted(enc(w, v) for w in m.adj[v] if w != parent)) + ")"
-    return min(enc(c, None) for c in left)
-
-
-def paths(m):
-    """All simple paths between carbon atoms (unique in a tree)."""
-    cs = [i for i in m.lab if m.lab[i] == "C"]
-    out = []
-    for a, b in itertools.combinations(cs, 2):
-        stack = [(a, [a])]
-        while stack:
-            v, p = stack.pop()
-            if v == b:
-                out.append(p); break
-            for w in m.adj[v]:
-                if w not in p and m.lab[w] == "C":
-                    stack.append((w, p + [w]))
-    return out or [[cs[0]]]
-
-
-STEM = ["meth", "eth", "prop", "but", "pent", "hex", "hept", "oct", "non", "dec"]
-ALKYL = {1: "methyl", 2: "ethyl", 3: "propyl"}
-
-
-def iupac_name(m):
-    oh_c = next((n for i in m.lab if m.lab[i] == "O" for n in m.adj[i]), None)
-    best = None
-    elig = [p for p in paths(m) if oh_c is None or oh_c in p]
-    longest = max(len(p) for p in elig)
-    for p in elig:
-        if len(p) < longest:
-            continue
-        for chain in (p, p[::-1]):
-            subs = []
-            for pos, c in enumerate(chain, 1):
-                for nb in m.adj[c]:
-                    if nb in chain or m.lab[nb] == "O":
-                        continue
-                    # size of a straight alkyl branch
-                    size, prev, cur = 0, c, nb
-                    while True:
-                        size += 1
-                        nxt = [w for w in m.adj[cur] if w != prev]
-                        if not nxt:
-                            break
-                        assert len(nxt) == 1, "branched side chain not supported"
-                        prev, cur = cur, nxt[0]
-                    subs.append((pos, ALKYL[size]))
-            ohp = chain.index(oh_c) + 1 if oh_c is not None else 0
-            key = (-len(chain), ohp, sorted(s[0] for s in subs))
-            if best is None or key < best[0]:
-                best = (key, chain, subs, ohp)
-    key, chain, subs, ohp = best
-    parts = []
-    groups = {}
-    for pos, nm in subs:
-        groups.setdefault(nm, []).append(pos)
-    mult = {1: "", 2: "di", 3: "tri"}
-    for nm in sorted(groups):
-        ps = sorted(groups[nm])
-        parts.append(",".join(map(str, ps)) + "-" + mult[len(ps)] + nm)
-    stem = STEM[len(chain) - 1]
-    name = "-".join(parts) + stem + (f"an-{ohp}-ol" if ohp else "ane")
-    return name
-
-
-def from_name(name):
-    """Build the structure a name describes (no rule checking): prefixes, stem, ane / an-N-ol."""
-    mt = re.fullmatch(r"((?:\d+(?:,\d+)*-(?:di|tri)?(?:methyl|ethyl|propyl))*)(meth|eth|prop|but|pent|hex|hept|oct|non|dec)(?:ane|an-(\d+)-ol)", name.replace("-methyl", "-methyl"))
-    ok(mt is not None, name)
-    pre, stem, ohp = mt.groups()
-    n = STEM.index(stem) + 1
-    subs = {}
-    for loc, mult, alk in re.findall(r"(\d+(?:,\d+)*)-(di|tri)?(methyl|ethyl|propyl)", pre):
-        for pos in loc.split(","):
-            subs[int(pos)] = {"methyl": 1, "ethyl": 2, "propyl": 3}[alk]
-    # a chain position may carry two branches only in cases we do not use here
-    return chain_mol(n, subs, int(ohp) if ohp else None)
-
-
-# --- sanity of the tools themselves
-ok(iupac_name(chain_mol(6, {3: 1})) == "3-methylhexane", iupac_name(chain_mol(6, {3: 1})))
-ok(iupac_name(chain_mol(5, {4: 1}, oh=2)) == "4-methylpentan-2-ol")
-ok(canon(chain_mol(6, {3: 1})) == canon(chain_mol(6, {4: 1})))      # numbering direction does not change the molecule
+# the tools themselves
+ok(name(parse("CCC(C)CCC")) == "3-methylhexane")
+ok(name(parse("CC(O)CC(C)C")) == "4-methylpentan-2-ol")
+ok(canon(parse("CCC(C)CCC")) == canon(parse("CCCC(C)CC")))        # numbering direction does not change the molecule
 
 # ------------------------------------------------------------------ Example 1
-target1 = chain_mol(5, {4: 1}, oh=2)       # CH3-CH(OH)-CH2-CH(CH3)-CH3
-ok(iupac_name(target1) == "4-methylpentan-2-ol")
+target1 = parse("CC(O)CC(C)C")       # CH3-CH(OH)-CH2-CH(CH3)-CH3  (the condensed formula in the question)
+ok(name(target1) == "4-methylpentan-2-ol")
+# each option name drawn by hand as the structure it describes, then compared with the target
+drawn1 = {"A": "CC(C)CC(O)C",        # 2-methylpentan-4-ol : methyl on C2, OH on C4
+          "B": "CC(O)CC(C)C",        # 4-methylpentan-2-ol
+          "C": "CC(C)C(O)CC",        # 2-methylpentan-3-ol
+          "D": "OC(C)CC(C)C",        # 1,3-dimethylbutan-1-ol : butane, methyl + OH on C1, methyl on C3
+          "E": "CCC(O)C(C)C"}        # 4-methylpentan-3-ol : OH on C3, methyl on C4
 o = C.options("**Example 1.**")
-same, proper = [], []
-for k, name in o.items():
-    if name == "1,3-dimethylbutan-1-ol":
-        m = chain_mol(4, {1: 1, 3: 1}, oh=1)   # two methyls, OH on C1
-    else:
-        m = from_name(name)
-    if canon(m) == canon(target1):
-        same.append(k)
-        if iupac_name(m) == name:
-            proper.append(k)
-ok(same == ["A", "B", "D"], same)               # A, B, D are the same molecule: C and E are different molecules
-ok(proper == ["B"], proper)                      # only B follows the rules
+same = [k for k in o if canon(parse(drawn1[k])) == canon(target1)]
+proper = [k for k in same if name(parse(drawn1[k])) == o[k]]
+ok(same == ["A", "B", "D"], same)               # C and E are other molecules than the target
+ok(proper == ["B"], proper)                      # only B follows the naming rules
 ok("**Answer: (B).**" in C.txt.split("**Example 1.**")[1].split("**Example 2.**")[0])
 
 # ------------------------------------------------------------------ Example 2: stereoisomers of CH3CHBrCHBrCH3 by brute force
@@ -177,17 +52,10 @@ ok(mirror(("R",)) == ("S",))                      # R <-> S are mirror images; t
 ok(C.options("**1.**")["A"] == "enantiomers" and C.key_letter(1) == "A")
 
 # ------------------------------------------------------------------ Q2 naming
-cond = chain_mol(6, {3: 1})                       # CH3CH2CH(CH3)CH2CH2CH3
+cond = parse("CCC(C)CCC")                         # CH3CH2CH(CH3)CH2CH2CH3
+drawn2 = {"A": "CC(CC)CCC", "B": "CCCC(C)CC", "C": "CCC(C)CCC", "D": "CCC(C)CCCC", "E": "CC(CCC)CC"}
 o = C.options("**2.**")
-res = {}
-for k, name in o.items():
-    if name == "2-ethylpentane":
-        m = chain_mol(5, {2: 2})
-    elif name == "2-propylbutane":
-        m = chain_mol(4, {2: 3})
-    else:
-        m = from_name(name)
-    res[k] = (canon(m) == canon(cond), iupac_name(m) == name)
+res = {k: (canon(parse(drawn2[k])) == canon(cond), name(parse(drawn2[k])) == o[k]) for k in o}
 ok([k for k, v in res.items() if v[0]] == ["A", "B", "C", "E"], res)       # D has 7 carbons, a different molecule
 ok([k for k, v in res.items() if v[0] and v[1]] == ["C"], res)
 ok(C.key_letter(2) == "C")

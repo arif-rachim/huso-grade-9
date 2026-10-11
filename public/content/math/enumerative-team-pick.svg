@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 338" role="img" aria-labelledby="t d">
+  <title id="t">Permutations versus combinations</title>
+  <desc id="d">Six orderings of agents A, B, C all give the same team. Permutations count orderings; combinations divide by k factorial. Picking 5 from 10 gives 30240 ordered and 252 unordered.</desc>
+  <rect x="0" y="0" width="440" height="338" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="24" font-size="16" text-anchor="middle" font-weight="bold">Order matters? Permutation vs combination</text>
+    <text x="220" y="48" font-size="13" text-anchor="middle" fill="#6b7280">Pick 3 agents from a pool: A, B, C</text>
+    <rect x="40" y="70" width="90" height="28" rx="6" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="85" y="89" font-size="14" text-anchor="middle" font-weight="bold">A  B  C</text>
+    <rect x="140" y="70" width="90" height="28" rx="6" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="185" y="89" font-size="14" text-anchor="middle" font-weight="bold">A  C  B</text>
+    <rect x="240" y="70" width="90" height="28" rx="6" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="285" y="89" font-size="14" text-anchor="middle" font-weight="bold">B  A  C</text>
+    <rect x="40" y="104" width="90" height="28" rx="6" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="85" y="123" font-size="14" text-anchor="middle" font-weight="bold">B  C  A</text>
+    <rect x="140" y="104" width="90" height="28" rx="6" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="185" y="123" font-size="14" text-anchor="middle" font-weight="bold">C  A  B</text>
+    <rect x="240" y="104" width="90" height="28" rx="6" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="285" y="123" font-size="14" text-anchor="middle" font-weight="bold">C  B  A</text>
+    <path d="M340 106 L372 106" stroke="#111827" stroke-width="2"/><path d="M366 100 L374 106 L366 112" fill="none" stroke="#111827" stroke-width="2"/>
+    <rect x="378" y="84" width="46" height="44" rx="8" fill="#2563eb" fill-opacity="0.35" stroke="#2563eb" stroke-width="2"/>
+    <text x="401" y="104" font-size="16" text-anchor="middle" font-weight="bold">1</text>
+    <text x="401" y="120" font-size="12" text-anchor="middle">team</text>
+    <text x="190" y="160" font-size="13" text-anchor="middle" fill="#6b7280">3 × 2 × 1 = 6 orders</text>
+    <text x="220" y="198" font-size="14" text-anchor="middle" font-weight="bold">Permutations (order counts): P(n, k) = n! / (n − k)!</text>
+    <text x="220" y="222" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Combinations (order ignored): C(n, k) = P(n, k) / k!</text>
+    <text x="220" y="254" font-size="14" text-anchor="middle">Example: 5 from a pool of 10</text>
+    <text x="220" y="276" font-size="14" text-anchor="middle">ordered: 10·9·8·7·6 = 30,240</text>
+    <text x="220" y="298" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">unordered: 30,240 ÷ 5! = 30,240 ÷ 120 = 252</text>
+    <text x="220" y="324" font-size="13" text-anchor="middle" fill="#6b7280">Divide by k! because each team was counted k! times.</text>
+
+  </g>
+</svg>

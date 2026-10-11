@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 500" role="img" aria-labelledby="t d">
+  <title id="t">Special triangles and area formulas</title>
+  <desc id="d">45-45-90 triangle with sides 1, 1, root 2; 30-60-90 triangle with sides 1, root 3, 2; and a box of formulas: area, Heron, inradius, circumradius.</desc>
+  <rect x="0" y="0" width="440" height="500" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="17" text-anchor="middle" fill="#111827" font-weight="bold">Two special triangles + area formulas</text>
+    <polygon points="40.0,165.0 118.0,165.0 40.0,87.0" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+    <polyline points="49.0,165.0 49.0,156.0 40.0,156.0" fill="none" stroke="#111827" stroke-width="1.2"/>
+    <text x="79.0" y="183.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">1</text>
+    <text x="28.0" y="130.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">1</text>
+    <text x="95.0" y="120.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">√2</text>
+    <path d="M103.9,150.9 A20.0,20.0 0 0 1 98.0,165.0" fill="none" stroke="#111827" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="85.0" y="157.0" font-size="12" text-anchor="middle" fill="#111827">45°</text>
+    <path d="M40.0,107.0 A20.0,20.0 0 0 1 54.1,101.1" fill="none" stroke="#111827" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="63.0" y="113.0" font-size="12" text-anchor="middle" fill="#111827">45°</text>
+    <text x="79.0" y="207.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">45-45-90</text>
+    <text x="79.0" y="225.0" font-size="13" text-anchor="middle" fill="#111827">sides = 1 : 1 : √2</text>
+    <text x="79.0" y="242.0" font-size="12" text-anchor="middle" fill="#6b7280">(half a square)</text>
+    <polygon points="235.0,165.0 370.1,165.0 235.0,87.0" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2.2" stroke-linejoin="round"/>
+    <polyline points="244.0,165.0 244.0,156.0 235.0,156.0" fill="none" stroke="#111827" stroke-width="1.2"/>
+    <text x="302.5" y="183.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">√3</text>
+    <text x="221.0" y="130.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">1</text>
+    <text x="318.5" y="120.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">2</text>
+    <path d="M347.6,152.0 A26.0,26.0 0 0 1 344.1,165.0" fill="none" stroke="#111827" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="328.1" y="159.0" font-size="12" text-anchor="middle" fill="#111827">30°</text>
+    <path d="M235.0,107.0 A20.0,20.0 0 0 1 252.3,97.0" fill="none" stroke="#111827" stroke-width="1.3" stroke-linejoin="round"/>
+    <text x="266.0" y="115.0" font-size="12" text-anchor="middle" fill="#111827">60°</text>
+    <text x="302.5" y="207.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">30-60-90</text>
+    <text x="302.5" y="225.0" font-size="13" text-anchor="middle" fill="#111827">sides = 1 : √3 : 2</text>
+    <text x="302.5" y="242.0" font-size="12" text-anchor="middle" fill="#6b7280">(half an equilateral triangle)</text>
+    <text x="220.0" y="105.0" font-size="12" text-anchor="middle" fill="#111827"></text>
+    <rect x="20.0" y="296.0" width="400.0" height="190.0" rx="10" fill="#2563eb" fill-opacity="0.06" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="220.0" y="320.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">Area &amp; radius formulas (sides a, b, c · s = ½(a + b + c))</text>
+    <text x="34.0" y="348.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Area K</text>
+    <text x="188.0" y="348.0" font-size="13" text-anchor="start" fill="#111827">= ½ · base · height  = ½ · a · b · sin C</text>
+    <text x="34.0" y="372.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Heron</text>
+    <text x="188.0" y="372.0" font-size="13" text-anchor="start" fill="#111827">K = √( s(s − a)(s − b)(s − c) )</text>
+    <text x="34.0" y="396.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Inradius</text>
+    <text x="188.0" y="396.0" font-size="13" text-anchor="start" fill="#111827">r = K / s</text>
+    <text x="34.0" y="420.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Circumradius</text>
+    <text x="188.0" y="420.0" font-size="13" text-anchor="start" fill="#111827">R = abc / (4K)  =  a / (2 sin A)</text>
+    <text x="34.0" y="444.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Similar, ratio k</text>
+    <text x="188.0" y="444.0" font-size="13" text-anchor="start" fill="#111827">lengths × k  ·  area × k²</text>
+    <text x="34.0" y="468.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Angle bisector</text>
+    <text x="188.0" y="468.0" font-size="13" text-anchor="start" fill="#111827">BD / DC = AB / AC (from A)</text>
+    <text x="220.0" y="276.0" font-size="12" text-anchor="middle" fill="#6b7280">Shortest side is opposite the smallest angle. Drawn to scale.</text>
+  </g>
+</svg>

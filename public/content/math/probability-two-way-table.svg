@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" role="img" aria-labelledby="t d">
+  <title id="t">Conditional probability from a two-way table</title>
+  <desc id="d">Table of 100 rounds: attack 16 won 24 lost; defense 42 won 18 lost. Win given defense is 42/60; defense given win is 42/58.</desc>
+  <rect x="0" y="0" width="440" height="330" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="24" font-size="16" text-anchor="middle" font-weight="bold">Conditional probability = shrink the world</text>
+    <text x="220" y="46" font-size="13" text-anchor="middle" fill="#6b7280">100 made-up rounds, sorted by side and result</text>
+    <text x="150" y="80" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Won</text>
+    <text x="250" y="80" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Lost</text>
+    <text x="350" y="80" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Total</text>
+    <text x="60" y="130" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Attack</text>
+    <rect x="104" y="104" width="92" height="38" rx="6" fill="#2563eb" fill-opacity="0.04" stroke="#2563eb" stroke-width="1"/>
+    <text x="150" y="129" font-size="16" text-anchor="middle" font-weight="bold">16</text>
+    <rect x="204" y="104" width="92" height="38" rx="6" fill="#2563eb" fill-opacity="0.04" stroke="#2563eb" stroke-width="1"/>
+    <text x="250" y="129" font-size="16" text-anchor="middle" font-weight="bold">24</text>
+    <rect x="304" y="104" width="92" height="38" rx="6" fill="#2563eb" fill-opacity="0.04" stroke="#2563eb" stroke-width="1"/>
+    <text x="350" y="129" font-size="16" text-anchor="middle" font-weight="bold">40</text>
+    <text x="60" y="174" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Defense</text>
+    <rect x="104" y="148" width="92" height="38" rx="6" fill="#2563eb" fill-opacity="0.35" stroke="#2563eb" stroke-width="2.5"/>
+    <text x="150" y="173" font-size="16" text-anchor="middle" font-weight="bold">42</text>
+    <rect x="204" y="148" width="92" height="38" rx="6" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1"/>
+    <text x="250" y="173" font-size="16" text-anchor="middle" font-weight="bold">18</text>
+    <rect x="304" y="148" width="92" height="38" rx="6" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1"/>
+    <text x="350" y="173" font-size="16" text-anchor="middle" font-weight="bold">60</text>
+    <text x="60" y="218" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Total</text>
+    <rect x="104" y="192" width="92" height="38" rx="6" fill="#d1d5db" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="150" y="217" font-size="16" text-anchor="middle" font-weight="bold">58</text>
+    <rect x="204" y="192" width="92" height="38" rx="6" fill="#d1d5db" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="250" y="217" font-size="16" text-anchor="middle" font-weight="bold">42</text>
+    <rect x="304" y="192" width="92" height="38" rx="6" fill="#d1d5db" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="350" y="217" font-size="16" text-anchor="middle" font-weight="bold">100</text>
+    <text x="220" y="266" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">P(win | defense) = 42 ÷ 60 = 7/10  (Defense row only)</text>
+    <text x="220" y="290" font-size="14" text-anchor="middle" font-weight="bold">P(defense | win) = 42 ÷ 58 = 21/29  (Won column only)</text>
+    <text x="220" y="316" font-size="13" text-anchor="middle" fill="#6b7280">Same cell (42), different denominator. P(A | B) ≠ P(B | A).</text>
+
+  </g>
+</svg>

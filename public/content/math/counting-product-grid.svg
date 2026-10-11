@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 342" role="img" aria-labelledby="t d">
+  <title id="t">Product rule: 3 rice types times 4 toppings</title>
+  <desc id="d">A 3 by 4 table of 12 numbered plates. Choosing a rice AND a topping multiplies: 12. Choosing one dish from two separate lists adds: 7.</desc>
+  <rect x="0" y="0" width="440" height="342" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="26" font-size="16" text-anchor="middle" font-weight="bold">Menu: 3 kinds of rice × 4 toppings</text>
+    <text x="158.0" y="78" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Egg</text>
+    <text x="234.0" y="78" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Chicken</text>
+    <text x="310.0" y="78" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Tofu</text>
+    <text x="386.0" y="78" font-size="14" text-anchor="middle" font-weight="bold" fill="#2563eb">Shrimp</text>
+    <text x="110" y="123.0" font-size="14" text-anchor="end" font-weight="bold" fill="#2563eb">White rice</text>
+    <text x="110" y="179.0" font-size="14" text-anchor="end" font-weight="bold" fill="#2563eb">Fried rice</text>
+    <text x="110" y="235.0" font-size="14" text-anchor="end" font-weight="bold" fill="#2563eb">Yellow rice</text>
+    <rect x="123" y="93" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="158.0" y="124.0" font-size="18" text-anchor="middle" font-weight="bold">1</text>
+    <rect x="199" y="93" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.24" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="234.0" y="124.0" font-size="18" text-anchor="middle" font-weight="bold">2</text>
+    <rect x="275" y="93" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="310.0" y="124.0" font-size="18" text-anchor="middle" font-weight="bold">3</text>
+    <rect x="351" y="93" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.24" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="386.0" y="124.0" font-size="18" text-anchor="middle" font-weight="bold">4</text>
+    <rect x="123" y="149" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.24" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="158.0" y="180.0" font-size="18" text-anchor="middle" font-weight="bold">5</text>
+    <rect x="199" y="149" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="234.0" y="180.0" font-size="18" text-anchor="middle" font-weight="bold">6</text>
+    <rect x="275" y="149" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.24" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="310.0" y="180.0" font-size="18" text-anchor="middle" font-weight="bold">7</text>
+    <rect x="351" y="149" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="386.0" y="180.0" font-size="18" text-anchor="middle" font-weight="bold">8</text>
+    <rect x="123" y="205" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="158.0" y="236.0" font-size="18" text-anchor="middle" font-weight="bold">9</text>
+    <rect x="199" y="205" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.24" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="234.0" y="236.0" font-size="18" text-anchor="middle" font-weight="bold">10</text>
+    <rect x="275" y="205" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="310.0" y="236.0" font-size="18" text-anchor="middle" font-weight="bold">11</text>
+    <rect x="351" y="205" width="70" height="50" rx="8" fill="#2563eb" fill-opacity="0.24" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="386.0" y="236.0" font-size="18" text-anchor="middle" font-weight="bold">12</text>
+    <text x="220" y="282" font-size="16" text-anchor="middle">Product rule: 3 choices × 4 choices = <tspan font-weight="bold" fill="#2563eb">12 plates</tspan></text>
+    <text x="220" y="308" font-size="13" text-anchor="middle" fill="#6b7280">Sum rule: if you pick ONE dish from 2 separate lists (3 + 4), you get 7.</text>
+    <text x="220" y="328" font-size="13" text-anchor="middle" fill="#6b7280">AND (one after another) → multiply.  OR (either/or) → add.</text>
+
+  </g>
+</svg>

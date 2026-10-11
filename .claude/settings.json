@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          { "type": "command", "command": "bash \"$CLAUDE_PROJECT_DIR\"/scripts/setup-agent.sh", "timeout": 900 }
+        ]
+      }
+    ]
+  },
+  "permissions": {
+    "allow": [
+      "Bash(cargo build:*)",
+      "Bash(cargo check:*)",
+      "Bash(cargo clippy:*)",
+      "Bash(cargo test:*)",
+      "Bash(cargo fmt:*)",
+      "Bash(rnx make:*)",
+      "Bash(rnx db:check:*)",
+      "Bash(rnx view:check:*)",
+      "Bash(rnx route:list:*)",
+      "Bash(rnx migrate:*)",
+      "Bash(rnx db:seed:*)",
+      "Bash(rnx doctor:*)",
+      "Bash(python3 -m json.tool:*)"
+    ]
+  }
+}

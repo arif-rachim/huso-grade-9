@@ -1,0 +1,192 @@
+{
+  "$comment": "Sumber resmi & latihan. Soal berhak cipta HANYA disimpan sebagai link (kind=link), tidak disalin.",
+  "version": 1,
+  "official": [
+    {
+      "title": "Silabus Grade 9–10 (5 PDF)",
+      "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/syllabus-guide.html"
+    },
+    {
+      "title": "Struktur & skor Round 1",
+      "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/exam-structure-and-scoring.html"
+    },
+    {
+      "title": "Struktur Round 2",
+      "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/exam-structure-and-scoring-round-2.html"
+    },
+    {
+      "title": "Pendaftaran HUSO Middle East",
+      "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/"
+    },
+    {
+      "title": "Pendaftaran HUSO India",
+      "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/"
+    }
+  ],
+  "past_papers": [
+    {
+      "slug": "huso-2024-r1",
+      "title": "HUSO 2024 Round 1 (Grade 9–10)",
+      "round": "open",
+      "use": "diagnostic",
+      "sections": [
+        {
+          "subject": "math",
+          "exam": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/Math_9-10th_Exam.pdf",
+          "key": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/Math_9-10th_Exam_Key.pdf",
+          "questions": 12,
+          "minutes": 30
+        },
+        {
+          "subject": "physics",
+          "exam": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/9-10PhysicsExam1.pdf",
+          "key": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/9-10PhysicsKey1.pdf",
+          "minutes": 36
+        },
+        {
+          "subject": "chemistry",
+          "exam": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/HUSO-India9th-10thGradeChemistryExam.pdf",
+          "key": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/HUSO-India9th-10thGradeChemistryKey.pdf",
+          "questions": 35,
+          "minutes": 36
+        },
+        {
+          "subject": "biology",
+          "exam": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/BiologyOpenRoundQuestions9-10Exam.pdf",
+          "key": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/BiologyOpenRoundQuestions9-10KEY.pdf",
+          "questions": 40,
+          "minutes": 36
+        },
+        {
+          "subject": "earth",
+          "exam": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/ES9-10Test.pdf",
+          "key": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/pdf/ES9-10Key.pdf",
+          "questions": 45,
+          "minutes": 36
+        }
+      ]
+    },
+    {
+      "slug": "huso-india-2025-final",
+      "title": "HUSO India 2025/26 Final Round (Grade 9–10) — soal tantangan",
+      "round": "final",
+      "use": "challenge",
+      "page": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/open-round-papers2025-9-10.html"
+    },
+    {
+      "slug": "huso-dubai-2025-final",
+      "title": "HUSO Dubai 2025/26 Final Round (Grade 9–10) — soal tantangan",
+      "round": "final",
+      "use": "challenge",
+      "page": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/open-round-papers2025-grade-9-10.html"
+    }
+  ],
+  "practice": {
+    "math": [
+      {
+        "title": "AMC 10 problems (AoPS Wiki)",
+        "url": "https://artofproblemsolving.com/wiki/index.php/AMC_10_Problems_and_Solutions"
+      }
+    ],
+    "physics": [
+      {
+        "title": "Physics Bowl past exams",
+        "url": "https://www.aapt.org/Programs/PhysicsBowl/printexams.cfm"
+      }
+    ],
+    "chemistry": [
+      {
+        "title": "USNCO past exams",
+        "url": "https://www.acs.org/education/olympiad.html"
+      },
+      {
+        "title": "IJSO downloads",
+        "url": "https://ijsoweb.org/downloads"
+      }
+    ],
+    "biology": [
+      {
+        "title": "USABO past exams",
+        "url": "https://www.usabo-trc.org/"
+      },
+      {
+        "title": "Khan Academy AP Biology",
+        "url": "https://www.khanacademy.org/science/ap-biology"
+      }
+    ],
+    "earth": [
+      {
+        "title": "USESO past exams",
+        "url": "https://www.usearthscienceolympiad.org/"
+      },
+      {
+        "title": "Science Olympiad test exchange",
+        "url": "https://scioly.org/tests/"
+      }
+    ]
+  },
+  "visual": {
+    "math": [
+      {
+        "title": "GeoGebra",
+        "url": "https://www.geogebra.org/geometry"
+      },
+      {
+        "title": "Desmos",
+        "url": "https://www.desmos.com/calculator"
+      },
+      {
+        "title": "3Blue1Brown",
+        "url": "https://www.youtube.com/@3blue1brown"
+      }
+    ],
+    "physics": [
+      {
+        "title": "PhET Simulations",
+        "url": "https://phet.colorado.edu/"
+      },
+      {
+        "title": "Flipping Physics",
+        "url": "https://www.youtube.com/@FlippingPhysics"
+      }
+    ],
+    "chemistry": [
+      {
+        "title": "Ptable",
+        "url": "https://ptable.com/"
+      },
+      {
+        "title": "PhET Molecule Shapes",
+        "url": "https://phet.colorado.edu/en/simulations/molecule-shapes"
+      },
+      {
+        "title": "Tyler DeWitt",
+        "url": "https://www.youtube.com/@tdewitt451"
+      }
+    ],
+    "biology": [
+      {
+        "title": "Amoeba Sisters",
+        "url": "https://www.youtube.com/@AmoebaSisters"
+      },
+      {
+        "title": "Crash Course Biology",
+        "url": "https://www.youtube.com/@crashcourse"
+      }
+    ],
+    "earth": [
+      {
+        "title": "Stellarium Web",
+        "url": "https://stellarium-web.org/"
+      },
+      {
+        "title": "earth.nullschool",
+        "url": "https://earth.nullschool.net/"
+      },
+      {
+        "title": "Crash Course Astronomy",
+        "url": "https://www.youtube.com/@crashcourse"
+      }
+    ]
+  }
+}

@@ -1,0 +1,1241 @@
+{
+  "$comment": "Jadwal belajar HUSO 12 Okt – 15 Nov 2026. Sumber kebenaran untuk aplikasi (seeder) — sinkron dengan GitHub issue #3–#13. subject: slug di syllabus.json, atau diagnostic|mixed|review|prep|exam.",
+  "version": 1,
+  "timezone": "Asia/Jakarta",
+  "exam": {
+    "date": "2026-11-15",
+    "start_local": "19:30",
+    "end_local": "22:30",
+    "note": "16:30–19:30 UAE / 18:00–21:00 IST"
+  },
+  "registration_deadline": "2026-10-31",
+  "days": [
+    {
+      "date": "2026-10-12",
+      "phase": "intensive",
+      "minutes": 240,
+      "subject": "diagnostic",
+      "title": "Setup + Tes Diagnostik",
+      "issue": 3,
+      "blocks": [
+        {
+          "label": "Setup",
+          "minutes": 15,
+          "tasks": [
+            "Siapkan buku sketsa, 5 spidol warna mapel, sticky notes",
+            "Install Anki / siapkan kotak Leitner",
+            "Tempel kalender tracker 12 Okt–15 Nov",
+            "Buat halaman Error Log"
+          ]
+        },
+        {
+          "label": "Tes diagnostik paket Round 1 2024",
+          "minutes": 180,
+          "tasks": [
+            "Matematika 36 menit",
+            "Fisika 36 menit",
+            "Kimia 36 menit",
+            "Biologi 36 menit",
+            "Earth Science 36 menit"
+          ]
+        },
+        {
+          "label": "Koreksi & analisis",
+          "minutes": 45,
+          "tasks": [
+            "Koreksi: benar − 0,25 × salah per mapel",
+            "Gambar grafik batang skor 5 mapel",
+            "Masukkan soal salah ke Error Log",
+            "Tentukan urutan prioritas mapel"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "phase": "intensive",
+      "minutes": 240,
+      "subject": "math",
+      "title": "Matematika: Aljabar & Teori Bilangan",
+      "issue": 4,
+      "blocks": [
+        {
+          "label": "Polinom & barisan",
+          "minutes": 50,
+          "tasks": [
+            "Review error log Matematika",
+            "Vieta di Desmos",
+            "Segitiga Pascal sampai baris 8",
+            "Deret aritmetika/geometri/teleskopik"
+          ]
+        },
+        {
+          "label": "Pertidaksamaan & fungsi",
+          "minutes": 50,
+          "tasks": [
+            "Bukti visual AM-GM",
+            "Grafik floor/ceiling",
+            "Fungsi ganjil/genap",
+            "Kartu ringkasan log & trig"
+          ]
+        },
+        {
+          "label": "Teori bilangan",
+          "minutes": 50,
+          "tasks": [
+            "Jam modulo",
+            "Pohon faktor & jumlah faktor",
+            "Basis bilangan",
+            "Tripel Pythagoras"
+          ]
+        },
+        {
+          "label": "Latihan & peta visual",
+          "minutes": 50,
+          "tasks": [
+            "10 soal AMC 10 (30 menit)",
+            "Error log",
+            "Mind map dari ingatan",
+            "10 flashcard"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "phase": "intensive",
+      "minutes": 240,
+      "subject": "math",
+      "title": "Matematika: Geometri & Kombinatorik",
+      "issue": 5,
+      "blocks": [
+        {
+          "label": "Segitiga",
+          "minutes": 50,
+          "tasks": [
+            "Flashcard review",
+            "4 titik pusat segitiga di GeoGebra",
+            "Rumus luas (Heron, rs, abc/4R, ½ab sin C)",
+            "Segitiga istimewa",
+            "Angle bisector, sebangun, kongruen"
+          ]
+        },
+        {
+          "label": "Lingkaran & koordinat",
+          "minutes": 50,
+          "tasks": [
+            "Sudut keliling",
+            "Segiempat tali busur",
+            "Power of a point",
+            "Shoelace, jarak, persamaan garis & lingkaran",
+            "Tabel volume & luas bangun ruang"
+          ]
+        },
+        {
+          "label": "Kombinatorik & peluang",
+          "minutes": 50,
+          "tasks": [
+            "Diagram pohon",
+            "Venn inklusi-eksklusi",
+            "Permutasi/kombinasi, stars and bars",
+            "Pigeonhole",
+            "Peluang bersyarat"
+          ]
+        },
+        {
+          "label": "Latihan & peta visual",
+          "minutes": 50,
+          "tasks": [
+            "10 soal AMC 10 (30 menit)",
+            "Error log",
+            "Mind map dari ingatan",
+            "10 flashcard"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "phase": "intensive",
+      "minutes": 240,
+      "subject": "physics",
+      "title": "Fisika: Mekanika, Listrik, Termo, Bunyi",
+      "issue": 6,
+      "blocks": [
+        {
+          "label": "Kinematika & dinamika",
+          "minutes": 50,
+          "tasks": [
+            "Flashcard review",
+            "Grafik x–t, v–t, a–t",
+            "3 free body diagram",
+            "Gerak melingkar",
+            "PhET Forces and Motion"
+          ]
+        },
+        {
+          "label": "Energi, momentum, rotasi, GHS, gravitasi",
+          "minutes": 50,
+          "tasks": [
+            "Diagram batang energi",
+            "Tumbukan",
+            "Momen inersia, torsi, momentum sudut",
+            "Pegas & bandul (PhET)",
+            "Gravitasi Newton"
+          ]
+        },
+        {
+          "label": "Listrik, termo, bunyi",
+          "minutes": 50,
+          "tasks": [
+            "PhET Circuit Construction Kit",
+            "Hukum Ohm & daya",
+            "Q = mcΔT, kalor laten, grafik fase",
+            "PV = nRT, hukum termodinamika",
+            "Bunyi"
+          ]
+        },
+        {
+          "label": "Latihan & peta visual",
+          "minutes": 50,
+          "tasks": [
+            "20 soal Physics Bowl (30 menit)",
+            "Error log",
+            "Mind map + lembar rumus sendiri",
+            "15 flashcard rumus"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "phase": "intensive",
+      "minutes": 240,
+      "subject": "biology",
+      "title": "Biologi: Sel, Molekuler, Sistem Organ, Ekologi",
+      "issue": 7,
+      "blocks": [
+        {
+          "label": "Biomolekul & sel",
+          "minutes": 50,
+          "tasks": [
+            "Flashcard review",
+            "Amoeba Sisters: biomolecules, organelles",
+            "Gambar sel hewan vs tumbuhan (14 organel)",
+            "Komik strip mitosis vs meiosis"
+          ]
+        },
+        {
+          "label": "Molekuler, fotosintesis, respirasi",
+          "minutes": 50,
+          "tasks": [
+            "Diagram dogma sentral",
+            "Siklus fotosintesis vs respirasi",
+            "Respirasi aerob vs anaerob"
+          ]
+        },
+        {
+          "label": "Sistem organ",
+          "minutes": 50,
+          "tasks": [
+            "Siluet tubuh + sistem organ berwarna",
+            "Jantung 4 ruang + peredaran ganda",
+            "Tabel kelenjar endokrin",
+            "Busur refleks",
+            "Imunitas & golongan darah"
+          ]
+        },
+        {
+          "label": "Ekologi, klasifikasi, latihan",
+          "minutes": 50,
+          "tasks": [
+            "Jaring makanan & simbiosis",
+            "Tabel 5 kingdom bergambar",
+            "20 soal (20 menit)",
+            "Error log + mind map + 20 flashcard"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-17",
+      "phase": "intensive",
+      "minutes": 240,
+      "subject": "earth",
+      "title": "Earth Science: Atmosfer, Hidrosfer, Geosfer, Astronomi",
+      "issue": 8,
+      "blocks": [
+        {
+          "label": "Atmosfer & cuaca",
+          "minutes": 50,
+          "tasks": [
+            "Flashcard review",
+            "Penampang lapisan atmosfer",
+            "Front dingin vs panas",
+            "Sel sirkulasi global",
+            "Poster jenis awan",
+            "El Niño/La Niña, monsun"
+          ]
+        },
+        {
+          "label": "Hidrosfer",
+          "minutes": 50,
+          "tasks": [
+            "Siklus air",
+            "Arus laut & termohalin",
+            "Gelombang, pasang surut, tsunami",
+            "Sungai, gletser, air tanah"
+          ]
+        },
+        {
+          "label": "Geosfer",
+          "minutes": 50,
+          "tasks": [
+            "Siklus batuan",
+            "Bowen & skala Mohs",
+            "Penampang bumi + gelombang P & S",
+            "Batas lempeng & sesar",
+            "Penanggalan relatif & radiometrik"
+          ]
+        },
+        {
+          "label": "Astronomi & latihan",
+          "minutes": 50,
+          "tasks": [
+            "Stellarium: 6 bintang, rasi, 4 objek Messier",
+            "Kepler, paralaks, magnitudo, gerhana",
+            "20 soal (15 menit)",
+            "Error log + mind map + 20 flashcard"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-18",
+      "phase": "intensive",
+      "minutes": 240,
+      "subject": "chemistry",
+      "title": "Kimia Dasar + Review Mingguan",
+      "issue": 9,
+      "blocks": [
+        {
+          "label": "Tabel periodik & atom",
+          "minutes": 50,
+          "tasks": [
+            "Flashcard review",
+            "Tren periodik di ptable.com",
+            "Konfigurasi elektron",
+            "Isotop & peluruhan"
+          ]
+        },
+        {
+          "label": "Ikatan & reaksi",
+          "minutes": 50,
+          "tasks": [
+            "Tabel bentuk molekul VSEPR (PhET)",
+            "Gaya antarmolekul",
+            "Penyetaraan, rumus empiris, jembatan mol"
+          ]
+        },
+        {
+          "label": "Asam-basa & organik dasar",
+          "minutes": 50,
+          "tasks": [
+            "Arrhenius/Brønsted/Lewis",
+            "pH, indikator, kurva titrasi",
+            "Kartu warna uji nyala",
+            "Tata nama & gugus fungsi"
+          ]
+        },
+        {
+          "label": "Review mingguan",
+          "minutes": 50,
+          "tasks": [
+            "15 soal kimia (15 menit)",
+            "Foto 6 mind map",
+            "Review error log",
+            "Perbarui prioritas mapel",
+            "Cek pendaftaran"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-19",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "math",
+      "title": "Matematika",
+      "issue": 10,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "5 soal AMC 10 (no. 6–15) aljabar/teori bilangan"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "physics",
+      "title": "Fisika",
+      "issue": 10,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "10 soal Physics Bowl kinematika & dinamika",
+            "1 free body diagram"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-21",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "biology",
+      "title": "Biologi",
+      "issue": 10,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Gambar ulang sel hewan & tumbuhan",
+            "10 soal USABO Open/Khan"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-22",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "earth",
+      "title": "Earth Science",
+      "issue": 10,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Gambar ulang lapisan atmosfer & siklus batuan",
+            "10 soal"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-23",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "chemistry",
+      "title": "Kimia",
+      "issue": 10,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Gambar ulang tabel periodik + tren",
+            "8 soal USNCO Local"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-24",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "mixed",
+      "title": "Campuran",
+      "issue": 10,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "15 soal acak 5 mapel (20 menit)"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-25",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "review",
+      "title": "Review",
+      "issue": 10,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Revisi mind map yang bolong",
+            "Cek kartu Anki mature"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-26",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "math",
+      "title": "Matematika",
+      "issue": 11,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "5 soal AMC 10 geometri/kombinatorik"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-27",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "physics",
+      "title": "Fisika",
+      "issue": 11,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "10 soal energi, momentum, rotasi, GHS",
+            "Perbarui lembar rumus"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "biology",
+      "title": "Biologi",
+      "issue": 11,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Gambar ulang jantung & busur refleks",
+            "20 soal dalam 18 menit"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-29",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "earth",
+      "title": "Earth Science",
+      "issue": 11,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Stellarium: 6 bintang & 4 objek Messier",
+            "20 soal dalam 15 menit"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-30",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "chemistry",
+      "title": "Kimia",
+      "issue": 11,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Asam-basa, mol, VSEPR",
+            "8 soal"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-10-31",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "mixed",
+      "title": "Campuran + cek pendaftaran",
+      "issue": 11,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "15 soal acak (20 menit)",
+            "Pastikan pendaftaran selesai (deadline hari ini)"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-01",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "review",
+      "title": "Review",
+      "issue": 11,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Baca seluruh error log",
+            "Tulis 'Top 10 kesalahan saya'"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-02",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "math",
+      "title": "Simulasi Matematika",
+      "issue": 12,
+      "blocks": [
+        {
+          "label": "Simulasi bertimer",
+          "minutes": 25,
+          "tasks": [
+            "Ulang soal salah paket 2024",
+            "3 soal Final 2025/26 Section I",
+            "Ragu = kosongkan (−0,25)"
+          ]
+        },
+        {
+          "label": "Koreksi",
+          "minutes": 5,
+          "tasks": [
+            "Koreksi cepat",
+            "Error log"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-03",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "physics",
+      "title": "Simulasi Fisika",
+      "issue": 12,
+      "blocks": [
+        {
+          "label": "Simulasi bertimer",
+          "minutes": 25,
+          "tasks": [
+            "Ulang soal salah 2024",
+            "10 soal Physics Bowl acak",
+            "Ragu = kosongkan (−0,25)"
+          ]
+        },
+        {
+          "label": "Koreksi",
+          "minutes": 5,
+          "tasks": [
+            "Koreksi cepat",
+            "Error log"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-04",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "biology",
+      "title": "Simulasi Biologi",
+      "issue": 12,
+      "blocks": [
+        {
+          "label": "Simulasi bertimer",
+          "minutes": 25,
+          "tasks": [
+            "25 soal dalam 22 menit",
+            "Ragu = kosongkan (−0,25)"
+          ]
+        },
+        {
+          "label": "Koreksi",
+          "minutes": 5,
+          "tasks": [
+            "Koreksi cepat",
+            "Error log"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-05",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "earth",
+      "title": "Simulasi Earth Science",
+      "issue": 12,
+      "blocks": [
+        {
+          "label": "Simulasi bertimer",
+          "minutes": 25,
+          "tasks": [
+            "25 soal dalam 20 menit",
+            "Ragu = kosongkan (−0,25)"
+          ]
+        },
+        {
+          "label": "Koreksi",
+          "minutes": 5,
+          "tasks": [
+            "Koreksi cepat",
+            "Error log"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-06",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "chemistry",
+      "title": "Simulasi Kimia",
+      "issue": 12,
+      "blocks": [
+        {
+          "label": "Simulasi bertimer",
+          "minutes": 25,
+          "tasks": [
+            "Ulang soal salah 2024",
+            "8 soal USNCO Local",
+            "Ragu = kosongkan (−0,25)"
+          ]
+        },
+        {
+          "label": "Koreksi",
+          "minutes": 5,
+          "tasks": [
+            "Koreksi cepat",
+            "Error log"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-07",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "review",
+      "title": "Grafik sebelum vs sesudah",
+      "issue": 12,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Bandingkan skor vs Hari 1",
+            "Gambar grafik batang per mapel"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-08",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "review",
+      "title": "Strategi ujian",
+      "issue": 12,
+      "blocks": [
+        {
+          "label": "Flashcard jatuh tempo",
+          "minutes": 5,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Fokus",
+          "minutes": 20,
+          "tasks": [
+            "Urutan mengerjakan mapel",
+            "Target waktu per mapel",
+            "Aturan kapan mengosongkan soal"
+          ]
+        },
+        {
+          "label": "Refleksi",
+          "minutes": 5,
+          "tasks": [
+            "Error log",
+            "1 sketsa dari ingatan"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-09",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "math",
+      "title": "Pemantapan Matematika",
+      "issue": 13,
+      "blocks": [
+        {
+          "label": "Flashcard",
+          "minutes": 10,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Baca ulang visual",
+          "minutes": 15,
+          "tasks": [
+            "Baca mind map",
+            "3 soal AMC 10 mudah"
+          ]
+        },
+        {
+          "label": "Gambar dari ingatan",
+          "minutes": 5,
+          "tasks": [
+            "1 diagram kunci"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-10",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "physics",
+      "title": "Pemantapan Fisika",
+      "issue": 13,
+      "blocks": [
+        {
+          "label": "Flashcard",
+          "minutes": 10,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Baca ulang visual",
+          "minutes": 15,
+          "tasks": [
+            "Baca lembar rumus",
+            "5 soal mudah"
+          ]
+        },
+        {
+          "label": "Gambar dari ingatan",
+          "minutes": 5,
+          "tasks": [
+            "1 diagram kunci"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "biology",
+      "title": "Pemantapan Biologi",
+      "issue": 13,
+      "blocks": [
+        {
+          "label": "Flashcard",
+          "minutes": 10,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Baca ulang visual",
+          "minutes": 15,
+          "tasks": [
+            "Diagram sel, jantung, sistem organ"
+          ]
+        },
+        {
+          "label": "Gambar dari ingatan",
+          "minutes": 5,
+          "tasks": [
+            "1 diagram kunci"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-12",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "earth",
+      "title": "Pemantapan Earth Science",
+      "issue": 13,
+      "blocks": [
+        {
+          "label": "Flashcard",
+          "minutes": 10,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Baca ulang visual",
+          "minutes": 15,
+          "tasks": [
+            "Siklus batuan, atmosfer, Stellarium 10 menit"
+          ]
+        },
+        {
+          "label": "Gambar dari ingatan",
+          "minutes": 5,
+          "tasks": [
+            "1 diagram kunci"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-13",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "chemistry",
+      "title": "Pemantapan Kimia",
+      "issue": 13,
+      "blocks": [
+        {
+          "label": "Flashcard",
+          "minutes": 10,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Baca ulang visual",
+          "minutes": 15,
+          "tasks": [
+            "Tabel periodik, bentuk molekul, mol"
+          ]
+        },
+        {
+          "label": "Gambar dari ingatan",
+          "minutes": 5,
+          "tasks": [
+            "1 diagram kunci"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-14",
+      "phase": "daily",
+      "minutes": 30,
+      "subject": "prep",
+      "title": "Persiapan teknis",
+      "issue": 13,
+      "blocks": [
+        {
+          "label": "Flashcard",
+          "minutes": 10,
+          "tasks": [
+            "Review kartu jatuh tempo"
+          ]
+        },
+        {
+          "label": "Baca ulang visual",
+          "minutes": 15,
+          "tasks": [
+            "Login portal & cek internet",
+            "Kalkulator, penggaris, jangka, kertas",
+            "Baca Top 10 kesalahan",
+            "Tidur sebelum 22:00"
+          ]
+        },
+        {
+          "label": "Gambar dari ingatan",
+          "minutes": 5,
+          "tasks": [
+            "1 diagram kunci"
+          ]
+        }
+      ]
+    },
+    {
+      "date": "2026-11-15",
+      "phase": "exam",
+      "minutes": 180,
+      "subject": "exam",
+      "title": "🏁 Ujian HUSO Round 1 (19:30–22:30 WIB)",
+      "issue": 13,
+      "blocks": [
+        {
+          "label": "Sebelum ujian",
+          "minutes": 0,
+          "tasks": [
+            "Aktivitas santai, makan cukup, tanpa belajar",
+            "18:30 siap di meja, buka portal"
+          ]
+        },
+        {
+          "label": "Ujian",
+          "minutes": 180,
+          "tasks": [
+            "Lihat semua soal",
+            "Ragu = kosongkan",
+            "±36 menit per mapel"
+          ]
+        }
+      ]
+    }
+  ]
+}

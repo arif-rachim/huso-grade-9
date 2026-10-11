@@ -1,0 +1,943 @@
+{
+  "$comment": "Silabus resmi HUSO 2026 Open Round, Grade 9-10. Sumber: https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/syllabus-guide.html . Hierarki: subject > topic > subtopic (unit belajar terkecil yang dilacak mastery-nya) > items (poin silabus).",
+  "version": 1,
+  "subjects": [
+    {
+      "slug": "math",
+      "name": "Matematika",
+      "name_en": "Mathematics",
+      "color": "#2563eb",
+      "emoji": "🟦",
+      "level_hint": "Setara AMC 10. ±12 soal dalam ±36 menit.",
+      "topics": [
+        {
+          "slug": "math.algebra",
+          "name": "Aljabar",
+          "children": [
+            {
+              "slug": "math.algebra.polynomials",
+              "name": "Polinom",
+              "items": [
+                "Divisibility and factorization of polynomials",
+                "Vieta's formulas",
+                "Binomial theorem",
+                "Rational root theorem"
+              ]
+            },
+            {
+              "slug": "math.algebra.sequences",
+              "name": "Barisan & deret",
+              "items": [
+                "Arithmetic series",
+                "Geometric series",
+                "Telescoping series"
+              ]
+            },
+            {
+              "slug": "math.algebra.inequalities",
+              "name": "Pertidaksamaan",
+              "items": [
+                "Trivial inequality",
+                "AM-GM-HM inequalities",
+                "Triangle inequality"
+              ]
+            },
+            {
+              "slug": "math.algebra.functions",
+              "name": "Fungsi",
+              "items": [
+                "Injectivity, surjectivity, bijectivity",
+                "Functional equations",
+                "Odd and even functions",
+                "Floor and ceiling functions",
+                "Logarithmic functions",
+                "Trigonometric functions"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "math.number-theory",
+          "name": "Teori Bilangan",
+          "children": [
+            {
+              "slug": "math.number-theory.modular",
+              "name": "Aritmetika modular",
+              "items": [
+                "Congruences",
+                "Prime factorization"
+              ]
+            },
+            {
+              "slug": "math.number-theory.misc",
+              "name": "Lain-lain",
+              "items": [
+                "Pythagorean triples",
+                "Diophantine equations",
+                "Number bases"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "math.geometry",
+          "name": "Geometri",
+          "children": [
+            {
+              "slug": "math.geometry.triangles",
+              "name": "Segitiga",
+              "items": [
+                "Centroid",
+                "Circumcenter",
+                "Orthocenter",
+                "Incenter",
+                "Heron's formula",
+                "Inradius formula",
+                "Circumradius formula",
+                "Sine area formula",
+                "Similar triangles",
+                "Congruent triangles",
+                "Angle bisector theorem",
+                "30-60-90 triangle",
+                "45-45-90 triangle"
+              ]
+            },
+            {
+              "slug": "math.geometry.circles",
+              "name": "Lingkaran",
+              "items": [
+                "Tangent circles",
+                "Power of a point",
+                "Cyclic quadrilaterals",
+                "Inscribed angles"
+              ]
+            },
+            {
+              "slug": "math.geometry.transformations",
+              "name": "Transformasi bidang",
+              "items": [
+                "Rotation",
+                "Reflection",
+                "Translation",
+                "Dilation"
+              ]
+            },
+            {
+              "slug": "math.geometry.coordinate",
+              "name": "Geometri koordinat",
+              "items": [
+                "Equations of lines",
+                "Intersections of lines",
+                "Equations of circles",
+                "Shoelace formula",
+                "Distance formula"
+              ]
+            },
+            {
+              "slug": "math.geometry.solid",
+              "name": "Geometri ruang",
+              "items": [
+                "Volumes of prisms, pyramids, cones, cylinders, spheres",
+                "Surface areas of prisms, pyramids, cones, cylinders, spheres"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "math.combinatorics",
+          "name": "Kombinatorik",
+          "children": [
+            {
+              "slug": "math.combinatorics.counting-principles",
+              "name": "Prinsip pencacahan",
+              "items": [
+                "Rule of product and rule of sum",
+                "Inclusion-exclusion",
+                "Pigeonhole principle",
+                "Invariance principle",
+                "Extremal principle",
+                "Coloring principle"
+              ]
+            },
+            {
+              "slug": "math.combinatorics.enumerative",
+              "name": "Kombinatorik enumeratif",
+              "items": [
+                "Permutations, combinations, partitions",
+                "Pascal's triangle",
+                "Stars and bars"
+              ]
+            },
+            {
+              "slug": "math.combinatorics.probability",
+              "name": "Peluang",
+              "items": [
+                "Unconditional probability",
+                "Conditional probability"
+              ]
+            },
+            {
+              "slug": "math.combinatorics.strategies",
+              "name": "Strategi",
+              "items": [
+                "Casework",
+                "Constructive counting",
+                "Complementary counting",
+                "Finding bijections",
+                "Symmetry"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "physics",
+      "name": "Fisika",
+      "name_en": "Physics",
+      "color": "#dc2626",
+      "emoji": "🟥",
+      "level_hint": "Setara Physics Bowl. Rumus dasar harus hafal; konstanta diberikan.",
+      "topics": [
+        {
+          "slug": "physics.mechanics",
+          "name": "Mekanika",
+          "children": [
+            {
+              "slug": "physics.mechanics.kinematics",
+              "name": "Kinematika",
+              "items": [
+                "Kinematics",
+                "Vector and scalar quantities"
+              ]
+            },
+            {
+              "slug": "physics.mechanics.dynamics",
+              "name": "Dinamika",
+              "items": [
+                "Newton's laws",
+                "Friction",
+                "Free body diagrams"
+              ]
+            },
+            {
+              "slug": "physics.mechanics.conservation",
+              "name": "Hukum kekekalan",
+              "items": [
+                "Conservation of energy",
+                "Conservation of momentum",
+                "Conservation of angular momentum"
+              ]
+            },
+            {
+              "slug": "physics.mechanics.circular-rotation",
+              "name": "Gerak melingkar & rotasi",
+              "items": [
+                "Circular motion",
+                "Rotation, torque, moment of inertia"
+              ]
+            },
+            {
+              "slug": "physics.mechanics.shm",
+              "name": "Gerak harmonik sederhana",
+              "items": [
+                "Springs",
+                "Pendulums"
+              ]
+            },
+            {
+              "slug": "physics.mechanics.gravity",
+              "name": "Gravitasi",
+              "items": [
+                "Newton's law of gravitation"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "physics.electromagnetism",
+          "name": "Listrik",
+          "children": [
+            {
+              "slug": "physics.electromagnetism.circuits",
+              "name": "Rangkaian",
+              "items": [
+                "Resistors",
+                "Capacitors",
+                "Batteries",
+                "Ohm's law, power"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "physics.thermodynamics",
+          "name": "Termodinamika",
+          "children": [
+            {
+              "slug": "physics.thermodynamics.laws",
+              "name": "Hukum termodinamika",
+              "items": [
+                "Three laws of thermodynamics"
+              ]
+            },
+            {
+              "slug": "physics.thermodynamics.heat",
+              "name": "Kalor",
+              "items": [
+                "Heat transfer",
+                "Heat capacity",
+                "Specific heat",
+                "Phases of matter and phase transitions"
+              ]
+            },
+            {
+              "slug": "physics.thermodynamics.ideal-gas",
+              "name": "Gas ideal",
+              "items": [
+                "Ideal gas law",
+                "Work done by a gas"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "physics.acoustics",
+          "name": "Bunyi",
+          "children": [
+            {
+              "slug": "physics.acoustics.sound",
+              "name": "Gelombang bunyi",
+              "items": [
+                "Sound",
+                "Loudness",
+                "Pitch and frequency",
+                "Longitudinal waves",
+                "Reflection of waves"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "chemistry",
+      "name": "Kimia",
+      "name_en": "Chemistry",
+      "color": "#ca8a04",
+      "emoji": "🟨",
+      "level_hint": "Soal tersulit setara USNCO National Part I. Organik maks. ±15–20% skor.",
+      "topics": [
+        {
+          "slug": "chemistry.inorganic",
+          "name": "Kimia Anorganik",
+          "children": [
+            {
+              "slug": "chemistry.inorganic.periodic-table",
+              "name": "Tabel periodik",
+              "items": [
+                "Main group elements",
+                "Transition elements"
+              ]
+            },
+            {
+              "slug": "chemistry.inorganic.isotopes",
+              "name": "Isotop & inti",
+              "items": [
+                "Atomic number",
+                "Mass number",
+                "Relative atomic mass",
+                "Radioactive decay (alpha, beta, gamma)"
+              ]
+            },
+            {
+              "slug": "chemistry.inorganic.electron-config",
+              "name": "Konfigurasi elektron",
+              "items": [
+                "Quantum numbers (n, l, m)",
+                "Orbital types (s, p, d)",
+                "Hund's rule",
+                "Pauli principle",
+                "Para- vs diamagnetism"
+              ]
+            },
+            {
+              "slug": "chemistry.inorganic.trends",
+              "name": "Tren periodik",
+              "items": [
+                "Electronegativity",
+                "Ionization energy",
+                "Electron affinity",
+                "Reactivity",
+                "Metallic character",
+                "Atomic and ionic size"
+              ]
+            },
+            {
+              "slug": "chemistry.inorganic.bonding",
+              "name": "Ikatan kimia",
+              "items": [
+                "Bond types",
+                "Hybridization",
+                "VSEPR shapes, polarity, bond angles",
+                "Intermolecular forces",
+                "Metallic bonding",
+                "Acid-base properties of oxides"
+              ]
+            },
+            {
+              "slug": "chemistry.inorganic.reactions",
+              "name": "Reaksi & stoikiometri",
+              "items": [
+                "Reaction types",
+                "Balancing reactions",
+                "Empirical formulas",
+                "Concentrations",
+                "Mole concept (volume, mass, number of atoms)"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "chemistry.analytical",
+          "name": "Kimia Analitik",
+          "children": [
+            {
+              "slug": "chemistry.analytical.solutions",
+              "name": "Larutan",
+              "items": [
+                "Molarity, molality",
+                "Self-ionization of water",
+                "Hydrolysis of salts"
+              ]
+            },
+            {
+              "slug": "chemistry.analytical.acid-base",
+              "name": "Asam-basa",
+              "items": [
+                "Arrhenius theory",
+                "Bronsted theory",
+                "Lewis theory",
+                "pH and pOH",
+                "Ka and Kb",
+                "Buffer solutions"
+              ]
+            },
+            {
+              "slug": "chemistry.analytical.solubility",
+              "name": "Kelarutan",
+              "items": [
+                "Soluble, slightly soluble, insoluble salts",
+                "Solubility constants",
+                "Saturated, unsaturated, supersaturated"
+              ]
+            },
+            {
+              "slug": "chemistry.analytical.quantitative",
+              "name": "Analisis kuantitatif",
+              "items": [
+                "Titration indicators",
+                "Titration curves",
+                "Acid-base titrations"
+              ]
+            },
+            {
+              "slug": "chemistry.analytical.qualitative",
+              "name": "Analisis kualitatif",
+              "items": [
+                "Flame tests",
+                "Identification of common cations and anions"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "chemistry.physical",
+          "name": "Kimia Fisik",
+          "children": [
+            {
+              "slug": "chemistry.physical.equilibrium",
+              "name": "Kesetimbangan",
+              "items": [
+                "Le Chatelier's principle",
+                "Ideal gas law",
+                "Phase diagrams",
+                "Boiling point elevation, freezing point depression",
+                "Kc and Kp",
+                "K and Gibbs free energy",
+                "Solubility product"
+              ]
+            },
+            {
+              "slug": "chemistry.physical.thermo",
+              "name": "Termokimia",
+              "items": [
+                "First law: energy, heat, work",
+                "Entropy",
+                "Enthalpy of formation",
+                "Enthalpy of phase transitions",
+                "Bond dissociation enthalpy",
+                "Hess's law",
+                "Lattice energy"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "chemistry.organic",
+          "name": "Kimia Organik",
+          "children": [
+            {
+              "slug": "chemistry.organic.concepts",
+              "name": "Konsep umum",
+              "items": [
+                "Nomenclature",
+                "Structures",
+                "Arrow pushing mechanisms",
+                "Conformational analysis",
+                "Stereochemistry and chirality"
+              ]
+            },
+            {
+              "slug": "chemistry.organic.reactions",
+              "name": "Reaksi",
+              "items": [
+                "Electrophilic addition",
+                "Nucleophilic substitution",
+                "Elimination"
+              ]
+            },
+            {
+              "slug": "chemistry.organic.functional-groups",
+              "name": "Gugus fungsi",
+              "items": [
+                "Acidity and basicity of functional groups",
+                "Alkanes, alkenes, alkynes",
+                "Carbonyl compounds"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "chemistry.lab",
+          "name": "Keterampilan Lab",
+          "children": [
+            {
+              "slug": "chemistry.lab.skills",
+              "name": "Keterampilan lab",
+              "items": [
+                "Choosing lab materials",
+                "Correct lab procedures",
+                "Error analysis"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "biology",
+      "name": "Biologi",
+      "name_en": "Biology",
+      "color": "#16a34a",
+      "emoji": "🟩",
+      "level_hint": "Mengikuti INBO / ICSE kelas 9–10. ±40 soal dalam ±36 menit (< 1 menit/soal).",
+      "topics": [
+        {
+          "slug": "biology.biochem",
+          "name": "Biomolekul",
+          "children": [
+            {
+              "slug": "biology.biochem.molecules",
+              "name": "Biomolekul",
+              "items": [
+                "Carbon as the basis of life",
+                "Nucleic acids",
+                "Lipids",
+                "Proteins",
+                "Carbohydrates"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "biology.cell",
+          "name": "Biologi Sel",
+          "children": [
+            {
+              "slug": "biology.cell.molecular",
+              "name": "Biologi molekuler",
+              "items": [
+                "Central dogma",
+                "DNA replication",
+                "Transcription",
+                "RNA processing",
+                "Translation"
+              ]
+            },
+            {
+              "slug": "biology.cell.cell-structure",
+              "name": "Struktur sel",
+              "items": [
+                "Cell theory",
+                "Organelles (nucleus, ribosome, chloroplast, mitochondria, ER, golgi, lysosome, membrane, vacuole, cell wall, peroxisome, centriole, cytoskeleton)",
+                "Prokaryotic vs eukaryotic",
+                "Animal vs plant cell",
+                "Microscopy"
+              ]
+            },
+            {
+              "slug": "biology.cell.division",
+              "name": "Pembelahan sel",
+              "items": [
+                "Mitosis",
+                "Meiosis"
+              ]
+            },
+            {
+              "slug": "biology.cell.photosynthesis",
+              "name": "Fotosintesis",
+              "items": [
+                "Overall reaction",
+                "Limiting factors",
+                "Experiments"
+              ]
+            },
+            {
+              "slug": "biology.cell.respiration",
+              "name": "Respirasi seluler",
+              "items": [
+                "Aerobic respiration",
+                "Anaerobic respiration",
+                "Photosynthesis vs respiration"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "biology.anatomy",
+          "name": "Anatomi & Fisiologi Hewan",
+          "children": [
+            {
+              "slug": "biology.anatomy.tissues",
+              "name": "Jaringan",
+              "items": [
+                "Epithelial",
+                "Connective (bone, cartilage, blood, ligament, tendon)",
+                "Muscular (striated, smooth, cardiac)"
+              ]
+            },
+            {
+              "slug": "biology.anatomy.digestive",
+              "name": "Sistem pencernaan",
+              "items": [
+                "Organs and glands",
+                "Classes of food, balanced diet",
+                "Deficiency diseases"
+              ]
+            },
+            {
+              "slug": "biology.anatomy.respiratory",
+              "name": "Sistem pernapasan",
+              "items": [
+                "Organs",
+                "Mechanism of breathing",
+                "Tissue respiration"
+              ]
+            },
+            {
+              "slug": "biology.anatomy.excretory",
+              "name": "Sistem ekskresi",
+              "items": [
+                "Kidneys, ureter, bladder, urethra",
+                "Sweat glands, lungs",
+                "Filtration by nephrons"
+              ]
+            },
+            {
+              "slug": "biology.anatomy.nervous",
+              "name": "Sistem saraf",
+              "items": [
+                "Brain: cerebrum, cerebellum, medulla",
+                "Spinal cord",
+                "Sensory, motor, mixed nerves",
+                "Motor neuron",
+                "Reflex arc"
+              ]
+            },
+            {
+              "slug": "biology.anatomy.immune",
+              "name": "Sistem imun",
+              "items": [
+                "Innate vs adaptive",
+                "B and T cells",
+                "Antibodies",
+                "Allergy"
+              ]
+            },
+            {
+              "slug": "biology.anatomy.endocrine",
+              "name": "Sistem endokrin",
+              "items": [
+                "Exocrine vs endocrine",
+                "Thyroid",
+                "Adrenal",
+                "Pancreas",
+                "Pituitary"
+              ]
+            },
+            {
+              "slug": "biology.anatomy.circulatory",
+              "name": "Sistem peredaran darah",
+              "items": [
+                "Heart structure, valves, septum",
+                "Double circulation",
+                "Major blood vessels",
+                "ABO blood groups",
+                "Heart conditions",
+                "Lymphatic system"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "biology.ecology",
+          "name": "Ekologi",
+          "children": [
+            {
+              "slug": "biology.ecology.ecosystems",
+              "name": "Ekosistem",
+              "items": [
+                "Biotic and abiotic factors",
+                "Producers, consumers, decomposers",
+                "Food chain, food web, pyramid of numbers",
+                "Symbiosis, parasitism, predation"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "biology.classification",
+          "name": "Klasifikasi",
+          "children": [
+            {
+              "slug": "biology.classification.kingdoms",
+              "name": "Lima kingdom",
+              "items": [
+                "Need for classification",
+                "Monera",
+                "Protista (Amoeba)",
+                "Fungi (mould)",
+                "Plantae",
+                "Animalia: vertebrates and invertebrates"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "earth",
+      "name": "Earth Science",
+      "name_en": "Earth Science",
+      "color": "#92400e",
+      "emoji": "🟫",
+      "level_hint": "±45 soal dalam ±36 menit. Latihan: USESO Open, Science Olympiad.",
+      "topics": [
+        {
+          "slug": "earth.atmosphere",
+          "name": "Atmosfer",
+          "children": [
+            {
+              "slug": "earth.atmosphere.structure",
+              "name": "Struktur atmosfer",
+              "items": [
+                "Layers and composition",
+                "Vertical structure"
+              ]
+            },
+            {
+              "slug": "earth.atmosphere.fronts",
+              "name": "Front & tekanan",
+              "items": [
+                "Air masses and fronts",
+                "Pressure systems",
+                "Cyclone formation"
+              ]
+            },
+            {
+              "slug": "earth.atmosphere.humidity",
+              "name": "Kelembapan & presipitasi",
+              "items": [
+                "Relative humidity",
+                "Water cycle",
+                "Precipitation formation"
+              ]
+            },
+            {
+              "slug": "earth.atmosphere.circulation",
+              "name": "Sirkulasi",
+              "items": [
+                "Winds",
+                "Circulation cells"
+              ]
+            },
+            {
+              "slug": "earth.atmosphere.phenomena",
+              "name": "Fenomena cuaca",
+              "items": [
+                "Cloud types",
+                "Local winds",
+                "Thunderstorms and severe weather",
+                "El Nino and La Nina",
+                "Monsoons",
+                "Hurricanes"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "earth.hydrosphere",
+          "name": "Hidrosfer",
+          "children": [
+            {
+              "slug": "earth.hydrosphere.freshwater",
+              "name": "Air tawar",
+              "items": [
+                "Discharge calculations",
+                "Erosional and depositional features"
+              ]
+            },
+            {
+              "slug": "earth.hydrosphere.oceans",
+              "name": "Lautan",
+              "items": [
+                "Heat fluxes",
+                "Temperature and salinity",
+                "Surface circulation",
+                "Overturning circulation",
+                "Waves and tides",
+                "Tsunamis",
+                "Coastal geology",
+                "Ocean sediments"
+              ]
+            },
+            {
+              "slug": "earth.hydrosphere.glaciers",
+              "name": "Gletser",
+              "items": [
+                "Formation",
+                "Erosional and depositional features"
+              ]
+            },
+            {
+              "slug": "earth.hydrosphere.groundwater",
+              "name": "Air tanah",
+              "items": [
+                "Aquifers",
+                "Water table",
+                "Porosity and permeability"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "earth.geosphere",
+          "name": "Geosfer",
+          "children": [
+            {
+              "slug": "earth.geosphere.geochemistry",
+              "name": "Geokimia & mineral",
+              "items": [
+                "Phase diagrams",
+                "Bowen's reaction series",
+                "Mineral properties (crystal structure, hardness, cleavage...)"
+              ]
+            },
+            {
+              "slug": "earth.geosphere.rocks",
+              "name": "Batuan",
+              "items": [
+                "Sedimentary structures and environments",
+                "Types of metamorphism",
+                "Igneous rocks and magma types",
+                "Intrusive and extrusive bodies",
+                "Volcanism"
+              ]
+            },
+            {
+              "slug": "earth.geosphere.interior",
+              "name": "Interior bumi",
+              "items": [
+                "Layers of the Earth",
+                "Seismic waves",
+                "Plate boundaries",
+                "Faults",
+                "Tectonics",
+                "Soil formation"
+              ]
+            },
+            {
+              "slug": "earth.geosphere.dating",
+              "name": "Penanggalan & peta",
+              "items": [
+                "Geologic maps",
+                "Relative dating and unconformities",
+                "Radiometric dating"
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "earth.astronomy",
+          "name": "Astronomi",
+          "children": [
+            {
+              "slug": "earth.astronomy.mechanics",
+              "name": "Mekanika benda langit",
+              "items": [
+                "Kepler's laws",
+                "Gravitational force",
+                "Binary stars",
+                "Doppler effect"
+              ]
+            },
+            {
+              "slug": "earth.astronomy.radiation",
+              "name": "Radiasi",
+              "items": [
+                "Albedo",
+                "Radiation laws",
+                "Luminosity, flux, magnitude"
+              ]
+            },
+            {
+              "slug": "earth.astronomy.sphere",
+              "name": "Bola langit",
+              "items": [
+                "Celestial coordinates",
+                "Circumpolar stars",
+                "Equinox and solstice",
+                "Stellar parallax",
+                "Stars: Sirius, Betelgeuse, Rigel, Vega, Proxima Centauri, Polaris",
+                "Deep sky: M42, M31, M1, M45",
+                "Constellations: Orion, Ursa Major, Ursa Minor, Cassiopeia, Lyra, Andromeda, zodiac"
+              ]
+            },
+            {
+              "slug": "earth.astronomy.solar-system",
+              "name": "Tata surya",
+              "items": [
+                "Earth-Moon system",
+                "Solar System structure",
+                "Sidereal and synodic periods",
+                "Eclipses",
+                "Space missions"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

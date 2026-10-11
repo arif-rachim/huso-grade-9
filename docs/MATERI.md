@@ -12,28 +12,29 @@ except `<details>`.
 
 ### Exact template (the linter `scripts/check_materi.py` enforces it)
 ```text
-# {emoji} {Nama subtopik}  ·  `{slug}`
-> 📅 Dipelajari: {tanggal} · ⏱️ Baca ±12 menit · 📋 Silabus: {poin silabus, Inggris, dipisah koma}
+# {emoji} {Subtopic name}  ·  `{slug}`
+> 📅 Study date: {e.g. Tue 13 Oct} · ⏱️ ~12 min read · 📋 Syllabus: {syllabus items, comma separated}
 
-{HOOK: 2–3 kalimat dengan emoji tema 🍳 / 🎮 / 🏊 dalam judul "## 🏊 Mulai dari …"}
+## 🏊 Start with …            (HOOK, 2–3 sentences; emoji 🍳 / 🎮 / 🏊 in the heading)
 
-## 🖼️ Gambaran besar
+## 🖼️ Big picture
 ![alt](../../public/content/{subject}/{name}.svg)
-## 💡 Konsep inti            (max 6 numbered points, bold keywords)
-## 🧮 Contoh bergaya HUSO    (1–2 MCQ examples in English, numbered solution steps)
-## ⚠️ Jebakan umum           (2–4 bullets)
-## ✏️ Gambar dari ingatan    (what to draw + 4–6 checkbox items)
-## 🎥 Tonton / coba          (1–3 links: "- [Title](url) — channel · 6:42 · what to watch for")
-## ✅ Cek Paham (5 soal)     (**1.** … (A) … (B) … (C) … (D) … (E) …, in English)
-<details><summary>Kunci & pembahasan</summary>   (lines "1. **(C) 11.** explanation", Indonesian)
+## 💡 Core ideas              (max 6 numbered points, bold keywords)
+## 🧮 HUSO-style examples     (1–2 MCQ examples, numbered solution steps)
+## ⚠️ Common traps            (2–4 bullets)
+## ✏️ Redraw from memory      (what to draw + 4–6 checkbox items)
+## 🎥 Watch / try             (1–3 links: "- [Title](url) — channel · 6:42 · what to watch for")
+## ✅ Check your understanding (5 questions)   (**1.** … (A) … (B) … (C) … (D) … (E) …)
+<details><summary>Answer key & explanations</summary>   (lines "1. **(C) 11.** explanation")
 </details>
 ```
-The hook section goes between the `>` line and `## 🖼️ Gambaran besar`. The image line **must start
+The hook section goes between the `>` line and `## 🖼️ Big picture`. The image line **must start
 with `!`**.
 
 ## Writing rules
-- **Indonesian, simple, friendly, "kamu"**; English terms in parentheses on first use. Short
-  sentences. Bold the keyword in each point. Math in Unicode (x², √, π, ≤, ½, Σ, →), no LaTeX.
+- **English only** (the exam and the student's IB school are in English): simple, friendly, "you",
+  short sentences, a 14-year-old's vocabulary; explain a technical term the first time you use it.
+  Bold the keyword in each point. Math in Unicode (x², √, π, ≤, ½, Σ, →), no LaTeX.
 - **Hook from the student's world** (cooking 🍳, Valorant 🎮, swimming 🏊), rotate themes across the
   files of a subject. The hook must lead naturally into the concept and come back in the example
   or a Cek Paham question. Add **"Bedanya:"** when an analogy is not exact.

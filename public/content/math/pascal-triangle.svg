@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 356" role="img" aria-labelledby="t d">
-  <title id="t">Segitiga Pascal baris 0 sampai 6</title>
-  <desc id="d">Setiap angka adalah jumlah dua angka di atasnya. Baris n berisi koefisien dari (a + b) pangkat n.</desc>
+  <title id="t">Pascal's triangle, rows 0 to 6</title>
+  <desc id="d">Each number is the sum of the two numbers above it. Row n holds the coefficients of (a + b) to the power n.</desc>
   <rect x="0" y="0" width="440" height="356" fill="#ffffff"/>
   <g font-family="sans-serif" fill="#111827">
-    <text x="220" y="26" font-size="16" font-weight="bold" text-anchor="middle">Segitiga Pascal = koefisien (a + b)ⁿ</text>
+    <text x="220" y="26" font-size="16" font-weight="bold" text-anchor="middle">Pascal's triangle = coefficients of (a + b)ⁿ</text>
     <text x="22" y="61" font-size="12" fill="#6b7280" text-anchor="middle">n=0</text>
     <circle cx="220" cy="56" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
     <text x="220" y="61" font-size="14" text-anchor="middle" font-weight="bold">1</text>
@@ -67,6 +67,6 @@
     <text x="324" y="301" font-size="14" text-anchor="middle" font-weight="bold">6</text>
     <circle cx="376" cy="296" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
     <text x="376" y="301" font-size="14" text-anchor="middle" font-weight="bold">1</text>
-    <text x="220" y="342" font-size="13" text-anchor="middle" fill="#6b7280">Contoh: (a + b)⁴ = 1a⁴ + 4a³b + 6a²b² + 4ab³ + 1b⁴ (baris n=4)</text>
+    <text x="220" y="342" font-size="13" text-anchor="middle" fill="#6b7280">Example: (a + b)⁴ = 1a⁴ + 4a³b + 6a²b² + 4ab³ + 1b⁴ (row n=4)</text>
   </g>
 </svg>

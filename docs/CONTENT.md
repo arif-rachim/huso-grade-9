@@ -18,8 +18,9 @@ Shared rules for the content issues ("Konten 1–5"). The JSON formats are in
 
 ## Language and style
 
-- **Questions in English** (the exam is in English). Flashcard `back` and question `explanation`
-  may be Indonesian, with the English term in parentheses: "inti sel (nucleus)".
+- **Everything in English** (the exam is international and the student's school is English-medium):
+  questions, explanations, flashcard fronts/backs, `sketch_prompt`s and SVG labels. Simple,
+  friendly wording for a 14-year-old (see `docs/STUDENT.md`).
 - Math with Unicode: x², x³, √2, π, ≤, ≥, ≠, ½, ·, →, Δ, θ, °. **No LaTeX.**
 - Five choices A–E, exactly one correct, all different, similar length. Distractors come from
   real mistakes (wrong sign, forgot a case, unit slip, swapped terms), never jokes.

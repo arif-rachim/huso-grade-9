@@ -88,8 +88,8 @@ All under `content/`. JSON, UTF-8, 2-space indent. A Rust test validates every f
         "id": "biology-0001",
         "subtopic": "biology.anatomy.circulatory",
         "type": "basic",
-        "front": "Ruang jantung mana yang memompa darah ke seluruh tubuh?",
-        "back": "Ventrikel kiri (dinding paling tebal) → aorta.",
+        "front": "Which heart chamber pumps blood to the whole body?",
+        "back": "The left ventricle (thickest wall) → aorta.",
         "visual": "content/biology/heart-chambers.svg",
         "sketch_prompt": null,
         "tags": ["diagram"]
@@ -102,8 +102,8 @@ All under `content/`. JSON, UTF-8, 2-space indent. A Rust test validates every f
   in the right order; shown shuffled), `match` (`pairs[]` of `[left, right]`),
   `occlusion` (`visual` is an SVG whose elements with `data-label="…"` are hidden one at a
   time; `back` lists the labels). `visual` is a path under `public/`; at least one of
-  `visual` or `sketch_prompt` is set on every card. Front/back may be Indonesian with
-  English technical terms in parentheses, e.g. "inti sel (nucleus)".
+  `visual` or `sketch_prompt` is set on every card. Front/back are in **English**
+  (international exam, English-medium school; see `docs/STUDENT.md`).
 - `content/questions/<subject>.json`:
 
   ```json
@@ -127,7 +127,7 @@ All under `content/`. JSON, UTF-8, 2-space indent. A Rust test validates every f
   }
   ```
 
-  Questions are in **English** (like the exam); explanations may be Indonesian.
+  Questions and explanations are in **English** (like the exam).
   `difficulty`: 1 = HUSO's quick opening questions, 2 = typical, 3 = hard (AMC 10 #15+,
   USNCO National). Each question must be checked by solving it independently before commit.
 - SVGs: `public/content/<subject>/<name>.svg`, `viewBox` set, no external refs, no scripts,

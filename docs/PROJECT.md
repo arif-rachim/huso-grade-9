@@ -15,10 +15,15 @@ and, as data, in `content/plan.json`. The design rationale is issue #14.
 
 ## Hard rules
 
-- **UI language: Indonesian (Bahasa Indonesia).** Every user-facing text goes through
-  translations in `resources/lang/id.json` (`APP_LOCALE=id`, `APP_FALLBACK_LOCALE=en`).
-  Syllabus item names stay in English as in the official syllabus (the exam is in English).
-  Code, identifiers, comments, commit messages and tests are in **English**.
+- **UI language: English for the student, Indonesian for the parent.** All student-facing pages,
+  menus, buttons, messages and content are **English** (international exam, English-medium IB
+  school). The **Parent Dashboard** (`/parent`) and parent-only pages are **Indonesian**.
+  Implementation: every text goes through translations (`resources/lang/en.json` is the default,
+  `APP_LOCALE=en`; `resources/lang/id.json` holds the parent texts), and the locale is chosen
+  per user (a `locale` column on `users`: student `en`, parent `id`; `state.lang("id")` or
+  Renox's per-request locale; see CHEATSHEET "translations"). Syllabus item names stay in English.
+  Code, identifiers, comments, commit messages and tests are in **English**. Project management
+  issues and the root README are Indonesian.
 - **Time zone:** `APP_TIMEZONE=Asia/Jakarta`. "Today" is the Jakarta date. Read time with
   `renox::db::now()` only (tests use `app.travel`).
 - **Device:** a laptop, desktop-first layout (≥ 1024 px), with keyboard shortcuts for the
@@ -189,7 +194,7 @@ Progres (· Orang Tua for the parent). Show a countdown "H‑N menuju HUSO" in t
    `TestApp`; use `app.travel` for dates).
 2. `cargo fmt`, `cargo clippy --all-targets -- -D warnings`, `cargo test`, `rnx db:check`,
    `rnx view:check` all pass.
-3. New texts are in `resources/lang/id.json`.
+3. New texts are in `resources/lang/en.json` (and `id.json` for parent pages).
 4. Tried in the browser with `rnx serve` at 1280 px wide; describe what you checked in the PR.
 5. One PR per issue, branch `feat/issue-N-short-name` from the default branch, body with `Closes #N`.
 

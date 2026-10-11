@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" role="img" aria-labelledby="t d">
   <title id="t">Tangent circles</title>
   <desc id="d">Externally tangent circles have center distance r1 plus r2; internally tangent circles have center distance r1 minus r2; a common external tangent has length square root of d squared minus (r1 minus r2) squared.</desc>
   <rect x="0" y="0" width="440" height="520" fill="#ffffff"/>

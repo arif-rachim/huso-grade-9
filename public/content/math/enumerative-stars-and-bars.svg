@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 336" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 336" role="img" aria-labelledby="t d">
   <title id="t">Stars and bars</title>
   <desc id="d">Three example arrangements of 5 stars and 2 bars give the splits 2-1-2, 5-0-0 and 0-3-2. The count is C(7,2)=21.</desc>
   <rect x="0" y="0" width="440" height="336" fill="#ffffff"/>

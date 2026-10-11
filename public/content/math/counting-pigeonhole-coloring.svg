@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 340" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 340" role="img" aria-labelledby="t d">
   <title id="t">Pigeonhole and coloring</title>
   <desc id="d">Left: five balls in four boxes forces a box with two balls. Right: a six by six board with two opposite corners removed has 18 light and 16 dark squares, so at most 16 dominoes fit.</desc>
   <rect x="0" y="0" width="440" height="340" fill="#ffffff"/>

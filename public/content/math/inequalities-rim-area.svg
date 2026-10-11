@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 350" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 350" role="img" aria-labelledby="t d">
 <title id="t">Same perimeter, different areas</title>
 <desc id="d">Six rectangles all with perimeter 24: 11 by 1, 10 by 2, 9 by 3, 8 by 4, 7 by 5 and 6 by 6, with areas 11, 20, 27, 32, 35 and 36. The 6 by 6 square has the largest area.</desc>
 <rect x="0" y="0" width="440" height="350" fill="#ffffff"/>

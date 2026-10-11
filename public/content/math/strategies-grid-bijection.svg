@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 352" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 352" role="img" aria-labelledby="t d">
   <title id="t">Bijection between grid paths and letter strings</title>
   <desc id="d">A path across a 4 by 3 grid corresponds to a string of four R and three U letters. There are C(7,3)=35 of them.</desc>
   <rect x="0" y="0" width="440" height="352" fill="#ffffff"/>

@@ -5,10 +5,12 @@ questions should be written is recorded here. Every agent working on the **Mater
 (#34–#38), the **Konten** issues (#22–#26) or QA must follow it. New feedback → add a dated line to
 "Feedback log" and adjust the rules above it.
 
-> **Language: everything the student reads is in English** (the HUSO exam is international and the
-> student attends an English-medium IB school): material, hooks, explanations, examples,
-> questions, answer keys, flashcards and SVG labels. Only the parent-facing project management
-> (issues #1–#33, README) is Indonesian unless the parent says otherwise.
+> **Language: EVERYTHING is in ENGLISH** (the HUSO exam is international and the student attends an
+> English-medium IB school; parent feedback 2026-10-11, repeated and stressed). This covers material,
+> hooks, explanations, examples, questions, answer keys, flashcards, SVG labels, the whole app UI
+> (including the Parent Dashboard), data files, docs, code and commit messages, PR texts and **new
+> GitHub issues**. Existing Indonesian issues are being translated. Chat between the parent and
+> the assistant may stay Indonesian; nothing written into the repo or GitHub is.
 >
 > Privacy: this repo is public. Never write the student's name, school, photos or other personal
 > data in the repo. Address the student as **"you"**.
@@ -68,5 +70,6 @@ questions should be written is recorded here. Every agent working on the **Mater
 - **2026-10-11** — Study device: laptop.
 - **2026-10-11** — Content: original AI-written questions and flashcards + links to official
   papers (never copied).
-- **2026-10-11** — **All learning material is in English** (international exam, IB school): hooks,
-  explanations, examples, questions, answer keys and SVG labels.
+- **2026-10-11** — **Everything is in English** (international exam, IB school): material, questions,
+  flashcards, the whole app UI including the Parent Dashboard, docs and GitHub issues. This
+  supersedes the earlier "Indonesian for the parent" idea.

@@ -1,25 +1,25 @@
 {
-  "$comment": "Sumber resmi & latihan. Soal berhak cipta HANYA disimpan sebagai link (kind=link), tidak disalin.",
+  "$comment": "Official and practice sources. Copyrighted papers are stored ONLY as links (never copied into the repo).",
   "version": 1,
   "official": [
     {
-      "title": "Silabus Grade 9–10 (5 PDF)",
+      "title": "Grade 9–10 syllabus (5 PDFs)",
       "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/syllabus-guide.html"
     },
     {
-      "title": "Struktur & skor Round 1",
+      "title": "Round 1 exam structure and scoring",
       "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/exam-structure-and-scoring.html"
     },
     {
-      "title": "Struktur Round 2",
+      "title": "Round 2 exam structure",
       "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/exam-structure-and-scoring-round-2.html"
     },
     {
-      "title": "Pendaftaran HUSO Middle East",
+      "title": "HUSO Middle East registration",
       "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/"
     },
     {
-      "title": "Pendaftaran HUSO India",
+      "title": "HUSO India registration",
       "url": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/"
     }
   ],
@@ -68,14 +68,14 @@
     },
     {
       "slug": "huso-india-2025-final",
-      "title": "HUSO India 2025/26 Final Round (Grade 9–10) — soal tantangan",
+      "title": "HUSO India 2025/26 Final Round (Grade 9–10) — challenge questions",
       "round": "final",
       "use": "challenge",
       "page": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-india/open-round-papers2025-9-10.html"
     },
     {
       "slug": "huso-dubai-2025-final",
-      "title": "HUSO Dubai 2025/26 Final Round (Grade 9–10) — soal tantangan",
+      "title": "HUSO Dubai 2025/26 Final Round (Grade 9–10) — challenge questions",
       "round": "final",
       "use": "challenge",
       "page": "https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/open-round-papers2025-grade-9-10.html"

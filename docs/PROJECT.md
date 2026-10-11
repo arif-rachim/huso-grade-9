@@ -15,15 +15,13 @@ and, as data, in `content/plan.json`. The design rationale is issue #14.
 
 ## Hard rules
 
-- **UI language: English for the student, Indonesian for the parent.** All student-facing pages,
-  menus, buttons, messages and content are **English** (international exam, English-medium IB
-  school). The **Parent Dashboard** (`/parent`) and parent-only pages are **Indonesian**.
-  Implementation: every text goes through translations (`resources/lang/en.json` is the default,
-  `APP_LOCALE=en`; `resources/lang/id.json` holds the parent texts), and the locale is chosen
-  per user (a `locale` column on `users`: student `en`, parent `id`; `state.lang("id")` or
-  Renox's per-request locale; see CHEATSHEET "translations"). Syllabus item names stay in English.
-  Code, identifiers, comments, commit messages and tests are in **English**. Project management
-  issues and the root README are Indonesian.
+- **Language: ENGLISH for everything.** The HUSO exam is international and the student attends an
+  English-medium IB school, so **every artifact is English**: the whole app UI (student pages
+  **and** the Parent Dashboard: menus, buttons, messages), content (material, questions,
+  flashcards, explanations, SVG labels), data files, docs, code, comments, commit messages, PRs
+  and **new GitHub issues**. Texts go through `resources/lang/en.json` (`APP_LOCALE=en`); do not add
+  other languages. Syllabus item names stay as in the official English syllabus. See
+  `docs/STUDENT.md` (feedback log).
 - **Time zone:** `APP_TIMEZONE=Asia/Jakarta`. "Today" is the Jakarta date. Read time with
   `renox::db::now()` only (tests use `app.travel`).
 - **Device:** a laptop, desktop-first layout (≥ 1024 px), with keyboard shortcuts for the
@@ -33,7 +31,7 @@ and, as data, in `content/plan.json`. The design rationale is issue #14.
   `sketch_prompt` telling the student what to draw on paper. Colour is information: always
   use the subject colours below, never other colours for subjects.
 - **Single household.** Exactly two roles: `student` and `parent`. No public sign-up after
-  the two accounts exist (see issue "Fondasi").
+  the two accounts exist (see the Foundation issue).
 - **Copyright:** official papers (HUSO, AMC, Physics Bowl, USNCO, USABO, USESO) are stored
   **as links only** (`content/sources.json`). Never copy their questions into the repo.
   Questions in `content/questions/` are **original** (written by an agent or the parent).
@@ -46,10 +44,10 @@ and, as data, in `content/plan.json`. The design rationale is issue #14.
 
 | slug | Name (UI) | Colour | Emoji |
 |---|---|---|---|
-| `math` | Matematika | `#2563eb` | 🟦 |
-| `physics` | Fisika | `#dc2626` | 🟥 |
-| `chemistry` | Kimia | `#ca8a04` | 🟨 |
-| `biology` | Biologi | `#16a34a` | 🟩 |
+| `math` | Mathematics | `#2563eb` | 🟦 |
+| `physics` | Physics | `#dc2626` | 🟥 |
+| `chemistry` | Chemistry | `#ca8a04` | 🟨 |
+| `biology` | Biology | `#16a34a` | 🟩 |
 | `earth` | Earth Science | `#92400e` | 🟫 |
 
 Define them once as CSS custom properties in `public/app.css` (`--subject-math`, …) and once
@@ -71,7 +69,7 @@ from the row, never hard-code it.
 ## Content files (the source of truth; seeded into the database)
 
 All under `content/`. JSON, UTF-8, 2-space indent. A Rust test validates every file
-(issue "Model konten & seeder"). Ids are stable strings: never renumber.
+(issue "Content model & seeder"). Ids are stable strings: never renumber.
 
 - `content/syllabus.json`: `subjects[] → topics[] → children[]` (subtopics) `→ items[]`.
   Slugs are dotted paths: `biology.cell.division`. **Subtopic** is the unit whose mastery
@@ -174,19 +172,19 @@ reviewed cards: "not started". Colours: not started = grey, < 40 red, 40–69 ye
 
 | Module | Routes (names) | Issue |
 |---|---|---|
-| `home` | `/` → redirect to `/today` when logged in | Fondasi |
-| `content` | none (seeder + models + `content:import` command) | Model konten & seeder |
-| `today` | `/today` (`today.index`) | Halaman Hari Ini |
-| `plan` | `/plan` (`plan.index`), `/plan/{date}` (`plan.show`) | Jadwal & tracker |
-| `flashcards` | `/flashcards` (`flashcards.index`), `/flashcards/review` (`flashcards.review`), CRUD for manual cards | Flashcard |
-| `practice` | `/practice` (`practice.index`), `/practice/{attempt}` (`practice.show`), `/practice/{attempt}/result` (`practice.result`) | Bank soal |
+| `home` | `/` → redirect to `/today` when logged in | Foundation |
+| `content` | none (seeder + models + `content:import` command) | Content model & seeder |
+| `today` | `/today` (`today.index`) | Today page |
+| `plan` | `/plan` (`plan.index`), `/plan/{date}` (`plan.show`) | Plan & tracker |
+| `flashcards` | `/flashcards` (`flashcards.index`), `/flashcards/review` (`flashcards.review`), CRUD for manual cards | Flashcards |
+| `practice` | `/practice` (`practice.index`), `/practice/{attempt}` (`practice.show`), `/practice/{attempt}/result` (`practice.result`) | Question bank |
 | `errors` | `/errors` (`errors.index`), `/errors/review` (`errors.review`) | Error log |
-| `syllabus` | `/syllabus` (`syllabus.index`), `/syllabus/{slug}` (`syllabus.show`) | Peta silabus |
-| `progress` | `/progress` (`progress.index`), `/progress/log` (`progress.log`) | Progres |
-| `parent` | `/parent` (`parent.index`), `require_role("parent")` | Dashboard orang tua |
+| `syllabus` | `/syllabus` (`syllabus.index`), `/syllabus/{slug}` (`syllabus.show`) | Syllabus map |
+| `progress` | `/progress` (`progress.index`), `/progress/log` (`progress.log`) | Progress |
+| `parent` | `/parent` (`parent.index`), `require_role("parent")` | Parent dashboard |
 
-Navigation (top `<rx-navbar>`): Hari Ini · Jadwal · Flashcard · Latihan · Error Log · Silabus ·
-Progres (· Orang Tua for the parent). Show a countdown "H‑N menuju HUSO" in the navbar.
+Navigation (top `<rx-navbar>`): Today · Plan · Flashcards · Practice · Error Log · Syllabus ·
+Progress (· Parent for the parent). Show a countdown "D‑N to HUSO" in the navbar ("HUSO day!" on the day).
 
 ## Definition of done (every issue)
 
@@ -194,7 +192,7 @@ Progres (· Orang Tua for the parent). Show a countdown "H‑N menuju HUSO" in t
    `TestApp`; use `app.travel` for dates).
 2. `cargo fmt`, `cargo clippy --all-targets -- -D warnings`, `cargo test`, `rnx db:check`,
    `rnx view:check` all pass.
-3. New texts are in `resources/lang/en.json` (and `id.json` for parent pages).
+3. New texts are in `resources/lang/en.json`.
 4. Tried in the browser with `rnx serve` at 1280 px wide; describe what you checked in the PR.
 5. One PR per issue, branch `feat/issue-N-short-name` from the default branch, body with `Closes #N`.
 

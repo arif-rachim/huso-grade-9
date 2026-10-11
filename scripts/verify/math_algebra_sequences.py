@@ -59,7 +59,7 @@ ok(key_letter(3) == "B" and sum(6 + 2 * d for d in range(10)) == 150 and 2 * 130
 s4 = sum(Fraction(1, (2 * k - 1) * (2 * k + 1)) for k in range(1, 50))
 ok(s4 == Fraction(49, 99) and (2 * 49 - 1, 2 * 49 + 1) == (97, 99))
 mcq("**4.**", Fraction(49, 99), "D")
-ok(key_letter(4) == "B" and 2 * s4 == Fraction(98, 99))
+ok(key_letter(4) == "D" and 2 * s4 == Fraction(98, 99))
 # Q5: brute force over rational ratios
 sols = [Fraction(p, q) for q in range(1, 13) for p in range(-24, 25) if abs(Fraction(p, q)) < 1 and Fraction(12) / (1 - Fraction(p, q)) == 18]
 ok(set(sols) == {Fraction(1, 3)}, sols)

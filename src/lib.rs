@@ -1,4 +1,4 @@
-mod app;
+pub mod app;
 pub mod clock;
 
 /// The application: its modules, migrations and seeders. `main.rs` runs it,
@@ -11,6 +11,7 @@ pub fn app() -> renox::App {
         .module(renox::auth::Auth::new().account().without_registration())
         .module(renox::auth::Permissions) // roles: student and parent
         .module(app::accounts::Accounts)
+        .module(app::content::Content)
         .module(app::home::Home)
         .module(app::today::Today)
         .module(app::plan::Plan)

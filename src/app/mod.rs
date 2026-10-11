@@ -1,4 +1,5 @@
 pub mod accounts;
+pub mod content;
 pub mod errors;
 pub mod flashcards;
 pub mod home;

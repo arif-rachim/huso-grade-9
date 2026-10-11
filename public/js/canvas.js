@@ -2,7 +2,7 @@
 // component. On submit the canvas becomes a PNG in the form's file input; no CDN, no library.
 (function () {
   function init(canvas) {
-    var ctx = canvas.getContext("2d");
+    var ctx = canvas.getContext("2d", { willReadFrequently: true });
     var form = canvas.closest("form");
     var state = { tool: "pen", color: "#111827", size: 3, drawing: false, dirty: false, undo: [] };
     function blank() { ctx.fillStyle = "#fff"; ctx.fillRect(0, 0, canvas.width, canvas.height); }

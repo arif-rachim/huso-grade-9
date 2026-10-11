@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-labelledby="t d">
+  <title id="t">Two-set Venn diagram</title>
+  <desc id="d">Two overlapping circles A and B inside a box with four regions: only A, both A and B, only B, and neither.</desc>
+  <rect x="0" y="0" width="420" height="260" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <rect x="20" y="30" width="380" height="210" rx="8" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+    <circle cx="160.0" cy="135.0" r="70.0" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2.2"/>
+    <circle cx="260.0" cy="135.0" r="70.0" fill="#16a34a" fill-opacity="0.12" stroke="#16a34a" stroke-width="2.2"/>
+    <text x="120.0" y="140.0" font-size="14" text-anchor="middle" fill="#111827" data-label="only A">only A</text>
+    <text x="210.0" y="141.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" data-label="A and B">A and B</text>
+    <text x="300.0" y="140.0" font-size="14" text-anchor="middle" fill="#111827" data-label="only B">only B</text>
+    <text x="210.0" y="232.0" font-size="14" text-anchor="middle" fill="#6b7280" data-label="neither">neither</text>
+    <text x="105.0" y="58.0" font-size="16" text-anchor="middle" fill="#2563eb" font-weight="bold">A</text>
+    <text x="315.0" y="58.0" font-size="16" text-anchor="middle" fill="#16a34a" font-weight="bold">B</text>
+    <text x="210.0" y="20.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">|A ∪ B| = |A| + |B| − |A ∩ B|</text>
+  </g>
+</svg>

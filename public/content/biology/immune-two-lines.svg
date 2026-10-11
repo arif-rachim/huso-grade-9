@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 350" role="img" aria-labelledby="iat iad">
+  <title id="iat">Innate and adaptive immunity</title>
+  <desc id="iad">Two columns. Innate immunity: skin and mucus barriers, phagocytes and fever; fast and general. Adaptive immunity: B cells with antibodies, T cells and memory cells; slower the first time, specific and with memory.</desc>
+  <defs>
+    <marker id="iaa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="iag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="350" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Two lines of defense against germs</text>
+    <rect x="15" y="36" width="215" height="296" rx="12" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="122.5" y="62" font-size="16" text-anchor="middle" fill="#16a34a" font-weight="bold">INNATE</text>
+    <text x="122.5" y="80" font-size="12" text-anchor="middle" fill="#6b7280">you are born with it</text>
+    <rect x="250" y="36" width="215" height="296" rx="12" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="357.5" y="62" font-size="16" text-anchor="middle" fill="#16a34a" font-weight="bold">ADAPTIVE</text>
+    <text x="357.5" y="80" font-size="12" text-anchor="middle" fill="#6b7280">learned during life</text>
+    <g data-label="barriers"><rect x="32" y="108" width="14" height="22" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a"/><rect x="46" y="108" width="14" height="22" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a"/><rect x="39" y="130" width="14" height="22" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a"/><rect x="25" y="130" width="14" height="22" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a"/></g>
+    <text x="74" y="124" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Barriers</text>
+    <text x="74" y="141" font-size="12" text-anchor="start" fill="#111827">skin and mucus</text>
+    <text x="74" y="155" font-size="12" text-anchor="start" fill="#111827">block germs</text>
+    <g data-label="phagocyte"><circle cx="45" cy="205" r="20" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="2"/><circle cx="45" cy="205" r="6" fill="#16a34a" fill-opacity="0.6"/><circle cx="72" cy="200" r="7" fill="#dc2626" fill-opacity="0.6"/></g>
+    <text x="95" y="200" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Phagocytes</text>
+    <text x="95" y="217" font-size="12" text-anchor="start" fill="#111827">eat germs</text>
+    <g data-label="fever"><rect x="40" y="250" width="10" height="30" rx="5" fill="#ffffff" stroke="#111827" stroke-width="1.5"/><circle cx="45" cy="287" r="8" fill="#dc2626"/><rect x="43" y="258" width="4" height="26" fill="#dc2626"/></g>
+    <text x="74" y="266" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Fever</text>
+    <text x="74" y="283" font-size="12" text-anchor="start" fill="#111827">slows germs down</text>
+    <text x="122" y="318" font-size="13" text-anchor="middle" fill="#16a34a" font-weight="bold">FAST and GENERAL</text>
+    <g data-label="B cell"><circle cx="280" cy="123" r="19" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="2"/><text x="280" y="128" font-size="13" text-anchor="middle" font-weight="bold">B</text>
+    <path d="M314,112 L314,122 M308,106 L314,112 L320,106 M314,122 L314,132" stroke="#111827" stroke-width="1.8" fill="none"/></g>
+    <text x="340" y="118" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">B cells</text>
+    <text x="340" y="135" font-size="12" text-anchor="start" fill="#111827">make antibodies</text>
+    <g data-label="T cell"><circle cx="280" cy="198" r="19" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="2"/><text x="280" y="203" font-size="13" text-anchor="middle" font-weight="bold">T</text></g>
+    <text x="310" y="193" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">T cells</text>
+    <text x="310" y="210" font-size="12" text-anchor="start" fill="#111827">helper: gives orders</text>
+    <text x="310" y="225" font-size="12" text-anchor="start" fill="#111827">killer: kills infected cells</text>
+    <g data-label="memory"><circle cx="280" cy="268" r="19" fill="#ffffff" stroke="#16a34a" stroke-width="2" stroke-dasharray="4 3"/><text x="280" y="273" font-size="12" text-anchor="middle" font-weight="bold">mem</text></g>
+    <text x="310" y="264" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Memory cells</text>
+    <text x="310" y="281" font-size="12" text-anchor="start" fill="#111827">remember the germ</text>
+    <text x="357" y="318" font-size="13" text-anchor="middle" fill="#16a34a" font-weight="bold">SLOWER at first, SPECIFIC</text>
+  </g>
+</svg>

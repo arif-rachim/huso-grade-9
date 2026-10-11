@@ -1,0 +1,1244 @@
+{
+  "version": 1,
+  "subject": "physics",
+  "cards": [
+    {
+      "id": "physics-0001",
+      "subtopic": "physics.mechanics.kinematics",
+      "type": "basic",
+      "front": "What does the slope of a velocity–time graph tell you?",
+      "back": "The acceleration. (Slope of x–t = velocity; area under v–t = displacement.)",
+      "visual": "content/physics/kinematics-graphs.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "graph"
+      ]
+    },
+    {
+      "id": "physics-0002",
+      "subtopic": "physics.mechanics.kinematics",
+      "type": "cloze",
+      "front": "Constant acceleration: v = v₀ + {{a·t}}",
+      "back": "v = v₀ + at. Use it when you do not know the distance.",
+      "visual": null,
+      "sketch_prompt": "Draw a v–t line that starts at v₀ and rises. Mark the rise as a·t over a run of t.",
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0003",
+      "subtopic": "physics.mechanics.kinematics",
+      "type": "cloze",
+      "front": "Constant acceleration: x = x₀ + v₀t + {{½at²}}",
+      "back": "x = x₀ + v₀t + ½at². Use it when you do not know the final speed.",
+      "visual": "content/physics/kinematics-equations.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0004",
+      "subtopic": "physics.mechanics.kinematics",
+      "type": "cloze",
+      "front": "Constant acceleration, no time: v² = v₀² + {{2a(x − x₀)}}",
+      "back": "v² = v₀² + 2a(x − x₀). Use it when you do not know the time.",
+      "visual": null,
+      "sketch_prompt": "Sketch a v–t trapezoid and shade the area. Write what the area stands for (distance).",
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0005",
+      "subtopic": "physics.mechanics.kinematics",
+      "type": "occlusion",
+      "front": "Name each part of this velocity–time graph.",
+      "back": "velocity v; time t; slope = acceleration; area = displacement",
+      "visual": "content/physics/cards-vt-graph.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "graph",
+        "diagram"
+      ]
+    },
+    {
+      "id": "physics-0006",
+      "subtopic": "physics.mechanics.kinematics",
+      "type": "basic",
+      "front": "A ball is thrown straight up. What are its velocity and acceleration at the very top?",
+      "back": "Velocity = 0, but acceleration is still 9.8 m/s² downward. Gravity never switches off.",
+      "visual": "content/physics/kinematics-freefall.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "free-fall"
+      ]
+    },
+    {
+      "id": "physics-0007",
+      "subtopic": "physics.mechanics.kinematics",
+      "type": "match",
+      "front": "Match each quantity with its type.",
+      "back": "Distance and speed are scalars. Displacement and velocity are vectors.",
+      "visual": "content/physics/kinematics-distance-displacement.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "vector"
+      ],
+      "pairs": [
+        [
+          "Distance",
+          "scalar"
+        ],
+        [
+          "Displacement",
+          "vector"
+        ],
+        [
+          "Speed",
+          "scalar"
+        ],
+        [
+          "Velocity",
+          "vector"
+        ]
+      ]
+    },
+    {
+      "id": "physics-0008",
+      "subtopic": "physics.mechanics.kinematics",
+      "type": "basic",
+      "front": "You swim the first half of a trip at 2 m/s and the second half at 6 m/s. What is the average speed?",
+      "back": "3 m/s, not 4. Average speed = total distance ÷ total time, and you spend more time at the slow speed.",
+      "visual": null,
+      "sketch_prompt": "Draw a bar split into two equal halves. Write the time each half takes (d/2 ÷ 2 and d/2 ÷ 6) and add.",
+      "tags": [
+        "trap"
+      ]
+    },
+    {
+      "id": "physics-0009",
+      "subtopic": "physics.mechanics.dynamics",
+      "type": "cloze",
+      "front": "Newton's second law: F_net = {{m·a}}",
+      "back": "F_net = ma. Net force (a vector sum) equals mass times acceleration.",
+      "visual": "content/physics/dynamics-newton-laws.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0010",
+      "subtopic": "physics.mechanics.dynamics",
+      "type": "cloze",
+      "front": "Kinetic friction: f = {{μN}}",
+      "back": "f = μN, where N is the normal force (not always mg!) and μ is the friction coefficient.",
+      "visual": "content/physics/dynamics-friction.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0011",
+      "subtopic": "physics.mechanics.dynamics",
+      "type": "occlusion",
+      "front": "Name the forces and the angle on this incline.",
+      "back": "angle θ; normal force N; friction f; weight mg",
+      "visual": "content/physics/cards-incline-forces.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram",
+        "fbd"
+      ]
+    },
+    {
+      "id": "physics-0012",
+      "subtopic": "physics.mechanics.dynamics",
+      "type": "basic",
+      "front": "A block slides down a smooth incline of angle θ. What is its acceleration?",
+      "back": "a = g sin θ. The mass cancels, so heavy and light blocks slide the same way.",
+      "visual": "content/physics/dynamics-incline.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "incline"
+      ]
+    },
+    {
+      "id": "physics-0013",
+      "subtopic": "physics.mechanics.dynamics",
+      "type": "basic",
+      "front": "A swimmer pushes the wall with 300 N. What force does the wall put on the swimmer?",
+      "back": "300 N in the opposite direction. The two forces act on different objects, so they never cancel each other.",
+      "visual": null,
+      "sketch_prompt": "Draw a swimmer and a wall. Draw two arrows of equal length, each starting on a different object.",
+      "tags": [
+        "newton-3"
+      ]
+    },
+    {
+      "id": "physics-0014",
+      "subtopic": "physics.mechanics.dynamics",
+      "type": "order",
+      "front": "Put the steps for a force problem in order.",
+      "back": "Draw the object alone, then its forces, then axes, then components, then F_net = ma.",
+      "visual": "content/physics/dynamics-free-body.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "method"
+      ],
+      "items": [
+        "Draw the object alone",
+        "Draw every force as an arrow",
+        "Pick axes along the motion",
+        "Split tilted forces into components",
+        "Write F_net = ma for each axis"
+      ]
+    },
+    {
+      "id": "physics-0015",
+      "subtopic": "physics.mechanics.dynamics",
+      "type": "match",
+      "front": "Match each force with its direction.",
+      "back": "Normal is perpendicular to the surface; friction is parallel to it.",
+      "visual": "content/physics/dynamics-free-body.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "fbd"
+      ],
+      "pairs": [
+        [
+          "Normal force",
+          "perpendicular to the surface"
+        ],
+        [
+          "Friction",
+          "along the surface, against sliding"
+        ],
+        [
+          "Weight",
+          "mg, straight down"
+        ],
+        [
+          "Tension",
+          "along the rope, pulling"
+        ]
+      ]
+    },
+    {
+      "id": "physics-0016",
+      "subtopic": "physics.mechanics.dynamics",
+      "type": "basic",
+      "front": "Two masses m₁ > m₂ hang over a light pulley. What is the acceleration?",
+      "back": "a = (m₁ − m₂)g ÷ (m₁ + m₂). Net weight difference moves the total mass.",
+      "visual": "content/physics/dynamics-pulley.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "pulley",
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0017",
+      "subtopic": "physics.mechanics.conservation",
+      "type": "cloze",
+      "front": "Kinetic energy: KE = {{½mv²}}",
+      "back": "KE = ½mv². Double the speed and KE becomes four times bigger.",
+      "visual": "content/physics/conservation-energy-bars.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0018",
+      "subtopic": "physics.mechanics.conservation",
+      "type": "cloze",
+      "front": "Gravitational potential energy near Earth: PE = {{mgh}}",
+      "back": "PE = mgh, with h measured from any zero level you choose.",
+      "visual": null,
+      "sketch_prompt": "Draw a ball on a shelf and a floor. Mark h and write PE = mgh.",
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0019",
+      "subtopic": "physics.mechanics.conservation",
+      "type": "cloze",
+      "front": "Momentum p = {{mv}}. Impulse J = {{FΔt}} = Δp.",
+      "back": "p = mv (a vector). Impulse equals the change in momentum.",
+      "visual": "content/physics/conservation-momentum.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0020",
+      "subtopic": "physics.mechanics.conservation",
+      "type": "basic",
+      "front": "In a perfectly inelastic collision, what is conserved: momentum, kinetic energy, or both?",
+      "back": "Only momentum. Kinetic energy is lost as heat, sound and deformation.",
+      "visual": "content/physics/conservation-momentum.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "collision"
+      ]
+    },
+    {
+      "id": "physics-0021",
+      "subtopic": "physics.mechanics.conservation",
+      "type": "cloze",
+      "front": "Average power: P = {{W/t}} = F·v",
+      "back": "P = W/t, measured in watts (J/s).",
+      "visual": "content/physics/conservation-work-power.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0022",
+      "subtopic": "physics.mechanics.conservation",
+      "type": "cloze",
+      "front": "Angular momentum: L = {{Iω}}. With no net torque, pulling your arms in makes you spin {{faster}}.",
+      "back": "L = Iω is conserved. Smaller I means larger ω.",
+      "visual": "content/physics/conservation-angular.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0023",
+      "subtopic": "physics.mechanics.conservation",
+      "type": "order",
+      "front": "Put the steps for a collision problem in order.",
+      "back": "Define the system, check no outside net force, write p before, write p after, set equal.",
+      "visual": null,
+      "sketch_prompt": "Draw a 'before' picture and an 'after' picture with arrows for each velocity.",
+      "tags": [
+        "method"
+      ],
+      "items": [
+        "Define the system",
+        "Check there is no outside net force",
+        "Write the total momentum before",
+        "Write the total momentum after",
+        "Set them equal and solve"
+      ]
+    },
+    {
+      "id": "physics-0024",
+      "subtopic": "physics.mechanics.conservation",
+      "type": "basic",
+      "front": "What is the work done by a force F over a displacement d at angle θ?",
+      "back": "W = F·d·cos θ, in joules. A force at 90° to the motion does no work.",
+      "visual": "content/physics/conservation-work-power.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0025",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "type": "cloze",
+      "front": "Centripetal acceleration: a_c = {{v²/r}}",
+      "back": "a_c = v²/r, pointing toward the center.",
+      "visual": "content/physics/circular-motion.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0026",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "type": "cloze",
+      "front": "Centripetal force: F = {{mv²/r}}, and it points toward the {{center}}.",
+      "back": "F = mv²/r. It is a name for the net inward force, not a new force.",
+      "visual": "content/physics/circular-motion.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0027",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "type": "occlusion",
+      "front": "Name the parts of this circular-motion picture.",
+      "back": "radius r; velocity v; centripetal force; center",
+      "visual": "content/physics/cards-circular.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "physics-0028",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "type": "cloze",
+      "front": "Torque: τ = {{r·F·sin θ}}",
+      "back": "τ = rF sin θ, where θ is the angle between the lever arm r and the force F.",
+      "visual": "content/physics/circular-torque.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0029",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "type": "cloze",
+      "front": "Rotational form of Newton's second law: τ_net = {{Iα}}",
+      "back": "τ_net = Iα. Moment of inertia I is the rotational 'mass'.",
+      "visual": "content/physics/circular-inertia.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0030",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "type": "basic",
+      "front": "How do you get the speed from the period T of a circle with radius r?",
+      "back": "v = 2πr/T = 2πrf. One lap is the circumference 2πr, covered in time T.",
+      "visual": null,
+      "sketch_prompt": "Draw a circle. Mark one lap as 2πr and label the time for it as T.",
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0031",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "type": "basic",
+      "front": "A solid disk and a ring have the same mass and radius. Which has the larger moment of inertia?",
+      "back": "The ring (I = MR² vs ½MR²). Mass farther from the axis means more rotational inertia.",
+      "visual": "content/physics/circular-inertia.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "inertia"
+      ]
+    },
+    {
+      "id": "physics-0032",
+      "subtopic": "physics.mechanics.circular-rotation",
+      "type": "basic",
+      "front": "Is 'centrifugal force' a real force in an inertial frame?",
+      "back": "No. Objects want to go straight; the inward net force bends the path. The 'outward push' you feel is inertia.",
+      "visual": null,
+      "sketch_prompt": "Draw a ball on a string with the string suddenly cut. Show it flying off along the tangent.",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0033",
+      "subtopic": "physics.mechanics.shm",
+      "type": "cloze",
+      "front": "Hooke's law: F = {{−kx}}",
+      "back": "F = −kx. The minus sign means the force always points back to equilibrium.",
+      "visual": "content/physics/shm-spring.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0034",
+      "subtopic": "physics.mechanics.shm",
+      "type": "cloze",
+      "front": "Mass on a spring: T = {{2π√(m/k)}}",
+      "back": "T = 2π√(m/k). A stiffer spring (bigger k) oscillates faster.",
+      "visual": "content/physics/shm-spring.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0035",
+      "subtopic": "physics.mechanics.shm",
+      "type": "cloze",
+      "front": "Simple pendulum (small angle): T = {{2π√(L/g)}}",
+      "back": "T = 2π√(L/g). Mass and amplitude do not matter.",
+      "visual": "content/physics/shm-pendulum.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0036",
+      "subtopic": "physics.mechanics.shm",
+      "type": "occlusion",
+      "front": "Label this SHM graph.",
+      "back": "equilibrium x = 0; amplitude A; period T; displacement x",
+      "visual": "content/physics/cards-shm-graph.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "graph",
+        "diagram"
+      ]
+    },
+    {
+      "id": "physics-0037",
+      "subtopic": "physics.mechanics.shm",
+      "type": "basic",
+      "front": "Where is the speed of an SHM oscillator largest, and where is its acceleration largest?",
+      "back": "Speed is largest at equilibrium (x = 0). Acceleration is largest at the extremes (x = ±A).",
+      "visual": "content/physics/shm-graph.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0038",
+      "subtopic": "physics.mechanics.shm",
+      "type": "basic",
+      "front": "Does the period of a small-angle pendulum depend on its mass or its amplitude?",
+      "back": "No. Only on the length L and on g.",
+      "visual": "content/physics/shm-pendulum.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0039",
+      "subtopic": "physics.mechanics.shm",
+      "type": "cloze",
+      "front": "Total energy in SHM: E = {{½kA²}}",
+      "back": "E = ½kA², constant. It swaps between KE and spring PE.",
+      "visual": null,
+      "sketch_prompt": "Draw three bar charts (KE and PE) at x = 0, x = A/2 and x = A. The two bars always add to the same height.",
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0040",
+      "subtopic": "physics.mechanics.shm",
+      "type": "match",
+      "front": "Match each SHM word with its meaning.",
+      "back": "Period is time, frequency is cycles per second, f = 1/T.",
+      "visual": "content/physics/shm-graph.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "vocab"
+      ],
+      "pairs": [
+        [
+          "Amplitude A",
+          "largest distance from equilibrium"
+        ],
+        [
+          "Period T",
+          "time for one full cycle"
+        ],
+        [
+          "Frequency f",
+          "cycles per second (hertz)"
+        ],
+        [
+          "Equilibrium",
+          "where the net force is zero"
+        ]
+      ]
+    },
+    {
+      "id": "physics-0041",
+      "subtopic": "physics.mechanics.gravity",
+      "type": "cloze",
+      "front": "Newton's law of gravitation: F = {{G·m₁m₂/r²}}",
+      "back": "F = Gm₁m₂/r², with r measured between the centers.",
+      "visual": "content/physics/gravity-inverse-square.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0042",
+      "subtopic": "physics.mechanics.gravity",
+      "type": "basic",
+      "front": "The distance between two masses doubles. What happens to the gravitational force?",
+      "back": "It becomes four times smaller (inverse-square law).",
+      "visual": "content/physics/gravity-inverse-square.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0043",
+      "subtopic": "physics.mechanics.gravity",
+      "type": "cloze",
+      "front": "Surface gravity of a planet: g = {{GM/R²}}",
+      "back": "g = GM/R². The small mass of the object cancels out.",
+      "visual": "content/physics/gravity-weight.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0044",
+      "subtopic": "physics.mechanics.gravity",
+      "type": "cloze",
+      "front": "Circular orbit speed: v = {{√(GM/r)}}",
+      "back": "v = √(GM/r). It comes from gravity = centripetal force.",
+      "visual": "content/physics/gravity-orbit.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0045",
+      "subtopic": "physics.mechanics.gravity",
+      "type": "basic",
+      "front": "Astronauts on the space station float. Is gravity zero up there?",
+      "back": "No, it is about 90% of its value on the ground. They float because they are in free fall around Earth.",
+      "visual": "content/physics/gravity-orbit.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "trap"
+      ]
+    },
+    {
+      "id": "physics-0046",
+      "subtopic": "physics.mechanics.gravity",
+      "type": "basic",
+      "front": "Your mass is the same on the Moon. What about your weight?",
+      "back": "Weight is about 1/6 as big, because the Moon's g is about 1.6 m/s². Mass does not change.",
+      "visual": null,
+      "sketch_prompt": "Draw two scales, one on Earth and one on the Moon, with the same person. Write mass and weight on each.",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0047",
+      "subtopic": "physics.mechanics.gravity",
+      "type": "order",
+      "front": "Put the steps for an orbit problem in order.",
+      "back": "Gravity supplies the centripetal force, so GMm/r² = mv²/r, then cancel m and solve.",
+      "visual": null,
+      "sketch_prompt": "Draw a satellite on a circle. Draw one arrow toward the planet and label it with both names: gravity and centripetal force.",
+      "tags": [
+        "method"
+      ],
+      "items": [
+        "Say gravity is the centripetal force",
+        "Write GMm/r² = mv²/r",
+        "Cancel the satellite mass m",
+        "Solve for v (or for T)"
+      ]
+    },
+    {
+      "id": "physics-0048",
+      "subtopic": "physics.mechanics.gravity",
+      "type": "match",
+      "front": "Match each quantity with its value or rule.",
+      "back": "G and g are different things.",
+      "visual": "content/physics/gravity-weight.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "constants"
+      ],
+      "pairs": [
+        [
+          "G",
+          "6.674 × 10⁻¹¹ N·m²/kg²"
+        ],
+        [
+          "g at Earth's surface",
+          "9.8 m/s²"
+        ],
+        [
+          "Gravity versus distance",
+          "falls as 1/r²"
+        ],
+        [
+          "Weight",
+          "mg"
+        ]
+      ]
+    },
+    {
+      "id": "physics-0049",
+      "subtopic": "physics.electromagnetism.circuits",
+      "type": "cloze",
+      "front": "Ohm's law: V = {{I·R}}",
+      "back": "V = IR. Voltage is in volts, current in amperes, resistance in ohms.",
+      "visual": "content/physics/circuits-example.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0050",
+      "subtopic": "physics.electromagnetism.circuits",
+      "type": "cloze",
+      "front": "Electric power: P = {{I·V}} = I²R = {{V²/R}}",
+      "back": "P = IV. Use I²R when current is known and V²/R when voltage is known.",
+      "visual": "content/physics/circuits-series-parallel.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0051",
+      "subtopic": "physics.electromagnetism.circuits",
+      "type": "cloze",
+      "front": "Resistors in series: R_total = {{R₁ + R₂ + …}}",
+      "back": "In series the resistances add and the current is the same everywhere.",
+      "visual": "content/physics/circuits-series-parallel.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0052",
+      "subtopic": "physics.electromagnetism.circuits",
+      "type": "cloze",
+      "front": "Resistors in parallel: 1/R_total = {{1/R₁ + 1/R₂ + …}}",
+      "back": "In parallel the total is smaller than the smallest resistor. Voltage is the same on each branch.",
+      "visual": "content/physics/circuits-series-parallel.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0053",
+      "subtopic": "physics.electromagnetism.circuits",
+      "type": "cloze",
+      "front": "Capacitor: Q = {{C·V}}, and the stored energy is U = {{½CV²}}",
+      "back": "Q = CV and U = ½CV².",
+      "visual": "content/physics/circuits-capacitors.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0054",
+      "subtopic": "physics.electromagnetism.circuits",
+      "type": "occlusion",
+      "front": "Label this series circuit.",
+      "back": "battery; resistor R₁; resistor R₂; current I",
+      "visual": "content/physics/cards-circuit-parts.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "physics-0055",
+      "subtopic": "physics.electromagnetism.circuits",
+      "type": "match",
+      "front": "Match each connection with its rule.",
+      "back": "Capacitors behave the opposite way to resistors.",
+      "visual": "content/physics/circuits-capacitors.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "rules"
+      ],
+      "pairs": [
+        [
+          "Resistors in series",
+          "same current"
+        ],
+        [
+          "Resistors in parallel",
+          "same voltage"
+        ],
+        [
+          "Capacitors in parallel",
+          "capacitances add"
+        ],
+        [
+          "Capacitors in series",
+          "1/C adds"
+        ]
+      ]
+    },
+    {
+      "id": "physics-0056",
+      "subtopic": "physics.electromagnetism.circuits",
+      "type": "basic",
+      "front": "Why are the lights and sockets in a home wired in parallel?",
+      "back": "Each gets the full supply voltage, and if one device fails the others keep working.",
+      "visual": "content/physics/circuits-kitchen.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0057",
+      "subtopic": "physics.thermodynamics.laws",
+      "type": "basic",
+      "front": "State the zeroth law of thermodynamics.",
+      "back": "If A and B are each in thermal equilibrium with C, then A and B are in equilibrium with each other. This makes temperature meaningful.",
+      "visual": null,
+      "sketch_prompt": "Draw three boxes A, B, C. Join A–C and B–C with '=' and write the '=' you can conclude between A and B.",
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "physics-0058",
+      "subtopic": "physics.thermodynamics.laws",
+      "type": "cloze",
+      "front": "First law: ΔU = {{Q − W}} (W is work done by the system)",
+      "back": "ΔU = Q − W. It is conservation of energy for heat and work.",
+      "visual": "content/physics/laws-first-law.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0059",
+      "subtopic": "physics.thermodynamics.laws",
+      "type": "basic",
+      "front": "State the second law in one sentence about heat flow.",
+      "back": "Heat flows spontaneously from hot to cold, never the other way, and the entropy of an isolated system never decreases.",
+      "visual": "content/physics/laws-overview.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "physics-0060",
+      "subtopic": "physics.thermodynamics.laws",
+      "type": "cloze",
+      "front": "Heat engine efficiency: e = {{W/Q_h}} = 1 − {{Q_c/Q_h}}",
+      "back": "e = W/Q_h = 1 − Q_c/Q_h. No engine reaches 100%.",
+      "visual": "content/physics/laws-engine.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0061",
+      "subtopic": "physics.thermodynamics.laws",
+      "type": "cloze",
+      "front": "Carnot (maximum) efficiency: e = 1 − {{T_c/T_h}}, with temperatures in kelvin",
+      "back": "e = 1 − T_c/T_h. Always use kelvin, never °C.",
+      "visual": "content/physics/laws-engine.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0062",
+      "subtopic": "physics.thermodynamics.laws",
+      "type": "basic",
+      "front": "State the third law of thermodynamics.",
+      "back": "Absolute zero (0 K) cannot be reached in a finite number of steps.",
+      "visual": null,
+      "sketch_prompt": "Draw a thermometer scale that ends at 0 K with a wall in front of it labeled 'cannot reach'.",
+      "tags": [
+        "law"
+      ]
+    },
+    {
+      "id": "physics-0063",
+      "subtopic": "physics.thermodynamics.laws",
+      "type": "match",
+      "front": "Match each law with its big idea.",
+      "back": "Four laws, four ideas.",
+      "visual": "content/physics/laws-overview.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "laws"
+      ],
+      "pairs": [
+        [
+          "Zeroth law",
+          "temperature"
+        ],
+        [
+          "First law",
+          "energy is conserved"
+        ],
+        [
+          "Second law",
+          "direction and entropy"
+        ],
+        [
+          "Third law",
+          "absolute zero is unreachable"
+        ]
+      ]
+    },
+    {
+      "id": "physics-0064",
+      "subtopic": "physics.thermodynamics.laws",
+      "type": "basic",
+      "front": "Convert 27 °C to kelvin.",
+      "back": "300 K (add 273 to °C). Kelvin has no negative values.",
+      "visual": null,
+      "sketch_prompt": "Draw two thermometers side by side, one in °C and one in K, and mark 0 °C = 273 K.",
+      "tags": [
+        "units"
+      ]
+    },
+    {
+      "id": "physics-0065",
+      "subtopic": "physics.thermodynamics.heat",
+      "type": "cloze",
+      "front": "Heat for a temperature change: Q = {{m·c·ΔT}}",
+      "back": "Q = mcΔT, where c is the specific heat capacity (water: 4186 J/(kg·K)).",
+      "visual": "content/physics/heat-mixing.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0066",
+      "subtopic": "physics.thermodynamics.heat",
+      "type": "cloze",
+      "front": "Heat for a phase change: Q = {{m·L}}",
+      "back": "Q = mL, and the temperature stays constant while the phase changes.",
+      "visual": "content/physics/heat-curve.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0067",
+      "subtopic": "physics.thermodynamics.heat",
+      "type": "occlusion",
+      "front": "Label this heating curve.",
+      "back": "temperature T; heat added Q; melting plateau; boiling plateau; liquid warming",
+      "visual": "content/physics/cards-heat-curve.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "graph",
+        "diagram"
+      ]
+    },
+    {
+      "id": "physics-0068",
+      "subtopic": "physics.thermodynamics.heat",
+      "type": "order",
+      "front": "Order the stages as ice at −10 °C is heated all the way to steam.",
+      "back": "Ice warms, melts, water warms, boils, steam warms.",
+      "visual": "content/physics/heat-curve.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "phase"
+      ],
+      "items": [
+        "Ice warms up to 0 °C",
+        "Ice melts at 0 °C",
+        "Water warms from 0 °C to 100 °C",
+        "Water boils at 100 °C",
+        "Steam warms above 100 °C"
+      ]
+    },
+    {
+      "id": "physics-0069",
+      "subtopic": "physics.thermodynamics.heat",
+      "type": "match",
+      "front": "Match each heat transfer method with its description.",
+      "back": "Radiation needs no material at all.",
+      "visual": "content/physics/heat-transfer.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "transfer"
+      ],
+      "pairs": [
+        [
+          "Conduction",
+          "heat passes through direct contact"
+        ],
+        [
+          "Convection",
+          "heat carried by a moving fluid"
+        ],
+        [
+          "Radiation",
+          "heat sent by electromagnetic waves"
+        ],
+        [
+          "Insulator",
+          "slows conduction down"
+        ]
+      ]
+    },
+    {
+      "id": "physics-0070",
+      "subtopic": "physics.thermodynamics.heat",
+      "type": "basic",
+      "front": "Why does the temperature stay flat while ice melts?",
+      "back": "The added energy breaks bonds between molecules (potential energy) instead of making them move faster.",
+      "visual": "content/physics/heat-curve.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0071",
+      "subtopic": "physics.thermodynamics.heat",
+      "type": "basic",
+      "front": "Hot water (m₁, T₁) is mixed with cold water (m₂, T₂) with no losses. How do you find the final temperature?",
+      "back": "Heat lost = heat gained: m₁c(T₁ − T) = m₂c(T − T₂). Solve for T.",
+      "visual": "content/physics/heat-mixing.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "method"
+      ]
+    },
+    {
+      "id": "physics-0072",
+      "subtopic": "physics.thermodynamics.heat",
+      "type": "basic",
+      "front": "Water has c ≈ 4186 J/(kg·K) and cooking oil about 2000. Which warms faster with the same heat?",
+      "back": "The oil. Lower specific heat means a bigger ΔT for the same Q.",
+      "visual": null,
+      "sketch_prompt": "Draw two pots, one with water and one with oil, with thermometers. Show the oil's thermometer higher.",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0073",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "type": "cloze",
+      "front": "Ideal gas law: PV = {{nRT}}",
+      "back": "PV = nRT with T in kelvin and R = 8.315 J/(mol·K).",
+      "visual": "content/physics/idealgas-laws.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0074",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "type": "cloze",
+      "front": "Boyle's law (T constant): P₁V₁ = {{P₂V₂}}",
+      "back": "Squeeze the volume and the pressure goes up in proportion.",
+      "visual": "content/physics/idealgas-laws.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0075",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "type": "cloze",
+      "front": "Charles's law (P constant): V₁/T₁ = {{V₂/T₂}}",
+      "back": "Use kelvin. Doubling T doubles V.",
+      "visual": "content/physics/idealgas-laws.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0076",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "type": "cloze",
+      "front": "Work done by a gas at constant pressure: W = {{P·ΔV}}",
+      "back": "W = PΔV. On a P–V diagram it is the area under the curve.",
+      "visual": "content/physics/idealgas-work.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0077",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "type": "occlusion",
+      "front": "Label this P–V diagram.",
+      "back": "pressure P; volume V; isobaric; isochoric; work = area under curve",
+      "visual": "content/physics/cards-pv-process.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "graph",
+        "diagram"
+      ]
+    },
+    {
+      "id": "physics-0078",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "type": "basic",
+      "front": "In an isothermal process of an ideal gas, what are ΔU and Q?",
+      "back": "ΔU = 0 because T is constant, so Q = W.",
+      "visual": "content/physics/idealgas-work.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0079",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "type": "basic",
+      "front": "A bubble rises from deep water to the surface. What happens to its volume?",
+      "back": "It grows. The pressure drops, so by Boyle's law the volume rises.",
+      "visual": "content/physics/idealgas-bubble.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0080",
+      "subtopic": "physics.thermodynamics.ideal-gas",
+      "type": "basic",
+      "front": "What is the internal energy of n moles of a monatomic ideal gas?",
+      "back": "U = (3/2)nRT. It depends only on temperature.",
+      "visual": null,
+      "sketch_prompt": "Draw a box of gas atoms with arrows of motion. Write U = (3/2)nRT beside it.",
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0081",
+      "subtopic": "physics.acoustics.sound",
+      "type": "cloze",
+      "front": "Wave speed: v = {{f·λ}}",
+      "back": "v = fλ. In air at room temperature v ≈ 343 m/s.",
+      "visual": "content/physics/sound-wave.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0082",
+      "subtopic": "physics.acoustics.sound",
+      "type": "occlusion",
+      "front": "Label this sound wave.",
+      "back": "compression; rarefaction; wavelength λ; direction of wave",
+      "visual": "content/physics/cards-longitudinal-wave.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "physics-0083",
+      "subtopic": "physics.acoustics.sound",
+      "type": "basic",
+      "front": "Which sound property sets the pitch, and which sets the loudness?",
+      "back": "Frequency sets the pitch. Amplitude sets the loudness.",
+      "visual": "content/physics/sound-pitch-loudness.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0084",
+      "subtopic": "physics.acoustics.sound",
+      "type": "basic",
+      "front": "How fast is sound in dry air, and does a louder sound travel faster?",
+      "back": "About 343 m/s. No: loudness does not change the speed. Heat makes it faster, and solids and liquids carry it faster.",
+      "visual": "content/physics/sound-speed.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0085",
+      "subtopic": "physics.acoustics.sound",
+      "type": "cloze",
+      "front": "Echo: distance to the wall d = {{v·t / 2}}",
+      "back": "The sound goes there and back, so use half of the time.",
+      "visual": "content/physics/sound-echo.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "physics-0086",
+      "subtopic": "physics.acoustics.sound",
+      "type": "match",
+      "front": "Match each term with its meaning.",
+      "back": "Sound is a longitudinal wave of pressure.",
+      "visual": "content/physics/sound-wave.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "vocab"
+      ],
+      "pairs": [
+        [
+          "Compression",
+          "region of high pressure"
+        ],
+        [
+          "Rarefaction",
+          "region of low pressure"
+        ],
+        [
+          "Wavelength",
+          "distance between two compressions"
+        ],
+        [
+          "Frequency",
+          "compressions passing per second"
+        ]
+      ]
+    },
+    {
+      "id": "physics-0087",
+      "subtopic": "physics.acoustics.sound",
+      "type": "basic",
+      "front": "Can sound travel through a vacuum?",
+      "back": "No. It needs a medium to push on. Light can travel through a vacuum.",
+      "visual": null,
+      "sketch_prompt": "Draw a bell inside a jar with the air pumped out. Write 'no sound' next to it.",
+      "tags": [
+        "concept"
+      ]
+    },
+    {
+      "id": "physics-0088",
+      "subtopic": "physics.acoustics.sound",
+      "type": "order",
+      "front": "Order the media by speed of sound, slowest first.",
+      "back": "Air, water, steel.",
+      "visual": "content/physics/sound-speed.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "concept"
+      ],
+      "items": [
+        "Air (343 m/s)",
+        "Water (about 1480 m/s)",
+        "Steel (about 5900 m/s)"
+      ]
+    }
+  ]
+}

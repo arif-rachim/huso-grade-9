@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 400" role="img">
+  <title>Breathing in and breathing out</title>
+  <desc>Left: inhalation. The diaphragm contracts and flattens, the ribs move up and out, the chest volume increases, the pressure inside falls and air flows in. Right: exhalation at rest. The diaphragm relaxes and domes upward, the ribs move down and in, the chest volume decreases, the pressure rises and air is pushed out.</desc>
+  <defs>
+    <marker id="arG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#14532d"/></marker>
+  </defs>
+  <rect width="660" height="400" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="165" y="16" font-size="16" font-weight="bold" text-anchor="middle" fill="#14532d">INHALE (breathe in)</text>
+    <path d="M65,262 L65,106 Q65,72 165,72 Q265,72 265,106 L265,262" fill="#f9fafb" stroke="#6b7280" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M65,112 L75,106" stroke="#6b7280" stroke-width="3"/><path d="M265,112 L255,106" stroke="#6b7280" stroke-width="3"/>
+    <path d="M65,146 L75,140" stroke="#6b7280" stroke-width="3"/><path d="M265,146 L255,140" stroke="#6b7280" stroke-width="3"/>
+    <path d="M65,180 L75,174" stroke="#6b7280" stroke-width="3"/><path d="M265,180 L255,174" stroke="#6b7280" stroke-width="3"/>
+    <path d="M65,214 L75,208" stroke="#6b7280" stroke-width="3"/><path d="M265,214 L255,208" stroke="#6b7280" stroke-width="3"/>
+    <ellipse cx="165" cy="160" rx="78" ry="84" fill="#bbf7d0" stroke="#16a34a" stroke-width="2.5"/>
+    <path d="M65,262 Q165,250 265,262" fill="none" stroke="#14532d" stroke-width="7" stroke-linecap="round"/>
+    <rect x="160" y="52" width="10" height="40" fill="#bbf7d0" stroke="#14532d" stroke-width="1.5"/>
+    <g stroke="#14532d" stroke-width="3" fill="none" marker-end="url(#arG)"><path d="M165,30 L165,60"/><path d="M53,170 L35,146"/><path d="M277,170 L295,146"/><path d="M165,282 L165,300"/></g>
+    <text x="177" y="46" font-size="12" fill="#14532d" font-weight="bold">air in</text>
+    <text x="15" y="322" font-size="12.5">1 Diaphragm contracts and flattens (down)</text>
+    <text x="15" y="341" font-size="12.5">2 Rib muscles lift the ribs up and out</text>
+    <text x="15" y="360" font-size="12.5">3 Chest volume goes UP, pressure goes DOWN</text>
+    <text x="15" y="379" font-size="12.5">4 Air flows IN</text>
+    <text x="495" y="16" font-size="16" font-weight="bold" text-anchor="middle" fill="#14532d">EXHALE (breathe out)</text>
+    <path d="M411,246 L411,118 Q411,84 495,84 Q579,84 579,118 L579,246" fill="#f9fafb" stroke="#6b7280" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M411,124 L421,118" stroke="#6b7280" stroke-width="3"/><path d="M579,124 L569,118" stroke="#6b7280" stroke-width="3"/>
+    <path d="M411,158 L421,152" stroke="#6b7280" stroke-width="3"/><path d="M579,158 L569,152" stroke="#6b7280" stroke-width="3"/>
+    <path d="M411,192 L421,186" stroke="#6b7280" stroke-width="3"/><path d="M579,192 L569,186" stroke="#6b7280" stroke-width="3"/>
+    <path d="M411,226 L421,220" stroke="#6b7280" stroke-width="3"/><path d="M579,226 L569,220" stroke="#6b7280" stroke-width="3"/>
+    <ellipse cx="495" cy="152" rx="56" ry="56" fill="#bbf7d0" stroke="#16a34a" stroke-width="2.5"/>
+    <path d="M411,246 Q495,184 579,246" fill="none" stroke="#14532d" stroke-width="7" stroke-linecap="round"/>
+    <rect x="490" y="52" width="10" height="56" fill="#bbf7d0" stroke="#14532d" stroke-width="1.5"/>
+    <g stroke="#14532d" stroke-width="3" fill="none" marker-end="url(#arG)"><path d="M495,60 L495,30"/><path d="M383,150 L395,166"/><path d="M607,150 L595,166"/><path d="M495,266 L495,226"/></g>
+    <text x="507" y="46" font-size="12" fill="#14532d" font-weight="bold">air out</text>
+    <text x="345" y="322" font-size="12.5">1 Diaphragm relaxes: the dome moves up</text>
+    <text x="345" y="341" font-size="12.5">2 Ribs move down and in</text>
+    <text x="345" y="360" font-size="12.5">3 Chest volume goes DOWN, pressure goes UP</text>
+    <text x="345" y="379" font-size="12.5">4 Air is pushed OUT</text>
+    <g font-size="12" fill="#6b7280" font-weight="bold">
+      <text x="165" y="166" text-anchor="middle" fill="#14532d">lungs</text><text x="495" y="158" text-anchor="middle" fill="#14532d">lungs</text>
+      <text x="58" y="215" text-anchor="end">ribs</text><text x="404" y="215" text-anchor="end">ribs</text>
+      <text x="176" y="290">diaphragm</text><text x="506" y="258">diaphragm</text>
+    </g>
+  </g>
+</svg>

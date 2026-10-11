@@ -1,4 +1,110 @@
 <rx-page layout="layouts/app.html">
-  <rx-page-header title="{{ title }}"/>
-  <rx-empty title="Coming soon" message="This page is being built."/>
+  <rx-page-header title="{{ long_date }}">
+    <rx-link-button rx-if="prev_date" href="{{ route('today.index', date=prev_date) }}" label="← Yesterday" variant="secondary" size="small"/>
+    <rx-link-button rx-if="not is_today" href="{{ route('today.index') }}" label="Today" variant="secondary" size="small"/>
+    <rx-link-button rx-if="next_date" href="{{ route('today.index', date=next_date) }}" label="Tomorrow →" variant="secondary" size="small"/>
+  </rx-page-header>
+
+  {% if empty %}
+  <rx-empty title="{{ empty.title }}" message="{{ empty.message }}" icon="calendar"/>
+  {% if empty.action_label %}
+  <p class="today-empty-action"><rx-link-button href="{{ route('today.index', date=empty.action_date) }}" label="{{ empty.action_label }}" variant="secondary"/></p>
+  {% endif %}
+  {% elif day %}
+  <header class="today-head" style="--subject-color: {{ day.color }}">
+    <span class="today-chip" data-subject-chip>
+      <span aria-hidden="true">{% if day.is_subject %}{{ day.emoji }}{% else %}{{ day.icon }}{% endif %}</span>
+      {{ day.subject_name }}
+    </span>
+    <h2 class="today-title">{{ day.title }}</h2>
+    <p class="today-meta">
+      <rx-badge>{{ day.phase }}</rx-badge>
+      <span>{{ day.minutes }} minutes planned</span>
+      {% if day.issue_url %}<a href="{{ day.issue_url }}" target="_blank" rel="noopener">Plan details on GitHub</a>{% endif %}
+    </p>
+  </header>
+
+  <div class="today-layout">
+    <div class="today-main">
+      <live-today-checklist :component="checklist"/>
+    </div>
+
+    <aside class="today-side">
+      <rx-card title="Timer" subtitle="Pomodoro for one block">
+        <div x-data="pomodoro()" class="today-timer" :class="{ 'is-finished': finished, 'is-running': running }">
+          <div class="today-timer__clock" x-text="display" aria-live="off">--:--</div>
+          <p class="today-timer__label" x-text="finished ? 'Time is up! Take a break.' : (running ? label : 'Pick a block to start')"></p>
+          <div class="today-timer__buttons">
+            {% for b in timer_blocks %}
+            <button type="button" class="rx-button rx-button--secondary rx-button--small" @click="start({{ b.minutes }}, '{{ b.label }}')">Start {{ b.clock }} <span class="today-timer__for">{{ b.label }}</span></button>
+            {% endfor %}
+            <button type="button" class="rx-button rx-button--plain rx-button--small" x-show="running || finished" @click="stop()">Stop</button>
+          </div>
+        </div>
+      </rx-card>
+
+      <rx-card title="New material today">
+        {% if new_material %}
+        <ul class="rx-list today-material">
+          {% for item in new_material %}
+          <li style="--subject-color: {{ item.color }}">
+            {#- EXTENSION POINT (#39): once the lessons page has a named route, wrap the name in a link
+                to it, passing item.slug as the lesson. -#}
+            <span class="subject-dot" style="background: {{ item.color }}"></span> {{ item.name }}
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="rx-subtitle">No new material today. Practice and review instead.</p>
+        {% endif %}
+      </rx-card>
+
+      <rx-card title="Flashcards due">
+        <p class="today-big" id="flashcards-due">{{ flashcards_due }}</p>
+        <rx-link-button href="{{ route('flashcards.index') }}" label="Open flashcards" variant="secondary" size="small"/>
+      </rx-card>
+
+      <rx-card title="Error log due">
+        <p class="today-big" id="errors-due">{{ errors_due }}</p>
+        <rx-link-button href="{{ route('errors.index') }}" label="Open error log" variant="secondary" size="small"/>
+      </rx-card>
+    </aside>
+  </div>
+
+  {% call push('scripts', once='pomodoro') %}
+  <script>
+    document.addEventListener('alpine:init', function () {
+      Alpine.data('pomodoro', function () {
+        return {
+          remaining: 0, running: false, finished: false, label: '', timer: null,
+          get display() {
+            var s = Math.max(0, this.remaining);
+            return String(Math.floor(s / 60)).padStart(2, '0') + ':' + String(s % 60).padStart(2, '0');
+          },
+          start: function (minutes, label) {
+            this.stop();
+            this.label = label; this.remaining = minutes * 60; this.running = true; this.finished = false;
+            var self = this;
+            this.timer = setInterval(function () {
+              self.remaining -= 1;
+              if (self.remaining <= 0) { self.done(); }
+            }, 1000);
+          },
+          stop: function () {
+            clearInterval(this.timer); this.timer = null; this.running = false; this.finished = false;
+          },
+          done: function () {
+            clearInterval(this.timer); this.timer = null; this.running = false; this.finished = true; this.remaining = 0;
+            try {
+              var ctx = new (window.AudioContext || window.webkitAudioContext)();
+              var osc = ctx.createOscillator(); osc.frequency.value = 880; osc.connect(ctx.destination);
+              osc.start(); osc.stop(ctx.currentTime + 0.6);
+            } catch (e) { /* no sound: the colour change still shows it */ }
+          }
+        };
+      });
+    });
+  </script>
+  {% endcall %}
+  {% endif %}
 </rx-page>

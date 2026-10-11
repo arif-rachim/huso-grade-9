@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 440" role="img" aria-labelledby="kft kfd">
+  <title id="kft">The five kingdoms compared</title>
+  <desc id="kfd">A table comparing Monera, Protista, Fungi, Plantae and Animalia by cell type, cell wall, body, nutrition and an example.</desc>
+  <defs>
+    <marker id="kfa" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="kfg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="560" height="440" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="280" y="20" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Whittaker's five kingdoms</text>
+    <g data-label="monera"><rect x="80" y="34" width="92" height="34" rx="6" fill="#16a34a" fill-opacity="0.85"/><text x="126.0" y="56" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">Monera</text></g>
+    <g data-label="protista"><rect x="176" y="34" width="92" height="34" rx="6" fill="#16a34a" fill-opacity="0.85"/><text x="222.0" y="56" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">Protista</text></g>
+    <g data-label="fungi"><rect x="272" y="34" width="92" height="34" rx="6" fill="#16a34a" fill-opacity="0.85"/><text x="318.0" y="56" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">Fungi</text></g>
+    <g data-label="plantae"><rect x="368" y="34" width="92" height="34" rx="6" fill="#16a34a" fill-opacity="0.85"/><text x="414.0" y="56" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">Plantae</text></g>
+    <g data-label="animalia"><rect x="464" y="34" width="92" height="34" rx="6" fill="#16a34a" fill-opacity="0.85"/><text x="510.0" y="56" font-size="14" text-anchor="middle" fill="#ffffff" font-weight="bold">Animalia</text></g>
+    <rect x="10" y="76" width="66" height="60" rx="6" fill="#f3f4f6"/>
+    <text x="43.0" y="110" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Cell type</text>
+    <rect x="80" y="76" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="126.0" y="110" font-size="12" text-anchor="middle" fill="#111827">prokaryote</text>
+    <rect x="176" y="76" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="222.0" y="110" font-size="12" text-anchor="middle" fill="#111827">eukaryote</text>
+    <rect x="272" y="76" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="318.0" y="110" font-size="12" text-anchor="middle" fill="#111827">eukaryote</text>
+    <rect x="368" y="76" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="414.0" y="110" font-size="12" text-anchor="middle" fill="#111827">eukaryote</text>
+    <rect x="464" y="76" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="510.0" y="110" font-size="12" text-anchor="middle" fill="#111827">eukaryote</text>
+    <rect x="10" y="142" width="66" height="60" rx="6" fill="#f3f4f6"/>
+    <text x="43.0" y="176" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Cell wall</text>
+    <rect x="80" y="142" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="126.0" y="168" font-size="12" text-anchor="middle" fill="#111827">yes, but not</text>
+    <text x="126.0" y="184" font-size="12" text-anchor="middle" fill="#111827">cellulose</text>
+    <rect x="176" y="142" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="222.0" y="168" font-size="12" text-anchor="middle" fill="#111827">some yes, some</text>
+    <text x="222.0" y="184" font-size="12" text-anchor="middle" fill="#111827">no</text>
+    <rect x="272" y="142" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="318.0" y="176" font-size="12" text-anchor="middle" fill="#111827">chitin</text>
+    <rect x="368" y="142" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="414.0" y="176" font-size="12" text-anchor="middle" fill="#111827">cellulose</text>
+    <rect x="464" y="142" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="510.0" y="176" font-size="12" text-anchor="middle" fill="#111827">none</text>
+    <rect x="10" y="208" width="66" height="60" rx="6" fill="#f3f4f6"/>
+    <text x="43.0" y="242" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Body</text>
+    <rect x="80" y="208" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="126.0" y="242" font-size="12" text-anchor="middle" fill="#111827">one cell</text>
+    <rect x="176" y="208" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="222.0" y="242" font-size="12" text-anchor="middle" fill="#111827">one cell</text>
+    <rect x="272" y="208" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="318.0" y="226" font-size="12" text-anchor="middle" fill="#111827">threads</text>
+    <text x="318.0" y="242" font-size="12" text-anchor="middle" fill="#111827">(hyphae); yeast</text>
+    <text x="318.0" y="258" font-size="12" text-anchor="middle" fill="#111827">= 1 cell</text>
+    <rect x="368" y="208" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="414.0" y="242" font-size="12" text-anchor="middle" fill="#111827">many cells</text>
+    <rect x="464" y="208" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="510.0" y="242" font-size="12" text-anchor="middle" fill="#111827">many cells</text>
+    <rect x="10" y="274" width="66" height="60" rx="6" fill="#f3f4f6"/>
+    <text x="43.0" y="308" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Food</text>
+    <rect x="80" y="274" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="126.0" y="308" font-size="12" text-anchor="middle" fill="#111827">varies</text>
+    <rect x="176" y="274" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="222.0" y="308" font-size="12" text-anchor="middle" fill="#111827">varies</text>
+    <rect x="272" y="274" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="318.0" y="300" font-size="12" text-anchor="middle" fill="#111827">absorbs from</text>
+    <text x="318.0" y="316" font-size="12" text-anchor="middle" fill="#111827">dead matter</text>
+    <rect x="368" y="274" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="414.0" y="300" font-size="12" text-anchor="middle" fill="#111827">makes own food</text>
+    <text x="414.0" y="316" font-size="12" text-anchor="middle" fill="#111827">(photosynthesis)</text>
+    <rect x="464" y="274" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="510.0" y="300" font-size="12" text-anchor="middle" fill="#111827">eats food</text>
+    <text x="510.0" y="316" font-size="12" text-anchor="middle" fill="#111827">(heterotroph)</text>
+    <rect x="10" y="340" width="66" height="60" rx="6" fill="#f3f4f6"/>
+    <text x="43.0" y="374" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Example</text>
+    <rect x="80" y="340" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="126.0" y="374" font-size="12" text-anchor="middle" fill="#111827">bacteria</text>
+    <rect x="176" y="340" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="222.0" y="374" font-size="12" text-anchor="middle" fill="#111827">Amoeba</text>
+    <rect x="272" y="340" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="318.0" y="374" font-size="12" text-anchor="middle" fill="#111827">bread mould</text>
+    <rect x="368" y="340" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="414.0" y="374" font-size="12" text-anchor="middle" fill="#111827">mango tree</text>
+    <rect x="464" y="340" width="92" height="60" rx="6" fill="#16a34a" fill-opacity="0.08" stroke="#d1d5db"/>
+    <text x="510.0" y="374" font-size="12" text-anchor="middle" fill="#111827">fish, human</text>
+    <text x="280" y="422" font-size="11" text-anchor="middle" fill="#6b7280">Cell wall note: ICSE books often write 'present' for Monera. Plants: cellulose. Fungi: chitin.</text>
+  </g>
+</svg>

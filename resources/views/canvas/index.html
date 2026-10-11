@@ -1,0 +1,29 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="{{ title }}" subtitle="{{ subtitle }}"/>
+
+  {% if gallery %}
+  <div class="redraw-gallery">
+    {% for d in gallery %}
+    <a href="{{ route('canvas.drawing', d.id) }}" style="--subject-color: {{ d.color }}; text-decoration: none; color: inherit">
+      <img class="redraw-thumb" src="{{ route('canvas.image', d.id) }}" alt="Drawing of {{ d.topic }}" loading="lazy">
+      <div><strong>{{ d.topic }}</strong></div>
+      <div>{{ d.subject }} · {{ d.when }}</div>
+    </a>
+    {% endfor %}
+  </div>
+  {% else %}
+  <rx-empty title="No drawings yet" message="{{ empty_message }}"/>
+  {% endif %}
+
+  {% if not is_parent %}
+  <rx-card title="Pick a subtopic to redraw">
+    {% for g in groups %}
+    <h3 style="color: {{ g.color }}">{{ g.emoji }} {{ g.name }}</h3>
+    <ul>
+      {% for s in g.subtopics %}<li><a href="{{ route('canvas.show', s.slug) }}">{{ s.name }}</a></li>{% endfor %}
+    </ul>
+    {% endfor %}
+    {% if not groups %}<p>No subtopics yet. Run <code>rnx content:import</code>.</p>{% endif %}
+  </rx-card>
+  {% endif %}
+</rx-page>

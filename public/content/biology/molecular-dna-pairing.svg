@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 372" role="img" aria-labelledby="t d">
+  <title id="t">DNA base pairing</title>
+  <desc id="d">Two antiparallel strands. Adenine pairs with thymine by two hydrogen bonds, guanine pairs with cytosine by three. Sugar-phosphate backbones are on the outside, bases inside.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="440" height="372" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">DNA: a twisted ladder with matching rungs</text>
+    <line x1="140" y1="60" x2="140" y2="300" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+    <line x1="300" y1="60" x2="300" y2="300" stroke="#16a34a" stroke-width="5" stroke-linecap="round"/>
+    <rect x="143" y="72" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="158" y="91" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">A</text>
+    <rect x="267" y="72" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="282" y="91" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">T</text>
+    <circle cx="205.0" cy="86" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="235.0" cy="86" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <text x="220" y="75" font-size="12" text-anchor="middle" fill="#6b7280">2 bonds</text>
+    <rect x="143" y="118" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="158" y="137" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">T</text>
+    <rect x="267" y="118" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="282" y="137" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">A</text>
+    <circle cx="205.0" cy="132" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="235.0" cy="132" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <text x="220" y="121" font-size="12" text-anchor="middle" fill="#6b7280">2 bonds</text>
+    <rect x="143" y="164" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.35" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="158" y="183" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">G</text>
+    <rect x="267" y="164" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.35" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="282" y="183" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">C</text>
+    <circle cx="200.0" cy="178" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="220.0" cy="178" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="240.0" cy="178" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <text x="220" y="167" font-size="12" text-anchor="middle" fill="#6b7280">3 bonds</text>
+    <rect x="143" y="210" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.35" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="158" y="229" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">C</text>
+    <rect x="267" y="210" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.35" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="282" y="229" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">G</text>
+    <circle cx="200.0" cy="224" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="220.0" cy="224" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="240.0" cy="224" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <text x="220" y="213" font-size="12" text-anchor="middle" fill="#6b7280">3 bonds</text>
+    <rect x="143" y="256" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="158" y="275" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">A</text>
+    <rect x="267" y="256" width="30" height="28" rx="5" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="282" y="275" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">T</text>
+    <circle cx="205.0" cy="270" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="235.0" cy="270" r="3.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <text x="220" y="259" font-size="12" text-anchor="middle" fill="#6b7280">2 bonds</text>
+    <line x1="95" y1="70" x2="95" y2="300" stroke="#111827" stroke-width="2" stroke-linecap="round" marker-end="url(#arK)"/>
+    <text x="95" y="56" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">5′</text>
+    <text x="95" y="320" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3′</text>
+    <line x1="345" y1="300" x2="345" y2="70" stroke="#111827" stroke-width="2" stroke-linecap="round" marker-end="url(#arK)"/>
+    <text x="345" y="56" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3′</text>
+    <text x="345" y="320" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">5′</text>
+    <text x="60" y="190" font-size="12" text-anchor="middle" fill="#6b7280">backbone</text>
+    <text x="60" y="206" font-size="12" text-anchor="middle" fill="#6b7280">(sugar +</text>
+    <text x="60" y="222" font-size="12" text-anchor="middle" fill="#6b7280">phosphate)</text>
+    <text x="382" y="190" font-size="12" text-anchor="middle" fill="#6b7280">backbone</text>
+    <text x="220" y="340" font-size="12" text-anchor="middle" fill="#111827">A pairs with T (2 bonds), G pairs with C (3 bonds).</text>
+    <text x="220" y="356" font-size="12" text-anchor="middle" fill="#111827">The two strands run in opposite directions.</text>
+  </g>
+</svg>

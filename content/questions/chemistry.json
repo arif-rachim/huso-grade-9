@@ -1,0 +1,2562 @@
+{
+  "version": 1,
+  "subject": "chemistry",
+  "questions": [
+    {
+      "id": "chemistry-0001",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "difficulty": 1,
+      "stem": "Which name is given to the elements of Group 1 (except hydrogen)?",
+      "visual": null,
+      "choices": {
+        "A": "Alkaline earth metals",
+        "B": "Halogens",
+        "C": "Alkali metals",
+        "D": "Noble gases",
+        "E": "Transition metals"
+      },
+      "answer": "C",
+      "explanation": "Group 1 (Li, Na, K, ...) are the alkali metals; each has one valence electron.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0002",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "difficulty": 1,
+      "stem": "Which element is an alkaline earth metal?",
+      "visual": null,
+      "choices": {
+        "A": "Sodium",
+        "B": "Magnesium",
+        "C": "Aluminum",
+        "D": "Chlorine",
+        "E": "Neon"
+      },
+      "answer": "B",
+      "explanation": "Mg is in Group 2. Na is Group 1, Al Group 13, Cl Group 17, Ne Group 18.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0003",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "difficulty": 1,
+      "stem": "Pool water is disinfected with chlorine. To which family does chlorine belong?",
+      "visual": null,
+      "choices": {
+        "A": "Halogens",
+        "B": "Alkali metals",
+        "C": "Noble gases",
+        "D": "Alkaline earth metals",
+        "E": "Transition metals"
+      },
+      "answer": "A",
+      "explanation": "Chlorine is in Group 17, the halogens (7 valence electrons).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0004",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "difficulty": 2,
+      "stem": "An element has 7 valence electrons and is a dark red-brown LIQUID at room temperature. Which element is it?",
+      "visual": null,
+      "choices": {
+        "A": "Bromine",
+        "B": "Chlorine",
+        "C": "Mercury",
+        "D": "Iodine",
+        "E": "Fluorine"
+      },
+      "answer": "A",
+      "explanation": "Bromine (Group 17) is one of only two elements that are liquids at room temperature. Mercury is a liquid metal but has a different valence structure; Cl and F are gases, I is a solid.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0005",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "difficulty": 2,
+      "stem": "A cast-iron pan is made mostly of iron, a transition metal. Which property is typical of transition metals?",
+      "visual": null,
+      "choices": {
+        "A": "They always form +1 ions",
+        "B": "They have a full outer shell",
+        "C": "They react violently with cold water",
+        "D": "They are all gases at room temperature",
+        "E": "They can form ions with more than one charge, such as Fe²⁺ and Fe³⁺"
+      },
+      "answer": "E",
+      "explanation": "Partly filled d orbitals let transition metals lose different numbers of electrons, giving several oxidation states.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0006",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "difficulty": 2,
+      "stem": "How many transition-metal elements are in period 4, from Sc to Zn?",
+      "visual": null,
+      "choices": {
+        "A": "10",
+        "B": "8",
+        "C": "9",
+        "D": "12",
+        "E": "6"
+      },
+      "answer": "A",
+      "explanation": "Atomic numbers 21 (Sc) to 30 (Zn): 30 - 21 + 1 = 10, one for each d electron 3d¹ to 3d¹⁰.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0007",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "difficulty": 3,
+      "stem": "Element X has its last electrons in 3s² 3p⁵. Which statement is correct?",
+      "visual": null,
+      "choices": {
+        "A": "X is an alkali metal in period 3",
+        "B": "X is a halogen in period 3 and readily forms X⁻ ions",
+        "C": "X is a noble gas in period 3",
+        "D": "X is a halogen in period 5",
+        "E": "X is a transition metal in period 4"
+      },
+      "answer": "B",
+      "explanation": "Highest shell n = 3, so period 3. Seven valence electrons (3s² 3p⁵) means Group 17; it is chlorine, and it gains one electron to make Cl⁻.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0008",
+      "subtopic": "chemistry.inorganic.periodic-table",
+      "difficulty": 3,
+      "stem": "Which statement about hydrogen is correct?",
+      "visual": null,
+      "choices": {
+        "A": "It is an alkali metal because it has one valence electron",
+        "B": "It is a halogen because it forms diatomic molecules",
+        "C": "It is drawn above Group 1 but is a nonmetal gas, not an alkali metal",
+        "D": "It is a noble gas because its shell is full",
+        "E": "It is a transition metal because it has a 1s orbital"
+      },
+      "answer": "C",
+      "explanation": "H has one valence electron like Group 1, but it is a nonmetal and a diatomic gas (H₂). It can also form H⁻, a halogen-like behavior, so it fits no family exactly.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0009",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "difficulty": 1,
+      "stem": "How many neutrons are in an atom of carbon-14, ¹⁴₆C?",
+      "visual": null,
+      "choices": {
+        "A": "6",
+        "B": "14",
+        "C": "20",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "E",
+      "explanation": "Neutrons = mass number - atomic number = 14 - 6 = 8.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0010",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "difficulty": 1,
+      "stem": "Which radiation consists of helium nuclei?",
+      "visual": null,
+      "choices": {
+        "A": "Beta particles",
+        "B": "Gamma rays",
+        "C": "Alpha particles",
+        "D": "Neutrons",
+        "E": "X-rays"
+      },
+      "answer": "C",
+      "explanation": "An alpha particle is ⁴₂He²⁺: 2 protons and 2 neutrons.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0011",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "difficulty": 1,
+      "stem": "Pool chlorine is mostly Cl-35 (17 protons). How many protons does an atom of Cl-37 have?",
+      "visual": null,
+      "choices": {
+        "A": "18",
+        "B": "17",
+        "C": "20",
+        "D": "35",
+        "E": "37"
+      },
+      "answer": "B",
+      "explanation": "Isotopes of one element have the same number of protons; only the neutrons differ (18 vs 20).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0012",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "difficulty": 2,
+      "stem": "Gallium has two stable isotopes: 60% Ga-69 and 40% Ga-71. What is its relative atomic mass?",
+      "visual": null,
+      "choices": {
+        "A": "70.0",
+        "B": "69.4",
+        "C": "69.8",
+        "D": "70.2",
+        "E": "69.0"
+      },
+      "answer": "C",
+      "explanation": "0.60 × 69 + 0.40 × 71 = 41.4 + 28.4 = 69.8.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0013",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "difficulty": 2,
+      "stem": "A tracer used to find leaks in pool pipes has a half-life of 4 days. How many grams remain from an 80 g sample after 12 days?",
+      "visual": "content/chemistry/cards-half-life.svg",
+      "choices": {
+        "A": "20 g",
+        "B": "40 g",
+        "C": "27 g",
+        "D": "5 g",
+        "E": "10 g"
+      },
+      "answer": "E",
+      "explanation": "12 days = 3 half-lives, so 80 → 40 → 20 → 10 g.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0014",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "difficulty": 2,
+      "stem": "Uranium-238 (Z = 92) emits an alpha particle. Which nucleus is formed?",
+      "visual": null,
+      "choices": {
+        "A": "²³⁸₉₃Np",
+        "B": "²³⁴₉₂U",
+        "C": "²³⁸₉₀Th",
+        "D": "²³⁴₉₁Pa",
+        "E": "²³⁴₉₀Th"
+      },
+      "answer": "E",
+      "explanation": "Alpha decay lowers A by 4 and Z by 2: 238 - 4 = 234 and 92 - 2 = 90, which is thorium.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0015",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "difficulty": 3,
+      "stem": "Thorium-232 (Z = 90) goes through 3 alpha decays and 2 beta-minus decays. How many protons does the final nucleus have?",
+      "visual": null,
+      "choices": {
+        "A": "84",
+        "B": "86",
+        "C": "88",
+        "D": "82",
+        "E": "90"
+      },
+      "answer": "B",
+      "explanation": "Each alpha removes 2 protons (-6 in total); each beta-minus adds 1 proton (+2). 90 - 6 + 2 = 86 (radon).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0016",
+      "subtopic": "chemistry.inorganic.isotopes",
+      "difficulty": 3,
+      "stem": "A sample falls from 64 g to 2 g in 30 days. What is its half-life?",
+      "visual": null,
+      "choices": {
+        "A": "5 days",
+        "B": "6 days",
+        "C": "10 days",
+        "D": "15 days",
+        "E": "3 days"
+      },
+      "answer": "B",
+      "explanation": "64 → 32 → 16 → 8 → 4 → 2 is 5 halvings, so 30 ÷ 5 = 6 days.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0017",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "difficulty": 1,
+      "stem": "How many electrons can one p subshell hold?",
+      "visual": null,
+      "choices": {
+        "A": "6",
+        "B": "2",
+        "C": "3",
+        "D": "10",
+        "E": "14"
+      },
+      "answer": "A",
+      "explanation": "A p subshell has 3 orbitals and each holds 2 electrons: 3 × 2 = 6.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0018",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "difficulty": 1,
+      "stem": "What is the ground-state electron configuration of oxygen (Z = 8)?",
+      "visual": null,
+      "choices": {
+        "A": "1s² 2s² 2p⁶",
+        "B": "1s² 2s² 2p⁴",
+        "C": "1s² 2s⁴ 2p²",
+        "D": "1s² 2s² 2p³",
+        "E": "1s² 2s¹ 2p⁵"
+      },
+      "answer": "B",
+      "explanation": "Fill 1s (2), 2s (2), then the remaining 4 electrons go into 2p.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0019",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "difficulty": 1,
+      "stem": "Three swimmers enter a pool with three empty lanes. Each takes a lane alone before anyone shares. Which rule for electrons is this like?",
+      "visual": null,
+      "choices": {
+        "A": "Hund's rule",
+        "B": "Pauli exclusion principle",
+        "C": "Aufbau principle",
+        "D": "Le Chatelier's principle",
+        "E": "Octet rule"
+      },
+      "answer": "A",
+      "explanation": "Hund's rule: electrons fill the orbitals of a subshell singly before pairing. The difference: when two do share an orbital, the Pauli principle says their spins must be opposite.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0020",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "difficulty": 2,
+      "stem": "How many unpaired electrons does a ground-state iron atom ([Ar] 4s² 3d⁶) have?",
+      "visual": null,
+      "choices": {
+        "A": "6",
+        "B": "4",
+        "C": "2",
+        "D": "0",
+        "E": "5"
+      },
+      "answer": "B",
+      "explanation": "The five 3d orbitals each take one electron first (5), and the 6th pairs with one: 5 - 1 = 4 unpaired.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0021",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "difficulty": 2,
+      "stem": "Which ion is diamagnetic?",
+      "visual": null,
+      "choices": {
+        "A": "Fe³⁺",
+        "B": "Cu²⁺",
+        "C": "Zn²⁺",
+        "D": "Mn²⁺",
+        "E": "Cr³⁺"
+      },
+      "answer": "C",
+      "explanation": "Zn²⁺ is [Ar] 3d¹⁰: every electron is paired. Fe³⁺ (3d⁵), Cu²⁺ (3d⁹), Mn²⁺ (3d⁵) and Cr³⁺ (3d³) all have unpaired d electrons.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0022",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "difficulty": 2,
+      "stem": "Which set of quantum numbers (n, l, mₗ) is NOT allowed?",
+      "visual": null,
+      "choices": {
+        "A": "n = 2, l = 2, mₗ = 0",
+        "B": "n = 3, l = 2, mₗ = -2",
+        "C": "n = 2, l = 1, mₗ = 1",
+        "D": "n = 1, l = 0, mₗ = 0",
+        "E": "n = 4, l = 3, mₗ = 0"
+      },
+      "answer": "A",
+      "explanation": "l must be smaller than n (l = 0 to n - 1). With n = 2, l can only be 0 or 1.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0023",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "difficulty": 3,
+      "stem": "In an atom, how many electrons can have n = 4 and mₗ = +1?",
+      "visual": null,
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "8",
+        "D": "6",
+        "E": "10"
+      },
+      "answer": "D",
+      "explanation": "For n = 4, l can be 0, 1, 2, 3. mₗ = +1 exists for l = 1, 2, 3 (three orbitals). Each holds 2 electrons: 3 × 2 = 6.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0024",
+      "subtopic": "chemistry.inorganic.electron-config",
+      "difficulty": 3,
+      "stem": "What is the ground-state electron configuration of chromium (Z = 24)?",
+      "visual": null,
+      "choices": {
+        "A": "[Ar] 4s² 3d⁴",
+        "B": "[Ar] 4s² 3d⁶",
+        "C": "[Ar] 3d⁶",
+        "D": "[Ar] 4s¹ 3d⁴ 4p¹",
+        "E": "[Ar] 4s¹ 3d⁵"
+      },
+      "answer": "E",
+      "explanation": "A half-filled 3d subshell with one electron in each orbital is extra stable, so one 4s electron moves into 3d.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0025",
+      "subtopic": "chemistry.inorganic.trends",
+      "difficulty": 1,
+      "stem": "Which atom has the largest atomic radius?",
+      "visual": null,
+      "choices": {
+        "A": "Li",
+        "B": "K",
+        "C": "Na",
+        "D": "Mg",
+        "E": "Be"
+      },
+      "answer": "B",
+      "explanation": "Potassium has four shells; the others have fewer shells (or the same number but more protons).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0026",
+      "subtopic": "chemistry.inorganic.trends",
+      "difficulty": 1,
+      "stem": "Which element is the most electronegative?",
+      "visual": null,
+      "choices": {
+        "A": "Cl",
+        "B": "F",
+        "C": "O",
+        "D": "N",
+        "E": "Br"
+      },
+      "answer": "B",
+      "explanation": "Fluorine: small, with a high effective nuclear charge. Its Pauling value, 4.0, is the highest.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0027",
+      "subtopic": "chemistry.inorganic.trends",
+      "difficulty": 1,
+      "stem": "In table salt, sodium becomes a Na⁺ ion. Compared with a sodium atom, Na⁺ is",
+      "visual": null,
+      "choices": {
+        "A": "larger, because it has more protons",
+        "B": "the same size, because the nucleus is unchanged",
+        "C": "larger, because ions repel",
+        "D": "smaller, because the outer shell is gone",
+        "E": "smaller, because it gained a proton"
+      },
+      "answer": "D",
+      "explanation": "Na loses its 3s electron, leaving a 2-shell core, and the 11 protons pull on only 10 electrons.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0028",
+      "subtopic": "chemistry.inorganic.trends",
+      "difficulty": 2,
+      "stem": "Which of these ions is the smallest?",
+      "visual": null,
+      "choices": {
+        "A": "O²⁻",
+        "B": "F⁻",
+        "C": "Na⁺",
+        "D": "Mg²⁺",
+        "E": "N³⁻"
+      },
+      "answer": "D",
+      "explanation": "All have 10 electrons (isoelectronic with Ne). Mg²⁺ has the most protons (12), so the strongest pull and the smallest radius.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0029",
+      "subtopic": "chemistry.inorganic.trends",
+      "difficulty": 2,
+      "stem": "Which comparison of FIRST ionization energies is correct?",
+      "visual": null,
+      "choices": {
+        "A": "Be > B",
+        "B": "B > Be",
+        "C": "O > N",
+        "D": "Na > Li",
+        "E": "K > Na"
+      },
+      "answer": "A",
+      "explanation": "B's outer electron is in the higher-energy 2p subshell, so it is easier to remove than Be's 2s electron. Down a group the IE falls (Li > Na > K), and O < N because of electron pairing.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0030",
+      "subtopic": "chemistry.inorganic.trends",
+      "difficulty": 2,
+      "stem": "Pools use chlorine; some hot tubs use bromine. Both are halogens. Which statement is correct?",
+      "visual": null,
+      "choices": {
+        "A": "Bromine is the stronger oxidizer because it has more electrons",
+        "B": "Chlorine is the stronger oxidizer because it gains electrons more readily",
+        "C": "Both are equally reactive since they are in the same group",
+        "D": "Bromine is more reactive because it is larger",
+        "E": "Neither reacts, since halogens are inert"
+      },
+      "answer": "B",
+      "explanation": "Halogen reactivity (oxidizing power) decreases down the group: F > Cl > Br > I.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0031",
+      "subtopic": "chemistry.inorganic.trends",
+      "difficulty": 3,
+      "stem": "An element X has successive ionization energies (kJ/mol) of 738, 1451, 7733 and 10543. Which group is it in?",
+      "visual": null,
+      "choices": {
+        "A": "Group 1",
+        "B": "Group 13",
+        "C": "Group 14",
+        "D": "Group 2",
+        "E": "Group 16"
+      },
+      "answer": "D",
+      "explanation": "The big jump happens after the 2nd electron: the 3rd electron must come from a full inner shell. So X has 2 valence electrons.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0032",
+      "subtopic": "chemistry.inorganic.trends",
+      "difficulty": 3,
+      "stem": "Which of Na, Mg, Al, Si and P has the largest SECOND ionization energy?",
+      "visual": null,
+      "choices": {
+        "A": "Mg",
+        "B": "Al",
+        "C": "Si",
+        "D": "P",
+        "E": "Na"
+      },
+      "answer": "E",
+      "explanation": "Na⁺ has a neon core, so the 2nd electron comes from a full 2p shell and costs far more (about 4562 kJ/mol). The others remove a valence electron second.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0033",
+      "subtopic": "chemistry.inorganic.bonding",
+      "difficulty": 1,
+      "stem": "What is the molecular shape of methane, CH₄?",
+      "visual": null,
+      "choices": {
+        "A": "Linear",
+        "B": "Trigonal planar",
+        "C": "Bent",
+        "D": "Trigonal pyramidal",
+        "E": "Tetrahedral"
+      },
+      "answer": "E",
+      "explanation": "Four bonding pairs and no lone pairs spread out to 109.5° in a tetrahedron.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0034",
+      "subtopic": "chemistry.inorganic.bonding",
+      "difficulty": 1,
+      "stem": "Which kitchen substance is held together mainly by ionic bonds?",
+      "visual": null,
+      "choices": {
+        "A": "Sugar (C₁₂H₂₂O₁₁)",
+        "B": "Water (H₂O)",
+        "C": "Cooking oil",
+        "D": "Butane gas",
+        "E": "Table salt (NaCl)"
+      },
+      "answer": "E",
+      "explanation": "NaCl is a metal-plus-nonmetal compound: Na⁺ and Cl⁻ attract each other. The others are molecules with covalent bonds.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0035",
+      "subtopic": "chemistry.inorganic.bonding",
+      "difficulty": 1,
+      "stem": "What is the approximate H–O–H bond angle in a water molecule?",
+      "visual": null,
+      "choices": {
+        "A": "109.5°",
+        "B": "104.5°",
+        "C": "120°",
+        "D": "180°",
+        "E": "90°"
+      },
+      "answer": "B",
+      "explanation": "Two lone pairs on oxygen squeeze the bonds closer than the ideal 109.5°.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0036",
+      "subtopic": "chemistry.inorganic.bonding",
+      "difficulty": 2,
+      "stem": "Which molecule is NONPOLAR even though it has polar bonds?",
+      "visual": null,
+      "choices": {
+        "A": "CO₂",
+        "B": "H₂O",
+        "C": "NH₃",
+        "D": "HCl",
+        "E": "CHCl₃"
+      },
+      "answer": "A",
+      "explanation": "CO₂ is linear, so the two C=O dipoles point in opposite directions and cancel. H₂O and NH₃ are bent or pyramidal, HCl is diatomic, and CHCl₃ is lopsided.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0037",
+      "subtopic": "chemistry.inorganic.bonding",
+      "difficulty": 2,
+      "stem": "Water (M = 18 g/mol) boils at 100 °C, but methane (M = 16 g/mol) boils at -162 °C. Why?",
+      "visual": null,
+      "choices": {
+        "A": "Water molecules form hydrogen bonds; methane has only weak dispersion forces",
+        "B": "Water molecules are much heavier",
+        "C": "The covalent bonds in methane are stronger",
+        "D": "Water is an ionic compound",
+        "E": "Methane molecules are polar"
+      },
+      "answer": "A",
+      "explanation": "The masses are almost the same, so the difference comes from the forces BETWEEN molecules, not the bonds inside them.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0038",
+      "subtopic": "chemistry.inorganic.bonding",
+      "difficulty": 2,
+      "stem": "What is the hybridization of each carbon atom in ethene, C₂H₄?",
+      "visual": null,
+      "choices": {
+        "A": "sp",
+        "B": "sp³",
+        "C": "sp³d",
+        "D": "s²p",
+        "E": "sp²"
+      },
+      "answer": "E",
+      "explanation": "Each carbon has three electron regions (two C-H and one C=C), so it uses sp² and keeps one p orbital for the π bond.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0039",
+      "subtopic": "chemistry.inorganic.bonding",
+      "difficulty": 3,
+      "stem": "How many π bonds are in one molecule of HC≡C–CH=CH₂?",
+      "visual": null,
+      "choices": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5",
+        "E": "7"
+      },
+      "answer": "A",
+      "explanation": "A triple bond has 2 π bonds and a double bond has 1 π bond: 2 + 1 = 3. (The other 7 bonds are σ bonds: 1 + 1 + 1 + 4 C-H.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0040",
+      "subtopic": "chemistry.inorganic.bonding",
+      "difficulty": 3,
+      "stem": "Which of these molecules is POLAR?",
+      "visual": null,
+      "choices": {
+        "A": "BF₃",
+        "B": "XeF₄",
+        "C": "CCl₄",
+        "D": "SF₄",
+        "E": "CO₂"
+      },
+      "answer": "D",
+      "explanation": "SF₄ has a lone pair on sulfur and a see-saw shape, so the dipoles do not cancel. BF₃ (planar), XeF₄ (square planar), CCl₄ (tetrahedral) and CO₂ (linear) are symmetric.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0041",
+      "subtopic": "chemistry.inorganic.reactions",
+      "difficulty": 1,
+      "stem": "What is the molar mass of water, H₂O? (H = 1, O = 16)",
+      "visual": null,
+      "choices": {
+        "A": "17 g/mol",
+        "B": "16 g/mol",
+        "C": "34 g/mol",
+        "D": "18 g/mol",
+        "E": "10 g/mol"
+      },
+      "answer": "D",
+      "explanation": "2 × 1 + 16 = 18 g/mol.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0042",
+      "subtopic": "chemistry.inorganic.reactions",
+      "difficulty": 1,
+      "stem": "How many particles are in one mole of a substance?",
+      "visual": null,
+      "choices": {
+        "A": "6.02 × 10²⁶",
+        "B": "6.02 × 10²⁰",
+        "C": "3.01 × 10²³",
+        "D": "1.66 × 10⁻²⁴",
+        "E": "6.02 × 10²³"
+      },
+      "answer": "E",
+      "explanation": "This is Avogadro's number, the count of particles in 1 mol.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0043",
+      "subtopic": "chemistry.inorganic.reactions",
+      "difficulty": 1,
+      "stem": "Baking soda decomposes in a hot oven: 2NaHCO₃ → Na₂CO₃ + H₂O + CO₂. What type of reaction is this?",
+      "visual": null,
+      "choices": {
+        "A": "Synthesis",
+        "B": "Single replacement",
+        "C": "Double replacement",
+        "D": "Decomposition",
+        "E": "Combustion"
+      },
+      "answer": "D",
+      "explanation": "One reactant breaks into several products, which is the definition of decomposition.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0044",
+      "subtopic": "chemistry.inorganic.reactions",
+      "difficulty": 2,
+      "stem": "Propane burns: C₃H₈ + 5O₂ → 3CO₂ + 4H₂O. What mass of CO₂ forms when 0.50 mol of propane burns completely? (C = 12, O = 16)",
+      "visual": null,
+      "choices": {
+        "A": "22 g",
+        "B": "44 g",
+        "C": "66 g",
+        "D": "132 g",
+        "E": "198 g"
+      },
+      "answer": "C",
+      "explanation": "0.50 mol C₃H₈ gives 0.50 × 3 = 1.5 mol CO₂; 1.5 mol × 44 g/mol = 66 g.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0045",
+      "subtopic": "chemistry.inorganic.reactions",
+      "difficulty": 2,
+      "stem": "A recipe uses 18 g of glucose (C₆H₁₂O₆, M = 180 g/mol). How many moles is that?",
+      "visual": null,
+      "choices": {
+        "A": "0.18 mol",
+        "B": "1.0 mol",
+        "C": "0.10 mol",
+        "D": "0.010 mol",
+        "E": "10 mol"
+      },
+      "answer": "C",
+      "explanation": "n = m ÷ M = 18 ÷ 180 = 0.10 mol.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0046",
+      "subtopic": "chemistry.inorganic.reactions",
+      "difficulty": 2,
+      "stem": "A compound is 40.0% C, 6.7% H and 53.3% O by mass. What is its empirical formula?",
+      "visual": null,
+      "choices": {
+        "A": "C₂H₄O",
+        "B": "CH₂O",
+        "C": "CHO",
+        "D": "CH₂O₂",
+        "E": "C₂H₆O"
+      },
+      "answer": "B",
+      "explanation": "In 100 g: C 3.33 mol, H 6.7 mol, O 3.33 mol. Dividing by 3.33 gives 1 : 2 : 1.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0047",
+      "subtopic": "chemistry.inorganic.reactions",
+      "difficulty": 3,
+      "stem": "2Al + 3Cl₂ → 2AlCl₃. A mix of 2.7 g Al and 7.1 g Cl₂ reacts completely. What mass of AlCl₃ forms? (Al = 27, Cl = 35.5)",
+      "visual": null,
+      "choices": {
+        "A": "8.9 g",
+        "B": "13.4 g",
+        "C": "6.7 g",
+        "D": "17.8 g",
+        "E": "4.5 g"
+      },
+      "answer": "A",
+      "explanation": "Al: 0.10 mol needs 0.15 mol Cl₂, but only 0.10 mol Cl₂ is present, so Cl₂ limits. 0.10 mol Cl₂ makes 0.10 × 2/3 = 0.0667 mol AlCl₃ × 133.5 g/mol = 8.9 g.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0048",
+      "subtopic": "chemistry.inorganic.reactions",
+      "difficulty": 3,
+      "stem": "A hydrocarbon burns completely to give 4.4 g CO₂ and 2.7 g H₂O. What is the H:C mole ratio in the hydrocarbon? (C = 12, H = 1, O = 16)",
+      "visual": null,
+      "choices": {
+        "A": "1.5",
+        "B": "3.0",
+        "C": "2.0",
+        "D": "6.0",
+        "E": "0.33"
+      },
+      "answer": "B",
+      "explanation": "C: 4.4 ÷ 44 = 0.10 mol. H: 2.7 ÷ 18 = 0.15 mol H₂O, which holds 0.30 mol H. H:C = 0.30 ÷ 0.10 = 3.0 (so CH₃, which means C₂H₆).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0049",
+      "subtopic": "chemistry.analytical.solutions",
+      "difficulty": 1,
+      "stem": "0.50 mol of NaCl is dissolved to make 2.0 L of solution. What is the molarity?",
+      "visual": null,
+      "choices": {
+        "A": "1.0 M",
+        "B": "0.50 M",
+        "C": "0.25 M",
+        "D": "4.0 M",
+        "E": "2.5 M"
+      },
+      "answer": "C",
+      "explanation": "M = n ÷ V = 0.50 ÷ 2.0 = 0.25 M.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0050",
+      "subtopic": "chemistry.analytical.solutions",
+      "difficulty": 1,
+      "stem": "A cook dissolves 58.5 g of NaCl (M = 58.5 g/mol) in water to make 0.500 L of brine. What is its molarity?",
+      "visual": null,
+      "choices": {
+        "A": "2.00 M",
+        "B": "1.00 M",
+        "C": "0.500 M",
+        "D": "117 M",
+        "E": "0.0171 M"
+      },
+      "answer": "A",
+      "explanation": "n = 58.5 ÷ 58.5 = 1.00 mol; M = 1.00 mol ÷ 0.500 L = 2.00 M.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0051",
+      "subtopic": "chemistry.analytical.solutions",
+      "difficulty": 1,
+      "stem": "What is the pH of pure water at 25 °C?",
+      "visual": null,
+      "choices": {
+        "A": "0.0",
+        "B": "14.0",
+        "C": "7.0",
+        "D": "1.0",
+        "E": "10.0"
+      },
+      "answer": "C",
+      "explanation": "[H⁺] = 1.0 × 10⁻⁷ M, so pH = -log(10⁻⁷) = 7.0.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0052",
+      "subtopic": "chemistry.analytical.solutions",
+      "difficulty": 2,
+      "stem": "How many mL of 6.0 M HCl are needed to make 300 mL of 0.50 M HCl?",
+      "visual": null,
+      "choices": {
+        "A": "50 mL",
+        "B": "18 mL",
+        "C": "150 mL",
+        "D": "12 mL",
+        "E": "25 mL"
+      },
+      "answer": "E",
+      "explanation": "M₁V₁ = M₂V₂ gives V₁ = 0.50 × 300 ÷ 6.0 = 25 mL.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0053",
+      "subtopic": "chemistry.analytical.solutions",
+      "difficulty": 2,
+      "stem": "2.0 × 10⁻³ mol of HCl is mixed into 20 L of pool water. Ignoring everything else, what is the pH?",
+      "visual": null,
+      "choices": {
+        "A": "3.0",
+        "B": "2.7",
+        "C": "4.0",
+        "D": "5.0",
+        "E": "1.0"
+      },
+      "answer": "C",
+      "explanation": "[H⁺] = 2.0 × 10⁻³ ÷ 20 = 1.0 × 10⁻⁴ M, so pH = 4.0.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0054",
+      "subtopic": "chemistry.analytical.solutions",
+      "difficulty": 2,
+      "stem": "36 g of glucose (C₆H₁₂O₆, M = 180 g/mol) is dissolved in 400 g of water to make syrup. What is the molality?",
+      "visual": null,
+      "choices": {
+        "A": "0.20 m",
+        "B": "0.090 m",
+        "C": "0.45 m",
+        "D": "0.50 m",
+        "E": "2.0 m"
+      },
+      "answer": "D",
+      "explanation": "n = 36 ÷ 180 = 0.20 mol; the solvent is 0.400 kg, so m = 0.20 ÷ 0.400 = 0.50 mol/kg.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0055",
+      "subtopic": "chemistry.analytical.solutions",
+      "difficulty": 2,
+      "stem": "Which of these salts gives a BASIC solution in water?",
+      "visual": null,
+      "choices": {
+        "A": "Sodium chloride, NaCl",
+        "B": "Sodium acetate, CH₃COONa",
+        "C": "Ammonium chloride, NH₄Cl",
+        "D": "Potassium nitrate, KNO₃",
+        "E": "Calcium chloride, CaCl₂"
+      },
+      "answer": "B",
+      "explanation": "The acetate ion is the conjugate base of a weak acid and picks up H⁺ from water: CH₃COO⁻ + H₂O ⇌ CH₃COOH + OH⁻. NH₄Cl is acidic; NaCl, KNO₃ and CaCl₂ are neutral.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0056",
+      "subtopic": "chemistry.analytical.solutions",
+      "difficulty": 3,
+      "stem": "At 50 °C, Kw = 5.5 × 10⁻¹⁴. What is the pH of pure water at 50 °C?",
+      "visual": null,
+      "choices": {
+        "A": "7.00",
+        "B": "6.26",
+        "C": "7.37",
+        "D": "6.63",
+        "E": "6.00"
+      },
+      "answer": "D",
+      "explanation": "[H⁺] = √(5.5 × 10⁻¹⁴) = 2.35 × 10⁻⁷ M, so pH = 6.63. The water is still neutral.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0057",
+      "subtopic": "chemistry.analytical.solutions",
+      "difficulty": 3,
+      "stem": "250 mL of 0.40 M NaCl is mixed with 750 mL of 0.20 M NaCl. Assuming the volumes add, what is the final molarity?",
+      "visual": null,
+      "choices": {
+        "A": "0.25 M",
+        "B": "0.30 M",
+        "C": "0.27 M",
+        "D": "0.40 M",
+        "E": "0.20 M"
+      },
+      "answer": "A",
+      "explanation": "Total moles = 0.250 × 0.40 + 0.750 × 0.20 = 0.10 + 0.15 = 0.25 mol in 1.00 L, so 0.25 M.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0058",
+      "subtopic": "chemistry.analytical.acid-base",
+      "difficulty": 1,
+      "stem": "What is the pH of a 0.010 M HCl solution?",
+      "visual": null,
+      "choices": {
+        "A": "2.0",
+        "B": "1.0",
+        "C": "12.0",
+        "D": "0.010",
+        "E": "10.0"
+      },
+      "answer": "A",
+      "explanation": "HCl is a strong acid: [H⁺] = 0.010 M, pH = -log(10⁻²) = 2.0.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0059",
+      "subtopic": "chemistry.analytical.acid-base",
+      "difficulty": 1,
+      "stem": "What is the conjugate base of H₂SO₄?",
+      "visual": null,
+      "choices": {
+        "A": "SO₄²⁻",
+        "B": "H₃SO₄⁺",
+        "C": "OH⁻",
+        "D": "HSO₄⁻",
+        "E": "H₂SO₃"
+      },
+      "answer": "D",
+      "explanation": "Remove one H⁺ from H₂SO₄ and you get HSO₄⁻.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0060",
+      "subtopic": "chemistry.analytical.acid-base",
+      "difficulty": 1,
+      "stem": "Lemon juice in a kitchen has pH 2 and a baking soda solution has pH 9. How many times more H⁺ does the lemon juice have?",
+      "visual": null,
+      "choices": {
+        "A": "7 times",
+        "B": "70 times",
+        "C": "1 × 10⁴ times",
+        "D": "1 × 10⁷ times",
+        "E": "1 × 10⁹ times"
+      },
+      "answer": "D",
+      "explanation": "The pH difference is 7 and each pH unit is a factor of 10, so 10⁷.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0061",
+      "subtopic": "chemistry.analytical.acid-base",
+      "difficulty": 2,
+      "stem": "What is the pH of 0.0020 M Ba(OH)₂? (It gives 2 OH⁻ per formula unit.)",
+      "visual": null,
+      "choices": {
+        "A": "11.30",
+        "B": "2.70",
+        "C": "11.60",
+        "D": "12.30",
+        "E": "2.40"
+      },
+      "answer": "C",
+      "explanation": "[OH⁻] = 2 × 0.0020 = 0.0040 M, pOH = 2.40, pH = 14 - 2.40 = 11.60.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0062",
+      "subtopic": "chemistry.analytical.acid-base",
+      "difficulty": 2,
+      "stem": "A 0.10 M solution of a weak acid HA has Ka = 1.0 × 10⁻⁵. What is its pH? (Use x² = Ka·C.)",
+      "visual": null,
+      "choices": {
+        "A": "1.0",
+        "B": "3.0",
+        "C": "5.0",
+        "D": "2.0",
+        "E": "4.0"
+      },
+      "answer": "B",
+      "explanation": "[H⁺] = √(1.0 × 10⁻⁵ × 0.10) = 1.0 × 10⁻³ M, so pH = 3.0.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0063",
+      "subtopic": "chemistry.analytical.acid-base",
+      "difficulty": 2,
+      "stem": "A buffer of vinegar and its salt has 0.20 M acetate and 0.10 M acetic acid. The pKa of acetic acid is 4.76. What is the pH?",
+      "visual": null,
+      "choices": {
+        "A": "4.46",
+        "B": "4.76",
+        "C": "5.36",
+        "D": "5.06",
+        "E": "9.24"
+      },
+      "answer": "D",
+      "explanation": "pH = pKa + log(0.20 ÷ 0.10) = 4.76 + 0.30 = 5.06.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0064",
+      "subtopic": "chemistry.analytical.acid-base",
+      "difficulty": 3,
+      "stem": "Which species is a Lewis acid but NOT a Brønsted acid?",
+      "visual": null,
+      "choices": {
+        "A": "BF₃",
+        "B": "NH₃",
+        "C": "H₂O",
+        "D": "OH⁻",
+        "E": "Cl⁻"
+      },
+      "answer": "A",
+      "explanation": "BF₃ has an empty orbital that accepts an electron pair but has no H⁺ to donate. NH₃, OH⁻ and Cl⁻ are electron-pair donors (Lewis bases).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0065",
+      "subtopic": "chemistry.analytical.acid-base",
+      "difficulty": 3,
+      "stem": "The Ka of HF is 6.8 × 10⁻⁴. What is the Kb of its conjugate base, F⁻?",
+      "visual": null,
+      "choices": {
+        "A": "6.8 × 10⁻¹⁸",
+        "B": "6.8 × 10⁻⁴",
+        "C": "1.5 × 10⁻³",
+        "D": "1.0 × 10⁻¹⁴",
+        "E": "1.5 × 10⁻¹¹"
+      },
+      "answer": "E",
+      "explanation": "Ka × Kb = Kw, so Kb = 1.0 × 10⁻¹⁴ ÷ 6.8 × 10⁻⁴ = 1.5 × 10⁻¹¹.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0066",
+      "subtopic": "chemistry.analytical.solubility",
+      "difficulty": 1,
+      "stem": "Which compound is insoluble in water?",
+      "visual": null,
+      "choices": {
+        "A": "NaCl",
+        "B": "AgCl",
+        "C": "KNO₃",
+        "D": "NH₄Cl",
+        "E": "Na₂SO₄"
+      },
+      "answer": "B",
+      "explanation": "Silver chloride is an exception to the 'chlorides are soluble' rule. The others are soluble.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0067",
+      "subtopic": "chemistry.analytical.solubility",
+      "difficulty": 1,
+      "stem": "A cook keeps stirring sugar into hot tea until some sugar stays undissolved at the bottom. The tea is now",
+      "visual": null,
+      "choices": {
+        "A": "unsaturated",
+        "B": "supersaturated",
+        "C": "insoluble",
+        "D": "neutral",
+        "E": "saturated"
+      },
+      "answer": "E",
+      "explanation": "A saturated solution holds all the solute it can at that temperature, so extra solute settles out.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0068",
+      "subtopic": "chemistry.analytical.solubility",
+      "difficulty": 1,
+      "stem": "What is the Ksp expression for PbI₂?",
+      "visual": null,
+      "choices": {
+        "A": "Ksp = [Pb²⁺][I⁻]",
+        "B": "Ksp = [Pb²⁺]²[I⁻]",
+        "C": "Ksp = [Pb²⁺][I⁻]²",
+        "D": "Ksp = [PbI₂]",
+        "E": "Ksp = 2[Pb²⁺][I⁻]"
+      },
+      "answer": "C",
+      "explanation": "PbI₂ ⇌ Pb²⁺ + 2I⁻; each coefficient becomes an exponent, and the solid is left out.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0069",
+      "subtopic": "chemistry.analytical.solubility",
+      "difficulty": 2,
+      "stem": "The Ksp of AgCl is 1.8 × 10⁻¹⁰. What is its molar solubility in pure water?",
+      "visual": null,
+      "choices": {
+        "A": "1.8 × 10⁻¹⁰ M",
+        "B": "9.0 × 10⁻¹¹ M",
+        "C": "1.8 × 10⁻⁵ M",
+        "D": "1.3 × 10⁻⁵ M",
+        "E": "3.6 × 10⁻⁵ M"
+      },
+      "answer": "D",
+      "explanation": "Ksp = s², so s = √(1.8 × 10⁻¹⁰) = 1.3 × 10⁻⁵ M.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0070",
+      "subtopic": "chemistry.analytical.solubility",
+      "difficulty": 2,
+      "stem": "The Ksp of CaF₂ is 3.2 × 10⁻¹¹. What is its molar solubility?",
+      "visual": null,
+      "choices": {
+        "A": "5.7 × 10⁻⁶ M",
+        "B": "3.2 × 10⁻¹¹ M",
+        "C": "1.3 × 10⁻⁴ M",
+        "D": "8.0 × 10⁻¹² M",
+        "E": "2.0 × 10⁻⁴ M"
+      },
+      "answer": "E",
+      "explanation": "Ksp = 4s³, so s = (3.2 × 10⁻¹¹ ÷ 4)^(1/3) = (8.0 × 10⁻¹²)^(1/3) = 2.0 × 10⁻⁴ M.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0071",
+      "subtopic": "chemistry.analytical.solubility",
+      "difficulty": 2,
+      "stem": "Equal volumes of 0.0020 M AgNO₃ and 0.0020 M NaCl are mixed. What is Q for AgCl right after mixing?",
+      "visual": null,
+      "choices": {
+        "A": "4.0 × 10⁻⁶",
+        "B": "1.0 × 10⁻³",
+        "C": "2.0 × 10⁻³",
+        "D": "1.0 × 10⁻⁶",
+        "E": "1.8 × 10⁻¹⁰"
+      },
+      "answer": "D",
+      "explanation": "Mixing doubles the volume, so each ion is 0.0010 M. Q = 0.0010 × 0.0010 = 1.0 × 10⁻⁶, which is larger than Ksp (1.8 × 10⁻¹⁰), so AgCl precipitates.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0072",
+      "subtopic": "chemistry.analytical.solubility",
+      "difficulty": 3,
+      "stem": "What is the molar solubility of AgCl (Ksp = 1.8 × 10⁻¹⁰) in 0.10 M NaCl?",
+      "visual": null,
+      "choices": {
+        "A": "1.3 × 10⁻⁵ M",
+        "B": "1.8 × 10⁻¹⁰ M",
+        "C": "1.8 × 10⁻⁶ M",
+        "D": "1.8 × 10⁻⁹ M",
+        "E": "1.8 × 10⁻⁵ M"
+      },
+      "answer": "D",
+      "explanation": "The common ion sets [Cl⁻] ≈ 0.10 M, so s = [Ag⁺] = Ksp ÷ 0.10 = 1.8 × 10⁻⁹ M.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0073",
+      "subtopic": "chemistry.analytical.solubility",
+      "difficulty": 3,
+      "stem": "Ksp values at 25 °C: AgCl 1.8 × 10⁻¹⁰ and Ag₂CrO₄ 1.1 × 10⁻¹². Which one has the larger molar solubility?",
+      "visual": null,
+      "choices": {
+        "A": "Ag₂CrO₄, even though its Ksp is smaller",
+        "B": "AgCl, because its Ksp is larger",
+        "C": "They are equal because both contain silver",
+        "D": "AgCl, because it has fewer ions",
+        "E": "It cannot be compared because the formulas differ"
+      },
+      "answer": "A",
+      "explanation": "AgCl: s = √(1.8 × 10⁻¹⁰) = 1.3 × 10⁻⁵ M. Ag₂CrO₄: Ksp = 4s³ so s = (1.1 × 10⁻¹² ÷ 4)^(1/3) = 6.5 × 10⁻⁵ M. Salts with different formulas cannot be ranked by Ksp alone.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0074",
+      "subtopic": "chemistry.analytical.quantitative",
+      "difficulty": 1,
+      "stem": "At 25 °C, what is the pH at the equivalence point of a strong acid titrated with a strong base?",
+      "visual": null,
+      "choices": {
+        "A": "1.0",
+        "B": "13.0",
+        "C": "8.7",
+        "D": "7.0",
+        "E": "5.3"
+      },
+      "answer": "D",
+      "explanation": "The salt formed does not hydrolyze, so the solution is neutral.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0075",
+      "subtopic": "chemistry.analytical.quantitative",
+      "difficulty": 1,
+      "stem": "Which indicator turns pink in basic solution?",
+      "visual": null,
+      "choices": {
+        "A": "Methyl orange",
+        "B": "Bromothymol blue",
+        "C": "Methyl red",
+        "D": "Litmus",
+        "E": "Phenolphthalein"
+      },
+      "answer": "E",
+      "explanation": "Phenolphthalein is colorless below about pH 8.2 and pink above it.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0076",
+      "subtopic": "chemistry.analytical.quantitative",
+      "difficulty": 1,
+      "stem": "In a titration, what is the solution of known concentration that is added from the burette called?",
+      "visual": null,
+      "choices": {
+        "A": "The titrant",
+        "B": "The analyte",
+        "C": "The indicator",
+        "D": "The solvent",
+        "E": "The buffer"
+      },
+      "answer": "A",
+      "explanation": "The titrant is added to the analyte (the unknown) in the flask.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0077",
+      "subtopic": "chemistry.analytical.quantitative",
+      "difficulty": 2,
+      "stem": "25.0 mL of HCl is neutralized by 20.0 mL of 0.100 M NaOH. What is the HCl concentration?",
+      "visual": null,
+      "choices": {
+        "A": "0.125 M",
+        "B": "0.0800 M",
+        "C": "0.100 M",
+        "D": "0.0500 M",
+        "E": "0.200 M"
+      },
+      "answer": "B",
+      "explanation": "mol NaOH = 0.100 × 0.0200 = 2.00 × 10⁻³ mol = mol HCl; M = 2.00 × 10⁻³ ÷ 0.0250 = 0.0800 M.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0078",
+      "subtopic": "chemistry.analytical.quantitative",
+      "difficulty": 2,
+      "stem": "How many mL of 0.100 M NaOH neutralize 20.0 mL of 0.050 M H₂SO₄?",
+      "visual": null,
+      "choices": {
+        "A": "10.0 mL",
+        "B": "40.0 mL",
+        "C": "20.0 mL",
+        "D": "5.0 mL",
+        "E": "25.0 mL"
+      },
+      "answer": "C",
+      "explanation": "H₂SO₄ gives 2 H⁺: 2 × 0.050 × 20.0 = 2.0 mmol H⁺, and 2.0 mmol ÷ 0.100 M = 20.0 mL.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0079",
+      "subtopic": "chemistry.analytical.quantitative",
+      "difficulty": 2,
+      "stem": "10.0 mL of vinegar needs 33.0 mL of 0.150 M NaOH to neutralize it. What is the molarity of the acetic acid?",
+      "visual": null,
+      "choices": {
+        "A": "0.0495 M",
+        "B": "0.495 M",
+        "C": "4.95 M",
+        "D": "0.990 M",
+        "E": "0.248 M"
+      },
+      "answer": "B",
+      "explanation": "1:1 reaction: 0.150 × 33.0 = 4.95 mmol acid in 10.0 mL, so 0.495 M.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0080",
+      "subtopic": "chemistry.analytical.quantitative",
+      "difficulty": 2,
+      "stem": "A weak acid has Ka = 1.8 × 10⁻⁵. What is the pH at the half-equivalence point of its titration?",
+      "visual": null,
+      "choices": {
+        "A": "9.26",
+        "B": "4.74",
+        "C": "7.00",
+        "D": "2.37",
+        "E": "4.37"
+      },
+      "answer": "B",
+      "explanation": "At half-equivalence pH = pKa = -log(1.8 × 10⁻⁵) = 4.74.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0081",
+      "subtopic": "chemistry.analytical.quantitative",
+      "difficulty": 3,
+      "stem": "Which indicator is best for titrating 0.1 M acetic acid with 0.1 M NaOH? (Equivalence pH is about 8.7.)",
+      "visual": null,
+      "choices": {
+        "A": "Phenolphthalein",
+        "B": "Methyl orange",
+        "C": "Methyl red",
+        "D": "Bromothymol blue",
+        "E": "Congo red"
+      },
+      "answer": "A",
+      "explanation": "The steep part of the curve sits above pH 7, so the indicator must change color near pH 9. Methyl orange and methyl red change in acid; bromothymol blue ends at 7.6.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0082",
+      "subtopic": "chemistry.analytical.quantitative",
+      "difficulty": 3,
+      "stem": "20.0 mL of 0.100 M HCl is mixed with 30.0 mL of 0.100 M NaOH. What is the pH?",
+      "visual": null,
+      "choices": {
+        "A": "11.70",
+        "B": "1.70",
+        "C": "2.30",
+        "D": "12.30",
+        "E": "13.00"
+      },
+      "answer": "D",
+      "explanation": "NaOH is in excess by 3.00 - 2.00 = 1.00 mmol in 50.0 mL: [OH⁻] = 0.0200 M, pOH = 1.70, pH = 12.30.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0083",
+      "subtopic": "chemistry.analytical.qualitative",
+      "difficulty": 1,
+      "stem": "A flame test gives a lilac (pale violet) flame. Which ion is present?",
+      "visual": null,
+      "choices": {
+        "A": "Na⁺",
+        "B": "Li⁺",
+        "C": "K⁺",
+        "D": "Ca²⁺",
+        "E": "Cu²⁺"
+      },
+      "answer": "C",
+      "explanation": "Potassium burns lilac. Sodium is yellow, lithium crimson, calcium orange-red and copper blue-green.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0084",
+      "subtopic": "chemistry.analytical.qualitative",
+      "difficulty": 1,
+      "stem": "When salty soup boils over onto a gas stove, the flame flashes bright yellow. Which ion causes this?",
+      "visual": null,
+      "choices": {
+        "A": "Na⁺",
+        "B": "K⁺",
+        "C": "Cl⁻",
+        "D": "Ca²⁺",
+        "E": "Li⁺"
+      },
+      "answer": "A",
+      "explanation": "Sodium ions give an intense yellow flame (even tiny traces show it).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0085",
+      "subtopic": "chemistry.analytical.qualitative",
+      "difficulty": 1,
+      "stem": "Which reagent gives a white precipitate with chloride ions (after adding dilute nitric acid)?",
+      "visual": null,
+      "choices": {
+        "A": "Barium chloride solution",
+        "B": "Sodium hydroxide solution",
+        "C": "Limewater",
+        "D": "Silver nitrate solution",
+        "E": "Litmus paper"
+      },
+      "answer": "D",
+      "explanation": "Ag⁺ + Cl⁻ → AgCl(s), white.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0086",
+      "subtopic": "chemistry.analytical.qualitative",
+      "difficulty": 2,
+      "stem": "A white solid fizzes with dilute acid, and the gas turns limewater milky. Which anion does the solid contain?",
+      "visual": null,
+      "choices": {
+        "A": "Sulfate, SO₄²⁻",
+        "B": "Carbonate, CO₃²⁻",
+        "C": "Chloride, Cl⁻",
+        "D": "Nitrate, NO₃⁻",
+        "E": "Hydroxide, OH⁻"
+      },
+      "answer": "B",
+      "explanation": "Carbonates release CO₂ with acid; CO₂ plus limewater gives milky CaCO₃.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0087",
+      "subtopic": "chemistry.analytical.qualitative",
+      "difficulty": 2,
+      "stem": "A copper-based algaecide is added to pool water. NaOH solution is added to a sample and gives a pale blue precipitate. Which ion is it?",
+      "visual": null,
+      "choices": {
+        "A": "Cu²⁺",
+        "B": "Fe³⁺",
+        "C": "Fe²⁺",
+        "D": "Zn²⁺",
+        "E": "Al³⁺"
+      },
+      "answer": "A",
+      "explanation": "Cu(OH)₂ is pale blue. Fe³⁺ gives red-brown, Fe²⁺ green, and Zn²⁺ or Al³⁺ white.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0088",
+      "subtopic": "chemistry.analytical.qualitative",
+      "difficulty": 2,
+      "stem": "In the test for sulfate, why is dilute HCl added before the BaCl₂?",
+      "visual": null,
+      "choices": {
+        "A": "To remove carbonate, which would also give a white precipitate with Ba²⁺",
+        "B": "To make the sulfate dissolve",
+        "C": "To turn the barium into BaSO₄",
+        "D": "To cool the solution",
+        "E": "To raise the pH"
+      },
+      "answer": "A",
+      "explanation": "BaCO₃ is also white. Acid destroys carbonate (CO₂ escapes), while BaSO₄ is insoluble in acid.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0089",
+      "subtopic": "chemistry.analytical.qualitative",
+      "difficulty": 3,
+      "stem": "A colorless solution gives a white precipitate with NaOH that dissolves in excess NaOH, and also a white precipitate with ammonia solution that dissolves in excess ammonia. Which cation is present?",
+      "visual": null,
+      "choices": {
+        "A": "Al³⁺",
+        "B": "Zn²⁺",
+        "C": "Ca²⁺",
+        "D": "Mg²⁺",
+        "E": "Fe²⁺"
+      },
+      "answer": "B",
+      "explanation": "Both Zn²⁺ and Al³⁺ dissolve in excess NaOH, but only Zn²⁺ forms a soluble complex [Zn(NH₃)₄]²⁺ in excess ammonia.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0090",
+      "subtopic": "chemistry.analytical.qualitative",
+      "difficulty": 3,
+      "stem": "A compound burns with a pale green flame. Its solution gives a white precipitate with dilute H₂SO₄ that does not dissolve. Which cation is present?",
+      "visual": null,
+      "choices": {
+        "A": "Cu²⁺",
+        "B": "Ca²⁺",
+        "C": "Na⁺",
+        "D": "K⁺",
+        "E": "Ba²⁺"
+      },
+      "answer": "E",
+      "explanation": "Barium gives an apple-green flame and BaSO₄ is insoluble. Copper has a blue-green flame but CuSO₄ is soluble.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0091",
+      "subtopic": "chemistry.physical.equilibrium",
+      "difficulty": 1,
+      "stem": "Which change shifts N₂ + 3H₂ ⇌ 2NH₃ (exothermic) to the RIGHT?",
+      "visual": null,
+      "choices": {
+        "A": "Raising the temperature",
+        "B": "Increasing the pressure by shrinking the volume",
+        "C": "Adding extra NH₃",
+        "D": "Removing some N₂",
+        "E": "Adding a catalyst"
+      },
+      "answer": "B",
+      "explanation": "Higher pressure favors the side with fewer gas moles: 2 on the right versus 4 on the left.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0092",
+      "subtopic": "chemistry.physical.equilibrium",
+      "difficulty": 1,
+      "stem": "What is the Kc expression for 2NO₂(g) ⇌ N₂O₄(g)?",
+      "visual": null,
+      "choices": {
+        "A": "Kc = [N₂O₄] ÷ [NO₂]²",
+        "B": "Kc = [NO₂]² ÷ [N₂O₄]",
+        "C": "Kc = [N₂O₄] ÷ [NO₂]",
+        "D": "Kc = [N₂O₄] × [NO₂]²",
+        "E": "Kc = 2[NO₂] ÷ [N₂O₄]"
+      },
+      "answer": "A",
+      "explanation": "Products over reactants, each raised to its coefficient.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0093",
+      "subtopic": "chemistry.physical.equilibrium",
+      "difficulty": 1,
+      "stem": "A pressure cooker raises the pressure above the water in a pot. What happens to the boiling point of the water?",
+      "visual": null,
+      "choices": {
+        "A": "It falls below 100 °C",
+        "B": "It stays at exactly 100 °C",
+        "C": "Water can no longer boil",
+        "D": "Water freezes first",
+        "E": "It rises above 100 °C"
+      },
+      "answer": "E",
+      "explanation": "Higher pressure moves the liquid-gas line to a higher temperature, so food cooks hotter and faster.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0094",
+      "subtopic": "chemistry.physical.equilibrium",
+      "difficulty": 2,
+      "stem": "How many moles of gas are in a 2.00 L tank at 3.00 atm and 300 K? (R = 0.0821 L·atm/(mol·K))",
+      "visual": null,
+      "choices": {
+        "A": "0.0821 mol",
+        "B": "0.244 mol",
+        "C": "4.10 mol",
+        "D": "0.488 mol",
+        "E": "0.122 mol"
+      },
+      "answer": "B",
+      "explanation": "n = PV ÷ RT = (3.00 × 2.00) ÷ (0.0821 × 300) = 0.244 mol.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0095",
+      "subtopic": "chemistry.physical.equilibrium",
+      "difficulty": 2,
+      "stem": "An ice-cream maker uses 58.5 g of NaCl (1.00 mol) per 1.00 kg of water to make the ice bath colder. By how much does the freezing point drop? (Kf = 1.86 °C·kg/mol, i = 2 for NaCl.)",
+      "visual": null,
+      "choices": {
+        "A": "3.72 °C",
+        "B": "1.86 °C",
+        "C": "7.44 °C",
+        "D": "0.93 °C",
+        "E": "0.512 °C"
+      },
+      "answer": "A",
+      "explanation": "ΔTf = i·Kf·m = 2 × 1.86 × 1.00 = 3.72 °C.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0096",
+      "subtopic": "chemistry.physical.equilibrium",
+      "difficulty": 2,
+      "stem": "At equilibrium for N₂ + 3H₂ ⇌ 2NH₃: [N₂] = 0.50 M, [H₂] = 0.20 M and [NH₃] = 0.040 M. What is Kc?",
+      "visual": null,
+      "choices": {
+        "A": "2.5",
+        "B": "0.40",
+        "C": "0.020",
+        "D": "4.0",
+        "E": "0.0016"
+      },
+      "answer": "B",
+      "explanation": "Kc = [NH₃]² ÷ ([N₂][H₂]³) = 0.0016 ÷ (0.50 × 0.0080) = 0.40.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0097",
+      "subtopic": "chemistry.physical.equilibrium",
+      "difficulty": 2,
+      "stem": "Solid CO₂ (dry ice) has its triple point at 5.2 atm and -57 °C. What happens to dry ice in an open cooler at 1 atm as it warms?",
+      "visual": null,
+      "choices": {
+        "A": "It melts to a liquid, then boils",
+        "B": "It stays solid until 100 °C",
+        "C": "It sublimes directly to gas",
+        "D": "It becomes a supercritical fluid",
+        "E": "It melts at exactly -57 °C"
+      },
+      "answer": "C",
+      "explanation": "At 1 atm (below the triple-point pressure) there is no liquid range, so the solid turns straight into gas.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0098",
+      "subtopic": "chemistry.physical.equilibrium",
+      "difficulty": 3,
+      "stem": "For N₂O₄(g) ⇌ 2NO₂(g), Kc = 0.0060 at 300 K. What is Kp? (R = 0.0821 L·atm/(mol·K))",
+      "visual": null,
+      "choices": {
+        "A": "0.0060",
+        "B": "2.4 × 10⁻⁴",
+        "C": "0.296",
+        "D": "3.6 × 10⁻³",
+        "E": "0.148"
+      },
+      "answer": "E",
+      "explanation": "Δn = 2 - 1 = 1, so Kp = Kc (RT)¹ = 0.0060 × 24.63 = 0.148.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0099",
+      "subtopic": "chemistry.physical.equilibrium",
+      "difficulty": 3,
+      "stem": "A reaction has K = 1.0 × 10³ at 298 K. What is ΔG° in kJ/mol? (R = 8.314 J/(mol·K))",
+      "visual": null,
+      "choices": {
+        "A": "17.1 kJ/mol",
+        "B": "-7.43 kJ/mol",
+        "C": "-34.2 kJ/mol",
+        "D": "-17.1 kJ/mol",
+        "E": "-5.71 kJ/mol"
+      },
+      "answer": "D",
+      "explanation": "ΔG° = -RT ln K = -8.314 × 298 × ln(1000) = -17,100 J = -17.1 kJ/mol. K > 1 gives ΔG° < 0.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0100",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 1,
+      "stem": "Burning gas on a stove releases heat to the kitchen. What is the sign of ΔH for this reaction?",
+      "visual": null,
+      "choices": {
+        "A": "Negative",
+        "B": "Positive",
+        "C": "Zero",
+        "D": "It depends on the pan",
+        "E": "It cannot be known"
+      },
+      "answer": "A",
+      "explanation": "Exothermic reactions release heat and have ΔH < 0.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0101",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 1,
+      "stem": "A system absorbs 500 J of heat and does 200 J of work on its surroundings. What is ΔU?",
+      "visual": null,
+      "choices": {
+        "A": "700 J",
+        "B": "-300 J",
+        "C": "300 J",
+        "D": "500 J",
+        "E": "-700 J"
+      },
+      "answer": "C",
+      "explanation": "ΔU = q + w = +500 + (-200) = +300 J (work done BY the system counts as negative).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0102",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 1,
+      "stem": "Which process has a NEGATIVE entropy change?",
+      "visual": null,
+      "choices": {
+        "A": "Water vapor condensing to liquid",
+        "B": "Ice melting",
+        "C": "Salt dissolving in water",
+        "D": "N₂O₄(g) → 2NO₂(g)",
+        "E": "Water boiling"
+      },
+      "answer": "A",
+      "explanation": "Gas to liquid reduces the freedom of the particles, so ΔS < 0. The other processes spread particles out.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0103",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 2,
+      "stem": "A cook heats 200 g of water in a pot from 20 °C to 100 °C. How much heat does the water absorb? (c = 4.18 J/(g·°C))",
+      "visual": null,
+      "choices": {
+        "A": "0.836 kJ",
+        "B": "16.7 kJ",
+        "C": "66.9 kJ",
+        "D": "334 kJ",
+        "E": "8.36 kJ"
+      },
+      "answer": "C",
+      "explanation": "q = m c ΔT = 200 × 4.18 × 80 = 66,880 J ≈ 66.9 kJ.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0104",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 2,
+      "stem": "C(s) + O₂ → CO₂ has ΔH = -394 kJ. CO + ½O₂ → CO₂ has ΔH = -283 kJ. What is ΔH for C(s) + ½O₂ → CO?",
+      "visual": null,
+      "choices": {
+        "A": "-677 kJ",
+        "B": "111 kJ",
+        "C": "-283 kJ",
+        "D": "-394 kJ",
+        "E": "-111 kJ"
+      },
+      "answer": "E",
+      "explanation": "Add the first equation to the reverse of the second: -394 + 283 = -111 kJ.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0105",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 2,
+      "stem": "H₂ + Cl₂ → 2HCl. Bond enthalpies (kJ/mol): H-H 436, Cl-Cl 243, H-Cl 431. What is ΔH?",
+      "visual": null,
+      "choices": {
+        "A": "183 kJ",
+        "B": "-92 kJ",
+        "C": "-862 kJ",
+        "D": "679 kJ",
+        "E": "-183 kJ"
+      },
+      "answer": "E",
+      "explanation": "Bonds broken: 436 + 243 = 679 kJ. Bonds formed: 2 × 431 = 862 kJ. ΔH = 679 - 862 = -183 kJ.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0106",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 2,
+      "stem": "Which ionic solid has the LARGEST lattice energy?",
+      "visual": null,
+      "choices": {
+        "A": "MgO",
+        "B": "NaCl",
+        "C": "KBr",
+        "D": "NaI",
+        "E": "KCl"
+      },
+      "answer": "A",
+      "explanation": "Mg²⁺ and O²⁻ have double charges and are small, so attraction is much stronger than in 1+/1- salts.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0107",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 3,
+      "stem": "Natural gas burns in a stove: CH₄ + 2O₂ → CO₂ + 2H₂O(l). ΔHf° (kJ/mol): CH₄ -75, CO₂ -394, H₂O(l) -286. What is ΔH°rxn?",
+      "visual": null,
+      "choices": {
+        "A": "-605 kJ",
+        "B": "-1041 kJ",
+        "C": "891 kJ",
+        "D": "-891 kJ",
+        "E": "-717 kJ"
+      },
+      "answer": "D",
+      "explanation": "ΔH = [-394 + 2(-286)] - [-75 + 0] = -966 + 75 = -891 kJ.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0108",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 3,
+      "stem": "A reaction has ΔH = +40 kJ and ΔS = +120 J/K. Above which temperature is it spontaneous?",
+      "visual": null,
+      "choices": {
+        "A": "0.333 K",
+        "B": "373 K",
+        "C": "240 K",
+        "D": "4800 K",
+        "E": "333 K"
+      },
+      "answer": "E",
+      "explanation": "ΔG < 0 when T > ΔH ÷ ΔS = 40,000 J ÷ 120 J/K = 333 K. (Convert kJ to J first.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0109",
+      "subtopic": "chemistry.physical.thermo",
+      "difficulty": 3,
+      "stem": "How much heat is needed to melt a 36 g ice cube at 0 °C? (ΔHfus = 6.01 kJ/mol, M = 18 g/mol)",
+      "visual": null,
+      "choices": {
+        "A": "6.01 kJ",
+        "B": "216 kJ",
+        "C": "24.0 kJ",
+        "D": "0.334 kJ",
+        "E": "12.0 kJ"
+      },
+      "answer": "E",
+      "explanation": "n = 36 ÷ 18 = 2.0 mol; q = 2.0 × 6.01 = 12.0 kJ. The temperature stays at 0 °C while it melts.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0110",
+      "subtopic": "chemistry.organic.concepts",
+      "difficulty": 1,
+      "stem": "How many carbon atoms does a molecule of pentane have?",
+      "visual": null,
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "3",
+        "D": "10",
+        "E": "5"
+      },
+      "answer": "E",
+      "explanation": "The prefix 'pent-' means five carbons.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0111",
+      "subtopic": "chemistry.organic.concepts",
+      "difficulty": 1,
+      "stem": "Butane is the fuel in a camping stove. It is an alkane with 4 carbons (CₙH₂ₙ₊₂). How many hydrogens does it have?",
+      "visual": null,
+      "choices": {
+        "A": "8",
+        "B": "10",
+        "C": "9",
+        "D": "12",
+        "E": "4"
+      },
+      "answer": "B",
+      "explanation": "H = 2n + 2 = 2 × 4 + 2 = 10, so butane is C₄H₁₀.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0112",
+      "subtopic": "chemistry.organic.concepts",
+      "difficulty": 1,
+      "stem": "What is the name of CH₃–CH₂–CH=CH₂?",
+      "visual": null,
+      "choices": {
+        "A": "Butane",
+        "B": "But-2-yne",
+        "C": "But-1-ene",
+        "D": "Propene",
+        "E": "Pent-1-ene"
+      },
+      "answer": "C",
+      "explanation": "Four carbons (but-) with a C=C double bond starting at carbon 1.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0113",
+      "subtopic": "chemistry.organic.concepts",
+      "difficulty": 2,
+      "stem": "What is the IUPAC name of CH₃–CH(CH₃)–CH₂–CH₃?",
+      "visual": null,
+      "choices": {
+        "A": "2-methylbutane",
+        "B": "3-methylbutane",
+        "C": "2-methylpropane",
+        "D": "Pentane",
+        "E": "2,2-dimethylpropane"
+      },
+      "answer": "A",
+      "explanation": "The longest chain has 4 carbons (butane) with a methyl branch on carbon 2.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0114",
+      "subtopic": "chemistry.organic.concepts",
+      "difficulty": 2,
+      "stem": "Which pair are constitutional isomers?",
+      "visual": null,
+      "choices": {
+        "A": "Ethane and ethanol",
+        "B": "Propene and propane",
+        "C": "Cis-but-2-ene and trans-but-2-ene",
+        "D": "Butane and 2-methylpropane",
+        "E": "Hexane and cyclohexane"
+      },
+      "answer": "D",
+      "explanation": "Both are C₄H₁₀ with different connections. Cis/trans but-2-ene are stereoisomers, and the other pairs have different formulas.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0115",
+      "subtopic": "chemistry.organic.concepts",
+      "difficulty": 2,
+      "stem": "Limonene from orange peel has a mirror-image form that smells different. What is the relationship between the two molecules?",
+      "visual": null,
+      "choices": {
+        "A": "Constitutional isomers",
+        "B": "Conformers",
+        "C": "Enantiomers",
+        "D": "Identical molecules",
+        "E": "Diastereomers with different formulas"
+      },
+      "answer": "C",
+      "explanation": "Non-superimposable mirror images are enantiomers. They can interact differently with the smell receptors in your nose.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0116",
+      "subtopic": "chemistry.organic.concepts",
+      "difficulty": 3,
+      "stem": "Which conformation of butane (looking along the C2-C3 bond) is the LOWEST in energy?",
+      "visual": null,
+      "choices": {
+        "A": "Gauche, with the CH₃ groups 60° apart",
+        "B": "Eclipsed, with the CH₃ groups 0° apart",
+        "C": "Anti, with the two CH₃ groups 180° apart",
+        "D": "Eclipsed, with the CH₃ groups 120° apart",
+        "E": "All conformations have the same energy"
+      },
+      "answer": "C",
+      "explanation": "Anti keeps the two bulky methyl groups as far apart as possible, so there is the least steric strain.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0117",
+      "subtopic": "chemistry.organic.concepts",
+      "difficulty": 3,
+      "stem": "How many stereoisomers does CH₃–CHBr–CHBr–CH₃ have?",
+      "visual": null,
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "3",
+        "D": "1",
+        "E": "6"
+      },
+      "answer": "C",
+      "explanation": "Two chiral carbons would give 2² = 4, but the molecule is symmetric: the (R,S) form is a meso compound that equals (S,R). So there is one meso form plus a pair of enantiomers, 3 in all.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0118",
+      "subtopic": "chemistry.organic.reactions",
+      "difficulty": 1,
+      "stem": "How many steps does an SN2 reaction have?",
+      "visual": null,
+      "choices": {
+        "A": "Two",
+        "B": "One",
+        "C": "Three",
+        "D": "Four",
+        "E": "It depends on the solvent"
+      },
+      "answer": "B",
+      "explanation": "SN2 is a single concerted step: the nucleophile attacks as the leaving group leaves.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0119",
+      "subtopic": "chemistry.organic.reactions",
+      "difficulty": 1,
+      "stem": "Which alkyl bromide reacts fastest by SN2 with a strong nucleophile?",
+      "visual": null,
+      "choices": {
+        "A": "CH₃Br",
+        "B": "CH₃CH₂Br",
+        "C": "(CH₃)₂CHBr",
+        "D": "(CH₃)₃CBr",
+        "E": "(CH₃)₃CCH₂Br"
+      },
+      "answer": "A",
+      "explanation": "Fewer groups around the carbon means easier backside attack: methyl > primary > secondary > tertiary.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0120",
+      "subtopic": "chemistry.organic.reactions",
+      "difficulty": 1,
+      "stem": "Propene reacts with HBr. What is the major product?",
+      "visual": null,
+      "choices": {
+        "A": "1-bromopropane",
+        "B": "1,2-dibromopropane",
+        "C": "Propane",
+        "D": "2-bromopropane",
+        "E": "3-bromopropene"
+      },
+      "answer": "D",
+      "explanation": "Markovnikov's rule: H goes to the CH₂ end, Br to the middle carbon, through the more stable secondary carbocation.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0121",
+      "subtopic": "chemistry.organic.reactions",
+      "difficulty": 2,
+      "stem": "Which carbocation is the most stable?",
+      "visual": null,
+      "choices": {
+        "A": "CH₃⁺",
+        "B": "CH₃CH₂⁺",
+        "C": "(CH₃)₂CH⁺",
+        "D": "They are equally stable",
+        "E": "(CH₃)₃C⁺"
+      },
+      "answer": "E",
+      "explanation": "Alkyl groups donate electron density, so tertiary > secondary > primary > methyl.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0122",
+      "subtopic": "chemistry.organic.reactions",
+      "difficulty": 2,
+      "stem": "(R)-2-bromobutane reacts with OH⁻ in a pure SN2 reaction. What is the main product?",
+      "visual": null,
+      "choices": {
+        "A": "(R)-butan-2-ol",
+        "B": "A racemic mixture of butan-2-ol",
+        "C": "(S)-butan-2-ol",
+        "D": "Butan-1-ol",
+        "E": "But-1-ene"
+      },
+      "answer": "C",
+      "explanation": "SN2 inverts the stereocenter, so R becomes S (OH takes the top priority position of Br).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0123",
+      "subtopic": "chemistry.organic.reactions",
+      "difficulty": 2,
+      "stem": "The SN2 rate law is rate = k[RX][Nu⁻]. By what factor does the rate change if [RX] is tripled and [Nu⁻] is doubled?",
+      "visual": null,
+      "choices": {
+        "A": "5",
+        "B": "6",
+        "C": "3",
+        "D": "9",
+        "E": "2"
+      },
+      "answer": "B",
+      "explanation": "The rate is first order in each: 3 × 2 = 6 times faster.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0124",
+      "subtopic": "chemistry.organic.reactions",
+      "difficulty": 3,
+      "stem": "Which conditions favor E2 elimination of 2-bromo-2-methylpropane over substitution?",
+      "visual": null,
+      "choices": {
+        "A": "Dissolving it in water at room temperature",
+        "B": "Using a weak nucleophile in a cold solvent",
+        "C": "Adding a small amount of acid",
+        "D": "Heating with a strong, bulky base such as potassium tert-butoxide",
+        "E": "Using a small, weakly basic nucleophile at low temperature"
+      },
+      "answer": "D",
+      "explanation": "A strong, bulky base can't reach the crowded carbon for substitution, so it removes an H instead. Heat also favors elimination.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0125",
+      "subtopic": "chemistry.organic.reactions",
+      "difficulty": 3,
+      "stem": "2-bromo-2-methylbutane reacts with sodium ethoxide in ethanol by E2. What is the MAJOR product?",
+      "visual": null,
+      "choices": {
+        "A": "2-methylbut-1-ene",
+        "B": "3-methylbut-1-ene",
+        "C": "2-methylbutan-2-ol",
+        "D": "Pentane",
+        "E": "2-methylbut-2-ene"
+      },
+      "answer": "E",
+      "explanation": "Zaitsev's rule: the more substituted alkene (a trisubstituted C=C) is more stable and forms mainly.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0126",
+      "subtopic": "chemistry.organic.functional-groups",
+      "difficulty": 1,
+      "stem": "Which functional group is present in ethanol?",
+      "visual": null,
+      "choices": {
+        "A": "Carbonyl (C=O)",
+        "B": "Amino (-NH₂)",
+        "C": "Hydroxyl (-OH)",
+        "D": "Carboxyl (-COOH)",
+        "E": "Ester (-COO-)"
+      },
+      "answer": "C",
+      "explanation": "Ethanol is CH₃CH₂OH, an alcohol.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0127",
+      "subtopic": "chemistry.organic.functional-groups",
+      "difficulty": 1,
+      "stem": "The sour taste of vinegar is mainly due to which functional group?",
+      "visual": null,
+      "choices": {
+        "A": "Alcohol",
+        "B": "Ester",
+        "C": "Carboxylic acid",
+        "D": "Amine",
+        "E": "Ketone"
+      },
+      "answer": "C",
+      "explanation": "Vinegar contains ethanoic (acetic) acid, CH₃COOH.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0128",
+      "subtopic": "chemistry.organic.functional-groups",
+      "difficulty": 1,
+      "stem": "Which compound is an alkyne?",
+      "visual": null,
+      "choices": {
+        "A": "C₂H₆",
+        "B": "C₂H₂",
+        "C": "C₂H₄",
+        "D": "C₂H₅OH",
+        "E": "CH₃COOH"
+      },
+      "answer": "B",
+      "explanation": "Ethyne, C₂H₂, has a C≡C triple bond. C₂H₆ is an alkane and C₂H₄ an alkene.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0129",
+      "subtopic": "chemistry.organic.functional-groups",
+      "difficulty": 2,
+      "stem": "Which compound is the strongest acid?",
+      "visual": null,
+      "choices": {
+        "A": "CH₃CH₂OH",
+        "B": "C₆H₅OH (phenol)",
+        "C": "CH₃COOH",
+        "D": "H₂O",
+        "E": "CH₃NH₂"
+      },
+      "answer": "C",
+      "explanation": "Acetic acid (pKa 4.8) is much stronger than phenol (pKa 10), water (15.7) or ethanol (about 16). The amine is a base.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0130",
+      "subtopic": "chemistry.organic.functional-groups",
+      "difficulty": 2,
+      "stem": "Which reagent can tell an aldehyde from a ketone?",
+      "visual": null,
+      "choices": {
+        "A": "Bromine water",
+        "B": "Litmus paper",
+        "C": "Dilute HCl",
+        "D": "Limewater",
+        "E": "Tollens' reagent (silver mirror)"
+      },
+      "answer": "E",
+      "explanation": "Only aldehydes are easily oxidized by Tollens' reagent, which deposits metallic silver.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0131",
+      "subtopic": "chemistry.organic.functional-groups",
+      "difficulty": 2,
+      "stem": "Pear and banana flavors come from esters. Which ester is made from ethanoic acid and ethanol?",
+      "visual": null,
+      "choices": {
+        "A": "Ethyl methanoate",
+        "B": "Methyl ethanoate",
+        "C": "Ethanoic ethanol",
+        "D": "Propyl ethanoate",
+        "E": "Ethyl ethanoate"
+      },
+      "answer": "E",
+      "explanation": "The alcohol part is named first (ethyl) and the acid part ends in -oate (ethanoate): CH₃COOCH₂CH₃.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0132",
+      "subtopic": "chemistry.organic.functional-groups",
+      "difficulty": 3,
+      "stem": "Which of these molecules (all with M ≈ 58-60 g/mol) has the HIGHEST boiling point?",
+      "visual": null,
+      "choices": {
+        "A": "Butane",
+        "B": "Propanone",
+        "C": "Ethanoic acid",
+        "D": "Propan-1-ol",
+        "E": "Methoxyethane"
+      },
+      "answer": "C",
+      "explanation": "Carboxylic acids form strong hydrogen-bonded pairs (118 °C). Propan-1-ol is 97 °C, propanone 56 °C, methoxyethane 7 °C, butane about 0 °C.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0133",
+      "subtopic": "chemistry.organic.functional-groups",
+      "difficulty": 3,
+      "stem": "How many structural isomers of C₄H₁₀O are ALCOHOLS?",
+      "visual": null,
+      "choices": {
+        "A": "2",
+        "B": "3",
+        "C": "5",
+        "D": "4",
+        "E": "6"
+      },
+      "answer": "D",
+      "explanation": "Butan-1-ol, butan-2-ol, 2-methylpropan-1-ol and 2-methylpropan-2-ol. (The other C₄H₁₀O isomers are ethers.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0134",
+      "subtopic": "chemistry.lab.skills",
+      "difficulty": 1,
+      "stem": "Which glassware should you use to make exactly 250.0 mL of a standard solution?",
+      "visual": null,
+      "choices": {
+        "A": "A beaker",
+        "B": "An Erlenmeyer flask",
+        "C": "A volumetric flask",
+        "D": "A graduated cylinder",
+        "E": "A test tube"
+      },
+      "answer": "C",
+      "explanation": "A volumetric flask has one calibration mark and is accurate to about ±0.1 mL.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0135",
+      "subtopic": "chemistry.lab.skills",
+      "difficulty": 1,
+      "stem": "Which instrument delivers a precise, variable volume of solution during a titration?",
+      "visual": null,
+      "choices": {
+        "A": "A volumetric flask",
+        "B": "A beaker",
+        "C": "A watch glass",
+        "D": "A burette",
+        "E": "A Bunsen burner"
+      },
+      "answer": "D",
+      "explanation": "A burette has a tap and a fine scale for adding the titrant drop by drop.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0136",
+      "subtopic": "chemistry.lab.skills",
+      "difficulty": 1,
+      "stem": "When diluting concentrated sulfuric acid, you should",
+      "visual": null,
+      "choices": {
+        "A": "add the water quickly to the acid",
+        "B": "add the acid to the water all at once",
+        "C": "heat the acid first",
+        "D": "add the acid slowly to the water while stirring",
+        "E": "mix them in a closed bottle"
+      },
+      "answer": "D",
+      "explanation": "The dilution releases a lot of heat. Adding acid to a large amount of water keeps it under control.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0137",
+      "subtopic": "chemistry.lab.skills",
+      "difficulty": 2,
+      "stem": "A student measures the density of aluminum as 2.85 g/cm³. The accepted value is 2.70 g/cm³. What is the percent error?",
+      "visual": null,
+      "choices": {
+        "A": "5.3%",
+        "B": "0.15%",
+        "C": "15%",
+        "D": "5.6%",
+        "E": "2.7%"
+      },
+      "answer": "D",
+      "explanation": "|2.85 - 2.70| ÷ 2.70 × 100 = 5.6%. (Divide by the accepted value, not the measured one.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0138",
+      "subtopic": "chemistry.lab.skills",
+      "difficulty": 2,
+      "stem": "A kitchen scale used in the lab always reads 0.12 g too high. What kind of error is this?",
+      "visual": null,
+      "choices": {
+        "A": "Random error",
+        "B": "A precision error only",
+        "C": "No error",
+        "D": "A rounding error",
+        "E": "Systematic error"
+      },
+      "answer": "E",
+      "explanation": "Every reading is shifted by the same amount, so repeating does not remove it. Calibrating or zeroing the scale does.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0139",
+      "subtopic": "chemistry.lab.skills",
+      "difficulty": 2,
+      "stem": "A 25.00 mL pipette is used four times and delivers 24.30, 24.31, 24.29 and 24.30 mL. Which description fits?",
+      "visual": null,
+      "choices": {
+        "A": "Accurate and precise",
+        "B": "Accurate but not precise",
+        "C": "Precise but not accurate",
+        "D": "Neither accurate nor precise",
+        "E": "Random error only"
+      },
+      "answer": "C",
+      "explanation": "The values are very close to each other (precise) but far from 25.00 mL (not accurate), which points to a systematic error.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0140",
+      "subtopic": "chemistry.lab.skills",
+      "difficulty": 2,
+      "stem": "What mass of NaCl is needed to make 250.0 mL of 0.100 M solution? (M = 58.5 g/mol)",
+      "visual": null,
+      "choices": {
+        "A": "1.46 g",
+        "B": "5.85 g",
+        "C": "0.585 g",
+        "D": "14.6 g",
+        "E": "0.0250 g"
+      },
+      "answer": "A",
+      "explanation": "n = 0.100 × 0.2500 = 0.0250 mol; m = 0.0250 × 58.5 = 1.46 g.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0141",
+      "subtopic": "chemistry.lab.skills",
+      "difficulty": 3,
+      "stem": "A student rinses the burette with water but does not rinse it with the titrant before filling. Water droplets remain inside. What is the effect on the calculated concentration of the analyte?",
+      "visual": null,
+      "choices": {
+        "A": "It is too low",
+        "B": "It is too high",
+        "C": "No effect",
+        "D": "It is too high or too low at random",
+        "E": "The titration cannot be completed"
+      },
+      "answer": "B",
+      "explanation": "The titrant is diluted, so more volume is needed to reach the endpoint. A larger volume makes the calculated analyte concentration too high.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "chemistry-0142",
+      "subtopic": "chemistry.lab.skills",
+      "difficulty": 3,
+      "stem": "A 10.00 mL sample of 1.00 M solution is diluted to 100.0 mL. Then 10.00 mL of that solution is diluted again to 100.0 mL. What is the final concentration?",
+      "visual": null,
+      "choices": {
+        "A": "0.100 M",
+        "B": "0.00100 M",
+        "C": "0.0500 M",
+        "D": "0.0100 M",
+        "E": "1.00 M"
+      },
+      "answer": "D",
+      "explanation": "Each dilution divides the concentration by 10: 1.00 → 0.100 → 0.0100 M.",
+      "explanation_visual": null,
+      "source": "original"
+    }
+  ]
+}

@@ -1,0 +1,1604 @@
+{
+  "version": 1,
+  "subject": "biology",
+  "cards": [
+    {
+      "id": "biology-0001",
+      "subtopic": "biology.biochem.molecules",
+      "type": "match",
+      "front": "Match each biomolecule class to its building block.",
+      "back": "Carbohydrate = simple sugar (monosaccharide); Protein = amino acid; Nucleic acid = nucleotide; Triglyceride = glycerol + 3 fatty acids",
+      "pairs": [
+        [
+          "Carbohydrate",
+          "simple sugar (monosaccharide)"
+        ],
+        [
+          "Protein",
+          "amino acid"
+        ],
+        [
+          "Nucleic acid",
+          "nucleotide"
+        ],
+        [
+          "Triglyceride",
+          "glycerol + 3 fatty acids"
+        ]
+      ],
+      "visual": "content/biology/cards-biomolecules.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0002",
+      "subtopic": "biology.biochem.molecules",
+      "type": "cloze",
+      "front": "Carbon can form {{4}} covalent bonds, so it builds long chains and rings.",
+      "back": "Carbon can form 4 covalent bonds, so it builds long chains and rings.",
+      "visual": null,
+      "sketch_prompt": "Draw one carbon atom in the middle with 4 bonds to H, then extend it into a short chain and a ring.",
+      "tags": []
+    },
+    {
+      "id": "biology-0003",
+      "subtopic": "biology.biochem.molecules",
+      "type": "basic",
+      "front": "Which elements make up proteins?",
+      "back": "Carbon, hydrogen, oxygen and nitrogen (some also have sulfur).",
+      "visual": "content/biology/cards-biomolecules.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0004",
+      "subtopic": "biology.biochem.molecules",
+      "type": "cloze",
+      "front": "Lipids do not mix with water because they are {{nonpolar}} (hydrophobic).",
+      "back": "Lipids do not mix with water because they are nonpolar (hydrophobic).",
+      "visual": null,
+      "sketch_prompt": "Draw a triglyceride: one glycerol 'head' with three long wavy fatty-acid tails. Color the tails green.",
+      "tags": []
+    },
+    {
+      "id": "biology-0005",
+      "subtopic": "biology.biochem.molecules",
+      "type": "occlusion",
+      "front": "Name the hidden parts of this piece of DNA (a nucleic acid).",
+      "back": "sugar-phosphate backbone, base pair, hydrogen bonds, nucleotide",
+      "visual": "content/biology/cards-dna-structure.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0006",
+      "subtopic": "biology.biochem.molecules",
+      "type": "order",
+      "front": "Put the steps of making a working protein in order.",
+      "back": "Amino acids join by peptide bonds → A polypeptide chain forms → The chain folds into a 3D shape → A working protein",
+      "items": [
+        "Amino acids join by peptide bonds",
+        "A polypeptide chain forms",
+        "The chain folds into a 3D shape",
+        "A working protein"
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw beads on a string (amino acids), then show the string folding into a compact shape.",
+      "tags": []
+    },
+    {
+      "id": "biology-0007",
+      "subtopic": "biology.biochem.molecules",
+      "type": "basic",
+      "front": "What bond joins two amino acids, and what small molecule is released?",
+      "back": "A peptide bond; one water molecule is released (condensation).",
+      "visual": null,
+      "sketch_prompt": "Draw two amino acids side by side, then joined, with a drop of water leaving.",
+      "tags": []
+    },
+    {
+      "id": "biology-0008",
+      "subtopic": "biology.cell.molecular",
+      "type": "basic",
+      "front": "State the central dogma in one line.",
+      "back": "DNA → RNA → protein (transcription, then translation).",
+      "visual": "content/biology/cards-central-dogma.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0009",
+      "subtopic": "biology.cell.molecular",
+      "type": "cloze",
+      "front": "Transcription makes {{mRNA}} from a DNA template in the {{nucleus}}.",
+      "back": "Transcription makes mRNA from a DNA template in the nucleus.",
+      "visual": "content/biology/cards-central-dogma.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0010",
+      "subtopic": "biology.cell.molecular",
+      "type": "order",
+      "front": "Order the journey from gene to protein in a eukaryote.",
+      "back": "Gene is transcribed to pre-mRNA → Introns are spliced out → Mature mRNA leaves the nucleus → Ribosome reads codons → Polypeptide is built",
+      "items": [
+        "Gene is transcribed to pre-mRNA",
+        "Introns are spliced out",
+        "Mature mRNA leaves the nucleus",
+        "Ribosome reads codons",
+        "Polypeptide is built"
+      ],
+      "visual": "content/biology/cards-rna-processing.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0011",
+      "subtopic": "biology.cell.molecular",
+      "type": "basic",
+      "front": "Why is DNA replication called semi-conservative?",
+      "back": "Each new DNA molecule keeps one old strand and gets one new strand.",
+      "visual": "content/biology/cards-replication.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0012",
+      "subtopic": "biology.cell.molecular",
+      "type": "match",
+      "front": "Match each base to its partner.",
+      "back": "A in DNA = T; G = C; A in RNA = U",
+      "pairs": [
+        [
+          "A in DNA",
+          "T"
+        ],
+        [
+          "G",
+          "C"
+        ],
+        [
+          "A in RNA",
+          "U"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a ladder of 4 base pairs. Color A-T green and G-C grey. Write the number of hydrogen bonds on each rung (2 and 3).",
+      "tags": []
+    },
+    {
+      "id": "biology-0013",
+      "subtopic": "biology.cell.molecular",
+      "type": "basic",
+      "front": "What is a codon?",
+      "back": "Three mRNA bases that code for one amino acid (or a start/stop signal). Example: AUG = Met, start.",
+      "visual": "content/biology/cards-translation.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0014",
+      "subtopic": "biology.cell.molecular",
+      "type": "cloze",
+      "front": "RNA processing removes {{introns}}, joins {{exons}}, and adds a 5′ cap and poly-A tail.",
+      "back": "RNA processing removes introns, joins exons, and adds a 5′ cap and poly-A tail.",
+      "visual": "content/biology/cards-rna-processing.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0015",
+      "subtopic": "biology.cell.cell-structure",
+      "type": "occlusion",
+      "front": "Name each hidden label in this animal cell.",
+      "back": "lysosome, rough ER, mitochondrion, cell membrane, centriole, nucleus, Golgi apparatus",
+      "visual": "content/biology/cards-animal-cell.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0016",
+      "subtopic": "biology.cell.cell-structure",
+      "type": "occlusion",
+      "front": "Name each hidden label in this plant cell.",
+      "back": "cell wall, cell membrane, nucleus, large vacuole, chloroplast, mitochondrion",
+      "visual": "content/biology/cards-plant-cell.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0017",
+      "subtopic": "biology.cell.cell-structure",
+      "type": "basic",
+      "front": "State the three ideas of the cell theory.",
+      "back": "1) All living things are made of cells. 2) The cell is the basic unit of life. 3) New cells come only from existing cells.",
+      "visual": null,
+      "sketch_prompt": "Draw three icons: a cluster of cells in a leaf, one cell labeled 'unit of life', and one cell dividing into two.",
+      "tags": []
+    },
+    {
+      "id": "biology-0018",
+      "subtopic": "biology.cell.cell-structure",
+      "type": "match",
+      "front": "Match each organelle to its job.",
+      "back": "Mitochondrion = makes ATP; Ribosome = builds proteins; Lysosome = digests waste; Golgi = packages and ships proteins; Chloroplast = photosynthesis",
+      "pairs": [
+        [
+          "Mitochondrion",
+          "makes ATP"
+        ],
+        [
+          "Ribosome",
+          "builds proteins"
+        ],
+        [
+          "Lysosome",
+          "digests waste"
+        ],
+        [
+          "Golgi",
+          "packages and ships proteins"
+        ],
+        [
+          "Chloroplast",
+          "photosynthesis"
+        ]
+      ],
+      "visual": "content/biology/cards-animal-cell.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0019",
+      "subtopic": "biology.cell.cell-structure",
+      "type": "basic",
+      "front": "Give two differences between prokaryotes and eukaryotes.",
+      "back": "Prokaryotes: no nucleus, no membrane-bound organelles, smaller. Eukaryotes: true nucleus and organelles.",
+      "visual": "content/biology/cards-prok-vs-euk.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0020",
+      "subtopic": "biology.cell.cell-structure",
+      "type": "cloze",
+      "front": "Total magnification = {{eyepiece}} × {{objective}} magnification.",
+      "back": "Total magnification = eyepiece × objective magnification.",
+      "visual": "content/biology/cards-microscope.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0021",
+      "subtopic": "biology.cell.cell-structure",
+      "type": "occlusion",
+      "front": "Name each hidden part of the light microscope.",
+      "back": "eyepiece, objective lens, stage, light source, focus knob, arm",
+      "visual": "content/biology/cards-microscope.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0022",
+      "subtopic": "biology.cell.cell-structure",
+      "type": "match",
+      "front": "Match the organelle to its role.",
+      "back": "Peroxisome = breaks down hydrogen peroxide; Centriole = helps organize the spindle in animal cells; Cytoskeleton = protein fibers that give shape; Vacuole = stores water and solutes",
+      "pairs": [
+        [
+          "Peroxisome",
+          "breaks down hydrogen peroxide"
+        ],
+        [
+          "Centriole",
+          "helps organize the spindle in animal cells"
+        ],
+        [
+          "Cytoskeleton",
+          "protein fibers that give shape"
+        ],
+        [
+          "Vacuole",
+          "stores water and solutes"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a cell. Add a peroxisome (small sphere), a pair of centrioles at right angles, fibers across the cytoplasm, and a vacuole.",
+      "tags": []
+    },
+    {
+      "id": "biology-0023",
+      "subtopic": "biology.cell.division",
+      "type": "order",
+      "front": "Put the stages of mitosis in order.",
+      "back": "Prophase → Metaphase → Anaphase → Telophase",
+      "items": [
+        "Prophase",
+        "Metaphase",
+        "Anaphase",
+        "Telophase"
+      ],
+      "visual": "content/biology/cards-mitosis-phases.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0024",
+      "subtopic": "biology.cell.division",
+      "type": "basic",
+      "front": "What does mitosis produce?",
+      "back": "Two genetically identical daughter cells with the same chromosome number as the parent (diploid stays diploid).",
+      "visual": "content/biology/cards-mitosis-phases.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0025",
+      "subtopic": "biology.cell.division",
+      "type": "basic",
+      "front": "What does meiosis produce?",
+      "back": "Four genetically different haploid cells (half the chromosomes). Used to make gametes.",
+      "visual": "content/biology/cards-meiosis.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0026",
+      "subtopic": "biology.cell.division",
+      "type": "match",
+      "front": "Match the mitosis stage to what happens.",
+      "back": "Prophase = chromosomes condense; Metaphase = chromosomes line up at the equator; Anaphase = sister chromatids pulled apart; Telophase = two nuclei re-form",
+      "pairs": [
+        [
+          "Prophase",
+          "chromosomes condense"
+        ],
+        [
+          "Metaphase",
+          "chromosomes line up at the equator"
+        ],
+        [
+          "Anaphase",
+          "sister chromatids pulled apart"
+        ],
+        [
+          "Telophase",
+          "two nuclei re-form"
+        ]
+      ],
+      "visual": "content/biology/cards-mitosis-phases.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0027",
+      "subtopic": "biology.cell.division",
+      "type": "cloze",
+      "front": "Crossing over happens in {{prophase I}} of meiosis and creates new allele combinations.",
+      "back": "Crossing over happens in prophase I of meiosis and creates new allele combinations.",
+      "visual": null,
+      "sketch_prompt": "Draw two homologous chromosome pairs touching, swapping a piece (one green, one grey), then separating.",
+      "tags": []
+    },
+    {
+      "id": "biology-0028",
+      "subtopic": "biology.cell.division",
+      "type": "basic",
+      "front": "How many cell divisions are in mitosis and in meiosis?",
+      "back": "Mitosis: one division. Meiosis: two divisions (meiosis I and II) after one DNA copy.",
+      "visual": "content/biology/cards-meiosis.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0029",
+      "subtopic": "biology.cell.division",
+      "type": "basic",
+      "front": "How many chromosomes are in a human body cell and in a human gamete?",
+      "back": "Body cell: 46 (2n). Gamete: 23 (n).",
+      "visual": null,
+      "sketch_prompt": "Draw a body cell with '46' and an egg and a sperm each with '23'; show them joining to make 46.",
+      "tags": []
+    },
+    {
+      "id": "biology-0030",
+      "subtopic": "biology.cell.photosynthesis",
+      "type": "cloze",
+      "front": "6CO₂ + 6{{H₂O}} + light → {{C₆H₁₂O₆}} + 6O₂",
+      "back": "6CO₂ + 6H₂O + light → C₆H₁₂O₆ + 6O₂",
+      "visual": "content/biology/cards-photo-vs-resp.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0031",
+      "subtopic": "biology.cell.photosynthesis",
+      "type": "basic",
+      "front": "Where does photosynthesis occur and what absorbs the light?",
+      "back": "In chloroplasts; chlorophyll absorbs mainly red and blue light and reflects green.",
+      "visual": null,
+      "sketch_prompt": "Draw a leaf, zoom into a cell, then into a chloroplast. Label chlorophyll in green.",
+      "tags": []
+    },
+    {
+      "id": "biology-0032",
+      "subtopic": "biology.cell.photosynthesis",
+      "type": "basic",
+      "front": "Name the main limiting factors of photosynthesis.",
+      "back": "Light intensity, carbon dioxide concentration and temperature (also water and chlorophyll).",
+      "visual": "content/biology/cards-limiting-factors.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0033",
+      "subtopic": "biology.cell.photosynthesis",
+      "type": "order",
+      "front": "Order the steps of the starch test on a leaf.",
+      "back": "Keep plant in dark (destarch) → Expose leaf to light → Boil leaf in water → Warm leaf in ethanol → Rinse and add iodine",
+      "items": [
+        "Keep plant in dark (destarch)",
+        "Expose leaf to light",
+        "Boil leaf in water",
+        "Warm leaf in ethanol",
+        "Rinse and add iodine"
+      ],
+      "visual": "content/biology/cards-leaf-starch-test.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0034",
+      "subtopic": "biology.cell.photosynthesis",
+      "type": "basic",
+      "front": "Why is a leaf warmed in ethanol in the starch test?",
+      "back": "To remove the green chlorophyll so the blue-black iodine color can be seen. Heat the ethanol only in a hot-water bath.",
+      "visual": "content/biology/cards-leaf-starch-test.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0035",
+      "subtopic": "biology.cell.photosynthesis",
+      "type": "basic",
+      "front": "A variegated (green and white) leaf is tested for starch. Where is it blue-black?",
+      "back": "Only in the green parts: they have chlorophyll, so they photosynthesized and made starch.",
+      "visual": null,
+      "sketch_prompt": "Draw a leaf with green and white patches, then the same leaf after iodine with only the green patches dark.",
+      "tags": []
+    },
+    {
+      "id": "biology-0036",
+      "subtopic": "biology.cell.photosynthesis",
+      "type": "basic",
+      "front": "Give two reasons photosynthesis is important.",
+      "back": "It makes food (glucose) for the food chain and releases oxygen while removing carbon dioxide.",
+      "visual": "content/biology/cards-photo-vs-resp.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0037",
+      "subtopic": "biology.cell.respiration",
+      "type": "cloze",
+      "front": "Aerobic respiration: glucose + {{oxygen}} → {{carbon dioxide}} + water + energy (about 30 ATP).",
+      "back": "Aerobic respiration: glucose + oxygen → carbon dioxide + water + energy (about 30 ATP).",
+      "visual": "content/biology/cards-respiration-types.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0038",
+      "subtopic": "biology.cell.respiration",
+      "type": "basic",
+      "front": "What are the products of anaerobic respiration in yeast?",
+      "back": "Ethanol and carbon dioxide, plus a little energy (fermentation).",
+      "visual": "content/biology/cards-respiration-types.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0039",
+      "subtopic": "biology.cell.respiration",
+      "type": "basic",
+      "front": "What is made in anaerobic respiration in muscle cells?",
+      "back": "Lactic acid and a little energy (about 2 ATP per glucose).",
+      "visual": "content/biology/cards-respiration-types.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0040",
+      "subtopic": "biology.cell.respiration",
+      "type": "match",
+      "front": "Match each process to what it uses or makes.",
+      "back": "Photosynthesis = uses CO₂, makes O₂; Respiration = uses O₂, makes CO₂; Mitochondria = site of aerobic respiration; ATP = usable cell energy",
+      "pairs": [
+        [
+          "Photosynthesis",
+          "uses CO₂, makes O₂"
+        ],
+        [
+          "Respiration",
+          "uses O₂, makes CO₂"
+        ],
+        [
+          "Mitochondria",
+          "site of aerobic respiration"
+        ],
+        [
+          "ATP",
+          "usable cell energy"
+        ]
+      ],
+      "visual": "content/biology/cards-photo-vs-resp.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0041",
+      "subtopic": "biology.cell.respiration",
+      "type": "basic",
+      "front": "Is breathing the same as respiration?",
+      "back": "No. Breathing moves air in and out of the lungs; respiration is the chemical release of energy inside cells.",
+      "visual": null,
+      "sketch_prompt": "Draw lungs on the left (breathing) and a cell with a mitochondrion on the right (respiration), linked by arrows for O₂ and CO₂.",
+      "tags": []
+    },
+    {
+      "id": "biology-0042",
+      "subtopic": "biology.cell.respiration",
+      "type": "cloze",
+      "front": "Plants carry out respiration in {{all}} living cells, {{day and night}}.",
+      "back": "Plants carry out respiration in all living cells, day and night.",
+      "visual": "content/biology/cards-photo-vs-resp.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0043",
+      "subtopic": "biology.cell.respiration",
+      "type": "basic",
+      "front": "Why can muscles ache after a sprint?",
+      "back": "When oxygen is short, muscle cells make ATP anaerobically and lactic acid builds up.",
+      "visual": null,
+      "sketch_prompt": "Draw a muscle cell with two paths from glucose: one with O₂ (lots of ATP) and one without (lactic acid, little ATP).",
+      "tags": []
+    },
+    {
+      "id": "biology-0044",
+      "subtopic": "biology.anatomy.tissues",
+      "type": "match",
+      "front": "Match each connective tissue to its job.",
+      "back": "Bone = supports and protects; Cartilage = flexible cushion; Ligament = bone to bone; Tendon = muscle to bone; Blood = transport",
+      "pairs": [
+        [
+          "Bone",
+          "supports and protects"
+        ],
+        [
+          "Cartilage",
+          "flexible cushion"
+        ],
+        [
+          "Ligament",
+          "bone to bone"
+        ],
+        [
+          "Tendon",
+          "muscle to bone"
+        ],
+        [
+          "Blood",
+          "transport"
+        ]
+      ],
+      "visual": "content/biology/cards-connective-tissues.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0045",
+      "subtopic": "biology.anatomy.tissues",
+      "type": "basic",
+      "front": "What does epithelial tissue do and where is it?",
+      "back": "It forms a protective covering of the body surface and lines organs and cavities (skin, gut lining).",
+      "visual": null,
+      "sketch_prompt": "Draw a row of tightly packed cells forming a sheet, with 'outside' above and 'inside' below.",
+      "tags": []
+    },
+    {
+      "id": "biology-0046",
+      "subtopic": "biology.anatomy.tissues",
+      "type": "basic",
+      "front": "Describe skeletal muscle.",
+      "back": "Striated, voluntary, attached to bones by tendons, with many nuclei per fiber.",
+      "visual": "content/biology/cards-muscle-types.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0047",
+      "subtopic": "biology.anatomy.tissues",
+      "type": "basic",
+      "front": "Describe smooth muscle.",
+      "back": "Not striated, involuntary, one nucleus per cell. Found in the gut, blood vessels and bladder.",
+      "visual": "content/biology/cards-muscle-types.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0048",
+      "subtopic": "biology.anatomy.tissues",
+      "type": "basic",
+      "front": "Describe cardiac muscle.",
+      "back": "Striated, involuntary, branched cells joined by intercalated discs. Found only in the heart.",
+      "visual": "content/biology/cards-muscle-types.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0049",
+      "subtopic": "biology.anatomy.tissues",
+      "type": "basic",
+      "front": "Which tissue joins bone to bone, and which joins muscle to bone?",
+      "back": "Ligament: bone to bone. Tendon: muscle to bone.",
+      "visual": "content/biology/cards-connective-tissues.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0050",
+      "subtopic": "biology.anatomy.tissues",
+      "type": "basic",
+      "front": "Why is blood a connective tissue?",
+      "back": "It has cells (red cells, white cells, platelets) in a fluid matrix (plasma) and links the body by transporting materials.",
+      "visual": null,
+      "sketch_prompt": "Draw a test tube of blood that has separated into plasma on top, a thin white layer, and red cells at the bottom.",
+      "tags": []
+    },
+    {
+      "id": "biology-0051",
+      "subtopic": "biology.anatomy.digestive",
+      "type": "occlusion",
+      "front": "Name each hidden organ.",
+      "back": "mouth, esophagus, liver, stomach, pancreas, small intestine, large intestine",
+      "visual": "content/biology/cards-digestive-tract.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0052",
+      "subtopic": "biology.anatomy.digestive",
+      "type": "order",
+      "front": "Order the path of food through the gut.",
+      "back": "Mouth → Esophagus → Stomach → Small intestine → Large intestine → Anus",
+      "items": [
+        "Mouth",
+        "Esophagus",
+        "Stomach",
+        "Small intestine",
+        "Large intestine",
+        "Anus"
+      ],
+      "visual": "content/biology/cards-digestive-tract.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0053",
+      "subtopic": "biology.anatomy.digestive",
+      "type": "match",
+      "front": "Match each gland to its secretion.",
+      "back": "Salivary glands = amylase; Gastric glands = HCl and pepsin; Liver = bile; Pancreas = pancreatic juice",
+      "pairs": [
+        [
+          "Salivary glands",
+          "amylase"
+        ],
+        [
+          "Gastric glands",
+          "HCl and pepsin"
+        ],
+        [
+          "Liver",
+          "bile"
+        ],
+        [
+          "Pancreas",
+          "pancreatic juice"
+        ]
+      ],
+      "visual": "content/biology/cards-digestive-glands.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0054",
+      "subtopic": "biology.anatomy.digestive",
+      "type": "basic",
+      "front": "Where do most digestion and absorption happen, and why?",
+      "back": "In the small intestine: it is long and has villi, which give a huge surface area.",
+      "visual": null,
+      "sketch_prompt": "Draw a close-up of one villus with a blood capillary and a lacteal inside it.",
+      "tags": []
+    },
+    {
+      "id": "biology-0055",
+      "subtopic": "biology.anatomy.digestive",
+      "type": "match",
+      "front": "Match the missing nutrient to the disease.",
+      "back": "Vitamin C = scurvy; Vitamin D = rickets; Iodine = goiter; Iron = anemia",
+      "pairs": [
+        [
+          "Vitamin C",
+          "scurvy"
+        ],
+        [
+          "Vitamin D",
+          "rickets"
+        ],
+        [
+          "Iodine",
+          "goiter"
+        ],
+        [
+          "Iron",
+          "anemia"
+        ]
+      ],
+      "visual": "content/biology/cards-deficiency-diseases.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0056",
+      "subtopic": "biology.anatomy.digestive",
+      "type": "basic",
+      "front": "What does iodine solution test for, and what is a positive result?",
+      "back": "Starch: it turns from yellow-brown to blue-black.",
+      "visual": "content/biology/cards-food-tests.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0057",
+      "subtopic": "biology.anatomy.digestive",
+      "type": "basic",
+      "front": "Name the classes of food in a balanced diet.",
+      "back": "Carbohydrates, proteins, fats, vitamins, minerals, water and fiber, in the right amounts.",
+      "visual": null,
+      "sketch_prompt": "Draw a plate divided into sections for the seven food classes, with one food example in each.",
+      "tags": []
+    },
+    {
+      "id": "biology-0058",
+      "subtopic": "biology.anatomy.digestive",
+      "type": "basic",
+      "front": "Is bile an enzyme? What does it do?",
+      "back": "No. Bile (made in the liver, stored in the gall bladder) emulsifies fat into droplets so lipase can work faster.",
+      "visual": "content/biology/cards-digestive-glands.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0059",
+      "subtopic": "biology.anatomy.respiratory",
+      "type": "occlusion",
+      "front": "Name each hidden part of the respiratory system.",
+      "back": "trachea, bronchus, lung, alveoli, diaphragm",
+      "visual": "content/biology/cards-respiratory-system.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0060",
+      "subtopic": "biology.anatomy.respiratory",
+      "type": "order",
+      "front": "Order the path of air to the alveoli.",
+      "back": "Nose → Trachea → Bronchus → Bronchiole → Alveoli",
+      "items": [
+        "Nose",
+        "Trachea",
+        "Bronchus",
+        "Bronchiole",
+        "Alveoli"
+      ],
+      "visual": "content/biology/cards-respiratory-system.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0061",
+      "subtopic": "biology.anatomy.respiratory",
+      "type": "basic",
+      "front": "What happens when you breathe in?",
+      "back": "Diaphragm contracts and flattens, ribs move up and out, chest volume rises, pressure falls, air flows in.",
+      "visual": "content/biology/cards-breathing.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0062",
+      "subtopic": "biology.anatomy.respiratory",
+      "type": "basic",
+      "front": "What happens when you breathe out?",
+      "back": "Diaphragm relaxes and domes up, ribs move down and in, chest volume falls, pressure rises, air is pushed out.",
+      "visual": "content/biology/cards-breathing.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0063",
+      "subtopic": "biology.anatomy.respiratory",
+      "type": "basic",
+      "front": "How are alveoli built for gas exchange?",
+      "back": "Very thin walls, moist, huge total surface area and a dense network of capillaries; gases diffuse.",
+      "visual": null,
+      "sketch_prompt": "Draw one alveolus as a bubble wrapped in capillaries; arrows show O₂ in and CO₂ out.",
+      "tags": []
+    },
+    {
+      "id": "biology-0064",
+      "subtopic": "biology.anatomy.respiratory",
+      "type": "basic",
+      "front": "What is tissue respiration?",
+      "back": "Cells use oxygen to release energy from glucose in their mitochondria; heat is also produced.",
+      "visual": "content/biology/cards-respiration-types.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0065",
+      "subtopic": "biology.anatomy.respiratory",
+      "type": "cloze",
+      "front": "Breathing in: chest volume {{rises}}, pressure {{falls}}, so air moves in.",
+      "back": "Breathing in: chest volume rises, pressure falls, so air moves in.",
+      "visual": "content/biology/cards-breathing.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0066",
+      "subtopic": "biology.anatomy.excretory",
+      "type": "occlusion",
+      "front": "Name each hidden part of the urinary system.",
+      "back": "kidney, ureter, bladder, urethra",
+      "visual": "content/biology/cards-urinary-system.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0067",
+      "subtopic": "biology.anatomy.excretory",
+      "type": "order",
+      "front": "Order the path of urine.",
+      "back": "Kidney → Ureter → Bladder → Urethra",
+      "items": [
+        "Kidney",
+        "Ureter",
+        "Bladder",
+        "Urethra"
+      ],
+      "visual": "content/biology/cards-urinary-system.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0068",
+      "subtopic": "biology.anatomy.excretory",
+      "type": "match",
+      "front": "Match each organ to its excretory product.",
+      "back": "Kidneys = urea, water and salts (urine); Sweat glands = sweat; Lungs = carbon dioxide and water vapor",
+      "pairs": [
+        [
+          "Kidneys",
+          "urea, water and salts (urine)"
+        ],
+        [
+          "Sweat glands",
+          "sweat"
+        ],
+        [
+          "Lungs",
+          "carbon dioxide and water vapor"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a body outline with three arrows leaving: from the kidneys, from the skin and from the lungs. Label each product.",
+      "tags": []
+    },
+    {
+      "id": "biology-0069",
+      "subtopic": "biology.anatomy.excretory",
+      "type": "basic",
+      "front": "What do the kidneys do with blood?",
+      "back": "Millions of nephrons filter the blood, remove urea and extra water and salts, and return the rest to the blood.",
+      "visual": "content/biology/cards-urinary-system.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0070",
+      "subtopic": "biology.anatomy.excretory",
+      "type": "basic",
+      "front": "Where is urea made?",
+      "back": "In the liver, from the breakdown of amino acids. The kidneys then remove it in urine.",
+      "visual": null,
+      "sketch_prompt": "Draw liver → blood → kidney → urine with 'urea' written along the arrows.",
+      "tags": []
+    },
+    {
+      "id": "biology-0071",
+      "subtopic": "biology.anatomy.excretory",
+      "type": "basic",
+      "front": "Give two jobs of sweat.",
+      "back": "It cools the body by evaporating and removes water, salts and a little urea.",
+      "visual": null,
+      "sketch_prompt": "Draw skin with a sweat gland, a pore, and arrows showing sweat leaving and heat leaving.",
+      "tags": []
+    },
+    {
+      "id": "biology-0072",
+      "subtopic": "biology.anatomy.excretory",
+      "type": "cloze",
+      "front": "The kidney filters blood, the {{bladder}} stores urine, and the {{urethra}} carries it out.",
+      "back": "The kidney filters blood, the bladder stores urine, and the urethra carries it out.",
+      "visual": "content/biology/cards-urinary-system.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0073",
+      "subtopic": "biology.anatomy.nervous",
+      "type": "occlusion",
+      "front": "Name each hidden part of the brain and spinal cord.",
+      "back": "cerebrum, cerebellum, medulla oblongata, spinal cord",
+      "visual": "content/biology/cards-brain.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0074",
+      "subtopic": "biology.anatomy.nervous",
+      "type": "occlusion",
+      "front": "Name each hidden part of the reflex arc.",
+      "back": "receptor, sensory neuron, spinal cord, motor neuron, effector",
+      "visual": "content/biology/cards-reflex-arc.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0075",
+      "subtopic": "biology.anatomy.nervous",
+      "type": "occlusion",
+      "front": "Name each hidden part of the motor neuron.",
+      "back": "dendrites, cell body, nucleus, axon, myelin sheath, node of Ranvier, axon terminals",
+      "visual": "content/biology/cards-motor-neuron.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0076",
+      "subtopic": "biology.anatomy.nervous",
+      "type": "order",
+      "front": "Order the reflex arc.",
+      "back": "Stimulus → Receptor → Sensory neuron → Spinal cord → Motor neuron → Effector → Response",
+      "items": [
+        "Stimulus",
+        "Receptor",
+        "Sensory neuron",
+        "Spinal cord",
+        "Motor neuron",
+        "Effector",
+        "Response"
+      ],
+      "visual": "content/biology/cards-reflex-arc.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0077",
+      "subtopic": "biology.anatomy.nervous",
+      "type": "match",
+      "front": "Match each brain part to its function.",
+      "back": "Cerebrum = thinking, memory, voluntary action; Cerebellum = balance and coordination; Medulla oblongata = heartbeat and breathing",
+      "pairs": [
+        [
+          "Cerebrum",
+          "thinking, memory, voluntary action"
+        ],
+        [
+          "Cerebellum",
+          "balance and coordination"
+        ],
+        [
+          "Medulla oblongata",
+          "heartbeat and breathing"
+        ]
+      ],
+      "visual": "content/biology/cards-brain.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0078",
+      "subtopic": "biology.anatomy.nervous",
+      "type": "match",
+      "front": "Match each nerve type to what it carries.",
+      "back": "Sensory nerve = impulses to the CNS; Motor nerve = impulses from the CNS to muscles or glands; Mixed nerve = both directions",
+      "pairs": [
+        [
+          "Sensory nerve",
+          "impulses to the CNS"
+        ],
+        [
+          "Motor nerve",
+          "impulses from the CNS to muscles or glands"
+        ],
+        [
+          "Mixed nerve",
+          "both directions"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a spinal cord in the middle and three nerves: one arrow in, one arrow out, one with both arrows.",
+      "tags": []
+    },
+    {
+      "id": "biology-0079",
+      "subtopic": "biology.anatomy.nervous",
+      "type": "basic",
+      "front": "What is a reflex action and why is it fast?",
+      "back": "An automatic, rapid response to a stimulus. The impulse goes through the spinal cord without waiting for the brain to decide.",
+      "visual": "content/biology/cards-reflex-arc.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0080",
+      "subtopic": "biology.anatomy.immune",
+      "type": "basic",
+      "front": "Compare innate and adaptive immunity.",
+      "back": "Innate: fast, general, no memory (skin, mucus, phagocytes). Adaptive: slower the first time, specific, has memory (B and T cells).",
+      "visual": "content/biology/cards-innate-adaptive.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0081",
+      "subtopic": "biology.anatomy.immune",
+      "type": "occlusion",
+      "front": "Name each hidden part of this antibody drawing.",
+      "back": "antibody, binding site, antigen",
+      "visual": "content/biology/cards-antibody.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0082",
+      "subtopic": "biology.anatomy.immune",
+      "type": "basic",
+      "front": "What do B cells do?",
+      "back": "When they meet their antigen they become plasma cells that make antibodies; some become memory cells.",
+      "visual": "content/biology/cards-antibody.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0083",
+      "subtopic": "biology.anatomy.immune",
+      "type": "basic",
+      "front": "What do T cells do?",
+      "back": "Helper T cells coordinate the response; killer T cells destroy body cells infected by viruses.",
+      "visual": null,
+      "sketch_prompt": "Draw a killer T cell touching a virus-infected cell, with an arrow labeled 'destroys'.",
+      "tags": []
+    },
+    {
+      "id": "biology-0084",
+      "subtopic": "biology.anatomy.immune",
+      "type": "basic",
+      "front": "Why is a second infection usually milder?",
+      "back": "Memory cells remember the antigen and make antibodies faster and in larger amounts.",
+      "visual": null,
+      "sketch_prompt": "Draw a graph: antibody level vs time with a small first peak and a bigger, faster second peak.",
+      "tags": []
+    },
+    {
+      "id": "biology-0085",
+      "subtopic": "biology.anatomy.immune",
+      "type": "basic",
+      "front": "What is an allergy?",
+      "back": "An overreaction of the immune system to a harmless substance (allergen) such as pollen, dust mites or peanuts; symptoms: sneezing, itching, rash.",
+      "visual": null,
+      "sketch_prompt": "Draw a pollen grain entering the nose and arrows to symptoms: sneezing, watery eyes, itching.",
+      "tags": []
+    },
+    {
+      "id": "biology-0086",
+      "subtopic": "biology.anatomy.immune",
+      "type": "match",
+      "front": "Match each innate defense to how it works.",
+      "back": "Skin = physical barrier; Mucus and cilia = trap and sweep out germs; Stomach acid = kills germs; Phagocytes = engulf germs",
+      "pairs": [
+        [
+          "Skin",
+          "physical barrier"
+        ],
+        [
+          "Mucus and cilia",
+          "trap and sweep out germs"
+        ],
+        [
+          "Stomach acid",
+          "kills germs"
+        ],
+        [
+          "Phagocytes",
+          "engulf germs"
+        ]
+      ],
+      "visual": "content/biology/cards-innate-adaptive.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0087",
+      "subtopic": "biology.anatomy.endocrine",
+      "type": "occlusion",
+      "front": "Name each hidden gland.",
+      "back": "pituitary gland, thyroid gland, pancreas, adrenal gland",
+      "visual": "content/biology/cards-endocrine-glands.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0088",
+      "subtopic": "biology.anatomy.endocrine",
+      "type": "basic",
+      "front": "How do endocrine and exocrine glands differ?",
+      "back": "Endocrine glands have no ducts and release hormones into the blood. Exocrine glands release products through ducts (sweat, saliva).",
+      "visual": null,
+      "sketch_prompt": "Draw two glands: one with a tube (duct) leading out, one with no duct and an arrow into a blood vessel.",
+      "tags": []
+    },
+    {
+      "id": "biology-0089",
+      "subtopic": "biology.anatomy.endocrine",
+      "type": "match",
+      "front": "Match each gland to a hormone.",
+      "back": "Pituitary = growth hormone; Thyroid = thyroxine; Adrenal = adrenaline; Pancreas = insulin",
+      "pairs": [
+        [
+          "Pituitary",
+          "growth hormone"
+        ],
+        [
+          "Thyroid",
+          "thyroxine"
+        ],
+        [
+          "Adrenal",
+          "adrenaline"
+        ],
+        [
+          "Pancreas",
+          "insulin"
+        ]
+      ],
+      "visual": "content/biology/cards-endocrine-table.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0090",
+      "subtopic": "biology.anatomy.endocrine",
+      "type": "basic",
+      "front": "What is a hormone?",
+      "back": "A chemical messenger made by an endocrine gland and carried by the blood to target organs.",
+      "visual": "content/biology/cards-endocrine-table.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0091",
+      "subtopic": "biology.anatomy.endocrine",
+      "type": "basic",
+      "front": "What do insulin and glucagon do?",
+      "back": "Insulin lowers blood glucose; glucagon raises it. Both come from the pancreas.",
+      "visual": "content/biology/cards-endocrine-table.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0092",
+      "subtopic": "biology.anatomy.endocrine",
+      "type": "basic",
+      "front": "Why is the pituitary called the master gland?",
+      "back": "Its hormones control other endocrine glands (such as the thyroid) and growth.",
+      "visual": "content/biology/cards-endocrine-glands.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0093",
+      "subtopic": "biology.anatomy.endocrine",
+      "type": "basic",
+      "front": "What does adrenaline do?",
+      "back": "Prepares the body for fight or flight: faster heart rate, more blood to muscles, more glucose.",
+      "visual": "content/biology/cards-endocrine-table.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0094",
+      "subtopic": "biology.anatomy.circulatory",
+      "type": "occlusion",
+      "front": "Name each hidden part of the heart.",
+      "back": "vena cava, right atrium, tricuspid valve, right ventricle, pulmonary artery, aorta, pulmonary vein, left atrium, bicuspid valve, left ventricle, septum",
+      "visual": "content/biology/cards-heart.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0095",
+      "subtopic": "biology.anatomy.circulatory",
+      "type": "order",
+      "front": "Order the path of blood through the heart and lungs.",
+      "back": "Vena cava → Right atrium → Right ventricle → Pulmonary artery → Lungs → Pulmonary vein → Left atrium → Left ventricle → Aorta",
+      "items": [
+        "Vena cava",
+        "Right atrium",
+        "Right ventricle",
+        "Pulmonary artery",
+        "Lungs",
+        "Pulmonary vein",
+        "Left atrium",
+        "Left ventricle",
+        "Aorta"
+      ],
+      "visual": "content/biology/cards-heart.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0096",
+      "subtopic": "biology.anatomy.circulatory",
+      "type": "basic",
+      "front": "Why is the left ventricle wall the thickest?",
+      "back": "It pumps blood to the whole body at high pressure; the right ventricle only pumps to the lungs.",
+      "visual": "content/biology/cards-heart.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0097",
+      "subtopic": "biology.anatomy.circulatory",
+      "type": "basic",
+      "front": "What is double circulation?",
+      "back": "Blood passes through the heart twice per full circuit: right side to lungs and back, then left side to body and back.",
+      "visual": "content/biology/cards-double-circulation.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0098",
+      "subtopic": "biology.anatomy.circulatory",
+      "type": "match",
+      "front": "Match the vessel to its feature.",
+      "back": "Artery = thick wall, high pressure; Vein = valves, returns blood to heart; Capillary = one cell thick, exchange",
+      "pairs": [
+        [
+          "Artery",
+          "thick wall, high pressure"
+        ],
+        [
+          "Vein",
+          "valves, returns blood to heart"
+        ],
+        [
+          "Capillary",
+          "one cell thick, exchange"
+        ]
+      ],
+      "visual": "content/biology/cards-blood-vessels.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0099",
+      "subtopic": "biology.anatomy.circulatory",
+      "type": "basic",
+      "front": "Who is the universal donor and universal acceptor?",
+      "back": "Group O is the universal donor; group AB is the universal acceptor.",
+      "visual": "content/biology/cards-abo-blood.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0100",
+      "subtopic": "biology.anatomy.circulatory",
+      "type": "basic",
+      "front": "Name three heart conditions in the syllabus.",
+      "back": "Palpitations (felt irregular beat), cardiac arrest (heart stops pumping), hypertension (high blood pressure).",
+      "visual": "content/biology/cards-heart-conditions.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0101",
+      "subtopic": "biology.anatomy.circulatory",
+      "type": "basic",
+      "front": "What is the lymphatic system?",
+      "back": "A network of vessels and nodes parallel to blood vessels; it returns tissue fluid to the blood and helps fight infection.",
+      "visual": null,
+      "sketch_prompt": "Draw a blood capillary leaking fluid into tissue, a lymph vessel collecting it, and a lymph node on the way.",
+      "tags": []
+    },
+    {
+      "id": "biology-0102",
+      "subtopic": "biology.anatomy.circulatory",
+      "type": "basic",
+      "front": "What do heart valves do?",
+      "back": "They keep blood flowing one way. Tricuspid: right atrium to right ventricle. Bicuspid: left atrium to left ventricle.",
+      "visual": "content/biology/cards-heart.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0103",
+      "subtopic": "biology.ecology.ecosystems",
+      "type": "basic",
+      "front": "Give two biotic and two abiotic factors.",
+      "back": "Biotic: plants, animals, fungi, bacteria. Abiotic: sunlight, temperature, water, soil.",
+      "visual": null,
+      "sketch_prompt": "Draw a pond. Circle living things in green and write abiotic factors (sun, water, temperature) in grey.",
+      "tags": []
+    },
+    {
+      "id": "biology-0104",
+      "subtopic": "biology.ecology.ecosystems",
+      "type": "match",
+      "front": "Match each role to its job.",
+      "back": "Producer = makes food by photosynthesis; Consumer = eats other organisms; Decomposer = breaks down dead matter",
+      "pairs": [
+        [
+          "Producer",
+          "makes food by photosynthesis"
+        ],
+        [
+          "Consumer",
+          "eats other organisms"
+        ],
+        [
+          "Decomposer",
+          "breaks down dead matter"
+        ]
+      ],
+      "visual": "content/biology/cards-food-web.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0105",
+      "subtopic": "biology.ecology.ecosystems",
+      "type": "order",
+      "front": "Order this food chain from producer to top consumer.",
+      "back": "Grass → Grasshopper → Frog → Snake → Hawk",
+      "items": [
+        "Grass",
+        "Grasshopper",
+        "Frog",
+        "Snake",
+        "Hawk"
+      ],
+      "visual": "content/biology/cards-food-web.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0106",
+      "subtopic": "biology.ecology.ecosystems",
+      "type": "basic",
+      "front": "In a food web, which way do the arrows point?",
+      "back": "From the food to the organism that eats it: the direction energy flows.",
+      "visual": "content/biology/cards-food-web.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0107",
+      "subtopic": "biology.ecology.ecosystems",
+      "type": "basic",
+      "front": "What does a pyramid of numbers show?",
+      "back": "The number of organisms at each trophic level; usually wide at the bottom and narrow at the top.",
+      "visual": "content/biology/cards-pyramid-of-numbers.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0108",
+      "subtopic": "biology.ecology.ecosystems",
+      "type": "match",
+      "front": "Match each relationship to its effect (A / B).",
+      "back": "Mutualism = + / +; Commensalism = + / 0; Parasitism = + / −, lives on or in the host; Predation = + / −, kills and eats the prey",
+      "pairs": [
+        [
+          "Mutualism",
+          "+ / +"
+        ],
+        [
+          "Commensalism",
+          "+ / 0"
+        ],
+        [
+          "Parasitism",
+          "+ / −, lives on or in the host"
+        ],
+        [
+          "Predation",
+          "+ / −, kills and eats the prey"
+        ]
+      ],
+      "visual": "content/biology/cards-symbiosis.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0109",
+      "subtopic": "biology.ecology.ecosystems",
+      "type": "basic",
+      "front": "How much energy passes to the next trophic level?",
+      "back": "Roughly 10 percent. The rest is lost as heat or used for life processes.",
+      "visual": null,
+      "sketch_prompt": "Draw four stacked boxes (producer to top consumer) with 100, 10, 1, 0.1 units of energy and heat arrows leaving each.",
+      "tags": []
+    },
+    {
+      "id": "biology-0110",
+      "subtopic": "biology.classification.kingdoms",
+      "type": "match",
+      "front": "Match each kingdom to an example.",
+      "back": "Monera = bacteria; Protista = Amoeba; Fungi = bread mould; Plantae = mango tree; Animalia = fish",
+      "pairs": [
+        [
+          "Monera",
+          "bacteria"
+        ],
+        [
+          "Protista",
+          "Amoeba"
+        ],
+        [
+          "Fungi",
+          "bread mould"
+        ],
+        [
+          "Plantae",
+          "mango tree"
+        ],
+        [
+          "Animalia",
+          "fish"
+        ]
+      ],
+      "visual": "content/biology/cards-five-kingdoms.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0111",
+      "subtopic": "biology.classification.kingdoms",
+      "type": "occlusion",
+      "front": "Name each hidden part of the Amoeba.",
+      "back": "pseudopod, nucleus, food vacuole, cell membrane, contractile vacuole",
+      "visual": "content/biology/cards-amoeba.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0112",
+      "subtopic": "biology.classification.kingdoms",
+      "type": "occlusion",
+      "front": "Name each hidden part of the bread mould.",
+      "back": "sporangium, spores, sporangiophore, rhizoids, hyphae",
+      "visual": "content/biology/cards-mould.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0113",
+      "subtopic": "biology.classification.kingdoms",
+      "type": "basic",
+      "front": "Name the three common bacterial shapes.",
+      "back": "Cocci (spheres), bacilli (rods) and spirilla (spirals).",
+      "visual": "content/biology/cards-bacteria-shapes.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0114",
+      "subtopic": "biology.classification.kingdoms",
+      "type": "occlusion",
+      "front": "Name each hidden part of the bacterium.",
+      "back": "cell wall, nucleoid, plasmid, flagellum, ribosomes",
+      "visual": "content/biology/cards-bacterium.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "biology-0115",
+      "subtopic": "biology.classification.kingdoms",
+      "type": "basic",
+      "front": "Why do scientists classify living things?",
+      "back": "To identify organisms, show how they are related, and make studying millions of species easier.",
+      "visual": null,
+      "sketch_prompt": "Draw a kitchen cupboard sorted into groups (spices, tins, grains) and write one sentence: classification = sorting by shared features.",
+      "tags": []
+    },
+    {
+      "id": "biology-0116",
+      "subtopic": "biology.classification.kingdoms",
+      "type": "basic",
+      "front": "How do fungi feed?",
+      "back": "Hyphae release enzymes onto dead matter and absorb the digested food (saprotrophic). Cell walls contain chitin.",
+      "visual": "content/biology/cards-mould.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0117",
+      "subtopic": "biology.classification.kingdoms",
+      "type": "basic",
+      "front": "How does an Amoeba move, feed and reproduce?",
+      "back": "It moves and engulfs food with pseudopodia, and reproduces by binary fission.",
+      "visual": "content/biology/cards-amoeba.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "biology-0118",
+      "subtopic": "biology.classification.kingdoms",
+      "type": "basic",
+      "front": "What separates vertebrates from invertebrates?",
+      "back": "Vertebrates have a backbone (fish, amphibians, reptiles, birds, mammals); invertebrates do not (insects, worms).",
+      "visual": null,
+      "sketch_prompt": "Draw a fish and an insect; add a line of vertebrae to the fish only.",
+      "tags": []
+    }
+  ]
+}

@@ -130,6 +130,8 @@ def classify(m):
                 g.add("alkene")
             if o == 3:
                 g.add("alkyne")
+    if all(l == "C" for l in m.lab.values()) and not g:
+        g.add("alkane")
     return g
 
 

@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 430" role="img" aria-labelledby="t d">
+  <title id="t">A chiral carbon and its mirror image</title>
+  <desc id="d">Two drawings of 2-butanol that are mirror images across a dashed vertical line. The left one is R, the right one is S. Priorities: OH is 1, ethyl is 2, methyl is 3, H is 4 and points away.</desc>
+  <defs>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+    <marker id="arY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ca8a04"/></marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="430" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="250" y="24" font-size="14.5" text-anchor="middle" fill="#111827" font-weight="bold">Chirality: four different groups on one carbon</text>
+    <line x1="250" y1="44" x2="250" y2="292" stroke="#6b7280" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="250" y="310" font-size="12" text-anchor="middle" fill="#6b7280">mirror</text>
+    <line x1="125" y1="190" x2="73" y2="144" stroke="#111827" stroke-width="2.6"/>
+    <line x1="125" y1="190" x2="177" y2="144" stroke="#111827" stroke-width="2.6"/>
+    <polygon points="125.0,190.0 166.5,246.0 175.5,238.0" fill="#111827" fill-opacity="1.0" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="115.96" y1="197.452" x2="118.706" y2="199.881" stroke="#111827" stroke-width="1.6"/>
+    <line x1="107.669" y1="205.566" x2="111.664" y2="209.1" stroke="#111827" stroke-width="1.6"/>
+    <line x1="99.3785" y1="213.681" x2="104.621" y2="218.319" stroke="#111827" stroke-width="1.6"/>
+    <line x1="91.0877" y1="221.796" x2="97.579" y2="227.538" stroke="#111827" stroke-width="1.6"/>
+    <line x1="82.7969" y1="229.91" x2="90.5365" y2="236.757" stroke="#111827" stroke-width="1.6"/>
+    <circle cx="125" cy="190" r="4" fill="#ca8a04" stroke="#111827" stroke-width="1.2"/>
+    <text x="73" y="136" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">CH₂CH₃</text>
+    <text x="177" y="136" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="175" y="264" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">OH</text>
+    <text x="77" y="264" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">H</text>
+    <circle cx="201" cy="256" r="10" fill="#ca8a04" fill-opacity="0.25" stroke="#ca8a04" stroke-width="1"/>
+    <text x="201" y="261" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">1</text>
+    <circle cx="37" cy="156" r="10" fill="#ca8a04" fill-opacity="0.25" stroke="#ca8a04" stroke-width="1"/>
+    <text x="37" y="161" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">2</text>
+    <circle cx="199" cy="164" r="10" fill="#ca8a04" fill-opacity="0.25" stroke="#ca8a04" stroke-width="1"/>
+    <text x="199" y="169" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3</text>
+    <text x="125" y="345" font-size="15" text-anchor="middle" fill="#ca8a04" font-weight="bold">(R)-2-butanol</text>
+    <line x1="375" y1="190" x2="427" y2="144" stroke="#111827" stroke-width="2.6"/>
+    <line x1="375" y1="190" x2="323" y2="144" stroke="#111827" stroke-width="2.6"/>
+    <polygon points="375.0,190.0 324.5,238.0 333.5,246.0" fill="#111827" fill-opacity="1.0" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="381.294" y1="199.881" x2="384.04" y2="197.452" stroke="#111827" stroke-width="1.6"/>
+    <line x1="388.336" y1="209.1" x2="392.331" y2="205.566" stroke="#111827" stroke-width="1.6"/>
+    <line x1="395.379" y1="218.319" x2="400.621" y2="213.681" stroke="#111827" stroke-width="1.6"/>
+    <line x1="402.421" y1="227.538" x2="408.912" y2="221.796" stroke="#111827" stroke-width="1.6"/>
+    <line x1="409.464" y1="236.757" x2="417.203" y2="229.91" stroke="#111827" stroke-width="1.6"/>
+    <circle cx="375" cy="190" r="4" fill="#ca8a04" stroke="#111827" stroke-width="1.2"/>
+    <text x="427" y="136" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">CH₂CH₃</text>
+    <text x="323" y="136" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="325" y="264" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">OH</text>
+    <text x="423" y="264" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">H</text>
+    <circle cx="299" cy="256" r="10" fill="#ca8a04" fill-opacity="0.25" stroke="#ca8a04" stroke-width="1"/>
+    <text x="299" y="261" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">1</text>
+    <circle cx="463" cy="156" r="10" fill="#ca8a04" fill-opacity="0.25" stroke="#ca8a04" stroke-width="1"/>
+    <text x="463" y="161" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">2</text>
+    <circle cx="301" cy="164" r="10" fill="#ca8a04" fill-opacity="0.25" stroke="#ca8a04" stroke-width="1"/>
+    <text x="301" y="169" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3</text>
+    <text x="375" y="345" font-size="15" text-anchor="middle" fill="#ca8a04" font-weight="bold">(S)-2-butanol</text>
+    <rect x="14" y="356" width="472" height="66" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="24" y="376" font-size="12.5" text-anchor="start" fill="#111827">R / S: rank the four groups (higher atomic number wins). Turn the molecule so</text>
+    <text x="24" y="393" font-size="12.5" text-anchor="start" fill="#111827">group 4 (lowest, H) points away from you, then trace 1 → 2 → 3:</text>
+    <text x="24" y="411" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">clockwise = R   ·   counterclockwise = S</text>
+  </g>
+</svg>

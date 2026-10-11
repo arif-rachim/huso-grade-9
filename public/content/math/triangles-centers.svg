@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 516" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 516" role="img" aria-labelledby="t d">
   <title id="t">The four centers of a triangle</title>
   <desc id="d">Four panels on the same triangle: centroid (medians), circumcenter (perpendicular bisectors, circumcircle), orthocenter (altitudes), incenter (angle bisectors, incircle).</desc>
   <rect x="0" y="0" width="440" height="516" fill="#ffffff"/>

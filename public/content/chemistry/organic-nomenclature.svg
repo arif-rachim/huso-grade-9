@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 446" role="img" aria-labelledby="t d">
+  <title id="t">How to name an organic molecule</title>
+  <desc id="d">Ten stem names meth to dec for chains of one to ten carbons, suffixes for common groups, and the molecule 4-methylpentan-2-ol drawn as a zigzag with numbered carbons and its name split into prefix, stem and suffix.</desc>
+  <defs>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+    <marker id="arY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ca8a04"/></marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="446" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="250" y="24" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Naming: stem (how many C) + suffix (what group) + prefixes</text>
+    <rect x="14" y="40" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="57" y="57" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">meth</text>
+    <text x="57" y="72" font-size="12" text-anchor="middle" fill="#6b7280">1 C</text>
+    <rect x="108" y="40" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="151" y="57" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">eth</text>
+    <text x="151" y="72" font-size="12" text-anchor="middle" fill="#6b7280">2 C</text>
+    <rect x="202" y="40" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="245" y="57" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">prop</text>
+    <text x="245" y="72" font-size="12" text-anchor="middle" fill="#6b7280">3 C</text>
+    <rect x="296" y="40" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="339" y="57" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">but</text>
+    <text x="339" y="72" font-size="12" text-anchor="middle" fill="#6b7280">4 C</text>
+    <rect x="390" y="40" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="433" y="57" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">pent</text>
+    <text x="433" y="72" font-size="12" text-anchor="middle" fill="#6b7280">5 C</text>
+    <rect x="14" y="84" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="57" y="101" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">hex</text>
+    <text x="57" y="116" font-size="12" text-anchor="middle" fill="#6b7280">6 C</text>
+    <rect x="108" y="84" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="151" y="101" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">hept</text>
+    <text x="151" y="116" font-size="12" text-anchor="middle" fill="#6b7280">7 C</text>
+    <rect x="202" y="84" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="245" y="101" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">oct</text>
+    <text x="245" y="116" font-size="12" text-anchor="middle" fill="#6b7280">8 C</text>
+    <rect x="296" y="84" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="339" y="101" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">non</text>
+    <text x="339" y="116" font-size="12" text-anchor="middle" fill="#6b7280">9 C</text>
+    <rect x="390" y="84" width="86" height="38" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="433" y="101" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">dec</text>
+    <text x="433" y="116" font-size="12" text-anchor="middle" fill="#6b7280">10 C</text>
+    <text x="14" y="150" font-size="12.5" text-anchor="start" fill="#6b7280">suffix = the main group</text>
+    <rect x="14" y="158" width="63" height="44" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="5" />
+    <text x="45.5" y="176" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">-ane</text>
+    <text x="45.5" y="193" font-size="11.5" text-anchor="middle" fill="#6b7280">C–C only</text>
+    <rect x="81.5" y="158" width="63" height="44" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="5" />
+    <text x="113" y="176" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">-ene</text>
+    <text x="113" y="193" font-size="11.5" text-anchor="middle" fill="#6b7280">C=C</text>
+    <rect x="149" y="158" width="63" height="44" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="5" />
+    <text x="180.5" y="176" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">-yne</text>
+    <text x="180.5" y="193" font-size="11.5" text-anchor="middle" fill="#6b7280">C≡C</text>
+    <rect x="216.5" y="158" width="63" height="44" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="5" />
+    <text x="248" y="176" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">-ol</text>
+    <text x="248" y="193" font-size="11.5" text-anchor="middle" fill="#6b7280">–OH</text>
+    <rect x="284" y="158" width="63" height="44" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="5" />
+    <text x="315.5" y="176" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">-al</text>
+    <text x="315.5" y="193" font-size="11.5" text-anchor="middle" fill="#6b7280">–CHO</text>
+    <rect x="351.5" y="158" width="63" height="44" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="5" />
+    <text x="383" y="176" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">-one</text>
+    <text x="383" y="193" font-size="11.5" text-anchor="middle" fill="#6b7280">C=O inside</text>
+    <rect x="419" y="158" width="63" height="44" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="5" />
+    <text x="450.5" y="176" font-size="11.5" text-anchor="middle" fill="#111827" font-weight="bold">-oic acid</text>
+    <text x="450.5" y="193" font-size="11.5" text-anchor="middle" fill="#6b7280">–COOH</text>
+    <text x="14" y="228" font-size="12.5" text-anchor="start" fill="#6b7280">Example: CH₃–CH(OH)–CH₂–CH(CH₃)–CH₃</text>
+    <polyline points="50.0,346.0 100.0,316.0 150.0,346.0 200.0,316.0 250.0,346.0" fill="none" stroke="#111827" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="100" y1="316" x2="100" y2="282" stroke="#111827" stroke-width="2.6"/>
+    <line x1="200" y1="316" x2="200" y2="282" stroke="#111827" stroke-width="2.6"/>
+    <text x="100" y="274" font-size="14" text-anchor="middle" fill="#ca8a04" font-weight="bold">OH</text>
+    <text x="200" y="274" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="50" y="366" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="bold">1</text>
+    <text x="114" y="320" font-size="13" text-anchor="start" fill="#6b7280" font-weight="bold">2</text>
+    <text x="150" y="366" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="bold">3</text>
+    <text x="214" y="320" font-size="13" text-anchor="start" fill="#6b7280" font-weight="bold">4</text>
+    <text x="250" y="366" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="bold">5</text>
+    <text x="290" y="262" font-size="12" text-anchor="start" fill="#111827">1  longest chain with the main</text>
+    <text x="290" y="277" font-size="12" text-anchor="start" fill="#111827">    group: 5 C → pent</text>
+    <text x="290" y="297" font-size="12" text-anchor="start" fill="#111827">2  number so –OH gets the</text>
+    <text x="290" y="312" font-size="12" text-anchor="start" fill="#111827">    lowest number: C2</text>
+    <text x="290" y="332" font-size="12" text-anchor="start" fill="#111827">3  side group on C4: 4-methyl</text>
+    <text x="290" y="352" font-size="12" text-anchor="start" fill="#111827">4  several side groups: a–z order</text>
+    <rect x="14" y="380" width="472" height="56" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="250" y="404" font-size="19" text-anchor="middle" fill="#111827" font-weight="bold">4-methyl  pent  an  -2-ol</text>
+    <text x="250" y="426" font-size="12.5" text-anchor="middle" fill="#6b7280">side group + stem + single bonds + OH on carbon 2</text>
+  </g>
+</svg>

@@ -12,6 +12,10 @@ impl Module for Home {
     }
 }
 
-async fn index() -> View {
-    view("home/index.html", context! {})
+/// Guests go to the login page, everyone else to today's plan.
+async fn index(user: Option<AuthUser>) -> Redirect {
+    match user {
+        Some(_) => Redirect::to("/today"),
+        None => Redirect::to("/login"),
+    }
 }

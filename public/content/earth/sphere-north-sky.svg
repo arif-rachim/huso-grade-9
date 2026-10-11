@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 530" role="img" aria-labelledby="t d">
+  <title id="t">The northern sky around the pole</title>
+  <desc id="d">A polar star chart centered on the north celestial pole with Polaris at the center, the Big Dipper in Ursa Major whose pointer stars point to Polaris, the Little Dipper in Ursa Minor, the W of Cassiopeia on the other side of the pole, Vega in Lyra and Alpheratz Mirach and Almach of Andromeda with the Andromeda Galaxy M31.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="530" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">The sky around the north pole (looking north)</text>
+    <circle cx="240" cy="272" r="34" fill="none" stroke="#d1d5db" stroke-width="1"/>
+    <text x="206.6" y="256" font-size="12" text-anchor="end" fill="#6b7280">Dec 80°</text>
+    <circle cx="240" cy="272" r="85" fill="none" stroke="#d1d5db" stroke-width="1"/>
+    <text x="159.5" y="236.5" font-size="12" text-anchor="end" fill="#6b7280">Dec 65°</text>
+    <circle cx="240" cy="272" r="136" fill="none" stroke="#d1d5db" stroke-width="1"/>
+    <text x="112.4" y="217" font-size="12" text-anchor="end" fill="#6b7280">Dec 50°</text>
+    <circle cx="240" cy="272" r="213.4" fill="none" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="240" y1="231.2" x2="240" y2="61.2" stroke="#d1d5db" stroke-width="1"/>
+    <text x="240" y="55" font-size="12" text-anchor="middle" fill="#6b7280">0h</text>
+    <line x1="211.2" y1="243.2" x2="90.9" y2="122.9" stroke="#d1d5db" stroke-width="1"/>
+    <text x="83.7" y="119.7" font-size="12" text-anchor="middle" fill="#6b7280">3h</text>
+    <line x1="199.2" y1="272" x2="29.2" y2="272" stroke="#d1d5db" stroke-width="1"/>
+    <text x="19" y="276" font-size="12" text-anchor="middle" fill="#6b7280">6h</text>
+    <line x1="211.2" y1="300.8" x2="90.9" y2="421.1" stroke="#d1d5db" stroke-width="1"/>
+    <text x="83.7" y="432.3" font-size="12" text-anchor="middle" fill="#6b7280">9h</text>
+    <line x1="240" y1="312.8" x2="240" y2="482.8" stroke="#d1d5db" stroke-width="1"/>
+    <text x="240" y="497" font-size="12" text-anchor="middle" fill="#6b7280">12h</text>
+    <line x1="268.8" y1="300.8" x2="389.1" y2="421.1" stroke="#d1d5db" stroke-width="1"/>
+    <text x="396.3" y="432.3" font-size="12" text-anchor="middle" fill="#6b7280">15h</text>
+    <line x1="280.8" y1="272" x2="450.8" y2="272" stroke="#d1d5db" stroke-width="1"/>
+    <text x="461" y="276" font-size="12" text-anchor="middle" fill="#6b7280">18h</text>
+    <line x1="268.8" y1="243.2" x2="389.1" y2="122.9" stroke="#d1d5db" stroke-width="1"/>
+    <text x="396.3" y="119.7" font-size="12" text-anchor="middle" fill="#6b7280">21h</text>
+    <path d="M216.6,365.2 L211.3,382.6 L236.7,395.4 L247.5,383.8 L216.6,365.2" fill="none" stroke="#92400e" stroke-width="2"/>
+    <circle cx="216.6" cy="365.2" r="3.8" fill="#111827"/>
+    <circle cx="211.3" cy="382.6" r="3.8" fill="#111827"/>
+    <circle cx="236.7" cy="395.4" r="3.8" fill="#111827"/>
+    <circle cx="247.5" cy="383.8" r="3.8" fill="#111827"/>
+    <circle cx="216.6" cy="365.2" r="3.8" fill="#111827"/>
+    <path d="M247.5,383.8 L267.0,384.5 L282.7,383.3 L302.5,395.4" fill="none" stroke="#92400e" stroke-width="2"/>
+    <circle cx="247.5" cy="383.8" r="3.8" fill="#111827"/>
+    <circle cx="267" cy="384.5" r="3.8" fill="#111827"/>
+    <circle cx="282.7" cy="383.3" r="3.8" fill="#111827"/>
+    <circle cx="302.5" cy="395.4" r="3.8" fill="#111827"/>
+    <path d="M238.5,270.0 L251.5,273.4 L265.7,280.6 L274.4,295.2 L283.7,292.9 L287.4,311.6 L276.5,311.6 L274.4,295.2" fill="none" stroke="#92400e" stroke-width="2"/>
+    <circle cx="238.5" cy="270" r="3.8" fill="#111827"/>
+    <circle cx="251.5" cy="273.4" r="3.8" fill="#111827"/>
+    <circle cx="265.7" cy="280.6" r="3.8" fill="#111827"/>
+    <circle cx="274.4" cy="295.2" r="3.8" fill="#111827"/>
+    <circle cx="283.7" cy="292.9" r="3.8" fill="#111827"/>
+    <circle cx="287.4" cy="311.6" r="3.8" fill="#111827"/>
+    <circle cx="276.5" cy="311.6" r="3.8" fill="#111827"/>
+    <circle cx="274.4" cy="295.2" r="3.8" fill="#111827"/>
+    <path d="M235.8,167.2 L220.0,160.0 L215.6,175.5 L203.0,177.8 L197.1,193.4" fill="none" stroke="#92400e" stroke-width="2"/>
+    <circle cx="235.8" cy="167.2" r="3.8" fill="#111827"/>
+    <circle cx="220" cy="160" r="3.8" fill="#111827"/>
+    <circle cx="215.6" cy="175.5" r="3.8" fill="#111827"/>
+    <circle cx="203" cy="177.8" r="3.8" fill="#111827"/>
+    <circle cx="197.1" cy="193.4" r="3.8" fill="#111827"/>
+    <path d="M411.9,244.1 L414.8,237.4 L428.0,230.2 L428.5,222.5 L415.5,229.5 L414.8,237.4" fill="none" stroke="#92400e" stroke-width="2"/>
+    <circle cx="411.9" cy="244.1" r="3.8" fill="#111827"/>
+    <circle cx="414.8" cy="237.4" r="3.8" fill="#111827"/>
+    <circle cx="428" cy="230.2" r="3.8" fill="#111827"/>
+    <circle cx="428.5" cy="222.5" r="3.8" fill="#111827"/>
+    <circle cx="415.5" cy="229.5" r="3.8" fill="#111827"/>
+    <circle cx="414.8" cy="237.4" r="3.8" fill="#111827"/>
+    <path d="M232.4,65.0 L184.6,95.6 L156.6,133.0" fill="none" stroke="#92400e" stroke-width="2"/>
+    <circle cx="232.4" cy="65" r="3.8" fill="#111827"/>
+    <circle cx="184.6" cy="95.6" r="3.8" fill="#111827"/>
+    <circle cx="156.6" cy="133" r="3.8" fill="#111827"/>
+    <line x1="211.3" y1="382.6" x2="238.5" y2="270" stroke="#6b7280" stroke-width="1.3" stroke-dasharray="5 4"/>
+    <circle cx="238.5" cy="270" r="6" fill="#fde68a" stroke="#111827" stroke-width="2"/>
+    <path d="M199.3,112.2 a10,4 -25 1 0 20,-6 a10,4 -25 1 0 -20,6" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+    <text x="225.3" y="111.2" font-size="12" text-anchor="start" fill="#92400e" font-weight="bold">M31 galaxy</text>
+    <text x="246.5" y="262" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Polaris</text>
+    <text x="206.6" y="355.2" font-size="12" text-anchor="end" fill="#6b7280">Dubhe</text>
+    <text x="203.3" y="398.6" font-size="12" text-anchor="end" fill="#6b7280">Merak</text>
+    <text x="240" y="0" font-size="12" text-anchor="middle" fill="#111827"></text>
+    <text x="242.7" y="415.3" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Big Dipper</text>
+    <text x="242.7" y="429.3" font-size="12" text-anchor="middle" fill="#6b7280">(Ursa Major)</text>
+    <text x="314.4" y="291.2" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Little Dipper</text>
+    <text x="314.4" y="305.2" font-size="12" text-anchor="start" fill="#6b7280">(Ursa Minor)</text>
+    <text x="270" y="164" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Cassiopeia (Cas)</text>
+    <text x="270" y="178" font-size="12" text-anchor="start" fill="#6b7280">the W</text>
+    <text x="399.9" y="248.1" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">Vega (Lyr)</text>
+    <text x="174.6" y="89.6" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">Andromeda (And)</text>
+    <text x="240" y="520" font-size="12" text-anchor="middle" fill="#6b7280">RA grows counterclockwise. At 40° N, stars inside the Dec 50° ring never set (90° − 40°).</text>
+  </g>
+</svg>

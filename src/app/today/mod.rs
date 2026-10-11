@@ -50,7 +50,7 @@ impl Module for Today {
 
 /// The student whose checklist is shown: the logged-in student, or (for the parent) the
 /// household's student.
-async fn student_id(db: &Db, user: &AuthUser) -> Result<Option<i64>> {
+pub(crate) async fn student_id(db: &Db, user: &AuthUser) -> Result<Option<i64>> {
     if user.has_role("student") {
         return Ok(Some(user.id));
     }
@@ -151,6 +151,7 @@ impl TodayChecklist {
     async fn data(&self, ctx: &LiveContext) -> Result<renox::serde_json::Value> {
         let date = self.parsed_date()?;
         let list = load_checklist(&ctx.state().db, self.user_id, date).await?;
+        let future = date > crate::clock::today();
         Ok(match list {
             Some(l) => {
                 let percent = if l.total == 0 {
@@ -160,10 +161,13 @@ impl TodayChecklist {
                 };
                 json!({
                     "blocks": l.blocks, "done": l.done, "total": l.total, "percent": percent,
-                    "complete": l.total > 0 && l.done == l.total,
+                    "complete": l.total > 0 && l.done == l.total, "future": future,
                 })
             }
-            None => json!({ "blocks": [], "done": 0, "total": 0, "percent": 0, "complete": false }),
+            None => json!({
+                "blocks": [], "done": 0, "total": 0, "percent": 0, "complete": false,
+                "future": future,
+            }),
         })
     }
 
@@ -177,6 +181,10 @@ impl TodayChecklist {
         }
         let db = ctx.state().db.clone();
         let date = self.parsed_date()?;
+        // Days that have not started yet cannot be ticked.
+        if date > crate::clock::today() {
+            return Err(Error::Forbidden);
+        }
         let day = PlanDay::query()
             .where_(PlanDay::DATE.eq(date))
             .first(&db)
@@ -367,15 +375,21 @@ async fn index(
     State(db): State<Db>,
     Query(q): Query<DateQuery>,
 ) -> Result<View> {
-    let today = crate::clock::today();
     let date = q
         .date
         .as_deref()
         .and_then(|d| NaiveDate::parse_from_str(d, "%Y-%m-%d").ok())
-        .unwrap_or(today);
+        .unwrap_or_else(crate::clock::today);
+    day_view(ctx, &user, &db, date).await
+}
+
+/// The page of one plan day (checklist, timer, side cards). Shared by `/today` and by
+/// `/plan/{date}` (the Plan module): both show the same live checklist.
+pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDate) -> Result<View> {
+    let today = crate::clock::today();
     let (start, end) = (ymd(PLAN_START), ymd(PLAN_END));
     let readonly = !user.has_role("student");
-    let student = student_id(&db, &user).await?;
+    let student = student_id(db, user).await?;
 
     let mut page = TodayPage {
         title: "Today",
@@ -424,10 +438,10 @@ async fn index(
         });
         return Ok(View::typed(page));
     };
-    page.flashcards_due = summary::flashcards_due(&db, student).await?;
-    page.errors_due = summary::errors_due(&db, student).await?;
+    page.flashcards_due = summary::flashcards_due(db, student).await?;
+    page.errors_due = summary::errors_due(db, student).await?;
 
-    let Some(list) = load_checklist(&db, student, date).await? else {
+    let Some(list) = load_checklist(db, student, date).await? else {
         page.empty = Some(EmptyState {
             title: "No plan for this day".into(),
             message: "Nothing is planned on this date.".into(),
@@ -437,10 +451,7 @@ async fn index(
         return Ok(View::typed(page));
     };
 
-    let subjects: Vec<Subject> = Subject::query()
-        .order_by(Subject::POSITION)
-        .get(&db)
-        .await?;
+    let subjects: Vec<Subject> = Subject::query().order_by(Subject::POSITION).get(db).await?;
     let by_id: HashMap<i64, &Subject> = subjects.iter().map(|s| (s.id, s)).collect();
     let subject = subjects.iter().find(|s| s.slug == list.day.subject);
     page.day = Some(DayHead {
@@ -471,7 +482,7 @@ async fn index(
     if !slugs.is_empty() {
         let mut topics = Topic::query()
             .where_in("slug", slugs.clone())
-            .get(&db)
+            .get(db)
             .await?;
         topics.sort_by_key(|t| slugs.iter().position(|s| *s == t.slug));
         page.new_material = topics

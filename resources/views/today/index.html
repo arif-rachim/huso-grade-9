@@ -1,14 +1,15 @@
 <rx-page layout="layouts/app.html">
   <rx-page-header title="{{ long_date }}">
-    <rx-link-button rx-if="prev_date" href="{{ route('today.index', date=prev_date) }}" label="← Yesterday" variant="secondary" size="small"/>
+    <rx-link-button rx-if="prev_date" href="{{ route('plan.show', prev_date) }}" label="← Yesterday" variant="secondary" size="small"/>
+    <rx-link-button href="{{ route('plan.index') }}" label="Calendar" variant="secondary" size="small"/>
     <rx-link-button rx-if="not is_today" href="{{ route('today.index') }}" label="Today" variant="secondary" size="small"/>
-    <rx-link-button rx-if="next_date" href="{{ route('today.index', date=next_date) }}" label="Tomorrow →" variant="secondary" size="small"/>
+    <rx-link-button rx-if="next_date" href="{{ route('plan.show', next_date) }}" label="Tomorrow →" variant="secondary" size="small"/>
   </rx-page-header>
 
   {% if empty %}
   <rx-empty title="{{ empty.title }}" message="{{ empty.message }}" icon="calendar"/>
   {% if empty.action_label %}
-  <p class="today-empty-action"><rx-link-button href="{{ route('today.index', date=empty.action_date) }}" label="{{ empty.action_label }}" variant="secondary"/></p>
+  <p class="today-empty-action"><rx-link-button href="{{ route('plan.show', empty.action_date) }}" label="{{ empty.action_label }}" variant="secondary"/></p>
   {% endif %}
   {% elif day %}
   <header class="today-head" style="--subject-color: {{ day.color }}">

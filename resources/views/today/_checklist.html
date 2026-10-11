@@ -7,6 +7,9 @@
 {% if data.complete %}
 <rx-alert kind="success" message="Today is done! 🎉"/>
 {% endif %}
+{% if data.future %}
+<rx-alert kind="info" message="This day has not started yet. You can tick its tasks on the day."/>
+{% endif %}
 {% if state.readonly %}
 <rx-alert kind="info" message="Read-only: you are looking at the student's checklist."/>
 {% endif %}
@@ -15,7 +18,7 @@
   <ul class="rx-list today-tasks">
     {% for task in block.tasks %}
     <li>
-      <rx-checkbox name="task" id="task-{{ task.id }}-{{ 'on' if task.checked else 'off' }}" label="{{ task.label }}" :checked="task.checked" :disabled="state.readonly" rx-click="toggle({{ task.id }})"/>
+      <rx-checkbox name="task" id="task-{{ task.id }}-{{ 'on' if task.checked else 'off' }}" label="{{ task.label }}" :checked="task.checked" :disabled="state.readonly or data.future" rx-click="toggle({{ task.id }})"/>
     </li>
     {% endfor %}
   </ul>

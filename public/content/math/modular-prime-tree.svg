@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 370" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 370" role="img" aria-labelledby="t d">
 <title id="t">Prime factorization of 360</title>
 <desc id="d">A factor tree splits 360 into the primes 2, 2, 2, 3, 3 and 5, so 360 equals 2 cubed times 3 squared times 5. Adding 1 to each exponent and multiplying gives 4 times 3 times 2, which is 24 divisors.</desc>
 <rect x="0" y="0" width="440" height="370" fill="#ffffff"/>

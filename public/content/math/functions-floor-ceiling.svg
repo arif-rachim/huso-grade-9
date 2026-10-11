@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 375" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 375" role="img" aria-labelledby="t d">
 <title id="t">Floor and ceiling graphs</title>
 <desc id="d">Two staircase graphs for x from minus 2 to 3. The floor staircase is solid blue with a filled dot on the left of each step. The ceiling staircase is dashed gray with a filled dot on the right of each step.</desc>
 <rect x="0" y="0" width="440" height="375" fill="#ffffff"/>

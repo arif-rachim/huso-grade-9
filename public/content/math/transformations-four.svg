@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 640" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 640" role="img" aria-labelledby="t d">
   <title id="t">Four transformations of the plane</title>
   <desc id="d">The same triangle A(1,1), B(2,1), C(1,2) is translated by (2,3), reflected in the x-axis, rotated 90 degrees counterclockwise about the origin, and dilated by factor 2 from the origin.</desc>
   <rect x="0" y="0" width="440" height="640" fill="#ffffff"/>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 380" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 380" role="img" aria-labelledby="t d">
   <title id="t">Equation of a circle and the shoelace formula</title>
   <desc id="d">Left: circle with center (3,2) and radius 5, equation (x-3)^2 + (y-2)^2 = 25, with a line y = 2 cutting it. Right: quadrilateral (1,1), (7,2), (6,6), (2,5) with area 20 from the shoelace formula.</desc>
   <rect x="0" y="0" width="440" height="380" fill="#ffffff"/>

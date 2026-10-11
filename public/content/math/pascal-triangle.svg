@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 356" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 356" role="img" aria-labelledby="t d">
   <title id="t">Pascal's triangle, rows 0 to 6</title>
   <desc id="d">Each number is the sum of the two numbers above it. Row n holds the coefficients of (a + b) to the power n.</desc>
   <rect x="0" y="0" width="440" height="356" fill="#ffffff"/>

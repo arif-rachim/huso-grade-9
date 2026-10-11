@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 420" role="img" aria-labelledby="t d">
+<title id="t">Mohs hardness scale</title>
+<desc id="d">Ten reference minerals from talc (1) to diamond (10), with a fingernail at 2.5, a copper coin at 3.5 and glass or a steel nail at 5.5.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="420" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Mohs scale of hardness</text>
+<text x="24" y="85" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">1</text>
+<text x="32" y="85" font-size="13" text-anchor="start" fill="#111827">Talc</text>
+<text x="24" y="111" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">2</text>
+<text x="32" y="111" font-size="13" text-anchor="start" fill="#111827">Gypsum</text>
+<text x="24" y="137" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">3</text>
+<text x="32" y="137" font-size="13" text-anchor="start" fill="#111827">Calcite</text>
+<text x="24" y="163" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">4</text>
+<text x="32" y="163" font-size="13" text-anchor="start" fill="#111827">Fluorite</text>
+<text x="24" y="189" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">5</text>
+<text x="32" y="189" font-size="13" text-anchor="start" fill="#111827">Apatite</text>
+<text x="24" y="215" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">6</text>
+<text x="32" y="215" font-size="13" text-anchor="start" fill="#111827">Orthoclase feldspar</text>
+<text x="24" y="241" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">7</text>
+<text x="32" y="241" font-size="13" text-anchor="start" fill="#111827">Quartz</text>
+<text x="24" y="267" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">8</text>
+<text x="32" y="267" font-size="13" text-anchor="start" fill="#111827">Topaz</text>
+<text x="24" y="293" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">9</text>
+<text x="32" y="293" font-size="13" text-anchor="start" fill="#111827">Corundum</text>
+<text x="24" y="319" font-size="14" text-anchor="end" fill="#92400e" font-weight="bold">10</text>
+<text x="32" y="319" font-size="13" text-anchor="start" fill="#111827">Diamond</text>
+<rect x="190" y="70" width="20" height="20" fill="#92400e" fill-opacity="0.15" stroke="#92400e" stroke-width="1" rx="3"/>
+<rect x="190" y="96" width="40" height="20" fill="#92400e" fill-opacity="0.22" stroke="#92400e" stroke-width="1" rx="3"/>
+<rect x="190" y="122" width="60" height="20" fill="#92400e" fill-opacity="0.29000000000000004" stroke="#92400e" stroke-width="1" rx="3"/>
+<rect x="190" y="148" width="80" height="20" fill="#92400e" fill-opacity="0.36" stroke="#92400e" stroke-width="1" rx="3"/>
+<rect x="190" y="174" width="100" height="20" fill="#92400e" fill-opacity="0.43000000000000005" stroke="#92400e" stroke-width="1" rx="3"/>
+<rect x="190" y="200" width="120" height="20" fill="#92400e" fill-opacity="0.5" stroke="#92400e" stroke-width="1" rx="3"/>
+<rect x="190" y="226" width="140" height="20" fill="#92400e" fill-opacity="0.5700000000000001" stroke="#92400e" stroke-width="1" rx="3"/>
+<rect x="190" y="252" width="160" height="20" fill="#92400e" fill-opacity="0.64" stroke="#92400e" stroke-width="1" rx="3"/>
+<rect x="190" y="278" width="180" height="20" fill="#92400e" fill-opacity="0.7100000000000001" stroke="#92400e" stroke-width="1" rx="3"/>
+<rect x="190" y="304" width="200" height="20" fill="#92400e" fill-opacity="0.7800000000000001" stroke="#92400e" stroke-width="1" rx="3"/>
+<line x1="240" y1="62" x2="240" y2="332" stroke="#111827" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="243" y="344" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">fingernail 2.5</text>
+<line x1="260" y1="62" x2="260" y2="346" stroke="#111827" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="263" y="358" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">copper coin 3.5</text>
+<line x1="300" y1="62" x2="300" y2="360" stroke="#111827" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="297" y="372" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">glass / steel 5.5</text>
+<text x="200" y="392" font-size="12" text-anchor="middle" fill="#6b7280">A harder mineral scratches a softer one.</text>
+<text x="200" y="408" font-size="12" text-anchor="middle" fill="#6b7280">Not equal steps: diamond is far harder than corundum.</text>
+</g>
+</svg>

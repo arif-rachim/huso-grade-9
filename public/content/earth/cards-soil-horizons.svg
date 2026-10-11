@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 374" role="img" aria-labelledby="t d">
+<title id="t">Soil horizons</title>
+<desc id="d">From the top: O horizon of humus and litter, A topsoil, B subsoil, C weathered rock fragments, R solid bedrock.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="374" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Soil horizons</text>
+<rect x="60" y="34" width="120" height="36" fill="#92400e" fill-opacity="0.9" stroke="#111827" stroke-width="1.2"/>
+<text x="40" y="58" font-size="18" text-anchor="middle" fill="#92400e" font-weight="bold">O</text>
+<text data-label="Humus / litter" x="195" y="50" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Humus / litter</text>
+<text x="195" y="66" font-size="12" text-anchor="start" fill="#6b7280">dead leaves, rotting plants</text>
+<rect x="60" y="70" width="120" height="60" fill="#92400e" fill-opacity="0.65" stroke="#111827" stroke-width="1.2"/>
+<text x="40" y="106" font-size="18" text-anchor="middle" fill="#92400e" font-weight="bold">A</text>
+<text data-label="Topsoil" x="195" y="98" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Topsoil</text>
+<text x="195" y="114" font-size="12" text-anchor="start" fill="#6b7280">humus + minerals, roots, life</text>
+<rect x="60" y="130" width="120" height="70" fill="#92400e" fill-opacity="0.4" stroke="#111827" stroke-width="1.2"/>
+<text x="40" y="171" font-size="18" text-anchor="middle" fill="#92400e" font-weight="bold">B</text>
+<text data-label="Subsoil" x="195" y="163" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Subsoil</text>
+<text x="195" y="179" font-size="12" text-anchor="start" fill="#6b7280">clay and minerals washed down</text>
+<rect x="60" y="200" width="120" height="60" fill="#92400e" fill-opacity="0.22" stroke="#111827" stroke-width="1.2"/>
+<text x="40" y="236" font-size="18" text-anchor="middle" fill="#92400e" font-weight="bold">C</text>
+<text data-label="Weathered rock" x="195" y="228" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Weathered rock</text>
+<text x="195" y="244" font-size="12" text-anchor="start" fill="#6b7280">broken bedrock pieces</text>
+<rect x="60" y="260" width="120" height="60" fill="#92400e" fill-opacity="0.08" stroke="#111827" stroke-width="1.2"/>
+<text x="40" y="296" font-size="18" text-anchor="middle" fill="#92400e" font-weight="bold">R</text>
+<text data-label="Bedrock" x="195" y="288" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Bedrock</text>
+<text x="195" y="304" font-size="12" text-anchor="start" fill="#6b7280">solid unweathered rock</text>
+<text x="200" y="344" font-size="12" text-anchor="middle" fill="#6b7280">Soil forms from bedrock by weathering plus living things,</text>
+<text x="200" y="360" font-size="12" text-anchor="middle" fill="#6b7280">over time. Climate, slope and organisms all matter.</text>
+</g>
+</svg>

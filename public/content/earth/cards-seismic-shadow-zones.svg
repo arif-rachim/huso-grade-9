@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 430" role="img" aria-labelledby="t d">
+<title id="t">Seismic waves and shadow zones</title>
+<desc id="d">Schematic cross section. P waves pass through the liquid outer core but bend, leaving shadow zones 104 to 140 degrees from the earthquake. S waves cannot travel through the liquid outer core.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="430" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<circle cx="200" cy="215" r="130" fill="#92400e" fill-opacity="0.1" stroke="#111827" stroke-width="2"/>
+<circle cx="200" cy="215" r="70.8" fill="#92400e" fill-opacity="0.35" stroke="#111827" stroke-width="1.5"/>
+<line x1="200" y1="85" x2="274.6" y2="108.5" stroke="#92400e" stroke-width="1.5"/>
+<line x1="200" y1="85" x2="125.4" y2="108.5" stroke="#92400e" stroke-width="1.5"/>
+<line x1="200" y1="85" x2="322.2" y2="170.5" stroke="#92400e" stroke-width="1.5"/>
+<line x1="200" y1="85" x2="77.8" y2="170.5" stroke="#92400e" stroke-width="1.5"/>
+<line x1="200" y1="85" x2="328" y2="237.6" stroke="#92400e" stroke-width="1.5"/>
+<line x1="200" y1="85" x2="72" y2="237.6" stroke="#92400e" stroke-width="1.5"/>
+<polyline points="200,85 255.8,171.4 255.8,258.6 248.7,335.5" fill="none" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="200,85 240.6,157 235.4,276.3 218.1,343.7" fill="none" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="200,85 144.2,171.4 144.2,258.6 151.3,335.5" fill="none" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/>
+<polyline points="200,85 159.4,157 164.6,276.3 181.9,343.7" fill="none" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/>
+<circle cx="200" cy="85" r="6" fill="#111827"/>
+<text x="210" y="77" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Earthquake</text>
+<path d="M333.9,248.4 A138,138 0 0 1 288.7,320.7" fill="none" stroke="#111827" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M66.1,248.4 A138,138 0 0 0 111.3,320.7" fill="none" stroke="#111827" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M345.5,251.3 A150,150 0 0 1 54.5,251.3" fill="none" stroke="#6b7280" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<text x="200" y="220" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">CORE</text>
+<text x="200" y="237" font-size="12" text-anchor="middle" fill="#111827">(outer core liquid)</text>
+<line x1="14" y1="20" x2="40" y2="20" stroke="#111827" stroke-width="6"/>
+<text x="46" y="24" font-size="12" text-anchor="start" fill="#111827">P shadow zone (104°–140°)</text>
+<line x1="14" y1="42" x2="40" y2="42" stroke="#6b7280" stroke-width="3" stroke-dasharray="6 4"/>
+<text x="46" y="46" font-size="12" text-anchor="start" fill="#111827">S-wave shadow (beyond 104°)</text>
+<text x="200" y="402" font-size="12" text-anchor="middle" fill="#6b7280">S waves cannot cross the liquid outer core.</text>
+<text x="200" y="418" font-size="12" text-anchor="middle" fill="#6b7280">P waves bend (refract) at the core boundary.</text>
+</g>
+</svg>

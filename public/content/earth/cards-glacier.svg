@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 470" role="img" aria-labelledby="t d">
+<title id="t">Glacier zones and valley shapes</title>
+<desc id="d">A valley glacier with an accumulation zone above the equilibrium line, an ablation zone below it, and a terminal moraine at the snout. Rivers cut V-shaped valleys; glaciers carve U-shaped valleys.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="470" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">A valley glacier (side view)</text>
+<polygon points="10,240 10,110 90,75 200,145 330,205 390,210 390,240" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="92,66 200,134 335,194 335,208 200,150 88,84" fill="#ffffff" fill-opacity="0.95" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+<line x1="200" y1="100" x2="200" y2="240" stroke="#6b7280" stroke-width="1" stroke-dasharray="4 3"/>
+<text data-label="Equilibrium line" x="200" y="258" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">equilibrium line</text>
+<text data-label="Accumulation zone" x="30" y="42" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Accumulation zone</text>
+<text x="30" y="57" font-size="12" text-anchor="start" fill="#6b7280">snow builds up (gain)</text>
+<text data-label="Ablation zone" x="300" y="130" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Ablation zone</text>
+<text x="300" y="146" font-size="12" text-anchor="middle" fill="#6b7280">melts away (loss)</text>
+<polygon points="335,194 355,192 372,204 355,214 335,208" fill="#92400e" fill-opacity="0.5" stroke="#111827" stroke-width="1.5" stroke-linejoin="round"/>
+<text data-label="Terminal moraine" x="380" y="178" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">Terminal moraine</text>
+<line x1="350" y1="190" x2="350" y2="196" stroke="#111827" stroke-width="1"/>
+<text x="200" y="276" font-size="12" text-anchor="middle" fill="#6b7280">Ice flows downhill. It carries rock and drops it at the snout.</text>
+<line x1="20" y1="290" x2="380" y2="290" stroke="#d1d5db" stroke-width="1"/>
+<text x="100" y="312" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">River valley</text>
+<text data-label="V-shaped valley" x="100" y="329" font-size="14" text-anchor="middle" fill="#92400e" font-weight="bold">V-shaped</text>
+<polygon points="20,345 65,410 100,425 135,410 180,345 180,440 20,440" fill="#92400e" fill-opacity="0.12"/>
+<polyline points="20,345 65,410 100,425 135,410 180,345" fill="none" stroke="#92400e" stroke-width="3" stroke-linejoin="round"/>
+<text x="300" y="312" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Glacial valley</text>
+<text data-label="U-shaped valley" x="300" y="329" font-size="14" text-anchor="middle" fill="#92400e" font-weight="bold">U-shaped</text>
+<polygon points="220,345 235,400 260,422 340,422 365,400 380,345 380,440 220,440" fill="#92400e" fill-opacity="0.12"/>
+<polyline points="220,345 235,400 260,422 340,422 365,400 380,345" fill="none" stroke="#92400e" stroke-width="3" stroke-linejoin="round"/>
+<text x="100" y="458" font-size="12" text-anchor="middle" fill="#6b7280">cut by running water</text>
+<text x="300" y="458" font-size="12" text-anchor="middle" fill="#6b7280">carved by ice: wide, flat floor</text>
+</g>
+</svg>

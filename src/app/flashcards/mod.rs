@@ -15,8 +15,8 @@ pub mod models;
 pub mod review;
 pub mod svg;
 
-use crate::app::content::models::{Flashcard, Subject, Topic};
 use crate::app::accounts::{PARENT, STUDENT};
+use crate::app::content::models::{Flashcard, Subject, Topic};
 use deck::Deck;
 use renox::db::Json;
 use renox::prelude::*;
@@ -97,7 +97,10 @@ async fn index(
         let deck = Deck::load(db, student).await?;
         selected = known_subject(&deck.subjects, &filter.subject);
         let plan = deck::plan_subject(db, today).await?;
-        queue_len = deck.queue(today, plan.as_deref(), selected.as_deref()).items.len();
+        queue_len = deck
+            .queue(today, plan.as_deref(), selected.as_deref())
+            .items
+            .len();
         stats = deck.stats(today);
         due_total = stats.iter().map(|s| s.due).sum();
         subjects = deck.subjects.clone();
@@ -105,7 +108,9 @@ async fn index(
             .cards
             .iter()
             .filter(|c| c.origin == "manual")
-            .filter(|c| selected.is_none() || deck.subject_of(c).map(|s| &s.slug) == selected.as_ref())
+            .filter(|c| {
+                selected.is_none() || deck.subject_of(c).map(|s| &s.slug) == selected.as_ref()
+            })
         {
             let subject = deck.subject_of(card);
             manual.push(json!({

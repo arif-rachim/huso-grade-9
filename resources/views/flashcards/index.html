@@ -21,11 +21,13 @@
     <rx-link-button rx-for="s in subjects" href="{{ route('flashcards.index', subject=s.slug) }}" size="small" variant="{{ 'primary' if s.slug == selected else 'secondary' }}" label="{{ s.emoji }} {{ s.name }}"/>
   </rx-toolbar>
 
-  <rx-stats columns="3">
-    <rx-stat label="Due today" :value="due_total"/>
-    <rx-stat label="In today's review" :value="queue_len"/>
-    <rx-stat label="Cards started" :value="started"/>
-  </rx-stats>
+  <div class="fc-stats">
+    <rx-stats columns="3">
+      <rx-stat label="Due today" :value="due_total"/>
+      <rx-stat label="In today's review" :value="queue_len"/>
+      <rx-stat label="Cards started" :value="started"/>
+    </rx-stats>
+  </div>
 
   <rx-card title="Your cards by subject" subtitle="Box 1 comes back every day, box 5 every 14 days. Graded Good? The card moves up a box.">
     <rx-table :rows="stats" caption="Cards by subject">
@@ -36,7 +38,7 @@
       <rx-column label="Box 1 to 5">{{ row.boxes[0] }} · {{ row.boxes[1] }} · {{ row.boxes[2] }} · {{ row.boxes[3] }} · {{ row.boxes[4] }}</rx-column>
       <rx-slot name="empty"><rx-empty title="No cards yet" message="Cards appear here once the content is loaded."/></rx-slot>
     </rx-table>
-    {% if stats %}
+    {% if started > 0 %}
       <rx-chart kind="bar" :labels="labels" :series="series" stacked title="Cards in each box, by subject" id="boxes-chart" height="260"/>
     {% endif %}
   </rx-card>

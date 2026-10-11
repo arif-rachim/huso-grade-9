@@ -4,7 +4,7 @@
     <rx-form action="{{ route('flashcards.update', card.id) if card else route('flashcards.store') }}" enctype="multipart/form-data">
       <rx-form-errors/>
       <div hx-get="{{ route('flashcards.topics') }}" hx-trigger="rx:select:changed" hx-target="#fc-topic" hx-include="this">
-        <rx-select name="subject" label="Subject" :options="subject_options" :selected="subject" placeholder="Choose a subject" id="fc-subject"/>
+        <rx-select name="subject" label="Subject" :options="subject_options" :selected="subject" placeholder="Choose a subject" required id="fc-subject"/>
       </div>
       <div id="fc-topic">{% include "flashcards/_topic_select.html" %}</div>
       <rx-input name="front" label="Front (the question)" :value="card.front if card else ''" required hint="Short and clear. One idea per card."/>

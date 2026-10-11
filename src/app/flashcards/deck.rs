@@ -50,8 +50,20 @@ pub struct Deck {
     public_dir: PathBuf,
 }
 
+static PUBLIC_OVERRIDE: std::sync::OnceLock<PathBuf> = std::sync::OnceLock::new();
+
+/// Tests point this at a folder of fixture pictures (once per test binary).
+#[doc(hidden)]
+pub fn use_public_dir(dir: PathBuf) {
+    let _ = PUBLIC_OVERRIDE.set(dir);
+}
+
+/// The `public/` folder the content pictures are read from.
 pub fn public_dir() -> PathBuf {
-    crate::app::content::project_dir().join("public")
+    PUBLIC_OVERRIDE
+        .get()
+        .cloned()
+        .unwrap_or_else(|| crate::app::content::project_dir().join("public"))
 }
 
 impl Deck {
@@ -155,7 +167,10 @@ impl Deck {
             }
             for label in self.labels(card) {
                 if room > 0 && !seen.contains(&(card.id, label.as_str())) {
-                    new_units.push(Unit { c: card.id, l: label });
+                    new_units.push(Unit {
+                        c: card.id,
+                        l: label,
+                    });
                     room -= 1;
                 }
             }
@@ -314,7 +329,9 @@ mod tests {
     fn deck(cards: Vec<Flashcard>, states: Vec<CardState>) -> Deck {
         Deck {
             subjects: vec![subject(1, "math", 0), subject(2, "biology", 1)],
-            topics: [(10, topic(10, 1)), (20, topic(20, 2))].into_iter().collect(),
+            topics: [(10, topic(10, 1)), (20, topic(20, 2))]
+                .into_iter()
+                .collect(),
             cards,
             states,
             public_dir: PathBuf::from("/nonexistent"),
@@ -331,7 +348,11 @@ mod tests {
         assert_eq!(q.items.len(), 20);
         assert_eq!((q.due, q.new), (0, 20));
         let ids: Vec<i64> = q.items.iter().map(|u| u.c).collect();
-        assert_eq!(&ids[..15], &(101..=115).collect::<Vec<_>>()[..], "biology first");
+        assert_eq!(
+            &ids[..15],
+            &(101..=115).collect::<Vec<_>>()[..],
+            "biology first"
+        );
         assert_eq!(&ids[15..], &[1, 2, 3, 4, 5], "then the other subjects");
 
         let q = deck.queue(d(12), Some("math"), None);
@@ -361,7 +382,11 @@ mod tests {
     #[test]
     fn due_cards_come_first_oldest_first() {
         let cards: Vec<Flashcard> = (1..=5).map(|i| card(i, 10)).collect();
-        let states = vec![state(3, d(10), d(1)), state(1, d(11), d(1)), state(2, d(20), d(1))];
+        let states = vec![
+            state(3, d(10), d(1)),
+            state(1, d(11), d(1)),
+            state(2, d(20), d(1)),
+        ];
         let q = deck(cards, states).queue(d(12), None, None);
         let ids: Vec<i64> = q.items.iter().map(|u| u.c).collect();
         assert_eq!(&ids[..2], &[3, 1], "card 2 is not due until the 20th");

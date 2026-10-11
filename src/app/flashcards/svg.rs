@@ -89,9 +89,7 @@ fn scan(svg: &str) -> Vec<Tag> {
         let closing = inner.starts_with('/');
         let self_closing = inner.ends_with('/');
         let body = inner.trim_start_matches('/').trim_end_matches('/');
-        let name_end = body
-            .find(|c: char| c.is_whitespace())
-            .unwrap_or(body.len());
+        let name_end = body.find(|c: char| c.is_whitespace()).unwrap_or(body.len());
         tags.push(Tag {
             start: i,
             end: j + 1,
@@ -348,7 +346,7 @@ fn path_bbox(d: &str) -> Option<BBox> {
                     let n = chunk.len();
                     cx = if rel { bx + chunk[n - 2] } else { chunk[n - 2] };
                     cy = if rel { by + chunk[n - 1] } else { chunk[n - 1] };
-                    if c.to_ascii_uppercase() == 'M' {
+                    if c.eq_ignore_ascii_case(&'M') {
                         sx = cx;
                         sy = cy;
                     }
@@ -635,12 +633,18 @@ mod tests {
     #[test]
     fn a_circle_is_replaced_by_a_grey_box_with_a_question_mark() {
         let out = hide_label(CELL, "Nucleus");
-        assert!(!out.contains("Nucleus"), "the answer must not stay in the page");
+        assert!(
+            !out.contains("Nucleus"),
+            "the answer must not stay in the page"
+        );
         assert!(!out.contains("<circle"));
         assert!(out.contains("fc-occluded"));
         assert!(out.contains(">?</text>"));
         // r=20 around (100, 50), plus 0.5 stroke, plus 3 padding.
-        assert!(out.contains("x=\"76.5\" y=\"26.5\" width=\"47\" height=\"47\""), "{out}");
+        assert!(
+            out.contains("x=\"76.5\" y=\"26.5\" width=\"47\" height=\"47\""),
+            "{out}"
+        );
         // Other labels stay.
         assert!(out.contains("Cytoplasm"));
     }
@@ -717,9 +721,16 @@ mod tests {
     fn read_only_serves_plain_svg_files_under_public() {
         let dir = std::env::temp_dir().join(format!("huso-svg-{}", std::process::id()));
         std::fs::create_dir_all(dir.join("content")).unwrap();
-        std::fs::write(dir.join("content/ok.svg"), "<?xml version=\"1.0\"?>\n<svg><g/></svg>").unwrap();
+        std::fs::write(
+            dir.join("content/ok.svg"),
+            "<?xml version=\"1.0\"?>\n<svg><g/></svg>",
+        )
+        .unwrap();
         std::fs::write(dir.join("content/bad.svg"), "<svg><script>x</script></svg>").unwrap();
-        assert_eq!(read(&dir, "content/ok.svg").as_deref(), Some("<svg><g/></svg>"));
+        assert_eq!(
+            read(&dir, "content/ok.svg").as_deref(),
+            Some("<svg><g/></svg>")
+        );
         assert_eq!(read(&dir, "content/bad.svg"), None);
         assert_eq!(read(&dir, "../etc/passwd.svg"), None);
         assert_eq!(read(&dir, "/etc/passwd.svg"), None);

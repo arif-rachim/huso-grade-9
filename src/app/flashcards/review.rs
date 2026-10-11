@@ -94,7 +94,10 @@ fn pairs(value: &renox::serde_json::Value) -> Vec<(String, String)> {
             a.iter()
                 .filter_map(|p| {
                     let p = p.as_array()?;
-                    Some((p.first()?.as_str()?.to_owned(), p.get(1)?.as_str()?.to_owned()))
+                    Some((
+                        p.first()?.as_str()?.to_owned(),
+                        p.get(1)?.as_str()?.to_owned(),
+                    ))
                 })
                 .collect()
         })
@@ -244,7 +247,7 @@ impl Review {
             "finished": false,
             "total": total,
             "number": self.pos + 1,
-            "percent": if total == 0 { 0 } else { self.pos * 100 / total },
+            "percent": (self.pos * 100).checked_div(total).unwrap_or(0),
             "card": view,
             "buttons": buttons,
             "summary": summary,
@@ -347,8 +350,15 @@ impl Review {
         let unit = self.queue[self.pos].clone();
         let db = ctx.state().db.clone();
         if Flashcard::find(&db, unit.c).await?.is_some() {
-            grading::record(&db, self.user_id, unit.c, &unit.l, grade, crate::clock::today())
-                .await?;
+            grading::record(
+                &db,
+                self.user_id,
+                unit.c,
+                &unit.l,
+                grade,
+                crate::clock::today(),
+            )
+            .await?;
         }
         self.counts[(number - 1) as usize] += 1;
         self.pos += 1;

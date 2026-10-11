@@ -22,7 +22,7 @@
   <div class="fc-progress">
     <a class="fc-progress__back" href="{{ route('flashcards.index') }}">&larr; Overview</a>
     <strong class="fc-progress__count">{{ data.number }}/{{ data.total }}</strong>
-    <rx-progress value="{{ data.percent }}" max="100" label="Progress"/>
+    <rx-progress :value="data.percent" max="100" label="Progress"/>
   </div>
 
   <article class="fc-card" style="--fc-color: {{ card.subject.color if card.subject else '#6b7280' }}" data-kind="{{ card.kind }}">

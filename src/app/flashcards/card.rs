@@ -94,11 +94,26 @@ mod tests {
         assert_eq!(
             parts,
             vec![
-                ClozePart { text: "The ".into(), gap: false },
-                ClozePart { text: "left ventricle".into(), gap: true },
-                ClozePart { text: " pumps blood to the ".into(), gap: false },
-                ClozePart { text: "aorta".into(), gap: true },
-                ClozePart { text: ".".into(), gap: false },
+                ClozePart {
+                    text: "The ".into(),
+                    gap: false
+                },
+                ClozePart {
+                    text: "left ventricle".into(),
+                    gap: true
+                },
+                ClozePart {
+                    text: " pumps blood to the ".into(),
+                    gap: false
+                },
+                ClozePart {
+                    text: "aorta".into(),
+                    gap: true
+                },
+                ClozePart {
+                    text: ".".into(),
+                    gap: false
+                },
             ]
         );
         assert_eq!(cloze_answers("A {{b}} c {{d}}"), ["b", "d"]);
@@ -108,7 +123,10 @@ mod tests {
     fn cloze_without_gaps_or_with_an_open_gap_is_plain_text() {
         assert_eq!(
             cloze_parts("no gaps"),
-            vec![ClozePart { text: "no gaps".into(), gap: false }]
+            vec![ClozePart {
+                text: "no gaps".into(),
+                gap: false
+            }]
         );
         let open = cloze_parts("half {{open");
         assert!(open.iter().all(|p| !p.gap));
@@ -118,7 +136,13 @@ mod tests {
     #[test]
     fn a_gap_can_start_the_text() {
         let parts = cloze_parts("{{ATP}} is energy");
-        assert_eq!(parts[0], ClozePart { text: "ATP".into(), gap: true });
+        assert_eq!(
+            parts[0],
+            ClozePart {
+                text: "ATP".into(),
+                gap: true
+            }
+        );
         assert_eq!(parts.len(), 2);
     }
 
@@ -140,7 +164,13 @@ mod tests {
 
     #[test]
     fn urls_for_content_and_uploads() {
-        assert_eq!(visual_url("content/biology/x.svg"), "/content/biology/x.svg");
-        assert_eq!(visual_url("/storage/flashcards/a.png"), "/storage/flashcards/a.png");
+        assert_eq!(
+            visual_url("content/biology/x.svg"),
+            "/content/biology/x.svg"
+        );
+        assert_eq!(
+            visual_url("/storage/flashcards/a.png"),
+            "/storage/flashcards/a.png"
+        );
     }
 }

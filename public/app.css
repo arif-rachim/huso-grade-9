@@ -73,7 +73,7 @@
 .pq-card { background: var(--rx-surface); border: 1px solid var(--rx-border); border-radius: var(--rx-radius-l, 12px); padding: 1.5rem; }
 .pq-stem { font-size: 1.5rem; line-height: 1.45; margin: 0 0 1rem; color: var(--rx-label); white-space: pre-line; }
 .pq-visual { margin: 0 0 1rem; text-align: center; }
-.pq-visual img { max-width: 100%; max-height: 22rem; background: #fff; border-radius: 8px; border: 1px solid var(--rx-border); }
+.pq-visual img { max-width: 100%; max-height: 14rem; background: #fff; border-radius: 8px; border: 1px solid var(--rx-border); }
 .pq-choices { display: grid; gap: 0.75rem; }
 .pq-choice { display: flex; align-items: center; gap: 1rem; width: 100%; text-align: left; padding: 0.9rem 1.1rem; border: 2px solid var(--rx-border); border-radius: 12px; background: var(--rx-bg); color: var(--rx-label); font-size: 1.25rem; line-height: 1.35; cursor: pointer; }
 .pq-choice:hover { border-color: var(--c); }

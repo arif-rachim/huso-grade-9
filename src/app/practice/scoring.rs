@@ -160,7 +160,11 @@ mod tests {
         ];
         let best = best_four(&scores);
         assert_eq!(best.dropped, Some(2), "chemistry has the lowest percent");
-        assert_eq!(best.kept, vec![4, 1, 3, 0]);
+        assert_eq!(
+            best.kept,
+            vec![4, 3, 1, 0],
+            "75 % tie: biology has the higher raw score"
+        );
         assert_eq!(best.total_bp, 8000 + 7500 + 7500 + 5000);
     }
 

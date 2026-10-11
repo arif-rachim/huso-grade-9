@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="t d">
+  <title id="t">Central and inscribed angle</title>
+  <desc id="d">A circle with chord AB, the central angle AOB and an inscribed angle ACB on the same arc; the central angle is twice the inscribed angle.</desc>
+  <rect x="0" y="0" width="420" height="300" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <circle cx="190.0" cy="150.0" r="110.0" fill="#2563eb" fill-opacity="0.08" stroke="#2563eb" stroke-width="2.5"/>
+    <polygon points="86.6,187.6 293.4,187.6 190.0,40.0" fill="#2563eb" fill-opacity="0.0" stroke="#2563eb" stroke-width="1.8" stroke-linejoin="round"/>
+    <line x1="190.0" y1="150.0" x2="86.6" y2="187.6" stroke="#dc2626" stroke-width="2.2"/>
+    <line x1="190.0" y1="150.0" x2="293.4" y2="187.6" stroke="#dc2626" stroke-width="2.2"/>
+    <circle cx="190.0" cy="150.0" r="4" fill="#111827"/>
+    <text x="190.0" y="142.0" font-size="13" text-anchor="middle" fill="#111827">O</text>
+    <text x="72.6" y="203.6" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">A</text>
+    <text x="307.4" y="203.6" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">B</text>
+    <text x="190.0" y="30.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">C</text>
+    <text x="190.0" y="180.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold" data-label="central angle = 2θ">central angle = 2θ</text>
+    <text x="190.0" y="76.0" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="bold" data-label="inscribed angle = θ">inscribed angle = θ</text>
+    <text x="190.0" y="221.6" font-size="12" text-anchor="middle" fill="#6b7280" data-label="arc AB">arc AB</text>
+  </g>
+</svg>

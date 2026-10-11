@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 500" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 500" role="img" aria-labeledby="t d">
   <title id="t">Distance, midpoint and two lines on a grid map</title>
   <desc id="d">Points A(1,2) and B(7,10) are 10 apart (a 6-8-10 right triangle). Line AB is 4x - 3y + 2 = 0. The line x + 2y = 16 crosses it at P(4,6), the midpoint of AB.</desc>
   <rect x="0" y="0" width="440" height="500" fill="#ffffff"/>

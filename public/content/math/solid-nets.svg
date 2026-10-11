@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" role="img" aria-labeledby="t d">
   <title id="t">Nets of a cone and a cylinder</title>
   <desc id="d">Cone with r 3, h 4, slant height 5 unrolls into a sector of radius 5 and angle 216 degrees plus a circle of radius 3. A cylinder with r 2 and h 4 unrolls into a 4 pi by 4 rectangle plus two circles.</desc>
   <rect x="0" y="0" width="440" height="520" fill="#ffffff"/>

@@ -62,7 +62,7 @@ Compare with the page and circle what you missed in red.
 
 ## 🎥 Watch / try
 - [What does a ≡ b (mod n) mean? Basic Modular Arithmetic, Congruence](https://www.youtube.com/watch?v=6dZLq77gSGU) — blackpenredpen · 5:45 · watch how "same remainder" and "n divides the difference" are the same idea
-- [How does Modular Arithmetic work?](https://www.youtube.com/watch?v=5OjZWSdxlU0) — Tom Rocks Maths · 11:19 · watch the clock pictures and the examples
+- [How does Modular Arithmetic work?](https://www.youtube.com/watch?v=5OjZWSdxlU0) — Tom Rocks Math · 11:19 · watch the clock pictures and the examples
 - [Prime factorization](https://www.youtube.com/watch?v=ZKKDTfHcsG0) — Khan Academy · 4:09 · watch how the factor tree ends only in primes
 
 ## ✅ Check your understanding (5 questions)

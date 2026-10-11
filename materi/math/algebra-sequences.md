@@ -81,7 +81,7 @@ Do them without looking at the page. You are **READY** if you get at least 4 of 
 
 **4.** What is the value of 1/(1·3) + 1/(3·5) + 1/(5·7) + … + 1/(97·99)?
 
-(A) 1/99  (B) 49/99  (C) 50/99  (D) 97/99  (E) 98/99
+(A) 1/99  (B) 50/99  (C) 98/99  (D) 49/99  (E) 97/99
 
 **5.** An infinite geometric series has first term 12 and sum 18. What is its common ratio?
 
@@ -92,6 +92,6 @@ Do them without looking at the page. You are **READY** if you get at least 4 of 
 1. **(B) 608.** Terms: (59 − 5) ÷ 3 + 1 = 19. Sum = 19 × (5 + 59) ÷ 2 = 19 × 32 = 608. (A) 576 uses 18 terms. (D) 640 uses 20 terms. (E) 1216 forgets the ÷ 2.
 2. **(C) 1023.** Geometric: 1 + 2 + 4 + … + 512 (ten terms) = 2¹⁰ − 1 = 1023. (D) 1024 forgets the − 1. (B) 512 is only the last day. (A) 511 stops after 9 days.
 3. **(B) 130.** Laps on day 10 = 4 + 9 × 2 = 22. Sum = 10 × (4 + 22) ÷ 2 = 130. (E) 260 forgets the ÷ 2. (C) 150 uses 6 + … + 24 (it starts one step too late).
-4. **(B) 49/99.** 1/((2k − 1)(2k + 1)) = ½ · (1/(2k − 1) − 1/(2k + 1)). The sum telescopes to ½ · (1 − 1/99) = ½ · 98/99 = 49/99. (E) 98/99 forgets the ½.
+4. **(D) 49/99.** 1/((2k − 1)(2k + 1)) = ½ · (1/(2k − 1) − 1/(2k + 1)). The sum telescopes to ½ · (1 − 1/99) = ½ · 98/99 = 49/99. (C) 98/99 forgets the ½.
 5. **(E) 1/3.** 12 ÷ (1 − r) = 18, so 1 − r = 12/18 = 2/3 and r = 1/3. (C) 2/3 is the value of 1 − r, not r. (D) 3/2 flips the fraction.
 </details>

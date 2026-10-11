@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 310" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 310" role="img" aria-labeledby="t d">
 <title id="t">Triangle inequality with skewers</title>
 <desc id="d">A number line from 0 to 10. With sticks of 3 and 5, a third side x makes a triangle only when 2 is less than x and x is less than 8. Pictures show x = 1 and x = 9 leaving a gap and x = 4 forming a triangle.</desc>
 <rect x="0" y="0" width="440" height="310" fill="#ffffff"/>

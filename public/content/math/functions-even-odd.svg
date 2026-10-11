@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 315" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 315" role="img" aria-labeledby="t d">
 <title id="t">Even and odd functions</title>
 <desc id="d">Left: the graph of y equals x squared is a mirror image across the y axis, so the function is even. Right: the graph of y equals x cubed turns onto itself after a half-turn about the origin, so the function is odd.</desc>
 <rect x="0" y="0" width="440" height="315" fill="#ffffff"/>

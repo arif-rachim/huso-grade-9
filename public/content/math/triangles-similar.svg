@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 372" role="img" aria-labelledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 372" role="img" aria-labeledby="t d">
   <title id="t">Angle bisector and similar triangles</title>
   <desc id="d">Left: triangle ABC with AB 6, AC 10, BC 12; the bisector from A meets BC at D with BD 4.5 and DC 7.5. Right: DE parallel to BC makes triangle ADE similar to ABC.</desc>
   <rect x="0" y="0" width="440" height="372" fill="#ffffff"/>

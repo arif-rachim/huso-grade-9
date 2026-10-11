@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 356" role="img" aria-labelledby="t d">
+  <title id="t">Segitiga Pascal baris 0 sampai 6</title>
+  <desc id="d">Setiap angka adalah jumlah dua angka di atasnya. Baris n berisi koefisien dari (a + b) pangkat n.</desc>
+  <rect x="0" y="0" width="440" height="356" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="26" font-size="16" font-weight="bold" text-anchor="middle">Segitiga Pascal = koefisien (a + b)ⁿ</text>
+    <text x="22" y="61" font-size="12" fill="#6b7280" text-anchor="middle">n=0</text>
+    <circle cx="220" cy="56" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="220" y="61" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <text x="22" y="101" font-size="12" fill="#6b7280" text-anchor="middle">n=1</text>
+    <circle cx="194" cy="96" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="194" y="101" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <circle cx="246" cy="96" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="246" y="101" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <text x="22" y="141" font-size="12" fill="#6b7280" text-anchor="middle">n=2</text>
+    <circle cx="168" cy="136" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="168" y="141" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <circle cx="220" cy="136" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="220" y="141" font-size="14" text-anchor="middle" font-weight="bold">2</text>
+    <circle cx="272" cy="136" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="272" y="141" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <text x="22" y="181" font-size="12" fill="#6b7280" text-anchor="middle">n=3</text>
+    <circle cx="142" cy="176" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="142" y="181" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <circle cx="194" cy="176" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="194" y="181" font-size="14" text-anchor="middle" font-weight="bold">3</text>
+    <circle cx="246" cy="176" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="246" y="181" font-size="14" text-anchor="middle" font-weight="bold">3</text>
+    <circle cx="298" cy="176" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="298" y="181" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <text x="22" y="221" font-size="12" fill="#6b7280" text-anchor="middle">n=4</text>
+    <circle cx="116" cy="216" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="116" y="221" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <circle cx="168" cy="216" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="168" y="221" font-size="14" text-anchor="middle" font-weight="bold">4</text>
+    <circle cx="220" cy="216" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="220" y="221" font-size="14" text-anchor="middle" font-weight="bold">6</text>
+    <circle cx="272" cy="216" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="272" y="221" font-size="14" text-anchor="middle" font-weight="bold">4</text>
+    <circle cx="324" cy="216" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="324" y="221" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <text x="22" y="261" font-size="12" fill="#6b7280" text-anchor="middle">n=5</text>
+    <circle cx="90" cy="256" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="90" y="261" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <circle cx="142" cy="256" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="142" y="261" font-size="14" text-anchor="middle" font-weight="bold">5</text>
+    <circle cx="194" cy="256" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="194" y="261" font-size="14" text-anchor="middle" font-weight="bold">10</text>
+    <circle cx="246" cy="256" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="246" y="261" font-size="14" text-anchor="middle" font-weight="bold">10</text>
+    <circle cx="298" cy="256" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="298" y="261" font-size="14" text-anchor="middle" font-weight="bold">5</text>
+    <circle cx="350" cy="256" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="350" y="261" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <text x="22" y="301" font-size="12" fill="#6b7280" text-anchor="middle">n=6</text>
+    <circle cx="64" cy="296" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="64" y="301" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <circle cx="116" cy="296" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="116" y="301" font-size="14" text-anchor="middle" font-weight="bold">6</text>
+    <circle cx="168" cy="296" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="168" y="301" font-size="14" text-anchor="middle" font-weight="bold">15</text>
+    <circle cx="220" cy="296" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="220" y="301" font-size="14" text-anchor="middle" font-weight="bold">20</text>
+    <circle cx="272" cy="296" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="272" y="301" font-size="14" text-anchor="middle" font-weight="bold">15</text>
+    <circle cx="324" cy="296" r="19" fill="#2563eb" fill-opacity="0.28" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="324" y="301" font-size="14" text-anchor="middle" font-weight="bold">6</text>
+    <circle cx="376" cy="296" r="19" fill="#2563eb" fill-opacity="0.10" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="376" y="301" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+    <text x="220" y="342" font-size="13" text-anchor="middle" fill="#6b7280">Contoh: (a + b)⁴ = 1a⁴ + 4a³b + 6a²b² + 4ab³ + 1b⁴ (baris n=4)</text>
+  </g>
+</svg>

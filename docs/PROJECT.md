@@ -191,7 +191,7 @@ Progres (· Orang Tua for the parent). Show a countdown "H‑N menuju HUSO" in t
    `rnx view:check` all pass.
 3. New texts are in `resources/lang/id.json`.
 4. Tried in the browser with `rnx serve` at 1280 px wide; describe what you checked in the PR.
-5. One PR per issue, branch `feat/issue-N-short-name` from `main`, body with `Closes #N`.
+5. One PR per issue, branch `feat/issue-N-short-name` from the default branch, body with `Closes #N`.
 
 ## Running it
 

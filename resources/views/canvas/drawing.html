@@ -1,0 +1,32 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="{{ topic.name }}" subtitle="Drawn on {{ when }}">
+    <rx-link-button route="canvas.index" label="All drawings" variant="plain"/>
+    {% if not is_parent %}<rx-link-button href="{{ route('canvas.show', topic.slug) }}" label="Redraw again" variant="secondary"/>{% endif %}
+  </rx-page-header>
+
+  <div class="redraw-board {% if references %}has-reference{% endif %}" style="--subject-color: {{ subject.color }}">
+    <rx-card title="Your drawing">
+      <img class="redraw-thumb" src="{{ route('canvas.image', drawing.id) }}" alt="Your drawing of {{ topic.name }}">
+      {% if drawing.notes %}<p><strong>Notes:</strong> {{ drawing.notes }}</p>{% endif %}
+    </rx-card>
+    <rx-card title="Reference">
+      {% if references %}
+        {% for r in references %}
+        <img class="redraw-reference" src="/{{ r }}" alt="Reference picture {{ loop.index }} for {{ topic.name }}">
+        {% endfor %}
+      {% else %}
+        <p>No reference picture for this subtopic yet. Compare your drawing with the syllabus points below.</p>
+      {% endif %}
+    </rx-card>
+  </div>
+
+  <rx-card title="Syllabus points: which are in your drawing?">
+    {% if topic.items %}
+    <ul>
+      {% for item in topic.items %}<li>{{ item }}</li>{% endfor %}
+    </ul>
+    {% else %}
+    <p>This subtopic has no listed points.</p>
+    {% endif %}
+  </rx-card>
+</rx-page>

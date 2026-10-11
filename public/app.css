@@ -37,6 +37,50 @@
   white-space: nowrap;
 }
 
+/* ---- /today (issue #18) ---- */
+.today-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 20rem;
+  gap: 1.5rem;
+  align-items: start;
+}
+@media (max-width: 900px) {
+  .today-layout { grid-template-columns: minmax(0, 1fr); }
+}
+.today-main { display: grid; gap: 1rem; }
+.today-side { display: grid; gap: 1rem; }
+.today-head {
+  border-left: 6px solid var(--subject-color, #6b7280);
+  padding: 0.25rem 0 0.25rem 1rem;
+  margin-bottom: 1.25rem;
+}
+.today-chip {
+  display: inline-block;
+  font: var(--rx-type-label);
+  padding: 0.125rem 0.75rem;
+  border-radius: 999px;
+  background: var(--subject-color, #6b7280);
+  color: #fff;
+}
+.today-title { font: var(--rx-type-heading); margin: 0.5rem 0 0.25rem; }
+.today-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin: 0; font: var(--rx-type-caption); }
+.today-progress { display: flex; align-items: center; gap: 1rem; }
+.today-progress rx-progress, .today-progress .rx-progress { flex: 1; }
+.today-progress__count { font: var(--rx-type-label); white-space: nowrap; }
+.today-tasks { margin: 0; padding: 0; list-style: none; }
+.today-big { font-size: 2.25rem; font-weight: 700; margin: 0 0 0.5rem; }
+.today-material { margin: 0; padding: 0; list-style: none; }
+.today-empty-action { margin-top: 1rem; text-align: center; }
+.today-timer__clock { font-size: 2.5rem; font-weight: 700; font-variant-numeric: tabular-nums; }
+.today-timer__label { font: var(--rx-type-caption); margin: 0.25rem 0 0.75rem; }
+.today-timer__buttons { display: flex; flex-direction: column; gap: 0.5rem; align-items: stretch; }
+.today-timer__for { opacity: 0.7; font-size: 0.85em; }
+.today-timer.is-running .today-timer__clock { color: var(--rx-accent); }
+.today-timer.is-finished .today-timer__clock { color: #16a34a; animation: today-flash 0.8s ease-in-out 6; }
+@keyframes today-flash { 50% { opacity: 0.25; } }
+.today-progress > :first-child { flex: 1; min-width: 0; }
+.today-progress progress { width: 100%; }
+
 /* Redraw from memory (canvas). */
 .redraw-board { display: grid; gap: 1rem; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 1024px) { .redraw-board.has-reference { grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); } }

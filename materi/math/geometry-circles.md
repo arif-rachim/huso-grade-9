@@ -72,7 +72,7 @@ Compare with the pictures above and mark anything you missed in red.
 - [Power of a Point Theorem in Geometry](https://www.youtube.com/watch?v=NhrPI7utUrQ) — Existsforall Academy · 6:57 · watch the three cases and when to use each
 
 ## ✅ Check your understanding (5 questions)
-Do these without looking at the material. You are **ready** if you get at least 4 of 5 right.
+Do these without looking at the material. You are **READY** if you get at least 4 of 5 right.
 
 **1.** An arc of a circle has a central angle of 86°. What is the size of an inscribed angle that looks at the same arc?
 

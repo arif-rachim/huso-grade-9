@@ -69,7 +69,7 @@ Compare with the pictures above and mark anything you missed in red.
 - [30-60-90 triangle side ratios proof](https://www.youtube.com/watch?v=SFL4stapeUs) — Khan Academy · 7:00 · watch how an equilateral triangle is cut in half
 
 ## ✅ Check your understanding (5 questions)
-Do these without looking at the material. You are **ready** if you get at least 4 of 5 right.
+Do these without looking at the material. You are **READY** if you get at least 4 of 5 right.
 
 **1.** In a 30-60-90 triangle the hypotenuse is 12. What is the length of the longer leg?
 

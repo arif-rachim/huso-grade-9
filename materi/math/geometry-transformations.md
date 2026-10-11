@@ -9,7 +9,7 @@ A **transformation** is a rule that moves every point of a figure to a new place
 ## 🖼️ Big picture
 ![The same triangle after a translation, a reflection, a rotation and a dilation, with the coordinate rule under each](../../public/content/math/transformations-four.svg)
 
-The grey triangle is the **original** and the blue triangle is the **image** (written with a prime: A → A′).
+The gray triangle is the **original** and the blue triangle is the **image** (written with a prime: A → A′).
 
 ## 💡 Core ideas
 1. **Translation** (slide): add the same vector to every point. **(x, y) → (x + a, y + b)**. Shape, size and direction all stay the same.
@@ -64,7 +64,7 @@ Compare with the picture above and mark anything you missed in red.
 - [Dilations: Geometry Transformations Explained!](https://www.youtube.com/watch?v=BCllaARDOWI) — Mashup Math · 6:31 · watch the center of dilation and what happens when it is not the origin
 
 ## ✅ Check your understanding (5 questions)
-Do these without looking at the material. You are **ready** if you get at least 4 of 5 right.
+Do these without looking at the material. You are **READY** if you get at least 4 of 5 right.
 
 **1.** The point (4, −7) is reflected in the line y = x. What are the coordinates of its image?
 

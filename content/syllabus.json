@@ -1,22 +1,22 @@
 {
-  "$comment": "Silabus resmi HUSO 2026 Open Round, Grade 9-10. Sumber: https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/syllabus-guide.html . Hierarki: subject > topic > subtopic (unit belajar terkecil yang dilacak mastery-nya) > items (poin silabus).",
+  "$comment": "Silabus resmi HUSO 2026 Open Round, Grade 9-10. Sumber: https://www.learnwithleaders.com/competitions/harvard-undergraduate-science-olympiad-middleeast/syllabus-guide.html . Hierarchy: subject > topic > subtopic (smallest study unit, mastery is tracked per subtopic) > items (official syllabus points).",
   "version": 1,
   "subjects": [
     {
       "slug": "math",
-      "name": "Matematika",
+      "name": "Mathematics",
       "name_en": "Mathematics",
       "color": "#2563eb",
       "emoji": "🟦",
-      "level_hint": "Setara AMC 10. ±12 soal dalam ±36 menit.",
+      "level_hint": "AMC 10 level. About 12 questions in about 36 minutes.",
       "topics": [
         {
           "slug": "math.algebra",
-          "name": "Aljabar",
+          "name": "Algebra",
           "children": [
             {
               "slug": "math.algebra.polynomials",
-              "name": "Polinom",
+              "name": "Polynomials",
               "items": [
                 "Divisibility and factorization of polynomials",
                 "Vieta's formulas",
@@ -26,7 +26,7 @@
             },
             {
               "slug": "math.algebra.sequences",
-              "name": "Barisan & deret",
+              "name": "Sequences & Series",
               "items": [
                 "Arithmetic series",
                 "Geometric series",
@@ -35,7 +35,7 @@
             },
             {
               "slug": "math.algebra.inequalities",
-              "name": "Pertidaksamaan",
+              "name": "Inequalities",
               "items": [
                 "Trivial inequality",
                 "AM-GM-HM inequalities",
@@ -44,7 +44,7 @@
             },
             {
               "slug": "math.algebra.functions",
-              "name": "Fungsi",
+              "name": "Functions",
               "items": [
                 "Injectivity, surjectivity, bijectivity",
                 "Functional equations",
@@ -58,11 +58,11 @@
         },
         {
           "slug": "math.number-theory",
-          "name": "Teori Bilangan",
+          "name": "Number Theory",
           "children": [
             {
               "slug": "math.number-theory.modular",
-              "name": "Aritmetika modular",
+              "name": "Modular Arithmetic",
               "items": [
                 "Congruences",
                 "Prime factorization"
@@ -70,7 +70,7 @@
             },
             {
               "slug": "math.number-theory.misc",
-              "name": "Lain-lain",
+              "name": "Number Theory Extras",
               "items": [
                 "Pythagorean triples",
                 "Diophantine equations",
@@ -81,11 +81,11 @@
         },
         {
           "slug": "math.geometry",
-          "name": "Geometri",
+          "name": "Geometry",
           "children": [
             {
               "slug": "math.geometry.triangles",
-              "name": "Segitiga",
+              "name": "Triangles",
               "items": [
                 "Centroid",
                 "Circumcenter",
@@ -104,7 +104,7 @@
             },
             {
               "slug": "math.geometry.circles",
-              "name": "Lingkaran",
+              "name": "Circles",
               "items": [
                 "Tangent circles",
                 "Power of a point",
@@ -114,7 +114,7 @@
             },
             {
               "slug": "math.geometry.transformations",
-              "name": "Transformasi bidang",
+              "name": "Transformations",
               "items": [
                 "Rotation",
                 "Reflection",
@@ -124,7 +124,7 @@
             },
             {
               "slug": "math.geometry.coordinate",
-              "name": "Geometri koordinat",
+              "name": "Coordinate Geometry",
               "items": [
                 "Equations of lines",
                 "Intersections of lines",
@@ -135,7 +135,7 @@
             },
             {
               "slug": "math.geometry.solid",
-              "name": "Geometri ruang",
+              "name": "Solid Geometry",
               "items": [
                 "Volumes of prisms, pyramids, cones, cylinders, spheres",
                 "Surface areas of prisms, pyramids, cones, cylinders, spheres"
@@ -145,11 +145,11 @@
         },
         {
           "slug": "math.combinatorics",
-          "name": "Kombinatorik",
+          "name": "Combinatorics",
           "children": [
             {
               "slug": "math.combinatorics.counting-principles",
-              "name": "Prinsip pencacahan",
+              "name": "Counting Principles",
               "items": [
                 "Rule of product and rule of sum",
                 "Inclusion-exclusion",
@@ -161,7 +161,7 @@
             },
             {
               "slug": "math.combinatorics.enumerative",
-              "name": "Kombinatorik enumeratif",
+              "name": "Enumerative Combinatorics",
               "items": [
                 "Permutations, combinations, partitions",
                 "Pascal's triangle",
@@ -170,7 +170,7 @@
             },
             {
               "slug": "math.combinatorics.probability",
-              "name": "Peluang",
+              "name": "Probability",
               "items": [
                 "Unconditional probability",
                 "Conditional probability"
@@ -178,7 +178,7 @@
             },
             {
               "slug": "math.combinatorics.strategies",
-              "name": "Strategi",
+              "name": "Strategies",
               "items": [
                 "Casework",
                 "Constructive counting",
@@ -193,19 +193,19 @@
     },
     {
       "slug": "physics",
-      "name": "Fisika",
+      "name": "Physics",
       "name_en": "Physics",
       "color": "#dc2626",
       "emoji": "🟥",
-      "level_hint": "Setara Physics Bowl. Rumus dasar harus hafal; konstanta diberikan.",
+      "level_hint": "Physics Bowl level. Learn the basic formulas by heart; constants are given.",
       "topics": [
         {
           "slug": "physics.mechanics",
-          "name": "Mekanika",
+          "name": "Mechanics",
           "children": [
             {
               "slug": "physics.mechanics.kinematics",
-              "name": "Kinematika",
+              "name": "Kinematics",
               "items": [
                 "Kinematics",
                 "Vector and scalar quantities"
@@ -213,7 +213,7 @@
             },
             {
               "slug": "physics.mechanics.dynamics",
-              "name": "Dinamika",
+              "name": "Dynamics",
               "items": [
                 "Newton's laws",
                 "Friction",
@@ -222,7 +222,7 @@
             },
             {
               "slug": "physics.mechanics.conservation",
-              "name": "Hukum kekekalan",
+              "name": "Conservation Laws",
               "items": [
                 "Conservation of energy",
                 "Conservation of momentum",
@@ -231,7 +231,7 @@
             },
             {
               "slug": "physics.mechanics.circular-rotation",
-              "name": "Gerak melingkar & rotasi",
+              "name": "Circular Motion & Rotation",
               "items": [
                 "Circular motion",
                 "Rotation, torque, moment of inertia"
@@ -239,7 +239,7 @@
             },
             {
               "slug": "physics.mechanics.shm",
-              "name": "Gerak harmonik sederhana",
+              "name": "Simple Harmonic Motion",
               "items": [
                 "Springs",
                 "Pendulums"
@@ -247,7 +247,7 @@
             },
             {
               "slug": "physics.mechanics.gravity",
-              "name": "Gravitasi",
+              "name": "Gravity",
               "items": [
                 "Newton's law of gravitation"
               ]
@@ -256,11 +256,11 @@
         },
         {
           "slug": "physics.electromagnetism",
-          "name": "Listrik",
+          "name": "Electricity & Circuits",
           "children": [
             {
               "slug": "physics.electromagnetism.circuits",
-              "name": "Rangkaian",
+              "name": "Circuits",
               "items": [
                 "Resistors",
                 "Capacitors",
@@ -272,18 +272,18 @@
         },
         {
           "slug": "physics.thermodynamics",
-          "name": "Termodinamika",
+          "name": "Thermodynamics",
           "children": [
             {
               "slug": "physics.thermodynamics.laws",
-              "name": "Hukum termodinamika",
+              "name": "Laws of Thermodynamics",
               "items": [
                 "Three laws of thermodynamics"
               ]
             },
             {
               "slug": "physics.thermodynamics.heat",
-              "name": "Kalor",
+              "name": "Heat",
               "items": [
                 "Heat transfer",
                 "Heat capacity",
@@ -293,7 +293,7 @@
             },
             {
               "slug": "physics.thermodynamics.ideal-gas",
-              "name": "Gas ideal",
+              "name": "Ideal Gas",
               "items": [
                 "Ideal gas law",
                 "Work done by a gas"
@@ -303,11 +303,11 @@
         },
         {
           "slug": "physics.acoustics",
-          "name": "Bunyi",
+          "name": "Acoustics",
           "children": [
             {
               "slug": "physics.acoustics.sound",
-              "name": "Gelombang bunyi",
+              "name": "Sound Waves",
               "items": [
                 "Sound",
                 "Loudness",
@@ -322,19 +322,19 @@
     },
     {
       "slug": "chemistry",
-      "name": "Kimia",
+      "name": "Chemistry",
       "name_en": "Chemistry",
       "color": "#ca8a04",
       "emoji": "🟨",
-      "level_hint": "Soal tersulit setara USNCO National Part I. Organik maks. ±15–20% skor.",
+      "level_hint": "Hardest questions are like USNCO National Part I. Organic is at most about 15–20% of the score.",
       "topics": [
         {
           "slug": "chemistry.inorganic",
-          "name": "Kimia Anorganik",
+          "name": "Inorganic Chemistry",
           "children": [
             {
               "slug": "chemistry.inorganic.periodic-table",
-              "name": "Tabel periodik",
+              "name": "Periodic Table",
               "items": [
                 "Main group elements",
                 "Transition elements"
@@ -342,7 +342,7 @@
             },
             {
               "slug": "chemistry.inorganic.isotopes",
-              "name": "Isotop & inti",
+              "name": "Isotopes & Nuclear Reactions",
               "items": [
                 "Atomic number",
                 "Mass number",
@@ -352,7 +352,7 @@
             },
             {
               "slug": "chemistry.inorganic.electron-config",
-              "name": "Konfigurasi elektron",
+              "name": "Electron Configuration",
               "items": [
                 "Quantum numbers (n, l, m)",
                 "Orbital types (s, p, d)",
@@ -363,7 +363,7 @@
             },
             {
               "slug": "chemistry.inorganic.trends",
-              "name": "Tren periodik",
+              "name": "Periodic Trends",
               "items": [
                 "Electronegativity",
                 "Ionization energy",
@@ -375,7 +375,7 @@
             },
             {
               "slug": "chemistry.inorganic.bonding",
-              "name": "Ikatan kimia",
+              "name": "Chemical Bonding",
               "items": [
                 "Bond types",
                 "Hybridization",
@@ -387,7 +387,7 @@
             },
             {
               "slug": "chemistry.inorganic.reactions",
-              "name": "Reaksi & stoikiometri",
+              "name": "Reactions & Stoichiometry",
               "items": [
                 "Reaction types",
                 "Balancing reactions",
@@ -400,11 +400,11 @@
         },
         {
           "slug": "chemistry.analytical",
-          "name": "Kimia Analitik",
+          "name": "Analytical Chemistry",
           "children": [
             {
               "slug": "chemistry.analytical.solutions",
-              "name": "Larutan",
+              "name": "Solutions",
               "items": [
                 "Molarity, molality",
                 "Self-ionization of water",
@@ -413,7 +413,7 @@
             },
             {
               "slug": "chemistry.analytical.acid-base",
-              "name": "Asam-basa",
+              "name": "Acids & Bases",
               "items": [
                 "Arrhenius theory",
                 "Bronsted theory",
@@ -425,7 +425,7 @@
             },
             {
               "slug": "chemistry.analytical.solubility",
-              "name": "Kelarutan",
+              "name": "Solubility",
               "items": [
                 "Soluble, slightly soluble, insoluble salts",
                 "Solubility constants",
@@ -434,7 +434,7 @@
             },
             {
               "slug": "chemistry.analytical.quantitative",
-              "name": "Analisis kuantitatif",
+              "name": "Quantitative Analysis",
               "items": [
                 "Titration indicators",
                 "Titration curves",
@@ -443,7 +443,7 @@
             },
             {
               "slug": "chemistry.analytical.qualitative",
-              "name": "Analisis kualitatif",
+              "name": "Qualitative Analysis",
               "items": [
                 "Flame tests",
                 "Identification of common cations and anions"
@@ -453,11 +453,11 @@
         },
         {
           "slug": "chemistry.physical",
-          "name": "Kimia Fisik",
+          "name": "Physical Chemistry",
           "children": [
             {
               "slug": "chemistry.physical.equilibrium",
-              "name": "Kesetimbangan",
+              "name": "Equilibrium",
               "items": [
                 "Le Chatelier's principle",
                 "Ideal gas law",
@@ -470,7 +470,7 @@
             },
             {
               "slug": "chemistry.physical.thermo",
-              "name": "Termokimia",
+              "name": "Thermochemistry",
               "items": [
                 "First law: energy, heat, work",
                 "Entropy",
@@ -485,11 +485,11 @@
         },
         {
           "slug": "chemistry.organic",
-          "name": "Kimia Organik",
+          "name": "Organic Chemistry",
           "children": [
             {
               "slug": "chemistry.organic.concepts",
-              "name": "Konsep umum",
+              "name": "General Concepts",
               "items": [
                 "Nomenclature",
                 "Structures",
@@ -500,7 +500,7 @@
             },
             {
               "slug": "chemistry.organic.reactions",
-              "name": "Reaksi",
+              "name": "Organic Reactions",
               "items": [
                 "Electrophilic addition",
                 "Nucleophilic substitution",
@@ -509,7 +509,7 @@
             },
             {
               "slug": "chemistry.organic.functional-groups",
-              "name": "Gugus fungsi",
+              "name": "Functional Groups",
               "items": [
                 "Acidity and basicity of functional groups",
                 "Alkanes, alkenes, alkynes",
@@ -520,11 +520,11 @@
         },
         {
           "slug": "chemistry.lab",
-          "name": "Keterampilan Lab",
+          "name": "Lab Skills",
           "children": [
             {
               "slug": "chemistry.lab.skills",
-              "name": "Keterampilan lab",
+              "name": "Lab Skills",
               "items": [
                 "Choosing lab materials",
                 "Correct lab procedures",
@@ -537,19 +537,19 @@
     },
     {
       "slug": "biology",
-      "name": "Biologi",
+      "name": "Biology",
       "name_en": "Biology",
       "color": "#16a34a",
       "emoji": "🟩",
-      "level_hint": "Mengikuti INBO / ICSE kelas 9–10. ±40 soal dalam ±36 menit (< 1 menit/soal).",
+      "level_hint": "Follows INBO and the ICSE Grade 9–10 syllabus. About 40 questions in about 36 minutes (under 1 minute each).",
       "topics": [
         {
           "slug": "biology.biochem",
-          "name": "Biomolekul",
+          "name": "Biochemistry",
           "children": [
             {
               "slug": "biology.biochem.molecules",
-              "name": "Biomolekul",
+              "name": "Biomolecules",
               "items": [
                 "Carbon as the basis of life",
                 "Nucleic acids",
@@ -562,11 +562,11 @@
         },
         {
           "slug": "biology.cell",
-          "name": "Biologi Sel",
+          "name": "Cell Biology",
           "children": [
             {
               "slug": "biology.cell.molecular",
-              "name": "Biologi molekuler",
+              "name": "Molecular Biology",
               "items": [
                 "Central dogma",
                 "DNA replication",
@@ -577,7 +577,7 @@
             },
             {
               "slug": "biology.cell.cell-structure",
-              "name": "Struktur sel",
+              "name": "Cell Structure",
               "items": [
                 "Cell theory",
                 "Organelles (nucleus, ribosome, chloroplast, mitochondria, ER, golgi, lysosome, membrane, vacuole, cell wall, peroxisome, centriole, cytoskeleton)",
@@ -588,7 +588,7 @@
             },
             {
               "slug": "biology.cell.division",
-              "name": "Pembelahan sel",
+              "name": "Cell Division",
               "items": [
                 "Mitosis",
                 "Meiosis"
@@ -596,7 +596,7 @@
             },
             {
               "slug": "biology.cell.photosynthesis",
-              "name": "Fotosintesis",
+              "name": "Photosynthesis",
               "items": [
                 "Overall reaction",
                 "Limiting factors",
@@ -605,7 +605,7 @@
             },
             {
               "slug": "biology.cell.respiration",
-              "name": "Respirasi seluler",
+              "name": "Cellular Respiration",
               "items": [
                 "Aerobic respiration",
                 "Anaerobic respiration",
@@ -616,11 +616,11 @@
         },
         {
           "slug": "biology.anatomy",
-          "name": "Anatomi & Fisiologi Hewan",
+          "name": "Animal Anatomy & Physiology",
           "children": [
             {
               "slug": "biology.anatomy.tissues",
-              "name": "Jaringan",
+              "name": "Tissues",
               "items": [
                 "Epithelial",
                 "Connective (bone, cartilage, blood, ligament, tendon)",
@@ -629,7 +629,7 @@
             },
             {
               "slug": "biology.anatomy.digestive",
-              "name": "Sistem pencernaan",
+              "name": "Digestive System",
               "items": [
                 "Organs and glands",
                 "Classes of food, balanced diet",
@@ -638,7 +638,7 @@
             },
             {
               "slug": "biology.anatomy.respiratory",
-              "name": "Sistem pernapasan",
+              "name": "Respiratory System",
               "items": [
                 "Organs",
                 "Mechanism of breathing",
@@ -647,7 +647,7 @@
             },
             {
               "slug": "biology.anatomy.excretory",
-              "name": "Sistem ekskresi",
+              "name": "Excretory System",
               "items": [
                 "Kidneys, ureter, bladder, urethra",
                 "Sweat glands, lungs",
@@ -656,7 +656,7 @@
             },
             {
               "slug": "biology.anatomy.nervous",
-              "name": "Sistem saraf",
+              "name": "Nervous System",
               "items": [
                 "Brain: cerebrum, cerebellum, medulla",
                 "Spinal cord",
@@ -667,7 +667,7 @@
             },
             {
               "slug": "biology.anatomy.immune",
-              "name": "Sistem imun",
+              "name": "Immune System",
               "items": [
                 "Innate vs adaptive",
                 "B and T cells",
@@ -677,7 +677,7 @@
             },
             {
               "slug": "biology.anatomy.endocrine",
-              "name": "Sistem endokrin",
+              "name": "Endocrine System",
               "items": [
                 "Exocrine vs endocrine",
                 "Thyroid",
@@ -688,7 +688,7 @@
             },
             {
               "slug": "biology.anatomy.circulatory",
-              "name": "Sistem peredaran darah",
+              "name": "Circulatory System",
               "items": [
                 "Heart structure, valves, septum",
                 "Double circulation",
@@ -702,11 +702,11 @@
         },
         {
           "slug": "biology.ecology",
-          "name": "Ekologi",
+          "name": "Ecology",
           "children": [
             {
               "slug": "biology.ecology.ecosystems",
-              "name": "Ekosistem",
+              "name": "Ecosystems",
               "items": [
                 "Biotic and abiotic factors",
                 "Producers, consumers, decomposers",
@@ -718,11 +718,11 @@
         },
         {
           "slug": "biology.classification",
-          "name": "Klasifikasi",
+          "name": "Classification",
           "children": [
             {
               "slug": "biology.classification.kingdoms",
-              "name": "Lima kingdom",
+              "name": "The Five Kingdoms",
               "items": [
                 "Need for classification",
                 "Monera",
@@ -742,15 +742,15 @@
       "name_en": "Earth Science",
       "color": "#92400e",
       "emoji": "🟫",
-      "level_hint": "±45 soal dalam ±36 menit. Latihan: USESO Open, Science Olympiad.",
+      "level_hint": "About 45 questions in about 36 minutes. Practice: USESO Open, Science Olympiad.",
       "topics": [
         {
           "slug": "earth.atmosphere",
-          "name": "Atmosfer",
+          "name": "Atmosphere",
           "children": [
             {
               "slug": "earth.atmosphere.structure",
-              "name": "Struktur atmosfer",
+              "name": "Atmospheric Structure",
               "items": [
                 "Layers and composition",
                 "Vertical structure"
@@ -758,7 +758,7 @@
             },
             {
               "slug": "earth.atmosphere.fronts",
-              "name": "Front & tekanan",
+              "name": "Fronts & Pressure Systems",
               "items": [
                 "Air masses and fronts",
                 "Pressure systems",
@@ -767,7 +767,7 @@
             },
             {
               "slug": "earth.atmosphere.humidity",
-              "name": "Kelembapan & presipitasi",
+              "name": "Humidity & Precipitation",
               "items": [
                 "Relative humidity",
                 "Water cycle",
@@ -776,7 +776,7 @@
             },
             {
               "slug": "earth.atmosphere.circulation",
-              "name": "Sirkulasi",
+              "name": "Circulation",
               "items": [
                 "Winds",
                 "Circulation cells"
@@ -784,7 +784,7 @@
             },
             {
               "slug": "earth.atmosphere.phenomena",
-              "name": "Fenomena cuaca",
+              "name": "Weather Phenomena",
               "items": [
                 "Cloud types",
                 "Local winds",
@@ -798,11 +798,11 @@
         },
         {
           "slug": "earth.hydrosphere",
-          "name": "Hidrosfer",
+          "name": "Hydrosphere",
           "children": [
             {
               "slug": "earth.hydrosphere.freshwater",
-              "name": "Air tawar",
+              "name": "Freshwater",
               "items": [
                 "Discharge calculations",
                 "Erosional and depositional features"
@@ -810,7 +810,7 @@
             },
             {
               "slug": "earth.hydrosphere.oceans",
-              "name": "Lautan",
+              "name": "Oceans",
               "items": [
                 "Heat fluxes",
                 "Temperature and salinity",
@@ -824,7 +824,7 @@
             },
             {
               "slug": "earth.hydrosphere.glaciers",
-              "name": "Gletser",
+              "name": "Glaciers",
               "items": [
                 "Formation",
                 "Erosional and depositional features"
@@ -832,7 +832,7 @@
             },
             {
               "slug": "earth.hydrosphere.groundwater",
-              "name": "Air tanah",
+              "name": "Groundwater",
               "items": [
                 "Aquifers",
                 "Water table",
@@ -843,11 +843,11 @@
         },
         {
           "slug": "earth.geosphere",
-          "name": "Geosfer",
+          "name": "Geosphere",
           "children": [
             {
               "slug": "earth.geosphere.geochemistry",
-              "name": "Geokimia & mineral",
+              "name": "Geochemistry & Minerals",
               "items": [
                 "Phase diagrams",
                 "Bowen's reaction series",
@@ -856,7 +856,7 @@
             },
             {
               "slug": "earth.geosphere.rocks",
-              "name": "Batuan",
+              "name": "Rocks",
               "items": [
                 "Sedimentary structures and environments",
                 "Types of metamorphism",
@@ -867,7 +867,7 @@
             },
             {
               "slug": "earth.geosphere.interior",
-              "name": "Interior bumi",
+              "name": "Earth's Interior",
               "items": [
                 "Layers of the Earth",
                 "Seismic waves",
@@ -879,7 +879,7 @@
             },
             {
               "slug": "earth.geosphere.dating",
-              "name": "Penanggalan & peta",
+              "name": "Dating & Mapping",
               "items": [
                 "Geologic maps",
                 "Relative dating and unconformities",
@@ -890,11 +890,11 @@
         },
         {
           "slug": "earth.astronomy",
-          "name": "Astronomi",
+          "name": "Astronomy",
           "children": [
             {
               "slug": "earth.astronomy.mechanics",
-              "name": "Mekanika benda langit",
+              "name": "Celestial Mechanics",
               "items": [
                 "Kepler's laws",
                 "Gravitational force",
@@ -904,7 +904,7 @@
             },
             {
               "slug": "earth.astronomy.radiation",
-              "name": "Radiasi",
+              "name": "Radiation",
               "items": [
                 "Albedo",
                 "Radiation laws",
@@ -913,7 +913,7 @@
             },
             {
               "slug": "earth.astronomy.sphere",
-              "name": "Bola langit",
+              "name": "Celestial Sphere",
               "items": [
                 "Celestial coordinates",
                 "Circumpolar stars",
@@ -926,7 +926,7 @@
             },
             {
               "slug": "earth.astronomy.solar-system",
-              "name": "Tata surya",
+              "name": "Solar System",
               "items": [
                 "Earth-Moon system",
                 "Solar System structure",

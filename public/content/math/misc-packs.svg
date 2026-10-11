@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 345" role="img" aria-labelledby="t d">
+<title id="t">Cookie packs of 4 and 7</title>
+<desc id="d">A grid of the numbers 1 to 28. Totals that can be made from packs of 4 and 7 are blue. The impossible totals 1, 2, 3, 5, 6, 9, 10, 13 and 17 are gray, and 17 is the largest of them.</desc>
+<rect x="0" y="0" width="440" height="345" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="220.0" y="24.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold" >Cookie packs of 4 and 7: which totals can you buy?</text>
+<rect x="22.0" y="44.0" width="52.0" height="40.0" fill="#d1d5db" fill-opacity="0.5" stroke="#6b7280" stroke-width="1.2" />
+<text x="48.0" y="69.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="normal" >1</text>
+<rect x="80.0" y="44.0" width="52.0" height="40.0" fill="#d1d5db" fill-opacity="0.5" stroke="#6b7280" stroke-width="1.2" />
+<text x="106.0" y="69.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="normal" >2</text>
+<rect x="138.0" y="44.0" width="52.0" height="40.0" fill="#d1d5db" fill-opacity="0.5" stroke="#6b7280" stroke-width="1.2" />
+<text x="164.0" y="69.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="normal" >3</text>
+<rect x="196.0" y="44.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="222.0" y="69.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >4</text>
+<rect x="254.0" y="44.0" width="52.0" height="40.0" fill="#d1d5db" fill-opacity="0.5" stroke="#6b7280" stroke-width="1.2" />
+<text x="280.0" y="69.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="normal" >5</text>
+<rect x="312.0" y="44.0" width="52.0" height="40.0" fill="#d1d5db" fill-opacity="0.5" stroke="#6b7280" stroke-width="1.2" />
+<text x="338.0" y="69.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="normal" >6</text>
+<rect x="370.0" y="44.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="396.0" y="69.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >7</text>
+<rect x="22.0" y="94.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="48.0" y="119.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >8</text>
+<rect x="80.0" y="94.0" width="52.0" height="40.0" fill="#d1d5db" fill-opacity="0.5" stroke="#6b7280" stroke-width="1.2" />
+<text x="106.0" y="119.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="normal" >9</text>
+<rect x="138.0" y="94.0" width="52.0" height="40.0" fill="#d1d5db" fill-opacity="0.5" stroke="#6b7280" stroke-width="1.2" />
+<text x="164.0" y="119.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="normal" >10</text>
+<rect x="196.0" y="94.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="222.0" y="119.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >11</text>
+<rect x="254.0" y="94.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="280.0" y="119.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >12</text>
+<rect x="312.0" y="94.0" width="52.0" height="40.0" fill="#d1d5db" fill-opacity="0.5" stroke="#6b7280" stroke-width="1.2" />
+<text x="338.0" y="119.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="normal" >13</text>
+<rect x="370.0" y="94.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="396.0" y="119.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >14</text>
+<rect x="22.0" y="144.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="48.0" y="169.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >15</text>
+<rect x="80.0" y="144.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="106.0" y="169.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >16</text>
+<rect x="138.0" y="144.0" width="52.0" height="40.0" fill="#d1d5db" fill-opacity="0.5" stroke="#2563eb" stroke-width="3" />
+<text x="164.0" y="169.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >17</text>
+<rect x="196.0" y="144.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="222.0" y="169.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >18</text>
+<rect x="254.0" y="144.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="280.0" y="169.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >19</text>
+<rect x="312.0" y="144.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="338.0" y="169.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >20</text>
+<rect x="370.0" y="144.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="396.0" y="169.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >21</text>
+<rect x="22.0" y="194.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="48.0" y="219.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >22</text>
+<rect x="80.0" y="194.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="106.0" y="219.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >23</text>
+<rect x="138.0" y="194.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="164.0" y="219.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >24</text>
+<rect x="196.0" y="194.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="222.0" y="219.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >25</text>
+<rect x="254.0" y="194.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="280.0" y="219.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >26</text>
+<rect x="312.0" y="194.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="338.0" y="219.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >27</text>
+<rect x="370.0" y="194.0" width="52.0" height="40.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="1.2" />
+<text x="396.0" y="219.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >28</text>
+<text x="220.0" y="262.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="normal" >Blue = can be made with 4a + 7b (a, b ≥ 0).  Gray = impossible.</text>
+<text x="220.0" y="284.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal" >Impossible totals: 1, 2, 3, 5, 6, 9, 10, 13 and 17.</text>
+<text x="220.0" y="310.0" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="bold" >After 4 in a row (18, 19, 20, 21), add 4 to keep going forever.</text>
+<text x="220.0" y="330.0" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="bold" >The largest impossible total is 17 = 4 × 7 − 4 − 7.</text>
+</g>
+</svg>

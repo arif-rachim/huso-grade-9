@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 370" role="img" aria-labelledby="t d">
+<title id="t">Number bases</title>
+<desc id="d">Top: the binary number 1011 has place values 8, 4, 2 and 1, giving 11. Bottom: dividing 45 by 3 repeatedly gives remainders 0, 0, 2, 1, which read upward are 1200 in base 3.</desc>
+<rect x="0" y="0" width="440" height="370" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="220.0" y="24.0" font-size="15" text-anchor="middle" fill="#2563eb" font-weight="bold" >Number bases: place values</text>
+<text x="220.0" y="50.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="bold" >1011 in base 2</text>
+<text x="125.0" y="72.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal" >2³</text>
+<rect x="100.0" y="78.0" width="50.0" height="34.0" fill="#2563eb" fill-opacity="0.35" stroke="#2563eb" stroke-width="1.5" />
+<text x="125.0" y="102.0" font-size="17" text-anchor="middle" fill="#111827" font-weight="bold" >1</text>
+<text x="125.0" y="130.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="normal" >8</text>
+<text x="187.0" y="72.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal" >2²</text>
+<rect x="162.0" y="78.0" width="50.0" height="34.0" fill="#2563eb" fill-opacity="0.08" stroke="#2563eb" stroke-width="1.5" />
+<text x="187.0" y="102.0" font-size="17" text-anchor="middle" fill="#111827" font-weight="bold" >0</text>
+<text x="187.0" y="130.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="normal" >4</text>
+<text x="249.0" y="72.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal" >2¹</text>
+<rect x="224.0" y="78.0" width="50.0" height="34.0" fill="#2563eb" fill-opacity="0.35" stroke="#2563eb" stroke-width="1.5" />
+<text x="249.0" y="102.0" font-size="17" text-anchor="middle" fill="#111827" font-weight="bold" >1</text>
+<text x="249.0" y="130.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="normal" >2</text>
+<text x="311.0" y="72.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal" >2⁰</text>
+<rect x="286.0" y="78.0" width="50.0" height="34.0" fill="#2563eb" fill-opacity="0.35" stroke="#2563eb" stroke-width="1.5" />
+<text x="311.0" y="102.0" font-size="17" text-anchor="middle" fill="#111827" font-weight="bold" >1</text>
+<text x="311.0" y="130.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="normal" >1</text>
+<text x="220.0" y="158.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold" >8 + 0 + 2 + 1 = 11  (so 1011₂ = 11)</text>
+<line x1="30.0" y1="176.0" x2="410.0" y2="176.0" stroke="#d1d5db" stroke-width="1" />
+<text x="220.0" y="198.0" font-size="13" text-anchor="middle" fill="#6b7280" font-weight="bold" >45 in base 3: divide by 3 again and again</text>
+<text x="100.0" y="222.0" font-size="13" text-anchor="start" fill="#111827" font-weight="normal" >45 ÷ 3 = 15</text>
+<text x="215.0" y="222.0" font-size="13" text-anchor="start" fill="#2563eb" font-weight="bold" >remainder 0</text>
+<text x="100.0" y="246.0" font-size="13" text-anchor="start" fill="#111827" font-weight="normal" >15 ÷ 3 = 5</text>
+<text x="215.0" y="246.0" font-size="13" text-anchor="start" fill="#2563eb" font-weight="bold" >remainder 0</text>
+<text x="100.0" y="270.0" font-size="13" text-anchor="start" fill="#111827" font-weight="normal" >5 ÷ 3 = 1</text>
+<text x="215.0" y="270.0" font-size="13" text-anchor="start" fill="#2563eb" font-weight="bold" >remainder 2</text>
+<text x="100.0" y="294.0" font-size="13" text-anchor="start" fill="#111827" font-weight="normal" >1 ÷ 3 = 0</text>
+<text x="215.0" y="294.0" font-size="13" text-anchor="start" fill="#2563eb" font-weight="bold" >remainder 1</text>
+<defs><marker id="u" viewBox="0 0 10 10" refX="5" refY="1" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,10 L5,0 L10,10 z" fill="#2563eb"/></marker></defs>
+<line x1="330" y1="302" x2="330" y2="210" stroke="#2563eb" stroke-width="2" marker-end="url(#u)"/>
+<text x="342.0" y="260.0" font-size="12" text-anchor="start" fill="#6b7280" font-weight="normal" >read upward</text>
+<text x="220.0" y="334.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold" >Remainders upward: 1, 2, 0, 0  →  45 = 1200₃</text>
+<text x="220.0" y="356.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="normal" >Check: 1·27 + 2·9 + 0·3 + 0 = 45</text>
+</g>
+</svg>

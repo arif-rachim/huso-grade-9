@@ -1,20 +1,21 @@
 # HUSO Grade 9
 
-Persiapan **Harvard Undergraduate Science Olympiad (HUSO) Round 1**, Minggu 15 Nov 2026,
-untuk siswa Grade 9 (IB MYP 4), visual learner.
+Preparation for the **Harvard Undergraduate Science Olympiad (HUSO) Round 1**, Sunday 15 Nov 2026,
+for a Grade 9 (IB MYP 4) visual learner.
 
-- **Rencana belajar:** GitHub issue #1 (epic) dan #2–#13 (harian/mingguan), juga sebagai data di
-  [`content/plan.json`](content/plan.json).
-- **Aplikasi web:** dibangun dengan [Renox](https://github.com/arif-rachim/renox) 1.1 (Rust + HTMX +
-  SQLite). Spesifikasi: [`docs/PROJECT.md`](docs/PROJECT.md). Desain mekanisme belajar: issue #14.
-  Daftar pekerjaan: epic #15.
-- **Konten:** silabus resmi Grade 9–10 ([`content/syllabus.json`](content/syllabus.json)), sumber &
-  link soal resmi ([`content/sources.json`](content/sources.json)), flashcard & soal orisinal
-  (`content/flashcards/`, `content/questions/`).
+> **Language: everything in this repo is in English** (international exam, English-medium school).
 
-## Menjalankan aplikasi
+- **Study plan:** GitHub issue #1 (epic) and its sub-issues, also as data in [`content/plan.json`](content/plan.json).
+- **Web app:** built with [Renox](https://github.com/arif-rachim/renox) 1.1 (Rust + HTMX + SQLite).
+  Spec: [`docs/PROJECT.md`](docs/PROJECT.md). Learning-mechanism design: issue #14. Work list: epic #15.
+- **Content:** the official Grade 9–10 syllabus ([`content/syllabus.json`](content/syllabus.json)), sources and
+  links to official papers ([`content/sources.json`](content/sources.json)), original flashcards and questions
+  (`content/flashcards/`, `content/questions/`), and the visual study material in [`materi/`](materi/).
+- **Student profile and parent feedback:** [`docs/STUDENT.md`](docs/STUDENT.md).
 
-Butuh Rust 1.94+ dan `rnx`:
+## Run the app
+
+Needs Rust 1.94+ and `rnx`:
 
 ```bash
 cargo install --locked --git https://github.com/arif-rachim/renox --rev 3acc2d1feab8fcb9defa666d15245c314710a609 renox-cli
@@ -23,4 +24,4 @@ rnx migrate && rnx db:seed
 rnx serve        # http://127.0.0.1:3000
 ```
 
-Tes: `cargo test`. Agen (Claude Code): baca `CLAUDE.md`.
+Tests: `cargo test`. Agents (Claude Code): read `CLAUDE.md`.

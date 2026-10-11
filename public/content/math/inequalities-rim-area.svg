@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 350" role="img" aria-labelledby="t d">
+<title id="t">Same perimeter, different areas</title>
+<desc id="d">Six rectangles all with perimeter 24: 11 by 1, 10 by 2, 9 by 3, 8 by 4, 7 by 5 and 6 by 6, with areas 11, 20, 27, 32, 35 and 36. The 6 by 6 square has the largest area.</desc>
+<rect x="0" y="0" width="440" height="350" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="220.0" y="26.0" font-size="15" text-anchor="middle" fill="#2563eb" font-weight="bold" >Same rim length (perimeter 24), different areas</text>
+<rect x="15.0" y="101.0" width="99.0" height="9.0" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.2" />
+<text x="15.0" y="128.0" font-size="13" text-anchor="start" fill="#111827" font-weight="normal" >11 × 1</text>
+<text x="15.0" y="144.0" font-size="13" text-anchor="start" fill="#6b7280" font-weight="normal" >area = 11</text>
+<rect x="160.0" y="92.0" width="90.0" height="18.0" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.2" />
+<text x="160.0" y="128.0" font-size="13" text-anchor="start" fill="#111827" font-weight="normal" >10 × 2</text>
+<text x="160.0" y="144.0" font-size="13" text-anchor="start" fill="#6b7280" font-weight="normal" >area = 20</text>
+<rect x="305.0" y="83.0" width="81.0" height="27.0" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.2" />
+<text x="305.0" y="128.0" font-size="13" text-anchor="start" fill="#111827" font-weight="normal" >9 × 3</text>
+<text x="305.0" y="144.0" font-size="13" text-anchor="start" fill="#6b7280" font-weight="normal" >area = 27</text>
+<rect x="15.0" y="189.0" width="72.0" height="36.0" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.2" />
+<text x="15.0" y="243.0" font-size="13" text-anchor="start" fill="#111827" font-weight="normal" >8 × 4</text>
+<text x="15.0" y="259.0" font-size="13" text-anchor="start" fill="#6b7280" font-weight="normal" >area = 32</text>
+<rect x="160.0" y="180.0" width="63.0" height="45.0" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="1.2" />
+<text x="160.0" y="243.0" font-size="13" text-anchor="start" fill="#111827" font-weight="normal" >7 × 5</text>
+<text x="160.0" y="259.0" font-size="13" text-anchor="start" fill="#6b7280" font-weight="normal" >area = 35</text>
+<rect x="305.0" y="171.0" width="54.0" height="54.0" fill="#2563eb" fill-opacity="0.45" stroke="#2563eb" stroke-width="2" />
+<text x="305.0" y="243.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold" >6 × 6</text>
+<text x="305.0" y="259.0" font-size="13" text-anchor="start" fill="#2563eb" font-weight="bold" >area = 36</text>
+<text x="220.0" y="298.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" >AM-GM: (a + b) ÷ 2 ≥ √(ab)</text>
+<text x="220.0" y="318.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="normal" >a + b = 12, so √(ab) ≤ 6 and the area ab ≤ 36</text>
+<text x="220.0" y="338.0" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="bold" >Equality only when a = b: the square wins.</text>
+</g>
+</svg>

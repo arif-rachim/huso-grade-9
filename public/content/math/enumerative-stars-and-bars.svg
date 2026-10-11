@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 336" role="img" aria-labelledby="t d">
+  <title id="t">Stars and bars</title>
+  <desc id="d">Three example arrangements of 5 stars and 2 bars give the splits 2-1-2, 5-0-0 and 0-3-2. The count is C(7,2)=21.</desc>
+  <rect x="0" y="0" width="440" height="336" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="24" font-size="16" text-anchor="middle" font-weight="bold">Stars and bars: 5 identical tomatoes in 3 bowls</text>
+    <circle cx="50" cy="70" r="9" fill="#2563eb"/>
+    <circle cx="76" cy="70" r="9" fill="#2563eb"/>
+    <rect x="96" y="54" width="5" height="32" fill="#111827"/>
+    <circle cx="124" cy="70" r="9" fill="#2563eb"/>
+    <rect x="144" y="54" width="5" height="32" fill="#111827"/>
+    <circle cx="172" cy="70" r="9" fill="#2563eb"/>
+    <circle cx="198" cy="70" r="9" fill="#2563eb"/>
+    <text x="330" y="75" font-size="14" text-anchor="start" font-weight="bold">(2, 1, 2)</text>
+    <circle cx="50" cy="112" r="9" fill="#2563eb"/>
+    <circle cx="76" cy="112" r="9" fill="#2563eb"/>
+    <circle cx="102" cy="112" r="9" fill="#2563eb"/>
+    <circle cx="128" cy="112" r="9" fill="#2563eb"/>
+    <circle cx="154" cy="112" r="9" fill="#2563eb"/>
+    <rect x="174" y="96" width="5" height="32" fill="#111827"/>
+    <rect x="196" y="96" width="5" height="32" fill="#111827"/>
+    <text x="330" y="117" font-size="14" text-anchor="start" font-weight="bold">(5, 0, 0)</text>
+    <rect x="44" y="138" width="5" height="32" fill="#111827"/>
+    <circle cx="72" cy="154" r="9" fill="#2563eb"/>
+    <circle cx="98" cy="154" r="9" fill="#2563eb"/>
+    <circle cx="124" cy="154" r="9" fill="#2563eb"/>
+    <rect x="144" y="138" width="5" height="32" fill="#111827"/>
+    <circle cx="172" cy="154" r="9" fill="#2563eb"/>
+    <circle cx="198" cy="154" r="9" fill="#2563eb"/>
+    <text x="330" y="159" font-size="14" text-anchor="start" font-weight="bold">(0, 3, 2)</text>
+    <text x="220" y="190" font-size="14" text-anchor="middle">Every way = a line of 5 stars and 2 bars.</text>
+    <text x="220" y="214" font-size="14" text-anchor="middle">Choose which 2 of the 7 spots are bars:</text>
+    <text x="220" y="244" font-size="18" text-anchor="middle" font-weight="bold" fill="#2563eb">C(5 + 3 − 1, 3 − 1) = C(7, 2) = 21</text>
+    <text x="220" y="276" font-size="13" text-anchor="middle">n identical items, k bowls (empty allowed): C(n + k − 1, k − 1)</text>
+    <text x="220" y="298" font-size="13" text-anchor="middle">each bowl at least 1: first put 1 in each bowl, then C(n − 1, k − 1)</text>
+    <text x="220" y="322" font-size="13" text-anchor="middle" fill="#6b7280">Stars = identical items. Bars = walls between bowls.</text>
+
+  </g>
+</svg>

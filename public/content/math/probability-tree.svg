@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 356" role="img" aria-labelledby="t d">
+  <title id="t">Probability tree for two rounds</title>
+  <desc id="d">Win round 1 has probability 0.6. After a win, win round 2 has 0.7; after a loss, 0.5. Paths give 0.42, 0.18, 0.20, 0.20. Chance to win round 2 is 0.62.</desc>
+  <rect x="0" y="0" width="440" height="356" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="24" font-size="16" text-anchor="middle" font-weight="bold">Tree: two rounds (made-up numbers)</text>
+    <circle cx="40" cy="170" r="16" fill="#6b7280" fill-opacity="0.15" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="40" y="175" font-size="13" text-anchor="middle" font-weight="bold">start</text>
+    <line x1="56" y1="170" x2="150" y2="100" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="56" y1="170" x2="150" y2="240" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="85" y="120" font-size="13" text-anchor="middle" font-weight="bold" fill="#2563eb">0.6</text>
+    <text x="85" y="226" font-size="13" text-anchor="middle" font-weight="bold" fill="#2563eb">0.4</text>
+    <circle cx="166" cy="100" r="16" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="166" y="105" font-size="13" text-anchor="middle" font-weight="bold">W1</text>
+    <circle cx="166" cy="240" r="16" fill="#6b7280" fill-opacity="0.15" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="166" y="245" font-size="13" text-anchor="middle" font-weight="bold">L1</text>
+    <line x1="182" y1="100" x2="290" y2="55" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="228" y="73.5" font-size="13" text-anchor="middle" font-weight="bold" fill="#2563eb">0.7</text>
+    <circle cx="306" cy="55" r="16" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="306" y="60" font-size="13" text-anchor="middle" font-weight="bold">W2</text>
+    <line x1="182" y1="100" x2="290" y2="145" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="228" y="136.5" font-size="13" text-anchor="middle" font-weight="bold" fill="#2563eb">0.3</text>
+    <circle cx="306" cy="145" r="16" fill="#6b7280" fill-opacity="0.15" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="306" y="150" font-size="13" text-anchor="middle" font-weight="bold">L2</text>
+    <line x1="182" y1="240" x2="290" y2="195" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="228" y="213.5" font-size="13" text-anchor="middle" font-weight="bold" fill="#2563eb">0.5</text>
+    <circle cx="306" cy="195" r="16" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="306" y="200" font-size="13" text-anchor="middle" font-weight="bold">W2</text>
+    <line x1="182" y1="240" x2="290" y2="285" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="228" y="276.5" font-size="13" text-anchor="middle" font-weight="bold" fill="#2563eb">0.5</text>
+    <circle cx="306" cy="285" r="16" fill="#6b7280" fill-opacity="0.15" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="306" y="290" font-size="13" text-anchor="middle" font-weight="bold">L2</text>
+    <text x="330" y="60" font-size="13" text-anchor="start">0.6 × 0.7 = 0.42</text>
+    <text x="330" y="150" font-size="13" text-anchor="start">0.6 × 0.3 = 0.18</text>
+    <text x="330" y="200" font-size="13" text-anchor="start">0.4 × 0.5 = 0.20</text>
+    <text x="330" y="290" font-size="13" text-anchor="start">0.4 × 0.5 = 0.20</text>
+    <text x="220" y="320" font-size="13" text-anchor="middle">Multiply along a path. Add the paths that end in what you want.</text>
+    <text x="220" y="342" font-size="15" text-anchor="middle" font-weight="bold" fill="#2563eb">P(win round 2) = 0.42 + 0.20 = 0.62</text>
+
+  </g>
+</svg>

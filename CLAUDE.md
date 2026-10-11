@@ -1,6 +1,10 @@
 @AGENTS.md
 @docs/PROJECT.md
 
+> **LANGUAGE: write EVERYTHING in English** (app UI incl. the Parent Dashboard, content, docs, code,
+> commits, PRs and new GitHub issues). The HUSO exam is international and the student attends an
+> English-medium IB school. See `docs/STUDENT.md`.
+
 ## Working on an issue in this repo
 
 - Start from a GitHub issue labelled `ready-for-agent`. Read the whole issue, its parent epic

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 520" role="img" aria-labelledby="t d">
+  <title id="t">Solids: volume and surface area formulas</title>
+  <desc id="d">Five solids with their volume and surface area formulas: prism, cylinder, pyramid, cone, sphere, and the scaling rule for lengths, areas and volumes.</desc>
+  <rect x="0" y="0" width="440" height="520" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="17" text-anchor="middle" fill="#111827" font-weight="bold">Five solids, one cheat sheet</text>
+    <rect x="8.0" y="40.0" width="140.0" height="232.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <rect x="150.0" y="40.0" width="140.0" height="232.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <rect x="292.0" y="40.0" width="140.0" height="232.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <rect x="8.0" y="280.0" width="140.0" height="232.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <rect x="150.0" y="280.0" width="140.0" height="232.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <rect x="292.0" y="280.0" width="140.0" height="232.0" rx="8" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="78.0" y="60.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">Prism</text>
+    <polygon points="40.0,108.0 96.0,108.0 96.0,164.0 40.0,164.0" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="40.0,108.0 62.0,90.0 118.0,90.0 96.0,108.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="2" stroke-linejoin="round"/>
+    <polygon points="96.0,108.0 118.0,90.0 118.0,146.0 96.0,164.0" fill="#2563eb" fill-opacity="0.22" stroke="#2563eb" stroke-width="2" stroke-linejoin="round"/>
+    <text x="32.0" y="140.0" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">h</text>
+    <text x="68.0" y="180.0" font-size="12" text-anchor="middle" fill="#6b7280">base B</text>
+    <text x="78.0" y="216.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">V = B · h</text>
+    <text x="78.0" y="236.0" font-size="12.5" text-anchor="middle" fill="#111827">SA = 2B + P · h</text>
+    <text x="78.0" y="255.0" font-size="11.5" text-anchor="middle" fill="#6b7280">P = perimeter of base</text>
+    <text x="220.0" y="60.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">Cylinder</text>
+    <path d="M186,98 L186,160 A34,10 0 0 0 254,160 L254,98 Z" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2"/>
+    <ellipse cx="220.0" cy="98.0" rx="34.0" ry="10.0" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="2"/>
+    <line x1="220.0" y1="98.0" x2="254.0" y2="98.0" stroke="#111827" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="237.0" y="94.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">r</text>
+    <text x="264.0" y="133.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">h</text>
+    <text x="220.0" y="216.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">V = πr²h</text>
+    <text x="220.0" y="236.0" font-size="12.5" text-anchor="middle" fill="#111827">SA = 2πr² + 2πrh</text>
+    <text x="220.0" y="255.0" font-size="11.5" text-anchor="middle" fill="#6b7280">2 circles + 1 rolled sheet</text>
+    <text x="362.0" y="60.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">Pyramid</text>
+    <polygon points="322.0,162.0 374.0,162.0 404.0,144.0 352.0,144.0" fill="#2563eb" fill-opacity="0.12" stroke="#2563eb" stroke-width="2" stroke-linejoin="round"/>
+    <line x1="363.0" y1="84.0" x2="322.0" y2="162.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="363.0" y1="84.0" x2="374.0" y2="162.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="363.0" y1="84.0" x2="404.0" y2="144.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="363.0" y1="84.0" x2="352.0" y2="144.0" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="4 3" stroke-linecap="round"/>
+    <line x1="363.0" y1="84.0" x2="363.0" y2="154.0" stroke="#111827" stroke-width="1.2" stroke-dasharray="3 2" stroke-linecap="round"/>
+    <text x="371.0" y="124.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">h</text>
+    <text x="362.0" y="216.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">V = ⅓ · B · h</text>
+    <text x="362.0" y="236.0" font-size="12.5" text-anchor="middle" fill="#111827">SA = B + side triangles</text>
+    <text x="362.0" y="255.0" font-size="11.5" text-anchor="middle" fill="#6b7280">h = height, not slant</text>
+    <text x="78.0" y="300.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">Cone</text>
+    <path d="M78,326 L44,402 A34,10 0 0 0 112,402 Z" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2"/>
+    <line x1="78.0" y1="326.0" x2="78.0" y2="402.0" stroke="#111827" stroke-width="1.2" stroke-dasharray="3 2" stroke-linecap="round"/>
+    <text x="84.0" y="372.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">h</text>
+    <text x="108.7" y="362.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">l</text>
+    <line x1="78.0" y1="402.0" x2="112.0" y2="402.0" stroke="#111827" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="95.0" y="398.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">r</text>
+    <text x="78.0" y="456.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">V = ⅓πr²h</text>
+    <text x="78.0" y="476.0" font-size="12.5" text-anchor="middle" fill="#111827">SA = πr² + πrl</text>
+    <text x="78.0" y="495.0" font-size="11.5" text-anchor="middle" fill="#6b7280">l = √(r² + h²)  (slant)</text>
+    <text x="220.0" y="300.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">Sphere</text>
+    <circle cx="220.0" cy="366.0" r="40.0" fill="#2563eb" fill-opacity="0.15" stroke="#2563eb" stroke-width="2"/>
+    <path d="M180.0,366.0 A40.0,12.0 0 0 1 260.0,366.0" fill="none" stroke="#2563eb" stroke-width="1.5"/>
+    <path d="M180.0,366.0 A40.0,12.0 0 0 0 260.0,366.0" fill="none" stroke="#2563eb" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <line x1="220.0" y1="366.0" x2="260.0" y2="366.0" stroke="#111827" stroke-width="1.2" stroke-linecap="round"/>
+    <circle cx="220.0" cy="366.0" r="2.5" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <text x="240.0" y="361.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">r</text>
+    <text x="220.0" y="456.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">V = 4/3 · πr³</text>
+    <text x="220.0" y="476.0" font-size="12.5" text-anchor="middle" fill="#111827">SA = 4πr²</text>
+    <text x="220.0" y="495.0" font-size="11.5" text-anchor="middle" fill="#6b7280">(a ball of radius r)</text>
+    <text x="362.0" y="300.0" font-size="14" text-anchor="middle" fill="#2563eb" font-weight="bold">Scale by k</text>
+    <rect x="306.0" y="324.0" width="112.0" height="32.0" rx="6" fill="#2563eb" fill-opacity="0.08" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="316.0" y="345.0" font-size="12.5" text-anchor="start" fill="#111827">lengths</text>
+    <text x="410.0" y="345.0" font-size="14" text-anchor="end" fill="#2563eb" font-weight="bold">× k</text>
+    <rect x="306.0" y="364.0" width="112.0" height="32.0" rx="6" fill="#2563eb" fill-opacity="0.15000000000000002" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="316.0" y="385.0" font-size="12.5" text-anchor="start" fill="#111827">areas</text>
+    <text x="410.0" y="385.0" font-size="14" text-anchor="end" fill="#2563eb" font-weight="bold">× k²</text>
+    <rect x="306.0" y="404.0" width="112.0" height="32.0" rx="6" fill="#2563eb" fill-opacity="0.22000000000000003" stroke="#2563eb" stroke-width="1.5"/>
+    <text x="316.0" y="425.0" font-size="12.5" text-anchor="start" fill="#111827">volumes</text>
+    <text x="410.0" y="425.0" font-size="14" text-anchor="end" fill="#2563eb" font-weight="bold">× k³</text>
+    <text x="362.0" y="476.0" font-size="12.5" text-anchor="middle" fill="#111827">k = 2: area × 4,</text>
+    <text x="362.0" y="495.0" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">volume × 8</text>
+  </g>
+</svg>

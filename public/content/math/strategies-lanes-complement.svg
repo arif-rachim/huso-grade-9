@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 314" role="img" aria-labelledby="t d">
+  <title id="t">Complementary counting with lanes</title>
+  <desc id="d">Five rows show A and B in neighboring lanes. There are 240 bad assignments out of 720, so 480 good ones.</desc>
+  <rect x="0" y="0" width="440" height="314" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="24" font-size="16" text-anchor="middle" font-weight="bold">Lanes 1-6: A and B must NOT be neighbors</text>
+    <rect x="60" y="48" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="84" y="65" font-size="13" text-anchor="middle" font-weight="bold">A</text>
+    <rect x="112" y="48" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="136" y="65" font-size="13" text-anchor="middle" font-weight="bold">B</text>
+    <rect x="164" y="48" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="188" y="65" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="216" y="48" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="240" y="65" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="268" y="48" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="292" y="65" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="320" y="48" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="344" y="65" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <text x="30" y="65" font-size="12" text-anchor="middle" fill="#6b7280">#1</text>
+    <rect x="60" y="78" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="84" y="95" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="112" y="78" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="136" y="95" font-size="13" text-anchor="middle" font-weight="bold">A</text>
+    <rect x="164" y="78" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="188" y="95" font-size="13" text-anchor="middle" font-weight="bold">B</text>
+    <rect x="216" y="78" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="240" y="95" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="268" y="78" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="292" y="95" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="320" y="78" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="344" y="95" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <text x="30" y="95" font-size="12" text-anchor="middle" fill="#6b7280">#2</text>
+    <rect x="60" y="108" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="84" y="125" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="112" y="108" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="136" y="125" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="164" y="108" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="188" y="125" font-size="13" text-anchor="middle" font-weight="bold">A</text>
+    <rect x="216" y="108" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="240" y="125" font-size="13" text-anchor="middle" font-weight="bold">B</text>
+    <rect x="268" y="108" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="292" y="125" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="320" y="108" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="344" y="125" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <text x="30" y="125" font-size="12" text-anchor="middle" fill="#6b7280">#3</text>
+    <rect x="60" y="138" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="84" y="155" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="112" y="138" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="136" y="155" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="164" y="138" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="188" y="155" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="216" y="138" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="240" y="155" font-size="13" text-anchor="middle" font-weight="bold">A</text>
+    <rect x="268" y="138" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="292" y="155" font-size="13" text-anchor="middle" font-weight="bold">B</text>
+    <rect x="320" y="138" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="344" y="155" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <text x="30" y="155" font-size="12" text-anchor="middle" fill="#6b7280">#4</text>
+    <rect x="60" y="168" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="84" y="185" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="112" y="168" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="136" y="185" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="164" y="168" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="188" y="185" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="216" y="168" width="48" height="24" rx="4" fill="#ffffff" fill-opacity="1" stroke="#6b7280"/>
+    <text x="240" y="185" font-size="13" text-anchor="middle" fill="#6b7280">·</text>
+    <rect x="268" y="168" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="292" y="185" font-size="13" text-anchor="middle" font-weight="bold">A</text>
+    <rect x="320" y="168" width="48" height="24" rx="4" fill="#2563eb" fill-opacity="0.35" stroke="#6b7280"/>
+    <text x="344" y="185" font-size="13" text-anchor="middle" font-weight="bold">B</text>
+    <text x="30" y="185" font-size="12" text-anchor="middle" fill="#6b7280">#5</text>
+    <text x="220" y="222" font-size="13" text-anchor="middle">5 neighbor spots × 2 (A,B or B,A) × 4! for the rest = 240 bad</text>
+    <text x="220" y="246" font-size="14" text-anchor="middle">Total 6! = 720</text>
+    <text x="220" y="274" font-size="18" text-anchor="middle" font-weight="bold" fill="#2563eb">Good = 720 − 240 = 480</text>
+    <text x="220" y="300" font-size="12" text-anchor="middle" fill="#6b7280">Rows show A left of B. B left of A gives 5 more rows, hence × 2.</text>
+
+  </g>
+</svg>

@@ -237,12 +237,13 @@ async fn non_subject_days_get_a_grey_chip() {
 }
 
 #[renox::test]
-async fn the_side_cards_count_zero_without_the_other_modules() {
+async fn the_side_cards_count_what_is_due() {
     let test = seeded().await;
     let student = user(&test, "student@huso.local").await;
     huso::app::today::summary::flashcards_due(test.db(), student.id)
         .await
-        .map(|n| assert_eq!(n, 0))
+        // Nothing was reviewed yet: only the capped number of new cards is due.
+        .map(|n| assert!((0..=20).contains(&n), "{n}"))
         .unwrap();
     huso::app::today::summary::errors_due(test.db(), student.id)
         .await

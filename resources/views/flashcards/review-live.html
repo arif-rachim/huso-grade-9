@@ -1,0 +1,137 @@
+{% if data.finished %}
+<section class="fc-session fc-finish">
+  <rx-page-header title="{{ 'Nothing to review today' if data.total == 0 else 'Session complete' }}" subtitle="{{ 'All your cards are on schedule. Come back tomorrow.' if data.total == 0 else 'Well done. The cards come back when it is time.' }}"/>
+  {% if data.total > 0 %}
+  <rx-card title="You reviewed {{ data.summary.total }} cards">
+    <div class="fc-summary">
+      <div class="fc-summary__item" data-grade="again"><strong>{{ data.summary.again }}</strong><span>Again</span></div>
+      <div class="fc-summary__item" data-grade="hard"><strong>{{ data.summary.hard }}</strong><span>Hard</span></div>
+      <div class="fc-summary__item" data-grade="good"><strong>{{ data.summary.good }}</strong><span>Good</span></div>
+      <div class="fc-summary__item" data-grade="easy"><strong>{{ data.summary.easy }}</strong><span>Easy</span></div>
+    </div>
+  </rx-card>
+  {% endif %}
+  <rx-row>
+    <rx-link-button route="today.index" variant="primary" label="Back to Today"/>
+    <rx-link-button route="flashcards.index" variant="secondary" label="Flashcard overview"/>
+  </rx-row>
+</section>
+{% else %}
+{% set card = data.card %}
+<section class="fc-session">
+  <div class="fc-progress">
+    <a class="fc-progress__back" href="{{ route('flashcards.index') }}">&larr; Overview</a>
+    <strong class="fc-progress__count">{{ data.number }}/{{ data.total }}</strong>
+    <rx-progress :value="data.percent" max="100" label="Progress"/>
+  </div>
+
+  <article class="fc-card" style="--fc-color: {{ card.subject.color if card.subject else '#6b7280' }}" data-kind="{{ card.kind }}">
+    <header class="fc-card__head">
+      <span class="fc-card__subject">{{ card.subject.emoji if card.subject }} {{ card.subject.name if card.subject }}</span>
+      {% if card.topic %}<span class="fc-card__topic">{{ card.topic }}</span>{% endif %}
+      <span class="fc-card__box">{{ 'New card' if card.is_new else 'Box ' ~ card.box }}</span>
+    </header>
+
+    {% if card.svg %}
+      <div class="fc-visual fc-visual--inline">{{ card.svg | safe }}</div>
+    {% elif card.visual %}
+      <div class="fc-visual"><img src="{{ card.visual }}" alt="Picture for this card"></div>
+    {% endif %}
+
+    {% if card.sketch and not card.visual and not card.svg %}
+      <div class="fc-sketch"><strong>&#9999;&#65039; Draw it on paper first:</strong> {{ card.sketch }}</div>
+    {% elif card.sketch and state.revealed %}
+      <div class="fc-sketch"><strong>&#9999;&#65039; Drawing prompt:</strong> {{ card.sketch }}</div>
+    {% endif %}
+
+    {% if card.kind == 'cloze' %}
+      <p class="fc-text fc-cloze">{% for p in card.parts %}{% if p.gap %}{% if state.revealed %}<mark class="fc-gap fc-gap--open">{{ p.text }}</mark>{% else %}<span class="fc-gap" role="img" aria-label="blank">&nbsp;</span>{% endif %}{% else %}{{ p.text }}{% endif %}{% endfor %}</p>
+      {% if state.revealed and card.back %}<div class="fc-back"><p>{{ card.back }}</p></div>{% endif %}
+
+    {% elif card.kind == 'order' %}
+      <p class="fc-text">{{ card.front }}</p>
+      {% if not state.revealed %}
+        <p class="fc-hint">Click the items in the right order. {{ card.picked }} of {{ card.shuffled | length }} chosen.</p>
+        <div class="fc-choices">
+          {% for it in card.shuffled %}
+            {% if it.rank %}
+              <rx-button type="button" variant="primary" disabled-reason="Already chosen as number {{ it.rank }}" label="{{ it.rank }}. {{ it.text }}"/>
+            {% else %}
+              <rx-button type="button" variant="secondary" rx-click="pick({{ state.pos }}, {{ it.pos }})" label="{{ it.text }}"/>
+            {% endif %}
+          {% endfor %}
+        </div>
+        {% if card.picked > 0 %}
+          <rx-button type="button" variant="plain" size="small" rx-click="clear_picks({{ state.pos }})" label="Start again"/>
+        {% endif %}
+      {% else %}
+        <div class="fc-back">
+          <p><strong>{{ 'Right! That is the correct order.' if card.right else 'Not quite. The right order is:' }}</strong></p>
+          <ol class="fc-answer-list">{% for item in card.answer %}<li>{{ item }}</li>{% endfor %}</ol>
+          {% if card.back %}<p>{{ card.back }}</p>{% endif %}
+        </div>
+      {% endif %}
+
+    {% elif card.kind == 'match' %}
+      <p class="fc-text">{{ card.front }}</p>
+      {% if not state.revealed %}
+        <p class="fc-hint">Click an item on the left, then its partner on the right.</p>
+        <div class="fc-match">
+          <div class="fc-choices">
+            {% for l in card.left %}
+              {% if l.matched %}
+                <rx-button type="button" variant="primary" icon="check" disabled-reason="Matched" label="{{ l.text }}"/>
+              {% else %}
+                <rx-button type="button" variant="{{ 'primary' if l.selected else 'secondary' }}" rx-click="choose_left({{ state.pos }}, {{ l.i }})" label="{{ l.text }}"/>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div class="fc-choices">
+            {% for r in card.right_items %}
+              {% if r.matched %}
+                <rx-button type="button" variant="primary" icon="check" disabled-reason="Matched" label="{{ r.text }}"/>
+              {% else %}
+                <rx-button type="button" variant="secondary" rx-click="choose_right({{ state.pos }}, {{ r.j }})" label="{{ r.text }}"/>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+        {% if card.mistakes > 0 %}<p class="fc-hint">Wrong tries: {{ card.mistakes }}</p>{% endif %}
+      {% else %}
+        <div class="fc-back">
+          <p><strong>{{ 'All matched with no mistakes.' if card.mistakes == 0 and card.done else ('Matched, with ' ~ card.mistakes ~ ' wrong tries.' if card.done else 'The pairs are:') }}</strong></p>
+          <ul class="fc-answer-list">{% for p in card.pairs %}<li>{{ p[0] }} &rarr; <strong>{{ p[1] }}</strong></li>{% endfor %}</ul>
+          {% if card.back %}<p>{{ card.back }}</p>{% endif %}
+        </div>
+      {% endif %}
+
+    {% elif card.kind == 'occlusion' %}
+      <p class="fc-text">{{ card.front or 'What is hidden under the grey box?' }}</p>
+      {% if state.revealed %}
+        <div class="fc-back">
+          {% if card.label %}<p>It was: <strong class="fc-label">{{ card.label }}</strong></p>{% endif %}
+          {% if card.back %}<p>{{ card.back }}</p>{% endif %}
+        </div>
+      {% endif %}
+
+    {% else %}
+      <p class="fc-text">{{ card.front }}</p>
+      {% if state.revealed %}<div class="fc-back"><p>{{ card.back }}</p></div>{% endif %}
+    {% endif %}
+  </article>
+
+  <div class="fc-controls">
+    {% if not state.revealed %}
+      <rx-button type="button" variant="primary" key="space" rx-click="reveal({{ state.pos }})" label="Show answer"/>
+      <p class="fc-hint">Press <kbd>Space</kbd> to show the answer.</p>
+    {% else %}
+      <div class="fc-grades">
+        <rx-button rx-for="b in data.buttons" type="button" variant="{{ 'primary' if b.suggested else 'secondary' }}" key="{{ b.n }}" data-grade="{{ b.label | lower }}" rx-click="grade({{ state.pos }}, {{ b.n }})">
+          <span class="fc-grade"><b>{{ b.n }} &middot; {{ b.label }}</b><small>{{ b.when }}</small></span>
+        </rx-button>
+      </div>
+      <p class="fc-hint">Press <kbd>1</kbd> Again, <kbd>2</kbd> Hard, <kbd>3</kbd> Good or <kbd>4</kbd> Easy.</p>
+    {% endif %}
+  </div>
+</section>
+{% endif %}

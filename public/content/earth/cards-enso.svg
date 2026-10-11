@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 356" role="img" aria-labelledby="t d">
+<title id="t">El Nino and normal conditions</title>
+<desc id="d">Cross section of the equatorial Pacific. In a normal year strong trade winds pile warm water in the west and upwelling cools the east. In El Nino the trade winds weaken and the warm water spreads east.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="356" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="20" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Normal year (La Niña: even stronger)</text>
+<rect x="20" y="56" width="360" height="90" fill="#92400e" fill-opacity="0.06"/>
+<text x="26" y="140" font-size="12" text-anchor="start" fill="#6b7280">Indonesia / Australia</text>
+<text x="374" y="140" font-size="12" text-anchor="end" fill="#6b7280">Peru</text>
+<path d="M20,126 C140,122 260,90 380,84" fill="none" stroke="#111827" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<ellipse cx="80" cy="84" rx="60" ry="24" fill="#92400e" fill-opacity="0.28"/>
+<text x="80" y="88" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">warm pool</text>
+<text x="200" y="38" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">strong trade winds</text>
+<line x1="340" y1="48" x2="60" y2="48" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<line x1="345" y1="132" x2="345" y2="96" stroke="#92400e" stroke-width="2.5" marker-end="url(#ahB)"/>
+<text data-label="Upwelling" x="335" y="114" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">upwelling</text>
+<text x="200" y="170" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">El Niño: trade winds weaken</text>
+<rect x="20" y="206" width="360" height="90" fill="#92400e" fill-opacity="0.06"/>
+<text x="26" y="290" font-size="12" text-anchor="start" fill="#6b7280">Indonesia / Australia</text>
+<text x="374" y="290" font-size="12" text-anchor="end" fill="#6b7280">Peru</text>
+<path d="M20,262 C130,260 260,258 380,256" fill="none" stroke="#111827" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="6 4"/>
+<ellipse cx="250" cy="234" rx="80" ry="22" fill="#92400e" fill-opacity="0.28"/>
+<text x="250" y="238" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">warm water spreads east</text>
+<text x="200" y="188" font-size="12" text-anchor="middle" fill="#6b7280">weak trade winds</text>
+<line x1="280" y1="198" x2="140" y2="198" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 3" marker-end="url(#ahG)"/>
+<text x="200" y="312" font-size="12" text-anchor="middle" fill="#6b7280">Dashed line = thermocline (warm top layer / cold deep water).</text>
+<text x="200" y="328" font-size="12" text-anchor="middle" fill="#6b7280">El Niño: upwelling off Peru shuts down, rain moves east.</text>
+<text x="200" y="344" font-size="12" text-anchor="middle" fill="#6b7280">La Niña: stronger trade winds, cooler eastern Pacific.</text>
+</g>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 356" role="img" aria-labelledby="t d">
+<title id="t">The celestial sphere</title>
+<desc id="d">Celestial equator, ecliptic tilted 23.4 degrees, north celestial pole, vernal equinox where right ascension is zero, and a star at its right ascension and declination.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="356" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<circle cx="180" cy="170" r="105" fill="#92400e" fill-opacity="0.05" stroke="#111827" stroke-width="2"/>
+<polyline points="285,170 284.7,167.7 284,165.5 282.7,163.3 280.9,161.1 278.7,158.9 275.9,156.8 272.7,154.8 269,152.8 264.9,150.9 260.4,149.1 255.5,147.5 250.3,145.9 244.6,144.4 238.7,143.1 232.5,141.9 226,140.8 219.3,139.9 212.4,139.1 205.4,138.5 198.2,138 191,137.7 183.7,137.6 176.3,137.6 169,137.7 161.8,138 154.6,138.5 147.6,139.1 140.7,139.9 134,140.8 127.5,141.9 121.3,143.1 115.4,144.4 109.7,145.9 104.5,147.5 99.6,149.1 95.1,150.9 91,152.8 87.3,154.8 84.1,156.8 81.3,158.9 79.1,161.1 77.3,163.3 76,165.5 75.3,167.7 75,170 75.3,172.3 76,174.5 77.3,176.7 79.1,178.9 81.3,181.1 84.1,183.2 87.3,185.2 91,187.2 95.1,189.1 99.6,190.9 104.5,192.5 109.7,194.1 115.4,195.6 121.3,196.9 127.5,198.1 134,199.2 140.7,200.1 147.6,200.9 154.6,201.5 161.8,202 169,202.3 176.3,202.4 183.7,202.4 191,202.3 198.2,202 205.4,201.5 212.4,200.9 219.3,200.1 226,199.2 232.5,198.1 238.7,196.9 244.6,195.6 250.3,194.1 255.5,192.5 260.4,190.9 264.9,189.1 269,187.2 272.7,185.2 275.9,183.2 278.7,181.1 280.9,178.9 282.7,176.7 284,174.5 284.7,172.3 285,170" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linejoin="round"/>
+<polyline points="285,170 284.7,165.2 284,160.3 282.7,155.6 280.9,150.9 278.7,146.3 275.9,141.8 272.7,137.4 269,133.2 264.9,129.2 260.4,125.4 255.5,121.8 250.3,118.4 244.6,115.3 238.7,112.4 232.5,109.9 226,107.6 219.3,105.6 212.4,104 205.4,102.6 198.2,101.6 191,100.9 183.7,100.6 176.3,100.6 169,100.9 161.8,101.6 154.6,102.6 147.6,104 140.7,105.6 134,107.6 127.5,109.9 121.3,112.4 115.4,115.3 109.7,118.4 104.5,121.8 99.6,125.4 95.1,129.2 91,133.2 87.3,137.4 84.1,141.8 81.3,146.3 79.1,150.9 77.3,155.6 76,160.3 75.3,165.2 75,170 75.3,174.8 76,179.7 77.3,184.4 79.1,189.1 81.3,193.7 84.1,198.2 87.3,202.6 91,206.8 95.1,210.8 99.6,214.6 104.5,218.2 109.7,221.6 115.4,224.7 121.3,227.6 127.5,230.1 134,232.4 140.7,234.4 147.6,236 154.6,237.4 161.8,238.4 169,239.1 176.3,239.4 183.7,239.4 191,239.1 198.2,238.4 205.4,237.4 212.4,236 219.3,234.4 226,232.4 232.5,230.1 238.7,227.6 244.6,224.7 250.3,221.6 255.5,218.2 260.4,214.6 264.9,210.8 269,206.8 272.7,202.6 275.9,198.2 278.7,193.7 280.9,189.1 282.7,184.4 284,179.7 284.7,174.8 285,170" fill="none" stroke="#111827" stroke-width="2" stroke-linejoin="round" stroke-dasharray="6 4"/>
+<line x1="180" y1="269.9" x2="180" y2="70.1" stroke="#6b7280" stroke-width="1.5"/>
+<circle cx="180" cy="70.1" r="4" fill="#111827"/>
+<circle cx="180" cy="170" r="3" fill="#6b7280"/>
+<text data-label="North celestial pole" x="188" y="66.1" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">North celestial pole</text>
+<text x="188" y="283.9" font-size="12" text-anchor="start" fill="#6b7280">South celestial pole</text>
+<circle cx="285" cy="170" r="5" fill="#111827"/>
+<text data-label="Vernal equinox" x="295" y="168" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">Vernal equinox</text>
+<text x="295" y="183" font-size="12" text-anchor="start" fill="#6b7280">(RA = 0 h)</text>
+<line x1="112" y1="250" x2="94" y2="188.6" stroke="#92400e" stroke-width="1.2"/>
+<text data-label="Celestial equator" x="8" y="250" font-size="12" text-anchor="start" fill="#92400e" font-weight="bold">Celestial equator</text>
+<line x1="80" y1="74" x2="89.1" y2="135.3" stroke="#111827" stroke-width="1.2"/>
+<text data-label="Ecliptic" x="8" y="70" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">Ecliptic</text>
+<text x="8" y="86" font-size="12" text-anchor="start" fill="#6b7280">(Sun&#x27;s yearly path)</text>
+<line x1="232.5" y1="141.9" x2="225.5" y2="95.7" stroke="#92400e" stroke-width="2" stroke-dasharray="3 3"/>
+<circle cx="225.5" cy="95.7" r="6" fill="#92400e" stroke="#111827" stroke-width="0.8"/>
+<text x="234.5" y="99.7" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">star</text>
+<text x="238.5" y="157.9" font-size="12" text-anchor="start" fill="#92400e" font-weight="bold">Dec</text>
+<text x="200" y="312" font-size="12" text-anchor="middle" fill="#6b7280">Right ascension (RA): hours around the equator from 0 h.</text>
+<text x="200" y="328" font-size="12" text-anchor="middle" fill="#6b7280">Declination (Dec): degrees north (+) or south (−).</text>
+<text x="200" y="344" font-size="12" text-anchor="middle" fill="#6b7280">The ecliptic is tilted 23.4° to the equator.</text>
+<text x="200" y="20" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Celestial sphere</text>
+</g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 362" role="img" aria-labelledby="t d">
+<title id="t">Cold front and warm front</title>
+<desc id="d">Cross sections. A cold front has a steep slope and lifts warm air quickly, giving heavy short showers. A warm front has a gentle slope and brings light steady rain.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="362" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="20" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Cold front: cold air pushes under warm air</text>
+<line x1="20" y1="150" x2="380" y2="150" stroke="#111827" stroke-width="2"/>
+<polygon points="20,150 20,60 200,60 150,150" fill="#92400e" fill-opacity="0.04"/>
+<polygon points="60,150 150,150 125,60 60,60" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="150,150 125,60 200,60 200,150" fill="#ffffff"/>
+<polyline points="150,150 110,40" fill="none" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+<line x1="40" y1="135" x2="100" y2="135" stroke="#111827" stroke-width="2" marker-end="url(#ahK)"/>
+<text x="60" y="112" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">COLD</text>
+<text x="60" y="128" font-size="12" text-anchor="middle" fill="#111827">dense air</text>
+<text x="300" y="100" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">WARM air</text>
+<text x="300" y="116" font-size="12" text-anchor="middle" fill="#111827">is lifted fast</text>
+<path d="M135,60 C130,25 160,20 175,30 C195,18 215,35 205,50 C220,60 195,70 175,62 C160,68 140,66 135,60 Z" fill="#d1d5db" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="180" y="50" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Cb</text>
+<text x="370" y="38" font-size="12" text-anchor="end" fill="#6b7280">steep slope, about 1 : 50</text>
+<text x="200" y="168" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">Fast  •  thunderstorms, heavy short rain  •  then cooler, clearer</text>
+<text x="200" y="205" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Warm front: warm air slides up over cold air</text>
+<line x1="20" y1="330" x2="380" y2="330" stroke="#111827" stroke-width="2"/>
+<polygon points="60,330 350,330 350,300 330,330" fill="#92400e" fill-opacity="0.0"/>
+<polygon points="160,330 370,330 370,250 330,250" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="20,330 160,330 330,250 20,250" fill="#ffffff"/>
+<polyline points="160,330 330,250" fill="none" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+<text x="50" y="320" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">COLD air stays</text>
+<text x="320" y="274" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">WARM air</text>
+<text x="320" y="290" font-size="12" text-anchor="middle" fill="#111827">rises gently</text>
+<line x1="270" y1="320" x2="350" y2="320" stroke="#111827" stroke-width="2" marker-end="url(#ahK)"/>
+<path d="M120,270 C115,255 155,253 160,263 C185,255 205,267 190,277 C180,285 135,285 120,270 Z" fill="#d1d5db" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="155" y="272" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">As / Ns</text>
+<text x="120" y="244" font-size="12" text-anchor="middle" fill="#6b7280">gentle slope, about 1 : 200</text>
+<text x="200" y="350" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">Slow  •  light steady rain far ahead of the front  •  then warmer</text>
+</g>
+</svg>

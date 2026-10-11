@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 350" role="img" aria-labelledby="t d">
+<title id="t">Bowen&#x27;s reaction series</title>
+<desc id="d">Left branch: olivine, pyroxene, amphibole, biotite. Right branch: calcium-rich to sodium-rich plagioclase. The branches join at potassium feldspar, then muscovite and quartz crystallize last.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="350" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Bowen&#x27;s reaction series</text>
+<line x1="26" y1="70" x2="26" y2="330" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text x="10" y="200" font-size="12" text-anchor="middle" fill="#6b7280" transform="rotate(-90 10 200)">HOT, crystallizes first  →  COOL, last</text>
+<text x="10" y="200" font-size="12" text-anchor="middle" fill="#6b7280" transform="rotate(0)"></text>
+<text x="110" y="42" font-size="13" text-anchor="middle" fill="#92400e" font-weight="bold">Discontinuous</text>
+<text x="305" y="42" font-size="13" text-anchor="middle" fill="#92400e" font-weight="bold">Continuous</text>
+<text x="110" y="58" font-size="12" text-anchor="middle" fill="#6b7280">(a new mineral each step)</text>
+<text x="305" y="58" font-size="12" text-anchor="middle" fill="#6b7280">(plagioclase changes)</text>
+<rect x="60" y="79" width="100" height="30" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text data-label="Olivine" x="110" y="100" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Olivine</text>
+<rect x="60" y="124" width="100" height="30" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text data-label="Pyroxene" x="110" y="145" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Pyroxene</text>
+<rect x="60" y="169" width="100" height="30" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text data-label="Amphibole" x="110" y="190" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Amphibole</text>
+<rect x="60" y="214" width="100" height="30" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text data-label="Biotite" x="110" y="235" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Biotite</text>
+<line x1="110" y1="109" x2="110" y2="123" stroke="#111827" stroke-width="1.5" marker-end="url(#ahK)"/>
+<line x1="110" y1="154" x2="110" y2="168" stroke="#111827" stroke-width="1.5" marker-end="url(#ahK)"/>
+<line x1="110" y1="199" x2="110" y2="213" stroke="#111827" stroke-width="1.5" marker-end="url(#ahK)"/>
+<rect x="240" y="79" width="130" height="30" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text x="305" y="100" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">Ca-rich plagioclase</text>
+<rect x="240" y="146" width="130" height="30" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text x="305" y="167" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">Mixed plagioclase</text>
+<rect x="240" y="214" width="130" height="30" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text x="305" y="235" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">Na-rich plagioclase</text>
+<line x1="305" y1="111" x2="305" y2="145" stroke="#111827" stroke-width="1.5" marker-end="url(#ahK)"/>
+<line x1="305" y1="178" x2="305" y2="213" stroke="#111827" stroke-width="1.5" marker-end="url(#ahK)"/>
+<path d="M110,244 L110,284 L150,284" fill="none" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ahK)"/>
+<path d="M305,244 L305,284 L260,284" fill="none" stroke="#111827" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#ahK)"/>
+<rect x="150" y="270" width="110" height="28" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text x="205" y="289" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">K-feldspar</text>
+<line x1="205" y1="298" x2="205" y2="311" stroke="#111827" stroke-width="1.5" marker-end="url(#ahK)"/>
+<rect x="120" y="312" width="80" height="26" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text x="160" y="330" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">Muscovite</text>
+<rect x="210" y="312" width="80" height="26" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5" rx="6"/>
+<text data-label="Quartz" x="250" y="330" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Quartz</text>
+</g>
+</svg>

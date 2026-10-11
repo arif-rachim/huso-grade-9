@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 358" role="img" aria-labelledby="t d">
+<title id="t">Spring and neap tides</title>
+<desc id="d">Spring tides happen at New Moon and Full Moon when Sun, Earth and Moon are in a line. Neap tides happen at the quarter Moons when the Sun and Moon pull at right angles.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="358" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Spring tides: Sun, Earth, Moon in a line</text>
+<circle cx="50" cy="80" r="28" fill="#92400e" fill-opacity="0.3"/>
+<text x="50" y="85" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Sun</text>
+<circle cx="240" cy="80" r="22" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/><ellipse cx="240" cy="80" rx="36" ry="26" fill="#92400e" fill-opacity="0.12" stroke="#92400e" stroke-width="1.2"/>
+<text x="240" y="125" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Earth</text>
+<circle cx="330" cy="80" r="9" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="330" y="105" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Moon</text>
+<line x1="80" y1="80" x2="200" y2="80" stroke="#6b7280" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="300" y="40" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">New Moon or Full Moon</text>
+<circle cx="110" cy="80" r="0" fill="#ffffff"/>
+<text x="200" y="150" font-size="12" text-anchor="middle" fill="#111827">Highest high tides, lowest low tides (big range)</text>
+<line x1="20" y1="168" x2="380" y2="168" stroke="#d1d5db" stroke-width="1"/>
+<text x="200" y="192" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Neap tides: Moon and Sun at right angles</text>
+<circle cx="50" cy="250" r="28" fill="#92400e" fill-opacity="0.3"/>
+<text x="50" y="255" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Sun</text>
+<circle cx="240" cy="250" r="22" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/><ellipse cx="240" cy="250" rx="36" ry="26" fill="#92400e" fill-opacity="0.12" stroke="#92400e" stroke-width="1.2" transform="rotate(90 240 250)"/>
+<text x="300" y="285" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">Earth</text>
+<circle cx="240" cy="205" r="9" fill="#ffffff" stroke="#111827" stroke-width="1.5"/>
+<text x="256" y="209" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">Moon</text>
+<text x="335" y="232" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">First or third</text>
+<text x="335" y="246" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">quarter Moon</text>
+<text x="200" y="322" font-size="12" text-anchor="middle" fill="#111827">Smallest tidal range: lower high tides, higher low tides</text>
+<text x="200" y="345" font-size="12" text-anchor="middle" fill="#6b7280">The bulges point toward and away from the Moon: 2 high tides a day.</text>
+</g>
+</svg>

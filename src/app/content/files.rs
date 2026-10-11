@@ -3,6 +3,7 @@
 //! `load_all` parses every file, `validate` returns human-readable problems (an empty list
 //! means the content is good). Nothing here touches the database.
 
+use super::lesson_file::{LessonFile, image_paths, load_lessons};
 use renox::chrono::NaiveDate;
 use renox::serde_json::{Map, Value};
 use serde::Deserialize;
@@ -140,6 +141,8 @@ pub struct ContentBundle {
     pub plan: Plan,
     pub flashcards: Vec<FlashcardFile>,
     pub questions: Vec<QuestionFile>,
+    /// The visual lessons in `materi/<subject>/*.md` (none when the folder does not exist).
+    pub lessons: Vec<LessonFile>,
 }
 
 fn read_json<T: serde::de::DeserializeOwned>(path: &Path) -> Result<T, String> {
@@ -173,12 +176,14 @@ pub fn load_all(root: &Path) -> Result<ContentBundle, String> {
         .iter()
         .map(|p| read_json(p))
         .collect::<Result<_, _>>()?;
+    let lessons = load_lessons(root)?;
     Ok(ContentBundle {
         root: root.to_owned(),
         syllabus,
         plan,
         flashcards,
         questions,
+        lessons,
     })
 }
 
@@ -441,6 +446,41 @@ pub fn validate(bundle: &ContentBundle) -> Vec<String> {
             }
             check_visual(root, &what, &q.visual, &mut errors);
             check_visual(root, &what, &q.explanation_visual, &mut errors);
+        }
+    }
+
+    // Lessons (`materi/`): a valid slug heading, a known subtopic of the file's subject folder,
+    // five Check questions with a key, and images that exist.
+    let mut seen_lessons: HashSet<&str> = HashSet::new();
+    for lesson in &bundle.lessons {
+        let what = format!("lesson {}", lesson.path);
+        for problem in &lesson.problems {
+            errors.push(format!("{what}: {problem}"));
+        }
+        if !lesson.slug.is_empty() && super::lesson_file::is_slug(&lesson.slug) {
+            if !subtopics.contains(lesson.slug.as_str()) {
+                errors.push(format!(
+                    "{what}: `{}` is not a subtopic of the syllabus",
+                    lesson.slug
+                ));
+            } else if !lesson.slug.starts_with(&format!("{}.", lesson.subject)) {
+                errors.push(format!(
+                    "{what}: subtopic `{}` is not in the folder `materi/{}`",
+                    lesson.slug, lesson.subject
+                ));
+            }
+            if !seen_lessons.insert(lesson.slug.as_str()) {
+                errors.push(format!("{what}: a second lesson for `{}`", lesson.slug));
+            }
+        }
+        for image in image_paths(&lesson.markdown) {
+            if !root
+                .join("public")
+                .join(image.trim_start_matches("public/"))
+                .is_file()
+            {
+                errors.push(format!("{what}: image `{image}` does not exist"));
+            }
         }
     }
     errors

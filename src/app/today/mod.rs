@@ -6,7 +6,8 @@
 pub mod models;
 pub mod summary;
 
-use crate::app::content::models::{PlanDay, PlanTask, Subject, Topic};
+use crate::app::content::models::{Lesson, PlanDay, PlanTask, Subject, Topic};
+use crate::app::lessons::status::{self as lesson_status, RedItem, TopicState};
 use models::{StudySession, TaskCheck};
 use renox::chrono::NaiveDate;
 use renox::live_component::{LiveContext, Mounted};
@@ -301,6 +302,11 @@ struct NewMaterial {
     slug: String,
     name: String,
     color: String,
+    /// The subtopic has a lesson page (`lessons.show`).
+    has_lesson: bool,
+    status_label: &'static str,
+    status_icon: &'static str,
+    status_kind: &'static str,
 }
 
 #[derive(Serialize)]
@@ -334,6 +340,9 @@ struct TodayPage {
     empty: Option<EmptyState>,
     checklist: Option<Mounted>,
     new_material: Vec<NewMaterial>,
+    /// Subtopics that are late (Sundays and the last week); empty when the day has no red list.
+    red_list: Vec<RedItem>,
+    red_title: Option<String>,
     timer_blocks: Vec<TimerBlock>,
     flashcards_due: i64,
     errors_due: i64,
@@ -391,6 +400,8 @@ async fn index(
         empty: None,
         checklist: None,
         new_material: Vec::new(),
+        red_list: Vec::new(),
+        red_title: None,
         timer_blocks: Vec::new(),
         flashcards_due: 0,
         errors_due: 0,
@@ -474,16 +485,46 @@ async fn index(
             .get(&db)
             .await?;
         topics.sort_by_key(|t| slugs.iter().position(|s| *s == t.slug));
+        let with_lesson: Vec<i64> = Lesson::query()
+            .where_in("topic_id", topics.iter().map(|t| t.id).collect::<Vec<_>>())
+            .get(&db)
+            .await?
+            .into_iter()
+            .map(|l| l.topic_id)
+            .collect();
+        let states = lesson_status::states(&db, student).await?;
         page.new_material = topics
             .into_iter()
-            .map(|t| NewMaterial {
-                color: by_id
-                    .get(&t.subject_id)
-                    .map_or_else(|| "#6b7280".to_owned(), |s| s.color.clone()),
-                slug: t.slug,
-                name: t.name,
+            .map(|t| {
+                let state = states.get(&t.id).copied().unwrap_or(TopicState::NONE);
+                NewMaterial {
+                    color: by_id
+                        .get(&t.subject_id)
+                        .map_or_else(|| "#6b7280".to_owned(), |s| s.color.clone()),
+                    has_lesson: with_lesson.contains(&t.id),
+                    status_label: state.status.label(),
+                    status_icon: state.status.icon(),
+                    status_kind: state.status.kind(),
+                    slug: t.slug,
+                    name: t.name,
+                }
             })
             .collect();
+    }
+
+    // The red list: Sundays and the last week list the subtopics that should be READY by now.
+    if let Some(scope) = lesson_status::red_list_scope(date, Some(list.day.subject.as_str())) {
+        page.red_title = Some(match &scope {
+            lesson_status::RedScope::All => "Red list: not READY yet".to_owned(),
+            lesson_status::RedScope::Subject(slug) => format!(
+                "Red list: {}",
+                subjects
+                    .iter()
+                    .find(|s| s.slug == *slug)
+                    .map_or(slug.as_str(), |s| s.name.as_str())
+            ),
+        });
+        page.red_list = lesson_status::red_list(&db, student, date, &scope).await?;
     }
     page.timer_blocks = list
         .blocks

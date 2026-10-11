@@ -3,7 +3,7 @@
 //! archived (never deleted) so the student's progress survives.
 
 use super::files::{ContentBundle, validate};
-use super::models::{Flashcard, PlanDay, PlanTask, Question, Subject, Topic};
+use super::models::{Flashcard, Lesson, PlanDay, PlanTask, Question, Subject, Topic};
 use renox::chrono::NaiveDate;
 use renox::db::Json;
 use renox::prelude::*;
@@ -32,6 +32,7 @@ pub struct ImportReport {
     pub plan_tasks: usize,
     pub flashcards: usize,
     pub questions: usize,
+    pub lessons: usize,
     pub archived: usize,
 }
 
@@ -212,6 +213,31 @@ pub async fn import(db: &Db, bundle: &ContentBundle) -> Result<ImportReport> {
         question.archived_at = Some(renox::db::now());
         question.save(db).await?;
         report.archived += 1;
+    }
+
+    // Lessons: one per subtopic, matched by the slug in the file's heading. Lessons whose file
+    // is gone are removed (the student's checks hang on the topic, so they survive).
+    let mut lesson_topics = HashSet::new();
+    for file in &bundle.lessons {
+        let topic_id = topic_ids[&file.slug];
+        let mut lesson = Lesson::query()
+            .where_(Lesson::TOPIC_ID.eq(topic_id))
+            .first(db)
+            .await?
+            .unwrap_or_default();
+        lesson.topic_id = topic_id;
+        lesson.title = file.title.clone();
+        lesson.markdown = file.markdown.clone();
+        lesson.watch_links = Json(file.watch_links.clone());
+        lesson.source_path = file.path.clone();
+        save!(db, Lesson, lesson);
+        lesson_topics.insert(topic_id);
+        report.lessons += 1;
+    }
+    for mut stale in Lesson::query().get(db).await? {
+        if !lesson_topics.contains(&stale.topic_id) {
+            stale.delete(db).await?;
+        }
     }
     Ok(report)
 }

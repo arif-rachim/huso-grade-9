@@ -217,8 +217,8 @@ async fn days_can_be_browsed_with_the_date_query() {
         .await
         .assert_ok()
         .assert_see("Wednesday, 14 October 2026")
-        .assert_see("date=2026-10-13")
-        .assert_see("date=2026-10-15");
+        .assert_see("/plan/2026-10-13")
+        .assert_see("/plan/2026-10-15");
     // A bad date falls back to today.
     test.get("/today?date=nonsense").await.assert_ok();
 }

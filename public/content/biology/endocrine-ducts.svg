@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 320" role="img" aria-labelledby="edt edd">
+  <title id="edt">Exocrine versus endocrine glands</title>
+  <desc id="edd">Left: an exocrine gland sends its product along a duct to a surface. Right: an endocrine gland has no duct and releases hormones into a blood vessel that carries them to a target organ.</desc>
+  <defs>
+    <marker id="eda" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="edg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="320" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Where does the gland send its product?</text>
+    <g data-label="exocrine gland">
+      <rect x="20" y="40" width="205" height="250" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+      <text x="122" y="64" font-size="15" text-anchor="middle" font-weight="bold">Exocrine: has a duct</text>
+      <ellipse cx="122" cy="200" rx="52" ry="30" fill="#16a34a" fill-opacity="0.2" stroke="#16a34a" stroke-width="2"/>
+      <text x="122" y="205" font-size="13" text-anchor="middle">gland</text>
+      <path d="M122,170 L122,110" stroke="#111827" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.25"/>
+      <path d="M122,170 L122,112" stroke="#111827" stroke-width="2" fill="none" marker-end="url(#eda)"/>
+      <text x="132" y="140" font-size="12" fill="#111827">duct</text>
+      <line x1="60" y1="102" x2="184" y2="102" stroke="#6b7280" stroke-width="3"/>
+      <text x="122" y="94" font-size="12" text-anchor="middle" fill="#6b7280">surface: skin or gut</text>
+      <text x="122" y="252" font-size="12" text-anchor="middle">sweat, saliva, digestive juice</text>
+      <text x="122" y="270" font-size="12" text-anchor="middle">enzymes (not hormones)</text>
+    </g>
+    <g data-label="endocrine gland">
+      <rect x="255" y="40" width="205" height="250" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+      <text x="357" y="64" font-size="15" text-anchor="middle" font-weight="bold">Endocrine: no duct</text>
+      <ellipse cx="310" cy="180" rx="40" ry="26" fill="#16a34a" fill-opacity="0.2" stroke="#16a34a" stroke-width="2"/>
+      <text x="310" y="185" font-size="13" text-anchor="middle">gland</text>
+      <path d="M270,222 C310,206 350,206 440,222" stroke="#dc2626" stroke-width="10" fill="none" stroke-opacity="0.35"/>
+      <text x="355" y="244" font-size="12" fill="#dc2626">blood vessel</text>
+      <circle cx="310" cy="208" r="3.5" fill="#16a34a"/><circle cx="332" cy="212" r="3.5" fill="#16a34a"/><circle cx="356" cy="215" r="3.5" fill="#16a34a"/><circle cx="380" cy="217" r="3.5" fill="#16a34a"/>
+      <text x="312" y="130" font-size="12" text-anchor="middle">hormones = green dots</text>
+      <rect x="395" y="106" width="52" height="40" rx="8" fill="#16a34a" fill-opacity="0.08" stroke="#16a34a" stroke-width="1.5"/>
+      <text x="421" y="130" font-size="12" text-anchor="middle">target</text>
+      <path d="M382,212 C400,190 410,170 421,148" stroke="#16a34a" stroke-width="1.5" fill="none" marker-end="url(#edg)"/>
+      <text x="357" y="268" font-size="12" text-anchor="middle">hormones travel in the blood</text>
+    </g>
+    <text x="240" y="312" font-size="12" text-anchor="middle" fill="#6b7280">The pancreas is both: digestive juice by a duct, insulin and glucagon into the blood.</text>
+  </g>
+</svg>

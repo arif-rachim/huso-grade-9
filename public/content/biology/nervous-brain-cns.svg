@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 450" role="img">
+  <title>The central nervous system: brain parts and spinal cord</title>
+  <desc>Side view of the head and neck. The cerebrum is the large top part of the brain, the cerebellum sits behind and below it, and the medulla oblongata is the lowest part of the brain, joining the spinal cord. The spinal cord runs down inside the backbone and nerves branch off it.</desc>
+  <rect width="520" height="450" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="260" y="22" font-size="16" font-weight="bold" text-anchor="middle">Central nervous system (CNS), side view</text>
+    <!-- body silhouette -->
+    <polygon points="170,205 150,262 100,300 100,412 320,412 320,300 272,262 256,205" fill="#f3f4f6" stroke="#d1d5db" stroke-width="2"/>
+    <!-- head -->
+    <path d="M110,125 A110,95 0 1 1 330,125 L330,128 L342,148 L330,152 L330,168 A110,95 0 0 1 270,208 L180,208 A110,95 0 0 1 110,125 Z" fill="#f9fafb" stroke="#6b7280" stroke-width="2.5"/>
+    <!-- vertebrae -->
+    <g fill="#d1d5db" stroke="#6b7280" stroke-width="1">
+      <rect x="176" y="222" width="26" height="12" rx="4"/><rect x="176" y="244" width="26" height="12" rx="4"/>
+      <rect x="176" y="266" width="26" height="12" rx="4"/><rect x="176" y="288" width="26" height="12" rx="4"/>
+      <rect x="176" y="310" width="26" height="12" rx="4"/><rect x="176" y="332" width="26" height="12" rx="4"/>
+      <rect x="176" y="354" width="26" height="12" rx="4"/><rect x="176" y="376" width="26" height="12" rx="4"/>
+    </g>
+    <!-- nerves (PNS) -->
+    <g stroke="#6b7280" stroke-width="2.5" fill="none" stroke-linecap="round">
+      <path d="M189,262 L130,300"/><path d="M189,262 L250,300"/>
+      <path d="M189,305 L120,345"/><path d="M189,305 L260,345"/>
+      <path d="M189,349 L125,390"/><path d="M189,349 L255,390"/>
+    </g>
+    <!-- spinal cord -->
+    <rect x="184" y="205" width="10" height="195" rx="5" fill="#16a34a" stroke="#14532d" stroke-width="1.5" data-label="spinal cord"/>
+    <!-- cerebellum -->
+    <g data-label="cerebellum">
+      <ellipse cx="160" cy="172" rx="38" ry="21" fill="#15803d" stroke="#14532d" stroke-width="1.5"/>
+      <path d="M130,168 Q160,160 190,168 M127,176 Q160,168 193,176 M133,184 Q160,176 187,184" stroke="#bbf7d0" stroke-width="1.5" fill="none"/>
+    </g>
+    <!-- medulla -->
+    <g data-label="medulla oblongata">
+      <polygon points="200,160 228,160 222,206 188,206" fill="#166534" stroke="#14532d" stroke-width="1.5"/>
+    </g>
+    <!-- cerebrum -->
+    <g data-label="cerebrum">
+      <ellipse cx="218" cy="105" rx="92" ry="58" fill="#86efac" stroke="#14532d" stroke-width="2"/>
+      <path d="M150,100 Q170,70 195,95 Q215,60 240,90 Q262,62 282,95 M158,125 Q185,105 205,125 Q230,100 255,125 Q272,112 292,125 M200,60 Q205,80 195,95 M250,62 Q245,80 258,92" stroke="#15803d" stroke-width="2" fill="none"/>
+    </g>
+    <!-- leaders and labels -->
+    <g stroke="#111827" stroke-width="1.2" fill="none">
+      <path d="M300,80 L350,70"/><path d="M110,172 L90,210" /><path d="M222,190 L350,215"/><path d="M194,330 L335,330"/>
+    </g>
+    <text x="352" y="68" font-size="15" font-weight="bold" fill="#14532d">Cerebrum</text>
+    <text x="352" y="86" font-size="12">thinking, memory, senses,</text>
+    <text x="352" y="101" font-size="12">starts voluntary movement</text>
+    <text x="10" y="226" font-size="15" font-weight="bold" fill="#14532d">Cerebellum</text>
+    <text x="10" y="243" font-size="12">balance and</text>
+    <text x="10" y="258" font-size="12">coordination</text>
+    <text x="352" y="215" font-size="15" font-weight="bold" fill="#14532d">Medulla</text>
+    <text x="352" y="232" font-size="12">involuntary: breathing,</text>
+    <text x="352" y="247" font-size="12">heartbeat</text>
+    <text x="340" y="326" font-size="15" font-weight="bold" fill="#14532d">Spinal cord</text>
+    <text x="340" y="343" font-size="12">inside the backbone</text>
+    <!-- legend -->
+    <rect x="20" y="428" width="22" height="10" rx="5" fill="#16a34a" stroke="#14532d"/>
+    <text x="50" y="437" font-size="12">CNS = brain + spinal cord</text>
+    <line x1="270" y1="433" x2="298" y2="433" stroke="#6b7280" stroke-width="2.5"/>
+    <text x="306" y="437" font-size="12">PNS = nerves to the body</text>
+  </g>
+</svg>

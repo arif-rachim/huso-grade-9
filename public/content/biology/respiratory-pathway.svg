@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 440" role="img">
+  <title>The airway from nose to alveoli</title>
+  <desc>Air goes in through the nose, pharynx and larynx, down the trachea, into two bronchi, then bronchioles inside the lungs, and ends in tiny air sacs called alveoli. The diaphragm is the muscle under the lungs.</desc>
+  <rect width="520" height="440" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="260" y="20" font-size="16" font-weight="bold" text-anchor="middle">Respiratory system: the path of air</text>
+    <circle cx="230" cy="62" r="40" fill="#f9fafb" stroke="#d1d5db" stroke-width="2"/>
+    <!-- nose cavity -->
+    <g data-label="nose"><path d="M222,48 Q230,40 238,48 L240,70 Q230,76 220,70 Z" fill="#86efac" stroke="#14532d" stroke-width="1.8"/></g>
+    <g data-label="pharynx"><rect x="224" y="78" width="12" height="38" rx="5" fill="#86efac" stroke="#14532d" stroke-width="1.8"/></g>
+    <g data-label="larynx"><rect x="219" y="116" width="22" height="24" rx="6" fill="#4ade80" stroke="#14532d" stroke-width="1.8"/></g>
+    <!-- lungs -->
+    <g data-label="lungs">
+      <path d="M212,172 C160,160 120,230 125,330 C127,374 190,380 212,362 Z" fill="#ecfdf5" stroke="#16a34a" stroke-width="2.5"/>
+      <path d="M248,172 C300,160 340,230 336,330 C334,372 280,378 252,362 C244,330 232,300 248,262 Z" fill="#ecfdf5" stroke="#16a34a" stroke-width="2.5"/>
+    </g>
+    <!-- trachea -->
+    <g data-label="trachea"><rect x="222" y="140" width="16" height="96" rx="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.8"/><g stroke="#14532d" stroke-width="1.5"><line x1="223" y1="146" x2="237" y2="146"/><line x1="223" y1="155" x2="237" y2="155"/><line x1="223" y1="164" x2="237" y2="164"/><line x1="223" y1="173" x2="237" y2="173"/><line x1="223" y1="182" x2="237" y2="182"/><line x1="223" y1="191" x2="237" y2="191"/><line x1="223" y1="200" x2="237" y2="200"/><line x1="223" y1="209" x2="237" y2="209"/><line x1="223" y1="218" x2="237" y2="218"/><line x1="223" y1="227" x2="237" y2="227"/></g></g>
+    <!-- bronchi -->
+    <g data-label="bronchi" fill="none" stroke="#14532d" stroke-width="7" stroke-linecap="round"><path d="M230,236 L195,272"/><path d="M230,236 L265,272"/></g>
+    <!-- bronchioles -->
+    <g data-label="bronchioles" fill="none" stroke="#16a34a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M195,272 L175,295 L160,320"/><path d="M195,272 L172,280 L150,285"/><path d="M195,272 L185,305 L185,340"/><path d="M195,272 L165,262 L145,245"/><path d="M195,272 L180,285 L165,270"/><path d="M265,272 L285,295 L300,320"/><path d="M265,272 L288,280 L310,285"/><path d="M265,272 L275,305 L275,340"/><path d="M265,272 L295,262 L315,245"/><path d="M265,272 L280,285 L295,270"/></g>
+    <g data-label="alveoli"><circle cx="160" cy="320" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/><circle cx="150" cy="285" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/><circle cx="185" cy="340" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/><circle cx="145" cy="245" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/><circle cx="165" cy="270" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/><circle cx="300" cy="320" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/><circle cx="310" cy="285" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/><circle cx="275" cy="340" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/><circle cx="315" cy="245" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/><circle cx="295" cy="270" r="5" fill="#bbf7d0" stroke="#14532d" stroke-width="1.2"/></g>
+    <!-- diaphragm -->
+    <g data-label="diaphragm"><path d="M105,395 Q230,330 355,395" fill="none" stroke="#6b7280" stroke-width="7" stroke-linecap="round"/></g>
+    <!-- leaders -->
+    <g stroke="#6b7280" stroke-width="1.2" fill="none">
+      <path d="M100,64 L219,60"/><path d="M100,100 L224,98"/><path d="M100,140 L219,130"/><path d="M110,262 L140,262"/><path d="M100,408 L160,378"/>
+      <path d="M238,185 L346,185"/><path d="M256,252 L346,252"/><path d="M308,300 L346,300"/><path d="M315,321 L346,332"/>
+    </g>
+    <g font-size="15" font-weight="bold" fill="#14532d">
+      <text x="8" y="62">Nose</text><text x="8" y="98">Pharynx</text><text x="8" y="138">Larynx</text><text x="8" y="260">Lungs</text><text x="8" y="414">Diaphragm</text>
+      <text x="352" y="183">Trachea</text><text x="352" y="250">Bronchi</text><text x="352" y="298">Bronchioles</text><text x="352" y="338">Alveoli</text>
+    </g>
+    <g font-size="12">
+      <text x="8" y="76">warms, filters air</text><text x="8" y="112">throat (shared with food)</text><text x="8" y="152">voice box</text><text x="8" y="276">in the chest</text><text x="8" y="428">muscle under the lungs</text>
+      <text x="352" y="199">windpipe, C-shaped rings</text><text x="352" y="266">one into each lung</text><text x="352" y="314">branching small tubes</text><text x="352" y="354">tiny air sacs: gas exchange</text>
+    </g>
+  </g>
+</svg>

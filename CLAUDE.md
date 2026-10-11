@@ -9,3 +9,6 @@
 - Branch `feat/issue-N-short-name` from the up-to-date default branch; one PR per issue with `Closes #N`.
 - Content issues follow docs/CONTENT.md; they only add files under `content/` and `public/content/`
   and must pass `cargo test --test content`.
+- **Any learning material or question** (issues Materi, Konten, QA) must follow
+  `docs/STUDENT.md` (student profile + parent feedback: visual, simple, themes cooking / Valorant /
+  swimming). Record new parent feedback in its "Log feedback" section.

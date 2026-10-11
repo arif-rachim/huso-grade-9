@@ -1,5 +1,9 @@
 # Writing content (flashcards, questions, SVG diagrams)
 
+> **Read `docs/STUDENT.md` first**: student profile and parent feedback (visual learner; use the
+> student's interests — cooking, Valorant, swimming — for hooks, analogies and ~40 % of word
+> problems). It overrides the style rules below where they differ.
+
 Shared rules for the content issues ("Konten 1–5"). The JSON formats are in
 `docs/PROJECT.md` → "Content files". Each content issue only adds files under
 `content/flashcards/`, `content/questions/` and `public/content/<subject>/`; it never changes Rust code.

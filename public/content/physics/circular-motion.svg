@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 380" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 380" role="img" aria-labelledby="t d">
   <title id="t">Uniform circular motion</title>
   <desc id="d">A ball moves counterclockwise on a circle of radius r. Velocity v points along the tangent, acceleration and net force point to the center. Formulas for v, omega, a and F.</desc>
   <defs>

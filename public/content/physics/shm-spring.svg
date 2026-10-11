@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 420" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 420" role="img" aria-labelledby="t d">
   <title id="t">Mass on a spring: force and energy</title>
   <desc id="d">A block on a spring at three positions: stretched, at rest position and compressed. The force always points back to the rest position. Potential energy is largest at the ends, kinetic energy at the middle.</desc>
   <defs>

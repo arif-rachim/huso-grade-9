@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" role="img" aria-labelledby="t d">
   <title id="t">Free fall and projectiles</title>
   <desc id="d">A dropped ball and a ball thrown sideways at 10 m/s fall together: after 1, 2 and 3 s both have fallen 4.9, 19.6 and 44.1 m. Vertical speeds 9.8, 19.6, 29.4 m/s.</desc>
   <rect x="0" y="0" width="440" height="400" fill="#ffffff"/>

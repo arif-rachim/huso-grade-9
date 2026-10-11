@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 360" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 360" role="img" aria-labelledby="t d">
   <title id="t">Friction versus push</title>
   <desc id="d">A 10 kg crate on a floor with static coefficient 0.5 and kinetic coefficient 0.4. Friction equals the push until 49 N, then the crate slides and friction drops to 39.2 N.</desc>
   <rect x="0" y="0" width="440" height="360" fill="#ffffff"/>

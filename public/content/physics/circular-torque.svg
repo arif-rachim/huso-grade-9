@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 464" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 464" role="img" aria-labelledby="t d">
   <title id="t">Torque and lever arm</title>
   <desc id="d">Three doors pushed at the same distance from the hinge: force perpendicular gives full torque, force at 30 degrees gives half, force along the door gives zero. A seesaw balances when torques match.</desc>
   <defs>

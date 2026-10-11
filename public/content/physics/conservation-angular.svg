@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 490" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 490" role="img" aria-labelledby="t d">
   <title id="t">Angular momentum of a spinner</title>
   <desc id="d">Arms out: I = 3.0 kg m2 and omega 2.0 rad/s, L = 6.0. Arms in: I = 1.0 and omega 6.0, L = 6.0. Diver in layout spins slowly, in a tuck spins fast.</desc>
   <rect x="0" y="0" width="440" height="490" fill="#ffffff"/>

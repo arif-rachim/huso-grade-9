@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" role="img" aria-labelledby="t d">
   <title id="t">Forces on a slope</title>
   <desc id="d">A 2 kg block on a 30 degree smooth slope: weight 19.6 N splits into 9.8 N along the slope and 17.0 N into the slope. The normal force is 17.0 N and the acceleration is g sin 30 = 4.9 m/s2.</desc>
   <rect x="0" y="0" width="440" height="400" fill="#ffffff"/>

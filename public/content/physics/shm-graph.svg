@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 388" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 388" role="img" aria-labelledby="t d">
   <title id="t">Position against time in SHM</title>
   <desc id="d">A cosine wave of position against time with amplitude A and period T. Speed is zero at the peaks and largest where the curve crosses zero. A dashed wave with half the amplitude has the same period.</desc>
   <defs>

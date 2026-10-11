@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 420" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 420" role="img" aria-labelledby="t d">
   <title id="t">A free body diagram</title>
   <desc id="d">A crate pushed along the floor: draw it as a dot, then weight down, normal force up, push forward and friction backward. A hanging pot has tension up and weight down. Four steps to draw any free body diagram.</desc>
   <rect x="0" y="0" width="440" height="420" fill="#ffffff"/>

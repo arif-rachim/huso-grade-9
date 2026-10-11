@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 440" role="img" aria-labelledby="t d">
   <title id="t">Energy bar charts on a smooth track</title>
   <desc id="d">A 2 kg ball rolls down a frictionless track from 5 m high. At the top: 98 J potential, 0 kinetic. At 3 m: 58.8 J potential, 39.2 J kinetic. At the bottom: 0 potential, 98 J kinetic. The total stays 98 J.</desc>
   <rect x="0" y="0" width="440" height="440" fill="#ffffff"/>

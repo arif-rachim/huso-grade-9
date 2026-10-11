@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 486" role="img" aria-labeledby="t d">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 486" role="img" aria-labelledby="t d">
   <title id="t">Collisions and momentum</title>
   <desc id="d">A 2 kg cart at 3 m/s hits a 1 kg cart at rest. If they stick: 3 kg at 2 m/s, kinetic energy drops from 9 J to 6 J. If elastic: 2 kg at 1 m/s and 1 kg at 4 m/s, kinetic energy stays 9 J. Momentum is 6 kg m/s in both cases.</desc>
   <rect x="0" y="0" width="440" height="486" fill="#ffffff"/>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 288" role="img">
+  <title>Speed of sound in air, water and steel</title>
+  <desc>Bars: sound travels at 343 meters per second in dry air, about 1480 in water and about 5000 in steel.</desc>
+  <rect x="0" y="0" width="440" height="288" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="16" text-anchor="middle" font-weight="bold">Speed of sound depends on what it travels through</text>
+    <text x="20.0" y="78.0" font-size="13" text-anchor="start" font-weight="bold">air (dry)</text>
+    <rect x="100.0" y="60.0" width="15.8" height="26.0" rx="0" fill="#dc2626" fill-opacity="0.6" stroke="#dc2626" stroke-width="0"/>
+    <text x="121.8" y="78.0" font-size="13" text-anchor="start" font-weight="bold" fill="#dc2626">343 m/s</text>
+    <text x="20.0" y="122.0" font-size="13" text-anchor="start" font-weight="bold">water</text>
+    <rect x="100.0" y="104.0" width="68.4" height="26.0" rx="0" fill="#dc2626" fill-opacity="0.35" stroke="#dc2626" stroke-width="0"/>
+    <text x="174.4" y="122.0" font-size="13" text-anchor="start" font-weight="bold" fill="#dc2626">about 1 480 m/s</text>
+    <text x="20.0" y="166.0" font-size="13" text-anchor="start" font-weight="bold">steel</text>
+    <rect x="100.0" y="148.0" width="231.0" height="26.0" rx="0" fill="#dc2626" fill-opacity="0.35" stroke="#dc2626" stroke-width="0"/>
+    <text x="337.0" y="166.0" font-size="13" text-anchor="start" font-weight="bold" fill="#dc2626">about 5 000 m/s</text>
+    <text x="220.0" y="208.0" font-size="13" text-anchor="middle" font-weight="bold">Closer particles pass the push along faster:</text>
+    <text x="220.0" y="228.0" font-size="13" text-anchor="middle" font-weight="bold" fill="#dc2626">gas  &lt;  liquid  &lt;  solid.</text>
+    <text x="220.0" y="252.0" font-size="13" text-anchor="middle">No particles (vacuum) = no sound.</text>
+    <text x="220.0" y="272.0" font-size="12" text-anchor="middle" fill="#6b7280">The speed does not depend on loudness or pitch.</text>
+
+  </g>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 450" role="img" aria-labelledby="t d">
+  <title id="t">Which constant-acceleration equation?</title>
+  <desc id="d">Four equations, each missing one of the five quantities. Pick the equation that leaves out the quantity you neither know nor want.</desc>
+  <rect x="0" y="0" width="440" height="450" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Pick the equation that skips the unknown you don't need</text>
+    <rect x="20.0" y="40.0" width="400.0" height="56.0" rx="8" fill="#dc2626" fill-opacity="0.08"/>
+    <text x="220.0" y="60.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Constant acceleration only!  Five quantities:</text>
+    <text x="220.0" y="82.0" font-size="13" text-anchor="middle" fill="#111827">Δx (displacement) · v₀ (start speed) · v (end speed) · a · t</text>
+    <text x="120.0" y="116.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">Equation</text>
+    <text x="268.0" y="116.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">It skips…</text>
+    <text x="360.0" y="116.0" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">Use it when…</text>
+    <rect x="20.0" y="128.0" width="400.0" height="46.0" rx="0" fill="#dc2626" fill-opacity="0.05"/>
+    <text x="120.0" y="157.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">v = v₀ + at</text>
+    <circle cx="268.0" cy="151.0" r="17" fill="#ffffff" stroke="#dc2626" stroke-width="2.2"/>
+    <text x="268.0" y="156.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">Δx</text>
+    <text x="360.0" y="149.0" font-size="12" text-anchor="middle" fill="#111827">no distance</text>
+    <text x="360.0" y="165.0" font-size="12" text-anchor="middle" fill="#111827">needed</text>
+    <text x="120.0" y="207.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Δx = v₀t + ½at²</text>
+    <circle cx="268.0" cy="201.0" r="17" fill="#ffffff" stroke="#dc2626" stroke-width="2.2"/>
+    <text x="268.0" y="206.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">v</text>
+    <text x="360.0" y="199.0" font-size="12" text-anchor="middle" fill="#111827">no end speed</text>
+    <text x="360.0" y="215.0" font-size="12" text-anchor="middle" fill="#111827">needed</text>
+    <rect x="20.0" y="228.0" width="400.0" height="46.0" rx="0" fill="#dc2626" fill-opacity="0.05"/>
+    <text x="120.0" y="257.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">v² = v₀² + 2aΔx</text>
+    <circle cx="268.0" cy="251.0" r="17" fill="#ffffff" stroke="#dc2626" stroke-width="2.2"/>
+    <text x="268.0" y="256.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">t</text>
+    <text x="360.0" y="249.0" font-size="12" text-anchor="middle" fill="#111827">no time</text>
+    <text x="360.0" y="265.0" font-size="12" text-anchor="middle" fill="#111827">needed</text>
+    <text x="120.0" y="307.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Δx = ½(v₀ + v)t</text>
+    <circle cx="268.0" cy="301.0" r="17" fill="#ffffff" stroke="#dc2626" stroke-width="2.2"/>
+    <text x="268.0" y="306.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">a</text>
+    <text x="360.0" y="299.0" font-size="12" text-anchor="middle" fill="#111827">no acceleration</text>
+    <text x="360.0" y="315.0" font-size="12" text-anchor="middle" fill="#111827">needed</text>
+    <text x="220.0" y="352.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">One picture for all four</text>
+    <rect x="40.0" y="394.0" width="360.0" height="28.0" rx="4" fill="none" stroke="#d1d5db" stroke-width="1.5"/>
+    <circle cx="60.0" cy="408.0" r="9" fill="#dc2626"/>
+    <text x="60.0" y="384.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">v₀</text>
+    <circle cx="380.0" cy="408.0" r="9" fill="#dc2626" fill-opacity="0.35"/>
+    <text x="380.0" y="384.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">v</text>
+    <line x1="78.0" y1="408.0" x2="354.0" y2="408.0" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="362.0,408.0 353.0,412.1 353.0,403.9" fill="#111827"/>
+    <text x="220.0" y="384.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Δx</text>
+    <text x="220.0" y="446.0" font-size="12" text-anchor="middle" fill="#6b7280">it takes time t, with steady acceleration a</text>
+  </g>
+</svg>

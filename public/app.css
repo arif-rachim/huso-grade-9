@@ -1,3 +1,38 @@
-/* The app's own styles, on top of the Renox UI kit (rx-* classes, docs/ui.md): the
-   navigation bar, forms, tables and sheets come from the kit, so this file starts empty.
-   Rebrand the kit by overriding its tokens, e.g. :root { --rx-accent: #0a7d5a; } */
+/* The app's own styles, on top of the Renox UI kit (rx-* classes). */
+
+:root {
+  /* Subject colours: fixed (docs/PROJECT.md). Templates read the colour from the
+     subjects table; these tokens are for CSS and SVG chrome. */
+  --subject-math: #2563eb;
+  --subject-physics: #dc2626;
+  --subject-chemistry: #ca8a04;
+  --subject-biology: #16a34a;
+  --subject-earth: #92400e;
+  --rx-accent: #2563eb;
+}
+
+/* A 10 px round dot in the colour of a subject. */
+.subject-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #9ca3af;
+  vertical-align: middle;
+}
+.subject-dot[data-subject="math"] { background: var(--subject-math); }
+.subject-dot[data-subject="physics"] { background: var(--subject-physics); }
+.subject-dot[data-subject="chemistry"] { background: var(--subject-chemistry); }
+.subject-dot[data-subject="biology"] { background: var(--subject-biology); }
+.subject-dot[data-subject="earth"] { background: var(--subject-earth); }
+
+/* "D-N to HUSO" badge in the navigation bar. */
+.huso-countdown {
+  font: var(--rx-type-label);
+  padding: 0.25rem 0.75rem;
+  margin-right: 0.75rem;
+  border-radius: 999px;
+  background: var(--rx-accent-soft, #dbeafe);
+  color: var(--rx-accent);
+  white-space: nowrap;
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 358" role="img">
+  <title>Signs in the first law of thermodynamics</title>
+  <desc>A gas in a cylinder with heat Q going in and work W going out. Four cases: Q 500 J and W 200 J gives delta U 300 J; insulated compression with W -150 J gives delta U 150 J; constant temperature ideal gas gives delta U 0; constant volume gives W 0 and delta U equals Q.</desc>
+  <rect x="0" y="0" width="440" height="358" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24.0" font-size="16" text-anchor="middle" font-weight="bold">First law: ΔU = Q − W</text>
+    <rect x="26.0" y="106.0" width="100.0" height="92.0" rx="0" fill="#dc2626" fill-opacity="0.12" stroke="#dc2626" stroke-width="0"/>
+    <path d="M26 88 L26 198 L126 198 L126 88" fill="none" stroke="#111827" stroke-width="3"/>
+    <rect x="30.0" y="92.0" width="92.0" height="12.0" rx="0" fill="#6b7280" fill-opacity="0.4" stroke="#111827" stroke-width="1.5"/>
+    <text x="76.0" y="160.0" font-size="14" text-anchor="middle" font-weight="bold" fill="#dc2626">gas</text>
+    <line x1="76.0" y1="88.0" x2="76.0" y2="64.0" stroke="#6b7280" stroke-width="3"/>
+    <path d="M79.5 72.3 L76.0 64.0 L72.5 72.3" fill="none" stroke="#6b7280" stroke-width="3" stroke-linejoin="round"/>
+    <text x="76.0" y="50.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#6b7280">W &gt; 0: gas does work</text>
+    <line x1="76.0" y1="246.0" x2="76.0" y2="204.0" stroke="#dc2626" stroke-width="3"/>
+    <path d="M79.5 212.3 L76.0 204.0 L72.5 212.3" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round"/>
+    <text x="76.0" y="264.0" font-size="12" text-anchor="middle" font-weight="bold" fill="#dc2626">Q &gt; 0: heat in</text>
+    <text x="304.0" y="52.0" font-size="14" text-anchor="middle" font-weight="bold">Four cases</text>
+    <rect x="176.0" y="60.0" width="256.0" height="50.0" rx="6" fill="none" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="184.0" y="78.0" font-size="12" text-anchor="start">Q = +500 J, W = +200 J</text>
+    <text x="184.0" y="96.0" font-size="13" text-anchor="start" font-weight="bold" fill="#dc2626">ΔU = +300 J</text>
+    <text x="424.0" y="96.0" font-size="12" text-anchor="end" fill="#6b7280">heats up</text>
+    <rect x="176.0" y="118.0" width="256.0" height="50.0" rx="6" fill="none" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="184.0" y="136.0" font-size="12" text-anchor="start">Q = 0 (insulated), W = −150 J</text>
+    <text x="184.0" y="154.0" font-size="13" text-anchor="start" font-weight="bold" fill="#dc2626">ΔU = +150 J</text>
+    <text x="424.0" y="154.0" font-size="12" text-anchor="end" fill="#6b7280">squeezed: warms</text>
+    <rect x="176.0" y="176.0" width="256.0" height="50.0" rx="6" fill="none" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="184.0" y="194.0" font-size="12" text-anchor="start">T constant (ideal gas)</text>
+    <text x="184.0" y="212.0" font-size="13" text-anchor="start" font-weight="bold" fill="#dc2626">ΔU = 0, so Q = W</text>
+    <text x="424.0" y="212.0" font-size="12" text-anchor="end" fill="#6b7280">heat in = work out</text>
+    <rect x="176.0" y="234.0" width="256.0" height="50.0" rx="6" fill="none" stroke="#d1d5db" stroke-width="1.2"/>
+    <text x="184.0" y="252.0" font-size="12" text-anchor="start">V constant (rigid box)</text>
+    <text x="184.0" y="270.0" font-size="13" text-anchor="start" font-weight="bold" fill="#dc2626">W = 0, so ΔU = Q</text>
+    <text x="424.0" y="270.0" font-size="12" text-anchor="end" fill="#6b7280">all heat stays</text>
+    <text x="220.0" y="328.0" font-size="12" text-anchor="middle" fill="#6b7280">Q &gt; 0: heat goes IN.  W &gt; 0: the gas expands and does work.</text>
+    <text x="220.0" y="346.0" font-size="12" text-anchor="middle" fill="#6b7280">W &lt; 0: the gas is squeezed (work is done ON it).</text>
+
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 380" role="img" aria-labelledby="egt egd">
+  <title id="egt">Four endocrine glands in the body</title>
+  <desc id="egd">Body outline with the pituitary at the base of the brain, the thyroid in the neck, the adrenal glands on top of the kidneys and the pancreas behind the stomach.</desc>
+  <defs>
+    <marker id="ega" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="egg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="380" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" font-weight="bold">Four glands that send hormones into the blood</text>
+    <g fill="none" stroke="#6b7280" stroke-width="2" stroke-linejoin="round" stroke-linecap="round">
+      <circle cx="130" cy="75" r="30" fill="#f9fafb"/>
+      <path d="M118,104 L118,118 M142,104 L142,118"/>
+      <path d="M118,118 C90,120 78,126 74,150 L66,235 M142,118 C170,120 182,126 186,150 L194,235" />
+      <path d="M96,125 L96,300 M164,125 L164,300"/>
+      <path d="M96,300 L100,350 L126,350 L130,300 L134,300 L138,350 L160,350 L164,300"/>
+    </g>
+    <path d="M110,70 C108,52 152,52 150,70 C152,80 108,80 110,70 z" fill="#16a34a" fill-opacity="0.12" stroke="#16a34a" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <ellipse cx="150" cy="215" rx="16" ry="11" fill="none" stroke="#d1d5db" stroke-width="2" stroke-dasharray="4 3"/>
+    <path d="M104,247 C98,232 108,222 116,226 C120,236 118,248 112,254 C108,256 104,252 104,247 z" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M156,247 C162,232 152,222 144,226 C140,236 142,248 148,254 C152,256 156,252 156,247 z" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+    <g data-label="pituitary"><circle cx="130" cy="82" r="5" fill="#16a34a"/></g>
+    <g data-label="thyroid"><ellipse cx="121" cy="111" rx="7" ry="10" fill="#16a34a"/><ellipse cx="139" cy="111" rx="7" ry="10" fill="#16a34a"/><rect x="121" y="108" width="18" height="5" fill="#16a34a"/></g>
+    <g data-label="adrenal"><path d="M106,226 L118,226 L116,218 L108,218 z" fill="#16a34a"/><path d="M142,226 L154,226 L152,218 L144,218 z" fill="#16a34a"/></g>
+    <g data-label="pancreas"><path d="M104,264 C120,254 140,256 160,270 C150,282 128,280 106,272 z" fill="#16a34a" fill-opacity="0.75" stroke="#16a34a" stroke-width="1.5"/></g>
+    <text x="215" y="214" font-size="12" fill="#6b7280">stomach (dashed)</text>
+    <line x1="213" y1="211" x2="168" y2="215" stroke="#6b7280" stroke-width="1"/>
+    <text x="215" y="244" font-size="12" fill="#6b7280">kidneys (gray)</text>
+    <line x1="213" y1="241" x2="160" y2="238" stroke="#6b7280" stroke-width="1"/>
+    <line x1="143" y1="82" x2="238" y2="56" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="244" y="60" font-size="15" text-anchor="start" fill="#16a34a" font-weight="bold">Pituitary</text>
+    <text x="244" y="76" font-size="12" text-anchor="start" fill="#111827">base of the brain, under the hypothalamus</text>
+    <line x1="154" y1="111" x2="238" y2="116" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="244" y="120" font-size="15" text-anchor="start" fill="#16a34a" font-weight="bold">Thyroid</text>
+    <text x="244" y="136" font-size="12" text-anchor="start" fill="#111827">neck, in front of the windpipe</text>
+    <line x1="156" y1="222" x2="238" y2="166" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="244" y="170" font-size="15" text-anchor="start" fill="#16a34a" font-weight="bold">Adrenals</text>
+    <text x="244" y="186" font-size="12" text-anchor="start" fill="#111827">on top of each kidney</text>
+    <line x1="166" y1="268" x2="238" y2="296" stroke="#16a34a" stroke-width="1.4"/>
+    <text x="244" y="300" font-size="15" text-anchor="start" fill="#16a34a" font-weight="bold">Pancreas</text>
+    <text x="244" y="316" font-size="12" text-anchor="start" fill="#111827">behind the stomach</text>
+    <text x="240" y="366" font-size="12" text-anchor="middle" fill="#6b7280">Gray shapes are only here to help you place the glands.</text>
+  </g>
+</svg>

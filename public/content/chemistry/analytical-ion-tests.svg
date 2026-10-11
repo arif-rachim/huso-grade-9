@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 536" role="img" aria-labelledby="t d">
+  <title id="t">Precipitation tests for common cations and anions</title>
+  <desc id="d">Table of what happens when sodium hydroxide and ammonia solution are added dropwise then in excess to Cu2+, Fe2+, Fe3+, Al3+, Zn2+, Mg2+ and Ca2+, plus anion tests for chloride, bromide, iodide, sulfate and carbonate.</desc>
+  <defs>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+    <marker id="arY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ca8a04"/></marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="536" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="250" y="24" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Cation tests: add NaOH(aq) or NH₃(aq), a few drops then excess</text>
+    <rect x="14" y="38" width="472" height="28" fill="#ca8a04" fill-opacity="0.22" stroke="#ca8a04" stroke-width="1" />
+    <text x="20" y="57" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">ion</text>
+    <text x="68" y="57" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">+ NaOH (drops)</text>
+    <text x="164" y="57" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">NaOH (excess)</text>
+    <text x="268" y="57" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">+ NH₃ (drops)</text>
+    <text x="378" y="57" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">NH₃ (excess)</text>
+    <line x1="14" y1="96" x2="486" y2="96" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="86" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Cu²⁺</text>
+    <circle cx="74" cy="81" r="6" fill="#93c5fd" stroke="#111827" stroke-width="1.2"/>
+    <text x="84" y="86" font-size="12" text-anchor="start" fill="#111827">pale blue ppt</text>
+    <text x="180" y="86" font-size="12" text-anchor="start" fill="#6b7280">insoluble</text>
+    <circle cx="274" cy="81" r="6" fill="#93c5fd" stroke="#111827" stroke-width="1.2"/>
+    <text x="284" y="86" font-size="12" text-anchor="start" fill="#111827">pale blue ppt</text>
+    <circle cx="384" cy="81" r="6" fill="#1d4ed8" stroke="#111827" stroke-width="1.2"/>
+    <text x="394" y="86" font-size="12" text-anchor="start" fill="#111827">dissolves: deep blue</text>
+    <line x1="14" y1="126" x2="486" y2="126" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="116" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Fe²⁺</text>
+    <circle cx="74" cy="111" r="6" fill="#86a35c" stroke="#111827" stroke-width="1.2"/>
+    <text x="84" y="116" font-size="12" text-anchor="start" fill="#111827">green ppt</text>
+    <text x="180" y="116" font-size="12" text-anchor="start" fill="#6b7280">insoluble</text>
+    <circle cx="274" cy="111" r="6" fill="#86a35c" stroke="#111827" stroke-width="1.2"/>
+    <text x="284" y="116" font-size="12" text-anchor="start" fill="#111827">green ppt</text>
+    <text x="394" y="116" font-size="12" text-anchor="start" fill="#6b7280">insoluble</text>
+    <line x1="14" y1="156" x2="486" y2="156" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="146" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Fe³⁺</text>
+    <circle cx="74" cy="141" r="6" fill="#9a3412" stroke="#111827" stroke-width="1.2"/>
+    <text x="84" y="146" font-size="12" text-anchor="start" fill="#111827">red-brown ppt</text>
+    <text x="180" y="146" font-size="12" text-anchor="start" fill="#6b7280">insoluble</text>
+    <circle cx="274" cy="141" r="6" fill="#9a3412" stroke="#111827" stroke-width="1.2"/>
+    <text x="284" y="146" font-size="12" text-anchor="start" fill="#111827">red-brown ppt</text>
+    <text x="394" y="146" font-size="12" text-anchor="start" fill="#6b7280">insoluble</text>
+    <line x1="14" y1="186" x2="486" y2="186" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="176" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Al³⁺</text>
+    <circle cx="74" cy="171" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="84" y="176" font-size="12" text-anchor="start" fill="#111827">white ppt</text>
+    <text x="180" y="176" font-size="12" text-anchor="start" fill="#111827">dissolves</text>
+    <circle cx="274" cy="171" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="284" y="176" font-size="12" text-anchor="start" fill="#111827">white ppt</text>
+    <text x="394" y="176" font-size="12" text-anchor="start" fill="#6b7280">insoluble</text>
+    <line x1="14" y1="216" x2="486" y2="216" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="206" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Zn²⁺</text>
+    <circle cx="74" cy="201" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="84" y="206" font-size="12" text-anchor="start" fill="#111827">white ppt</text>
+    <text x="180" y="206" font-size="12" text-anchor="start" fill="#111827">dissolves</text>
+    <circle cx="274" cy="201" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="284" y="206" font-size="12" text-anchor="start" fill="#111827">white ppt</text>
+    <text x="394" y="206" font-size="12" text-anchor="start" fill="#111827">dissolves</text>
+    <line x1="14" y1="246" x2="486" y2="246" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="236" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Mg²⁺</text>
+    <circle cx="74" cy="231" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="84" y="236" font-size="12" text-anchor="start" fill="#111827">white ppt</text>
+    <text x="180" y="236" font-size="12" text-anchor="start" fill="#6b7280">insoluble</text>
+    <circle cx="274" cy="231" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="284" y="236" font-size="12" text-anchor="start" fill="#111827">white ppt</text>
+    <text x="394" y="236" font-size="12" text-anchor="start" fill="#6b7280">insoluble</text>
+    <line x1="14" y1="276" x2="486" y2="276" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="266" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Ca²⁺</text>
+    <circle cx="74" cy="261" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="84" y="266" font-size="12" text-anchor="start" fill="#111827">white ppt</text>
+    <text x="180" y="266" font-size="12" text-anchor="start" fill="#6b7280">insoluble</text>
+    <text x="284" y="266" font-size="12" text-anchor="start" fill="#111827">no ppt</text>
+    <text x="394" y="266" font-size="12" text-anchor="start" fill="#6b7280">-</text>
+    <rect x="14" y="280" width="472" height="30" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1" />
+    <text x="20" y="300" font-size="12.5" text-anchor="start" fill="#111827" font-weight="bold">NH₄⁺: warm with NaOH → NH₃ gas turns damp red litmus blue</text>
+    <text x="250" y="332" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Anion tests</text>
+    <rect x="14" y="342" width="472" height="28" fill="#ca8a04" fill-opacity="0.22" stroke="#ca8a04" stroke-width="1" />
+    <text x="20" y="361" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">ion</text>
+    <text x="72" y="361" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">add this</text>
+    <text x="222" y="361" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">you see</text>
+    <line x1="14" y1="400" x2="486" y2="400" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="390" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Cl⁻</text>
+    <text x="72" y="390" font-size="12" text-anchor="start" fill="#111827">AgNO₃ + dilute HNO₃</text>
+    <circle cx="228" cy="385" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="240" y="390" font-size="12" text-anchor="start" fill="#111827">white ppt (AgCl)</text>
+    <line x1="14" y1="430" x2="486" y2="430" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="420" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">Br⁻</text>
+    <text x="72" y="420" font-size="12" text-anchor="start" fill="#111827">AgNO₃ + dilute HNO₃</text>
+    <circle cx="228" cy="415" r="6" fill="#fde68a" stroke="#111827" stroke-width="1.2"/>
+    <text x="240" y="420" font-size="12" text-anchor="start" fill="#111827">cream ppt (AgBr)</text>
+    <line x1="14" y1="460" x2="486" y2="460" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="450" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">I⁻</text>
+    <text x="72" y="450" font-size="12" text-anchor="start" fill="#111827">AgNO₃ + dilute HNO₃</text>
+    <circle cx="228" cy="445" r="6" fill="#facc15" stroke="#111827" stroke-width="1.2"/>
+    <text x="240" y="450" font-size="12" text-anchor="start" fill="#111827">yellow ppt (AgI)</text>
+    <line x1="14" y1="490" x2="486" y2="490" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="480" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">SO₄²⁻</text>
+    <text x="72" y="480" font-size="12" text-anchor="start" fill="#111827">BaCl₂ + dilute HCl</text>
+    <circle cx="228" cy="475" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="240" y="480" font-size="12" text-anchor="start" fill="#111827">white ppt (BaSO₄)</text>
+    <line x1="14" y1="520" x2="486" y2="520" stroke="#d1d5db" stroke-width="1"/>
+    <text x="20" y="510" font-size="14" text-anchor="start" fill="#111827" font-weight="bold">CO₃²⁻</text>
+    <text x="72" y="510" font-size="12" text-anchor="start" fill="#111827">dilute acid</text>
+    <circle cx="228" cy="505" r="6" fill="#ffffff" stroke="#111827" stroke-width="1.2"/>
+    <text x="240" y="510" font-size="12" text-anchor="start" fill="#111827">fizz: CO₂ turns limewater milky</text>
+    <text x="20" y="542" font-size="12" text-anchor="start" fill="#6b7280">ppt = precipitate (a solid that forms). Use dilute HNO₃ or HCl so carbonate</text>
+    <text x="20" y="558" font-size="12" text-anchor="start" fill="#6b7280">and hydroxide cannot fake a white solid.</text>
+  </g>
+</svg>

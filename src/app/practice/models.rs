@@ -7,6 +7,8 @@ pub const TOPIC: &str = "topic";
 pub const SPRINT: &str = "sprint";
 pub const MIXED: &str = "mixed";
 pub const SIMULATION: &str = "simulation";
+/// Redo the questions of the Error Log that are due.
+pub const ERRORS: &str = "errors";
 
 /// One section of a Round 1 simulation: a subject with its own 36-minute timer.
 #[derive(Serialize, Deserialize, Default, Debug, Clone, PartialEq, Eq)]

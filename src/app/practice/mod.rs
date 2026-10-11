@@ -10,7 +10,7 @@ pub mod models;
 pub mod scoring;
 
 use crate::app::content::models::{Subject, Topic};
-use models::{Answer, Attempt, MIXED, SIMULATION, SPRINT, TOPIC};
+use models::{Answer, Attempt, ERRORS, MIXED, SIMULATION, SPRINT, TOPIC};
 use renox::prelude::*;
 use scoring::{SubjectScore, Tally};
 use serde::{Deserialize, Serialize};
@@ -144,6 +144,7 @@ fn mode_label(mode: &str) -> &'static str {
         SPRINT => "Sprint",
         MIXED => "Mixed",
         SIMULATION => "Round 1 simulation",
+        ERRORS => "Redo wrong questions",
         _ => "Practice",
     }
 }
@@ -316,6 +317,7 @@ async fn start(
         },
         MIXED => engine::start_mixed(&db, user.id).await?,
         SIMULATION => engine::start_simulation(&db, user.id).await?,
+        ERRORS => engine::start_errors(&db, user.id).await?,
         _ => {
             return Err(abort(
                 StatusCode::UNPROCESSABLE_ENTITY,

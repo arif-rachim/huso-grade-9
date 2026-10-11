@@ -3,7 +3,7 @@
 //! The server is the only clock: every deadline is computed from `renox::db::now()`, so a
 //! browser that is slow, closed or tampered with cannot buy more time.
 
-use super::models::{Answer, Attempt, MIXED, SIMULATION, SPRINT, Section, TOPIC};
+use super::models::{Answer, Attempt, ERRORS, MIXED, SIMULATION, SPRINT, Section, TOPIC};
 use crate::app::content::models::{Question, Subject, Topic};
 use renox::db::Json;
 use renox::prelude::*;
@@ -212,6 +212,24 @@ pub async fn start_topic(db: &Db, user_id: i64, topic_id: i64) -> Result<Option<
     Ok(Some(create_attempt(db, user_id, plan).await?))
 }
 
+/// Redo wrong questions: the questions of the Error Log entries that are due (at most 20).
+pub async fn start_errors(db: &Db, user_id: i64) -> Result<Option<Attempt>> {
+    let ids =
+        crate::app::errors::stats::due_question_ids(db, user_id, crate::clock::today(), 20).await?;
+    if ids.is_empty() {
+        return Ok(None);
+    }
+    let plan = Plan {
+        mode: ERRORS,
+        subject: None,
+        topic_id: None,
+        ids,
+        time_limit_secs: None,
+        sections: Vec::new(),
+    };
+    Ok(Some(create_attempt(db, user_id, plan).await?))
+}
+
 /// Sprint: `count` questions of one subject against the clock.
 pub async fn start_sprint(
     db: &Db,
@@ -351,6 +369,8 @@ async fn finish_at(db: &Db, mut attempt: Attempt, at: DateTime) -> Result<Attemp
     blank_unanswered(db, attempt.id, 0, attempt.len(), at).await?;
     attempt.finished_at = Some(at);
     attempt.save(db).await?;
+    // The Error Log logs the wrong and guessed answers (once: only the call that finishes gets here).
+    crate::app::errors::record::record_attempt(db, attempt.id).await?;
     Ok(attempt)
 }
 

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 580 300" role="img">
+  <title>A motor neuron with its parts labeled</title>
+  <desc>From left to right: dendrites receive the message, the cell body holds the nucleus, a long axon wrapped in myelin sheath segments carries the impulse away, and axon terminals pass it to a muscle.</desc>
+  <defs>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#14532d"/></marker>
+  </defs>
+  <rect width="580" height="300" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="290" y="22" font-size="16" font-weight="bold" text-anchor="middle">Motor neuron: the impulse travels one way</text>
+    <!-- direction arrow -->
+    <line x1="120" y1="52" x2="460" y2="52" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <text x="290" y="45" font-size="12" text-anchor="middle" fill="#14532d">direction of the impulse (from the CNS to the muscle)</text>
+    <!-- dendrites -->
+    <g data-label="dendrites" stroke="#16a34a" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M78,128 L45,100 L22,98 M45,100 L36,80"/>
+      <path d="M72,150 L30,150 L12,138 M30,150 L12,162"/>
+      <path d="M78,172 L48,200 L24,204 M48,200 L40,222"/>
+    </g>
+    <!-- axon -->
+    <g data-label="axon">
+      <line x1="150" y1="150" x2="440" y2="150" stroke="#16a34a" stroke-width="5"/>
+    </g>
+    <!-- myelin -->
+    <g data-label="myelin sheath" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5">
+      <rect x="170" y="134" width="75" height="32" rx="14"/>
+      <rect x="256" y="134" width="75" height="32" rx="14"/>
+      <rect x="342" y="134" width="75" height="32" rx="14"/>
+    </g>
+    <!-- cell body -->
+    <g data-label="cell body">
+      <path d="M150,150 Q140,112 108,108 Q70,110 68,150 Q70,192 108,192 Q140,188 150,150 Z" fill="#bbf7d0" stroke="#14532d" stroke-width="2"/>
+      <circle cx="107" cy="150" r="17" fill="#16a34a" stroke="#14532d" stroke-width="1.5"/>
+    </g>
+    <!-- axon terminals -->
+    <g data-label="axon terminals" stroke="#16a34a" stroke-width="3" fill="none" stroke-linecap="round">
+      <path d="M440,150 L470,120 L488,116"/><path d="M440,150 L492,150"/><path d="M440,150 L470,180 L488,184"/>
+    </g>
+    <g fill="#16a34a" stroke="#14532d" stroke-width="1.2"><circle cx="492" cy="116" r="6"/><circle cx="497" cy="150" r="6"/><circle cx="492" cy="184" r="6"/></g>
+    <!-- muscle -->
+    <g data-label="muscle fiber">
+      <rect x="512" y="92" width="50" height="116" rx="10" fill="#f3f4f6" stroke="#6b7280" stroke-width="1.5"/>
+      <path d="M522,102 L522,198 M537,102 L537,198 M552,102 L552,198" stroke="#d1d5db" stroke-width="2"/>
+    </g>
+    <!-- labels -->
+    <text x="537" y="82" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold">muscle</text>
+    <g stroke="#6b7280" stroke-width="1.2" fill="none">
+      <path d="M40,224 L40,246"/><path d="M107,192 L107,246"/><path d="M160,153 L214,246"/><path d="M293,166 L330,246"/><path d="M470,182 L470,246"/>
+    </g>
+    <text x="10" y="262" font-size="14" font-weight="bold" fill="#14532d">Dendrites</text>
+    <text x="10" y="278" font-size="12">receive the</text><text x="10" y="292" font-size="12">message</text>
+    <text x="96" y="262" font-size="14" font-weight="bold" fill="#14532d">Cell body</text>
+    <text x="96" y="278" font-size="12">has the nucleus</text>
+    <text x="200" y="262" font-size="14" font-weight="bold" fill="#14532d">Axon</text>
+    <text x="200" y="278" font-size="12">long, carries the</text><text x="200" y="292" font-size="12">impulse away</text>
+    <text x="315" y="262" font-size="14" font-weight="bold" fill="#111827">Myelin sheath</text>
+    <text x="315" y="278" font-size="12">fatty insulation,</text><text x="315" y="292" font-size="12">speeds up the impulse</text>
+    <text x="440" y="262" font-size="14" font-weight="bold" fill="#14532d">Axon terminals</text>
+    <text x="440" y="278" font-size="12">pass the message</text><text x="440" y="292" font-size="12">to the muscle</text>
+  </g>
+</svg>

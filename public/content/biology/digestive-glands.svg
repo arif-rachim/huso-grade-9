@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" role="img">
+  <title>Digestive glands, their juices and their jobs</title>
+  <desc>Five digestive glands in the order the food meets them: salivary glands make saliva with amylase, gastric glands make acid and pepsin, the liver makes bile with no enzymes, the pancreas makes pancreatic juice with enzymes for all three food types, and intestinal glands make intestinal juice that finishes digestion.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#14532d"/></marker></defs>
+  <rect width="620" height="420" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="310" y="20" font-size="16" font-weight="bold" text-anchor="middle">Digestive glands: gland → juice → job</text>
+    <text x="20" y="48" font-size="13" font-weight="bold" fill="#6b7280">GLAND</text>
+    <text x="238" y="48" font-size="13" font-weight="bold" fill="#6b7280">JUICE</text>
+    <text x="438" y="48" font-size="13" font-weight="bold" fill="#6b7280">JOB</text>
+    <g data-label="salivary glands">
+      <rect x="12" y="58" width="196" height="62" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="22" y="84" font-size="14" font-weight="bold" fill="#14532d">Salivary glands</text>
+      <text x="22" y="104" font-size="12">in the mouth</text>
+    </g>
+    <line x1="210" y1="89" x2="228" y2="89" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="232" y="58" width="190" height="62" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="242" y="84" font-size="13" font-weight="bold">Saliva</text>
+    <text x="242" y="104" font-size="12">with the enzyme amylase</text>
+    <line x1="424" y1="89" x2="442" y2="89" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="446" y="58" width="162" height="62" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="456" y="84" font-size="12">Starts digesting starch</text>
+    <text x="456" y="104" font-size="12">into sugar (maltose)</text>
+    <g data-label="gastric glands">
+      <rect x="12" y="128" width="196" height="62" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="22" y="154" font-size="14" font-weight="bold" fill="#14532d">Gastric glands</text>
+      <text x="22" y="174" font-size="12">in the stomach wall</text>
+    </g>
+    <line x1="210" y1="159" x2="228" y2="159" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="232" y="128" width="190" height="62" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="242" y="154" font-size="13" font-weight="bold">Gastric juice: acid (HCl)</text>
+    <text x="242" y="174" font-size="12">+ enzyme pepsin + mucus</text>
+    <line x1="424" y1="159" x2="442" y2="159" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="446" y="128" width="162" height="62" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="456" y="154" font-size="12">Pepsin digests protein;</text>
+    <text x="456" y="174" font-size="12">acid kills germs</text>
+    <g data-label="liver">
+      <rect x="12" y="198" width="196" height="62" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="22" y="224" font-size="14" font-weight="bold" fill="#14532d">Liver</text>
+      <text x="22" y="244" font-size="12">makes bile (gallbladder stores it)</text>
+    </g>
+    <line x1="210" y1="229" x2="228" y2="229" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="232" y="198" width="190" height="62" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="242" y="224" font-size="13" font-weight="bold">Bile</text>
+    <text x="242" y="244" font-size="12">has NO enzymes</text>
+    <line x1="424" y1="229" x2="442" y2="229" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="446" y="198" width="162" height="62" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="456" y="224" font-size="12">Breaks fat into tiny</text>
+    <text x="456" y="244" font-size="12">droplets (emulsifies)</text>
+    <g data-label="pancreas">
+      <rect x="12" y="268" width="196" height="62" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="22" y="294" font-size="14" font-weight="bold" fill="#14532d">Pancreas</text>
+      <text x="22" y="314" font-size="12">beside the stomach</text>
+    </g>
+    <line x1="210" y1="299" x2="228" y2="299" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="232" y="268" width="190" height="62" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="242" y="294" font-size="13" font-weight="bold">Pancreatic juice</text>
+    <text x="242" y="314" font-size="12">enzymes + alkaline</text>
+    <line x1="424" y1="299" x2="442" y2="299" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="446" y="268" width="162" height="62" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="456" y="294" font-size="12">Digests starch, protein</text>
+    <text x="456" y="314" font-size="12">and fat</text>
+    <g data-label="intestinal glands">
+      <rect x="12" y="338" width="196" height="62" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+      <text x="22" y="364" font-size="14" font-weight="bold" fill="#14532d">Intestinal glands</text>
+      <text x="22" y="384" font-size="12">in the small intestine wall</text>
+    </g>
+    <line x1="210" y1="369" x2="228" y2="369" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="232" y="338" width="190" height="62" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="242" y="364" font-size="13" font-weight="bold">Intestinal juice</text>
+    <text x="242" y="384" font-size="12">with enzymes</text>
+    <line x1="424" y1="369" x2="442" y2="369" stroke="#14532d" stroke-width="2.5" marker-end="url(#arG)"/>
+    <rect x="446" y="338" width="162" height="62" rx="10" fill="#ecfdf5" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="456" y="364" font-size="12">Finishes digestion into</text>
+    <text x="456" y="384" font-size="12">small molecules</text>
+  </g>
+</svg>

@@ -1,0 +1,2364 @@
+{
+  "version": 1,
+  "subject": "biology",
+  "questions": [
+    {
+      "id": "biology-0001",
+      "subtopic": "biology.biochem.molecules",
+      "difficulty": 1,
+      "stem": "The sugar, oil and egg in a chef's kitchen are all made of biomolecules. Which element forms the backbone of all of them?",
+      "visual": null,
+      "choices": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "Carbon",
+        "D": "Hydrogen",
+        "E": "Phosphorus"
+      },
+      "answer": "C",
+      "explanation": "Carbon makes four covalent bonds, so it can form long chains and rings.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0002",
+      "subtopic": "biology.biochem.molecules",
+      "difficulty": 1,
+      "stem": "The egg white you whisk is mostly protein. What are the monomers (building blocks) of a protein?",
+      "visual": null,
+      "choices": {
+        "A": "Glucose molecules",
+        "B": "Amino acids",
+        "C": "Glycerol molecules",
+        "D": "Fatty acids",
+        "E": "Nucleotides"
+      },
+      "answer": "B",
+      "explanation": "Proteins are chains of amino acids joined by peptide bonds.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0003",
+      "subtopic": "biology.biochem.molecules",
+      "difficulty": 1,
+      "stem": "Which element is found in proteins and nucleic acids but not in carbohydrates or triglycerides?",
+      "visual": null,
+      "choices": {
+        "A": "Nitrogen",
+        "B": "Calcium",
+        "C": "Oxygen",
+        "D": "Hydrogen",
+        "E": "Carbon"
+      },
+      "answer": "A",
+      "explanation": "Carbohydrates and triglycerides contain only C, H and O. Amino acids and nucleotide bases contain N.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0004",
+      "subtopic": "biology.biochem.molecules",
+      "difficulty": 2,
+      "stem": "A swimmer eats pasta the night before a race. Pasta is rich in starch. Digestion breaks starch down into:",
+      "visual": null,
+      "choices": {
+        "A": "nucleotides",
+        "B": "glucose",
+        "C": "fatty acids and glycerol",
+        "D": "amino acids",
+        "E": "cellulose"
+      },
+      "answer": "B",
+      "explanation": "Starch is a polymer of glucose, so digestion gives glucose.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0005",
+      "subtopic": "biology.biochem.molecules",
+      "difficulty": 2,
+      "stem": "A DNA sample has 30% adenine. What percent of the bases are guanine?",
+      "visual": null,
+      "choices": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%",
+        "E": "70%"
+      },
+      "answer": "B",
+      "explanation": "A pairs with T, so T = 30%. A + T = 60%, leaving 40% for G + C. G = C = 20%.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0006",
+      "subtopic": "biology.biochem.molecules",
+      "difficulty": 2,
+      "stem": "Cooking an egg turns the clear egg white solid and white. Which statement best explains this?",
+      "visual": null,
+      "choices": {
+        "A": "Heat unfolds (denatures) the proteins, which clump together; the amino acid sequence is unchanged.",
+        "B": "Heat adds new amino acids to the protein chains.",
+        "C": "Heat changes the protein into starch.",
+        "D": "Heat breaks every peptide bond, so the protein becomes free amino acids.",
+        "E": "Heat removes the carbon atoms from the proteins."
+      },
+      "answer": "A",
+      "explanation": "Mild heat breaks the weak bonds that hold the 3D shape. The peptide bonds (primary structure) stay intact.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0007",
+      "subtopic": "biology.biochem.molecules",
+      "difficulty": 3,
+      "stem": "Which description fits a triglyceride?",
+      "visual": null,
+      "choices": {
+        "A": "Three glucose molecules joined to one glycerol",
+        "B": "One glycerol joined to two fatty acids and a phosphate group",
+        "C": "One glycerol joined to three fatty acids",
+        "D": "Three glycerol molecules joined to one fatty acid",
+        "E": "One glycerol joined to three amino acids"
+      },
+      "answer": "C",
+      "explanation": "A triglyceride is glycerol plus three fatty acids. The option with a phosphate group describes a phospholipid.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0008",
+      "subtopic": "biology.biochem.molecules",
+      "difficulty": 3,
+      "stem": "A polypeptide is built from 12 amino acids in one chain. How many peptide bonds does it contain, and how many water molecules were released making it?",
+      "visual": null,
+      "choices": {
+        "A": "12 bonds; 12 water molecules",
+        "B": "10 bonds; 10 water molecules",
+        "C": "12 bonds; 11 water molecules",
+        "D": "11 bonds; 12 water molecules",
+        "E": "11 bonds; 11 water molecules"
+      },
+      "answer": "E",
+      "explanation": "Joining n amino acids in a chain makes n − 1 bonds, and each bond releases one water: 12 − 1 = 11.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0009",
+      "subtopic": "biology.cell.molecular",
+      "difficulty": 1,
+      "stem": "Which shows the flow of information in the central dogma?",
+      "visual": null,
+      "choices": {
+        "A": "DNA → protein → RNA",
+        "B": "Protein → RNA → DNA",
+        "C": "Protein → DNA → RNA",
+        "D": "RNA → DNA → protein",
+        "E": "DNA → RNA → protein"
+      },
+      "answer": "E",
+      "explanation": "DNA is transcribed into RNA, and RNA is translated into protein.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0010",
+      "subtopic": "biology.cell.molecular",
+      "difficulty": 1,
+      "stem": "Which base is found in RNA but not in DNA?",
+      "visual": null,
+      "choices": {
+        "A": "Guanine",
+        "B": "Uracil",
+        "C": "Adenine",
+        "D": "Cytosine",
+        "E": "Thymine"
+      },
+      "answer": "B",
+      "explanation": "RNA uses uracil (U) where DNA uses thymine (T).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0011",
+      "subtopic": "biology.cell.molecular",
+      "difficulty": 1,
+      "stem": "In a team analogy, the coach's play (mRNA) is carried out by the players. In a cell, where does translation take place?",
+      "visual": null,
+      "choices": {
+        "A": "At a ribosome in the cytoplasm",
+        "B": "In the Golgi apparatus",
+        "C": "In the cell membrane",
+        "D": "Inside a lysosome",
+        "E": "Inside the nuclear envelope"
+      },
+      "answer": "A",
+      "explanation": "Ribosomes read mRNA codons and build the polypeptide.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0012",
+      "subtopic": "biology.cell.molecular",
+      "difficulty": 2,
+      "stem": "A team's coach keeps the master playbook (the DNA) in the office and sends a copy of just one play to the players. What is this copying process, and what is the copy?",
+      "visual": null,
+      "choices": {
+        "A": "Transcription; mRNA",
+        "B": "Translation; mRNA",
+        "C": "Transcription; tRNA",
+        "D": "Replication; DNA",
+        "E": "Translation; protein"
+      },
+      "answer": "A",
+      "explanation": "Making an RNA copy of one gene is transcription, and the working copy is mRNA. The difference: the DNA playbook itself is never used up or moved.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0013",
+      "subtopic": "biology.cell.molecular",
+      "difficulty": 2,
+      "stem": "A DNA template strand reads 3′-TAC GGA CTT-5′. What is the mRNA made from it (written 5′ to 3′)?",
+      "visual": null,
+      "choices": {
+        "A": "5′-ATG CCT GAA-3′",
+        "B": "5′-UAC GGA CUU-3′",
+        "C": "5′-AUG GGA CUU-3′",
+        "D": "5′-AUG CCU GAA-3′",
+        "E": "5′-GAA CCU AUG-3′"
+      },
+      "answer": "D",
+      "explanation": "Pair each template base: T→A, A→U, C→G gives AUG, then G→C, G→C, A→U gives CCU, then C→G, T→A, T→A gives GAA. RNA has U, not T.",
+      "explanation_visual": "content/biology/cards-translation.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0014",
+      "subtopic": "biology.cell.molecular",
+      "difficulty": 2,
+      "stem": "A eukaryotic gene has 3 exons and 2 introns. What does the mature mRNA contain?",
+      "visual": null,
+      "choices": {
+        "A": "The 3 exons and 2 introns, without a cap or tail",
+        "B": "Only the first exon",
+        "C": "All 5 segments joined together",
+        "D": "Only the 2 introns",
+        "E": "The 3 exons joined together, plus a 5′ cap and poly-A tail"
+      },
+      "answer": "E",
+      "explanation": "Splicing removes the introns and joins the exons. The cap and tail are added during processing.",
+      "explanation_visual": "content/biology/cards-rna-processing.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0015",
+      "subtopic": "biology.cell.molecular",
+      "difficulty": 3,
+      "stem": "A coding region of mRNA runs from the start codon up to (but not including) the stop codon and is 90 nucleotides long. How many amino acids are in the polypeptide?",
+      "visual": null,
+      "choices": {
+        "A": "3",
+        "B": "30",
+        "C": "31",
+        "D": "90",
+        "E": "270"
+      },
+      "answer": "B",
+      "explanation": "Each amino acid needs one codon of 3 nucleotides: 90 ÷ 3 = 30. The stop codon does not add an amino acid.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0016",
+      "subtopic": "biology.cell.molecular",
+      "difficulty": 3,
+      "stem": "DNA with both strands labeled with heavy nitrogen (¹⁵N) replicates once in light nitrogen (¹⁴N). Each new DNA molecule contains:",
+      "visual": null,
+      "choices": {
+        "A": "one heavy strand and one light strand",
+        "B": "two light strands",
+        "C": "two heavy strands",
+        "D": "one all-heavy molecule and one all-light molecule",
+        "E": "short heavy and light pieces mixed in both strands"
+      },
+      "answer": "A",
+      "explanation": "Replication is semi-conservative: each molecule keeps one old (heavy) strand and gets one new (light) strand.",
+      "explanation_visual": "content/biology/cards-replication.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0017",
+      "subtopic": "biology.cell.cell-structure",
+      "difficulty": 1,
+      "stem": "Which statement is part of the cell theory?",
+      "visual": null,
+      "choices": {
+        "A": "Cells contain no DNA.",
+        "B": "Cells can arise from non-living matter.",
+        "C": "Every cell has a nucleus.",
+        "D": "Only plants are made of cells.",
+        "E": "All living things are made of one or more cells."
+      },
+      "answer": "E",
+      "explanation": "The cell theory: living things are made of cells, the cell is the unit of life, and new cells come from existing cells.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0018",
+      "subtopic": "biology.cell.cell-structure",
+      "difficulty": 1,
+      "stem": "A team's energy supplier keeps the credits flowing. In an animal cell, which organelle is the main site of ATP production?",
+      "visual": null,
+      "choices": {
+        "A": "Mitochondrion",
+        "B": "Vacuole",
+        "C": "Golgi apparatus",
+        "D": "Lysosome",
+        "E": "Ribosome"
+      },
+      "answer": "A",
+      "explanation": "Aerobic respiration in mitochondria makes most of the ATP.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0019",
+      "subtopic": "biology.cell.cell-structure",
+      "difficulty": 1,
+      "stem": "A cook compares a spinach leaf cell with a chicken muscle cell. Which structure is found in the plant cell but NOT in the animal cell?",
+      "visual": null,
+      "choices": {
+        "A": "Nucleus",
+        "B": "Cell membrane",
+        "C": "Mitochondrion",
+        "D": "Chloroplast",
+        "E": "Ribosome"
+      },
+      "answer": "D",
+      "explanation": "Chloroplasts (with cell wall and a large vacuole) are typical of plant cells.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0020",
+      "subtopic": "biology.cell.cell-structure",
+      "difficulty": 2,
+      "stem": "In a kitchen delivery service, the packing station sorts and wraps orders and sends them out. Which organelle does the same job for proteins?",
+      "visual": null,
+      "choices": {
+        "A": "Golgi apparatus",
+        "B": "Nucleolus",
+        "C": "Mitochondrion",
+        "D": "Lysosome",
+        "E": "Chloroplast"
+      },
+      "answer": "A",
+      "explanation": "The Golgi apparatus modifies, sorts and packages proteins into vesicles. The difference: the Golgi does not make the proteins; ribosomes do.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0021",
+      "subtopic": "biology.cell.cell-structure",
+      "difficulty": 2,
+      "stem": "Through a microscope with a 10× eyepiece and a 40× objective, a cell's image is 6 mm long. What is the real length of the cell?",
+      "visual": null,
+      "choices": {
+        "A": "1.5 µm",
+        "B": "15 µm",
+        "C": "120 µm",
+        "D": "150 µm",
+        "E": "2400 µm"
+      },
+      "answer": "B",
+      "explanation": "Total magnification = 10 × 40 = 400. Real size = image size ÷ magnification = 6 mm ÷ 400 = 0.015 mm = 15 µm.",
+      "explanation_visual": "content/biology/cards-microscope.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0022",
+      "subtopic": "biology.cell.cell-structure",
+      "difficulty": 2,
+      "stem": "A 5-agent team has each agent doing a specialist job in a different spot. In a eukaryotic cell, the matching idea (compartmentalization into organelles) is useful mainly because:",
+      "visual": null,
+      "choices": {
+        "A": "it stops the cell from using energy",
+        "B": "it makes the cell bigger",
+        "C": "different reactions can run at the same time under their own conditions without interfering",
+        "D": "it forces all reactions to occur at the same pH",
+        "E": "it removes the need for DNA"
+      },
+      "answer": "C",
+      "explanation": "Membrane-bound compartments keep enzymes and conditions separate, so many reactions can occur at once.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0023",
+      "subtopic": "biology.cell.cell-structure",
+      "difficulty": 3,
+      "stem": "Which structure do bacteria and plant cells share but animal cells lack?",
+      "visual": null,
+      "choices": {
+        "A": "A cell wall",
+        "B": "A mitochondrion",
+        "C": "Rough endoplasmic reticulum",
+        "D": "A true nucleus",
+        "E": "A chloroplast"
+      },
+      "answer": "A",
+      "explanation": "Bacteria and plants have cell walls (different materials). Bacteria have no chloroplast, nucleus, mitochondria or ER.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0024",
+      "subtopic": "biology.cell.cell-structure",
+      "difficulty": 3,
+      "stem": "A student draws a plant cell 45 mm long. The real cell is 0.09 mm long. What is the magnification of the drawing?",
+      "visual": null,
+      "choices": {
+        "A": "×0.002",
+        "B": "×50",
+        "C": "×405",
+        "D": "×500",
+        "E": "×5000"
+      },
+      "answer": "D",
+      "explanation": "Magnification = drawing size ÷ real size = 45 ÷ 0.09 = 500.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0025",
+      "subtopic": "biology.cell.division",
+      "difficulty": 1,
+      "stem": "In which phase of mitosis do the chromosomes line up at the middle of the cell?",
+      "visual": null,
+      "choices": {
+        "A": "Interphase",
+        "B": "Telophase",
+        "C": "Metaphase",
+        "D": "Anaphase",
+        "E": "Prophase"
+      },
+      "answer": "C",
+      "explanation": "At metaphase the chromosomes sit on the equator.",
+      "explanation_visual": "content/biology/cards-mitosis-phases.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0026",
+      "subtopic": "biology.cell.division",
+      "difficulty": 1,
+      "stem": "A swimmer's skin cell divides by mitosis. How many daughter cells does one complete mitosis plus cell division produce?",
+      "visual": null,
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "8"
+      },
+      "answer": "B",
+      "explanation": "Mitosis gives two identical daughter cells.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0027",
+      "subtopic": "biology.cell.division",
+      "difficulty": 1,
+      "stem": "Meiosis produces cells that are:",
+      "visual": null,
+      "choices": {
+        "A": "haploid and genetically different",
+        "B": "diploid and genetically different",
+        "C": "haploid and identical",
+        "D": "tetraploid and identical",
+        "E": "diploid and identical"
+      },
+      "answer": "A",
+      "explanation": "Meiosis halves the chromosome number and shuffles genes (crossing over, independent assortment).",
+      "explanation_visual": "content/biology/cards-meiosis.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0028",
+      "subtopic": "biology.cell.division",
+      "difficulty": 2,
+      "stem": "Swimming practice makes a swimmer's muscles grow and repair; new cells come from mitosis. What is pulled apart during anaphase of mitosis?",
+      "visual": null,
+      "choices": {
+        "A": "Homologous chromosome pairs",
+        "B": "The two nuclei",
+        "C": "Sister chromatids",
+        "D": "The spindle fibers",
+        "E": "The centrioles"
+      },
+      "answer": "C",
+      "explanation": "Anaphase separates the two sister chromatids of each chromosome to opposite poles.",
+      "explanation_visual": "content/biology/cards-mitosis-phases.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0029",
+      "subtopic": "biology.cell.division",
+      "difficulty": 2,
+      "stem": "A swimmer's body cells have 46 chromosomes. How many chromosomes are in one of her egg cells?",
+      "visual": null,
+      "choices": {
+        "A": "22",
+        "B": "23",
+        "C": "24",
+        "D": "46",
+        "E": "92"
+      },
+      "answer": "B",
+      "explanation": "Gametes are haploid (n = 23); body cells are diploid (2n = 46).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0030",
+      "subtopic": "biology.cell.division",
+      "difficulty": 2,
+      "stem": "Which event happens in meiosis but NOT in mitosis?",
+      "visual": null,
+      "choices": {
+        "A": "The nuclear envelope breaks down",
+        "B": "DNA is copied before division",
+        "C": "Spindle fibers form",
+        "D": "Homologous chromosomes pair up and exchange pieces",
+        "E": "Chromosomes condense"
+      },
+      "answer": "D",
+      "explanation": "Pairing and crossing over of homologous chromosomes occurs only in prophase I of meiosis.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0031",
+      "subtopic": "biology.cell.division",
+      "difficulty": 3,
+      "stem": "A cell with 2n = 8 chromosomes undergoes meiosis. How many cells result, and how many chromosomes does each have?",
+      "visual": null,
+      "choices": {
+        "A": "4 cells, each with 4 chromosomes",
+        "B": "2 cells, each with 8 chromosomes",
+        "C": "4 cells, each with 8 chromosomes",
+        "D": "2 cells, each with 4 chromosomes",
+        "E": "4 cells, each with 2 chromosomes"
+      },
+      "answer": "A",
+      "explanation": "Two divisions give 4 cells. The chromosome number is halved: 8 ÷ 2 = 4.",
+      "explanation_visual": "content/biology/cards-meiosis.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0032",
+      "subtopic": "biology.cell.division",
+      "difficulty": 3,
+      "stem": "At the end of meiosis I, each cell has:",
+      "visual": null,
+      "choices": {
+        "A": "a quarter of the chromosomes, each of two chromatids",
+        "B": "half the chromosomes, each made of one chromatid",
+        "C": "the full number of chromosomes, each of one chromatid",
+        "D": "the full number of chromosomes, each of two chromatids",
+        "E": "half the chromosomes, each still made of two chromatids"
+      },
+      "answer": "E",
+      "explanation": "Meiosis I separates homologous pairs (halving the number). Sister chromatids separate only in meiosis II.",
+      "explanation_visual": "content/biology/cards-meiosis.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0033",
+      "subtopic": "biology.cell.photosynthesis",
+      "difficulty": 1,
+      "stem": "A basil plant on a kitchen windowsill photosynthesizes. Which gas does it release as a by-product?",
+      "visual": null,
+      "choices": {
+        "A": "Carbon dioxide",
+        "B": "Nitrogen",
+        "C": "Hydrogen",
+        "D": "Methane",
+        "E": "Oxygen"
+      },
+      "answer": "E",
+      "explanation": "Water is split and oxygen is released.",
+      "explanation_visual": "content/biology/cards-photo-vs-resp.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0034",
+      "subtopic": "biology.cell.photosynthesis",
+      "difficulty": 1,
+      "stem": "Which pigment absorbs light energy for photosynthesis?",
+      "visual": null,
+      "choices": {
+        "A": "Melanin",
+        "B": "Hemoglobin",
+        "C": "Insulin",
+        "D": "Chlorophyll",
+        "E": "Amylase"
+      },
+      "answer": "D",
+      "explanation": "Chlorophyll in the chloroplasts absorbs red and blue light.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0035",
+      "subtopic": "biology.cell.photosynthesis",
+      "difficulty": 1,
+      "stem": "A pool left uncovered in summer turns green because algae grow in it. Which raw materials do the algae use for photosynthesis?",
+      "visual": null,
+      "choices": {
+        "A": "Carbon dioxide and water",
+        "B": "Starch and oxygen",
+        "C": "Oxygen and water",
+        "D": "Glucose and carbon dioxide",
+        "E": "Glucose and oxygen"
+      },
+      "answer": "A",
+      "explanation": "Photosynthesis turns carbon dioxide and water into glucose and oxygen using light.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0036",
+      "subtopic": "biology.cell.photosynthesis",
+      "difficulty": 2,
+      "stem": "A cook keeps one basil plant on a sunny windowsill and another in a dark cupboard for two weeks. The one in the dark does badly mainly because:",
+      "visual": null,
+      "choices": {
+        "A": "it has too much carbon dioxide",
+        "B": "its chlorophyll turns into starch",
+        "C": "its roots cannot absorb water",
+        "D": "it cannot take in oxygen",
+        "E": "without light it cannot photosynthesize to make glucose"
+      },
+      "answer": "E",
+      "explanation": "Light is needed to make glucose. Without it the plant uses up stored food and weakens.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0037",
+      "subtopic": "biology.cell.photosynthesis",
+      "difficulty": 2,
+      "stem": "In the starch test, why is the leaf warmed in ethanol before adding iodine?",
+      "visual": null,
+      "choices": {
+        "A": "To remove the green chlorophyll so the iodine color can be seen",
+        "B": "To increase the rate of photosynthesis",
+        "C": "To add oxygen to the leaf",
+        "D": "To dissolve the starch out of the leaf",
+        "E": "To make more starch in the leaf"
+      },
+      "answer": "A",
+      "explanation": "Chlorophyll would hide the blue-black color. Boiling in water first kills the leaf and softens it.",
+      "explanation_visual": "content/biology/cards-leaf-starch-test.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0038",
+      "subtopic": "biology.cell.photosynthesis",
+      "difficulty": 2,
+      "stem": "A cook grows a variegated mint plant (green and white patches) in bright light, then a leaf is tested for starch. Where does the iodine turn blue-black?",
+      "visual": null,
+      "choices": {
+        "A": "Everywhere in the leaf",
+        "B": "Only in the green parts",
+        "C": "Only in the white parts",
+        "D": "Nowhere in the leaf",
+        "E": "Only along the leaf edge"
+      },
+      "answer": "B",
+      "explanation": "Only the parts with chlorophyll can photosynthesize and make starch.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0039",
+      "subtopic": "biology.cell.photosynthesis",
+      "difficulty": 3,
+      "stem": "The rate of photosynthesis rises with light, then levels off. Increasing the carbon dioxide concentration lifts the level-off point. At the original plateau, which factor was limiting?",
+      "visual": null,
+      "choices": {
+        "A": "Oxygen concentration",
+        "B": "Carbon dioxide concentration",
+        "C": "Light intensity",
+        "D": "Glucose concentration",
+        "E": "The amount of water in the air"
+      },
+      "answer": "B",
+      "explanation": "If adding a factor raises the plateau, that factor was limiting. More light would not help, because light was already plentiful.",
+      "explanation_visual": "content/biology/cards-limiting-factors.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0040",
+      "subtopic": "biology.cell.photosynthesis",
+      "difficulty": 3,
+      "stem": "A plant takes in 3 mol of CO₂ for photosynthesis (6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂). How much glucose and O₂ does it make?",
+      "visual": null,
+      "choices": {
+        "A": "0.5 mol glucose and 3 mol O₂",
+        "B": "6 mol glucose and 0.5 mol O₂",
+        "C": "3 mol glucose and 3 mol O₂",
+        "D": "1 mol glucose and 6 mol O₂",
+        "E": "0.5 mol glucose and 0.5 mol O₂"
+      },
+      "answer": "A",
+      "explanation": "Scale the equation by 3 ÷ 6 = 0.5: 6CO₂ makes 1 glucose, so 3CO₂ makes 0.5 glucose; 6O₂ becomes 3 O₂.",
+      "explanation_visual": "content/biology/cards-photo-vs-resp.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0041",
+      "subtopic": "biology.cell.respiration",
+      "difficulty": 1,
+      "stem": "Which equation represents aerobic respiration?",
+      "visual": null,
+      "choices": {
+        "A": "glucose + carbon dioxide → oxygen + water",
+        "B": "glucose → lactic acid + energy",
+        "C": "carbon dioxide + water → glucose + oxygen",
+        "D": "glucose + oxygen → carbon dioxide + water + energy",
+        "E": "glucose → ethanol + carbon dioxide + energy"
+      },
+      "answer": "D",
+      "explanation": "Aerobic respiration uses oxygen and releases CO₂, water and a lot of energy.",
+      "explanation_visual": "content/biology/cards-respiration-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0042",
+      "subtopic": "biology.cell.respiration",
+      "difficulty": 1,
+      "stem": "Yeast in bread dough respires without oxygen (fermentation). Which two products make the dough rise and give the smell?",
+      "visual": null,
+      "choices": {
+        "A": "Oxygen and glucose",
+        "B": "Water and lactic acid",
+        "C": "Lactic acid and carbon dioxide",
+        "D": "Carbon dioxide and ethanol",
+        "E": "Oxygen and ethanol"
+      },
+      "answer": "D",
+      "explanation": "Yeast makes ethanol and CO₂. The CO₂ gas bubbles make the dough rise.",
+      "explanation_visual": "content/biology/cards-respiration-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0043",
+      "subtopic": "biology.cell.respiration",
+      "difficulty": 1,
+      "stem": "During a long swim, a swimmer's muscle cells need lots of ATP. Where in a cell does most aerobic respiration happen?",
+      "visual": null,
+      "choices": {
+        "A": "On the ribosomes",
+        "B": "In the nucleus",
+        "C": "In the chloroplasts",
+        "D": "In the mitochondria",
+        "E": "In the lysosomes"
+      },
+      "answer": "D",
+      "explanation": "Mitochondria make most ATP using oxygen.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0044",
+      "subtopic": "biology.cell.respiration",
+      "difficulty": 2,
+      "stem": "In a 50 m sprint a swimmer's muscles run short of oxygen and switch to anaerobic respiration. Which product builds up in the muscles?",
+      "visual": null,
+      "choices": {
+        "A": "Glucose",
+        "B": "Oxygen",
+        "C": "Lactic acid",
+        "D": "Ethanol",
+        "E": "Starch"
+      },
+      "answer": "C",
+      "explanation": "Animal cells make lactic acid when respiring anaerobically. Yeast makes ethanol instead.",
+      "explanation_visual": "content/biology/cards-respiration-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0045",
+      "subtopic": "biology.cell.respiration",
+      "difficulty": 2,
+      "stem": "How does the energy yield of aerobic respiration compare with anaerobic respiration from the same glucose?",
+      "visual": null,
+      "choices": {
+        "A": "Both give about 2 ATP",
+        "B": "Aerobic gives 2 ATP and anaerobic gives 30",
+        "C": "Neither process produces ATP",
+        "D": "Anaerobic gives more ATP",
+        "E": "Aerobic gives many more ATP (about 30 versus 2)"
+      },
+      "answer": "E",
+      "explanation": "Anaerobic respiration only partly breaks down glucose, so much less energy is released.",
+      "explanation_visual": "content/biology/cards-respiration-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0046",
+      "subtopic": "biology.cell.respiration",
+      "difficulty": 2,
+      "stem": "Which statement about respiration in plants is correct?",
+      "visual": null,
+      "choices": {
+        "A": "Plants respire only at night",
+        "B": "Plants only photosynthesize and never respire",
+        "C": "Plants respire only in sunlight",
+        "D": "Plants respire all the time, day and night",
+        "E": "Plants release oxygen during respiration"
+      },
+      "answer": "D",
+      "explanation": "Every living cell respires continually; photosynthesis happens only in light.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0047",
+      "subtopic": "biology.cell.respiration",
+      "difficulty": 3,
+      "stem": "A potted plant sits in a sealed, transparent chamber kept in the dark. After some hours, the CO₂ level in the chamber has:",
+      "visual": null,
+      "choices": {
+        "A": "increased, because respiration continues but photosynthesis has stopped",
+        "B": "decreased, because plants make O₂ in the dark",
+        "C": "stayed the same, because plants do not respire",
+        "D": "decreased, because plants take in CO₂ in the dark",
+        "E": "increased, because plants make CO₂ by photosynthesis"
+      },
+      "answer": "A",
+      "explanation": "In the dark there is no photosynthesis to use CO₂, while respiration keeps releasing it.",
+      "explanation_visual": "content/biology/cards-photo-vs-resp.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0048",
+      "subtopic": "biology.cell.respiration",
+      "difficulty": 3,
+      "stem": "How many moles of O₂ are needed to respire 2 mol of glucose completely (C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O)?",
+      "visual": null,
+      "choices": {
+        "A": "2 mol",
+        "B": "6 mol",
+        "C": "12 mol",
+        "D": "18 mol",
+        "E": "24 mol"
+      },
+      "answer": "C",
+      "explanation": "Each glucose needs 6 O₂, so 2 mol needs 2 × 6 = 12 mol.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0049",
+      "subtopic": "biology.anatomy.tissues",
+      "difficulty": 1,
+      "stem": "Which tissue joins a muscle to a bone?",
+      "visual": null,
+      "choices": {
+        "A": "Epithelial tissue",
+        "B": "Ligament",
+        "C": "Cartilage",
+        "D": "Blood",
+        "E": "Tendon"
+      },
+      "answer": "E",
+      "explanation": "Tendons join muscle to bone; ligaments join bone to bone.",
+      "explanation_visual": "content/biology/cards-connective-tissues.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0050",
+      "subtopic": "biology.anatomy.tissues",
+      "difficulty": 1,
+      "stem": "Chewed food is pushed along the intestine by slow waves of squeezing. Which muscle type is found in the intestine walls?",
+      "visual": null,
+      "choices": {
+        "A": "Cardiac muscle",
+        "B": "No muscle is found there",
+        "C": "Skeletal muscle",
+        "D": "Voluntary striated muscle",
+        "E": "Smooth muscle"
+      },
+      "answer": "E",
+      "explanation": "Smooth muscle is involuntary and moves food along the gut.",
+      "explanation_visual": "content/biology/cards-muscle-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0051",
+      "subtopic": "biology.anatomy.tissues",
+      "difficulty": 1,
+      "stem": "Your ear and the tip of your nose are firm but bendable. Which tissue gives them this property?",
+      "visual": null,
+      "choices": {
+        "A": "Cartilage",
+        "B": "Smooth muscle",
+        "C": "Blood",
+        "D": "Bone",
+        "E": "Tendon"
+      },
+      "answer": "A",
+      "explanation": "Cartilage is firm yet flexible.",
+      "explanation_visual": "content/biology/cards-connective-tissues.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0052",
+      "subtopic": "biology.anatomy.tissues",
+      "difficulty": 2,
+      "stem": "A swimmer kicks hard. Which tissue joins the thigh muscle to the shin bone, and which joins the thigh bone to the shin bone at the knee?",
+      "visual": null,
+      "choices": {
+        "A": "Ligament joins muscle to bone; tendon joins bone to bone",
+        "B": "Cartilage joins muscle to bone; tendon joins bone to bone",
+        "C": "Tendon joins muscle to bone; ligament joins bone to bone",
+        "D": "Tendon joins muscle to bone; cartilage joins bone to bone",
+        "E": "Ligament joins both muscle to bone and bone to bone"
+      },
+      "answer": "C",
+      "explanation": "Tendon = muscle to bone. Ligament = bone to bone.",
+      "explanation_visual": "content/biology/cards-connective-tissues.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0053",
+      "subtopic": "biology.anatomy.tissues",
+      "difficulty": 2,
+      "stem": "A cook slices a steak. The red meat is mainly which tissue?",
+      "visual": null,
+      "choices": {
+        "A": "Cardiac muscle",
+        "B": "Smooth muscle",
+        "C": "Epithelial tissue",
+        "D": "Skeletal (striated) muscle",
+        "E": "Cartilage"
+      },
+      "answer": "D",
+      "explanation": "Meat is skeletal muscle from the animal's body.",
+      "explanation_visual": "content/biology/cards-muscle-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0054",
+      "subtopic": "biology.anatomy.tissues",
+      "difficulty": 2,
+      "stem": "What is the main role of epithelial tissue?",
+      "visual": null,
+      "choices": {
+        "A": "To contract and move the bones",
+        "B": "To carry nerve impulses",
+        "C": "To carry oxygen around the body",
+        "D": "To cover body surfaces and line organs and cavities as a protective layer",
+        "E": "To store calcium and support the body"
+      },
+      "answer": "D",
+      "explanation": "Epithelium forms the skin surface and lines organs such as the gut.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0055",
+      "subtopic": "biology.anatomy.tissues",
+      "difficulty": 3,
+      "stem": "Which description matches cardiac muscle?",
+      "visual": null,
+      "choices": {
+        "A": "Long striated fibers with many nuclei, attached to bones",
+        "B": "Spindle-shaped cells with one nucleus each, not striated, voluntary",
+        "C": "Branched cells without stripes, contracting voluntarily",
+        "D": "Spindle-shaped cells with one nucleus each, not striated, involuntary",
+        "E": "Branched, striated cells joined by intercalated discs, contracting involuntarily"
+      },
+      "answer": "E",
+      "explanation": "Cardiac muscle is found only in the heart; the intercalated discs link the cells together.",
+      "explanation_visual": "content/biology/cards-muscle-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0056",
+      "subtopic": "biology.anatomy.tissues",
+      "difficulty": 3,
+      "stem": "Which pairing of tissue and feature is INCORRECT?",
+      "visual": null,
+      "choices": {
+        "A": "Bone – hard matrix containing calcium",
+        "B": "Skeletal muscle – striated and voluntary",
+        "C": "Smooth muscle – striated and voluntary",
+        "D": "Tendon – joins muscle to bone",
+        "E": "Cardiac muscle – striated and involuntary"
+      },
+      "answer": "C",
+      "explanation": "Smooth muscle is NOT striated and is involuntary. All other pairings are correct.",
+      "explanation_visual": "content/biology/cards-muscle-types.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0057",
+      "subtopic": "biology.anatomy.digestive",
+      "difficulty": 1,
+      "stem": "A chef uses a degreaser on oily pans; the body's 'degreaser' for fat is bile. Which organ makes bile?",
+      "visual": null,
+      "choices": {
+        "A": "Gall bladder",
+        "B": "Small intestine",
+        "C": "Stomach",
+        "D": "Pancreas",
+        "E": "Liver"
+      },
+      "answer": "E",
+      "explanation": "The liver makes bile; the gall bladder only stores it.",
+      "explanation_visual": "content/biology/cards-digestive-glands.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0058",
+      "subtopic": "biology.anatomy.digestive",
+      "difficulty": 1,
+      "stem": "A swimmer eats a banana after training. Where does most absorption of digested food take place?",
+      "visual": null,
+      "choices": {
+        "A": "Large intestine",
+        "B": "Stomach",
+        "C": "Mouth",
+        "D": "Esophagus",
+        "E": "Small intestine"
+      },
+      "answer": "E",
+      "explanation": "The small intestine has villi that give a large surface area.",
+      "explanation_visual": "content/biology/cards-digestive-tract.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0059",
+      "subtopic": "biology.anatomy.digestive",
+      "difficulty": 1,
+      "stem": "A slice of bread tastes slightly sweet after you chew it for a minute. Why?",
+      "visual": null,
+      "choices": {
+        "A": "Hydrochloric acid turns starch into glucose",
+        "B": "Lipase makes sugar from fat",
+        "C": "Bile breaks fat into sugar",
+        "D": "Salivary amylase breaks starch into sugar",
+        "E": "Pepsin breaks protein into sugar"
+      },
+      "answer": "D",
+      "explanation": "Amylase in saliva starts digesting starch to maltose, which tastes sweet.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0060",
+      "subtopic": "biology.anatomy.digestive",
+      "difficulty": 2,
+      "stem": "A lack of which vitamin causes scurvy?",
+      "visual": null,
+      "choices": {
+        "A": "Vitamin C",
+        "B": "Vitamin D",
+        "C": "Vitamin B1",
+        "D": "Vitamin A",
+        "E": "Vitamin K"
+      },
+      "answer": "A",
+      "explanation": "Scurvy (bleeding gums) comes from too little vitamin C.",
+      "explanation_visual": "content/biology/cards-deficiency-diseases.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0061",
+      "subtopic": "biology.anatomy.digestive",
+      "difficulty": 2,
+      "stem": "A food sample turns blue-black with iodine and stays blue after heating with Benedict's solution. It contains:",
+      "visual": null,
+      "choices": {
+        "A": "protein only",
+        "B": "starch but no reducing sugar",
+        "C": "neither starch nor reducing sugar",
+        "D": "both starch and reducing sugar",
+        "E": "reducing sugar but no starch"
+      },
+      "answer": "B",
+      "explanation": "Iodine is positive for starch; Benedict's stays blue when there is no reducing sugar.",
+      "explanation_visual": "content/biology/cards-food-tests.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0062",
+      "subtopic": "biology.anatomy.digestive",
+      "difficulty": 2,
+      "stem": "Which enzyme is paired with the food class it digests?",
+      "visual": null,
+      "choices": {
+        "A": "Lipase – fats",
+        "B": "Bile – proteins",
+        "C": "Amylase – proteins",
+        "D": "Trypsin – starch",
+        "E": "Pepsin – fats"
+      },
+      "answer": "A",
+      "explanation": "Lipase digests fats. Pepsin and trypsin digest protein, amylase digests starch.",
+      "explanation_visual": "content/biology/cards-digestive-glands.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0063",
+      "subtopic": "biology.anatomy.digestive",
+      "difficulty": 3,
+      "stem": "Which statement about bile is correct?",
+      "visual": null,
+      "choices": {
+        "A": "It is an enzyme that splits starch into maltose",
+        "B": "It emulsifies fat into small droplets, giving lipase a larger surface to work on",
+        "C": "It digests proteins into peptides",
+        "D": "It kills bacteria in the stomach with acid",
+        "E": "It is made in the gall bladder and stores glucose"
+      },
+      "answer": "B",
+      "explanation": "Bile is made in the liver, stored in the gall bladder, and is not an enzyme.",
+      "explanation_visual": "content/biology/cards-digestive-glands.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0064",
+      "subtopic": "biology.anatomy.digestive",
+      "difficulty": 3,
+      "stem": "A swimmer's meal: rice (starch), grilled chicken (protein) and olive oil (fat). Where does the first chemical digestion of each begin?",
+      "visual": null,
+      "choices": {
+        "A": "All three begin in the stomach",
+        "B": "Protein in the mouth, starch in the stomach, fat in the small intestine",
+        "C": "Starch in the stomach, protein in the small intestine, fat in the mouth",
+        "D": "Fat in the stomach, starch in the small intestine, protein in the mouth",
+        "E": "Starch in the mouth, protein in the stomach, fat in the small intestine"
+      },
+      "answer": "E",
+      "explanation": "Amylase starts starch in the mouth, pepsin starts protein in the stomach, and bile with lipase start fat in the small intestine.",
+      "explanation_visual": "content/biology/cards-digestive-tract.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0065",
+      "subtopic": "biology.anatomy.respiratory",
+      "difficulty": 1,
+      "stem": "A swimmer takes a deep breath before pushing off the wall. Which muscle sheet below the lungs contracts to help her breathe in?",
+      "visual": null,
+      "choices": {
+        "A": "Bronchus",
+        "B": "Diaphragm",
+        "C": "Biceps",
+        "D": "Pleura",
+        "E": "Trachea"
+      },
+      "answer": "B",
+      "explanation": "The dome-shaped diaphragm contracts to draw air in.",
+      "explanation_visual": "content/biology/cards-breathing.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0066",
+      "subtopic": "biology.anatomy.respiratory",
+      "difficulty": 1,
+      "stem": "In a swimmer's lungs, where does oxygen pass from the air into the blood?",
+      "visual": null,
+      "choices": {
+        "A": "Pleural cavity",
+        "B": "Bronchioles",
+        "C": "Alveoli",
+        "D": "Bronchi",
+        "E": "Trachea"
+      },
+      "answer": "C",
+      "explanation": "Alveoli have thin walls and are surrounded by capillaries.",
+      "explanation_visual": "content/biology/cards-respiratory-system.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0067",
+      "subtopic": "biology.anatomy.respiratory",
+      "difficulty": 1,
+      "stem": "Before a dive, a swimmer holds her breath. Which gas builds up in the blood and triggers the urge to breathe?",
+      "visual": null,
+      "choices": {
+        "A": "Nitrogen",
+        "B": "Helium",
+        "C": "Oxygen",
+        "D": "Carbon dioxide",
+        "E": "Water vapor"
+      },
+      "answer": "D",
+      "explanation": "Rising CO₂ is the main trigger for breathing.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0068",
+      "subtopic": "biology.anatomy.respiratory",
+      "difficulty": 2,
+      "stem": "During inhalation, which set of changes occurs?",
+      "visual": null,
+      "choices": {
+        "A": "Diaphragm contracts, ribs move down, pressure in the lungs rises",
+        "B": "Diaphragm relaxes, ribs move up, pressure in the lungs falls",
+        "C": "The lungs expand by their own muscles and pull air in",
+        "D": "Diaphragm contracts and flattens, ribs move up and out, pressure in the lungs falls",
+        "E": "Diaphragm relaxes and domes, ribs move down, pressure in the lungs rises"
+      },
+      "answer": "D",
+      "explanation": "A bigger chest volume lowers the pressure, so air flows in. Lungs have no muscles of their own.",
+      "explanation_visual": "content/biology/cards-breathing.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0069",
+      "subtopic": "biology.anatomy.respiratory",
+      "difficulty": 2,
+      "stem": "Which feature does NOT help alveoli exchange gases efficiently?",
+      "visual": null,
+      "choices": {
+        "A": "A moist surface",
+        "B": "A very large total surface area",
+        "C": "Walls only one cell thick",
+        "D": "A thick muscular wall",
+        "E": "A dense network of capillaries"
+      },
+      "answer": "D",
+      "explanation": "Gases must diffuse through the wall, so it must be thin, not thick and muscular.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0070",
+      "subtopic": "biology.anatomy.respiratory",
+      "difficulty": 2,
+      "stem": "How are breathing and cellular respiration related?",
+      "visual": null,
+      "choices": {
+        "A": "They are the same process",
+        "B": "Breathing supplies oxygen and removes carbon dioxide so cells can carry out respiration",
+        "C": "Cellular respiration only occurs in the lungs",
+        "D": "Breathing takes place in the mitochondria",
+        "E": "Cellular respiration pumps air in and out of the lungs"
+      },
+      "answer": "B",
+      "explanation": "Breathing is a physical process; respiration is a chemical process in cells.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0071",
+      "subtopic": "biology.anatomy.respiratory",
+      "difficulty": 3,
+      "stem": "A person breathes out. Which statement is correct?",
+      "visual": null,
+      "choices": {
+        "A": "Chest volume stays the same and the lungs squeeze air out",
+        "B": "Chest volume increases, so the pressure inside the lungs falls",
+        "C": "Chest volume increases, so the pressure inside the lungs rises",
+        "D": "Chest volume decreases, so the pressure inside the lungs falls below the outside pressure",
+        "E": "Chest volume decreases, so the pressure inside the lungs rises above the outside pressure"
+      },
+      "answer": "E",
+      "explanation": "Air always flows from high to low pressure. To leave the lungs, the pressure inside must be higher.",
+      "explanation_visual": "content/biology/cards-breathing.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0072",
+      "subtopic": "biology.anatomy.respiratory",
+      "difficulty": 3,
+      "stem": "In a model of the chest, a balloon (lung) is inside a bottle with a rubber sheet (diaphragm) across the bottom. Pulling the sheet down makes the balloon:",
+      "visual": null,
+      "choices": {
+        "A": "inflate, because the pressure in the bottle rises",
+        "B": "stay the same, because the bottle is sealed",
+        "C": "inflate, because the volume of the bottle increases and its pressure falls",
+        "D": "deflate, because the pressure in the bottle falls",
+        "E": "deflate, because the volume of the bottle increases"
+      },
+      "answer": "C",
+      "explanation": "Pulling the sheet down increases volume and lowers pressure around the balloon, so air from outside pushes in.",
+      "explanation_visual": "content/biology/cards-breathing.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0073",
+      "subtopic": "biology.anatomy.excretory",
+      "difficulty": 1,
+      "stem": "A chef filters stock to remove solids. In the body, which organ filters blood to make urine?",
+      "visual": null,
+      "choices": {
+        "A": "Bladder",
+        "B": "Liver",
+        "C": "Kidney",
+        "D": "Ureter",
+        "E": "Urethra"
+      },
+      "answer": "C",
+      "explanation": "Each kidney contains about a million nephrons that filter the blood.",
+      "explanation_visual": "content/biology/cards-urinary-system.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0074",
+      "subtopic": "biology.anatomy.excretory",
+      "difficulty": 1,
+      "stem": "Which tube carries urine from a kidney to the bladder?",
+      "visual": null,
+      "choices": {
+        "A": "Urethra",
+        "B": "Aorta",
+        "C": "Renal vein",
+        "D": "Ureter",
+        "E": "Esophagus"
+      },
+      "answer": "D",
+      "explanation": "There is one ureter per kidney.",
+      "explanation_visual": "content/biology/cards-urinary-system.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0075",
+      "subtopic": "biology.anatomy.excretory",
+      "difficulty": 1,
+      "stem": "A swimmer blows bubbles underwater. Which gas is the main excretory product of the lungs?",
+      "visual": null,
+      "choices": {
+        "A": "Oxygen",
+        "B": "Nitrogen",
+        "C": "Carbon dioxide",
+        "D": "Urea",
+        "E": "Ammonia"
+      },
+      "answer": "C",
+      "explanation": "CO₂ from respiration is breathed out; water vapor is lost too.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0076",
+      "subtopic": "biology.anatomy.excretory",
+      "difficulty": 2,
+      "stem": "A swimmer sweats while sitting by the pool on a hot day. What does sweat contain?",
+      "visual": null,
+      "choices": {
+        "A": "Carbon dioxide and urea only",
+        "B": "Glucose and water",
+        "C": "Mostly water, with salts and a little urea",
+        "D": "Bile and salts",
+        "E": "Only pure water"
+      },
+      "answer": "C",
+      "explanation": "Sweat is mostly water with dissolved salts and a little urea.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0077",
+      "subtopic": "biology.anatomy.excretory",
+      "difficulty": 2,
+      "stem": "Which sequence shows the path of urine out of the body?",
+      "visual": null,
+      "choices": {
+        "A": "Kidney → bladder → ureter → urethra",
+        "B": "Kidney → ureter → bladder → urethra",
+        "C": "Ureter → kidney → urethra → bladder",
+        "D": "Bladder → ureter → kidney → urethra",
+        "E": "Kidney → urethra → bladder → ureter"
+      },
+      "answer": "B",
+      "explanation": "Urine is made in the kidneys, flows down the ureters, is stored in the bladder, and leaves via the urethra.",
+      "explanation_visual": "content/biology/cards-urinary-system.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0078",
+      "subtopic": "biology.anatomy.excretory",
+      "difficulty": 2,
+      "stem": "A cook eats a very protein-rich meal. Which organ converts the toxic ammonia from amino-acid breakdown into urea?",
+      "visual": null,
+      "choices": {
+        "A": "Bladder",
+        "B": "Kidney",
+        "C": "Liver",
+        "D": "Lung",
+        "E": "Pancreas"
+      },
+      "answer": "C",
+      "explanation": "The liver makes urea; the kidneys then remove it from the blood.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0079",
+      "subtopic": "biology.anatomy.excretory",
+      "difficulty": 3,
+      "stem": "Which of these cannot pass through the kidney's filter, and so stays in the blood?",
+      "visual": null,
+      "choices": {
+        "A": "Large proteins and blood cells",
+        "B": "Urea",
+        "C": "Salts",
+        "D": "Water",
+        "E": "Glucose"
+      },
+      "answer": "A",
+      "explanation": "Filtration lets small molecules through. Proteins and cells are too big.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0080",
+      "subtopic": "biology.anatomy.excretory",
+      "difficulty": 3,
+      "stem": "Which statement about excretion is correct?",
+      "visual": null,
+      "choices": {
+        "A": "Excretion only happens through the kidneys",
+        "B": "Excretion removes metabolic wastes made by cells, such as urea and carbon dioxide",
+        "C": "Excretion means releasing digestive enzymes",
+        "D": "Feces are an excretory product of body cells",
+        "E": "Excretion removes undigested food from the gut"
+      },
+      "answer": "B",
+      "explanation": "Undigested food leaving the gut is egestion, not excretion. Wastes are also excreted by lungs and skin.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0081",
+      "subtopic": "biology.anatomy.nervous",
+      "difficulty": 1,
+      "stem": "A swimmer must coordinate her arms and legs and stay balanced in the water. Which part of the brain controls balance and coordination?",
+      "visual": null,
+      "choices": {
+        "A": "Pituitary gland",
+        "B": "Cerebrum",
+        "C": "Spinal cord",
+        "D": "Medulla oblongata",
+        "E": "Cerebellum"
+      },
+      "answer": "E",
+      "explanation": "The cerebellum coordinates movement and balance.",
+      "explanation_visual": "content/biology/cards-brain.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0082",
+      "subtopic": "biology.anatomy.nervous",
+      "difficulty": 1,
+      "stem": "Which part of the brain controls heartbeat and breathing?",
+      "visual": null,
+      "choices": {
+        "A": "Medulla oblongata",
+        "B": "Cerebellum",
+        "C": "Spinal cord",
+        "D": "Motor nerve",
+        "E": "Cerebrum"
+      },
+      "answer": "A",
+      "explanation": "The medulla controls involuntary actions such as heartbeat and breathing.",
+      "explanation_visual": "content/biology/cards-brain.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0083",
+      "subtopic": "biology.anatomy.nervous",
+      "difficulty": 1,
+      "stem": "A player flicks the mouse the instant an enemy appears on screen. In this pathway, a sensory neuron carries impulses:",
+      "visual": null,
+      "choices": {
+        "A": "from a muscle to a receptor",
+        "B": "only between the brain and the spinal cord",
+        "C": "from the receptor to the central nervous system",
+        "D": "only to glands",
+        "E": "from the CNS to a muscle"
+      },
+      "answer": "C",
+      "explanation": "Sensory neurons carry impulses toward the CNS.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0084",
+      "subtopic": "biology.anatomy.nervous",
+      "difficulty": 2,
+      "stem": "Which is the correct order of a reflex arc?",
+      "visual": null,
+      "choices": {
+        "A": "Receptor → motor neuron → spinal cord → sensory neuron → effector",
+        "B": "Effector → sensory neuron → spinal cord → motor neuron → receptor",
+        "C": "Sensory neuron → receptor → spinal cord → effector → motor neuron",
+        "D": "Receptor → sensory neuron → effector → spinal cord → motor neuron",
+        "E": "Receptor → sensory neuron → spinal cord → motor neuron → effector"
+      },
+      "answer": "E",
+      "explanation": "The stimulus is detected by a receptor, travels in, is relayed in the spinal cord, and leaves to an effector.",
+      "explanation_visual": "content/biology/cards-reflex-arc.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0085",
+      "subtopic": "biology.anatomy.nervous",
+      "difficulty": 2,
+      "stem": "A swimmer steps on a hot pool deck and pulls her foot away before feeling pain. Why is this so fast?",
+      "visual": null,
+      "choices": {
+        "A": "The muscles act on their own without nerves",
+        "B": "The reflex pathway goes through the spinal cord without waiting for the brain to decide",
+        "C": "Hormones carry the message to the leg",
+        "D": "Motor neurons are shorter than sensory neurons",
+        "E": "The brain sends faster signals than the spinal cord"
+      },
+      "answer": "B",
+      "explanation": "A reflex arc skips the thinking step, so the response is quicker. The brain feels the pain afterwards.",
+      "explanation_visual": "content/biology/cards-reflex-arc.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0086",
+      "subtopic": "biology.anatomy.nervous",
+      "difficulty": 2,
+      "stem": "Which part of a neuron receives impulses from other neurons?",
+      "visual": null,
+      "choices": {
+        "A": "Axon",
+        "B": "Node of Ranvier",
+        "C": "Dendrites",
+        "D": "Myelin sheath",
+        "E": "Axon terminals"
+      },
+      "answer": "C",
+      "explanation": "Dendrites receive; the axon carries the impulse away.",
+      "explanation_visual": "content/biology/cards-motor-neuron.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0087",
+      "subtopic": "biology.anatomy.nervous",
+      "difficulty": 3,
+      "stem": "A person has damaged only the motor neurons in a nerve of the arm; the sensory neurons are intact. What happens?",
+      "visual": null,
+      "choices": {
+        "A": "Both feeling and movement are normal",
+        "B": "She can neither feel nor move the arm",
+        "C": "She can move the arm but cannot feel touch",
+        "D": "Her reflexes become faster",
+        "E": "She can feel touch on the arm but cannot move its muscles"
+      },
+      "answer": "E",
+      "explanation": "Motor neurons carry commands to the muscles; sensory neurons carry feeling to the CNS.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0088",
+      "subtopic": "biology.anatomy.nervous",
+      "difficulty": 3,
+      "stem": "In a motor neuron, in which direction does the impulse normally travel?",
+      "visual": null,
+      "choices": {
+        "A": "Dendrites → cell body → axon → axon terminals",
+        "B": "Dendrites → axon terminals → axon → cell body",
+        "C": "Axon → dendrites → cell body → axon terminals",
+        "D": "Axon terminals → axon → cell body → dendrites",
+        "E": "Cell body → dendrites → axon → axon terminals"
+      },
+      "answer": "A",
+      "explanation": "Impulses enter at the dendrites, pass the cell body, run along the axon and exit at the terminals.",
+      "explanation_visual": "content/biology/cards-motor-neuron.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0089",
+      "subtopic": "biology.anatomy.immune",
+      "difficulty": 1,
+      "stem": "Which of these is part of innate immunity?",
+      "visual": null,
+      "choices": {
+        "A": "Killer T cells",
+        "B": "The skin",
+        "C": "Memory B cells",
+        "D": "A response made by vaccination",
+        "E": "Antibodies made after an infection"
+      },
+      "answer": "B",
+      "explanation": "Skin is a general barrier that is there from birth.",
+      "explanation_visual": "content/biology/cards-innate-adaptive.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0090",
+      "subtopic": "biology.anatomy.immune",
+      "difficulty": 1,
+      "stem": "Which cells make antibodies?",
+      "visual": null,
+      "choices": {
+        "A": "B cells (plasma cells)",
+        "B": "Red blood cells",
+        "C": "Neurons",
+        "D": "T cells",
+        "E": "Platelets"
+      },
+      "answer": "A",
+      "explanation": "B cells turn into plasma cells that secrete antibodies.",
+      "explanation_visual": "content/biology/cards-antibody.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0091",
+      "subtopic": "biology.anatomy.immune",
+      "difficulty": 1,
+      "stem": "A dinner guest is allergic to shellfish. A substance such as shellfish protein that triggers an allergic reaction is called an:",
+      "visual": null,
+      "choices": {
+        "A": "vaccine",
+        "B": "pathogen",
+        "C": "hormone",
+        "D": "allergen",
+        "E": "antibody"
+      },
+      "answer": "D",
+      "explanation": "Common allergens are pollen, dust mites and some foods.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0092",
+      "subtopic": "biology.anatomy.immune",
+      "difficulty": 2,
+      "stem": "A child sneezes and gets hives after eating a little peanut butter. Which statement is correct?",
+      "visual": null,
+      "choices": {
+        "A": "The peanut butter caused a bacterial infection",
+        "B": "The peanut permanently damages red blood cells",
+        "C": "The immune system overreacts to a harmless substance and releases histamine",
+        "D": "The child's immune system is too weak",
+        "E": "The reaction happens because the body lacks histamine"
+      },
+      "answer": "C",
+      "explanation": "An allergy is an immune overreaction to a harmless substance.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0093",
+      "subtopic": "biology.anatomy.immune",
+      "difficulty": 2,
+      "stem": "Why is a second infection by the same virus usually milder?",
+      "visual": null,
+      "choices": {
+        "A": "The virus loses its genes",
+        "B": "Phagocytes become permanent",
+        "C": "Memory cells recognize it and respond faster",
+        "D": "Skin becomes thicker after the first infection",
+        "E": "Red blood cells carry more oxygen"
+      },
+      "answer": "C",
+      "explanation": "Adaptive immunity has memory.",
+      "explanation_visual": "content/biology/cards-innate-adaptive.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0094",
+      "subtopic": "biology.anatomy.immune",
+      "difficulty": 2,
+      "stem": "What is the main job of killer T cells?",
+      "visual": null,
+      "choices": {
+        "A": "To release histamine in allergies",
+        "B": "To destroy body cells infected by viruses",
+        "C": "To make antibodies",
+        "D": "To carry oxygen",
+        "E": "To engulf bacteria in the blood"
+      },
+      "answer": "B",
+      "explanation": "Killer (cytotoxic) T cells kill infected cells; B cells make antibodies.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0095",
+      "subtopic": "biology.anatomy.immune",
+      "difficulty": 3,
+      "stem": "Which statement about antibodies is correct?",
+      "visual": null,
+      "choices": {
+        "A": "One type of antibody protects against all pathogens",
+        "B": "Each type of antibody fits one specific antigen",
+        "C": "Antibodies engulf pathogens",
+        "D": "Antibodies are carbohydrates",
+        "E": "Antibodies are made by T cells"
+      },
+      "answer": "B",
+      "explanation": "Antibodies are Y-shaped proteins from B cells with specific binding sites.",
+      "explanation_visual": "content/biology/cards-antibody.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0096",
+      "subtopic": "biology.anatomy.immune",
+      "difficulty": 3,
+      "stem": "How does a vaccine protect you?",
+      "visual": null,
+      "choices": {
+        "A": "It directly kills the pathogen in the blood",
+        "B": "It exposes the immune system to a harmless form of the antigen so memory cells form without the disease",
+        "C": "It replaces your white blood cells",
+        "D": "It thickens the skin barrier",
+        "E": "It contains ready-made antibodies that last for life"
+      },
+      "answer": "B",
+      "explanation": "Vaccines trigger the adaptive response and memory cells. Giving ready-made antibodies is different, and short-lived.",
+      "explanation_visual": "content/biology/cards-innate-adaptive.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0097",
+      "subtopic": "biology.anatomy.endocrine",
+      "difficulty": 1,
+      "stem": "A team captain directs the rest of the team. Which gland acts like that for the other endocrine glands (the 'master gland')?",
+      "visual": null,
+      "choices": {
+        "A": "Pancreas",
+        "B": "Thyroid",
+        "C": "Pituitary",
+        "D": "Salivary",
+        "E": "Adrenal"
+      },
+      "answer": "C",
+      "explanation": "Its hormones control other glands.",
+      "explanation_visual": "content/biology/cards-endocrine-table.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0098",
+      "subtopic": "biology.anatomy.endocrine",
+      "difficulty": 1,
+      "stem": "A cook eats a sugary dessert. Which hormone lowers blood glucose?",
+      "visual": null,
+      "choices": {
+        "A": "Growth hormone",
+        "B": "Insulin",
+        "C": "Glucagon",
+        "D": "Thyroxine",
+        "E": "Adrenaline"
+      },
+      "answer": "B",
+      "explanation": "Insulin helps cells take up glucose.",
+      "explanation_visual": "content/biology/cards-endocrine-table.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0099",
+      "subtopic": "biology.anatomy.endocrine",
+      "difficulty": 1,
+      "stem": "Which gland makes thyroxine?",
+      "visual": null,
+      "choices": {
+        "A": "Pituitary",
+        "B": "Thyroid",
+        "C": "Adrenal",
+        "D": "Pancreas",
+        "E": "Liver"
+      },
+      "answer": "B",
+      "explanation": "Thyroxine, from the thyroid in the neck, sets the metabolic rate.",
+      "explanation_visual": "content/biology/cards-endocrine-table.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0100",
+      "subtopic": "biology.anatomy.endocrine",
+      "difficulty": 2,
+      "stem": "Which statement correctly compares endocrine and exocrine glands?",
+      "visual": null,
+      "choices": {
+        "A": "Endocrine glands release products through ducts; exocrine glands release hormones into the blood",
+        "B": "Endocrine glands only exist in the brain",
+        "C": "Both release hormones directly into the blood",
+        "D": "Endocrine glands release hormones into the blood; exocrine glands release products through ducts",
+        "E": "Both release hormones through ducts"
+      },
+      "answer": "D",
+      "explanation": "Sweat and salivary glands are exocrine; the thyroid is endocrine.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0101",
+      "subtopic": "biology.anatomy.endocrine",
+      "difficulty": 2,
+      "stem": "In a tense final round your heart pounds and your palms sweat. Which hormone from the adrenal glands is mainly responsible?",
+      "visual": null,
+      "choices": {
+        "A": "Growth hormone",
+        "B": "Thyroxine",
+        "C": "Insulin",
+        "D": "Glucagon",
+        "E": "Adrenaline"
+      },
+      "answer": "E",
+      "explanation": "Adrenaline prepares the body for fight or flight.",
+      "explanation_visual": "content/biology/cards-endocrine-table.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0102",
+      "subtopic": "biology.anatomy.endocrine",
+      "difficulty": 2,
+      "stem": "The pancreas is:",
+      "visual": null,
+      "choices": {
+        "A": "only an endocrine gland",
+        "B": "an exocrine gland that makes thyroxine",
+        "C": "only an exocrine gland",
+        "D": "both an exocrine gland (digestive juice) and an endocrine gland (insulin and glucagon)",
+        "E": "neither exocrine nor endocrine"
+      },
+      "answer": "D",
+      "explanation": "It has two jobs.",
+      "explanation_visual": "content/biology/cards-endocrine-table.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0103",
+      "subtopic": "biology.anatomy.endocrine",
+      "difficulty": 3,
+      "stem": "After a big pasta meal, blood glucose rises. What happens next?",
+      "visual": null,
+      "choices": {
+        "A": "The pancreas releases insulin, and liver and muscle cells take up glucose and store it as glycogen",
+        "B": "The pancreas releases glucagon, and glycogen is broken down",
+        "C": "The adrenal glands release adrenaline to lower glucose",
+        "D": "The thyroid releases thyroxine to store glucose",
+        "E": "The pituitary stops all hormone release"
+      },
+      "answer": "A",
+      "explanation": "Insulin lowers blood glucose; glucagon does the opposite.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0104",
+      "subtopic": "biology.anatomy.endocrine",
+      "difficulty": 3,
+      "stem": "A person's diet lacks iodine for years. What is the most likely result?",
+      "visual": null,
+      "choices": {
+        "A": "The pituitary stops making any hormone",
+        "B": "Blood glucose drops suddenly",
+        "C": "The thyroid enlarges (goiter) because it cannot make enough thyroxine",
+        "D": "The pancreas makes too much insulin",
+        "E": "The adrenal glands shrink"
+      },
+      "answer": "C",
+      "explanation": "Iodine is needed to make thyroxine.",
+      "explanation_visual": "content/biology/cards-deficiency-diseases.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0105",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 1,
+      "stem": "A swimmer's muscles need extra blood in a sprint. Which heart chamber pumps oxygen-rich blood to the whole body?",
+      "visual": null,
+      "choices": {
+        "A": "Left ventricle",
+        "B": "Right atrium",
+        "C": "Right ventricle",
+        "D": "Septum",
+        "E": "Left atrium"
+      },
+      "answer": "A",
+      "explanation": "The left ventricle pushes blood into the aorta.",
+      "explanation_visual": "content/biology/cards-heart.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0106",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 1,
+      "stem": "Which vessel carries blood from the heart to the body?",
+      "visual": null,
+      "choices": {
+        "A": "Vena cava",
+        "B": "Aorta",
+        "C": "Pulmonary vein",
+        "D": "Capillary",
+        "E": "Pulmonary artery"
+      },
+      "answer": "B",
+      "explanation": "The aorta is the largest artery.",
+      "explanation_visual": "content/biology/cards-heart.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0107",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 1,
+      "stem": "Which blood group is the universal donor for red cells?",
+      "visual": null,
+      "choices": {
+        "A": "O",
+        "B": "B",
+        "C": "A and B only",
+        "D": "AB",
+        "E": "A"
+      },
+      "answer": "A",
+      "explanation": "Group O red cells have neither A nor B antigens.",
+      "explanation_visual": "content/biology/cards-abo-blood.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0108",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 2,
+      "stem": "During a sprint, a swimmer's heart rate rises. Which vessel returns oxygen-poor blood from the body to the right atrium?",
+      "visual": null,
+      "choices": {
+        "A": "Vena cava",
+        "B": "Coronary artery",
+        "C": "Pulmonary artery",
+        "D": "Pulmonary vein",
+        "E": "Aorta"
+      },
+      "answer": "A",
+      "explanation": "The vena cava brings blood back from the body.",
+      "explanation_visual": "content/biology/cards-heart.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0109",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 2,
+      "stem": "The pulmonary artery is unusual because it carries:",
+      "visual": null,
+      "choices": {
+        "A": "oxygen-rich blood to the body",
+        "B": "oxygen-rich blood from the lungs",
+        "C": "oxygen-rich blood to the lungs",
+        "D": "oxygen-poor blood away from the heart to the lungs",
+        "E": "oxygen-poor blood to the heart"
+      },
+      "answer": "D",
+      "explanation": "Arteries go away from the heart; the pulmonary artery is the exception that carries oxygen-poor blood.",
+      "explanation_visual": "content/biology/cards-double-circulation.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0110",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 2,
+      "stem": "Why is the wall of the left ventricle thicker than that of the right ventricle?",
+      "visual": null,
+      "choices": {
+        "A": "It pumps blood to the whole body at higher pressure; the right pumps only to the lungs",
+        "B": "It holds the valves",
+        "C": "It makes blood cells",
+        "D": "It receives blood from the body",
+        "E": "It stores more blood"
+      },
+      "answer": "A",
+      "explanation": "A longer route needs a stronger pump.",
+      "explanation_visual": "content/biology/cards-heart.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0111",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 2,
+      "stem": "A cook who eats a lot of salty food is at risk of hypertension. Which description fits hypertension?",
+      "visual": null,
+      "choices": {
+        "A": "A fast pounding heartbeat that you can feel",
+        "B": "Blood pressure stays higher than normal",
+        "C": "The heart suddenly stops pumping",
+        "D": "A blocked coronary artery",
+        "E": "A valve that does not close properly"
+      },
+      "answer": "B",
+      "explanation": "Cardiac arrest is a sudden stop; palpitations are felt beats.",
+      "explanation_visual": "content/biology/cards-heart-conditions.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0112",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 3,
+      "stem": "A person has blood group A. Which red-cell groups can she safely receive?",
+      "visual": null,
+      "choices": {
+        "A": "A, B, AB and O",
+        "B": "A and AB",
+        "C": "A and O only",
+        "D": "O only",
+        "E": "B and AB"
+      },
+      "answer": "C",
+      "explanation": "Her plasma has anti-B antibodies, so she cannot receive B or AB. A and O have no B antigen.",
+      "explanation_visual": "content/biology/cards-abo-blood.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0113",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 3,
+      "stem": "Which sequence correctly follows blood leaving the left ventricle until it returns to the left ventricle?",
+      "visual": null,
+      "choices": {
+        "A": "Aorta → lungs → pulmonary artery → right atrium → right ventricle → vena cava → body → pulmonary vein → left atrium",
+        "B": "Vena cava → body → aorta → left atrium → left ventricle → pulmonary vein → lungs → pulmonary artery → right atrium",
+        "C": "Aorta → body → vena cava → left atrium → right ventricle → pulmonary artery → lungs → pulmonary vein → right atrium",
+        "D": "Aorta → body → vena cava → right atrium → right ventricle → pulmonary artery → lungs → pulmonary vein → left atrium",
+        "E": "Aorta → body → pulmonary vein → right atrium → right ventricle → pulmonary artery → lungs → vena cava → left atrium"
+      },
+      "answer": "D",
+      "explanation": "Systemic circuit (aorta, body, vena cava), then right heart, then pulmonary circuit (pulmonary artery, lungs, pulmonary vein) back to the left atrium.",
+      "explanation_visual": "content/biology/cards-double-circulation.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0114",
+      "subtopic": "biology.anatomy.circulatory",
+      "difficulty": 3,
+      "stem": "Which statement about the lymphatic system is correct?",
+      "visual": null,
+      "choices": {
+        "A": "It is pumped by the heart like arteries",
+        "B": "It is a closed loop with no connection to the blood",
+        "C": "Its vessels carry oxygen-rich red blood cells",
+        "D": "It carries urine away from the kidneys",
+        "E": "It returns excess tissue fluid to the blood and has nodes that help fight infection"
+      },
+      "answer": "E",
+      "explanation": "The lymphatic system runs parallel to the blood vessels and drains into the veins.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0115",
+      "subtopic": "biology.ecology.ecosystems",
+      "difficulty": 1,
+      "stem": "Which of these is an abiotic factor?",
+      "visual": null,
+      "choices": {
+        "A": "Bacteria",
+        "B": "A frog",
+        "C": "Grass",
+        "D": "Temperature",
+        "E": "A mushroom"
+      },
+      "answer": "D",
+      "explanation": "Abiotic factors are non-living: temperature, light, water, soil, wind.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0116",
+      "subtopic": "biology.ecology.ecosystems",
+      "difficulty": 1,
+      "stem": "The lettuce in a salad makes its own food by photosynthesis. Organisms that do this are called:",
+      "visual": null,
+      "choices": {
+        "A": "consumers",
+        "B": "parasites",
+        "C": "producers",
+        "D": "predators",
+        "E": "decomposers"
+      },
+      "answer": "C",
+      "explanation": "Producers are at the start of every food chain.",
+      "explanation_visual": "content/biology/cards-food-web.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0117",
+      "subtopic": "biology.ecology.ecosystems",
+      "difficulty": 1,
+      "stem": "A mushroom grows on a dead log in the kitchen garden. It is a:",
+      "visual": null,
+      "choices": {
+        "A": "parasite",
+        "B": "producer",
+        "C": "primary consumer",
+        "D": "predator",
+        "E": "decomposer"
+      },
+      "answer": "E",
+      "explanation": "Fungi break down dead matter and absorb the nutrients.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0118",
+      "subtopic": "biology.ecology.ecosystems",
+      "difficulty": 2,
+      "stem": "In the chain grass → grasshopper → frog → snake, the frog is a:",
+      "visual": null,
+      "choices": {
+        "A": "primary consumer",
+        "B": "tertiary consumer",
+        "C": "producer",
+        "D": "decomposer",
+        "E": "secondary consumer"
+      },
+      "answer": "E",
+      "explanation": "Grasshopper = primary, frog = secondary, snake = tertiary.",
+      "explanation_visual": "content/biology/cards-food-web.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0119",
+      "subtopic": "biology.ecology.ecosystems",
+      "difficulty": 2,
+      "stem": "A tick feeds on the blood of a dog. This relationship is:",
+      "visual": null,
+      "choices": {
+        "A": "mutualism",
+        "B": "predation",
+        "C": "commensalism",
+        "D": "parasitism",
+        "E": "competition"
+      },
+      "answer": "D",
+      "explanation": "The tick benefits and the dog is harmed, but the tick usually does not kill it.",
+      "explanation_visual": "content/biology/cards-symbiosis.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0120",
+      "subtopic": "biology.ecology.ecosystems",
+      "difficulty": 2,
+      "stem": "What shape is a typical pyramid of numbers for grass → grasshopper → frog → snake?",
+      "visual": null,
+      "choices": {
+        "A": "A circle",
+        "B": "Narrow at the bottom and wide at the top",
+        "C": "A rectangle, with equal numbers at each level",
+        "D": "A diamond with the widest part in the middle",
+        "E": "Wide at the bottom and narrow at the top"
+      },
+      "answer": "E",
+      "explanation": "There are many more grass plants than snakes.",
+      "explanation_visual": "content/biology/cards-pyramid-of-numbers.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0121",
+      "subtopic": "biology.ecology.ecosystems",
+      "difficulty": 3,
+      "stem": "In a food web (grass → grasshopper → frog → snake → hawk; grass → mouse → snake; grass → rabbit → hawk) all the frogs disappear. Which is the most likely short-term effect?",
+      "visual": null,
+      "choices": {
+        "A": "Rabbit numbers fall because snakes eat more rabbits",
+        "B": "Grasshopper numbers fall and the grass grows more",
+        "C": "Grasshopper numbers rise, and snakes eat more mice so mouse numbers may fall",
+        "D": "Nothing else in the web changes",
+        "E": "Hawks starve immediately because they eat frogs"
+      },
+      "answer": "C",
+      "explanation": "Fewer frogs means fewer grasshoppers eaten. Snakes lose one food source and rely more on mice. Hawks do not eat frogs and snakes do not eat rabbits.",
+      "explanation_visual": "content/biology/cards-food-web.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0122",
+      "subtopic": "biology.ecology.ecosystems",
+      "difficulty": 3,
+      "stem": "A producer level holds 10 000 kJ of energy. Using the 10% rule, how much energy reaches the secondary consumers?",
+      "visual": null,
+      "choices": {
+        "A": "10 kJ",
+        "B": "100 kJ",
+        "C": "1000 kJ",
+        "D": "5000 kJ",
+        "E": "9000 kJ"
+      },
+      "answer": "B",
+      "explanation": "Primary consumers get 10% of 10 000 = 1000 kJ. Secondary consumers get 10% of 1000 = 100 kJ.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "biology-0123",
+      "subtopic": "biology.classification.kingdoms",
+      "difficulty": 1,
+      "stem": "Chlorine is added to a swimming pool to kill bacteria. Which kingdom contains bacteria?",
+      "visual": null,
+      "choices": {
+        "A": "Animalia",
+        "B": "Plantae",
+        "C": "Protista",
+        "D": "Monera",
+        "E": "Fungi"
+      },
+      "answer": "D",
+      "explanation": "Bacteria are prokaryotes, in kingdom Monera.",
+      "explanation_visual": "content/biology/cards-five-kingdoms.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0124",
+      "subtopic": "biology.classification.kingdoms",
+      "difficulty": 1,
+      "stem": "Amoeba belongs to which kingdom?",
+      "visual": null,
+      "choices": {
+        "A": "Plantae",
+        "B": "Animalia",
+        "C": "Fungi",
+        "D": "Monera",
+        "E": "Protista"
+      },
+      "answer": "E",
+      "explanation": "Amoeba is a single-celled eukaryote.",
+      "explanation_visual": "content/biology/cards-five-kingdoms.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0125",
+      "subtopic": "biology.classification.kingdoms",
+      "difficulty": 1,
+      "stem": "A forgotten loaf grows a fuzzy green patch of mould. Which kingdom does bread mould belong to?",
+      "visual": null,
+      "choices": {
+        "A": "Animalia",
+        "B": "Monera",
+        "C": "Fungi",
+        "D": "Protista",
+        "E": "Plantae"
+      },
+      "answer": "C",
+      "explanation": "Moulds are fungi.",
+      "explanation_visual": "content/biology/cards-five-kingdoms.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0126",
+      "subtopic": "biology.classification.kingdoms",
+      "difficulty": 1,
+      "stem": "An organism is multicellular, has cell walls of cellulose and makes food by photosynthesis. Which kingdom is it?",
+      "visual": null,
+      "choices": {
+        "A": "Protista",
+        "B": "Fungi",
+        "C": "Plantae",
+        "D": "Monera",
+        "E": "Animalia"
+      },
+      "answer": "C",
+      "explanation": "These are the main features of plants.",
+      "explanation_visual": "content/biology/cards-five-kingdoms.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0127",
+      "subtopic": "biology.classification.kingdoms",
+      "difficulty": 2,
+      "stem": "Which feature is true of bacteria?",
+      "visual": null,
+      "choices": {
+        "A": "They contain chloroplasts",
+        "B": "They have mitochondria",
+        "C": "Their cell walls are made of cellulose",
+        "D": "They have no true nucleus",
+        "E": "They are always multicellular"
+      },
+      "answer": "D",
+      "explanation": "Bacteria are prokaryotes.",
+      "explanation_visual": "content/biology/cards-prok-vs-euk.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0128",
+      "subtopic": "biology.classification.kingdoms",
+      "difficulty": 2,
+      "stem": "A pot of old bread grows a fuzzy mould. How does the mould get its food?",
+      "visual": null,
+      "choices": {
+        "A": "By swallowing whole food with a mouth",
+        "B": "By making food from CO₂ and light",
+        "C": "By photosynthesis using chlorophyll",
+        "D": "Hyphae release enzymes and absorb the digested food",
+        "E": "By engulfing food with pseudopodia"
+      },
+      "answer": "D",
+      "explanation": "Fungi are saprotrophs that feed by external digestion and absorption.",
+      "explanation_visual": "content/biology/cards-mould.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0129",
+      "subtopic": "biology.classification.kingdoms",
+      "difficulty": 2,
+      "stem": "How does an Amoeba move and how does it reproduce?",
+      "visual": null,
+      "choices": {
+        "A": "It moves with flagella and reproduces by budding",
+        "B": "It moves with pseudopodia and reproduces by spores",
+        "C": "It moves with cilia and reproduces by spores",
+        "D": "It moves with legs and reproduces by eggs",
+        "E": "It moves with pseudopodia and reproduces by binary fission"
+      },
+      "answer": "E",
+      "explanation": "Pseudopodia are temporary extensions of the cell.",
+      "explanation_visual": "content/biology/cards-amoeba.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0130",
+      "subtopic": "biology.classification.kingdoms",
+      "difficulty": 3,
+      "stem": "Which kingdom and feature are correctly matched?",
+      "visual": null,
+      "choices": {
+        "A": "Protista – prokaryotic with no nucleus",
+        "B": "Fungi – absorb food; cell walls contain chitin",
+        "C": "Animalia – cell walls made of cellulose",
+        "D": "Monera – eukaryotic and unicellular",
+        "E": "Plantae – feed on dead matter; cell walls contain chitin"
+      },
+      "answer": "B",
+      "explanation": "Fungal cell walls contain chitin.",
+      "explanation_visual": "content/biology/cards-five-kingdoms.svg",
+      "source": "original"
+    },
+    {
+      "id": "biology-0131",
+      "subtopic": "biology.classification.kingdoms",
+      "difficulty": 3,
+      "stem": "Which pair consists of two invertebrates?",
+      "visual": null,
+      "choices": {
+        "A": "A shark and an octopus",
+        "B": "A lizard and a crab",
+        "C": "A frog and a snail",
+        "D": "A dolphin and a jellyfish",
+        "E": "An earthworm and a honeybee"
+      },
+      "answer": "E",
+      "explanation": "Invertebrates have no backbone. Frogs, sharks, lizards and dolphins are vertebrates.",
+      "explanation_visual": null,
+      "source": "original"
+    }
+  ]
+}

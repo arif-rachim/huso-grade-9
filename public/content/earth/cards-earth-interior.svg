@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 372" role="img" aria-labelledby="t d">
+<title id="t">Earth&#x27;s layers</title>
+<desc id="d">Cross section of the Earth: a thin crust, a thick solid mantle, a liquid outer core and a solid inner core.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="372" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<circle cx="125" cy="190" r="110" fill="#92400e" fill-opacity="0.12"/>
+<circle cx="125" cy="190" r="59.9" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+<circle cx="125" cy="190" r="21.1" fill="#92400e" fill-opacity="0.85" stroke="#111827" stroke-width="1.5"/>
+<circle cx="125" cy="190" r="106" fill="none" stroke="#92400e" stroke-width="1.5"/>
+<circle cx="125" cy="190" r="110" fill="none" stroke="#111827" stroke-width="2.5"/>
+<line x1="194.4" y1="107.3" x2="246" y2="73" stroke="#111827" stroke-width="1.2"/><circle cx="194.4" cy="107.3" r="3" fill="#111827"/>
+<g data-label="Crust"><text x="250" y="78" font-size="16" text-anchor="start" fill="#111827" font-weight="bold">Crust</text></g>
+<text x="250" y="94" font-size="12" text-anchor="start" fill="#6b7280">thin: 5–70 km</text>
+<line x1="201.5" y1="159.1" x2="246" y2="143" stroke="#111827" stroke-width="1.2"/><circle cx="201.5" cy="159.1" r="3" fill="#111827"/>
+<g data-label="Mantle"><text x="250" y="148" font-size="16" text-anchor="start" fill="#111827" font-weight="bold">Mantle</text></g>
+<text x="250" y="164" font-size="12" text-anchor="start" fill="#6b7280">solid rock, flows slowly</text>
+<line x1="167.5" y1="201.4" x2="246" y2="213" stroke="#111827" stroke-width="1.2"/><circle cx="167.5" cy="201.4" r="3" fill="#111827"/>
+<g data-label="Outer core"><text x="250" y="218" font-size="16" text-anchor="start" fill="#111827" font-weight="bold">Outer core</text></g>
+<text x="250" y="234" font-size="12" text-anchor="start" fill="#6b7280">liquid iron + nickel</text>
+<line x1="132.1" y1="198.4" x2="246" y2="283" stroke="#111827" stroke-width="1.2"/><circle cx="132.1" cy="198.4" r="3" fill="#111827"/>
+<g data-label="Inner core"><text x="250" y="288" font-size="16" text-anchor="start" fill="#111827" font-weight="bold">Inner core</text></g>
+<text x="250" y="304" font-size="12" text-anchor="start" fill="#6b7280">solid iron + nickel</text>
+<text x="200" y="345" font-size="12" text-anchor="middle" fill="#6b7280">Mantle ends 2900 km down. Inner core is 1220 km in radius.</text>
+<text x="200" y="361" font-size="12" text-anchor="middle" fill="#6b7280">Hot, but the inner core is solid because of the huge pressure.</text>
+</g>
+</svg>

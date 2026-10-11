@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 345" role="img">
+<title>Limiting factors of photosynthesis</title>
+<desc>Three graphs of rate against light intensity, carbon dioxide concentration and temperature. Light and carbon dioxide rise then level off; temperature rises to an optimum then falls steeply.</desc>
+<defs><marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="600" height="345" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="300" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >Limiting factors: what is holding the rate back?</text>
+<text x="121.0" y="44" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" >Light</text>
+<line x1="46" y1="202" x2="202" y2="202" stroke="#111827" stroke-width="2" marker-end="url(#aK)" stroke-linecap="round"/>
+<line x1="46" y1="202" x2="46" y2="50" stroke="#111827" stroke-width="2" marker-end="url(#aK)" stroke-linecap="round"/>
+<text x="121.0" y="224" font-size="13" text-anchor="middle" fill="#111827" >light intensity</text>
+<text x="24" y="127.0" font-size="13" text-anchor="middle" fill="#111827" transform="rotate(-90 24 127.0)">rate</text>
+<path d="M46.0,202.0 L49.8,188.2 L53.5,175.8 L57.2,164.7 L61.0,154.6 L64.8,145.6 L68.5,137.5 L72.2,130.1 L76.0,123.5 L79.8,117.6 L83.5,112.2 L87.2,107.4 L91.0,103.1 L94.8,99.2 L98.5,95.7 L102.2,92.5 L106.0,89.7 L109.8,87.1 L113.5,84.8 L117.2,82.7 L121.0,80.8 L124.8,79.2 L128.5,77.6 L132.2,76.3 L136.0,75.0 L139.8,73.9 L143.5,72.9 L147.2,72.0 L151.0,71.2 L154.8,70.5 L158.5,69.8 L162.2,69.3 L166.0,68.7 L169.8,68.2 L173.5,67.8 L177.2,67.4 L181.0,67.1 L184.8,66.8 L188.5,66.5 L192.2,66.2 L196.0,66.0" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="139.0" y1="66" x2="200" y2="66" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4" stroke-linecap="round"/>
+<text x="128.5" y="168" font-size="12" text-anchor="middle" fill="#6b7280" >rising: light</text>
+<text x="128.5" y="184" font-size="12" text-anchor="middle" fill="#6b7280" >is limiting</text>
+<text x="200" y="114" font-size="12" text-anchor="end" fill="#15803d" font-weight="bold" >plateau: another</text>
+<text x="200" y="129" font-size="12" text-anchor="end" fill="#15803d" font-weight="bold" >factor limits</text>
+<text x="316.0" y="44" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" >CO₂</text>
+<line x1="241" y1="202" x2="397" y2="202" stroke="#111827" stroke-width="2" marker-end="url(#aK)" stroke-linecap="round"/>
+<line x1="241" y1="202" x2="241" y2="50" stroke="#111827" stroke-width="2" marker-end="url(#aK)" stroke-linecap="round"/>
+<text x="316.0" y="224" font-size="13" text-anchor="middle" fill="#111827" >CO₂ concentration</text>
+<text x="219" y="127.0" font-size="13" text-anchor="middle" fill="#111827" transform="rotate(-90 219 127.0)">rate</text>
+<path d="M241.0,202.0 L244.8,188.2 L248.5,175.8 L252.2,164.7 L256.0,154.6 L259.8,145.6 L263.5,137.5 L267.2,130.1 L271.0,123.5 L274.8,117.6 L278.5,112.2 L282.2,107.4 L286.0,103.1 L289.8,99.2 L293.5,95.7 L297.2,92.5 L301.0,89.7 L304.8,87.1 L308.5,84.8 L312.2,82.7 L316.0,80.8 L319.8,79.2 L323.5,77.6 L327.2,76.3 L331.0,75.0 L334.8,73.9 L338.5,72.9 L342.2,72.0 L346.0,71.2 L349.8,70.5 L353.5,69.8 L357.2,69.3 L361.0,68.7 L364.8,68.2 L368.5,67.8 L372.2,67.4 L376.0,67.1 L379.8,66.8 L383.5,66.5 L387.2,66.2 L391.0,66.0" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="334.0" y1="66" x2="395" y2="66" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4" stroke-linecap="round"/>
+<text x="323.5" y="168" font-size="12" text-anchor="middle" fill="#6b7280" >rising: CO₂</text>
+<text x="323.5" y="184" font-size="12" text-anchor="middle" fill="#6b7280" >is limiting</text>
+<text x="395" y="114" font-size="12" text-anchor="end" fill="#15803d" font-weight="bold" >plateau: another</text>
+<text x="395" y="129" font-size="12" text-anchor="end" fill="#15803d" font-weight="bold" >factor limits</text>
+<text x="511.0" y="44" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" >Temperature</text>
+<line x1="436" y1="202" x2="592" y2="202" stroke="#111827" stroke-width="2" marker-end="url(#aK)" stroke-linecap="round"/>
+<line x1="436" y1="202" x2="436" y2="50" stroke="#111827" stroke-width="2" marker-end="url(#aK)" stroke-linecap="round"/>
+<text x="511.0" y="224" font-size="13" text-anchor="middle" fill="#111827" >temperature (°C)</text>
+<text x="414" y="127.0" font-size="13" text-anchor="middle" fill="#111827" transform="rotate(-90 414 127.0)">rate</text>
+<path d="M436.0,202.0 L439.8,200.4 L443.5,197.0 L447.2,192.6 L451.0,187.1 L454.8,181.0 L458.5,174.2 L462.2,166.9 L466.0,159.2 L469.8,151.3 L473.5,143.2 L477.2,135.1 L481.0,127.1 L484.8,119.2 L488.5,111.5 L492.2,104.3 L496.0,97.4 L499.8,91.1 L503.5,85.3 L507.2,80.2 L511.0,75.8 L514.8,72.2 L518.5,69.4 L522.2,67.4 L526.0,66.3 L529.8,66.3 L533.5,70.3 L537.2,76.7 L541.0,84.7 L544.8,94.2 L548.5,104.8 L552.2,116.5 L556.0,129.2 L559.8,142.8 L563.5,157.3 L567.2,172.6 L571.0,188.6 L574.8,202 L578.5,202 L582.2,202 L586.0,202" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="529.0" y1="66" x2="529.0" y2="202" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="5 4" stroke-linecap="round"/>
+<text x="529.0" y="196" font-size="12" text-anchor="middle" fill="#111827" ></text>
+<text x="481.0" y="74" font-size="12" text-anchor="middle" fill="#15803d" font-weight="bold" >optimum</text>
+<text x="511.0" y="244" font-size="12" text-anchor="middle" fill="#6b7280" >too hot: enzymes denature</text>
+<rect x="20" y="262" width="560" height="66" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2" />
+<text x="300" y="284" font-size="14" text-anchor="middle" fill="#15803d" font-weight="bold" >The limiting factor is the one furthest from its best value.</text>
+<text x="300" y="304" font-size="13" text-anchor="middle" fill="#111827" >Fix it and the rate rises, until another factor becomes the limit.</text>
+<text x="300" y="321" font-size="13" text-anchor="middle" fill="#111827" >Also needed: water and chlorophyll. No chlorophyll, no photosynthesis.</text>
+
+</g>
+</svg>

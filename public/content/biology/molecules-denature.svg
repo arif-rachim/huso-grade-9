@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 300" role="img" aria-labelledby="t d">
+  <title id="t">Heat denatures a protein</title>
+  <desc id="d">A chain of amino acids folded into a compact shape. After heating, the shape unfolds and the protein stops working, but the order of amino acids stays the same. A cooked egg white does not turn back.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="440" height="300" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Cooking an egg: the shape changes, the chain stays</text>
+    <line x1="70" y1="110" x2="100" y2="90" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="100" y1="90" x2="130" y2="105" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="130" y1="105" x2="120" y2="140" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="120" y1="140" x2="85" y2="150" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="85" y1="150" x2="60" y2="135" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="60" y1="135" x2="75" y2="120" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="75" y1="120" x2="105" y2="115" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="105" y1="115" x2="110" y2="125" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="70" cy="110" r="9" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="100" cy="90" r="9" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="130" cy="105" r="9" fill="#16a34a" fill-opacity="0.45" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="120" cy="140" r="9" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="85" cy="150" r="9" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="60" cy="135" r="9" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="75" cy="120" r="9" fill="#16a34a" fill-opacity="0.45" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="105" cy="115" r="9" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="110" cy="125" r="9" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="95" y="205" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">folded protein</text>
+    <text x="95" y="223" font-size="12" text-anchor="middle" fill="#6b7280">works (shape fits its job)</text>
+    <line x1="160" y1="120" x2="262" y2="120" stroke="#111827" stroke-width="2.4" stroke-linecap="round" marker-end="url(#arK)"/>
+    <text x="211" y="104" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">HEAT</text>
+    <text x="211" y="142" font-size="12" text-anchor="middle" fill="#6b7280">(or acid)</text>
+    <line x1="280" y1="106" x2="296" y2="134" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="296" y1="134" x2="312" y2="106" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="312" y1="106" x2="328" y2="134" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="328" y1="134" x2="344" y2="106" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="344" y1="106" x2="360" y2="134" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="360" y1="134" x2="376" y2="106" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="376" y1="106" x2="392" y2="134" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <line x1="392" y1="134" x2="408" y2="106" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="280" cy="106" r="9" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="296" cy="134" r="9" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="312" cy="106" r="9" fill="#16a34a" fill-opacity="0.45" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="328" cy="134" r="9" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="344" cy="106" r="9" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="360" cy="134" r="9" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="376" cy="106" r="9" fill="#16a34a" fill-opacity="0.45" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="392" cy="134" r="9" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="408" cy="106" r="9" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="1.5"/>
+    <text x="345" y="205" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">denatured protein</text>
+    <text x="345" y="223" font-size="12" text-anchor="middle" fill="#6b7280">shape lost, job lost</text>
+    <rect x="30" y="244" width="380" height="42" rx="8" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="1.2"/>
+    <text x="220" y="262" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Same chain of amino acids, different 3D shape.</text>
+    <text x="220" y="279" font-size="12" text-anchor="middle" fill="#111827">Egg white: clear and runny → white and firm. It does not go back.</text>
+  </g>
+</svg>

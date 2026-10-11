@@ -1,0 +1,39 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="Redraw from memory: {{ topic.name }}">
+    <rx-link-button route="canvas.index" label="All drawings" variant="plain"/>
+  </rx-page-header>
+
+  <rx-stack>
+    <rx-card title="1. Get ready">
+      <p><span class="subject-dot" data-subject="{{ subject.slug }}"></span> {{ subject.name }} · <strong>{{ topic.name }}</strong></p>
+      <p>Close your notes. Draw everything you remember about this topic as a picture or concept map.
+         Use arrows, labels and colours. You have 5 minutes.</p>
+      <p>Time left: <span class="redraw-timer" data-redraw-timer data-seconds="300">5:00</span>
+         <button type="button" class="redraw-tool" data-redraw-timer-start>Start timer</button></p>
+    </rx-card>
+
+    <rx-form action="{{ route('canvas.store', topic.slug) }}" enctype="multipart/form-data" data-redraw-form>
+      <rx-card title="2. Draw">
+        <rx-form-errors/>
+        <div class="redraw-tools" role="toolbar" aria-label="Drawing tools" style="--subject-color: {{ subject.color }}">
+          <button type="button" class="redraw-tool" data-tool="pen" aria-pressed="true">Pen</button>
+          <button type="button" class="redraw-tool" data-tool="eraser" aria-pressed="false">Eraser</button>
+          <button type="button" class="redraw-swatch" data-color="#111827" style="--swatch: #111827" aria-pressed="true" aria-label="Black"></button>
+          {% for c in colors %}
+          <button type="button" class="redraw-swatch" data-color="{{ c[1] }}" style="--swatch: {{ c[1] }}" aria-pressed="false" aria-label="{{ c[0] }}"></button>
+          {% endfor %}
+          <button type="button" class="redraw-tool" data-size="3" aria-pressed="true">Thin</button>
+          <button type="button" class="redraw-tool" data-size="8" aria-pressed="false">Thick</button>
+          <button type="button" class="redraw-tool" data-undo>Undo</button>
+          <button type="button" class="redraw-tool" data-clear>Clear</button>
+        </div>
+        <canvas class="redraw-canvas" style="--subject-color: {{ subject.color }}" width="1200" height="750" data-redraw-canvas aria-label="Drawing area"></canvas>
+        <p>Or upload a photo of your paper drawing instead (it replaces the canvas).</p>
+        <rx-file name="image" label="Photo of a paper drawing" accept="image/*" preview/>
+        <rx-textarea name="notes" label="Notes (optional)" rows="2" hint="What was hard to remember?"/>
+        <rx-button label="Save drawing" icon="check"/>
+      </rx-card>
+    </rx-form>
+  </rx-stack>
+  {% call push('scripts', once='canvas') %}<script src="/js/canvas.js" defer></script>{% endcall %}
+</rx-page>

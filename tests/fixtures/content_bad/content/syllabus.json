@@ -1,0 +1,3 @@
+{"version": 1, "subjects": [{"slug": "physics", "name": "Physics", "color": "#dc2626", "emoji": "x",
+ "topics": [{"slug": "physics.mechanics", "name": "Mechanics",
+  "children": [{"slug": "physics.mechanics.kinematics", "name": "Kinematics", "items": ["Speed"]}]}]}]}

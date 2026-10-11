@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 330" role="img" aria-labelledby="imt imd">
+  <title id="imt">First and second exposure to a germ</title>
+  <desc id="imd">A graph of antibody level over time: the first exposure gives a slow, small response; the second exposure a few weeks later gives a fast, large response because of memory cells.</desc>
+  <defs>
+    <marker id="ima" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="img" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="330" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Why a second meeting with a germ is much easier</text>
+    <line x1="60" y1="270" x2="440" y2="270" stroke="#111827" stroke-width="2" marker-end="url(#ima)"/>
+    <line x1="60" y1="270" x2="60" y2="60" stroke="#111827" stroke-width="2" marker-end="url(#ima)"/>
+    <text x="250.0" y="304" font-size="13" text-anchor="middle" fill="#111827">time (days)</text>
+    <text x="22" y="170.0" font-size="13" text-anchor="middle" transform="rotate(-90 22 170.0)">antibody level in blood</text>
+    <polyline points="60.0,270.0 63.9,270.0 67.8,270.0 71.7,270.0 75.6,270.0 79.4,270.0 83.3,270.0 87.2,270.0 91.1,270.0 95.0,270.0 98.9,270.0 102.8,269.6 106.7,268.4 110.6,266.5 114.4,264.1 118.3,261.1 122.2,257.7 126.1,253.9 130.0,249.9 133.9,245.8 137.8,241.5 141.7,237.2 145.6,233.1 149.4,229.1 153.3,225.3 157.2,221.9 161.1,218.9 165.0,216.5 168.9,214.6 172.8,213.4 176.7,213.0 180.6,216.1 184.4,219.0 188.3,221.8 192.2,224.4 196.1,226.8 200.0,229.2 203.9,231.4 207.8,233.5 211.7,235.4 215.6,237.3 219.4,239.1 223.3,240.7 227.2,242.3 231.1,243.8 235.0,245.2 238.9,246.6 242.8,247.8 246.7,249.0 250.6,250.2 254.4,251.2 258.3,252.3 262.2,253.2 266.1,254.1 270.0,255.0 273.9,255.8 277.8,256.6 281.7,257.3 285.6,258.0 289.4,258.6 293.3,249.6 297.2,225.2 301.1,191.6 305.0,154.9 308.9,121.2 312.8,96.7 316.7,87.5 320.6,94.0 324.4,100.3 328.3,106.4 332.2,112.3 336.1,117.9 340.0,123.4 343.9,128.6 347.8,133.7 351.7,138.6 355.6,143.3 359.4,147.8 363.3,152.2 367.2,156.4 371.1,160.4 375.0,164.3 378.9,168.1 382.8,171.8 386.7,175.3 390.6,178.6 394.4,181.9 398.3,185.0 402.2,188.1 406.1,191.0 410.0,193.8" fill="none" stroke="#16a34a" stroke-width="3" stroke-linejoin="round"/>
+    <line x1="60.0" y1="274" x2="60.0" y2="90" stroke="#6b7280" stroke-dasharray="4 3"/>
+    <text x="64.0" y="86" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">1st exposure</text>
+    <line x1="277.8" y1="274" x2="277.8" y2="90" stroke="#6b7280" stroke-dasharray="4 3"/>
+    <text x="281.77777777777777" y="86" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">2nd exposure</text>
+    <text x="176.66666666666669" y="205.0" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">slow and small</text>
+    <text x="400" y="92" font-size="12" text-anchor="middle" fill="#16a34a" font-weight="bold">fast and big</text>
+    <text x="400" y="108" font-size="12" text-anchor="middle" fill="#16a34a">(memory cells)</text>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="kbt kbd">
+  <title id="kbt">Bacteria shapes and bread mould structure</title>
+  <desc id="kbd">Left: three bacteria shapes (round cocci, rod-shaped bacilli, spiral spirilla) with a flagellum for movement and no nucleus. Right: bread mould with hyphae forming a mycelium, rhizoids into the bread and sporangia on stalks.</desc>
+  <defs>
+    <marker id="kba" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="kbg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="360" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <rect x="12" y="34" width="215" height="314" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+    <rect x="253" y="34" width="215" height="314" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="120" y="56" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="bold">Monera: bacteria</text>
+    <g data-label="cocci"><circle cx="50" cy="88" r="13" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="2"/><circle cx="76" cy="88" r="13" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="2"/></g>
+    <text x="150" y="86" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Cocci</text>
+    <text x="150" y="102" font-size="12" text-anchor="middle" fill="#6b7280">round</text>
+    <g data-label="bacilli"><rect x="32" y="126" width="48" height="22" rx="11" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="2"/></g>
+    <text x="150" y="136" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Bacilli</text>
+    <text x="150" y="152" font-size="12" text-anchor="middle" fill="#6b7280">rod-shaped</text>
+    <g data-label="spirilla"><path d="M30,190 C42,172 54,208 66,190 C78,172 90,208 102,190" fill="none" stroke="#16a34a" stroke-width="7" stroke-linecap="round" opacity="0.45"/><path d="M30,190 C42,172 54,208 66,190 C78,172 90,208 102,190" fill="none" stroke="#16a34a" stroke-width="2" stroke-linecap="round"/></g>
+    <text x="150" y="186" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Spirilla</text>
+    <text x="150" y="202" font-size="12" text-anchor="middle" fill="#6b7280">spiral</text>
+    <rect x="40" y="228" width="90" height="38" rx="19" fill="#16a34a" fill-opacity="0.15" stroke="#16a34a" stroke-width="2.5"/>
+    <path d="M130,247 C150,232 160,262 180,247 C195,236 205,250 212,246" fill="none" stroke="#111827" stroke-width="1.8"/>
+    <path d="M62,247 C70,238 80,256 90,244 C96,238 104,254 110,246" fill="none" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="120" y="288" font-size="12" text-anchor="middle" fill="#111827">flagellum: tail for swimming</text>
+    <text x="120" y="306" font-size="12" text-anchor="middle" fill="#111827">no nucleus (DNA lies free in the cell)</text>
+    <text x="120" y="322" font-size="12" text-anchor="middle" fill="#111827">no membrane-bound organelles</text>
+    <text x="120" y="338" font-size="12" text-anchor="middle" fill="#111827">has a cell wall; tiny, one cell</text>
+    <rect x="268" y="262" width="185" height="62" rx="6" fill="#e5e7eb" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="360" y="300" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">bread (food)</text>
+    <g data-label="mycelium"><path d="M290,262 L430,262" stroke="#16a34a" stroke-width="3"/>
+    <path d="M300,262 L290,282 M300,262 L308,284 M290,282 L284,296" stroke="#16a34a" stroke-width="1.6" fill="none"/>
+    <path d="M340,262 L330,282 M340,262 L348,284 M330,282 L324,296" stroke="#16a34a" stroke-width="1.6" fill="none"/>
+    <path d="M380,262 L370,282 M380,262 L388,284 M370,282 L364,296" stroke="#16a34a" stroke-width="1.6" fill="none"/>
+    <path d="M420,262 L410,282 M420,262 L428,284 M410,282 L404,296" stroke="#16a34a" stroke-width="1.6" fill="none"/>
+    </g>
+    <g data-label="sporangium"><line x1="312" y1="262" x2="312" y2="222" stroke="#16a34a" stroke-width="2"/><circle cx="312" cy="214" r="9" fill="#111827" fill-opacity="0.8"/></g>
+    <g data-label="sporangium"><line x1="372" y1="262" x2="372" y2="204" stroke="#16a34a" stroke-width="2"/><circle cx="372" cy="196" r="9" fill="#111827" fill-opacity="0.8"/></g>
+    <g data-label="sporangium"><line x1="416" y1="262" x2="416" y2="228" stroke="#16a34a" stroke-width="2"/><circle cx="416" cy="220" r="9" fill="#111827" fill-opacity="0.8"/></g>
+    <text x="360" y="56" font-size="14" text-anchor="middle" fill="#16a34a" font-weight="bold">Fungi: bread mould (Rhizopus)</text>
+    <text x="262" y="96" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">sporangium</text>
+    <text x="262" y="112" font-size="11" text-anchor="start" fill="#6b7280">(holds spores)</text>
+    <line x1="320" y1="102" x2="360" y2="190" stroke="#6b7280"/>
+    <text x="262" y="134" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">hypha = one thread</text>
+    <text x="262" y="152" font-size="12" text-anchor="start" fill="#111827">mycelium = all the</text>
+    <text x="262" y="168" font-size="12" text-anchor="start" fill="#111827">hyphae together</text>
+    <line x1="300" y1="176" x2="330" y2="270" stroke="#6b7280"/>
+    <text x="360" y="342" font-size="11" text-anchor="middle" fill="#6b7280">lives on dead matter (saprophyte)</text>
+  </g>
+</svg>

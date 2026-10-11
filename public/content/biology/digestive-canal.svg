@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 490" role="img">
+  <title>The digestive system, front view</title>
+  <desc>The food tube in order: mouth, esophagus, stomach, small intestine, large intestine, rectum and anus. The liver, gallbladder and pancreas lie beside it and send juices into the small intestine.</desc>
+  <rect width="520" height="490" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="260" y="20" font-size="16" font-weight="bold" text-anchor="middle">Digestive system: the food path, in order</text>
+    <path d="M135,112 Q120,300 150,430 Q230,470 310,430 Q340,300 325,112 Z" fill="#f3f4f6" stroke="#d1d5db" stroke-width="2"/>
+    <circle cx="230" cy="55" r="34" fill="#f9fafb" stroke="#d1d5db" stroke-width="2"/>
+    <!-- liver -->
+    <g data-label="liver">
+      <path d="M135,150 Q165,138 215,150 Q252,158 258,176 Q235,206 200,212 Q150,216 135,190 Z" fill="#a7f3d0" stroke="#14532d" stroke-width="2"/>
+    </g>
+    <g data-label="gallbladder"><path d="M198,214 Q190,230 205,242 Q221,233 214,214 Z" fill="#15803d" stroke="#14532d" stroke-width="1.5"/></g>
+    <!-- pancreas -->
+    <g data-label="pancreas"><path d="M212,236 Q262,226 330,232 Q340,242 328,252 Q262,258 214,256 Z" fill="#dcfce7" stroke="#14532d" stroke-width="1.8" stroke-dasharray="5 3"/></g>
+    <!-- large intestine -->
+    <g data-label="large intestine" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M168,400 L168,272 L302,272 L302,376 Q300,404 262,410 Q236,414 230,428" stroke="#15803d" stroke-width="20"/>
+      <path d="M168,400 L168,272 L302,272 L302,376 Q300,404 262,410 Q236,414 230,428" stroke="#bbf7d0" stroke-width="5"/>
+    </g>
+    <!-- rectum + anus -->
+    <g data-label="rectum"><path d="M230,424 L230,452" stroke="#14532d" stroke-width="14" stroke-linecap="round" fill="none"/><path d="M230,424 L230,452" stroke="#86efac" stroke-width="4" stroke-linecap="round" fill="none"/></g>
+    <g data-label="anus"><circle cx="230" cy="458" r="6" fill="#ffffff" stroke="#14532d" stroke-width="2.5"/></g>
+    <!-- small intestine -->
+    <g data-label="small intestine" fill="none" stroke-linejoin="round" stroke-linecap="round">
+      <path d="M262,226 Q245,246 215,254 L216,290 L276,296 L276,314 L200,320 L200,338 L276,344 L276,362 L202,368 L172,394" stroke="#4ade80" stroke-width="14"/>
+      <path d="M262,226 Q245,246 215,254 L216,290 L276,296 L276,314 L200,320 L200,338 L276,344 L276,362 L202,368 L172,394" stroke="#ecfdf5" stroke-width="3"/>
+    </g>
+    <!-- stomach -->
+    <g data-label="stomach">
+      <path d="M252,150 C300,140 336,170 324,206 C316,236 276,242 262,224 C258,216 262,206 258,196 C252,176 246,162 252,150 Z" fill="#86efac" stroke="#14532d" stroke-width="2"/>
+    </g>
+    <!-- esophagus -->
+    <g data-label="esophagus"><path d="M230,80 L230,122 Q232,142 254,154" stroke="#14532d" stroke-width="12" fill="none" stroke-linecap="round"/><path d="M230,80 L230,122 Q232,142 254,154" stroke="#86efac" stroke-width="4" fill="none" stroke-linecap="round"/></g>
+    <!-- mouth -->
+    <g data-label="mouth"><rect x="209" y="58" width="42" height="16" rx="8" fill="#16a34a" stroke="#14532d" stroke-width="2"/><line x1="213" y1="66" x2="247" y2="66" stroke="#ffffff" stroke-width="2"/></g>
+    <!-- leaders -->
+    <g stroke="#6b7280" stroke-width="1.2" fill="none">
+      <path d="M148,172 L112,168"/><path d="M196,230 L112,244"/><path d="M168,330 L112,326"/>
+      <path d="M252,66 L350,56"/><path d="M236,110 L350,112"/><path d="M322,186 L350,186"/><path d="M332,242 L350,246"/><path d="M276,330 L350,330"/><path d="M262,410 L350,408"/><path d="M238,458 L350,456"/>
+    </g>
+    <g font-size="15" font-weight="bold" fill="#14532d">
+      <text x="8" y="162">Liver</text><text x="8" y="238">Gallbladder</text><text x="8" y="320">Large intestine</text>
+      <text x="356" y="54">Mouth</text><text x="356" y="110">Esophagus</text><text x="356" y="184">Stomach</text><text x="356" y="244">Pancreas</text><text x="356" y="328">Small intestine</text><text x="356" y="406">Rectum</text><text x="356" y="454">Anus</text>
+    </g>
+    <g font-size="12">
+      <text x="8" y="178">makes bile</text><text x="8" y="254">stores bile</text><text x="8" y="336">takes back water</text>
+      <text x="356" y="70">chewing, saliva</text><text x="356" y="126">pushes food down</text><text x="356" y="200">acid + pepsin</text><text x="356" y="260">pancreatic juice</text><text x="356" y="344">digests + absorbs</text><text x="356" y="422">stores feces</text><text x="356" y="470">feces leave</text>
+    </g>
+  </g>
+</svg>

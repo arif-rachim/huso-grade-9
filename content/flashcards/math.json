@@ -1,0 +1,1515 @@
+{
+  "version": 1,
+  "subject": "math",
+  "cards": [
+    {
+      "id": "math-0001",
+      "subtopic": "math.algebra.polynomials",
+      "type": "basic",
+      "front": "What is the remainder when P(x) is divided by (x − a)?",
+      "back": "P(a). If P(a) = 0, then (x − a) is a factor of P(x).",
+      "visual": null,
+      "sketch_prompt": "Sketch a graph of P with a dot at x = a. Draw a vertical line from the dot to the x-axis and label its height 'remainder = P(a)'.",
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0002",
+      "subtopic": "math.algebra.polynomials",
+      "type": "cloze",
+      "front": "For ax² + bx + c = 0 with roots p and q: p + q = {{−b/a}} and pq = {{c/a}}.",
+      "back": "p + q = −b/a and pq = c/a. Useful: p² + q² = (p + q)² − 2pq.",
+      "visual": null,
+      "sketch_prompt": "Draw a parabola cutting the x-axis at p and q. Mark the midpoint between them and write 'sum = −b/a, product = c/a'.",
+      "tags": [
+        "formula",
+        "vieta"
+      ]
+    },
+    {
+      "id": "math-0003",
+      "subtopic": "math.algebra.polynomials",
+      "type": "basic",
+      "front": "Vieta for the cubic ax³ + bx² + cx + d: the three sums of its roots p, q, r?",
+      "back": "p + q + r = −b/a, pq + qr + rp = c/a, pqr = −d/a. The signs alternate: −, +, −.",
+      "visual": null,
+      "sketch_prompt": "Write the cubic and draw three arrows from the coefficients b, c, d to the three sums. Color the minus signs red.",
+      "tags": [
+        "formula",
+        "vieta"
+      ]
+    },
+    {
+      "id": "math-0004",
+      "subtopic": "math.algebra.polynomials",
+      "type": "match",
+      "front": "Match each factoring pattern to its expanded form.",
+      "back": "Learn both directions: expanding and factoring.",
+      "visual": "content/math/polynomials-area-model.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "a² − b²",
+          "(a − b)(a + b)"
+        ],
+        [
+          "(a + b)²",
+          "a² + 2ab + b²"
+        ],
+        [
+          "a³ + b³",
+          "(a + b)(a² − ab + b²)"
+        ],
+        [
+          "a³ − b³",
+          "(a − b)(a² + ab + b²)"
+        ]
+      ],
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0005",
+      "subtopic": "math.algebra.polynomials",
+      "type": "basic",
+      "front": "Rational root theorem: what must a rational root m/n (lowest terms) satisfy?",
+      "back": "m divides the constant term and n divides the leading coefficient.",
+      "visual": null,
+      "sketch_prompt": "Draw a fraction bar. Above it write 'divides the constant term', below it 'divides the leading coefficient'.",
+      "tags": [
+        "theorem"
+      ]
+    },
+    {
+      "id": "math-0006",
+      "subtopic": "math.algebra.polynomials",
+      "type": "order",
+      "front": "Put the steps for finding rational roots in order.",
+      "back": "List the candidates first, then test them.",
+      "visual": null,
+      "sketch_prompt": "Draw a 5-step flowchart with one box per step.",
+      "items": [
+        "List the divisors of the constant term",
+        "List the divisors of the leading coefficient",
+        "Form every fraction m/n (with ± signs)",
+        "Test candidates by computing P(m/n)",
+        "Divide out the root you found"
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0007",
+      "subtopic": "math.algebra.polynomials",
+      "type": "basic",
+      "front": "How do you get the sum of all coefficients of P(x), and its constant term, quickly?",
+      "back": "Sum of coefficients = P(1). Constant term = P(0).",
+      "visual": null,
+      "sketch_prompt": "Write P(x) = 2x³ − x + 5 and draw arrows: x = 1 gives the total (6), x = 0 gives the constant (5).",
+      "tags": [
+        "trick"
+      ]
+    },
+    {
+      "id": "math-0008",
+      "subtopic": "math.algebra.polynomials",
+      "type": "cloze",
+      "front": "(a + b)ⁿ = Σ {{C(n, k)}} aⁿ⁻ᵏ bᵏ. The coefficients form row {{n}} of Pascal's triangle.",
+      "back": "The binomial coefficients C(n, k) are row n of Pascal's triangle (row 0 is just 1).",
+      "visual": "content/math/pascal-triangle.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0009",
+      "subtopic": "math.algebra.sequences",
+      "type": "cloze",
+      "front": "Arithmetic sequence: aₙ = a₁ + ({{n − 1}}) · d.",
+      "back": "You take n − 1 steps of size d from the first term.",
+      "visual": "content/math/sequences-arith-geom.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0010",
+      "subtopic": "math.algebra.sequences",
+      "type": "cloze",
+      "front": "Arithmetic series: Sₙ = n · (a₁ + aₙ) / {{2}}.",
+      "back": "Pair first and last: the average term times the number of terms.",
+      "visual": "content/math/sequences-arith-geom.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0011",
+      "subtopic": "math.algebra.sequences",
+      "type": "cloze",
+      "front": "Geometric sequence: aₙ = a₁ · r^{{n − 1}}. Sum: Sₙ = a₁(1 − rⁿ) / (1 − {{r}}), for r ≠ 1.",
+      "back": "The sum formula needs r ≠ 1. For r = 1 the sum is simply n · a₁.",
+      "visual": "content/math/sequences-arith-geom.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0012",
+      "subtopic": "math.algebra.sequences",
+      "type": "basic",
+      "front": "When does a geometric series go on forever with a finite sum, and what is it?",
+      "back": "When |r| < 1. Then S = a₁ / (1 − r).",
+      "visual": "content/math/sequences-arith-geom.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0013",
+      "subtopic": "math.algebra.sequences",
+      "type": "cloze",
+      "front": "1 / (k(k + 1)) = {{1/k − 1/(k + 1)}}, so the sum of the first n such terms is {{n/(n + 1)}}.",
+      "back": "The middle terms cancel, leaving 1 − 1/(n + 1).",
+      "visual": "content/math/sequences-telescoping.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula",
+        "telescoping"
+      ]
+    },
+    {
+      "id": "math-0014",
+      "subtopic": "math.algebra.sequences",
+      "type": "order",
+      "front": "Order the steps of a telescoping sum.",
+      "back": "Most of the sum disappears: only the ends remain.",
+      "visual": "content/math/sequences-telescoping.svg",
+      "sketch_prompt": null,
+      "items": [
+        "Rewrite each term as a difference",
+        "Write out the first few terms",
+        "Cancel the middle pairs",
+        "Keep only the first and last leftovers"
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0015",
+      "subtopic": "math.algebra.sequences",
+      "type": "basic",
+      "front": "You know the sum Sₙ of the first n terms. How do you find the nth term aₙ?",
+      "back": "aₙ = Sₙ − Sₙ₋₁ (for n ≥ 2). The first term is a₁ = S₁.",
+      "visual": null,
+      "sketch_prompt": "Draw n bars. Shade all n for Sₙ and all but the last for Sₙ₋₁. The difference is the last bar.",
+      "tags": [
+        "trick"
+      ]
+    },
+    {
+      "id": "math-0016",
+      "subtopic": "math.algebra.inequalities",
+      "type": "basic",
+      "front": "Why is x² − 6x + 11 never smaller than 2?",
+      "back": "Complete the square: (x − 3)² + 2. A square is never negative, so the minimum is 2, at x = 3.",
+      "visual": null,
+      "sketch_prompt": "Draw the parabola y = x² − 6x + 11 with its lowest point at (3, 2).",
+      "tags": [
+        "trivial"
+      ]
+    },
+    {
+      "id": "math-0017",
+      "subtopic": "math.algebra.inequalities",
+      "type": "cloze",
+      "front": "AM-GM: for a, b ≥ 0, (a + b)/2 ≥ {{√(ab)}}, with equality only when {{a = b}}.",
+      "back": "The average is at least the geometric mean.",
+      "visual": "content/math/inequalities-rim-area.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0018",
+      "subtopic": "math.algebra.inequalities",
+      "type": "order",
+      "front": "Order from smallest to largest (for positive a ≠ b).",
+      "back": "HM ≤ GM ≤ AM, equal only when a = b.",
+      "visual": null,
+      "sketch_prompt": "Draw a number line and place the three means for a = 4 and b = 12: 6, 6.93, 8.",
+      "items": [
+        "HM = 2ab/(a + b)",
+        "GM = √(ab)",
+        "AM = (a + b)/2"
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0019",
+      "subtopic": "math.algebra.inequalities",
+      "type": "basic",
+      "front": "Triangle inequality: which sides can form a triangle?",
+      "back": "a + b > c for every pair. Equivalent: |a − b| < c < a + b.",
+      "visual": "content/math/inequalities-triangle-sticks.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "theorem"
+      ]
+    },
+    {
+      "id": "math-0020",
+      "subtopic": "math.algebra.inequalities",
+      "type": "match",
+      "front": "Match each inequality to its statement.",
+      "back": "Know when equality holds in each one.",
+      "visual": null,
+      "sketch_prompt": "Draw three small boxes, one per inequality, each with a tiny picture (square, scale, triangle).",
+      "pairs": [
+        [
+          "Trivial inequality",
+          "x² ≥ 0 for every real x"
+        ],
+        [
+          "AM-GM",
+          "(a + b)/2 ≥ √(ab) for a, b ≥ 0"
+        ],
+        [
+          "Triangle inequality",
+          "a + b > c"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0021",
+      "subtopic": "math.algebra.inequalities",
+      "type": "basic",
+      "front": "A rectangle has a fixed perimeter. Which shape has the largest area?",
+      "back": "The square. For perimeter P, the maximum area is (P/4)².",
+      "visual": "content/math/inequalities-rim-area.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "trick"
+      ]
+    },
+    {
+      "id": "math-0022",
+      "subtopic": "math.algebra.inequalities",
+      "type": "basic",
+      "front": "How do you use AM-GM to find a minimum such as x + 16/x?",
+      "back": "Apply it to the two terms: x + 16/x ≥ 2√16 = 8. Equality when x = 16/x, so x = 4.",
+      "visual": null,
+      "sketch_prompt": "Draw the curve y = x + 16/x with its lowest point at (4, 8).",
+      "tags": [
+        "trick"
+      ]
+    },
+    {
+      "id": "math-0023",
+      "subtopic": "math.algebra.functions",
+      "type": "match",
+      "front": "Match each word to its meaning.",
+      "back": "Bijective = injective + surjective, so it has an inverse.",
+      "visual": "content/math/functions-who-sits-where.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "Injective",
+          "each output is used at most once"
+        ],
+        [
+          "Surjective",
+          "every element of the codomain is hit"
+        ],
+        [
+          "Bijective",
+          "both: a perfect one-to-one pairing"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0024",
+      "subtopic": "math.algebra.functions",
+      "type": "cloze",
+      "front": "Even: f(−x) = {{f(x)}} (mirror in the y-axis). Odd: f(−x) = {{−f(x)}} (half-turn about the origin).",
+      "back": "Examples: x² is even, x³ is odd.",
+      "visual": "content/math/functions-even-odd.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "math-0025",
+      "subtopic": "math.algebra.functions",
+      "type": "cloze",
+      "front": "⌊x⌋ is the greatest integer {{≤}} x. ⌈x⌉ is the smallest integer {{≥}} x.",
+      "back": "Careful with negatives: ⌊−2.3⌋ = −3.",
+      "visual": "content/math/functions-floor-ceiling.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "math-0026",
+      "subtopic": "math.algebra.functions",
+      "type": "basic",
+      "front": "What are ⌊−2.5⌋ and ⌈−2.5⌉?",
+      "back": "⌊−2.5⌋ = −3 and ⌈−2.5⌉ = −2. Floor goes down, ceiling goes up.",
+      "visual": "content/math/functions-floor-ceiling.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0027",
+      "subtopic": "math.algebra.functions",
+      "type": "match",
+      "front": "Match each logarithm law to its result.",
+      "back": "These hold for any valid base and positive arguments.",
+      "visual": null,
+      "sketch_prompt": "Write each law and draw a small arrow from 'multiply inside' to 'add outside'.",
+      "pairs": [
+        [
+          "log(ab)",
+          "log a + log b"
+        ],
+        [
+          "log(a/b)",
+          "log a − log b"
+        ],
+        [
+          "log aᵏ",
+          "k · log a"
+        ],
+        [
+          "log_b b",
+          "1"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0028",
+      "subtopic": "math.algebra.functions",
+      "type": "match",
+      "front": "Match each angle to its sine, cosine or tangent value.",
+      "back": "Memorize from the two special triangles.",
+      "visual": "content/math/triangles-special.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "sin 30°",
+          "½"
+        ],
+        [
+          "sin 45°",
+          "√2/2"
+        ],
+        [
+          "sin 60°",
+          "√3/2"
+        ],
+        [
+          "tan 45°",
+          "1"
+        ],
+        [
+          "tan 60°",
+          "√3"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0029",
+      "subtopic": "math.algebra.functions",
+      "type": "basic",
+      "front": "How do you attack a functional equation like 2f(x) + f(1 − x) = x?",
+      "back": "Plug in special values or swap x ↔ 1 − x to get a second equation, then solve the system.",
+      "visual": null,
+      "sketch_prompt": "Draw two boxes labeled 'equation with x' and 'equation with 1 − x' joined by an arrow to 'solve for f(x)'.",
+      "tags": [
+        "strategy"
+      ]
+    },
+    {
+      "id": "math-0030",
+      "subtopic": "math.algebra.functions",
+      "type": "cloze",
+      "front": "sin²θ + cos²θ = {{1}}, and sin(90° − θ) = {{cos θ}}.",
+      "back": "Think of the unit circle: the radius is 1.",
+      "visual": null,
+      "sketch_prompt": "Draw a unit circle with a right triangle inside: hypotenuse 1, legs cos θ (horizontal) and sin θ (vertical).",
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0031",
+      "subtopic": "math.number-theory.modular",
+      "type": "basic",
+      "front": "What does a ≡ b (mod m) mean?",
+      "back": "m divides (a − b); equivalently a and b leave the same remainder when divided by m.",
+      "visual": "content/math/modular-round-clock.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "definition"
+      ]
+    },
+    {
+      "id": "math-0032",
+      "subtopic": "math.number-theory.modular",
+      "type": "order",
+      "front": "Order the steps for the last digit of a big power such as 7²⁰²⁶.",
+      "back": "Cycles make huge exponents small.",
+      "visual": null,
+      "sketch_prompt": "Draw the cycle of last digits 7 → 9 → 3 → 1 → back to 7 as a circle of arrows.",
+      "items": [
+        "Write the first few remainders of the base",
+        "Spot the repeating cycle and its length",
+        "Divide the exponent by the cycle length",
+        "Use the leftover to pick the matching remainder"
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0033",
+      "subtopic": "math.number-theory.modular",
+      "type": "basic",
+      "front": "Which operations can you do on congruences?",
+      "back": "Add, subtract, multiply and raise to powers. Reduce first, then compute. Division needs care.",
+      "visual": "content/math/modular-round-clock.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "rule"
+      ]
+    },
+    {
+      "id": "math-0034",
+      "subtopic": "math.number-theory.modular",
+      "type": "cloze",
+      "front": "If n = pᵃ · qᵇ, then n has ({{a + 1}})({{b + 1}}) positive divisors.",
+      "back": "Example: 360 = 2³·3²·5 has 4·3·2 = 24 divisors.",
+      "visual": "content/math/modular-prime-tree.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0035",
+      "subtopic": "math.number-theory.modular",
+      "type": "basic",
+      "front": "How many zeros does n! end with?",
+      "back": "Count the factors of 5: ⌊n/5⌋ + ⌊n/25⌋ + ⌊n/125⌋ + … (there are always enough 2s).",
+      "visual": null,
+      "sketch_prompt": "Write 50! as a long product. Circle every multiple of 5 and put a double circle on 25 and 50.",
+      "tags": [
+        "trick"
+      ]
+    },
+    {
+      "id": "math-0036",
+      "subtopic": "math.number-theory.modular",
+      "type": "basic",
+      "front": "Write 360 as a product of primes.",
+      "back": "360 = 2³ · 3² · 5. Prime factorization is unique.",
+      "visual": "content/math/modular-prime-tree.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0037",
+      "subtopic": "math.number-theory.modular",
+      "type": "cloze",
+      "front": "On a 24-spot round clock, round 100 lands on spot {{4}} because 100 mod 24 = {{4}}.",
+      "back": "Rounds repeat every 24: only the remainder matters.",
+      "visual": "content/math/modular-round-clock.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0038",
+      "subtopic": "math.number-theory.misc",
+      "type": "match",
+      "front": "Match each pair of legs to its hypotenuse.",
+      "back": "Each is a Pythagorean triple; multiples work too.",
+      "visual": "content/math/misc-triples.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "3 and 4",
+          "5"
+        ],
+        [
+          "5 and 12",
+          "13"
+        ],
+        [
+          "8 and 15",
+          "17"
+        ],
+        [
+          "7 and 24",
+          "25"
+        ],
+        [
+          "20 and 21",
+          "29"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0039",
+      "subtopic": "math.number-theory.misc",
+      "type": "cloze",
+      "front": "Pythagorean triples from integers m > n: m² − n², {{2mn}}, {{m² + n²}}.",
+      "back": "Try m = 2, n = 1 for 3-4-5, and m = 3, n = 2 for 5-12-13.",
+      "visual": "content/math/misc-triples.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0040",
+      "subtopic": "math.number-theory.misc",
+      "type": "basic",
+      "front": "When does ax + by = c have integer solutions?",
+      "back": "Exactly when gcd(a, b) divides c.",
+      "visual": "content/math/misc-packs.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "theorem"
+      ]
+    },
+    {
+      "id": "math-0041",
+      "subtopic": "math.number-theory.misc",
+      "type": "order",
+      "front": "Order the steps to convert a decimal number to base b.",
+      "back": "Repeated division.",
+      "visual": "content/math/misc-bases.svg",
+      "sketch_prompt": null,
+      "items": [
+        "Divide the number by b",
+        "Write down the remainder",
+        "Divide the quotient by b again",
+        "Repeat until the quotient is 0",
+        "Read the remainders from the bottom up"
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0042",
+      "subtopic": "math.number-theory.misc",
+      "type": "basic",
+      "front": "What is 1011 in binary as a decimal number?",
+      "back": "8 + 2 + 1 = 11 (place values 8, 4, 2, 1).",
+      "visual": "content/math/misc-bases.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0043",
+      "subtopic": "math.number-theory.misc",
+      "type": "basic",
+      "front": "How do you solve 7x + 4y = 100 in positive integers?",
+      "back": "Make one variable's remainder work: 7x must leave remainder 0 mod 4, so x = 4t. Then list the values with y > 0.",
+      "visual": null,
+      "sketch_prompt": "Draw a table with x down the side and y across; fill in x = 4, 8, 12 and mark the pairs that work.",
+      "tags": [
+        "strategy"
+      ]
+    },
+    {
+      "id": "math-0044",
+      "subtopic": "math.number-theory.misc",
+      "type": "cloze",
+      "front": "With packs of 4 and 7, the largest total you cannot make is {{17}} (= 4·7 − 4 − 7).",
+      "back": "Every total from 18 upward can be made.",
+      "visual": "content/math/misc-packs.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0045",
+      "subtopic": "math.geometry.triangles",
+      "type": "occlusion",
+      "front": "Name the four triangle centers.",
+      "back": "Centroid, Circumcenter, Orthocenter, Incenter",
+      "visual": "content/math/cards-triangle-centers-occ.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "math-0046",
+      "subtopic": "math.geometry.triangles",
+      "type": "match",
+      "front": "Match each triangle center to the lines that make it.",
+      "back": "The centroid is always inside; the others can move outside.",
+      "visual": "content/math/triangles-centers.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "Centroid",
+          "medians"
+        ],
+        [
+          "Circumcenter",
+          "perpendicular bisectors"
+        ],
+        [
+          "Orthocenter",
+          "altitudes"
+        ],
+        [
+          "Incenter",
+          "angle bisectors"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0047",
+      "subtopic": "math.geometry.triangles",
+      "type": "cloze",
+      "front": "The centroid cuts every median in the ratio {{2 : 1}}, counting from the {{vertex}}.",
+      "back": "So it is 2/3 of the way from the vertex to the midpoint.",
+      "visual": "content/math/triangles-centers.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "math-0048",
+      "subtopic": "math.geometry.triangles",
+      "type": "cloze",
+      "front": "Heron: with s = (a + b + c)/2, area = √({{s(s − a)(s − b)(s − c)}}).",
+      "back": "Example: 13-14-15 has s = 21 and area 84.",
+      "visual": "content/math/triangles-special.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0049",
+      "subtopic": "math.geometry.triangles",
+      "type": "cloze",
+      "front": "Inradius: area = r · {{s}}. Circumradius: R = {{abc}} / (4 · area).",
+      "back": "s is the semi-perimeter.",
+      "visual": "content/math/triangles-special.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0050",
+      "subtopic": "math.geometry.triangles",
+      "type": "basic",
+      "front": "What is the area of a triangle with sides a and b and the angle C between them?",
+      "back": "½ · a · b · sin C.",
+      "visual": "content/math/triangles-special.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0051",
+      "subtopic": "math.geometry.triangles",
+      "type": "basic",
+      "front": "What are the side ratios of the 30-60-90 and the 45-45-90 triangles?",
+      "back": "30-60-90: 1 : √3 : 2. 45-45-90: 1 : 1 : √2.",
+      "visual": "content/math/triangles-special.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "fact"
+      ]
+    },
+    {
+      "id": "math-0052",
+      "subtopic": "math.geometry.triangles",
+      "type": "basic",
+      "front": "Angle bisector theorem: the bisector from A meets BC at D. What is BD/DC?",
+      "back": "BD/DC = AB/AC.",
+      "visual": "content/math/triangles-similar.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "theorem"
+      ]
+    },
+    {
+      "id": "math-0053",
+      "subtopic": "math.geometry.circles",
+      "type": "occlusion",
+      "front": "Name the parts of the circle.",
+      "back": "center, radius, diameter, chord, tangent, secant",
+      "visual": "content/math/cards-circle-parts-occ.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "math-0054",
+      "subtopic": "math.geometry.circles",
+      "type": "occlusion",
+      "front": "Fill in the angle facts for this circle.",
+      "back": "central angle = 2θ, inscribed angle = θ, arc AB",
+      "visual": "content/math/cards-inscribed-angle-occ.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "math-0055",
+      "subtopic": "math.geometry.circles",
+      "type": "cloze",
+      "front": "Opposite angles of a cyclic quadrilateral add up to {{180°}}.",
+      "back": "Also, an angle inscribed in a semicircle is 90°.",
+      "visual": "content/math/circles-angles.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "theorem"
+      ]
+    },
+    {
+      "id": "math-0056",
+      "subtopic": "math.geometry.circles",
+      "type": "cloze",
+      "front": "Two chords: PA · PB = {{PC · PD}}. Tangent and secant: PT² = {{PA · PB}}.",
+      "back": "This is the power of the point P.",
+      "visual": "content/math/circles-power.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "theorem"
+      ]
+    },
+    {
+      "id": "math-0057",
+      "subtopic": "math.geometry.circles",
+      "type": "match",
+      "front": "Match each tangent-circle situation to its rule.",
+      "back": "d is the distance between the centers.",
+      "visual": "content/math/circles-tangent.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "Externally tangent circles",
+          "d = r₁ + r₂"
+        ],
+        [
+          "Internally tangent circles",
+          "d = |r₁ − r₂|"
+        ],
+        [
+          "Common outer tangent length",
+          "√(d² − (r₁ − r₂)²)"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0058",
+      "subtopic": "math.geometry.circles",
+      "type": "basic",
+      "front": "How does a tangent line meet the radius at the touching point?",
+      "back": "At a right angle (90°). So tangent length from an outside point P is √(PO² − r²).",
+      "visual": null,
+      "sketch_prompt": "Draw a circle with center O, a point P outside, and the tangent PT. Mark the right angle at T and the triangle OTP.",
+      "tags": [
+        "theorem"
+      ]
+    },
+    {
+      "id": "math-0059",
+      "subtopic": "math.geometry.circles",
+      "type": "basic",
+      "front": "What is the angle in a semicircle?",
+      "back": "90°. The hypotenuse of the inscribed right triangle is the diameter.",
+      "visual": "content/math/circles-angles.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "theorem"
+      ]
+    },
+    {
+      "id": "math-0060",
+      "subtopic": "math.geometry.transformations",
+      "type": "match",
+      "front": "Match each rotation about the origin to its rule.",
+      "back": "CCW = counterclockwise.",
+      "visual": "content/math/transformations-four.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "Rotate 90° CCW",
+          "(x, y) → (−y, x)"
+        ],
+        [
+          "Rotate 180°",
+          "(x, y) → (−x, −y)"
+        ],
+        [
+          "Rotate 270° CCW",
+          "(x, y) → (y, −x)"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0061",
+      "subtopic": "math.geometry.transformations",
+      "type": "match",
+      "front": "Match each reflection to its rule.",
+      "back": "Check with the point (2, 5).",
+      "visual": "content/math/transformations-four.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "Reflect in the x-axis",
+          "(x, y) → (x, −y)"
+        ],
+        [
+          "Reflect in the y-axis",
+          "(x, y) → (−x, y)"
+        ],
+        [
+          "Reflect in y = x",
+          "(x, y) → (y, x)"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0062",
+      "subtopic": "math.geometry.transformations",
+      "type": "basic",
+      "front": "How do you translate the point (x, y) by the vector (a, b)?",
+      "back": "Add: (x + a, y + b). Shape and size stay the same.",
+      "visual": "content/math/transformations-four.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0063",
+      "subtopic": "math.geometry.transformations",
+      "type": "cloze",
+      "front": "A dilation with scale factor k multiplies lengths by {{k}}, areas by {{k²}} and volumes by {{k³}}.",
+      "back": "Example: k = 2 gives 4 times the area.",
+      "visual": "content/math/transformations-four.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0064",
+      "subtopic": "math.geometry.transformations",
+      "type": "basic",
+      "front": "Which transformations keep lengths and angles the same?",
+      "back": "Translations, rotations and reflections (congruent images). A dilation changes size but keeps angles.",
+      "visual": "content/math/transformations-four.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0065",
+      "subtopic": "math.geometry.transformations",
+      "type": "basic",
+      "front": "How do you rotate P by 180° about a point C?",
+      "back": "P′ = 2C − P. C is the midpoint of P and P′.",
+      "visual": null,
+      "sketch_prompt": "Draw C, a point P, and the straight line through them. Mark P′ the same distance on the other side of C.",
+      "tags": [
+        "trick"
+      ]
+    },
+    {
+      "id": "math-0066",
+      "subtopic": "math.geometry.transformations",
+      "type": "basic",
+      "front": "What do two reflections make: in parallel lines, and in intersecting lines?",
+      "back": "Parallel lines: a translation by twice the distance between them. Lines meeting at angle θ: a rotation by 2θ.",
+      "visual": null,
+      "sketch_prompt": "Draw two parallel mirror lines with a dot, its two images, and an arrow showing the total shift.",
+      "tags": [
+        "theorem"
+      ]
+    },
+    {
+      "id": "math-0067",
+      "subtopic": "math.geometry.coordinate",
+      "type": "occlusion",
+      "front": "Name the parts of this line graph.",
+      "back": "run, rise, y-intercept, slope m = rise ÷ run, line y = mx + c",
+      "visual": "content/math/cards-coordinate-slope-occ.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "math-0068",
+      "subtopic": "math.geometry.coordinate",
+      "type": "cloze",
+      "front": "Distance between two points: d = √(({{x₂ − x₁}})² + ({{y₂ − y₁}})²).",
+      "back": "It is the Pythagorean theorem on a right triangle.",
+      "visual": "content/math/coordinate-lines.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0069",
+      "subtopic": "math.geometry.coordinate",
+      "type": "cloze",
+      "front": "Midpoint = (({{x₁ + x₂}})/2, ({{y₁ + y₂}})/2). Slope m = ({{y₂ − y₁}})/({{x₂ − x₁}}).",
+      "back": "Midpoint is an average; slope is rise over run.",
+      "visual": "content/math/coordinate-lines.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0070",
+      "subtopic": "math.geometry.coordinate",
+      "type": "basic",
+      "front": "How are the slopes of parallel and perpendicular lines related?",
+      "back": "Parallel: m₁ = m₂. Perpendicular: m₁ · m₂ = −1.",
+      "visual": "content/math/coordinate-lines.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "rule"
+      ]
+    },
+    {
+      "id": "math-0071",
+      "subtopic": "math.geometry.coordinate",
+      "type": "cloze",
+      "front": "Circle with center (h, k) and radius r: (x − h)² + (y − k)² = {{r²}}.",
+      "back": "Careful: the equation shows r², not r.",
+      "visual": "content/math/coordinate-circle-shoelace.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0072",
+      "subtopic": "math.geometry.coordinate",
+      "type": "order",
+      "front": "Order the steps of the shoelace formula.",
+      "back": "Walk around the polygon in one direction.",
+      "visual": "content/math/coordinate-circle-shoelace.svg",
+      "sketch_prompt": null,
+      "items": [
+        "List the vertices in order around the polygon",
+        "Repeat the first vertex at the end",
+        "Add the products xᵢ · yᵢ₊₁",
+        "Subtract the products yᵢ · xᵢ₊₁",
+        "Take half of the absolute value"
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0073",
+      "subtopic": "math.geometry.coordinate",
+      "type": "basic",
+      "front": "How do you find where two lines cross?",
+      "back": "Solve the two equations together (substitute one into the other). The solution (x, y) is the crossing point.",
+      "visual": null,
+      "sketch_prompt": "Draw two lines crossing on a grid and write the system of equations next to them.",
+      "tags": [
+        "strategy"
+      ]
+    },
+    {
+      "id": "math-0074",
+      "subtopic": "math.geometry.coordinate",
+      "type": "basic",
+      "front": "x² + y² − 6x + 8y = 0: how do you read the circle's center and radius?",
+      "back": "Complete the squares: (x − 3)² + (y + 4)² = 25. Center (3, −4), radius 5.",
+      "visual": null,
+      "sketch_prompt": "Draw the circle on a grid through the origin with center (3, −4), and mark the radius 5.",
+      "tags": [
+        "strategy"
+      ]
+    },
+    {
+      "id": "math-0075",
+      "subtopic": "math.geometry.solid",
+      "type": "occlusion",
+      "front": "Fill in the volume formulas.",
+      "back": "Cylinder volume = πr²h, Cone volume = ⅓πr²h, Sphere volume = 4/3 πr³, Pyramid volume = ⅓ · base · h, Prism volume = base · h",
+      "visual": "content/math/cards-solids-occ.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0076",
+      "subtopic": "math.geometry.solid",
+      "type": "match",
+      "front": "Match each solid to its volume rule.",
+      "back": "Pyramids and cones are a third of the matching prism or cylinder.",
+      "visual": "content/math/solid-formulas.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "Prism or cylinder",
+          "base area × height"
+        ],
+        [
+          "Pyramid or cone",
+          "⅓ × base area × height"
+        ],
+        [
+          "Sphere",
+          "4/3 · π · r³"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0077",
+      "subtopic": "math.geometry.solid",
+      "type": "cloze",
+      "front": "Sphere surface area = {{4πr²}}. Cone slant height ℓ = √({{r² + h²}}).",
+      "back": "Cone side area = πrℓ.",
+      "visual": "content/math/solid-nets.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0078",
+      "subtopic": "math.geometry.solid",
+      "type": "cloze",
+      "front": "Cylinder total surface area = 2πr² + {{2πrh}}.",
+      "back": "Two circles plus the rolled-out rectangle (2πr by h).",
+      "visual": "content/math/solid-nets.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0079",
+      "subtopic": "math.geometry.solid",
+      "type": "basic",
+      "front": "What is the total surface area of a cone?",
+      "back": "πr² + πrℓ, where ℓ is the slant height (√(r² + h²)).",
+      "visual": "content/math/solid-nets.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0080",
+      "subtopic": "math.geometry.solid",
+      "type": "basic",
+      "front": "If every length of a solid is multiplied by k, what happens to areas and volumes?",
+      "back": "Areas × k², volumes × k³.",
+      "visual": "content/math/solid-formulas.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0081",
+      "subtopic": "math.geometry.solid",
+      "type": "basic",
+      "front": "How do the volumes of a pyramid and a prism with the same base and height compare?",
+      "back": "The pyramid is one third of the prism.",
+      "visual": "content/math/solid-formulas.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0082",
+      "subtopic": "math.geometry.solid",
+      "type": "basic",
+      "front": "What flat pieces make up the net of a cone?",
+      "back": "A circle of radius r (the base) and a sector of radius ℓ (the slant height) for the side.",
+      "visual": "content/math/solid-nets.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0083",
+      "subtopic": "math.combinatorics.counting-principles",
+      "type": "occlusion",
+      "front": "Fill in the Venn diagram regions.",
+      "back": "only A, A and B, only B, neither",
+      "visual": "content/math/cards-venn-occ.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "math-0084",
+      "subtopic": "math.combinatorics.counting-principles",
+      "type": "basic",
+      "front": "Product rule vs sum rule: when do you multiply and when do you add?",
+      "back": "Multiply for choices made one after another (this AND that). Add for alternatives that cannot both happen (this OR that).",
+      "visual": "content/math/counting-product-grid.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0085",
+      "subtopic": "math.combinatorics.counting-principles",
+      "type": "cloze",
+      "front": "Inclusion-exclusion for two sets: |A ∪ B| = |A| + |B| − {{|A ∩ B|}}.",
+      "back": "For three sets: singles − pairs + the triple overlap.",
+      "visual": "content/math/counting-inclusion-exclusion.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0086",
+      "subtopic": "math.combinatorics.counting-principles",
+      "type": "basic",
+      "front": "State the pigeonhole principle, including the general form.",
+      "back": "n + 1 objects in n boxes: some box has at least 2. In general, N objects in k boxes: some box has at least ⌈N/k⌉.",
+      "visual": "content/math/counting-pigeonhole-coloring.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0087",
+      "subtopic": "math.combinatorics.counting-principles",
+      "type": "basic",
+      "front": "Why can a chessboard with two opposite corners removed not be covered by dominoes?",
+      "back": "Opposite corners have the same color, leaving unequal numbers of light and dark squares. Each domino covers one of each.",
+      "visual": "content/math/counting-pigeonhole-coloring.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "coloring"
+      ]
+    },
+    {
+      "id": "math-0088",
+      "subtopic": "math.combinatorics.counting-principles",
+      "type": "basic",
+      "front": "What is an invariant, and how do you use it?",
+      "back": "A quantity that does not change under the allowed moves. If a goal would need a different value, the goal is impossible.",
+      "visual": null,
+      "sketch_prompt": "Draw a row of numbers, one move that changes two of them, and circle the quantity (such as the total) that stays the same.",
+      "tags": [
+        "invariance"
+      ]
+    },
+    {
+      "id": "math-0089",
+      "subtopic": "math.combinatorics.counting-principles",
+      "type": "basic",
+      "front": "What is the extremal principle?",
+      "back": "Look at the biggest, smallest or first element of the situation: it often has a special property that helps.",
+      "visual": null,
+      "sketch_prompt": "Draw a row of bars and circle the tallest one, with a note 'what is special about this one?'.",
+      "tags": [
+        "extremal"
+      ]
+    },
+    {
+      "id": "math-0090",
+      "subtopic": "math.combinatorics.enumerative",
+      "type": "match",
+      "front": "Match each counting question to its formula.",
+      "back": "n! = n · (n − 1) · … · 1.",
+      "visual": "content/math/enumerative-team-pick.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "Arrange n different things in a row",
+          "n!"
+        ],
+        [
+          "Arrange k of n things in order",
+          "n!/(n − k)!"
+        ],
+        [
+          "Choose k of n things (no order)",
+          "n!/(k!(n − k)!)"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0091",
+      "subtopic": "math.combinatorics.enumerative",
+      "type": "cloze",
+      "front": "Pascal's rule: C(n, k) = C(n − 1, k − 1) + {{C(n − 1, k)}}. Each row adds up to {{2ⁿ}}.",
+      "back": "Each number is the sum of the two above it.",
+      "visual": "content/math/pascal-triangle.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0092",
+      "subtopic": "math.combinatorics.enumerative",
+      "type": "cloze",
+      "front": "x₁ + … + x_k = n with each xᵢ ≥ 0 has C({{n + k − 1}}, {{k − 1}}) solutions.",
+      "back": "Stars and bars: n stars and k − 1 bars.",
+      "visual": "content/math/enumerative-stars-and-bars.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0093",
+      "subtopic": "math.combinatorics.enumerative",
+      "type": "basic",
+      "front": "How many solutions does x₁ + … + x_k = n have if every xᵢ ≥ 1?",
+      "back": "C(n − 1, k − 1). First give each variable 1, then use stars and bars on the rest.",
+      "visual": "content/math/enumerative-stars-and-bars.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0094",
+      "subtopic": "math.combinatorics.enumerative",
+      "type": "basic",
+      "front": "How many arrangements do the letters of BUTTER have?",
+      "back": "6!/2! = 360. Divide by the repeats: n!/(a! b! …).",
+      "visual": null,
+      "sketch_prompt": "Write BUTTER with the two T's colored. Draw the two ways to swap them and cross one out.",
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0095",
+      "subtopic": "math.combinatorics.enumerative",
+      "type": "basic",
+      "front": "How do you list partitions of n (order does not matter) without missing any?",
+      "back": "List them by the largest part, from big to small. Example: 5 = 5, 4+1, 3+2, 3+1+1, 2+2+1, 2+1+1+1, 1+1+1+1+1.",
+      "visual": "content/math/enumerative-partitions.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0096",
+      "subtopic": "math.combinatorics.enumerative",
+      "type": "basic",
+      "front": "Combinations vs permutations: how are they related?",
+      "back": "C(n, k) = P(n, k)/k!. Each team of k is counted k! times when order matters.",
+      "visual": "content/math/enumerative-team-pick.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0097",
+      "subtopic": "math.combinatorics.probability",
+      "type": "cloze",
+      "front": "P(A) = {{favorable}} outcomes / {{all}} outcomes (equally likely). P(not A) = {{1 − P(A)}}.",
+      "back": "Example: sum 8 on two dice has probability 5/36.",
+      "visual": "content/math/probability-sample-space.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0098",
+      "subtopic": "math.combinatorics.probability",
+      "type": "cloze",
+      "front": "P(A ∪ B) = P(A) + P(B) − {{P(A ∩ B)}}. If A and B are independent, P(A ∩ B) = {{P(A) · P(B)}}.",
+      "back": "Subtract the overlap so it is not counted twice.",
+      "visual": "content/math/probability-two-way-table.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0099",
+      "subtopic": "math.combinatorics.probability",
+      "type": "cloze",
+      "front": "Conditional probability: P(A | B) = {{P(A ∩ B)}} / {{P(B)}}.",
+      "back": "Restrict to the cases where B happened.",
+      "visual": "content/math/probability-two-way-table.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "formula"
+      ]
+    },
+    {
+      "id": "math-0100",
+      "subtopic": "math.combinatorics.probability",
+      "type": "basic",
+      "front": "How do you use a probability tree?",
+      "back": "Multiply along a path (and then), add the paths that end in the event (or).",
+      "visual": "content/math/probability-tree.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0101",
+      "subtopic": "math.combinatorics.probability",
+      "type": "basic",
+      "front": "How do you find the probability of 'at least one'?",
+      "back": "1 − P(none). Example: at least one six in 3 rolls = 1 − (5/6)³.",
+      "visual": null,
+      "sketch_prompt": "Draw a box for all outcomes with a small shaded corner for 'none' and write 1 − (shaded part).",
+      "tags": [
+        "trick"
+      ]
+    },
+    {
+      "id": "math-0102",
+      "subtopic": "math.combinatorics.probability",
+      "type": "basic",
+      "front": "What changes when you draw without replacement?",
+      "back": "The probabilities change after each draw. Example: two aces = 4/52 · 3/51.",
+      "visual": null,
+      "sketch_prompt": "Draw a deck of 52 cards, circle the 4 aces, then draw the deck again with one card gone.",
+      "tags": []
+    },
+    {
+      "id": "math-0103",
+      "subtopic": "math.combinatorics.probability",
+      "type": "basic",
+      "front": "Are P(A | B) and P(B | A) the same?",
+      "back": "No. Example: P(win | defense) = 42/60 but P(defense | win) = 42/58.",
+      "visual": "content/math/probability-two-way-table.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "trap"
+      ]
+    },
+    {
+      "id": "math-0104",
+      "subtopic": "math.combinatorics.strategies",
+      "type": "match",
+      "front": "Match each strategy to its idea.",
+      "back": "Keep this toolbox next to every counting problem.",
+      "visual": "content/math/strategies-toolbox.svg",
+      "sketch_prompt": null,
+      "pairs": [
+        [
+          "Casework",
+          "split into cases that do not overlap and cover everything"
+        ],
+        [
+          "Constructive counting",
+          "build the object step by step"
+        ],
+        [
+          "Complementary counting",
+          "count the opposite and subtract"
+        ],
+        [
+          "Bijection",
+          "pair with an easier set of equal size"
+        ],
+        [
+          "Symmetry",
+          "equal cases: count one and multiply or divide"
+        ]
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0105",
+      "subtopic": "math.combinatorics.strategies",
+      "type": "basic",
+      "front": "When is complementary counting a good idea?",
+      "back": "When the problem says 'at least one' or the bad cases are few. Count total − bad.",
+      "visual": "content/math/strategies-lanes-complement.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0106",
+      "subtopic": "math.combinatorics.strategies",
+      "type": "basic",
+      "front": "How many shortest paths go 4 steps right and 3 steps up?",
+      "back": "A path is a string of 4 R and 3 U letters: C(7, 3) = 35. A bijection with strings turns it into a choice.",
+      "visual": "content/math/strategies-grid-bijection.svg",
+      "sketch_prompt": null,
+      "tags": []
+    },
+    {
+      "id": "math-0107",
+      "subtopic": "math.combinatorics.strategies",
+      "type": "basic",
+      "front": "In how many arrangements of S, T, R, O, K, E does S come before T?",
+      "back": "By symmetry exactly half of 6! = 720: 360.",
+      "visual": null,
+      "sketch_prompt": "Draw two rows of letters, one with S before T and one swapped, with an arrow showing the pairing.",
+      "tags": [
+        "symmetry"
+      ]
+    },
+    {
+      "id": "math-0108",
+      "subtopic": "math.combinatorics.strategies",
+      "type": "basic",
+      "front": "What two rules must good cases follow in casework?",
+      "back": "They must not overlap, and together they must cover every possibility.",
+      "visual": null,
+      "sketch_prompt": "Draw a box split into labeled regions like a pie chart: Case 1, Case 2, Case 3.",
+      "tags": []
+    },
+    {
+      "id": "math-0109",
+      "subtopic": "math.combinatorics.strategies",
+      "type": "order",
+      "front": "Order a good problem-solving routine for counting problems.",
+      "back": "Small cases catch most mistakes.",
+      "visual": "content/math/strategies-toolbox.svg",
+      "sketch_prompt": null,
+      "items": [
+        "Read the problem and draw a picture",
+        "Pick a strategy from the toolbox",
+        "Count carefully",
+        "Sanity-check with a small case"
+      ],
+      "tags": []
+    },
+    {
+      "id": "math-0110",
+      "subtopic": "math.combinatorics.strategies",
+      "type": "basic",
+      "front": "How do you count arrangements where A and B must sit next to each other?",
+      "back": "Glue them into one block: (n − 1)! · 2 for the two orders inside the block.",
+      "visual": "content/math/strategies-lanes-complement.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "trick"
+      ]
+    }
+  ]
+}

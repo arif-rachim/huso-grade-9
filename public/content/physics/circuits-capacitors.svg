@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 482" role="img" aria-labelledby="t d">
+  <title id="t">Capacitors</title>
+  <desc id="d">A capacitor stores charge Q on two plates, C = Q/V. In parallel the capacitances add, 6 and 3 microfarad make 9. In series the reciprocals add, 6 and 3 microfarad make 2. Opposite to resistors.</desc>
+  <defs>
+    <marker id="arR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+  </defs>
+  <rect x="0" y="0" width="440" height="482" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="22.0" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Capacitors store charge:  C = Q / V</text>
+    <line x1="70.0" y1="62.0" x2="130.0" y2="62.0" stroke="#dc2626" stroke-width="4"/>
+    <line x1="70.0" y1="80.0" x2="130.0" y2="80.0" stroke="#dc2626" stroke-width="4"/>
+    <polyline points="100.0,62.0 100.0,44.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="100.0,80.0 100.0,98.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="140.0" y="64.0" font-size="13" text-anchor="start" fill="#dc2626" font-weight="bold">+Q</text>
+    <text x="140.0" y="88.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">−Q</text>
+    <text x="60.0" y="74.0" font-size="14" text-anchor="end" fill="#111827" font-weight="bold">V</text>
+    <text x="250.0" y="56.0" font-size="13" text-anchor="start" fill="#111827">plates hold +Q and −Q</text>
+    <text x="250.0" y="76.0" font-size="13" text-anchor="start" fill="#111827">bigger C = more charge per volt</text>
+    <text x="250.0" y="96.0" font-size="13" text-anchor="start" fill="#6b7280">unit: farad (F);  1 μF = 10⁻⁶ F</text>
+    <text x="125.0" y="130.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">SERIES</text>
+    <polyline points="62.0,184.0 62.0,221.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="45.0" y1="221.0" x2="79.0" y2="221.0" stroke="#111827" stroke-width="2.6"/>
+    <line x1="53.0" y1="231.0" x2="71.0" y2="231.0" stroke="#111827" stroke-width="5"/>
+    <polyline points="62.0,231.0 62.0,278.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="44.0" y="224.0" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">12 V</text>
+    <text x="70.0" y="217.0" font-size="13" text-anchor="start" fill="#dc2626" font-weight="bold">+</text>
+    <polyline points="62.0,184.0 122.0,184.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="130.0,184.0 190.0,184.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="122.0" y1="168.0" x2="122.0" y2="200.0" stroke="#dc2626" stroke-width="3"/>
+    <line x1="130.0" y1="168.0" x2="130.0" y2="200.0" stroke="#dc2626" stroke-width="3"/>
+    <polyline points="190.0,184.0 190.0,278.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="190.0,278.0 130.0,278.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="122.0,278.0 62.0,278.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="122.0" y1="262.0" x2="122.0" y2="294.0" stroke="#dc2626" stroke-width="3"/>
+    <line x1="130.0" y1="262.0" x2="130.0" y2="294.0" stroke="#dc2626" stroke-width="3"/>
+    <text x="126.0" y="160.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">6 μF</text>
+    <text x="126.0" y="312.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3 μF</text>
+    <text x="125.0" y="338.0" font-size="12" text-anchor="middle" fill="#6b7280">same charge Q on each</text>
+    <text x="125.0" y="358.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Q = 2 μF × 12 V = 24 μC</text>
+    <text x="125.0" y="378.0" font-size="12" text-anchor="middle" fill="#6b7280">V: 24÷6 = 4 V, 24÷3 = 8 V</text>
+    <text x="125.0" y="402.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">1/C = 1/C₁ + 1/C₂ → 2 μF</text>
+    <text x="335.0" y="130.0" font-size="14" text-anchor="middle" fill="#dc2626" font-weight="bold">PARALLEL</text>
+    <polyline points="272.0,184.0 272.0,221.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="255.0" y1="221.0" x2="289.0" y2="221.0" stroke="#111827" stroke-width="2.6"/>
+    <line x1="263.0" y1="231.0" x2="281.0" y2="231.0" stroke="#111827" stroke-width="5"/>
+    <polyline points="272.0,231.0 272.0,278.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="258.0" y="224.0" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">12 V</text>
+    <text x="280.0" y="217.0" font-size="13" text-anchor="start" fill="#dc2626" font-weight="bold">+</text>
+    <polyline points="272.0,184.0 408.0,184.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="272.0,278.0 408.0,278.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <polyline points="332.0,184.0 332.0,227.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="316.0" y1="227.0" x2="348.0" y2="227.0" stroke="#dc2626" stroke-width="3"/>
+    <line x1="316.0" y1="235.0" x2="348.0" y2="235.0" stroke="#dc2626" stroke-width="3"/>
+    <polyline points="332.0,235.0 332.0,278.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="332" cy="184" r="3.5" fill="#111827"/>
+    <circle cx="332" cy="278" r="3.5" fill="#111827"/>
+    <polyline points="394.0,184.0 394.0,227.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="378.0" y1="227.0" x2="410.0" y2="227.0" stroke="#dc2626" stroke-width="3"/>
+    <line x1="378.0" y1="235.0" x2="410.0" y2="235.0" stroke="#dc2626" stroke-width="3"/>
+    <polyline points="394.0,235.0 394.0,278.0" fill="none" stroke="#111827" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="394" cy="184" r="3.5" fill="#111827"/>
+    <circle cx="394" cy="278" r="3.5" fill="#111827"/>
+    <text x="340.0" y="210.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">6 μF</text>
+    <text x="402.0" y="210.0" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">3 μF</text>
+    <text x="335.0" y="338.0" font-size="12" text-anchor="middle" fill="#6b7280">same voltage 12 V on each</text>
+    <text x="335.0" y="358.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Q = 72 μC + 36 μC = 108 μC</text>
+    <text x="335.0" y="378.0" font-size="12" text-anchor="middle" fill="#6b7280">bigger plates: just add</text>
+    <text x="335.0" y="402.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">C = C₁ + C₂ = 9 μF</text>
+    <line x1="20.0" y1="418.0" x2="420.0" y2="418.0" stroke="#d1d5db" stroke-width="1.5"/>
+    <text x="220.0" y="442.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Opposite of resistors: in parallel they ADD, in series the reciprocals add.</text>
+    <text x="220.0" y="464.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold">Stored energy: U = ½ C V²</text>
+  </g>
+</svg>

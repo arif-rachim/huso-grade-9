@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-labelledby="t d">
+  <title id="t">Three kinds of unconformity</title>
+  <desc id="d">Angular unconformity: tilted older layers are cut off and covered by flat younger layers. Disconformity: flat layers above and below an erosion surface. Nonconformity: layered sedimentary rock lies on igneous or metamorphic rock.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="360" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Unconformity = a gap in the record (erosion or no deposition)</text>
+    <rect x="14" y="44" width="140" height="120" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="16" y1="114" x2="26" y2="104" stroke="#92400e" stroke-width="2"/>
+    <line x1="16" y1="138" x2="50" y2="104" stroke="#92400e" stroke-width="2"/>
+    <line x1="16" y1="162" x2="74" y2="104" stroke="#92400e" stroke-width="2"/>
+    <line x1="38" y1="164" x2="98" y2="104" stroke="#92400e" stroke-width="2"/>
+    <line x1="62" y1="164" x2="122" y2="104" stroke="#92400e" stroke-width="2"/>
+    <line x1="86" y1="164" x2="146" y2="104" stroke="#92400e" stroke-width="2"/>
+    <line x1="110" y1="164" x2="152" y2="122" stroke="#92400e" stroke-width="2"/>
+    <line x1="134" y1="164" x2="152" y2="146" stroke="#92400e" stroke-width="2"/>
+    <rect x="14" y="44" width="140" height="20" fill="#92400e" fill-opacity="0.08" stroke="#6b7280" stroke-width="1"/>
+    <rect x="14" y="64" width="140" height="20" fill="#92400e" fill-opacity="0.18" stroke="#6b7280" stroke-width="1"/>
+    <rect x="14" y="84" width="140" height="20" fill="#92400e" fill-opacity="0.28" stroke="#6b7280" stroke-width="1"/>
+    <rect x="14" y="164" width="140" height="1" fill="none"/>
+    <line x1="14" y1="104" x2="154" y2="104" stroke="#dc2626" stroke-width="3"/>
+    <text x="84" y="184" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Angular unconformity</text>
+    <text x="84" y="200" font-size="12" text-anchor="middle" fill="#6b7280">tilted layers below,</text>
+    <text x="84" y="214" font-size="12" text-anchor="middle" fill="#6b7280">flat layers above</text>
+    <text x="84" y="228" font-size="12" text-anchor="middle" fill="#6b7280">(tilting + erosion)</text>
+    <rect x="170" y="44" width="140" height="120" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+    <rect x="170" y="44" width="140" height="20" fill="#92400e" fill-opacity="0.08" stroke="#6b7280" stroke-width="1"/>
+    <rect x="170" y="64" width="140" height="20" fill="#92400e" fill-opacity="0.13" stroke="#6b7280" stroke-width="1"/>
+    <rect x="170" y="84" width="140" height="20" fill="#92400e" fill-opacity="0.18" stroke="#6b7280" stroke-width="1"/>
+    <rect x="170" y="104" width="140" height="20" fill="#92400e" fill-opacity="0.23000000000000004" stroke="#6b7280" stroke-width="1"/>
+    <rect x="170" y="124" width="140" height="20" fill="#92400e" fill-opacity="0.28" stroke="#6b7280" stroke-width="1"/>
+    <rect x="170" y="144" width="140" height="20" fill="#92400e" fill-opacity="0.33" stroke="#6b7280" stroke-width="1"/>
+    <path d="M170,104 C200,96 220,112 250,102 S290,98 310,106" fill="none" stroke="#dc2626" stroke-width="3"/>
+    <text x="240" y="184" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Disconformity</text>
+    <text x="240" y="200" font-size="12" text-anchor="middle" fill="#6b7280">parallel layers on</text>
+    <text x="240" y="214" font-size="12" text-anchor="middle" fill="#6b7280">both sides of an</text>
+    <text x="240" y="228" font-size="12" text-anchor="middle" fill="#6b7280">erosion surface</text>
+    <rect x="326" y="44" width="140" height="120" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+    <rect x="326" y="44" width="140" height="20" fill="#92400e" fill-opacity="0.08" stroke="#6b7280" stroke-width="1"/>
+    <rect x="326" y="64" width="140" height="20" fill="#92400e" fill-opacity="0.18" stroke="#6b7280" stroke-width="1"/>
+    <rect x="326" y="84" width="140" height="20" fill="#92400e" fill-opacity="0.28" stroke="#6b7280" stroke-width="1"/>
+    <rect x="326" y="104" width="140" height="60" fill="#9ca3af" fill-opacity="0.55"/>
+    <circle cx="340" cy="122" r="2" fill="#111827"/>
+    <circle cx="366" cy="140" r="2" fill="#111827"/>
+    <circle cx="392" cy="128" r="2" fill="#111827"/>
+    <circle cx="422" cy="144" r="2" fill="#111827"/>
+    <circle cx="444" cy="126" r="2" fill="#111827"/>
+    <circle cx="356" cy="152" r="2" fill="#111827"/>
+    <circle cx="406" cy="156" r="2" fill="#111827"/>
+    <circle cx="450" cy="152" r="2" fill="#111827"/>
+    <path d="M326,104 C356,98 376,110 406,102 S446,100 466,106" fill="none" stroke="#dc2626" stroke-width="3"/>
+    <text x="396" y="184" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Nonconformity</text>
+    <text x="396" y="200" font-size="12" text-anchor="middle" fill="#6b7280">layers on granite</text>
+    <text x="396" y="214" font-size="12" text-anchor="middle" fill="#6b7280">or other igneous or</text>
+    <text x="396" y="228" font-size="12" text-anchor="middle" fill="#6b7280">metamorphic rock</text>
+    <line x1="120" y1="262" x2="150" y2="262" stroke="#dc2626" stroke-width="3"/>
+    <text x="158" y="266" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">= the unconformity (a gap in time)</text>
+    <text x="240" y="296" font-size="12" text-anchor="middle" fill="#6b7280">Always: the rock BELOW the surface is older, the rock ABOVE is younger,</text>
+    <text x="240" y="312" font-size="12" text-anchor="middle" fill="#6b7280">and some time is missing in between.</text>
+    <text x="240" y="336" font-size="12" text-anchor="middle" fill="#6b7280">Hint: 'angular' = the layers meet at an angle; 'non' = no layers below.</text>
+  </g>
+</svg>

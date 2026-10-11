@@ -212,6 +212,7 @@ def name(m):
             pg = sorted(pos[c] for c in pgc)
             mu = sorted(min(pos[a], pos[b]) for a, b in multi)
             subs = []
+            bad = False
             for c in chain:
                 for nb in m.adj[c]:
                     if nb in pos:
@@ -221,8 +222,13 @@ def name(m):
                     elif m.lab[nb] == "O" and not (prin and nb in [x for cc in pgc for x in m.adj[cc] if m.lab[x] == "O"]):
                         subs.append((pos[c], "hydroxy"))
                     elif m.lab[nb] == "C":
-                        subs.append((pos[c], _branch_name(m, nb, c)))
-            key = (pg, mu, sorted(s[0] for s in subs), sorted(subs, key=lambda s: s[1]))
+                        try:
+                            subs.append((pos[c], _branch_name(m, nb, c)))
+                        except AssertionError:
+                            bad = True      # a substituted side chain (e.g. bromomethyl): another chain choice is better
+            if bad:
+                continue
+            key = (-len(subs), pg, mu, sorted(s[0] for s in subs), sorted(subs, key=lambda s: s[1]))
             if best is None or key < best[0]:
                 best = (key, chain, pg, mu, subs)
     _, chain, pg, mu, subs = best

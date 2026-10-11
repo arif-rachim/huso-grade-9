@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 340" role="img" aria-labelledby="t d">
+  <title id="t">Sea breeze by day and land breeze by night</title>
+  <desc id="d">By day the land is hotter than the sea, air rises over the land and cooler air blows from the sea to the land at the surface: a sea breeze. By night the land cools faster, the sea is warmer, air rises over the sea and the wind blows from land to sea: a land breeze.</desc>
+  <rect x="0" y="0" width="440" height="340" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="18.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">The warmer side makes the air rise</text>
+    <text x="26.0" y="42.0" font-size="13" text-anchor="start" fill="#dc2626" font-weight="bold">DAY: sea breeze (sea → land)</text>
+    <rect x="20.0" y="128.0" width="220.0" height="34.0" rx="0" fill="#2563eb" fill-opacity="0.25"/>
+    <rect x="240.0" y="128.0" width="180.0" height="34.0" rx="0" fill="#92400e" fill-opacity="0.4"/>
+    <text x="130.0" y="150.0" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold">sea (cooler)</text>
+    <text x="330.0" y="150.0" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">land (warmer)</text>
+    <line x1="330.0" y1="120.0" x2="330.0" y2="74.0" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <line x1="330.0" y1="74.0" x2="326.1" y2="82.1" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <line x1="330.0" y1="74.0" x2="333.9" y2="82.1" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <text x="342.0" y="114.0" font-size="15" text-anchor="start" fill="#dc2626" font-weight="bold">L</text>
+    <text x="142.0" y="114.0" font-size="15" text-anchor="start" fill="#2563eb" font-weight="bold">H</text>
+    <text x="342.0" y="100.0" font-size="12" text-anchor="start" fill="#dc2626">rises</text>
+    <text x="142.0" y="100.0" font-size="12" text-anchor="start" fill="#2563eb">sinks</text>
+    <line x1="166.0" y1="110.0" x2="294.0" y2="110.0" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="294.0" y1="110.0" x2="285.9" y2="106.1" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="294.0" y1="110.0" x2="285.9" y2="113.9" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <text x="220.0" y="104.0" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold">surface wind</text>
+    <line x1="306.0" y1="70.0" x2="154.0" y2="70.0" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <line x1="154.0" y1="70.0" x2="162.1" y2="73.9" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <line x1="154.0" y1="70.0" x2="162.1" y2="66.1" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <text x="220.0" y="64.0" font-size="12" text-anchor="middle" fill="#dc2626">return flow aloft</text>
+    <line x1="130.0" y1="78.0" x2="130.0" y2="96.0" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="130.0" y1="96.0" x2="133.9" y2="87.9" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="130.0" y1="96.0" x2="126.1" y2="87.9" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <text x="26.0" y="190.0" font-size="13" text-anchor="start" fill="#2563eb" font-weight="bold">NIGHT: land breeze (land → sea)</text>
+    <rect x="20.0" y="276.0" width="220.0" height="34.0" rx="0" fill="#2563eb" fill-opacity="0.25"/>
+    <rect x="240.0" y="276.0" width="180.0" height="34.0" rx="0" fill="#92400e" fill-opacity="0.4"/>
+    <text x="130.0" y="298.0" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold">sea (warmer)</text>
+    <text x="330.0" y="298.0" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">land (cooler)</text>
+    <line x1="130.0" y1="268.0" x2="130.0" y2="222.0" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <line x1="130.0" y1="222.0" x2="126.1" y2="230.1" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <line x1="130.0" y1="222.0" x2="133.9" y2="230.1" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <text x="142.0" y="262.0" font-size="15" text-anchor="start" fill="#dc2626" font-weight="bold">L</text>
+    <text x="342.0" y="262.0" font-size="15" text-anchor="start" fill="#2563eb" font-weight="bold">H</text>
+    <text x="142.0" y="248.0" font-size="12" text-anchor="start" fill="#dc2626">rises</text>
+    <text x="342.0" y="248.0" font-size="12" text-anchor="start" fill="#2563eb">sinks</text>
+    <line x1="294.0" y1="258.0" x2="166.0" y2="258.0" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="166.0" y1="258.0" x2="174.1" y2="261.9" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="166.0" y1="258.0" x2="174.1" y2="254.1" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <text x="220.0" y="252.0" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold">surface wind</text>
+    <line x1="154.0" y1="218.0" x2="306.0" y2="218.0" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <line x1="306.0" y1="218.0" x2="297.9" y2="214.1" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <line x1="306.0" y1="218.0" x2="297.9" y2="221.9" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+    <text x="220.0" y="212.0" font-size="12" text-anchor="middle" fill="#dc2626">return flow aloft</text>
+    <line x1="330.0" y1="226.0" x2="330.0" y2="244.0" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="330.0" y1="244.0" x2="333.9" y2="235.9" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="330.0" y1="244.0" x2="326.1" y2="235.9" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <text x="220.0" y="330.0" font-size="12" text-anchor="middle" fill="#6b7280">Surface wind blows from the cooler side to the warmer side.</text>
+  </g>
+</svg>

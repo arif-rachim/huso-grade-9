@@ -26,7 +26,7 @@ questions should be written is recorded here. Every agent working on the **Mater
    the concept, then come back to the hook in an example or a question.
 2. **Picture first, text second.** Every concept that can be drawn gets a coloured SVG diagram
    (subject colour). Maximum 6 short points per section; bold the keyword.
-3. **Simple, friendly English**, like an older student explaining: short sentences, "you", a
+3. **Simple, friendly English** (American spelling: color, meters, center, neighbor, labeled), like an older student explaining: short sentences, "you", a
    14-year-old's vocabulary, every technical term explained the first time it appears.
 4. **Analogies must be correct.** An analogy is only a door in: when it is not 100 % accurate,
    add one sentence starting **"The difference:"** so it does not cause a misconception.

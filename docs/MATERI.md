@@ -32,6 +32,8 @@ The hook section goes between the `>` line and `## 🖼️ Big picture`. The ima
 with `!`**.
 
 ## Writing rules
+- **American English spelling** (HUSO is run by Harvard students): color, center, meters, neighbor,
+  favorable, labeled, gray, program. Never colour/centre/metres/neighbour/favourable/labelled.
 - **English only** (the exam and the student's IB school are in English): simple, friendly, "you",
   short sentences, a 14-year-old's vocabulary; explain a technical term the first time you use it.
   Bold the keyword in each point. Math in Unicode (x², √, π, ≤, ½, Σ, →), no LaTeX.

@@ -1,0 +1,120 @@
+name: Release
+
+# Builds the program for Linux, macOS and Windows, builds the ready-made database
+# (syllabus, plan, lessons, flashcards, questions, the two accounts) and publishes a
+# GitHub Release with one archive per platform plus the database alone.
+#
+# Run it: push a tag (git tag v0.1.0 && git push origin v0.1.0) or use
+# Actions > Release > Run workflow and type a version.
+
+on:
+  push:
+    tags: ["v*"]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version without the v, for example 0.1.0"
+        required: true
+
+permissions:
+  contents: write
+
+env:
+  VERSION: ${{ github.event.inputs.version || github.ref_name }}
+
+jobs:
+  build:
+    name: Build ${{ matrix.platform }}
+    runs-on: ${{ matrix.os }}
+    # A platform that fails to build must not block the others.
+    continue-on-error: ${{ matrix.platform != 'linux-x86_64' }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - { os: ubuntu-latest, platform: linux-x86_64, exe: huso }
+          - { os: macos-latest, platform: macos-arm64, exe: huso }
+          - { os: windows-latest, platform: windows-x86_64, exe: huso.exe }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - name: Build
+        run: cargo build --release --locked
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bin-${{ matrix.platform }}
+          path: target/release/${{ matrix.exe }}
+          if-no-files-found: error
+
+  database:
+    name: Build the database
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: bin-linux-x86_64
+          path: bin
+      - name: Migrate and seed (content/ and materi/ are read from the repository)
+        run: |
+          chmod +x bin/huso
+          mkdir -p storage
+          export DATABASE_URL=sqlite://storage/app.db
+          export APP_KEY="base64:$(head -c 32 /dev/urandom | base64)"
+          export APP_ENV=local
+          ./bin/huso migrate
+          ./bin/huso db:seed
+      - name: Make it one clean file
+        run: |
+          python3 - <<'PY'
+          import sqlite3
+          c = sqlite3.connect("storage/app.db")
+          c.execute("PRAGMA wal_checkpoint(TRUNCATE)")
+          c.execute("PRAGMA journal_mode=DELETE")
+          c.execute("VACUUM")
+          assert c.execute("PRAGMA integrity_check").fetchone()[0] == "ok"
+          for table in ("subjects", "flashcards", "questions", "lessons", "plan_days", "users"):
+              print(table, c.execute(f"SELECT COUNT(*) FROM {table}").fetchone()[0])
+          PY
+          rm -f storage/app.db-wal storage/app.db-shm
+      - uses: actions/upload-artifact@v4
+        with:
+          name: database
+          path: storage/app.db
+          if-no-files-found: error
+
+  release:
+    name: Publish the release
+    needs: [build, database]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          path: artifacts
+      - name: Package
+        run: |
+          set -euo pipefail
+          v="${VERSION#v}"
+          echo "RELEASE_VERSION=$v" >> "$GITHUB_ENV"
+          mkdir -p out
+          for dir in artifacts/bin-*; do
+            platform="${dir#artifacts/bin-}"
+            binary="$(ls "$dir"/huso*)"
+            deploy/package.sh "$v" "$platform" "$binary" artifacts/database/app.db out
+          done
+          cp artifacts/database/app.db "out/huso-$v-app.db"
+          (cd out && sha256sum *.tar.gz *.db > SHA256SUMS)
+          ls -la out
+      - uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ env.RELEASE_VERSION }}
+          name: Huso ${{ env.RELEASE_VERSION }}
+          body: |
+            One archive per computer type, each with the program and the ready-made database.
+            Unpack, run `start.sh` (or `start.ps1` on Windows) and open http://127.0.0.1:3000.
+            Login: `student@huso.local` / `parent@huso.local`, password `study123`: change both after the first login.
+            See `DEPLOY.md` inside the archive. `huso-*-app.db` is the database alone.
+          files: out/*

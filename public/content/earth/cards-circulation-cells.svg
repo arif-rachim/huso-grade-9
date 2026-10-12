@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 316" role="img" aria-labelledby="t d">
+<title id="t">Atmospheric circulation cells</title>
+<desc id="d">Three cells per hemisphere. Hadley cell from the equator to 30 degrees, Ferrel cell from 30 to 60, polar cell from 60 to the pole. Air rises at 0 and 60 degrees, sinks at 30 degrees and at the pole.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="316" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Circulation cells (Northern Hemisphere)</text>
+<rect x="30" y="40" width="340" height="180" fill="#92400e" fill-opacity="0.06"/>
+<line x1="30" y1="40" x2="30" y2="232" stroke="#6b7280" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="30" y="248" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">0°</text>
+<line x1="143.3" y1="40" x2="143.3" y2="232" stroke="#6b7280" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="143.3" y="248" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">30°</text>
+<line x1="256.7" y1="40" x2="256.7" y2="232" stroke="#6b7280" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="256.7" y="248" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">60°</text>
+<line x1="370" y1="40" x2="370" y2="232" stroke="#6b7280" stroke-width="1" stroke-dasharray="4 3"/>
+<text x="370" y="248" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">90°</text>
+<text x="30" y="264" font-size="12" text-anchor="middle" fill="#6b7280">Equator</text>
+<text x="370" y="264" font-size="12" text-anchor="middle" fill="#6b7280">Pole</text>
+<line x1="40" y1="60" x2="131.3" y2="60" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><line x1="133.3" y1="66" x2="133.3" y2="192" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><line x1="131.3" y1="200" x2="42" y2="200" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><line x1="40" y1="194" x2="40" y2="68" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><text data-label="Hadley cell" x="86.7" y="135" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Hadley cell</text>
+<line x1="246.7" y1="60" x2="155.3" y2="60" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><line x1="153.3" y1="66" x2="153.3" y2="192" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><line x1="155.3" y1="200" x2="244.7" y2="200" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><line x1="246.7" y1="194" x2="246.7" y2="68" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><text data-label="Ferrel cell" x="200" y="135" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Ferrel cell</text>
+<line x1="266.7" y1="60" x2="358" y2="60" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><line x1="360" y1="66" x2="360" y2="192" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><line x1="358" y1="200" x2="268.7" y2="200" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><line x1="266.7" y1="194" x2="266.7" y2="68" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/><text data-label="Polar cell" x="313.3" y="135" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Polar cell</text>
+<text x="34" y="38" font-size="12" text-anchor="start" fill="#6b7280">rising air: low pressure (ITCZ)</text>
+<text x="143.3" y="232" font-size="12" text-anchor="start" fill="#111827"></text>
+<text x="86.7" y="218" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">trade winds</text>
+<text x="200" y="218" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">westerlies</text>
+<text x="313.3" y="218" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">polar easterlies</text>
+<text x="200" y="288" font-size="12" text-anchor="middle" fill="#6b7280">Sinking air at 30° and 90° = high pressure, dry (deserts).</text>
+<text x="200" y="304" font-size="12" text-anchor="middle" fill="#6b7280">Rising air at 0° and 60° = low pressure, rainy.</text>
+</g>
+</svg>

@@ -1,0 +1,1935 @@
+{
+  "version": 1,
+  "subject": "earth",
+  "cards": [
+    {
+      "id": "earth-0001",
+      "subtopic": "earth.atmosphere.structure",
+      "type": "occlusion",
+      "front": "Which atmospheric layer is hidden?",
+      "back": "Troposphere, Stratosphere, Mesosphere, Thermosphere",
+      "visual": "content/earth/cards-atmosphere-layers.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0002",
+      "subtopic": "earth.atmosphere.structure",
+      "type": "order",
+      "front": "Put the layers in order from the ground up.",
+      "back": "Troposphere → Stratosphere → Mesosphere → Thermosphere → Exosphere",
+      "items": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Thermosphere",
+        "Exosphere"
+      ],
+      "visual": "content/earth/cards-atmosphere-layers.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0003",
+      "subtopic": "earth.atmosphere.structure",
+      "type": "cloze",
+      "front": "Dry air is about {{78%}} nitrogen, {{21%}} oxygen and about 1% argon (CO₂ is only about 0.04%).",
+      "back": "N₂ 78%, O₂ 21%, Ar about 0.9%, CO₂ about 0.04%.",
+      "visual": null,
+      "sketch_prompt": "Draw a pie chart of the air with three slices: nitrogen, oxygen and 'everything else'. Label the percentages.",
+      "tags": []
+    },
+    {
+      "id": "earth-0004",
+      "subtopic": "earth.atmosphere.structure",
+      "type": "basic",
+      "front": "Which layer holds most of the air's mass and all the weather?",
+      "back": "The troposphere (0 to about 12 km). It holds about 75-80% of the air's mass. Temperature falls with height here.",
+      "visual": "content/earth/cards-atmosphere-layers.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0005",
+      "subtopic": "earth.atmosphere.structure",
+      "type": "basic",
+      "front": "Why does the stratosphere get warmer with height?",
+      "back": "The ozone layer absorbs ultraviolet (UV) light from the Sun and turns it into heat. Most ozone sits at about 20-30 km.",
+      "visual": "content/earth/cards-atmosphere-layers.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0006",
+      "subtopic": "earth.atmosphere.structure",
+      "type": "match",
+      "front": "Match each layer to how temperature changes with height.",
+      "back": "Troposphere = cools with height; Stratosphere = warms with height; Mesosphere = cools with height; Thermosphere = warms with height",
+      "pairs": [
+        [
+          "Troposphere",
+          "cools with height"
+        ],
+        [
+          "Stratosphere",
+          "warms with height"
+        ],
+        [
+          "Mesosphere",
+          "cools with height"
+        ],
+        [
+          "Thermosphere",
+          "warms with height"
+        ]
+      ],
+      "visual": "content/earth/cards-atmosphere-layers.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0007",
+      "subtopic": "earth.atmosphere.structure",
+      "type": "basic",
+      "front": "How high is the tropopause, and where is it highest?",
+      "back": "About 9 km over the poles and 17 km over the equator (average about 12 km). Warm tropical air rises higher.",
+      "visual": null,
+      "sketch_prompt": "Draw the Earth from the pole to the equator and sketch the tropopause as a line that is low at the poles and high at the equator.",
+      "tags": []
+    },
+    {
+      "id": "earth-0008",
+      "subtopic": "earth.atmosphere.fronts",
+      "type": "basic",
+      "front": "Compare a cold front and a warm front: slope, speed and weather.",
+      "back": "Cold front: steep slope, fast, thunderstorms and showers, then cooler. Warm front: gentle slope, slow, wide steady rain, then warmer.",
+      "visual": "content/earth/cards-fronts.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0009",
+      "subtopic": "earth.atmosphere.fronts",
+      "type": "match",
+      "front": "Match each air mass code to its source and feel.",
+      "back": "cP = continental polar: cold and dry; mP = maritime polar: cool and moist; cT = continental tropical: hot and dry; mT = maritime tropical: warm and moist",
+      "pairs": [
+        [
+          "cP",
+          "continental polar: cold and dry"
+        ],
+        [
+          "mP",
+          "maritime polar: cool and moist"
+        ],
+        [
+          "cT",
+          "continental tropical: hot and dry"
+        ],
+        [
+          "mT",
+          "maritime tropical: warm and moist"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a world map and shade where each of the four air masses (cP, mP, cT, mT) forms.",
+      "tags": []
+    },
+    {
+      "id": "earth-0010",
+      "subtopic": "earth.atmosphere.fronts",
+      "type": "basic",
+      "front": "In the Northern Hemisphere, how does air move around a low-pressure center?",
+      "back": "Counterclockwise and inward, and it rises. Rising air makes clouds and rain.",
+      "visual": "content/earth/cards-high-low.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0011",
+      "subtopic": "earth.atmosphere.fronts",
+      "type": "basic",
+      "front": "What weather goes with a high-pressure system and why?",
+      "back": "Clear, calm and dry. Air sinks and warms, so clouds evaporate. It spirals clockwise and outward (Northern Hemisphere).",
+      "visual": "content/earth/cards-high-low.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0012",
+      "subtopic": "earth.atmosphere.fronts",
+      "type": "order",
+      "front": "Order the life of a mid-latitude cyclone.",
+      "back": "Cold and warm air meet at a stationary front → A wave forms on the front → Warm and cold fronts develop around a low → The cold front catches the warm front (occlusion) → The cyclone weakens",
+      "items": [
+        "Cold and warm air meet at a stationary front",
+        "A wave forms on the front",
+        "Warm and cold fronts develop around a low",
+        "The cold front catches the warm front (occlusion)",
+        "The cyclone weakens"
+      ],
+      "visual": "content/earth/cards-fronts.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0013",
+      "subtopic": "earth.atmosphere.fronts",
+      "type": "cloze",
+      "front": "A {{cold}} front moves faster than a warm front, so it can catch up with it and form an {{occluded}} front.",
+      "back": "Cold fronts move about 2 times faster than warm fronts.",
+      "visual": null,
+      "sketch_prompt": "Draw a weather map of a low with a blue triangle line (cold front) chasing a red semicircle line (warm front).",
+      "tags": []
+    },
+    {
+      "id": "earth-0014",
+      "subtopic": "earth.atmosphere.fronts",
+      "type": "basic",
+      "front": "Which way does the Coriolis effect turn moving air in each hemisphere?",
+      "back": "To the right in the Northern Hemisphere and to the left in the Southern Hemisphere. It is zero at the equator.",
+      "visual": null,
+      "sketch_prompt": "Draw the Earth from above the North Pole with an arrow going straight south. Draw how it curves to the right.",
+      "tags": []
+    },
+    {
+      "id": "earth-0015",
+      "subtopic": "earth.atmosphere.humidity",
+      "type": "occlusion",
+      "front": "Which part of the water cycle is hidden?",
+      "back": "Evaporation, Condensation, Precipitation, Runoff, Infiltration, Transpiration",
+      "visual": "content/earth/cards-water-cycle.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0016",
+      "subtopic": "earth.atmosphere.humidity",
+      "type": "cloze",
+      "front": "Relative humidity = {{actual water vapor}} ÷ {{maximum vapor at that temperature}} × 100%.",
+      "back": "RH tells how close the air is to saturation (100%).",
+      "visual": null,
+      "sketch_prompt": "Draw a bucket with a fill line. Label the bucket 'maximum vapor at this temperature' and the water 'actual vapor'. Write RH = water ÷ bucket.",
+      "tags": []
+    },
+    {
+      "id": "earth-0017",
+      "subtopic": "earth.atmosphere.humidity",
+      "type": "basic",
+      "front": "What is the dew point?",
+      "back": "The temperature to which air must be cooled (at constant pressure) to become saturated, RH = 100%. Below it, dew or cloud droplets form.",
+      "visual": null,
+      "sketch_prompt": "Draw a cold glass of lemonade with water drops on the outside. Mark the drops 'dew point reached'.",
+      "tags": []
+    },
+    {
+      "id": "earth-0018",
+      "subtopic": "earth.atmosphere.humidity",
+      "type": "basic",
+      "front": "If air warms but gains no vapor, what happens to relative humidity?",
+      "back": "It falls, because warm air can hold more vapor. Cool air at night: RH rises, fog may form.",
+      "visual": null,
+      "sketch_prompt": "Draw two buckets: a small one labeled 'cool air' and a bigger one labeled 'warm air', both with the same water level.",
+      "tags": []
+    },
+    {
+      "id": "earth-0019",
+      "subtopic": "earth.atmosphere.humidity",
+      "type": "order",
+      "front": "Order how a raindrop forms in a rising air parcel.",
+      "back": "Air rises and cools → Air reaches saturation → Vapor condenses on condensation nuclei → Droplets collide and grow → Drops become heavy and fall",
+      "items": [
+        "Air rises and cools",
+        "Air reaches saturation",
+        "Vapor condenses on condensation nuclei",
+        "Droplets collide and grow",
+        "Drops become heavy and fall"
+      ],
+      "visual": "content/earth/cards-water-cycle.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0020",
+      "subtopic": "earth.atmosphere.humidity",
+      "type": "match",
+      "front": "Match the precipitation type to its description.",
+      "back": "Drizzle = very small drops, under 0.5 mm; Sleet = frozen raindrops (ice pellets); Hail = layered ice balls from cumulonimbus; Snow = ice crystals falling",
+      "pairs": [
+        [
+          "Drizzle",
+          "very small drops, under 0.5 mm"
+        ],
+        [
+          "Sleet",
+          "frozen raindrops (ice pellets)"
+        ],
+        [
+          "Hail",
+          "layered ice balls from cumulonimbus"
+        ],
+        [
+          "Snow",
+          "ice crystals falling"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw four small pictures in a row: tiny dots (drizzle), small ice beads (sleet), a ball with onion layers (hail), a six-armed crystal (snow).",
+      "tags": []
+    },
+    {
+      "id": "earth-0021",
+      "subtopic": "earth.atmosphere.humidity",
+      "type": "basic",
+      "front": "Why are condensation nuclei needed for clouds?",
+      "back": "Water vapor needs a surface to condense on. Tiny particles like dust, sea salt and smoke act as nuclei for droplets.",
+      "visual": "content/earth/cards-water-cycle.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0022",
+      "subtopic": "earth.atmosphere.circulation",
+      "type": "occlusion",
+      "front": "Which circulation cell is hidden?",
+      "back": "Hadley cell, Ferrel cell, Polar cell",
+      "visual": "content/earth/cards-circulation-cells.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0023",
+      "subtopic": "earth.atmosphere.circulation",
+      "type": "match",
+      "front": "Match each wind belt to its latitude and direction.",
+      "back": "Trade winds = 0°-30°, blow from the east; Westerlies = 30°-60°, blow from the west; Polar easterlies = 60°-90°, blow from the east; Horse latitudes = about 30°, calm sinking air",
+      "pairs": [
+        [
+          "Trade winds",
+          "0°-30°, blow from the east"
+        ],
+        [
+          "Westerlies",
+          "30°-60°, blow from the west"
+        ],
+        [
+          "Polar easterlies",
+          "60°-90°, blow from the east"
+        ],
+        [
+          "Horse latitudes",
+          "about 30°, calm sinking air"
+        ]
+      ],
+      "visual": "content/earth/cards-circulation-cells.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0024",
+      "subtopic": "earth.atmosphere.circulation",
+      "type": "basic",
+      "front": "What is the Coriolis effect and where is it strongest?",
+      "back": "Earth's rotation seems to deflect moving air right in the Northern Hemisphere and left in the Southern. Zero at the equator, strongest at the poles.",
+      "visual": null,
+      "sketch_prompt": "Draw a globe with an arrow from the equator to the North Pole. Show it bending east (right) because the Earth spins.",
+      "tags": []
+    },
+    {
+      "id": "earth-0025",
+      "subtopic": "earth.atmosphere.circulation",
+      "type": "basic",
+      "front": "What is the ITCZ?",
+      "back": "The Intertropical Convergence Zone, where the trade winds from both hemispheres meet near the equator. Air rises there, giving heavy rain. It shifts north and south with the seasons.",
+      "visual": "content/earth/cards-circulation-cells.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0026",
+      "subtopic": "earth.atmosphere.circulation",
+      "type": "cloze",
+      "front": "Wind blows from {{high}} to {{low}} pressure, pushed by the {{pressure gradient}} force and then turned by the Coriolis effect.",
+      "back": "High to low pressure.",
+      "visual": null,
+      "sketch_prompt": "Draw a hill (high pressure) and a valley (low pressure) with a ball rolling down. Label the ball 'wind'.",
+      "tags": []
+    },
+    {
+      "id": "earth-0027",
+      "subtopic": "earth.atmosphere.circulation",
+      "type": "basic",
+      "front": "What are jet streams?",
+      "back": "Fast, narrow rivers of air near the top of the troposphere (about 10 km), flowing west to east. They sit near cell boundaries (about 30° and 60°).",
+      "visual": null,
+      "sketch_prompt": "Draw a side view of the troposphere with a thick arrow near the top labeled 'jet stream'. Mark the 30° and 60° boundaries on the ground.",
+      "tags": []
+    },
+    {
+      "id": "earth-0028",
+      "subtopic": "earth.atmosphere.circulation",
+      "type": "basic",
+      "front": "Which belts of surface pressure are low and which are high?",
+      "back": "Low: the equator (0°) and 60°. High: 30° and the poles (90°). Rising air means low pressure, sinking air means high.",
+      "visual": "content/earth/cards-circulation-cells.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0029",
+      "subtopic": "earth.atmosphere.phenomena",
+      "type": "occlusion",
+      "front": "Which cloud type is hidden?",
+      "back": "Cirrus, Altocumulus, Stratus, Nimbostratus, Cumulonimbus",
+      "visual": "content/earth/cards-cloud-types.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0030",
+      "subtopic": "earth.atmosphere.phenomena",
+      "type": "occlusion",
+      "front": "Which part of the hurricane is hidden?",
+      "back": "Eye, Eyewall, Rainbands",
+      "visual": "content/earth/cards-hurricane.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0031",
+      "subtopic": "earth.atmosphere.phenomena",
+      "type": "basic",
+      "front": "What happens in El Niño and La Niña?",
+      "back": "El Niño: trade winds weaken, warm water spreads east, Peru gets rain and Indonesia drought. La Niña: stronger trade winds, cooler eastern Pacific.",
+      "visual": "content/earth/cards-enso.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0032",
+      "subtopic": "earth.atmosphere.phenomena",
+      "type": "basic",
+      "front": "What causes a monsoon?",
+      "back": "Land heats and cools faster than the ocean, so winds reverse by season. Summer: wet winds from the sea. Winter: dry winds from the land.",
+      "visual": null,
+      "sketch_prompt": "Draw two panels: summer (sea → hot land, with rain clouds) and winter (cold land → sea, dry). Add arrows for the wind.",
+      "tags": []
+    },
+    {
+      "id": "earth-0033",
+      "subtopic": "earth.atmosphere.phenomena",
+      "type": "basic",
+      "front": "When do sea breezes and land breezes blow?",
+      "back": "Sea breeze: day, wind blows from the cooler sea to the warmer land. Land breeze: night, from the cooler land to the warmer sea.",
+      "visual": null,
+      "sketch_prompt": "Draw a beach in daytime with an arrow from the sea to land, then at night with the arrow reversed.",
+      "tags": []
+    },
+    {
+      "id": "earth-0034",
+      "subtopic": "earth.atmosphere.phenomena",
+      "type": "order",
+      "front": "Order the life of an ordinary thunderstorm cell.",
+      "back": "Cumulus stage: updraft only → Mature stage: updraft and downdraft, heavy rain → Dissipating stage: downdraft only",
+      "items": [
+        "Cumulus stage: updraft only",
+        "Mature stage: updraft and downdraft, heavy rain",
+        "Dissipating stage: downdraft only"
+      ],
+      "visual": "content/earth/cards-cloud-types.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0035",
+      "subtopic": "earth.atmosphere.phenomena",
+      "type": "match",
+      "front": "Match the name to the region.",
+      "back": "Same storm, different names. Winds of 119 km/h (74 mph) or more make it a hurricane, typhoon or cyclone.",
+      "pairs": [
+        [
+          "Hurricane",
+          "Atlantic and northeast Pacific"
+        ],
+        [
+          "Typhoon",
+          "northwest Pacific"
+        ],
+        [
+          "Cyclone",
+          "Indian Ocean and South Pacific"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a world map and mark where hurricanes, typhoons and cyclones occur.",
+      "tags": []
+    },
+    {
+      "id": "earth-0036",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "type": "occlusion",
+      "front": "Which river feature is hidden?",
+      "back": "Cut bank, Point bar, Oxbow lake",
+      "visual": "content/earth/cards-river-meander.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0037",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "type": "cloze",
+      "front": "River discharge Q = {{cross-section area}} × {{velocity}}, measured in {{m³/s}}.",
+      "back": "Q = A × v = width × depth × velocity.",
+      "visual": null,
+      "sketch_prompt": "Draw a river cross-section as a rectangle. Label width w and depth d. Write A = w × d and Q = A × v.",
+      "tags": []
+    },
+    {
+      "id": "earth-0038",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "type": "basic",
+      "front": "A river is 10 m wide and 2 m deep and flows at 1.5 m/s. What is its discharge?",
+      "back": "A = 10 × 2 = 20 m². Q = 20 × 1.5 = 30 m³/s.",
+      "visual": null,
+      "sketch_prompt": "Draw the river cross-section with 10 m and 2 m labeled, then an arrow for the 1.5 m/s flow.",
+      "tags": []
+    },
+    {
+      "id": "earth-0039",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "type": "basic",
+      "front": "How does a delta form?",
+      "back": "A river slows down when it enters a lake or the sea, so it drops its sediment. The sediment builds up a fan-shaped delta.",
+      "visual": null,
+      "sketch_prompt": "Draw a river flowing into the sea with a triangle of sediment at its mouth and a few branching channels.",
+      "tags": []
+    },
+    {
+      "id": "earth-0040",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "type": "match",
+      "front": "Match the river feature to how it forms.",
+      "back": "V-shaped valley = downcutting by a fast river; Waterfall = hard rock over soft rock; Floodplain = deposits when the river floods; Levee = ridge of sediment next to the channel",
+      "pairs": [
+        [
+          "V-shaped valley",
+          "downcutting by a fast river"
+        ],
+        [
+          "Waterfall",
+          "hard rock over soft rock"
+        ],
+        [
+          "Floodplain",
+          "deposits when the river floods"
+        ],
+        [
+          "Levee",
+          "ridge of sediment next to the channel"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a river cross-section on a floodplain. Mark the levee on each bank.",
+      "tags": []
+    },
+    {
+      "id": "earth-0041",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "type": "order",
+      "front": "Order a river from source to sea.",
+      "back": "Upper course: steep, V-shaped valley → Middle course: meanders → Lower course: wide floodplain → Mouth: delta",
+      "items": [
+        "Upper course: steep, V-shaped valley",
+        "Middle course: meanders",
+        "Lower course: wide floodplain",
+        "Mouth: delta"
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw the long profile of a river: a steep curve at the start that gets gentler. Label the four parts.",
+      "tags": []
+    },
+    {
+      "id": "earth-0042",
+      "subtopic": "earth.hydrosphere.freshwater",
+      "type": "basic",
+      "front": "What happens to particles when river speed drops?",
+      "back": "The river can no longer carry the largest particles, so they are dropped first (boulders, gravel, then sand, then silt and clay). Fast water carries and erodes more.",
+      "visual": null,
+      "sketch_prompt": "Draw a river slowing down with big pebbles dropped first, then sand, then fine mud further along.",
+      "tags": []
+    },
+    {
+      "id": "earth-0043",
+      "subtopic": "earth.hydrosphere.oceans",
+      "type": "occlusion",
+      "front": "Which part of the ocean conveyor belt is hidden?",
+      "back": "Deep water formation, Upwelling",
+      "visual": "content/earth/cards-ocean-conveyor.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0044",
+      "subtopic": "earth.hydrosphere.oceans",
+      "type": "occlusion",
+      "front": "Which part of the wave is hidden?",
+      "back": "Crest, Trough, Wavelength, Wave height",
+      "visual": "content/earth/cards-wave-anatomy.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0045",
+      "subtopic": "earth.hydrosphere.oceans",
+      "type": "basic",
+      "front": "What is the average salinity of seawater, and where is it highest and lowest?",
+      "back": "About 35 g of salt per kg (35 ‰). Highest in dry subtropics where evaporation beats rain. Lowest near river mouths and in rainy or melting areas.",
+      "visual": null,
+      "sketch_prompt": "Draw a graph with latitude on the x-axis and salinity on the y-axis. Make a dip at the equator, peaks at 20-30°, dips at the poles.",
+      "tags": []
+    },
+    {
+      "id": "earth-0046",
+      "subtopic": "earth.hydrosphere.oceans",
+      "type": "basic",
+      "front": "What are the thermocline, halocline and pycnocline?",
+      "back": "Layers where temperature, salinity or density change quickly with depth. The pycnocline separates light surface water from dense deep water and stops mixing.",
+      "visual": null,
+      "sketch_prompt": "Draw a vertical profile of the ocean: warm at the top, a steep drop in temperature (thermocline), then cold deep water.",
+      "tags": []
+    },
+    {
+      "id": "earth-0047",
+      "subtopic": "earth.hydrosphere.oceans",
+      "type": "basic",
+      "front": "What drives surface currents, and what are gyres?",
+      "back": "Winds and the Coriolis effect. Big circular currents called gyres turn clockwise in the Northern Hemisphere and counterclockwise in the Southern. The Gulf Stream is a warm current.",
+      "visual": null,
+      "sketch_prompt": "Draw the North Atlantic: a clockwise loop with the warm Gulf Stream on the west side going north.",
+      "tags": []
+    },
+    {
+      "id": "earth-0048",
+      "subtopic": "earth.hydrosphere.oceans",
+      "type": "basic",
+      "front": "What is the difference between spring tides and neap tides?",
+      "back": "Spring tides (largest range) at new and full moon, when Sun, Earth and Moon line up. Neap tides (smallest range) at the quarter moons, at right angles.",
+      "visual": "content/earth/cards-tides.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0049",
+      "subtopic": "earth.hydrosphere.oceans",
+      "type": "basic",
+      "front": "What causes a tsunami and how fast does it travel?",
+      "back": "Sudden movement of the sea floor (quake, landslide, volcano). Speed v = √(g × depth): about 200 m/s over 4 km. It slows and grows taller near the coast.",
+      "visual": "content/earth/cards-wave-anatomy.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0050",
+      "subtopic": "earth.hydrosphere.oceans",
+      "type": "match",
+      "front": "Match the ocean sediment to its source.",
+      "back": "Terrigenous = from land: sand, mud; Biogenous = shells and skeletons (ooze); Hydrogenous = precipitates from seawater (nodules); Cosmogenous = dust and meteorites from space",
+      "pairs": [
+        [
+          "Terrigenous",
+          "from land: sand, mud"
+        ],
+        [
+          "Biogenous",
+          "shells and skeletons (ooze)"
+        ],
+        [
+          "Hydrogenous",
+          "precipitates from seawater (nodules)"
+        ],
+        [
+          "Cosmogenous",
+          "dust and meteorites from space"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw an ocean floor profile and mark where each of the four sediment types would be found.",
+      "tags": []
+    },
+    {
+      "id": "earth-0051",
+      "subtopic": "earth.hydrosphere.oceans",
+      "type": "basic",
+      "front": "What is longshore drift?",
+      "back": "Waves hit the beach at an angle and push sand up the beach (swash). The backwash runs straight down. Sand moves in a zigzag along the coast.",
+      "visual": null,
+      "sketch_prompt": "Draw a beach from above. Show waves arriving at an angle and the zigzag path of a sand grain.",
+      "tags": []
+    },
+    {
+      "id": "earth-0052",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "type": "occlusion",
+      "front": "Which part of the glacier is hidden?",
+      "back": "Accumulation zone, Ablation zone, Equilibrium line, Terminal moraine",
+      "visual": "content/earth/cards-glacier.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0053",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "type": "occlusion",
+      "front": "Which valley shape is hidden?",
+      "back": "V-shaped valley, U-shaped valley",
+      "visual": "content/earth/cards-glacier.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0054",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "type": "basic",
+      "front": "How does a glacier form?",
+      "back": "Snow piles up faster than it melts. Buried snow turns into granular firn, then into dense glacial ice (about 0.9 g/cm³) under pressure over years. The ice then flows downhill.",
+      "visual": null,
+      "sketch_prompt": "Draw 3 stages in a row: fluffy snow, rounded firn grains, solid blue ice. Add arrows for time and pressure.",
+      "tags": []
+    },
+    {
+      "id": "earth-0055",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "type": "match",
+      "front": "Match the glacial landform to its description.",
+      "back": "Cirque = bowl-shaped hollow at the head of a glacier; Arête = sharp ridge between two cirques; Horn = pyramid-shaped peak; Fjord = glacial valley flooded by the sea",
+      "pairs": [
+        [
+          "Cirque",
+          "bowl-shaped hollow at the head of a glacier"
+        ],
+        [
+          "Arête",
+          "sharp ridge between two cirques"
+        ],
+        [
+          "Horn",
+          "pyramid-shaped peak"
+        ],
+        [
+          "Fjord",
+          "glacial valley flooded by the sea"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a mountain with three cirques around it. Mark the horn in the middle and the arêtes between the cirques.",
+      "tags": []
+    },
+    {
+      "id": "earth-0056",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "type": "cloze",
+      "front": "Mass balance = accumulation − {{ablation}}. If it is positive the glacier {{advances}}; if negative it retreats.",
+      "back": "Snow gain minus melt and ice loss per year.",
+      "visual": "content/earth/cards-glacier.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0057",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "type": "basic",
+      "front": "What are till, moraines and erratics?",
+      "back": "Till is unsorted rock debris dropped by ice. Moraines are ridges of till (lateral, medial, terminal). Erratics are large boulders carried far from their source rock.",
+      "visual": null,
+      "sketch_prompt": "Draw a glacier from above with lateral moraines at the sides, a medial moraine in the middle and a terminal moraine at the front.",
+      "tags": []
+    },
+    {
+      "id": "earth-0058",
+      "subtopic": "earth.hydrosphere.glaciers",
+      "type": "basic",
+      "front": "What are a drumlin, an esker and a kettle?",
+      "back": "Drumlin: streamlined hill of till shaped along ice flow. Esker: winding ridge of sorted sand and gravel from a stream under the ice. Kettle: hollow (often a lake) left by a melted ice block.",
+      "visual": null,
+      "sketch_prompt": "Draw a plan view with an oval drumlin, a snaking esker line and a round kettle lake.",
+      "tags": []
+    },
+    {
+      "id": "earth-0059",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "type": "occlusion",
+      "front": "Which part of the groundwater system is hidden?",
+      "back": "Unsaturated zone, Water table, Aquifer, Aquitard",
+      "visual": "content/earth/cards-aquifer.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0060",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "type": "cloze",
+      "front": "Porosity = {{volume of pores}} ÷ {{total volume}}. Permeability is how easily water flows through {{connected}} pores.",
+      "back": "Porosity tells how much water a rock can hold; permeability how fast it can flow.",
+      "visual": null,
+      "sketch_prompt": "Draw a box of rock with dots as pores. Show connected pores with lines (permeable) and isolated pores (not).",
+      "tags": []
+    },
+    {
+      "id": "earth-0061",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "type": "basic",
+      "front": "Clay has high porosity but is a poor aquifer. Why?",
+      "back": "Its pores are tiny and poorly connected, so water cannot flow through (low permeability). It makes a good aquitard.",
+      "visual": "content/earth/cards-aquifer.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0062",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "type": "match",
+      "front": "Match each material to its porosity and permeability.",
+      "back": "Gravel = high porosity, high permeability; Clay = high porosity, very low permeability; Sandstone = medium porosity, medium permeability; Unfractured granite = very low porosity and permeability",
+      "pairs": [
+        [
+          "Gravel",
+          "high porosity, high permeability"
+        ],
+        [
+          "Clay",
+          "high porosity, very low permeability"
+        ],
+        [
+          "Sandstone",
+          "medium porosity, medium permeability"
+        ],
+        [
+          "Unfractured granite",
+          "very low porosity and permeability"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw four boxes showing big round grains (gravel), tiny flat grains (clay), cemented grains (sandstone) and solid crystals (granite).",
+      "tags": []
+    },
+    {
+      "id": "earth-0063",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "type": "basic",
+      "front": "What is an artesian well?",
+      "back": "A well in a confined aquifer, trapped between aquitards. Water pressure from higher ground pushes the water up, sometimes to the surface without a pump.",
+      "visual": null,
+      "sketch_prompt": "Draw a tilted aquifer between two clay layers with a well. Show the water level rising above the aquifer in the pipe.",
+      "tags": []
+    },
+    {
+      "id": "earth-0064",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "type": "basic",
+      "front": "What is a cone of depression?",
+      "back": "A funnel-shaped dip in the water table around a well that is pumping. Over-pumping makes it deeper and can dry shallow wells nearby.",
+      "visual": null,
+      "sketch_prompt": "Draw a well with the water table curving down toward it like a funnel.",
+      "tags": []
+    },
+    {
+      "id": "earth-0065",
+      "subtopic": "earth.hydrosphere.groundwater",
+      "type": "basic",
+      "front": "Where does a spring appear?",
+      "back": "Where the water table meets the land surface, often on a hillside or at the edge of an aquitard.",
+      "visual": "content/earth/cards-aquifer.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0066",
+      "subtopic": "earth.geosphere.geochemistry",
+      "type": "occlusion",
+      "front": "Which mineral in Bowen's series is hidden?",
+      "back": "Olivine, Pyroxene, Amphibole, Biotite, Quartz",
+      "visual": "content/earth/cards-bowen-series.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0067",
+      "subtopic": "earth.geosphere.geochemistry",
+      "type": "order",
+      "front": "Order the Mohs scale from softest (1) to hardest (10).",
+      "back": "Talc → Gypsum → Calcite → Fluorite → Apatite → Orthoclase feldspar → Quartz → Topaz → Corundum → Diamond",
+      "items": [
+        "Talc",
+        "Gypsum",
+        "Calcite",
+        "Fluorite",
+        "Apatite",
+        "Orthoclase feldspar",
+        "Quartz",
+        "Topaz",
+        "Corundum",
+        "Diamond"
+      ],
+      "visual": "content/earth/cards-mohs-scale.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0068",
+      "subtopic": "earth.geosphere.geochemistry",
+      "type": "order",
+      "front": "Order the discontinuous branch of Bowen's series from first to crystallize.",
+      "back": "Olivine → Pyroxene → Amphibole → Biotite",
+      "items": [
+        "Olivine",
+        "Pyroxene",
+        "Amphibole",
+        "Biotite"
+      ],
+      "visual": "content/earth/cards-bowen-series.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0069",
+      "subtopic": "earth.geosphere.geochemistry",
+      "type": "basic",
+      "front": "What does a phase diagram show?",
+      "back": "Which phase (solid, liquid, gas) is stable for each temperature and pressure. Lines are boundaries. At the triple point all three phases coexist.",
+      "visual": null,
+      "sketch_prompt": "Draw a pressure (y) versus temperature (x) graph for water with solid, liquid and gas regions and the triple point.",
+      "tags": []
+    },
+    {
+      "id": "earth-0070",
+      "subtopic": "earth.geosphere.geochemistry",
+      "type": "match",
+      "front": "Match the mineral property to its meaning.",
+      "back": "Luster = how the surface reflects light; Streak = color of the powder; Cleavage = breaks along flat planes; Fracture = breaks in an irregular way",
+      "pairs": [
+        [
+          "Luster",
+          "how the surface reflects light"
+        ],
+        [
+          "Streak",
+          "color of the powder"
+        ],
+        [
+          "Cleavage",
+          "breaks along flat planes"
+        ],
+        [
+          "Fracture",
+          "breaks in an irregular way"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a mineral with flat shiny faces (cleavage) next to one with a curved, shell-like break (conchoidal fracture).",
+      "tags": []
+    },
+    {
+      "id": "earth-0071",
+      "subtopic": "earth.geosphere.geochemistry",
+      "type": "basic",
+      "front": "What is a mineral?",
+      "back": "A naturally occurring, inorganic, solid with a definite chemical composition and an ordered crystal structure. Coal is not a mineral (organic). Ice is.",
+      "visual": null,
+      "sketch_prompt": "Draw a crystal of quartz and write the four rules of what makes a mineral beside it.",
+      "tags": []
+    },
+    {
+      "id": "earth-0072",
+      "subtopic": "earth.geosphere.geochemistry",
+      "type": "cloze",
+      "front": "Calcite has hardness {{3}} and {{fizzes}} in dilute acid; quartz has hardness {{7}}.",
+      "back": "Quick tests: scratch test and acid test.",
+      "visual": null,
+      "sketch_prompt": "Draw a calcite crystal with a drop of acid and bubbles on it.",
+      "tags": []
+    },
+    {
+      "id": "earth-0073",
+      "subtopic": "earth.geosphere.rocks",
+      "type": "occlusion",
+      "front": "Which part of the rock cycle is hidden?",
+      "back": "Magma, Igneous, Sediment, Sedimentary, Metamorphic",
+      "visual": "content/earth/cards-rock-cycle.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0074",
+      "subtopic": "earth.geosphere.rocks",
+      "type": "occlusion",
+      "front": "Which igneous body is hidden?",
+      "back": "Dike, Sill, Laccolith, Batholith",
+      "visual": "content/earth/cards-igneous-bodies.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0075",
+      "subtopic": "earth.geosphere.rocks",
+      "type": "match",
+      "front": "Match the rock to its type.",
+      "back": "Granite = intrusive igneous; Basalt = extrusive igneous; Limestone = sedimentary; Marble = metamorphic",
+      "pairs": [
+        [
+          "Granite",
+          "intrusive igneous"
+        ],
+        [
+          "Basalt",
+          "extrusive igneous"
+        ],
+        [
+          "Limestone",
+          "sedimentary"
+        ],
+        [
+          "Marble",
+          "metamorphic"
+        ]
+      ],
+      "visual": "content/earth/cards-rock-cycle.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0076",
+      "subtopic": "earth.geosphere.rocks",
+      "type": "basic",
+      "front": "How does silica content change magma behavior?",
+      "back": "More silica (felsic, over 63% SiO₂): light color, thick (viscous), explosive, low temperature. Less silica (mafic, 45-52%): dark, runny, gentle eruptions. Rhyolite is felsic and basalt is mafic.",
+      "visual": null,
+      "sketch_prompt": "Draw two volcanoes: a wide gentle one with runny lava (basalt) and a steep one with an explosive ash cloud (rhyolite/andesite).",
+      "tags": []
+    },
+    {
+      "id": "earth-0077",
+      "subtopic": "earth.geosphere.rocks",
+      "type": "basic",
+      "front": "How does cooling speed change igneous crystal size?",
+      "back": "Slow cooling underground gives large crystals (granite, gabbro). Fast cooling at the surface gives tiny crystals or glass (basalt, obsidian).",
+      "visual": "content/earth/cards-igneous-bodies.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0078",
+      "subtopic": "earth.geosphere.rocks",
+      "type": "basic",
+      "front": "What are the two main kinds of metamorphism, and what is foliation?",
+      "back": "Contact: heat from nearby magma. Regional: heat and pressure during mountain building. Foliation is layering of minerals under pressure (slate, schist, gneiss). Marble and quartzite are non-foliated.",
+      "visual": null,
+      "sketch_prompt": "Draw a magma body baking the rock around it (contact) and a mountain belt squeezing rock (regional).",
+      "tags": []
+    },
+    {
+      "id": "earth-0079",
+      "subtopic": "earth.geosphere.rocks",
+      "type": "order",
+      "front": "Order shale by increasing metamorphic grade.",
+      "back": "Shale → Slate → Phyllite → Schist → Gneiss",
+      "items": [
+        "Shale",
+        "Slate",
+        "Phyllite",
+        "Schist",
+        "Gneiss"
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a ladder with 5 rungs from shale at the bottom to gneiss at the top. Add arrows for more heat and pressure.",
+      "tags": []
+    },
+    {
+      "id": "earth-0080",
+      "subtopic": "earth.geosphere.rocks",
+      "type": "basic",
+      "front": "What do shield volcanoes and stratovolcanoes look like and erupt?",
+      "back": "Shield: broad and gentle, runny basalt (Hawaii). Stratovolcano: steep cone with layers of ash and lava, viscous andesite, explosive (Mount Merapi, Mount Fuji).",
+      "visual": null,
+      "sketch_prompt": "Draw the outline of a shield volcano next to a steep stratovolcano and label the magma type.",
+      "tags": []
+    },
+    {
+      "id": "earth-0081",
+      "subtopic": "earth.geosphere.rocks",
+      "type": "basic",
+      "front": "What do cross-bedding, ripple marks and mud cracks tell about the environment?",
+      "back": "Cross-bedding: moving water or wind (dunes, rivers). Ripple marks: shallow flowing water. Mud cracks: mud that dried in the air. Graded bedding: a sediment-filled flow settling.",
+      "visual": null,
+      "sketch_prompt": "Draw three small rock faces: slanted layers (cross-bedding), a wavy top (ripples) and polygon cracks (mud cracks).",
+      "tags": []
+    },
+    {
+      "id": "earth-0082",
+      "subtopic": "earth.geosphere.interior",
+      "type": "occlusion",
+      "front": "Which layer of the Earth is hidden?",
+      "back": "Crust, Mantle, Outer core, Inner core",
+      "visual": "content/earth/cards-earth-interior.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0083",
+      "subtopic": "earth.geosphere.interior",
+      "type": "occlusion",
+      "front": "Which type of plate boundary is hidden?",
+      "back": "Divergent, Convergent, Transform",
+      "visual": "content/earth/cards-plate-boundaries.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0084",
+      "subtopic": "earth.geosphere.interior",
+      "type": "occlusion",
+      "front": "Which type of fault is hidden?",
+      "back": "Normal fault, Reverse fault, Strike-slip fault",
+      "visual": "content/earth/cards-fault-types.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0085",
+      "subtopic": "earth.geosphere.interior",
+      "type": "occlusion",
+      "front": "Which soil layer is hidden?",
+      "back": "Humus / litter, Topsoil, Subsoil, Weathered rock, Bedrock",
+      "visual": "content/earth/cards-soil-horizons.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0086",
+      "subtopic": "earth.geosphere.interior",
+      "type": "match",
+      "front": "Match each layer to its state.",
+      "back": "Crust: solid, 5-70 km thick. Mantle: solid, flows slowly (to 2900 km). Outer core: liquid. Inner core: solid.",
+      "pairs": [
+        [
+          "Crust",
+          "solid, thin"
+        ],
+        [
+          "Mantle",
+          "solid but flows slowly"
+        ],
+        [
+          "Outer core",
+          "liquid iron-nickel"
+        ],
+        [
+          "Inner core",
+          "solid iron-nickel"
+        ]
+      ],
+      "visual": "content/earth/cards-earth-interior.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0087",
+      "subtopic": "earth.geosphere.interior",
+      "type": "basic",
+      "front": "Compare P waves and S waves.",
+      "back": "P: compressional, fastest, travel through solids, liquids and gases. S: shear (sideways), slower, only through solids. P arrives first.",
+      "visual": "content/earth/cards-seismic-shadow-zones.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0088",
+      "subtopic": "earth.geosphere.interior",
+      "type": "basic",
+      "front": "What are the P and S shadow zones and what do they prove?",
+      "back": "P waves are bent by the core: a shadow zone at 104°-140° from the quake. S waves stop at the liquid outer core: none beyond 104°. This showed the outer core is liquid.",
+      "visual": "content/earth/cards-seismic-shadow-zones.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0089",
+      "subtopic": "earth.geosphere.interior",
+      "type": "match",
+      "front": "Match the place to its plate setting.",
+      "back": "Mid-Atlantic Ridge = divergent boundary; Andes mountains = ocean-continent subduction; Himalayas = continent-continent collision; San Andreas Fault = transform boundary",
+      "pairs": [
+        [
+          "Mid-Atlantic Ridge",
+          "divergent boundary"
+        ],
+        [
+          "Andes mountains",
+          "ocean-continent subduction"
+        ],
+        [
+          "Himalayas",
+          "continent-continent collision"
+        ],
+        [
+          "San Andreas Fault",
+          "transform boundary"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a world map outline and mark each place with a different symbol for its boundary type.",
+      "tags": []
+    },
+    {
+      "id": "earth-0090",
+      "subtopic": "earth.geosphere.interior",
+      "type": "cloze",
+      "front": "The longer the gap between the P-wave and S-wave arrivals, the {{farther}} the earthquake. P waves are {{faster}} than S waves.",
+      "back": "The S-P time gap gives the distance to the earthquake.",
+      "visual": null,
+      "sketch_prompt": "Draw a seismogram with a small P wave first and a bigger S wave later. Mark the S-P gap with a double arrow.",
+      "tags": []
+    },
+    {
+      "id": "earth-0091",
+      "subtopic": "earth.geosphere.interior",
+      "type": "basic",
+      "front": "What drives plate tectonics?",
+      "back": "Heat in the mantle moves rock in slow convection. Plates move by slab pull (heavy sinking edge pulls the plate), ridge push and mantle drag, a few cm per year.",
+      "visual": null,
+      "sketch_prompt": "Draw the mantle as a pot of soup with convection loops. Add two plates on top with arrows showing where they move.",
+      "tags": []
+    },
+    {
+      "id": "earth-0092",
+      "subtopic": "earth.geosphere.dating",
+      "type": "occlusion",
+      "front": "Which feature of the rock layers is hidden?",
+      "back": "Angular unconformity, Dike",
+      "visual": "content/earth/cards-strata-dating.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0093",
+      "subtopic": "earth.geosphere.dating",
+      "type": "cloze",
+      "front": "After each half-life, {{half}} of the parent atoms remain: N = N₀ × (½){{ⁿ}}, with n = time ÷ half-life.",
+      "back": "After 1, 2, 3 half-lives: 50%, 25%, 12.5%.",
+      "visual": "content/earth/cards-radioactive-decay.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0094",
+      "subtopic": "earth.geosphere.dating",
+      "type": "basic",
+      "front": "State the four rules of relative dating.",
+      "back": "Superposition: older layers lie below. Original horizontality: layers form flat. Cross-cutting: a feature that cuts is younger. Inclusions: pieces inside are older than the rock around them.",
+      "visual": "content/earth/cards-strata-dating.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0095",
+      "subtopic": "earth.geosphere.dating",
+      "type": "match",
+      "front": "Match the unconformity to its description.",
+      "back": "Angular unconformity = tilted layers below horizontal layers; Disconformity = gap between parallel layers; Nonconformity = sediment on igneous or metamorphic rock",
+      "pairs": [
+        [
+          "Angular unconformity",
+          "tilted layers below horizontal layers"
+        ],
+        [
+          "Disconformity",
+          "gap between parallel layers"
+        ],
+        [
+          "Nonconformity",
+          "sediment on igneous or metamorphic rock"
+        ]
+      ],
+      "visual": "content/earth/cards-strata-dating.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0096",
+      "subtopic": "earth.geosphere.dating",
+      "type": "basic",
+      "front": "Which isotopes are used for dating, and what are their half-lives?",
+      "back": "Carbon-14: 5730 years (up to about 50 000 years). Potassium-40: 1.25 billion years. Uranium-238 → lead-206: 4.47 billion years.",
+      "visual": null,
+      "sketch_prompt": "Draw a number line from 5730 years to billions of years. Mark C-14, K-40 and U-238 on it.",
+      "tags": []
+    },
+    {
+      "id": "earth-0097",
+      "subtopic": "earth.geosphere.dating",
+      "type": "basic",
+      "front": "What is an index fossil?",
+      "back": "A fossil from a species that lived for a short time but spread widely. Finding the same one in two places shows those rock layers have the same age.",
+      "visual": null,
+      "sketch_prompt": "Draw two rock columns far apart. Join the layers that hold the same ammonite fossil with a line.",
+      "tags": []
+    },
+    {
+      "id": "earth-0098",
+      "subtopic": "earth.geosphere.dating",
+      "type": "basic",
+      "front": "How do you read strike and dip on a geologic map?",
+      "back": "Strike is the compass direction of a horizontal line on a tilted layer. Dip is the angle it slopes down and the direction it slopes. The short tick of the symbol points down-dip with the angle written next to it.",
+      "visual": null,
+      "sketch_prompt": "Draw a tilted layer. Mark the strike line, the dip arrow and the symbol with '30' next to it.",
+      "tags": []
+    },
+    {
+      "id": "earth-0099",
+      "subtopic": "earth.astronomy.mechanics",
+      "type": "occlusion",
+      "front": "Which point of the orbit is hidden?",
+      "back": "Perihelion, Aphelion",
+      "visual": "content/earth/cards-kepler-laws.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0100",
+      "subtopic": "earth.astronomy.mechanics",
+      "type": "cloze",
+      "front": "Kepler's third law: T² = {{a³}} when T is in years and a is in {{AU}}.",
+      "back": "T² ∝ a³ for all planets around the Sun.",
+      "visual": "content/earth/cards-kepler-laws.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0101",
+      "subtopic": "earth.astronomy.mechanics",
+      "type": "basic",
+      "front": "State Kepler's second law and what it says about speed.",
+      "back": "A line from the Sun to a planet sweeps out equal areas in equal times. So a planet moves fastest at perihelion and slowest at aphelion.",
+      "visual": "content/earth/cards-kepler-laws.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0102",
+      "subtopic": "earth.astronomy.mechanics",
+      "type": "cloze",
+      "front": "Newton's gravity: F = {{G M m / r²}}. If the distance doubles, the force becomes {{one quarter}}.",
+      "back": "Inverse-square law.",
+      "visual": null,
+      "sketch_prompt": "Draw two circles (masses) with arrows between them. Show the distance r. Then draw twice the distance with a quarter-size arrow.",
+      "tags": []
+    },
+    {
+      "id": "earth-0103",
+      "subtopic": "earth.astronomy.mechanics",
+      "type": "basic",
+      "front": "How do two stars in a binary system orbit?",
+      "back": "Both orbit the common center of mass (barycenter). The heavier star is closer to it and moves slower. For binaries: M₁ + M₂ = a³ ÷ T² (solar masses, AU, years).",
+      "visual": null,
+      "sketch_prompt": "Draw two stars of different sizes orbiting a common point, with the big star on a small circle and the small star on a big circle.",
+      "tags": []
+    },
+    {
+      "id": "earth-0104",
+      "subtopic": "earth.astronomy.mechanics",
+      "type": "basic",
+      "front": "What are the Doppler formula and the colors of its shifts?",
+      "back": "Δλ / λ = v / c. Moving away: longer wavelength, redshift. Moving closer: shorter wavelength, blueshift.",
+      "visual": "content/earth/cards-doppler.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0105",
+      "subtopic": "earth.astronomy.mechanics",
+      "type": "basic",
+      "front": "Name three kinds of binary star by how we detect them.",
+      "back": "Visual binary: both seen separately. Eclipsing binary: brightness dips as they pass in front. Spectroscopic binary: spectral lines shift back and forth (Doppler).",
+      "visual": null,
+      "sketch_prompt": "Draw a light curve with two dips of different depth for an eclipsing binary.",
+      "tags": []
+    },
+    {
+      "id": "earth-0106",
+      "subtopic": "earth.astronomy.mechanics",
+      "type": "basic",
+      "front": "When is Earth at perihelion and aphelion, and what causes the seasons?",
+      "back": "Perihelion about 3 January (0.983 AU), aphelion about 4 July (1.017 AU). Seasons come from the 23.4° tilt of Earth's axis, not from distance.",
+      "visual": "content/earth/cards-kepler-laws.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0107",
+      "subtopic": "earth.astronomy.radiation",
+      "type": "basic",
+      "front": "State Wien's law and what it says about star colors.",
+      "back": "λmax × T = 2.898 × 10⁻³ m·K. Hotter objects peak at shorter wavelengths: hot stars look blue-white, cool stars look red.",
+      "visual": "content/earth/cards-blackbody.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0108",
+      "subtopic": "earth.astronomy.radiation",
+      "type": "cloze",
+      "front": "Stefan–Boltzmann law: L = {{4πR²σT⁴}}. Doubling the temperature makes a star {{16}} times more luminous.",
+      "back": "Power grows with the fourth power of T.",
+      "visual": "content/earth/cards-blackbody.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0109",
+      "subtopic": "earth.astronomy.radiation",
+      "type": "basic",
+      "front": "What is albedo and what are typical values?",
+      "back": "Albedo is the fraction of sunlight reflected, from 0 to 1. Fresh snow about 0.8, Earth average about 0.3, forest about 0.12, ocean about 0.06.",
+      "visual": "content/earth/cards-albedo.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0110",
+      "subtopic": "earth.astronomy.radiation",
+      "type": "basic",
+      "front": "What is the inverse-square law for light?",
+      "back": "Flux F = L ÷ (4πd²). Doubling the distance spreads the same light over 4 times the area, so the flux falls to a quarter.",
+      "visual": null,
+      "sketch_prompt": "Draw a star with light going through a small square at distance d and a square 4 times larger at 2d.",
+      "tags": []
+    },
+    {
+      "id": "earth-0111",
+      "subtopic": "earth.astronomy.radiation",
+      "type": "basic",
+      "front": "How does the magnitude scale work?",
+      "back": "Smaller (or more negative) means brighter. 5 magnitudes = 100 times brighter, so 1 magnitude ≈ 2.512 times. Sun -26.7, Sirius -1.46, naked-eye limit about +6.",
+      "visual": "content/earth/cards-magnitude-scale.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0112",
+      "subtopic": "earth.astronomy.radiation",
+      "type": "match",
+      "front": "Match the star to its surface temperature and color.",
+      "back": "Sun = about 5800 K, yellow-white; Sirius A = about 9900 K, blue-white; Betelgeuse = about 3500 K, red; Rigel = about 12 000 K, blue-white",
+      "pairs": [
+        [
+          "Sun",
+          "about 5800 K, yellow-white"
+        ],
+        [
+          "Sirius A",
+          "about 9900 K, blue-white"
+        ],
+        [
+          "Betelgeuse",
+          "about 3500 K, red"
+        ],
+        [
+          "Rigel",
+          "about 12 000 K, blue-white"
+        ]
+      ],
+      "visual": "content/earth/cards-blackbody.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0113",
+      "subtopic": "earth.astronomy.radiation",
+      "type": "basic",
+      "front": "What are absolute magnitude and the distance modulus?",
+      "back": "Absolute magnitude M is the magnitude a star would have at 10 parsecs. Distance modulus: m − M = 5 log₁₀(d ÷ 10 pc).",
+      "visual": "content/earth/cards-magnitude-scale.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0114",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "occlusion",
+      "front": "Which part of the celestial sphere is hidden?",
+      "back": "North celestial pole, Vernal equinox, Celestial equator, Ecliptic",
+      "visual": "content/earth/cards-celestial-sphere.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0115",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "occlusion",
+      "front": "Which part of the northern sky is hidden?",
+      "back": "Polaris, Pointer stars, Big Dipper, Cassiopeia",
+      "visual": "content/earth/cards-north-sky.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0116",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "occlusion",
+      "front": "Which part of Orion is hidden?",
+      "back": "Betelgeuse, Rigel, Belt, M42",
+      "visual": "content/earth/cards-orion.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0117",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "match",
+      "front": "Match each star to its facts.",
+      "back": "Sirius = α CMa, brightest star in the night sky; Betelgeuse = α Ori, red supergiant; Rigel = β Ori, blue-white supergiant; Vega = α Lyr, bright star in Lyra; Polaris = α UMi, the north star; Proxima Centauri = α Cen C, the nearest star",
+      "pairs": [
+        [
+          "Sirius",
+          "α CMa, brightest star in the night sky"
+        ],
+        [
+          "Betelgeuse",
+          "α Ori, red supergiant"
+        ],
+        [
+          "Rigel",
+          "β Ori, blue-white supergiant"
+        ],
+        [
+          "Vega",
+          "α Lyr, bright star in Lyra"
+        ],
+        [
+          "Polaris",
+          "α UMi, the north star"
+        ],
+        [
+          "Proxima Centauri",
+          "α Cen C, the nearest star"
+        ]
+      ],
+      "visual": "content/earth/cards-orion.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0118",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "match",
+      "front": "Match each deep-sky object to its name.",
+      "back": "M42 = Orion Nebula; M31 = Andromeda Galaxy; M1 = Crab Nebula (supernova remnant); M45 = Pleiades open cluster",
+      "pairs": [
+        [
+          "M42",
+          "Orion Nebula"
+        ],
+        [
+          "M31",
+          "Andromeda Galaxy"
+        ],
+        [
+          "M1",
+          "Crab Nebula (supernova remnant)"
+        ],
+        [
+          "M45",
+          "Pleiades open cluster"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw four small sketches: a glowing cloud (M42), an oval spiral (M31), a blob with filaments (M1) and a tight group of 7 stars (M45).",
+      "tags": []
+    },
+    {
+      "id": "earth-0119",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "order",
+      "front": "Order the zodiac constellations as the Sun passes through them, starting with Aries.",
+      "back": "Aries → Taurus → Gemini → Cancer → Leo → Virgo → Libra → Scorpius → Sagittarius → Capricornus → Aquarius → Pisces",
+      "items": [
+        "Aries",
+        "Taurus",
+        "Gemini",
+        "Cancer",
+        "Leo",
+        "Virgo",
+        "Libra",
+        "Scorpius",
+        "Sagittarius",
+        "Capricornus",
+        "Aquarius",
+        "Pisces"
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a circle (the ecliptic) and place the 12 constellation names around it.",
+      "tags": []
+    },
+    {
+      "id": "earth-0120",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "match",
+      "front": "Match the zodiac constellation to its IAU abbreviation.",
+      "back": "Cancer = Cnc; Scorpius = Sco; Sagittarius = Sgr; Capricornus = Cap; Aquarius = Aqr; Pisces = Psc",
+      "pairs": [
+        [
+          "Cancer",
+          "Cnc"
+        ],
+        [
+          "Scorpius",
+          "Sco"
+        ],
+        [
+          "Sagittarius",
+          "Sgr"
+        ],
+        [
+          "Capricornus",
+          "Cap"
+        ],
+        [
+          "Aquarius",
+          "Aqr"
+        ],
+        [
+          "Pisces",
+          "Psc"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Write the 12 zodiac names and their 3-letter IAU abbreviations in a table.",
+      "tags": []
+    },
+    {
+      "id": "earth-0121",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "basic",
+      "front": "What is a circumpolar star?",
+      "back": "A star that never sets for an observer. For northern latitude φ, a star is circumpolar if its declination is greater than 90° − φ. Polaris's altitude equals the observer's latitude.",
+      "visual": "content/earth/cards-north-sky.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0122",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "basic",
+      "front": "When are the equinoxes and solstices, and where is the Sun then?",
+      "back": "Mar equinox (~20 Mar) and Sep equinox (~23 Sep): Sun on the celestial equator, dec 0°. June solstice (~21 Jun): dec +23.4°. Dec solstice (~21 Dec): dec −23.4°.",
+      "visual": "content/earth/cards-celestial-sphere.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0123",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "basic",
+      "front": "How does stellar parallax give a distance?",
+      "back": "As Earth orbits, a nearby star shifts against distant stars. d (parsecs) = 1 ÷ p (arcseconds). Proxima Centauri has p = 0.77″, so d ≈ 1.30 pc ≈ 4.2 light-years.",
+      "visual": "content/earth/cards-parallax.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0124",
+      "subtopic": "earth.astronomy.sphere",
+      "type": "match",
+      "front": "Match the constellation to a feature that helps you find it.",
+      "back": "Orion = belt of three stars; Ursa Major = the Big Dipper; Ursa Minor = contains Polaris; Cassiopeia = W or M shape; Lyra = bright star Vega; Andromeda = contains the M31 galaxy",
+      "pairs": [
+        [
+          "Orion",
+          "belt of three stars"
+        ],
+        [
+          "Ursa Major",
+          "the Big Dipper"
+        ],
+        [
+          "Ursa Minor",
+          "contains Polaris"
+        ],
+        [
+          "Cassiopeia",
+          "W or M shape"
+        ],
+        [
+          "Lyra",
+          "bright star Vega"
+        ],
+        [
+          "Andromeda",
+          "contains the M31 galaxy"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw the shapes of Orion, the Big Dipper and Cassiopeia as simple dot-to-dot patterns.",
+      "tags": []
+    },
+    {
+      "id": "earth-0125",
+      "subtopic": "earth.astronomy.solar-system",
+      "type": "occlusion",
+      "front": "Which phase of the Moon is hidden?",
+      "back": "New Moon, Waxing crescent, First quarter, Waxing gibbous, Full Moon, Waning gibbous, Third quarter, Waning crescent",
+      "visual": "content/earth/cards-moon-phases.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0126",
+      "subtopic": "earth.astronomy.solar-system",
+      "type": "occlusion",
+      "front": "Which part of the shadow is hidden?",
+      "back": "Penumbra, Umbra",
+      "visual": "content/earth/cards-eclipses.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0127",
+      "subtopic": "earth.astronomy.solar-system",
+      "type": "occlusion",
+      "front": "Which part of the Solar System is hidden?",
+      "back": "Asteroid belt, Kuiper belt",
+      "visual": "content/earth/cards-solar-system.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0128",
+      "subtopic": "earth.astronomy.solar-system",
+      "type": "order",
+      "front": "Order the planets from the Sun.",
+      "back": "Mercury → Venus → Earth → Mars → Jupiter → Saturn → Uranus → Neptune",
+      "items": [
+        "Mercury",
+        "Venus",
+        "Earth",
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Uranus",
+        "Neptune"
+      ],
+      "visual": "content/earth/cards-solar-system.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0129",
+      "subtopic": "earth.astronomy.solar-system",
+      "type": "cloze",
+      "front": "The Moon orbits Earth in {{27.3}} days (sidereal) but its phases repeat every {{29.5}} days (synodic).",
+      "back": "Earth also moves around the Sun, so the Moon needs about 2 more days to return to the same phase.",
+      "visual": "content/earth/cards-moon-phases.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0130",
+      "subtopic": "earth.astronomy.solar-system",
+      "type": "basic",
+      "front": "Why is there no eclipse every month?",
+      "back": "The Moon's orbit is tilted about 5° to Earth's orbit. Most months the Moon passes above or below the Sun-Earth line. Eclipses need a new or full moon near a node.",
+      "visual": "content/earth/cards-eclipses.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    },
+    {
+      "id": "earth-0131",
+      "subtopic": "earth.astronomy.solar-system",
+      "type": "match",
+      "front": "Match each space mission to what it did.",
+      "back": "Apollo 11 = first crewed Moon landing, 1969; Voyager 2 = flew past all four giant planets; Cassini = orbited Saturn, 2004-2017; New Horizons = Pluto flyby, 2015; Perseverance = Mars rover, landed 2021",
+      "pairs": [
+        [
+          "Apollo 11",
+          "first crewed Moon landing, 1969"
+        ],
+        [
+          "Voyager 2",
+          "flew past all four giant planets"
+        ],
+        [
+          "Cassini",
+          "orbited Saturn, 2004-2017"
+        ],
+        [
+          "New Horizons",
+          "Pluto flyby, 2015"
+        ],
+        [
+          "Perseverance",
+          "Mars rover, landed 2021"
+        ]
+      ],
+      "visual": null,
+      "sketch_prompt": "Draw a line through the Solar System and mark each mission where it went.",
+      "tags": []
+    },
+    {
+      "id": "earth-0132",
+      "subtopic": "earth.astronomy.solar-system",
+      "type": "basic",
+      "front": "Give key facts about the Earth-Moon system.",
+      "back": "Distance about 384 400 km (light takes 1.3 s). The Moon always shows the same face (synchronous rotation). It is slowly moving away, about 3.8 cm per year.",
+      "visual": "content/earth/cards-moon-phases.svg",
+      "sketch_prompt": null,
+      "tags": [
+        "diagram"
+      ]
+    }
+  ]
+}

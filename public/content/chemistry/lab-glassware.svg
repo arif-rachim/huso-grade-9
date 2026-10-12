@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 470" role="img" aria-labelledby="t d">
+  <title id="t">Common lab glassware and what each is for</title>
+  <desc id="d">Eight pieces of equipment: beaker, conical flask, graduated cylinder, volumetric flask, volumetric pipette, buret, separatory funnel and Buchner funnel with filter flask. Beaker and conical flask are approximate, the graduated cylinder is medium and the volumetric flask, pipette and buret are precise.</desc>
+  <defs>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+    <marker id="arY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ca8a04"/></marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="470" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="250" y="22" font-size="14.5" text-anchor="middle" fill="#111827" font-weight="bold">Pick the tool for the job: approximate → precise</text>
+    <rect x="6" y="34" width="116" height="186" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="8" />
+    <polyline points="38.0,54.0 38.0,144.0 90.0,144.0 90.0,54.0" fill="none" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="34" y1="54" x2="42" y2="54" stroke="#111827" stroke-width="2.4"/>
+    <line x1="72" y1="78" x2="84" y2="78" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="72" y1="102" x2="84" y2="102" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="72" y1="126" x2="84" y2="126" stroke="#6b7280" stroke-width="1.5"/>
+    <rect x="39" y="104" width="50" height="39" fill="#ca8a04" fill-opacity="0.25" stroke="none" stroke-width="0" />
+    <text x="64" y="168" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">beaker</text>
+    <text x="64" y="184" font-size="11.5" text-anchor="middle" fill="#6b7280">hold, mix, heat</text>
+    <text x="64" y="198" font-size="11.5" text-anchor="middle" fill="#6b7280">NOT for measuring</text>
+    <text x="64" y="214" font-size="12" text-anchor="middle" fill="#ca8a04">●○○○</text>
+    <rect x="128" y="34" width="116" height="186" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="8" />
+    <polyline points="176.0,54.0 176.0,82.0 154.0,144.0 218.0,144.0 196.0,82.0 196.0,54.0" fill="none" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="172" y1="54" x2="200" y2="54" stroke="#111827" stroke-width="2.4"/>
+    <polygon points="164.0,116.0 208.0,116.0 218.0,144.0 154.0,144.0" fill="#ca8a04" fill-opacity="0.25" stroke="#ca8a04" stroke-width="0" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="186" y="168" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">conical flask</text>
+    <text x="186" y="184" font-size="11.5" text-anchor="middle" fill="#6b7280">swirl titrations,</text>
+    <text x="186" y="198" font-size="11.5" text-anchor="middle" fill="#6b7280">heat, store</text>
+    <text x="186" y="214" font-size="12" text-anchor="middle" fill="#ca8a04">●○○○</text>
+    <rect x="250" y="34" width="116" height="186" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="8" />
+    <polyline points="296.0,54.0 296.0,138.0 320.0,138.0 320.0,54.0" fill="none" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="286" y1="144" x2="330" y2="144" stroke="#111827" stroke-width="3"/>
+    <line x1="308" y1="138" x2="308" y2="144" stroke="#111827" stroke-width="2.4"/>
+    <line x1="310" y1="62" x2="320" y2="62" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="310" y1="72" x2="316" y2="72" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="310" y1="82" x2="320" y2="82" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="310" y1="92" x2="316" y2="92" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="310" y1="102" x2="320" y2="102" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="310" y1="112" x2="316" y2="112" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="310" y1="122" x2="320" y2="122" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="310" y1="132" x2="316" y2="132" stroke="#6b7280" stroke-width="1.3"/>
+    <rect x="297" y="98" width="22" height="40" fill="#ca8a04" fill-opacity="0.25" stroke="none" stroke-width="0" />
+    <text x="308" y="168" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">graduated cylinder</text>
+    <text x="308" y="184" font-size="11.5" text-anchor="middle" fill="#6b7280">measure roughly</text>
+    <text x="308" y="198" font-size="11.5" text-anchor="middle" fill="#6b7280">(± 1 %)</text>
+    <text x="308" y="214" font-size="12" text-anchor="middle" fill="#ca8a04">●●○○</text>
+    <rect x="372" y="34" width="116" height="186" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5" rx="8" />
+    <path d="M 424 54 L 424 94 C 390 106 396 146 430 146 C 464 146 470 106 436 94 L 436 54" fill="none" stroke="#111827" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="420" y1="54" x2="440" y2="54" stroke="#111827" stroke-width="2.4"/>
+    <line x1="421" y1="72" x2="439" y2="72" stroke="#ca8a04" stroke-width="2.4"/>
+    <text x="442" y="76" font-size="11" text-anchor="start" fill="#6b7280">mark</text>
+    <text x="430" y="168" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">volumetric flask</text>
+    <text x="430" y="184" font-size="11.5" text-anchor="middle" fill="#6b7280">exact volume of</text>
+    <text x="430" y="198" font-size="11.5" text-anchor="middle" fill="#6b7280">a solution</text>
+    <text x="430" y="214" font-size="12" text-anchor="middle" fill="#ca8a04">●●●●</text>
+    <rect x="6" y="230" width="116" height="186" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5" rx="8" />
+    <path d="M 61 250 L 61 278 C 46 284 46 304 61 310 L 61 338 L 64 346 L 67 338 L 67 310 C 82 304 82 284 67 278 L 67 250" fill="none" stroke="#111827" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="61" y1="260" x2="67" y2="260" stroke="#ca8a04" stroke-width="2.4"/>
+    <path d="M 52 284 C 52 304 76 304 76 284" fill="#ca8a04" fill-opacity="0.25" stroke="none" stroke-width="0" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="64" y="364" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">volumetric pipette</text>
+    <text x="64" y="380" font-size="11.5" text-anchor="middle" fill="#6b7280">delivers one</text>
+    <text x="64" y="394" font-size="11.5" text-anchor="middle" fill="#6b7280">exact volume</text>
+    <text x="64" y="410" font-size="12" text-anchor="middle" fill="#ca8a04">●●●●</text>
+    <rect x="128" y="230" width="116" height="186" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5" rx="8" />
+    <polyline points="179.0,250.0 179.0,342.0 193.0,342.0 193.0,250.0" fill="none" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="188" y1="258" x2="193" y2="258" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="188" y1="267.5" x2="191" y2="267.5" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="188" y1="277" x2="193" y2="277" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="188" y1="286.5" x2="191" y2="286.5" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="188" y1="296" x2="193" y2="296" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="188" y1="305.5" x2="191" y2="305.5" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="188" y1="315" x2="193" y2="315" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="188" y1="324.5" x2="191" y2="324.5" stroke="#6b7280" stroke-width="1.3"/>
+    <line x1="188" y1="334" x2="193" y2="334" stroke="#6b7280" stroke-width="1.3"/>
+    <rect x="180" y="286" width="12" height="56" fill="#ca8a04" fill-opacity="0.25" stroke="none" stroke-width="0" />
+    <line x1="172" y1="344" x2="200" y2="344" stroke="#111827" stroke-width="3"/>
+    <line x1="186" y1="344" x2="186" y2="356" stroke="#111827" stroke-width="2.4"/>
+    <text x="186" y="364" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">buret</text>
+    <text x="186" y="380" font-size="11.5" text-anchor="middle" fill="#6b7280">delivers any volume,</text>
+    <text x="186" y="394" font-size="11.5" text-anchor="middle" fill="#6b7280">reads ± 0.05 mL</text>
+    <text x="186" y="410" font-size="12" text-anchor="middle" fill="#ca8a04">●●●●</text>
+    <rect x="250" y="230" width="116" height="186" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="8" />
+    <path d="M 303 254 L 303 272 C 274 284 284 316 304 332 L 304 342 L 312 342 L 312 332 C 332 316 342 284 313 272 L 313 254" fill="none" stroke="#111827" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="300" y="246" width="16" height="8" fill="#ca8a04" fill-opacity="0.3" stroke="#111827" stroke-width="1.5" />
+    <line x1="294" y1="336" x2="322" y2="336" stroke="#111827" stroke-width="3"/>
+    <line x1="286" y1="306" x2="330" y2="306" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 3"/>
+    <text x="318" y="296" font-size="11" text-anchor="start" fill="#6b7280">oil</text>
+    <text x="318" y="320" font-size="11" text-anchor="start" fill="#6b7280">water</text>
+    <text x="308" y="364" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">separatory funnel</text>
+    <text x="308" y="380" font-size="11.5" text-anchor="middle" fill="#6b7280">separate liquids</text>
+    <text x="308" y="394" font-size="11.5" text-anchor="middle" fill="#6b7280">that do not mix</text>
+    <text x="308" y="410" font-size="12" text-anchor="middle" fill="#ca8a04">●●○○</text>
+    <rect x="372" y="230" width="116" height="186" fill="#ffffff" stroke="#6b7280" stroke-width="1.5" rx="8" />
+    <polygon points="404.0,250.0 456.0,250.0 442.0,276.0 418.0,276.0" fill="none" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="408" y1="254" x2="452" y2="254" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="430" y1="276" x2="430" y2="290" stroke="#111827" stroke-width="2.4"/>
+    <polyline points="422.0,286.0 422.0,300.0 396.0,342.0 464.0,342.0 438.0,300.0 438.0,286.0" fill="none" stroke="#111827" stroke-width="2.4" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="450" y1="312" x2="472" y2="302" stroke="#111827" stroke-width="2.4"/>
+    <text x="460" y="298" font-size="11" text-anchor="middle" fill="#6b7280">vacuum</text>
+    <text x="430" y="364" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">Büchner funnel</text>
+    <text x="430" y="380" font-size="11.5" text-anchor="middle" fill="#6b7280">fast vacuum</text>
+    <text x="430" y="394" font-size="11.5" text-anchor="middle" fill="#6b7280">filtering of crystals</text>
+    <text x="430" y="410" font-size="12" text-anchor="middle" fill="#ca8a04">●●○○</text>
+    <text x="250" y="436" font-size="11.5" text-anchor="middle" fill="#6b7280">●●●● = most precise · shaded boxes = measuring glassware you can trust to ± 0.1 % to 0.2 %</text>
+    <text x="250" y="454" font-size="12" text-anchor="middle" fill="#6b7280">Never heat volumetric glassware: it changes its shape and size.</text>
+  </g>
+</svg>

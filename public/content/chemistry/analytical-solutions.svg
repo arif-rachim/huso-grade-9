@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 416" role="img">
+  <title>Solutions: concentration, water and salts</title>
+  <desc>Three parts: concentration units molarity (moles per liter of solution) and molality (moles per kilogram of solvent); the self-ionization of water with Kw = 1.0e-14 at 25 C; and salt hydrolysis: strong acid with strong base is neutral, weak acid with strong base is basic, strong acid with weak base is acidic.</desc>
+  <rect x="0" y="0" width="440" height="416" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="20" font-size="15" text-anchor="middle" font-weight="bold">Solutions in one page</text>
+    <rect x="8" y="32" width="206" height="84" rx="8" fill="#ca8a04" fill-opacity="0.1" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="111" y="52" font-size="13" text-anchor="middle" font-weight="bold" fill="#ca8a04">molarity  M  (mol/L)</text>
+    <text x="111" y="72" font-size="11" text-anchor="middle">M = mol solute ÷ L of SOLUTION</text>
+    <text x="111" y="90" font-size="11" text-anchor="middle" fill="#6b7280">changes with temperature</text>
+    <text x="111" y="106" font-size="11" text-anchor="middle" fill="#6b7280">(volume expands)</text>
+    <rect x="226" y="32" width="206" height="84" rx="8" fill="#ca8a04" fill-opacity="0.1" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="329" y="52" font-size="13" text-anchor="middle" font-weight="bold" fill="#ca8a04">molality  m  (mol/kg)</text>
+    <text x="329" y="72" font-size="11" text-anchor="middle">m = mol solute ÷ kg of SOLVENT</text>
+    <text x="329" y="90" font-size="11" text-anchor="middle" fill="#6b7280">does not change with</text>
+    <text x="329" y="106" font-size="11" text-anchor="middle" fill="#6b7280">temperature (mass is constant)</text>
+    <rect x="8" y="128" width="424" height="92" rx="8" fill="none" fill-opacity="1" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="220" y="148" font-size="13" text-anchor="middle" font-weight="bold">Water ionizes a little:   2 H₂O  ⇌  H₃O⁺ + OH⁻</text>
+    <text x="220" y="170" font-size="13" text-anchor="middle" font-weight="bold" fill="#ca8a04">Kw = [H⁺][OH⁻] = 1.0 × 10⁻¹⁴  (25 °C)</text>
+    <text x="220" y="190" font-size="12" text-anchor="middle">pure water: [H⁺] = [OH⁻] = 1.0 × 10⁻⁷ M,  pH = 7</text>
+    <text x="220" y="208" font-size="11" text-anchor="middle" fill="#6b7280">pH + pOH = 14.  Warmer water: Kw is bigger, pH &lt; 7, but still neutral</text>
+    <text x="220" y="242" font-size="13" text-anchor="middle" font-weight="bold">Salt hydrolysis: which ion reacts with water?</text>
+    <rect x="8" y="254" width="208" height="66" rx="8" fill="#ca8a04" fill-opacity="0.05" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="112" y="271" font-size="12" text-anchor="middle" font-weight="bold">strong acid + strong base</text>
+    <text x="112" y="287" font-size="11" text-anchor="middle" fill="#6b7280">NaCl, KNO₃</text>
+    <text x="112" y="303" font-size="11" text-anchor="middle">no hydrolysis</text>
+    <text x="112" y="316" font-size="11" text-anchor="middle" font-weight="bold" fill="#ca8a04">pH = 7</text>
+    <rect x="224" y="254" width="208" height="66" rx="8" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="328" y="271" font-size="12" text-anchor="middle" font-weight="bold">weak acid + strong base</text>
+    <text x="328" y="287" font-size="11" text-anchor="middle" fill="#6b7280">CH₃COONa, Na₂CO₃</text>
+    <text x="328" y="303" font-size="11" text-anchor="middle">A⁻ + H₂O ⇌ HA + OH⁻</text>
+    <text x="328" y="316" font-size="11" text-anchor="middle" font-weight="bold" fill="#ca8a04">pH &gt; 7</text>
+    <rect x="8" y="328" width="208" height="66" rx="8" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="112" y="345" font-size="12" text-anchor="middle" font-weight="bold">strong acid + weak base</text>
+    <text x="112" y="361" font-size="11" text-anchor="middle" fill="#6b7280">NH₄Cl</text>
+    <text x="112" y="377" font-size="11" text-anchor="middle">NH₄⁺ + H₂O ⇌ NH₃ + H₃O⁺</text>
+    <text x="112" y="390" font-size="11" text-anchor="middle" font-weight="bold" fill="#ca8a04">pH &lt; 7</text>
+    <rect x="224" y="328" width="208" height="66" rx="8" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="328" y="345" font-size="12" text-anchor="middle" font-weight="bold">small, highly charged cation</text>
+    <text x="328" y="361" font-size="11" text-anchor="middle" fill="#6b7280">AlCl₃, FeCl₃</text>
+    <text x="328" y="377" font-size="11" text-anchor="middle">[Al(H₂O)₆]³⁺ gives H⁺</text>
+    <text x="328" y="390" font-size="11" text-anchor="middle" font-weight="bold" fill="#ca8a04">pH &lt; 7</text>
+    <text x="220" y="410" font-size="11" text-anchor="middle" fill="#6b7280">Both ions weak (NH₄F, NH₄CN...): compare Ka of the acid with Kb of the base</text>
+  </g>
+</svg>

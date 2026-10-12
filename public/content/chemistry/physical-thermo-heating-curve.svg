@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" role="img" aria-labelledby="t d">
+  <title id="t">Heating curve of one mole of water</title>
+  <desc id="d">Temperature against heat added for 1 mole of water from minus 20 to plus 120 degrees C. Plateau at 0 degrees for melting needs 6.01 kJ and at 100 degrees for boiling needs 40.7 kJ. Heating the liquid from 0 to 100 needs 7.54 kJ.</desc>
+  <defs>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+    <marker id="arY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ca8a04"/></marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="400" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="250" y="24" font-size="14.5" text-anchor="middle" fill="#111827" font-weight="bold">Heating 1 mol (18 g) of water at constant pressure</text>
+    <line x1="70" y1="265.714" x2="470" y2="265.714" stroke="#d1d5db" stroke-width="1"/>
+    <text x="62" y="269.714" font-size="12" text-anchor="end" fill="#6b7280">0 °C</text>
+    <line x1="70" y1="94.2857" x2="470" y2="94.2857" stroke="#d1d5db" stroke-width="1"/>
+    <text x="62" y="98.2857" font-size="12" text-anchor="end" fill="#6b7280">100 °C</text>
+    <text x="62" y="304" font-size="12" text-anchor="end" fill="#6b7280">−20</text>
+    <text x="62" y="64" font-size="12" text-anchor="end" fill="#6b7280">120</text>
+    <line x1="70" y1="300" x2="470" y2="300" stroke="#111827" stroke-width="2"/>
+    <line x1="70" y1="300" x2="70" y2="54" stroke="#111827" stroke-width="2"/>
+    <text x="270" y="338" font-size="13" text-anchor="middle" fill="#111827">heat added (kJ)</text>
+    <text x="18" y="180" font-size="13" text-anchor="middle" fill="#111827" transform="rotate(-90 18 180)">temperature</text>
+    <polyline points="70.0,300.0 75.4,265.7 118.6,265.7 172.8,94.3 465.2,94.3 470.0,60.0" fill="none" stroke="#ca8a04" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="70" y1="300" x2="70" y2="306" stroke="#111827" stroke-width="1.5"/>
+    <text x="70" y="320" font-size="12" text-anchor="middle" fill="#6b7280">0</text>
+    <line x1="141.86" y1="300" x2="141.86" y2="306" stroke="#111827" stroke-width="1.5"/>
+    <text x="141.86" y="320" font-size="12" text-anchor="middle" fill="#6b7280">10</text>
+    <line x1="213.721" y1="300" x2="213.721" y2="306" stroke="#111827" stroke-width="1.5"/>
+    <text x="213.721" y="320" font-size="12" text-anchor="middle" fill="#6b7280">20</text>
+    <line x1="285.581" y1="300" x2="285.581" y2="306" stroke="#111827" stroke-width="1.5"/>
+    <text x="285.581" y="320" font-size="12" text-anchor="middle" fill="#6b7280">30</text>
+    <line x1="357.442" y1="300" x2="357.442" y2="306" stroke="#111827" stroke-width="1.5"/>
+    <text x="357.442" y="320" font-size="12" text-anchor="middle" fill="#6b7280">40</text>
+    <line x1="429.302" y1="300" x2="429.302" y2="306" stroke="#111827" stroke-width="1.5"/>
+    <text x="429.302" y="320" font-size="12" text-anchor="middle" fill="#6b7280">50</text>
+    <text x="101.584" y="253.714" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">melting 6.01 kJ</text>
+    <text x="125.584" y="168.857" font-size="12" text-anchor="start" fill="#111827">liquid warms: 7.54 kJ</text>
+    <text x="313.512" y="82.2857" font-size="12" text-anchor="end" fill="#ca8a04" font-weight="bold">boiling: 40.7 kJ (the long flat part)</text>
+    <text x="464.263" y="73.7143" font-size="12" text-anchor="end" fill="#6b7280">steam warms: 0.66 kJ</text>
+    <text x="90" y="282.857" font-size="12" text-anchor="start" fill="#6b7280">ice warms: 0.75 kJ</text>
+    <rect x="20" y="342" width="460" height="46" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="30" y="361" font-size="12.5" text-anchor="start" fill="#111827">During a phase change the temperature stays flat: the heat breaks attractions,</text>
+    <text x="30" y="379" font-size="12.5" text-anchor="start" fill="#111827">it does not speed up molecules.   q = n·ΔH_fus or n·ΔH_vap;   q = m·c·ΔT elsewhere.</text>
+  </g>
+</svg>

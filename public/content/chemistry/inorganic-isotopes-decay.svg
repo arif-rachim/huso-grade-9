@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 346" role="img">
+  <title>Isotopes and radioactive decay</title>
+  <desc>Top: the nuclide symbol for carbon-14 with mass number 14, atomic number 6, 6 protons, 8 neutrons and 6 electrons. Bottom: alpha decay lowers A by 4 and Z by 2; beta-minus decay keeps A and raises Z by 1; gamma keeps both. Alpha is stopped by paper, beta by aluminum foil, gamma needs thick lead.</desc>
+  <rect x="0" y="0" width="440" height="346" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="20" font-size="15" text-anchor="middle" font-weight="bold">Reading a nuclide, and three kinds of decay</text>
+    <text x="52" y="62" font-size="20" text-anchor="middle" font-weight="bold">14</text>
+    <text x="52" y="100" font-size="20" text-anchor="middle" font-weight="bold">6</text>
+    <text x="88" y="92" font-size="46" text-anchor="middle" font-weight="bold" fill="#ca8a04">C</text>
+    <line x1="78" y1="56" x2="118" y2="40" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M111.6 46.3 L118 40 L109.0 39.8" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="122" y="38" font-size="12" text-anchor="start">mass number A = p + n = 14</text>
+    <line x1="78" y1="100" x2="118" y2="112" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M109.1 113.0 L118 112 L111.1 106.3" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round"/>
+    <text x="122" y="116" font-size="12" text-anchor="start">atomic number Z = p = 6</text>
+    <circle cx="350" cy="80" r="44" fill="none" fill-opacity="1" stroke="#d1d5db" stroke-width="1.2" stroke-dasharray="3 3"/>
+    <circle cx="384" cy="52" r="5" fill="#111827" fill-opacity="1"/>
+    <circle cx="312" cy="102" r="5" fill="#111827" fill-opacity="1"/>
+    <circle cx="350" cy="80" r="25" fill="#ca8a04" fill-opacity="0.25" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="350" y="77" font-size="13" text-anchor="middle" font-weight="bold">6 p⁺</text>
+    <text x="350" y="93" font-size="13" text-anchor="middle" font-weight="bold">8 n</text>
+    <text x="350" y="142" font-size="11" text-anchor="middle" fill="#6b7280">6 e⁻ around it</text>
+    <text x="220" y="156" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">Isotopes: same Z, different A (¹²C, ¹³C, ¹⁴C), same chemistry</text>
+    <rect x="8" y="172" width="136" height="158" rx="8" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="76" y="194" font-size="14" text-anchor="middle" font-weight="bold" fill="#ca8a04">α decay</text>
+    <text x="76" y="222" font-size="12" text-anchor="middle">²³⁸U → ²³⁴Th + ⁴He</text>
+    <text x="76" y="256" font-size="13" text-anchor="middle" font-weight="bold">A − 4,  Z − 2</text>
+    <rect x="20" y="284" width="112" height="12" rx="0" fill="#ffffff" fill-opacity="1" stroke="#6b7280" stroke-width="1"/>
+    <rect x="20" y="284" width="22" height="12" rx="0" fill="#ca8a04" fill-opacity="0.7" stroke="#6b7280" stroke-width="1"/>
+    <text x="76" y="316" font-size="11" text-anchor="middle" fill="#6b7280">stopped by paper</text>
+    <rect x="152" y="172" width="136" height="158" rx="8" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="220" y="194" font-size="14" text-anchor="middle" font-weight="bold" fill="#ca8a04">β⁻ decay</text>
+    <text x="220" y="222" font-size="12" text-anchor="middle">¹⁴C → ¹⁴N + e⁻</text>
+    <text x="220" y="256" font-size="13" text-anchor="middle" font-weight="bold">A same,  Z + 1</text>
+    <rect x="164" y="284" width="112" height="12" rx="0" fill="#ffffff" fill-opacity="1" stroke="#6b7280" stroke-width="1"/>
+    <rect x="164" y="284" width="56" height="12" rx="0" fill="#ca8a04" fill-opacity="0.7" stroke="#6b7280" stroke-width="1"/>
+    <text x="220" y="316" font-size="11" text-anchor="middle" fill="#6b7280">stopped by aluminum foil</text>
+    <rect x="296" y="172" width="136" height="158" rx="8" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="364" y="194" font-size="14" text-anchor="middle" font-weight="bold" fill="#ca8a04">γ emission</text>
+    <text x="364" y="222" font-size="12" text-anchor="middle">nucleus* → nucleus + γ</text>
+    <text x="364" y="256" font-size="13" text-anchor="middle" font-weight="bold">A same,  Z same</text>
+    <rect x="308" y="284" width="112" height="12" rx="0" fill="#ffffff" fill-opacity="1" stroke="#6b7280" stroke-width="1"/>
+    <rect x="308" y="284" width="112" height="12" rx="0" fill="#ca8a04" fill-opacity="0.7" stroke="#6b7280" stroke-width="1"/>
+    <text x="364" y="316" font-size="11" text-anchor="middle" fill="#6b7280">thick lead needed</text>
+    <text x="220" y="340" font-size="11" text-anchor="middle" fill="#6b7280">Nuclear equations: the A's add up equally on both sides, and so do the Z's</text>
+  </g>
+</svg>

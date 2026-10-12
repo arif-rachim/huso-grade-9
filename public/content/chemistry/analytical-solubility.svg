@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 372" role="img">
+  <title>Solubility curve and the Q versus Ksp rule</title>
+  <desc>Solubility curves of KNO3 (rising steeply with temperature) and NaCl (almost flat) in grams per 100 grams of water. Below the curve is unsaturated, on the curve is saturated, above the curve is supersaturated. Below the chart: Q less than Ksp means unsaturated, Q equal to Ksp means saturated, Q greater than Ksp means a precipitate forms.</desc>
+  <rect x="0" y="0" width="440" height="372" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="20" font-size="15" text-anchor="middle" font-weight="bold">How much can dissolve? Saturated or not?</text>
+    <polygon points="62.0,233.8 133.6,218.9 205.2,193.8 276.8,157.7 348.4,111.4 420.0,51.0 420.0,40.0 62.0,40.0" fill="#6b7280" fill-opacity="0.12"/>
+    <polygon points="62.0,244.0 62.0,233.8 133.6,218.9 205.2,193.8 276.8,157.7 348.4,111.4 420.0,51.0 420.0,244.0" fill="#ca8a04" fill-opacity="0.14"/>
+    <line x1="62" y1="244" x2="420" y2="244" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="62" y1="244" x2="62" y2="34" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="58" y1="244.0" x2="62" y2="244.0" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="54" y="248.0" font-size="11" text-anchor="end" fill="#6b7280">0</text>
+    <line x1="58" y1="204.76923076923077" x2="62" y2="204.76923076923077" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="54" y="208.76923076923077" font-size="11" text-anchor="end" fill="#6b7280">50</text>
+    <line x1="58" y1="165.53846153846155" x2="62" y2="165.53846153846155" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="54" y="169.53846153846155" font-size="11" text-anchor="end" fill="#6b7280">100</text>
+    <line x1="58" y1="126.3076923076923" x2="62" y2="126.3076923076923" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="54" y="130.30769230769232" font-size="11" text-anchor="end" fill="#6b7280">150</text>
+    <line x1="58" y1="87.07692307692307" x2="62" y2="87.07692307692307" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="54" y="91.07692307692307" font-size="11" text-anchor="end" fill="#6b7280">200</text>
+    <line x1="58" y1="47.84615384615384" x2="62" y2="47.84615384615384" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="54" y="51.84615384615384" font-size="11" text-anchor="end" fill="#6b7280">250</text>
+    <line x1="62.0" y1="244" x2="62.0" y2="248" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="62.0" y="261" font-size="11" text-anchor="middle" fill="#6b7280">0</text>
+    <line x1="133.6" y1="244" x2="133.6" y2="248" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="133.6" y="261" font-size="11" text-anchor="middle" fill="#6b7280">20</text>
+    <line x1="205.2" y1="244" x2="205.2" y2="248" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="205.2" y="261" font-size="11" text-anchor="middle" fill="#6b7280">40</text>
+    <line x1="276.8" y1="244" x2="276.8" y2="248" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="276.8" y="261" font-size="11" text-anchor="middle" fill="#6b7280">60</text>
+    <line x1="348.4" y1="244" x2="348.4" y2="248" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="348.4" y="261" font-size="11" text-anchor="middle" fill="#6b7280">80</text>
+    <line x1="420.0" y1="244" x2="420.0" y2="248" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="420.0" y="261" font-size="11" text-anchor="middle" fill="#6b7280">100</text>
+    <text x="240" y="276" font-size="12" text-anchor="middle" fill="#6b7280">temperature (°C)</text>
+    <text transform="rotate(-90 16 140)" x="16" y="140" font-size="12" text-anchor="middle" fill="#6b7280">g solute per 100 g water</text>
+    <polyline points="62.0,233.8 133.6,218.9 205.2,193.8 276.8,157.7 348.4,111.4 420.0,51.0" fill="none" stroke="#ca8a04" stroke-width="3"/>
+    <polyline points="62.0,216.0 133.6,215.8 205.2,215.4 276.8,214.9 348.4,214.2 420.0,213.2" fill="none" stroke="#6b7280" stroke-width="3"/>
+    <text x="198.04" y="126.3076923076923" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">KNO₃ curve = saturated</text>
+    <text x="319.76" y="226.73846153846154" font-size="12" text-anchor="middle" font-weight="bold" fill="#6b7280">NaCl: almost flat</text>
+    <text x="155.07999999999998" y="75.30769230769232" font-size="13" text-anchor="middle" font-weight="bold" fill="#6b7280">SUPERSATURATED</text>
+    <text x="155.07999999999998" y="87.07692307692307" font-size="11" text-anchor="middle" fill="#6b7280">(unstable)</text>
+    <text x="319.76" y="182.8" font-size="13" text-anchor="middle" font-weight="bold" fill="#ca8a04">UNSATURATED</text>
+    <text x="319.76" y="195.35384615384615" font-size="11" text-anchor="middle" fill="#6b7280">(more can dissolve)</text>
+    <circle cx="348.4" cy="149.8" r="5" fill="#111827" fill-opacity="1"/>
+    <circle cx="133.6" cy="149.8" r="5" fill="#ffffff" fill-opacity="1" stroke="#111827" stroke-width="2"/>
+    <line x1="340.4" y1="149.8" x2="142.6" y2="149.8" stroke="#111827" stroke-width="2"/>
+    <path d="M150.9 146.3 L142.6 149.8 L150.9 153.3" fill="none" stroke="#111827" stroke-width="2" stroke-linejoin="round"/>
+    <text x="241.0" y="141.84615384615384" font-size="11" text-anchor="middle">cool slowly, no crystals</text>
+    <rect x="8" y="304" width="136" height="58" rx="8" fill="#ca8a04" fill-opacity="0.1" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="76" y="324" font-size="14" text-anchor="middle" font-weight="bold" fill="#ca8a04">Q &lt; Ksp</text>
+    <text x="76" y="340" font-size="12" text-anchor="middle">unsaturated</text>
+    <text x="76" y="355" font-size="11" text-anchor="middle" fill="#6b7280">nothing precipitates</text>
+    <rect x="152" y="304" width="136" height="58" rx="8" fill="#ca8a04" fill-opacity="0.18" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="220" y="324" font-size="14" text-anchor="middle" font-weight="bold" fill="#ca8a04">Q = Ksp</text>
+    <text x="220" y="340" font-size="12" text-anchor="middle">saturated</text>
+    <text x="220" y="355" font-size="11" text-anchor="middle" fill="#6b7280">equilibrium</text>
+    <rect x="296" y="304" width="136" height="58" rx="8" fill="#ca8a04" fill-opacity="0.26" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="364" y="324" font-size="14" text-anchor="middle" font-weight="bold" fill="#ca8a04">Q &gt; Ksp</text>
+    <text x="364" y="340" font-size="12" text-anchor="middle">supersaturated</text>
+    <text x="364" y="355" font-size="11" text-anchor="middle" fill="#6b7280">solid precipitates</text>
+  </g>
+</svg>

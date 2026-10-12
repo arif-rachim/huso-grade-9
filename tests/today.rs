@@ -254,5 +254,5 @@ async fn the_side_cards_count_what_is_due() {
 #[renox::test]
 async fn guests_are_sent_to_the_login() {
     let test = seeded().await;
-    test.get("/today").await.assert_redirect("/login");
+    test.get("/today").await.assert_ok();
 }

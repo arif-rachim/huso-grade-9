@@ -1,20 +1,24 @@
 <rx-page layout="layouts/app.html">
   <rx-page-header title="{{ title }}">
     <rx-link-button href="{{ route('lessons.index') }}" label="All materials" variant="secondary" size="small"/>
-    {% if not is_parent %}<rx-link-button href="{{ route('canvas.show', slug) }}" label="Redraw from memory" variant="secondary" size="small"/>{% endif %}
+    {% if guest %}<rx-link-button href="{{ route('login.required', next=route('canvas.show', slug), why='save') }}" label="Log in to redraw from memory" variant="secondary" size="small"/>
+    {% elif not is_parent %}<rx-link-button href="{{ route('canvas.show', slug) }}" label="Redraw from memory" variant="secondary" size="small"/>{% endif %}
   </rx-page-header>
 
   <div class="lesson-head" style="--subject-color: {{ color }}">
     <span class="today-chip"><span aria-hidden="true">{{ emoji }}</span> {{ subject_name }}</span>
-    <rx-badge kind="{{ status_kind }}">{{ status_icon }} {{ status_label }}</rx-badge>
+    {% if not guest %}<rx-badge kind="{{ status_kind }}">{{ status_icon }} {{ status_label }}</rx-badge>{% endif %}
     {% if scheduled %}<span class="lesson-head__meta">Scheduled {{ scheduled }}</span>{% endif %}
-    <span class="lesson-head__meta">{{ "Drawn from memory" if drawn else "Not drawn yet" }} · Best check: {% if best_score is not none %}{{ best_score }}/5{% else %}-{% endif %}</span>
+    {% if not guest %}<span class="lesson-head__meta">{{ "Drawn from memory" if drawn else "Not drawn yet" }} · Best check: {% if best_score is not none %}{{ best_score }}/5{% else %}-{% endif %}</span>{% endif %}
   </div>
 
   <article class="lesson-body" style="--subject-color: {{ color }}">{{ body_html | safe }}</article>
 
   <rx-card title="Redrew it?" subtitle="Close the page, draw it in 5 minutes, then compare with the pictures.">
-    {% if is_parent %}
+    {% if guest %}
+    <p>Log in to save that you redrew this from memory.</p>
+    <rx-link-button href="{{ route('login.required', next=route('lessons.show', slug), why='save') }}" label="Log in to save" variant="primary"/>
+    {% elif is_parent %}
     <p>{{ "The student marked this as redrawn from memory." if drawn else "Not marked as redrawn yet." }}</p>
     {% else %}
     <rx-form action="{{ route('lessons.drawn', slug) }}">
@@ -28,14 +32,16 @@
     {% if last_attempt %}
     <rx-alert kind="{{ 'success' if last_attempt.passed else 'warning' }}" message="Last try ({{ last_attempt.on }}): {{ last_attempt.score }} of 5 right."/>
     {% endif %}
-    {% if is_parent %}
+    {% if guest %}
+    <rx-alert kind="info">Log in to answer questions and save your progress. You can read the questions first.</rx-alert>
+    {% elif is_parent %}
     <p class="lesson-head__meta">The student answers the five questions here. You can read them and see the last result.</p>
     {% endif %}
     <rx-form action="{{ route('lessons.check', slug) }}" x-data="lessonCheck()" @keydown.window="pick($event)" id="lesson-check">
       {% for q in questions %}
       <div class="lesson-q {% if q.result %}{{ 'is-right' if q.result.correct else 'is-wrong' }}{% endif %}" data-q="{{ q.field }}">
         <div class="lesson-q__text"><strong>{{ q.number }}.</strong> {{ q.text_html | safe }}</div>
-        <rx-radio name="{{ q.field }}" label="Question {{ q.number }}" :options="q.options" :selected="q.chosen" :disabled="is_parent"/>
+        <rx-radio name="{{ q.field }}" label="Question {{ q.number }}" :options="q.options" :selected="q.chosen" :disabled="is_parent or guest"/>
         {% if q.result %}
         <div class="lesson-q__result">
           {% if q.result.correct %}Right.{% else %}Not quite. The answer is ({{ q.result.answer }}).{% endif %}
@@ -44,7 +50,11 @@
         {% endif %}
       </div>
       {% endfor %}
-      {% if not is_parent %}
+      {% if guest %}
+      <div class="rx-card__footer">
+        <rx-link-button href="{{ route('login.required', next=route('lessons.show', slug), why='answer') }}" label="Log in to check my answers"/>
+      </div>
+      {% elif not is_parent %}
       <div class="rx-card__footer">
         <span class="lesson-head__meta">Keys A to E pick an answer for the next open question.</span>
         <rx-button label="Check my answers"/>

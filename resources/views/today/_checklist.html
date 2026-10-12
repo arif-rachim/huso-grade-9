@@ -1,16 +1,23 @@
 {#- The live checklist (src/app/today/mod.rs). `state` is the component's struct,
     `data` what its `data` returned: blocks, done, total, percent, complete. -#}
+{% if state.guest %}
+<rx-alert kind="info">
+  Log in to tick off tasks and save your progress.
+  <rx-link-button href="{{ route('login.required', next=route('today.index'), why='tick') }}" label="Log in" size="small"/>
+</rx-alert>
+{% else %}
 <div class="today-progress" aria-live="polite">
   <rx-progress :value="data.percent" label="Tasks done today" :show-value="false"/>
   <strong class="today-progress__count" id="today-count">{{ data.done }}/{{ data.total }} tasks</strong>
 </div>
+{% endif %}
 {% if data.complete %}
 <rx-alert kind="success" message="Today is done! 🎉"/>
 {% endif %}
 {% if data.future %}
 <rx-alert kind="info" message="This day has not started yet. You can tick its tasks on the day."/>
 {% endif %}
-{% if state.readonly %}
+{% if state.readonly and not state.guest %}
 <rx-alert kind="info" message="Read-only: you are looking at the student's checklist."/>
 {% endif %}
 {% for block in data.blocks %}

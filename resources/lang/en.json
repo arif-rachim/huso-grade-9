@@ -11,6 +11,7 @@
     "parent": "Parent",
     "account": "Account",
     "logout": "Log out",
+    "login": "Log in",
     "countdown_hint": "Days until HUSO Round 1 (15 Nov 2026)"
   }
 }

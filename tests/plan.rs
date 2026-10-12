@@ -249,6 +249,7 @@ async fn the_parent_sees_the_students_calendar_read_only() {
 #[renox::test]
 async fn guests_are_sent_to_the_login() {
     let test = seeded().await;
-    test.get("/plan").await.assert_redirect("/login");
-    test.get("/plan/2026-10-13").await.assert_redirect("/login");
+    // The calendar and the days are public (without progress).
+    test.get("/plan").await.assert_ok();
+    test.get("/plan/2026-10-13").await.assert_ok();
 }

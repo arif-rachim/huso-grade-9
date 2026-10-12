@@ -29,7 +29,6 @@ impl Module for Plan {
             .name("plan.index")
             .get("/plan/{date}", show)
             .name("plan.show")
-            .require_auth()
     }
 }
 
@@ -187,6 +186,8 @@ struct PlanPage {
     minutes_done: i64,
     minutes_total: i64,
     readonly: bool,
+    /// Not logged in: a plain calendar, no progress, no streak.
+    guest: bool,
 }
 
 const MONTHS: [&str; 12] = [
@@ -220,10 +221,14 @@ fn short_date(d: NaiveDate) -> String {
     format!("{} {}", d.day(), MONTHS[d.month0() as usize])
 }
 
-async fn index(user: AuthUser, State(db): State<Db>) -> Result<View> {
+async fn index(user: Option<AuthUser>, State(db): State<Db>) -> Result<View> {
     let today = crate::clock::today();
-    let readonly = !user.has_role("student");
-    let student = today::student_id(&db, &user).await?;
+    let guest = user.is_none();
+    let readonly = user.as_ref().is_none_or(|u| !u.has_role("student"));
+    let student = match &user {
+        Some(u) => today::student_id(&db, u).await?,
+        None => None,
+    };
     let counts = match student {
         Some(id) => day_counts(&db, id).await?,
         None => HashMap::new(),
@@ -241,7 +246,12 @@ async fn index(user: AuthUser, State(db): State<Db>) -> Result<View> {
     let (mut minutes_done, mut minutes_total) = (0, 0);
     for d in &plan {
         let (total, done) = counts.get(&d.id).copied().unwrap_or((0, 0));
-        let status = status_of(d.date, today, done, total);
+        // A guest has no progress: every day is just "upcoming" (the cell shows its minutes).
+        let status = if guest {
+            Status::Future
+        } else {
+            status_of(d.date, today, done, total)
+        };
         let percent = percent_of(done, total);
         flags.push((d.date, status == Status::Done));
         days_passed += i64::from(d.date <= today);
@@ -354,6 +364,7 @@ async fn index(user: AuthUser, State(db): State<Db>) -> Result<View> {
         minutes_done,
         minutes_total,
         readonly,
+        guest,
     }))
 }
 
@@ -361,12 +372,12 @@ async fn index(user: AuthUser, State(db): State<Db>) -> Result<View> {
 /// future days cannot (the checklist refuses).
 async fn show(
     ctx: LiveContext,
-    user: AuthUser,
+    user: Option<AuthUser>,
     State(db): State<Db>,
     Path(date): Path<String>,
 ) -> Result<View> {
     let date = NaiveDate::parse_from_str(&date, "%Y-%m-%d").map_err(|_| Error::NotFound)?;
-    today::day_view(ctx, &user, &db, date).await
+    today::day_view(ctx, user.as_ref(), &db, date).await
 }
 
 #[cfg(test)]

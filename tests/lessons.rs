@@ -423,8 +423,10 @@ async fn the_parent_reads_but_cannot_save() {
 #[renox::test]
 async fn guests_are_sent_to_the_login() {
     let test = seeded().await;
-    test.get("/lessons").await.assert_redirect("/login");
-    test.get(&format!("/lessons/{NERVOUS}"))
+    // Reading is public; saving is not.
+    test.get("/lessons").await.assert_ok();
+    test.get(&format!("/lessons/{NERVOUS}")).await.assert_ok();
+    test.post(&format!("/lessons/{NERVOUS}/check"), &[("q1", "A")])
         .await
         .assert_redirect("/login");
 }

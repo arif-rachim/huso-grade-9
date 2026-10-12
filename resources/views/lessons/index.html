@@ -1,19 +1,21 @@
 <rx-page layout="layouts/app.html">
-  <rx-page-header title="Materials" subtitle="Picture-first lessons. Study, redraw from memory, then check yourself. {{ ready }} of {{ total }} ready."/>
+  <rx-page-header title="Materials" :subtitle="'Picture-first lessons. Study, redraw from memory, then check yourself.' ~ ('' if guest else ' ' ~ ready ~ ' of ' ~ total ~ ' ready.')"/>
 
   {% for g in groups %}
   <section class="lessons-group" style="--subject-color: {{ g.color }}">
-    <h2 class="lessons-group__title"><span aria-hidden="true">{{ g.emoji }}</span> {{ g.name }} <span class="lessons-group__count">{{ g.ready }} / {{ g.total }} ready</span></h2>
+    <h2 class="lessons-group__title"><span aria-hidden="true">{{ g.emoji }}</span> {{ g.name }} <span class="lessons-group__count">{% if guest %}{{ g.total }} lessons{% else %}{{ g.ready }} / {{ g.total }} ready{% endif %}</span></h2>
     <ul class="lessons-list">
       {% for item in g.items %}
       <li class="lessons-item">
         <a class="lessons-item__name" href="{{ route('lessons.show', item.slug) }}">{{ item.name }}</a>
         <span class="lessons-item__meta">
           {% if item.scheduled %}<span>{{ item.scheduled }}</span>{% endif %}
+          {% if not guest %}
           <span>{{ "Drawn" if item.drawn else "Not drawn" }}</span>
           <span>Check: {% if item.best_score is not none %}{{ item.best_score }}/5{% else %}-{% endif %}</span>
+          {% endif %}
         </span>
-        <rx-badge kind="{{ item.status_kind }}">{{ item.status_icon }} {{ item.status_label }}</rx-badge>
+        {% if not guest %}<rx-badge kind="{{ item.status_kind }}">{{ item.status_icon }} {{ item.status_label }}</rx-badge>{% endif %}
       </li>
       {% endfor %}
     </ul>

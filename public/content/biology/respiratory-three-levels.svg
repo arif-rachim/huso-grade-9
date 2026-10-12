@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 380" role="img">
+  <title>Breathing, gas exchange and tissue respiration are three different things</title>
+  <desc>Step 1, breathing, moves air in and out of the lungs. Step 2, gas exchange, moves oxygen into the blood and carbon dioxide out of it by diffusion. Step 3, tissue respiration, happens inside cells: glucose and oxygen make carbon dioxide, water and energy, some of it as heat.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="5" markerHeight="5" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#14532d"/></marker></defs>
+  <rect width="600" height="380" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="300" y="22" font-size="16" font-weight="bold" text-anchor="middle">Three different jobs, one chain</text>
+    <g>
+      <rect x="20" y="36" width="560" height="86" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+      <circle cx="52" cy="79" r="16" fill="#16a34a"/><text x="52" y="85" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+      <text x="84" y="62" font-size="15" font-weight="bold" fill="#14532d">BREATHING  (a physical movement)</text>
+      <text x="84" y="82" font-size="13">Where: nose, airway, lungs, diaphragm and ribs</text>
+      <text x="84" y="102" font-size="13">What: moves fresh air in and stale air out</text>
+    </g>
+    <line x1="300" y1="124" x2="300" y2="146" stroke="#14532d" stroke-width="3" marker-end="url(#arG)"/>
+    <g>
+      <rect x="20" y="150" width="560" height="86" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+      <circle cx="52" cy="193" r="16" fill="#16a34a"/><text x="52" y="199" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+      <text x="84" y="176" font-size="15" font-weight="bold" fill="#14532d">GAS EXCHANGE  (diffusion)</text>
+      <text x="84" y="196" font-size="13">Where: alveoli (lungs), and again at the body's tissues</text>
+      <text x="84" y="216" font-size="13">What: O₂ goes into the blood, CO₂ comes out; blood carries them</text>
+    </g>
+    <line x1="300" y1="238" x2="300" y2="260" stroke="#14532d" stroke-width="3" marker-end="url(#arG)"/>
+    <g>
+      <rect x="20" y="264" width="560" height="102" rx="12" fill="#bbf7d0" stroke="#14532d" stroke-width="2.5"/>
+      <circle cx="52" cy="307" r="16" fill="#14532d"/><text x="52" y="313" font-size="16" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+      <text x="84" y="290" font-size="15" font-weight="bold" fill="#14532d">TISSUE (CELLULAR) RESPIRATION  (a chemical reaction)</text>
+      <text x="84" y="310" font-size="13">Where: inside every cell (in the mitochondria)</text>
+      <text x="84" y="330" font-size="13" font-weight="bold">glucose + oxygen → carbon dioxide + water + energy</text>
+      <text x="84" y="350" font-size="13">Some of the energy is heat: it keeps you warm.</text>
+    </g>
+  </g>
+</svg>

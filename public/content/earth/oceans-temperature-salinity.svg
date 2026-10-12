@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" role="img" aria-labelledby="t d">
+  <title id="t">Ocean temperature with depth and salinity with latitude</title>
+  <desc id="d">Left: in the tropics the surface is warm and temperature drops quickly between about 100 and 1000 meters, the thermocline; below that it is cold. Polar water is cold at all depths with no thermocline. Right: surface salinity is highest in the subtropics around 25 degrees where evaporation beats rainfall, and lower at the equator and near the poles where rain and ice melt freshen the water. The average is 35 per mille.</desc>
+  <rect x="0" y="0" width="440" height="330" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="18.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Temperature falls with depth · salinity peaks at ±25°</text>
+    <rect x="60.0" y="62.0" width="140.0" height="223.0" rx="0" fill="#eef0f3" fill-opacity="0.5"/>
+    <rect x="60.0" y="67.6" width="140.0" height="50.2" rx="0" fill="#92400e" fill-opacity="0.18"/>
+    <text x="196.0" y="104.4" font-size="12" text-anchor="end" fill="#92400e" font-weight="bold">thermocline</text>
+    <line x1="69.3" y1="62.0" x2="69.3" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="69.3" y="56.0" font-size="12" text-anchor="middle" fill="#6b7280">0</text>
+    <line x1="116.0" y1="62.0" x2="116.0" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="116.0" y="56.0" font-size="12" text-anchor="middle" fill="#6b7280">10</text>
+    <line x1="162.7" y1="62.0" x2="162.7" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="162.7" y="56.0" font-size="12" text-anchor="middle" fill="#6b7280">20</text>
+    <line x1="209.3" y1="62.0" x2="209.3" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="209.3" y="56.0" font-size="12" text-anchor="middle" fill="#6b7280">30</text>
+    <line x1="60.0" y1="62.0" x2="200.0" y2="62.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="55.0" y="66.0" font-size="12" text-anchor="end" fill="#6b7280">0</text>
+    <line x1="60.0" y1="117.8" x2="200.0" y2="117.8" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="55.0" y="121.8" font-size="12" text-anchor="end" fill="#6b7280">1000</text>
+    <line x1="60.0" y1="173.5" x2="200.0" y2="173.5" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="55.0" y="177.5" font-size="12" text-anchor="end" fill="#6b7280">2000</text>
+    <line x1="60.0" y1="229.2" x2="200.0" y2="229.2" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="55.0" y="233.2" font-size="12" text-anchor="end" fill="#6b7280">3000</text>
+    <line x1="60.0" y1="285.0" x2="200.0" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="55.0" y="289.0" font-size="12" text-anchor="end" fill="#6b7280">4000</text>
+    <text x="130.0" y="40.0" font-size="12" text-anchor="middle" fill="#6b7280">temperature (°C) →</text>
+    <text x="6.0" y="56.0" font-size="12" text-anchor="start" fill="#6b7280">depth (m) ↓</text>
+    <path d="M195.3 62.0 L193.0 67.6 L153.3 78.7 L116.0 95.5 L92.7 117.8 L83.3 173.5 L78.7 229.2 L76.8 285.0" fill="none" stroke="#dc2626" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M62.3 62.0 L63.7 117.8 L70.3 285.0" fill="none" stroke="#2563eb" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="106.7" y="145.6" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">tropics</text>
+    <text x="75.3" y="201.4" font-size="12" text-anchor="start" fill="#2563eb" font-weight="bold">polar</text>
+    <text x="130.0" y="305.0" font-size="12" text-anchor="middle" fill="#6b7280">Cold, dense water lies below.</text>
+    <rect x="270.0" y="62.0" width="150.0" height="223.0" rx="0" fill="#eef0f3" fill-opacity="0.5"/>
+    <line x1="270.0" y1="247.8" x2="420.0" y2="247.8" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="265.0" y="251.8" font-size="12" text-anchor="end" fill="#6b7280">33</text>
+    <line x1="270.0" y1="210.7" x2="420.0" y2="210.7" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="265.0" y="214.7" font-size="12" text-anchor="end" fill="#6b7280">34</text>
+    <line x1="270.0" y1="173.5" x2="420.0" y2="173.5" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="265.0" y="177.5" font-size="12" text-anchor="end" fill="#6b7280">35</text>
+    <line x1="270.0" y1="136.3" x2="420.0" y2="136.3" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="265.0" y="140.3" font-size="12" text-anchor="end" fill="#6b7280">36</text>
+    <line x1="270.0" y1="99.2" x2="420.0" y2="99.2" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="265.0" y="103.2" font-size="12" text-anchor="end" fill="#6b7280">37</text>
+    <text x="270.0" y="301.0" font-size="12" text-anchor="middle" fill="#6b7280">90°</text>
+    <text x="295.0" y="301.0" font-size="12" text-anchor="middle" fill="#6b7280">60°</text>
+    <text x="320.0" y="301.0" font-size="12" text-anchor="middle" fill="#6b7280">30°</text>
+    <text x="345.0" y="301.0" font-size="12" text-anchor="middle" fill="#6b7280">0°</text>
+    <text x="370.0" y="301.0" font-size="12" text-anchor="middle" fill="#6b7280">30°</text>
+    <text x="395.0" y="301.0" font-size="12" text-anchor="middle" fill="#6b7280">60°</text>
+    <text x="420.0" y="301.0" font-size="12" text-anchor="middle" fill="#6b7280">90°</text>
+    <text x="307.5" y="317.0" font-size="12" text-anchor="middle" fill="#6b7280">S</text>
+    <text x="382.5" y="317.0" font-size="12" text-anchor="middle" fill="#6b7280">N</text>
+    <text x="345.0" y="40.0" font-size="12" text-anchor="middle" fill="#6b7280">surface salinity (‰) →</text>
+    <path d="M270.0 218.1 L295.0 214.4 L311.7 151.2 L324.2 121.5 L336.7 166.1 L345.0 177.2 L353.3 188.4 L365.8 114.0 L378.3 147.5 L395.0 247.8 L420.0 273.9" fill="none" stroke="#92400e" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="270.0" y1="173.5" x2="420.0" y2="173.5" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 4"/>
+    <text x="274.0" y="169.5" font-size="12" text-anchor="start" fill="#6b7280">average 35</text>
+    <text x="365.8" y="106.0" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">dry, evaporation</text>
+    <text x="318.3" y="225.5" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">rainy equator</text>
+    <text x="424.0" y="214.4" font-size="12" text-anchor="end" fill="#92400e" font-weight="bold">ice melt</text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 255" role="img" aria-label="Pressure–volume diagram with work as area">
+<title>Pressure–volume diagram with work as area</title>
+<defs>
+<marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker>
+<marker id="ahd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#374151"/></marker>
+</defs>
+<rect width="400" height="255" fill="#ffffff"/>
+<line x1="60" y1="220" x2="370" y2="220" stroke="#111827" stroke-width="2"/>
+<line x1="60" y1="220" x2="60" y2="20" stroke="#111827" stroke-width="2"/>
+<rect x="110" y="70" width="150" height="150" fill="#dc2626" fill-opacity="0.15"/>
+<line x1="110" y1="70" x2="260" y2="70" stroke="#dc2626" stroke-width="4" marker-end="url(#ah)"/>
+<line x1="260" y1="70" x2="260" y2="170" stroke="#6b7280" stroke-width="4"/>
+<g data-label="pressure P"><text x="12" y="20" font-family="sans-serif" font-size="14" fill="#111827" text-anchor="start">P</text></g><g data-label="volume V"><text x="365" y="244" font-family="sans-serif" font-size="14" fill="#111827" text-anchor="end">V</text></g>
+<g data-label="isobaric"><text x="185" y="58" font-family="sans-serif" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">isobaric (P constant)</text></g>
+<g data-label="isochoric"><text x="272" y="125" font-family="sans-serif" font-size="14" fill="#6b7280" text-anchor="start" font-weight="bold">isochoric</text></g><text x="272" y="141" font-family="sans-serif" font-size="13" fill="#6b7280" text-anchor="start">(V constant)</text>
+<g data-label="work = area under curve"><text x="185" y="150" font-family="sans-serif" font-size="14" fill="#dc2626" text-anchor="middle" font-weight="bold">W = area</text></g>
+<text x="185" y="168" font-family="sans-serif" font-size="13" fill="#dc2626" text-anchor="middle">under the curve</text>
+</svg>

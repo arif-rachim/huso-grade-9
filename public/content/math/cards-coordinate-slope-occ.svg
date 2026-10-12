@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 330" role="img" aria-labelledby="t d">
+  <title id="t">Slope of a line</title>
+  <desc id="d">A line on a coordinate grid with its y-intercept, a rise and a run triangle, and the slope formula.</desc>
+  <rect x="0" y="0" width="420" height="330" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <line x1="40.0" y1="270.0" x2="390.0" y2="270.0" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="60.0" y1="285.0" x2="60.0" y2="20.0" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="400.0" y="275.0" font-size="13" text-anchor="middle" fill="#6b7280">x</text>
+    <text x="68.0" y="20.0" font-size="13" text-anchor="start" fill="#6b7280">y</text>
+    <line x1="90.0" y1="267.0" x2="90.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="120.0" y1="267.0" x2="120.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="150.0" y1="267.0" x2="150.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="180.0" y1="267.0" x2="180.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="210.0" y1="267.0" x2="210.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="240.0" y1="267.0" x2="240.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="270.0" y1="267.0" x2="270.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="300.0" y1="267.0" x2="300.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="330.0" y1="267.0" x2="330.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="360.0" y1="267.0" x2="360.0" y2="273.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="57.0" y1="240.0" x2="63.0" y2="240.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="57.0" y1="210.0" x2="63.0" y2="210.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="57.0" y1="180.0" x2="63.0" y2="180.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="57.0" y1="150.0" x2="63.0" y2="150.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="57.0" y1="120.0" x2="63.0" y2="120.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="57.0" y1="90.0" x2="63.0" y2="90.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="57.0" y1="60.0" x2="63.0" y2="60.0" stroke="#6b7280" stroke-width="1"/>
+    <line x1="42.0" y1="219.0" x2="336.0" y2="72.0" stroke="#2563eb" stroke-width="2.8"/>
+    <line x1="120.0" y1="180.0" x2="300.0" y2="180.0" stroke="#dc2626" stroke-width="2.2" stroke-dasharray="5 3"/>
+    <line x1="300.0" y1="180.0" x2="300.0" y2="90.0" stroke="#16a34a" stroke-width="2.2" stroke-dasharray="5 3"/>
+    <circle cx="120.0" cy="180.0" r="4.5" fill="#2563eb"/>
+    <circle cx="300.0" cy="90.0" r="4.5" fill="#2563eb"/>
+    <circle cx="300.0" cy="180.0" r="3" fill="#6b7280"/>
+    <circle cx="60.0" cy="210.0" r="5" fill="#dc2626"/>
+    <text x="210.0" y="198.0" font-size="13" text-anchor="middle" fill="#dc2626" font-weight="bold" data-label="run">run</text>
+    <text x="308.0" y="139.0" font-size="13" text-anchor="start" fill="#16a34a" font-weight="bold" data-label="rise">rise</text>
+    <text x="72.0" y="234.0" font-size="12" text-anchor="start" fill="#dc2626" data-label="y-intercept">y-intercept</text>
+    <text x="116.0" y="166.0" font-size="12" text-anchor="end" fill="#111827">(2, 3)</text>
+    <text x="304.0" y="82.0" font-size="12" text-anchor="start" fill="#111827">(8, 6)</text>
+    <text x="235.0" y="50.0" font-size="15" text-anchor="middle" fill="#2563eb" font-weight="bold" data-label="slope m = rise ÷ run">slope m = rise ÷ run</text>
+    <text x="235.0" y="74.0" font-size="14" text-anchor="middle" fill="#111827" data-label="line y = mx + c">line: y = mx + c</text>
+  </g>
+</svg>

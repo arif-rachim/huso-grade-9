@@ -1,0 +1,4 @@
+{"version": 1, "subject": "physics", "cards": [
+ {"id": "physics-0001", "subtopic": "physics.mechanics.kinematics", "type": "cloze", "front": "No gap here", "back": "x", "sketch_prompt": "draw"},
+ {"id": "physics-0001", "subtopic": "physics.mechanics.nothing", "type": "order", "items": ["a", "b"], "front": "f", "back": "b"},
+ {"id": "physics-0003", "subtopic": "physics.mechanics.kinematics", "type": "basic", "front": "f", "back": "b"}]}

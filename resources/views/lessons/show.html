@@ -1,0 +1,82 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="{{ title }}">
+    <rx-link-button href="{{ route('lessons.index') }}" label="All materials" variant="secondary" size="small"/>
+    {% if not is_parent %}<rx-link-button href="{{ route('canvas.show', slug) }}" label="Redraw from memory" variant="secondary" size="small"/>{% endif %}
+  </rx-page-header>
+
+  <div class="lesson-head" style="--subject-color: {{ color }}">
+    <span class="today-chip"><span aria-hidden="true">{{ emoji }}</span> {{ subject_name }}</span>
+    <rx-badge kind="{{ status_kind }}">{{ status_icon }} {{ status_label }}</rx-badge>
+    {% if scheduled %}<span class="lesson-head__meta">Scheduled {{ scheduled }}</span>{% endif %}
+    <span class="lesson-head__meta">{{ "Drawn from memory" if drawn else "Not drawn yet" }} · Best check: {% if best_score is not none %}{{ best_score }}/5{% else %}-{% endif %}</span>
+  </div>
+
+  <article class="lesson-body" style="--subject-color: {{ color }}">{{ body_html | safe }}</article>
+
+  <rx-card title="Redrew it?" subtitle="Close the page, draw it in 5 minutes, then compare with the pictures.">
+    {% if is_parent %}
+    <p>{{ "The student marked this as redrawn from memory." if drawn else "Not marked as redrawn yet." }}</p>
+    {% else %}
+    <rx-form action="{{ route('lessons.drawn', slug) }}">
+      <input type="hidden" name="drawn" value="{{ 'false' if drawn else 'true' }}">
+      <rx-button label="{{ 'Redrawn from memory. Undo' if drawn else 'I redrew it from memory' }}" variant="{{ 'secondary' if drawn else 'primary' }}"/>
+    </rx-form>
+    {% endif %}
+  </rx-card>
+
+  <rx-card title="Check your understanding" subtitle="Do it without looking at the material. You are READY with at least {{ pass_score }} of 5 right, a redrawn picture and your flashcards in box 3 or higher.">
+    {% if last_attempt %}
+    <rx-alert kind="{{ 'success' if last_attempt.passed else 'warning' }}" message="Last try ({{ last_attempt.on }}): {{ last_attempt.score }} of 5 right."/>
+    {% endif %}
+    {% if is_parent %}
+    <p class="lesson-head__meta">The student answers the five questions here. You can read them and see the last result.</p>
+    {% endif %}
+    <rx-form action="{{ route('lessons.check', slug) }}" x-data="lessonCheck()" @keydown.window="pick($event)" id="lesson-check">
+      {% for q in questions %}
+      <div class="lesson-q {% if q.result %}{{ 'is-right' if q.result.correct else 'is-wrong' }}{% endif %}" data-q="{{ q.field }}">
+        <div class="lesson-q__text"><strong>{{ q.number }}.</strong> {{ q.text_html | safe }}</div>
+        <rx-radio name="{{ q.field }}" label="Question {{ q.number }}" :options="q.options" :selected="q.chosen" :disabled="is_parent"/>
+        {% if q.result %}
+        <div class="lesson-q__result">
+          {% if q.result.correct %}Right.{% else %}Not quite. The answer is ({{ q.result.answer }}).{% endif %}
+          <div>{{ q.result.explanation_html | safe }}</div>
+        </div>
+        {% endif %}
+      </div>
+      {% endfor %}
+      {% if not is_parent %}
+      <div class="rx-card__footer">
+        <span class="lesson-head__meta">Keys A to E pick an answer for the next open question.</span>
+        <rx-button label="Check my answers"/>
+      </div>
+      {% endif %}
+    </rx-form>
+    {% if key_html %}<div class="lesson-key">{{ key_html | safe }}</div>{% endif %}
+  </rx-card>
+
+  {% call push('scripts', once='lesson-check') %}
+  <script>
+    document.addEventListener('alpine:init', function () {
+      Alpine.data('lessonCheck', function () {
+        return {
+          pick: function (e) {
+            if (e.ctrlKey || e.metaKey || e.altKey) { return; }
+            var t = e.target && e.target.tagName;
+            if (t === 'TEXTAREA' || t === 'SELECT' || (t === 'INPUT' && e.target.type !== 'radio')) { return; }
+            var letter = (e.key || '').toUpperCase();
+            if (letter.length !== 1 || 'ABCDE'.indexOf(letter) < 0) { return; }
+            var qs = this.$el.querySelectorAll('.lesson-q');
+            for (var i = 0; i < qs.length; i++) {
+              if (!qs[i].querySelector('input[type=radio]:checked')) {
+                var r = qs[i].querySelector('input[type=radio][value=' + letter + ']');
+                if (r && !r.disabled) { r.checked = true; r.dispatchEvent(new Event('change', { bubbles: true })); e.preventDefault(); }
+                return;
+              }
+            }
+          }
+        };
+      });
+    });
+  </script>
+  {% endcall %}
+</rx-page>

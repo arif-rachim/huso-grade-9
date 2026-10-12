@@ -1,52 +1,58 @@
 {
-  "$comment": "Jadwal belajar HUSO 12 Okt – 15 Nov 2026. Sumber kebenaran untuk aplikasi (seeder) — sinkron dengan GitHub issue #3–#13. subject: slug di syllabus.json, atau diagnostic|mixed|review|prep|exam.",
-  "version": 1,
+  "$comment": "HUSO study schedule 12 Oct - 15 Nov 2026 (plan v2, issue #33). Source of truth for the app seeder. subject: a slug from syllabus.json, or diagnostic|mixed|prep|exam. blocks[].subtopics lists the subtopic slugs studied in that block; each of the 76 appears exactly once, the last on 2026-11-07. Checked by scripts/check_plan.py.",
+  "version": 2,
   "timezone": "Asia/Jakarta",
   "exam": {
     "date": "2026-11-15",
     "start_local": "19:30",
     "end_local": "22:30",
-    "note": "16:30–19:30 UAE / 18:00–21:00 IST"
+    "note": "16:30-19:30 UAE / 18:00-21:00 IST"
   },
   "registration_deadline": "2026-10-31",
+  "readiness": {
+    "definition": "A subtopic is READY when (1) its material was read and its diagram redrawn from memory, (2) its Check your understanding has 4/5 or more correct, and (3) its flashcards are in Leitner box 3 or higher by 8 Nov (or its mastery is 70+ on the syllabus map).",
+    "last_new_material": "2026-11-07",
+    "readiness_exam": "2026-11-08"
+  },
   "days": [
     {
       "date": "2026-10-12",
       "phase": "intensive",
       "minutes": 240,
       "subject": "diagnostic",
-      "title": "Setup + Tes Diagnostik",
+      "title": "Setup + Diagnostic Test",
       "issue": 3,
+      "new_subtopics": [],
       "blocks": [
         {
           "label": "Setup",
           "minutes": 15,
           "tasks": [
-            "Siapkan buku sketsa, 5 spidol warna mapel, sticky notes",
-            "Install Anki / siapkan kotak Leitner",
-            "Tempel kalender tracker 12 Okt–15 Nov",
-            "Buat halaman Error Log"
+            "Get a sketchbook, 5 colored markers (one per subject) and sticky notes",
+            "Set up the paper Leitner box (or Anki) until the app is ready",
+            "Put the 12 Oct - 15 Nov tracker calendar on the wall",
+            "Start the error log page"
           ]
         },
         {
-          "label": "Tes diagnostik paket Round 1 2024",
+          "label": "Diagnostic test: 2024 Round 1 paper",
           "minutes": 180,
           "tasks": [
-            "Matematika 36 menit",
-            "Fisika 36 menit",
-            "Kimia 36 menit",
-            "Biologi 36 menit",
-            "Earth Science 36 menit"
+            "Mathematics 36 minutes",
+            "Physics 36 minutes",
+            "Chemistry 36 minutes",
+            "Biology 36 minutes",
+            "Earth Science 36 minutes"
           ]
         },
         {
-          "label": "Koreksi & analisis",
+          "label": "Correct and analyze",
           "minutes": 45,
           "tasks": [
-            "Koreksi: benar − 0,25 × salah per mapel",
-            "Gambar grafik batang skor 5 mapel",
-            "Masukkan soal salah ke Error Log",
-            "Tentukan urutan prioritas mapel"
+            "Score each subject: correct - 0.25 x wrong",
+            "Draw a bar chart of the 5 subject scores",
+            "Mark the weakest subtopics; they get extra time later",
+            "Pick your best 4 subjects (best-four rule) and note the decision"
           ]
         }
       ]
@@ -56,47 +62,70 @@
       "phase": "intensive",
       "minutes": 240,
       "subject": "math",
-      "title": "Matematika: Aljabar & Teori Bilangan",
+      "title": "Mathematics: Algebra, Number Theory & Counting",
       "issue": 4,
+      "new_subtopics": [
+        "math.algebra.polynomials",
+        "math.algebra.sequences",
+        "math.algebra.inequalities",
+        "math.algebra.functions",
+        "math.number-theory.modular",
+        "math.number-theory.misc",
+        "math.combinatorics.counting-principles",
+        "math.combinatorics.enumerative"
+      ],
       "blocks": [
         {
-          "label": "Polinom & barisan",
-          "minutes": 50,
+          "label": "Block 1: new material",
+          "minutes": 60,
           "tasks": [
-            "Review error log Matematika",
-            "Vieta di Desmos",
-            "Segitiga Pascal sampai baris 8",
-            "Deret aritmetika/geometri/teleskopik"
+            "Polynomials: read materi/math/algebra-polynomials.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Sequences & Series: read materi/math/algebra-sequences.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Inequalities: read materi/math/algebra-inequalities.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "math.algebra.polynomials",
+            "math.algebra.sequences",
+            "math.algebra.inequalities"
           ]
         },
         {
-          "label": "Pertidaksamaan & fungsi",
-          "minutes": 50,
+          "label": "Block 2: new material",
+          "minutes": 60,
           "tasks": [
-            "Bukti visual AM-GM",
-            "Grafik floor/ceiling",
-            "Fungsi ganjil/genap",
-            "Kartu ringkasan log & trig"
+            "Functions: read materi/math/algebra-functions.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Modular Arithmetic: read materi/math/number-theory-modular.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Number Theory Extras: read materi/math/number-theory-misc.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "math.algebra.functions",
+            "math.number-theory.modular",
+            "math.number-theory.misc"
           ]
         },
         {
-          "label": "Teori bilangan",
-          "minutes": 50,
+          "label": "Block 3: new material",
+          "minutes": 60,
           "tasks": [
-            "Jam modulo",
-            "Pohon faktor & jumlah faktor",
-            "Basis bilangan",
-            "Tripel Pythagoras"
+            "Counting Principles: read materi/math/combinatorics-counting-principles.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Enumerative Combinatorics: read materi/math/combinatorics-enumerative.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "math.combinatorics.counting-principles",
+            "math.combinatorics.enumerative"
           ]
         },
         {
-          "label": "Latihan & peta visual",
-          "minutes": 50,
+          "label": "Block 4: practice, errors and flashcards",
+          "minutes": 60,
           "tasks": [
-            "10 soal AMC 10 (30 menit)",
-            "Error log",
-            "Mind map dari ingatan",
-            "10 flashcard"
+            "Mixed questions of the day: 20 minutes",
+            "Error log: 10 minutes",
+            "Make or review flashcards: 15 minutes",
+            "Color today's box in the calendar: 5 minutes"
           ]
         }
       ]
@@ -106,50 +135,67 @@
       "phase": "intensive",
       "minutes": 240,
       "subject": "math",
-      "title": "Matematika: Geometri & Kombinatorik",
+      "title": "Mathematics: Geometry & Probability",
       "issue": 5,
+      "new_subtopics": [
+        "math.geometry.triangles",
+        "math.geometry.circles",
+        "math.geometry.transformations",
+        "math.geometry.coordinate",
+        "math.geometry.solid",
+        "math.combinatorics.probability",
+        "math.combinatorics.strategies"
+      ],
       "blocks": [
         {
-          "label": "Segitiga",
-          "minutes": 50,
+          "label": "Block 1: new material",
+          "minutes": 60,
           "tasks": [
-            "Flashcard review",
-            "4 titik pusat segitiga di GeoGebra",
-            "Rumus luas (Heron, rs, abc/4R, ½ab sin C)",
-            "Segitiga istimewa",
-            "Angle bisector, sebangun, kongruen"
+            "Triangles: read materi/math/geometry-triangles.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Circles: read materi/math/geometry-circles.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Transformations: read materi/math/geometry-transformations.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "math.geometry.triangles",
+            "math.geometry.circles",
+            "math.geometry.transformations"
           ]
         },
         {
-          "label": "Lingkaran & koordinat",
-          "minutes": 50,
+          "label": "Block 2: new material",
+          "minutes": 60,
           "tasks": [
-            "Sudut keliling",
-            "Segiempat tali busur",
-            "Power of a point",
-            "Shoelace, jarak, persamaan garis & lingkaran",
-            "Tabel volume & luas bangun ruang"
+            "Coordinate Geometry: read materi/math/geometry-coordinate.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Solid Geometry: read materi/math/geometry-solid.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "math.geometry.coordinate",
+            "math.geometry.solid"
           ]
         },
         {
-          "label": "Kombinatorik & peluang",
-          "minutes": 50,
+          "label": "Block 3: new material",
+          "minutes": 60,
           "tasks": [
-            "Diagram pohon",
-            "Venn inklusi-eksklusi",
-            "Permutasi/kombinasi, stars and bars",
-            "Pigeonhole",
-            "Peluang bersyarat"
+            "Probability: read materi/math/combinatorics-probability.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Strategies: read materi/math/combinatorics-strategies.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "math.combinatorics.probability",
+            "math.combinatorics.strategies"
           ]
         },
         {
-          "label": "Latihan & peta visual",
-          "minutes": 50,
+          "label": "Block 4: practice, errors and flashcards",
+          "minutes": 60,
           "tasks": [
-            "10 soal AMC 10 (30 menit)",
-            "Error log",
-            "Mind map dari ingatan",
-            "10 flashcard"
+            "Mixed questions of the day: 20 minutes",
+            "Error log: 10 minutes",
+            "Make or review flashcards: 15 minutes",
+            "Color today's box in the calendar: 5 minutes"
           ]
         }
       ]
@@ -159,50 +205,67 @@
       "phase": "intensive",
       "minutes": 240,
       "subject": "physics",
-      "title": "Fisika: Mekanika, Listrik, Termo, Bunyi",
+      "title": "Physics: Mechanics & Circuits",
       "issue": 6,
+      "new_subtopics": [
+        "physics.mechanics.kinematics",
+        "physics.mechanics.dynamics",
+        "physics.mechanics.conservation",
+        "physics.mechanics.circular-rotation",
+        "physics.mechanics.shm",
+        "physics.mechanics.gravity",
+        "physics.electromagnetism.circuits"
+      ],
       "blocks": [
         {
-          "label": "Kinematika & dinamika",
-          "minutes": 50,
+          "label": "Block 1: new material",
+          "minutes": 60,
           "tasks": [
-            "Flashcard review",
-            "Grafik x–t, v–t, a–t",
-            "3 free body diagram",
-            "Gerak melingkar",
-            "PhET Forces and Motion"
+            "Kinematics: read materi/physics/mechanics-kinematics.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Dynamics: read materi/physics/mechanics-dynamics.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Conservation Laws: read materi/physics/mechanics-conservation.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "physics.mechanics.kinematics",
+            "physics.mechanics.dynamics",
+            "physics.mechanics.conservation"
           ]
         },
         {
-          "label": "Energi, momentum, rotasi, GHS, gravitasi",
-          "minutes": 50,
+          "label": "Block 2: new material",
+          "minutes": 60,
           "tasks": [
-            "Diagram batang energi",
-            "Tumbukan",
-            "Momen inersia, torsi, momentum sudut",
-            "Pegas & bandul (PhET)",
-            "Gravitasi Newton"
+            "Circular Motion & Rotation: read materi/physics/mechanics-circular-rotation.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Simple Harmonic Motion: read materi/physics/mechanics-shm.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "physics.mechanics.circular-rotation",
+            "physics.mechanics.shm"
           ]
         },
         {
-          "label": "Listrik, termo, bunyi",
-          "minutes": 50,
+          "label": "Block 3: new material",
+          "minutes": 60,
           "tasks": [
-            "PhET Circuit Construction Kit",
-            "Hukum Ohm & daya",
-            "Q = mcΔT, kalor laten, grafik fase",
-            "PV = nRT, hukum termodinamika",
-            "Bunyi"
+            "Gravity: read materi/physics/mechanics-gravity.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Circuits: read materi/physics/electromagnetism-circuits.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "physics.mechanics.gravity",
+            "physics.electromagnetism.circuits"
           ]
         },
         {
-          "label": "Latihan & peta visual",
-          "minutes": 50,
+          "label": "Block 4: practice, errors and flashcards",
+          "minutes": 60,
           "tasks": [
-            "20 soal Physics Bowl (30 menit)",
-            "Error log",
-            "Mind map + lembar rumus sendiri",
-            "15 flashcard rumus"
+            "Mixed questions of the day: 20 minutes",
+            "Error log: 10 minutes",
+            "Make or review flashcards: 15 minutes",
+            "Color today's box in the calendar: 5 minutes"
           ]
         }
       ]
@@ -212,47 +275,67 @@
       "phase": "intensive",
       "minutes": 240,
       "subject": "biology",
-      "title": "Biologi: Sel, Molekuler, Sistem Organ, Ekologi",
+      "title": "Biology: Cells, Molecules & Circulation",
       "issue": 7,
+      "new_subtopics": [
+        "biology.biochem.molecules",
+        "biology.cell.cell-structure",
+        "biology.cell.molecular",
+        "biology.cell.division",
+        "biology.cell.photosynthesis",
+        "biology.cell.respiration",
+        "biology.anatomy.circulatory"
+      ],
       "blocks": [
         {
-          "label": "Biomolekul & sel",
-          "minutes": 50,
+          "label": "Block 1: new material",
+          "minutes": 60,
           "tasks": [
-            "Flashcard review",
-            "Amoeba Sisters: biomolecules, organelles",
-            "Gambar sel hewan vs tumbuhan (14 organel)",
-            "Komik strip mitosis vs meiosis"
+            "Biomolecules: read materi/biology/biochem-molecules.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Cell Structure: read materi/biology/cell-cell-structure.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Molecular Biology: read materi/biology/cell-molecular.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "biology.biochem.molecules",
+            "biology.cell.cell-structure",
+            "biology.cell.molecular"
           ]
         },
         {
-          "label": "Molekuler, fotosintesis, respirasi",
-          "minutes": 50,
+          "label": "Block 2: new material",
+          "minutes": 60,
           "tasks": [
-            "Diagram dogma sentral",
-            "Siklus fotosintesis vs respirasi",
-            "Respirasi aerob vs anaerob"
+            "Cell Division: read materi/biology/cell-division.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Photosynthesis: read materi/biology/cell-photosynthesis.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "biology.cell.division",
+            "biology.cell.photosynthesis"
           ]
         },
         {
-          "label": "Sistem organ",
-          "minutes": 50,
+          "label": "Block 3: new material",
+          "minutes": 60,
           "tasks": [
-            "Siluet tubuh + sistem organ berwarna",
-            "Jantung 4 ruang + peredaran ganda",
-            "Tabel kelenjar endokrin",
-            "Busur refleks",
-            "Imunitas & golongan darah"
+            "Cellular Respiration: read materi/biology/cell-respiration.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Circulatory System: read materi/biology/anatomy-circulatory.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "biology.cell.respiration",
+            "biology.anatomy.circulatory"
           ]
         },
         {
-          "label": "Ekologi, klasifikasi, latihan",
-          "minutes": 50,
+          "label": "Block 4: practice, errors and flashcards",
+          "minutes": 60,
           "tasks": [
-            "Jaring makanan & simbiosis",
-            "Tabel 5 kingdom bergambar",
-            "20 soal (20 menit)",
-            "Error log + mind map + 20 flashcard"
+            "Mixed questions of the day: 20 minutes",
+            "Error log: 10 minutes",
+            "Make or review flashcards: 15 minutes",
+            "Color today's box in the calendar: 5 minutes"
           ]
         }
       ]
@@ -262,50 +345,64 @@
       "phase": "intensive",
       "minutes": 240,
       "subject": "earth",
-      "title": "Earth Science: Atmosfer, Hidrosfer, Geosfer, Astronomi",
+      "title": "Earth Science: Atmosphere, Geosphere & Sky",
       "issue": 8,
+      "new_subtopics": [
+        "earth.atmosphere.structure",
+        "earth.atmosphere.fronts",
+        "earth.atmosphere.circulation",
+        "earth.geosphere.rocks",
+        "earth.geosphere.interior",
+        "earth.astronomy.sphere"
+      ],
       "blocks": [
         {
-          "label": "Atmosfer & cuaca",
-          "minutes": 50,
+          "label": "Block 1: new material",
+          "minutes": 60,
           "tasks": [
-            "Flashcard review",
-            "Penampang lapisan atmosfer",
-            "Front dingin vs panas",
-            "Sel sirkulasi global",
-            "Poster jenis awan",
-            "El Niño/La Niña, monsun"
+            "Atmospheric Structure: read materi/earth/atmosphere-structure.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Fronts & Pressure Systems: read materi/earth/atmosphere-fronts.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "earth.atmosphere.structure",
+            "earth.atmosphere.fronts"
           ]
         },
         {
-          "label": "Hidrosfer",
-          "minutes": 50,
+          "label": "Block 2: new material",
+          "minutes": 60,
           "tasks": [
-            "Siklus air",
-            "Arus laut & termohalin",
-            "Gelombang, pasang surut, tsunami",
-            "Sungai, gletser, air tanah"
+            "Circulation: read materi/earth/atmosphere-circulation.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Rocks: read materi/earth/geosphere-rocks.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "earth.atmosphere.circulation",
+            "earth.geosphere.rocks"
           ]
         },
         {
-          "label": "Geosfer",
-          "minutes": 50,
+          "label": "Block 3: new material",
+          "minutes": 60,
           "tasks": [
-            "Siklus batuan",
-            "Bowen & skala Mohs",
-            "Penampang bumi + gelombang P & S",
-            "Batas lempeng & sesar",
-            "Penanggalan relatif & radiometrik"
+            "Earth's Interior: read materi/earth/geosphere-interior.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Celestial Sphere: read materi/earth/astronomy-sphere.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "earth.geosphere.interior",
+            "earth.astronomy.sphere"
           ]
         },
         {
-          "label": "Astronomi & latihan",
-          "minutes": 50,
+          "label": "Block 4: practice, errors and flashcards",
+          "minutes": 60,
           "tasks": [
-            "Stellarium: 6 bintang, rasi, 4 objek Messier",
-            "Kepler, paralaks, magnitudo, gerhana",
-            "20 soal (15 menit)",
-            "Error log + mind map + 20 flashcard"
+            "Mixed questions of the day: 20 minutes",
+            "Error log: 10 minutes",
+            "Make or review flashcards: 15 minutes",
+            "Color today's box in the calendar: 5 minutes"
           ]
         }
       ]
@@ -315,47 +412,62 @@
       "phase": "intensive",
       "minutes": 240,
       "subject": "chemistry",
-      "title": "Kimia Dasar + Review Mingguan",
+      "title": "Chemistry: Inorganic Basics + Week 1 Checkpoint",
       "issue": 9,
+      "new_subtopics": [
+        "chemistry.inorganic.periodic-table",
+        "chemistry.inorganic.electron-config",
+        "chemistry.inorganic.trends",
+        "chemistry.inorganic.bonding",
+        "chemistry.inorganic.reactions"
+      ],
       "blocks": [
         {
-          "label": "Tabel periodik & atom",
-          "minutes": 50,
+          "label": "Block 1: new material",
+          "minutes": 60,
           "tasks": [
-            "Flashcard review",
-            "Tren periodik di ptable.com",
-            "Konfigurasi elektron",
-            "Isotop & peluruhan"
+            "Periodic Table: read materi/chemistry/inorganic-periodic-table.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Electron Configuration: read materi/chemistry/inorganic-electron-config.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "chemistry.inorganic.periodic-table",
+            "chemistry.inorganic.electron-config"
           ]
         },
         {
-          "label": "Ikatan & reaksi",
-          "minutes": 50,
+          "label": "Block 2: new material",
+          "minutes": 60,
           "tasks": [
-            "Tabel bentuk molekul VSEPR (PhET)",
-            "Gaya antarmolekul",
-            "Penyetaraan, rumus empiris, jembatan mol"
+            "Periodic Trends: read materi/chemistry/inorganic-trends.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Chemical Bonding: read materi/chemistry/inorganic-bonding.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "chemistry.inorganic.trends",
+            "chemistry.inorganic.bonding"
           ]
         },
         {
-          "label": "Asam-basa & organik dasar",
-          "minutes": 50,
+          "label": "Block 3: new material",
+          "minutes": 60,
           "tasks": [
-            "Arrhenius/Brønsted/Lewis",
-            "pH, indikator, kurva titrasi",
-            "Kartu warna uji nyala",
-            "Tata nama & gugus fungsi"
+            "Reactions & Stoichiometry: read materi/chemistry/inorganic-reactions.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)",
+            "Take a 10-minute break at the end of the block"
+          ],
+          "subtopics": [
+            "chemistry.inorganic.reactions"
           ]
         },
         {
-          "label": "Review mingguan",
-          "minutes": 50,
+          "label": "Block 4: practice, errors and flashcards",
+          "minutes": 60,
           "tasks": [
-            "15 soal kimia (15 menit)",
-            "Foto 6 mind map",
-            "Review error log",
-            "Perbarui prioritas mapel",
-            "Cek pendaftaran"
+            "Week 1 checkpoint: redraw one mind map for every subject",
+            "Mixed quiz on all of this week's subtopics: 20 minutes",
+            "Error log and red list: 10 minutes",
+            "Make or review flashcards: 15 minutes",
+            "Color today's box in the calendar: 5 minutes"
           ]
         }
       ]
@@ -364,30 +476,43 @@
       "date": "2026-10-19",
       "phase": "daily",
       "minutes": 30,
-      "subject": "math",
-      "title": "Matematika",
+      "subject": "biology",
+      "title": "Biology: Nervous System",
       "issue": 10,
+      "new_subtopics": [
+        "biology.anatomy.nervous"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "5 soal AMC 10 (no. 6–15) aljabar/teori bilangan"
+            "Read materi/biology/anatomy-nervous.md",
+            "Redraw the Nervous System diagram from memory"
+          ],
+          "subtopics": [
+            "biology.anatomy.nervous"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -396,31 +521,43 @@
       "date": "2026-10-20",
       "phase": "daily",
       "minutes": 30,
-      "subject": "physics",
-      "title": "Fisika",
+      "subject": "earth",
+      "title": "Earth Science: Oceans",
       "issue": 10,
+      "new_subtopics": [
+        "earth.hydrosphere.oceans"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "10 soal Physics Bowl kinematika & dinamika",
-            "1 free body diagram"
+            "Read materi/earth/hydrosphere-oceans.md",
+            "Redraw the Oceans diagram from memory"
+          ],
+          "subtopics": [
+            "earth.hydrosphere.oceans"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -430,30 +567,42 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "biology",
-      "title": "Biologi",
+      "title": "Biology: Excretory System",
       "issue": 10,
+      "new_subtopics": [
+        "biology.anatomy.excretory"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Gambar ulang sel hewan & tumbuhan",
-            "10 soal USABO Open/Khan"
+            "Read materi/biology/anatomy-excretory.md",
+            "Redraw the Excretory System diagram from memory"
+          ],
+          "subtopics": [
+            "biology.anatomy.excretory"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -463,30 +612,42 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "earth",
-      "title": "Earth Science",
+      "title": "Earth Science: Humidity & Precipitation",
       "issue": 10,
+      "new_subtopics": [
+        "earth.atmosphere.humidity"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Gambar ulang lapisan atmosfer & siklus batuan",
-            "10 soal"
+            "Read materi/earth/atmosphere-humidity.md",
+            "Redraw the Humidity & Precipitation diagram from memory"
+          ],
+          "subtopics": [
+            "earth.atmosphere.humidity"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -495,96 +656,186 @@
       "date": "2026-10-23",
       "phase": "daily",
       "minutes": 30,
-      "subject": "chemistry",
-      "title": "Kimia",
+      "subject": "biology",
+      "title": "Biology: Digestive System",
       "issue": 10,
+      "new_subtopics": [
+        "biology.anatomy.digestive"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Gambar ulang tabel periodik + tren",
-            "8 soal USNCO Local"
+            "Read materi/biology/anatomy-digestive.md",
+            "Redraw the Digestive System diagram from memory"
+          ],
+          "subtopics": [
+            "biology.anatomy.digestive"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
     },
     {
       "date": "2026-10-24",
-      "phase": "daily",
-      "minutes": 30,
+      "phase": "weekend",
+      "minutes": 120,
       "subject": "mixed",
-      "title": "Campuran",
+      "title": "Weekend: Heat, Ideal Gas, Chemistry + mixed quiz",
       "issue": 10,
+      "new_subtopics": [
+        "physics.thermodynamics.heat",
+        "physics.thermodynamics.ideal-gas",
+        "chemistry.inorganic.isotopes",
+        "chemistry.analytical.solutions",
+        "chemistry.analytical.acid-base"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
-          "minutes": 5,
+          "label": "Flashcards",
+          "minutes": 10,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 10 due flashcards (in the app once flashcards are live)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material: Heat",
+          "minutes": 16,
           "tasks": [
-            "15 soal acak 5 mapel (20 menit)"
+            "Heat: read materi/physics/thermodynamics-heat.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "physics.thermodynamics.heat"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "New material: Ideal Gas",
+          "minutes": 16,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Ideal Gas: read materi/physics/thermodynamics-ideal-gas.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "physics.thermodynamics.ideal-gas"
+          ]
+        },
+        {
+          "label": "New material: Isotopes & Nuclear Reactions",
+          "minutes": 16,
+          "tasks": [
+            "Isotopes & Nuclear Reactions: read materi/chemistry/inorganic-isotopes.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.inorganic.isotopes"
+          ]
+        },
+        {
+          "label": "New material: Solutions",
+          "minutes": 16,
+          "tasks": [
+            "Solutions: read materi/chemistry/analytical-solutions.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.analytical.solutions"
+          ]
+        },
+        {
+          "label": "New material: Acids & Bases",
+          "minutes": 16,
+          "tasks": [
+            "Acids & Bases: read materi/chemistry/analytical-acid-base.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.analytical.acid-base"
+          ]
+        },
+        {
+          "label": "Mixed quiz",
+          "minutes": 30,
+          "tasks": [
+            "30-minute mixed quiz on this week's subtopics",
+            "Log every mistake in the error log"
           ]
         }
       ]
     },
     {
       "date": "2026-10-25",
-      "phase": "daily",
-      "minutes": 30,
-      "subject": "review",
-      "title": "Review",
+      "phase": "weekend",
+      "minutes": 120,
+      "subject": "mixed",
+      "title": "Weekend: Earth Science, Chemistry + weekly checkpoint",
       "issue": 10,
+      "new_subtopics": [
+        "earth.geosphere.geochemistry",
+        "earth.astronomy.mechanics",
+        "chemistry.analytical.quantitative"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
-          "minutes": 5,
+          "label": "Flashcards",
+          "minutes": 10,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 10 due flashcards (in the app once flashcards are live)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material: Geochemistry & Minerals",
+          "minutes": 22,
           "tasks": [
-            "Revisi mind map yang bolong",
-            "Cek kartu Anki mature"
+            "Geochemistry & Minerals: read materi/earth/geosphere-geochemistry.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "earth.geosphere.geochemistry"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "New material: Celestial Mechanics",
+          "minutes": 22,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Celestial Mechanics: read materi/earth/astronomy-mechanics.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "earth.astronomy.mechanics"
+          ]
+        },
+        {
+          "label": "New material: Quantitative Analysis",
+          "minutes": 21,
+          "tasks": [
+            "Quantitative Analysis: read materi/chemistry/analytical-quantitative.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.analytical.quantitative"
+          ]
+        },
+        {
+          "label": "Weekly checkpoint",
+          "minutes": 45,
+          "tasks": [
+            "Quiz on all subtopics studied this week",
+            "Update the red list: subtopics under 4/5 or with flashcards below box 3",
+            "Plan remedial work for the red list"
           ]
         }
       ]
@@ -593,30 +844,43 @@
       "date": "2026-10-26",
       "phase": "daily",
       "minutes": 30,
-      "subject": "math",
-      "title": "Matematika",
+      "subject": "earth",
+      "title": "Earth Science: Weather Phenomena",
       "issue": 11,
+      "new_subtopics": [
+        "earth.atmosphere.phenomena"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "5 soal AMC 10 geometri/kombinatorik"
+            "Read materi/earth/atmosphere-phenomena.md",
+            "Redraw the Weather Phenomena diagram from memory"
+          ],
+          "subtopics": [
+            "earth.atmosphere.phenomena"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -625,31 +889,43 @@
       "date": "2026-10-27",
       "phase": "daily",
       "minutes": 30,
-      "subject": "physics",
-      "title": "Fisika",
+      "subject": "biology",
+      "title": "Biology: Respiratory System",
       "issue": 11,
+      "new_subtopics": [
+        "biology.anatomy.respiratory"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "10 soal energi, momentum, rotasi, GHS",
-            "Perbarui lembar rumus"
+            "Read materi/biology/anatomy-respiratory.md",
+            "Redraw the Respiratory System diagram from memory"
+          ],
+          "subtopics": [
+            "biology.anatomy.respiratory"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -658,31 +934,43 @@
       "date": "2026-10-28",
       "phase": "daily",
       "minutes": 30,
-      "subject": "biology",
-      "title": "Biologi",
+      "subject": "earth",
+      "title": "Earth Science: Dating & Mapping",
       "issue": 11,
+      "new_subtopics": [
+        "earth.geosphere.dating"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Gambar ulang jantung & busur refleks",
-            "20 soal dalam 18 menit"
+            "Read materi/earth/geosphere-dating.md",
+            "Redraw the Dating & Mapping diagram from memory"
+          ],
+          "subtopics": [
+            "earth.geosphere.dating"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -691,31 +979,43 @@
       "date": "2026-10-29",
       "phase": "daily",
       "minutes": 30,
-      "subject": "earth",
-      "title": "Earth Science",
+      "subject": "biology",
+      "title": "Biology: Endocrine System",
       "issue": 11,
+      "new_subtopics": [
+        "biology.anatomy.endocrine"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Stellarium: 6 bintang & 4 objek Messier",
-            "20 soal dalam 15 menit"
+            "Read materi/biology/anatomy-endocrine.md",
+            "Redraw the Endocrine System diagram from memory"
+          ],
+          "subtopics": [
+            "biology.anatomy.endocrine"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -724,97 +1024,187 @@
       "date": "2026-10-30",
       "phase": "daily",
       "minutes": 30,
-      "subject": "chemistry",
-      "title": "Kimia",
+      "subject": "earth",
+      "title": "Earth Science: Solar System",
       "issue": 11,
+      "new_subtopics": [
+        "earth.astronomy.solar-system"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
+          "label": "Flashcards",
           "minutes": 5,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Asam-basa, mol, VSEPR",
-            "8 soal"
+            "Read materi/earth/astronomy-solar-system.md",
+            "Redraw the Solar System diagram from memory"
+          ],
+          "subtopics": [
+            "earth.astronomy.solar-system"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "Check your understanding",
+          "minutes": 7,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
     },
     {
       "date": "2026-10-31",
-      "phase": "daily",
-      "minutes": 30,
+      "phase": "weekend",
+      "minutes": 120,
       "subject": "mixed",
-      "title": "Campuran + cek pendaftaran",
+      "title": "Weekend: Thermodynamics, Sound, Chemistry + registration deadline",
       "issue": 11,
+      "new_subtopics": [
+        "physics.thermodynamics.laws",
+        "physics.acoustics.sound",
+        "chemistry.physical.equilibrium",
+        "chemistry.physical.thermo",
+        "chemistry.analytical.solubility"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
-          "minutes": 5,
+          "label": "Flashcards",
+          "minutes": 10,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 10 due flashcards (in the app once flashcards are live)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material: Laws of Thermodynamics",
+          "minutes": 16,
           "tasks": [
-            "15 soal acak (20 menit)",
-            "Pastikan pendaftaran selesai (deadline hari ini)"
+            "Laws of Thermodynamics: read materi/physics/thermodynamics-laws.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "physics.thermodynamics.laws"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "New material: Sound Waves",
+          "minutes": 16,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Sound Waves: read materi/physics/acoustics-sound.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "physics.acoustics.sound"
+          ]
+        },
+        {
+          "label": "New material: Equilibrium",
+          "minutes": 16,
+          "tasks": [
+            "Equilibrium: read materi/chemistry/physical-equilibrium.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.physical.equilibrium"
+          ]
+        },
+        {
+          "label": "New material: Thermochemistry",
+          "minutes": 16,
+          "tasks": [
+            "Thermochemistry: read materi/chemistry/physical-thermo.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.physical.thermo"
+          ]
+        },
+        {
+          "label": "New material: Solubility",
+          "minutes": 16,
+          "tasks": [
+            "Solubility: read materi/chemistry/analytical-solubility.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.analytical.solubility"
+          ]
+        },
+        {
+          "label": "Mixed quiz",
+          "minutes": 30,
+          "tasks": [
+            "30-minute mixed quiz on this week's subtopics",
+            "Log every mistake in the error log",
+            "Check that your registration is complete (deadline today)"
           ]
         }
       ]
     },
     {
       "date": "2026-11-01",
-      "phase": "daily",
-      "minutes": 30,
-      "subject": "review",
-      "title": "Review",
+      "phase": "weekend",
+      "minutes": 120,
+      "subject": "mixed",
+      "title": "Weekend: Glaciers, Qualitative Analysis, Lab Skills + weekly checkpoint",
       "issue": 11,
+      "new_subtopics": [
+        "earth.hydrosphere.glaciers",
+        "chemistry.analytical.qualitative",
+        "chemistry.lab.skills"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
-          "minutes": 5,
+          "label": "Flashcards",
+          "minutes": 10,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 10 due flashcards (in the app once flashcards are live)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material: Glaciers",
+          "minutes": 22,
           "tasks": [
-            "Baca seluruh error log",
-            "Tulis 'Top 10 kesalahan saya'"
+            "Glaciers: read materi/earth/hydrosphere-glaciers.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "earth.hydrosphere.glaciers"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "New material: Qualitative Analysis",
+          "minutes": 22,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Qualitative Analysis: read materi/chemistry/analytical-qualitative.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.analytical.qualitative"
+          ]
+        },
+        {
+          "label": "New material: Lab Skills",
+          "minutes": 21,
+          "tasks": [
+            "Lab Skills: read materi/chemistry/lab-skills.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.lab.skills"
+          ]
+        },
+        {
+          "label": "Weekly checkpoint",
+          "minutes": 45,
+          "tasks": [
+            "Quiz on all subtopics studied this week",
+            "Update the red list: subtopics under 4/5 or with flashcards below box 3",
+            "Plan remedial work for the red list"
           ]
         }
       ]
@@ -823,25 +1213,43 @@
       "date": "2026-11-02",
       "phase": "daily",
       "minutes": 30,
-      "subject": "math",
-      "title": "Simulasi Matematika",
+      "subject": "biology",
+      "title": "Biology: Immune System",
       "issue": 12,
+      "new_subtopics": [
+        "biology.anatomy.immune"
+      ],
       "blocks": [
         {
-          "label": "Simulasi bertimer",
-          "minutes": 25,
+          "label": "Flashcards",
+          "minutes": 5,
           "tasks": [
-            "Ulang soal salah paket 2024",
-            "3 soal Final 2025/26 Section I",
-            "Ragu = kosongkan (−0,25)"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Koreksi",
-          "minutes": 5,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Koreksi cepat",
-            "Error log"
+            "Read materi/biology/anatomy-immune.md",
+            "Redraw the Immune System diagram from memory"
+          ],
+          "subtopics": [
+            "biology.anatomy.immune"
+          ]
+        },
+        {
+          "label": "Check your understanding",
+          "minutes": 7,
+          "tasks": [
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -850,25 +1258,43 @@
       "date": "2026-11-03",
       "phase": "daily",
       "minutes": 30,
-      "subject": "physics",
-      "title": "Simulasi Fisika",
+      "subject": "earth",
+      "title": "Earth Science: Groundwater",
       "issue": 12,
+      "new_subtopics": [
+        "earth.hydrosphere.groundwater"
+      ],
       "blocks": [
         {
-          "label": "Simulasi bertimer",
-          "minutes": 25,
+          "label": "Flashcards",
+          "minutes": 5,
           "tasks": [
-            "Ulang soal salah 2024",
-            "10 soal Physics Bowl acak",
-            "Ragu = kosongkan (−0,25)"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Koreksi",
-          "minutes": 5,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Koreksi cepat",
-            "Error log"
+            "Read materi/earth/hydrosphere-groundwater.md",
+            "Redraw the Groundwater diagram from memory"
+          ],
+          "subtopics": [
+            "earth.hydrosphere.groundwater"
+          ]
+        },
+        {
+          "label": "Check your understanding",
+          "minutes": 7,
+          "tasks": [
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -878,23 +1304,42 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "biology",
-      "title": "Simulasi Biologi",
+      "title": "Biology: Ecosystems",
       "issue": 12,
+      "new_subtopics": [
+        "biology.ecology.ecosystems"
+      ],
       "blocks": [
         {
-          "label": "Simulasi bertimer",
-          "minutes": 25,
+          "label": "Flashcards",
+          "minutes": 5,
           "tasks": [
-            "25 soal dalam 22 menit",
-            "Ragu = kosongkan (−0,25)"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Koreksi",
-          "minutes": 5,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Koreksi cepat",
-            "Error log"
+            "Read materi/biology/ecology-ecosystems.md",
+            "Redraw the Ecosystems diagram from memory"
+          ],
+          "subtopics": [
+            "biology.ecology.ecosystems"
+          ]
+        },
+        {
+          "label": "Check your understanding",
+          "minutes": 7,
+          "tasks": [
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -904,23 +1349,42 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "earth",
-      "title": "Simulasi Earth Science",
+      "title": "Earth Science: Freshwater",
       "issue": 12,
+      "new_subtopics": [
+        "earth.hydrosphere.freshwater"
+      ],
       "blocks": [
         {
-          "label": "Simulasi bertimer",
-          "minutes": 25,
+          "label": "Flashcards",
+          "minutes": 5,
           "tasks": [
-            "25 soal dalam 20 menit",
-            "Ragu = kosongkan (−0,25)"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Koreksi",
-          "minutes": 5,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Koreksi cepat",
-            "Error log"
+            "Read materi/earth/hydrosphere-freshwater.md",
+            "Redraw the Freshwater diagram from memory"
+          ],
+          "subtopics": [
+            "earth.hydrosphere.freshwater"
+          ]
+        },
+        {
+          "label": "Check your understanding",
+          "minutes": 7,
+          "tasks": [
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
@@ -929,92 +1393,153 @@
       "date": "2026-11-06",
       "phase": "daily",
       "minutes": 30,
-      "subject": "chemistry",
-      "title": "Simulasi Kimia",
+      "subject": "biology",
+      "title": "Biology: The Five Kingdoms",
       "issue": 12,
+      "new_subtopics": [
+        "biology.classification.kingdoms"
+      ],
       "blocks": [
         {
-          "label": "Simulasi bertimer",
-          "minutes": 25,
+          "label": "Flashcards",
+          "minutes": 5,
           "tasks": [
-            "Ulang soal salah 2024",
-            "8 soal USNCO Local",
-            "Ragu = kosongkan (−0,25)"
+            "Review 5 due flashcards (in the app once flashcards are live, otherwise on paper or in Anki)"
           ]
         },
         {
-          "label": "Koreksi",
-          "minutes": 5,
+          "label": "New material",
+          "minutes": 15,
           "tasks": [
-            "Koreksi cepat",
-            "Error log"
+            "Read materi/biology/classification-kingdoms.md",
+            "Redraw the The Five Kingdoms diagram from memory"
+          ],
+          "subtopics": [
+            "biology.classification.kingdoms"
+          ]
+        },
+        {
+          "label": "Check your understanding",
+          "minutes": 7,
+          "tasks": [
+            "Answer the 5 questions at the end of the material (4/5 = ready)"
+          ]
+        },
+        {
+          "label": "Error log",
+          "minutes": 3,
+          "tasks": [
+            "Write each mistake in the error log with its cause"
           ]
         }
       ]
     },
     {
       "date": "2026-11-07",
-      "phase": "daily",
-      "minutes": 30,
-      "subject": "review",
-      "title": "Grafik sebelum vs sesudah",
+      "phase": "weekend",
+      "minutes": 120,
+      "subject": "mixed",
+      "title": "Last new material: Organic Chemistry, Radiation, Tissues + mixed quiz",
       "issue": 12,
+      "new_subtopics": [
+        "chemistry.organic.concepts",
+        "chemistry.organic.functional-groups",
+        "chemistry.organic.reactions",
+        "earth.astronomy.radiation",
+        "biology.anatomy.tissues"
+      ],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
-          "minutes": 5,
+          "label": "Flashcards",
+          "minutes": 10,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review 10 due flashcards (in the app once flashcards are live)"
           ]
         },
         {
-          "label": "Fokus",
-          "minutes": 20,
+          "label": "New material: General Concepts",
+          "minutes": 16,
           "tasks": [
-            "Bandingkan skor vs Hari 1",
-            "Gambar grafik batang per mapel"
+            "General Concepts: read materi/chemistry/organic-concepts.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.organic.concepts"
           ]
         },
         {
-          "label": "Refleksi",
-          "minutes": 5,
+          "label": "New material: Functional Groups",
+          "minutes": 16,
           "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Functional Groups: read materi/chemistry/organic-functional-groups.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.organic.functional-groups"
+          ]
+        },
+        {
+          "label": "New material: Organic Reactions",
+          "minutes": 16,
+          "tasks": [
+            "Organic Reactions: read materi/chemistry/organic-reactions.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "chemistry.organic.reactions"
+          ]
+        },
+        {
+          "label": "New material: Radiation",
+          "minutes": 16,
+          "tasks": [
+            "Radiation: read materi/earth/astronomy-radiation.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "earth.astronomy.radiation"
+          ]
+        },
+        {
+          "label": "New material: Tissues",
+          "minutes": 16,
+          "tasks": [
+            "Tissues: read materi/biology/anatomy-tissues.md, redraw it from memory, then answer its 5 check questions (4/5 = ready)"
+          ],
+          "subtopics": [
+            "biology.anatomy.tissues"
+          ]
+        },
+        {
+          "label": "Mixed quiz",
+          "minutes": 30,
+          "tasks": [
+            "30-minute mixed quiz on this week's subtopics",
+            "Log every mistake in the error log",
+            "This was the last new material; from tomorrow you only review"
           ]
         }
       ]
     },
     {
       "date": "2026-11-08",
-      "phase": "daily",
-      "minutes": 30,
-      "subject": "review",
-      "title": "Strategi ujian",
+      "phase": "readiness",
+      "minutes": 120,
+      "subject": "mixed",
+      "title": "Readiness Exam",
       "issue": 12,
+      "new_subtopics": [],
       "blocks": [
         {
-          "label": "Flashcard jatuh tempo",
-          "minutes": 5,
+          "label": "Readiness Exam",
+          "minutes": 100,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Take the 5-subject simulation, timed, no notes",
+            "Practice the exam routine: skip hard questions, guess smartly (a wrong answer costs 0.25)"
           ]
         },
         {
-          "label": "Fokus",
+          "label": "Mastery map and remedial list",
           "minutes": 20,
           "tasks": [
-            "Urutan mengerjakan mapel",
-            "Target waktu per mapel",
-            "Aturan kapan mengosongkan soal"
-          ]
-        },
-        {
-          "label": "Refleksi",
-          "minutes": 5,
-          "tasks": [
-            "Error log",
-            "1 sketsa dari ingatan"
+            "Open the syllabus map and list every red or yellow subtopic",
+            "Rank the red list by subject and plan 9-13 Nov"
           ]
         }
       ]
@@ -1024,29 +1549,30 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "math",
-      "title": "Pemantapan Matematika",
+      "title": "Remedial work: Mathematics",
       "issue": 13,
+      "new_subtopics": [],
       "blocks": [
         {
-          "label": "Flashcard",
-          "minutes": 10,
+          "label": "Flashcards",
+          "minutes": 8,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review all due flashcards"
           ]
         },
         {
-          "label": "Baca ulang visual",
-          "minutes": 15,
+          "label": "Remedial work: Mathematics",
+          "minutes": 18,
           "tasks": [
-            "Baca mind map",
-            "3 soal AMC 10 mudah"
+            "Re-read and redraw the red Mathematics subtopics from the Readiness Exam",
+            "Redo the questions you got wrong"
           ]
         },
         {
-          "label": "Gambar dari ingatan",
-          "minutes": 5,
+          "label": "Error log",
+          "minutes": 4,
           "tasks": [
-            "1 diagram kunci"
+            "Review the error log entries that are due"
           ]
         }
       ]
@@ -1056,29 +1582,30 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "physics",
-      "title": "Pemantapan Fisika",
+      "title": "Remedial work: Physics",
       "issue": 13,
+      "new_subtopics": [],
       "blocks": [
         {
-          "label": "Flashcard",
-          "minutes": 10,
+          "label": "Flashcards",
+          "minutes": 8,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review all due flashcards"
           ]
         },
         {
-          "label": "Baca ulang visual",
-          "minutes": 15,
+          "label": "Remedial work: Physics",
+          "minutes": 18,
           "tasks": [
-            "Baca lembar rumus",
-            "5 soal mudah"
+            "Re-read and redraw the red Physics subtopics from the Readiness Exam",
+            "Redo the questions you got wrong"
           ]
         },
         {
-          "label": "Gambar dari ingatan",
-          "minutes": 5,
+          "label": "Error log",
+          "minutes": 4,
           "tasks": [
-            "1 diagram kunci"
+            "Review the error log entries that are due"
           ]
         }
       ]
@@ -1088,28 +1615,30 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "biology",
-      "title": "Pemantapan Biologi",
+      "title": "Remedial work: Biology",
       "issue": 13,
+      "new_subtopics": [],
       "blocks": [
         {
-          "label": "Flashcard",
-          "minutes": 10,
+          "label": "Flashcards",
+          "minutes": 8,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review all due flashcards"
           ]
         },
         {
-          "label": "Baca ulang visual",
-          "minutes": 15,
+          "label": "Remedial work: Biology",
+          "minutes": 18,
           "tasks": [
-            "Diagram sel, jantung, sistem organ"
+            "Re-read and redraw the red Biology subtopics from the Readiness Exam",
+            "Redo the questions you got wrong"
           ]
         },
         {
-          "label": "Gambar dari ingatan",
-          "minutes": 5,
+          "label": "Error log",
+          "minutes": 4,
           "tasks": [
-            "1 diagram kunci"
+            "Review the error log entries that are due"
           ]
         }
       ]
@@ -1119,28 +1648,30 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "earth",
-      "title": "Pemantapan Earth Science",
+      "title": "Remedial work: Earth Science",
       "issue": 13,
+      "new_subtopics": [],
       "blocks": [
         {
-          "label": "Flashcard",
-          "minutes": 10,
+          "label": "Flashcards",
+          "minutes": 8,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review all due flashcards"
           ]
         },
         {
-          "label": "Baca ulang visual",
-          "minutes": 15,
+          "label": "Remedial work: Earth Science",
+          "minutes": 18,
           "tasks": [
-            "Siklus batuan, atmosfer, Stellarium 10 menit"
+            "Re-read and redraw the red Earth Science subtopics from the Readiness Exam",
+            "Redo the questions you got wrong"
           ]
         },
         {
-          "label": "Gambar dari ingatan",
-          "minutes": 5,
+          "label": "Error log",
+          "minutes": 4,
           "tasks": [
-            "1 diagram kunci"
+            "Review the error log entries that are due"
           ]
         }
       ]
@@ -1150,28 +1681,30 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "chemistry",
-      "title": "Pemantapan Kimia",
+      "title": "Remedial work: Chemistry",
       "issue": 13,
+      "new_subtopics": [],
       "blocks": [
         {
-          "label": "Flashcard",
-          "minutes": 10,
+          "label": "Flashcards",
+          "minutes": 8,
           "tasks": [
-            "Review kartu jatuh tempo"
+            "Review all due flashcards"
           ]
         },
         {
-          "label": "Baca ulang visual",
-          "minutes": 15,
+          "label": "Remedial work: Chemistry",
+          "minutes": 18,
           "tasks": [
-            "Tabel periodik, bentuk molekul, mol"
+            "Re-read and redraw the red Chemistry subtopics from the Readiness Exam",
+            "Redo the questions you got wrong"
           ]
         },
         {
-          "label": "Gambar dari ingatan",
-          "minutes": 5,
+          "label": "Error log",
+          "minutes": 4,
           "tasks": [
-            "1 diagram kunci"
+            "Review the error log entries that are due"
           ]
         }
       ]
@@ -1181,31 +1714,30 @@
       "phase": "daily",
       "minutes": 30,
       "subject": "prep",
-      "title": "Persiapan teknis",
+      "title": "Light day: technical preparation",
       "issue": 13,
+      "new_subtopics": [],
       "blocks": [
         {
-          "label": "Flashcard",
-          "minutes": 10,
-          "tasks": [
-            "Review kartu jatuh tempo"
-          ]
-        },
-        {
-          "label": "Baca ulang visual",
+          "label": "Technical preparation",
           "minutes": 15,
           "tasks": [
-            "Login portal & cek internet",
-            "Kalkulator, penggaris, jangka, kertas",
-            "Baca Top 10 kesalahan",
-            "Tidur sebelum 22:00"
+            "Check your device, internet, login and the exam link",
+            "Pack pens, scratch paper and water"
           ]
         },
         {
-          "label": "Gambar dari ingatan",
+          "label": "Top 10 mistakes",
+          "minutes": 10,
+          "tasks": [
+            "Read your top 10 mistakes list once"
+          ]
+        },
+        {
+          "label": "Rest",
           "minutes": 5,
           "tasks": [
-            "1 diagram kunci"
+            "Stop studying early and get enough sleep"
           ]
         }
       ]
@@ -1215,24 +1747,16 @@
       "phase": "exam",
       "minutes": 180,
       "subject": "exam",
-      "title": "🏁 Ujian HUSO Round 1 (19:30–22:30 WIB)",
+      "title": "HUSO Round 1 (19:30-22:30 WIB)",
       "issue": 13,
+      "new_subtopics": [],
       "blocks": [
         {
-          "label": "Sebelum ujian",
-          "minutes": 0,
-          "tasks": [
-            "Aktivitas santai, makan cukup, tanpa belajar",
-            "18:30 siap di meja, buka portal"
-          ]
-        },
-        {
-          "label": "Ujian",
+          "label": "HUSO Round 1",
           "minutes": 180,
           "tasks": [
-            "Lihat semua soal",
-            "Ragu = kosongkan",
-            "±36 menit per mapel"
+            "Light meal and device check by 19:00; log in by 19:15",
+            "About 36 minutes per subject; never leave easy questions blank"
           ]
         }
       ]

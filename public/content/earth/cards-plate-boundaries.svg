@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 502" role="img" aria-labelledby="t d">
+<title id="t">Three types of plate boundary</title>
+<desc id="d">Divergent boundaries where plates move apart, convergent boundaries where plates collide and one may subduct, and transform boundaries where plates slide past each other.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="502" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text data-label="Divergent" x="200" y="18" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Divergent: plates move apart</text>
+<polygon points="10,50 170,50 190,90 210,90 230,50 390,50 390,100 10,100" fill="#92400e" fill-opacity="0.25" stroke="#92400e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="185,90 215,90 200,68" fill="#92400e" fill-opacity="0.8"/>
+<line x1="150" y1="42" x2="90" y2="42" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<line x1="250" y1="42" x2="310" y2="42" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text x="200" y="120" font-size="12" text-anchor="middle" fill="#6b7280">ridge / rift valley, new crust, shallow quakes</text>
+<text data-label="Convergent" x="200" y="160" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Convergent: plates collide</text>
+<polygon points="10,205 170,205 300,300 285,320 160,235 10,235" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="175,205 200,185 390,185 390,300 300,300" fill="#92400e" fill-opacity="0.15" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round"/>
+<polygon points="305,185 325,158 345,185" fill="#92400e" fill-opacity="0.85" stroke="#111827" stroke-width="1.5" stroke-linejoin="round"/>
+<text x="368" y="176" font-size="12" text-anchor="middle" fill="#111827">volcano</text>
+<line x1="40" y1="222" x2="110" y2="222" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<line x1="380" y1="245" x2="330" y2="245" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text x="150" y="196" font-size="12" text-anchor="end" fill="#111827">trench</text>
+<text x="70" y="258" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">oceanic plate</text>
+<text x="330" y="270" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">continental plate</text>
+<text x="200" y="346" font-size="12" text-anchor="middle" fill="#6b7280">subduction: the denser oceanic plate sinks</text>
+<text x="200" y="362" font-size="12" text-anchor="middle" fill="#6b7280">volcanoes and deep earthquakes</text>
+<text data-label="Transform" x="200" y="396" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Transform: plates slide past each other</text>
+<polygon points="10,410 190,410 190,470 10,470" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="210,410 390,410 390,470 210,470" fill="#92400e" fill-opacity="0.12" stroke="#92400e" stroke-width="2" stroke-linejoin="round"/>
+<line x1="100" y1="462" x2="100" y2="420" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<line x1="300" y1="418" x2="300" y2="462" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text x="200" y="490" font-size="12" text-anchor="middle" fill="#6b7280">top view: no crust made or destroyed, strong quakes</text>
+</g>
+</svg>

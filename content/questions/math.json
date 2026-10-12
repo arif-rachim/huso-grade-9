@@ -1,0 +1,2166 @@
+{
+  "version": 1,
+  "subject": "math",
+  "questions": [
+    {
+      "id": "math-0001",
+      "subtopic": "math.algebra.polynomials",
+      "difficulty": 1,
+      "stem": "A coach models a swimmer's lap time (in seconds) after x weeks as T(x) = x³ − 2x² + 5x − 7. What is the remainder when T(x) is divided by (x − 2)?",
+      "visual": null,
+      "choices": {
+        "A": "-33",
+        "B": "-7",
+        "C": "3",
+        "D": "17",
+        "E": "-3"
+      },
+      "answer": "C",
+      "explanation": "Remainder theorem: the remainder on division by (x − 2) is T(2) = 8 − 8 + 10 − 7 = 3. The other choices are T(−2), T(0), T(3) and T(1): wrong inputs.",
+      "explanation_visual": "content/math/polynomials-area-model.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0002",
+      "subtopic": "math.algebra.polynomials",
+      "difficulty": 1,
+      "stem": "What is the sum of the two roots of 2x² − 10x + 7 = 0?",
+      "visual": null,
+      "choices": {
+        "A": "−5",
+        "B": "5",
+        "C": "7/2",
+        "D": "10",
+        "E": "−7/2"
+      },
+      "answer": "B",
+      "explanation": "Vieta: the sum of the roots is −b/a = 10/2 = 5. The product 7/2 is not what was asked, and the sign of −b/a is easy to flip.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0003",
+      "subtopic": "math.algebra.polynomials",
+      "difficulty": 1,
+      "stem": "By the rational root theorem, which of these numbers can NOT be a root of 2x³ − 5x² + x − 6 = 0?",
+      "visual": null,
+      "choices": {
+        "A": "3/2",
+        "B": "2/3",
+        "C": "6",
+        "D": "1/2",
+        "E": "−3"
+      },
+      "answer": "B",
+      "explanation": "A rational root m/n (lowest terms) needs m to divide the constant term 6 and n to divide the leading coefficient 2. For 2/3 the denominator 3 does not divide 2, so it is impossible.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0004",
+      "subtopic": "math.algebra.polynomials",
+      "difficulty": 2,
+      "stem": "In a made-up Valorant economy model, the bonus after round x is B(x) = x³ − 7x + 6 (in hundreds of credits). Find the sum of all positive whole-number rounds x at which B(x) = 0.",
+      "visual": null,
+      "choices": {
+        "A": "0",
+        "B": "3",
+        "C": "6",
+        "D": "-3",
+        "E": "2"
+      },
+      "answer": "B",
+      "explanation": "B(x) = (x − 1)(x − 2)(x + 3), so the roots are 1, 2 and −3. Only 1 and 2 are positive: 1 + 2 = 3. The sum of all three roots is 0 (Vieta), a common trap.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0005",
+      "subtopic": "math.algebra.polynomials",
+      "difficulty": 2,
+      "stem": "For which value of k is (x − 3) a factor of x³ − kx² + x + 6?",
+      "visual": null,
+      "choices": {
+        "A": "4",
+        "B": "-4",
+        "C": "2",
+        "D": "6",
+        "E": "12"
+      },
+      "answer": "A",
+      "explanation": "(x − 3) is a factor exactly when the polynomial is 0 at x = 3: 27 − 9k + 3 + 6 = 36 − 9k = 0, so k = 4.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0006",
+      "subtopic": "math.algebra.polynomials",
+      "difficulty": 2,
+      "stem": "The side lengths (in cm) of a rectangular baking tray are the two roots of x² − 34x + 240 = 0. How long is the diagonal of the tray?",
+      "visual": null,
+      "choices": {
+        "A": "24 cm",
+        "B": "28 cm",
+        "C": "34 cm",
+        "D": "√240 cm",
+        "E": "26 cm"
+      },
+      "answer": "E",
+      "explanation": "Vieta: p + q = 34, pq = 240. Then p² + q² = 34² − 2·240 = 676, so the diagonal is √676 = 26 cm (the sides are 10 and 24).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0007",
+      "subtopic": "math.algebra.polynomials",
+      "difficulty": 3,
+      "stem": "P(x) = x³ + ax + b leaves remainder 5 when divided by (x − 1) and remainder 1 when divided by (x + 1). What is P(2)?",
+      "visual": null,
+      "choices": {
+        "A": "13",
+        "B": "11",
+        "C": "15",
+        "D": "9",
+        "E": "7"
+      },
+      "answer": "A",
+      "explanation": "P(1) = 1 + a + b = 5 and P(−1) = −1 − a + b = 1. Adding: 2b = 6, so b = 3 and a = 1. Then P(2) = 8 + 2 + 3 = 13.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0008",
+      "subtopic": "math.algebra.polynomials",
+      "difficulty": 3,
+      "stem": "What is the constant term in the expansion of (x + 2/x)⁶?",
+      "visual": null,
+      "choices": {
+        "A": "20",
+        "B": "64",
+        "C": "80",
+        "D": "160",
+        "E": "120"
+      },
+      "answer": "D",
+      "explanation": "The general term is C(6,k)·x⁶⁻ᵏ·(2/x)ᵏ = C(6,k)·2ᵏ·x⁶⁻²ᵏ. The power of x is 0 when k = 3, giving C(6,3)·2³ = 20·8 = 160.",
+      "explanation_visual": "content/math/pascal-triangle.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0009",
+      "subtopic": "math.algebra.sequences",
+      "difficulty": 1,
+      "stem": "At swim practice you swim n laps of 50 m on day n, for the first 12 days (day 1: 1 lap, day 2: 2 laps, and so on). How many meters do you swim in total?",
+      "visual": null,
+      "choices": {
+        "A": "3900",
+        "B": "600",
+        "C": "1950",
+        "D": "3000",
+        "E": "7800"
+      },
+      "answer": "A",
+      "explanation": "Total laps = 1 + 2 + … + 12 = 12·13/2 = 78. Then 78 × 50 m = 3900 m.",
+      "explanation_visual": "content/math/sequences-arith-geom.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0010",
+      "subtopic": "math.algebra.sequences",
+      "difficulty": 1,
+      "stem": "A baker starts a sourdough starter at 5 g. It doubles in mass every hour. How many grams after 6 hours?",
+      "visual": null,
+      "choices": {
+        "A": "30",
+        "B": "160",
+        "C": "315",
+        "D": "320",
+        "E": "640"
+      },
+      "answer": "D",
+      "explanation": "Geometric growth: 5 · 2⁶ = 5 · 64 = 320 g. (315 would be the total of the amounts added, which is a different question.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0011",
+      "subtopic": "math.algebra.sequences",
+      "difficulty": 1,
+      "stem": "An arithmetic sequence starts 7, 11, 15, 19, … What is its 20th term?",
+      "visual": null,
+      "choices": {
+        "A": "79",
+        "B": "80",
+        "C": "83",
+        "D": "87",
+        "E": "91"
+      },
+      "answer": "C",
+      "explanation": "aₙ = a₁ + (n − 1)d = 7 + 19·4 = 83. Using 20·4 (87) is the classic off-by-one slip.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0012",
+      "subtopic": "math.algebra.sequences",
+      "difficulty": 2,
+      "stem": "What is 3 + 6 + 12 + 24 + … (a geometric series with 8 terms)?",
+      "visual": null,
+      "choices": {
+        "A": "381",
+        "B": "768",
+        "C": "1020",
+        "D": "765",
+        "E": "1533"
+      },
+      "answer": "D",
+      "explanation": "Sₙ = a(rⁿ − 1)/(r − 1) = 3(2⁸ − 1)/1 = 3·255 = 765.",
+      "explanation_visual": "content/math/sequences-arith-geom.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0013",
+      "subtopic": "math.algebra.sequences",
+      "difficulty": 2,
+      "stem": "In a made-up Valorant economy, your round bonuses are 800, 400, 200, 100, … credits, each half of the previous one. If the pattern went on forever, what would the total be?",
+      "visual": null,
+      "choices": {
+        "A": "800",
+        "B": "1000",
+        "C": "1200",
+        "D": "3200",
+        "E": "1600"
+      },
+      "answer": "E",
+      "explanation": "Infinite geometric series with |r| < 1: a/(1 − r) = 800/(1 − ½) = 1600.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0014",
+      "subtopic": "math.algebra.sequences",
+      "difficulty": 2,
+      "stem": "What is 1/(1·2) + 1/(2·3) + 1/(3·4) + … + 1/(20·21)?",
+      "visual": null,
+      "choices": {
+        "A": "19/20",
+        "B": "21/20",
+        "C": "20/21",
+        "D": "1/21",
+        "E": "40/41"
+      },
+      "answer": "C",
+      "explanation": "Write 1/(k(k+1)) = 1/k − 1/(k+1). Everything cancels except 1 − 1/21 = 20/21.",
+      "explanation_visual": "content/math/sequences-telescoping.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0015",
+      "subtopic": "math.algebra.sequences",
+      "difficulty": 3,
+      "stem": "The sum of the first n terms of a sequence is Sₙ = n² + 3n. What is the 10th term?",
+      "visual": null,
+      "choices": {
+        "A": "22",
+        "B": "23",
+        "C": "19",
+        "D": "108",
+        "E": "130"
+      },
+      "answer": "A",
+      "explanation": "a₁₀ = S₁₀ − S₉ = 130 − 108 = 22. (130 is the sum of ten terms, not the tenth term.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0016",
+      "subtopic": "math.algebra.sequences",
+      "difficulty": 3,
+      "stem": "What is the value of 1/(√1 + √2) + 1/(√2 + √3) + … + 1/(√24 + √25)?",
+      "visual": null,
+      "choices": {
+        "A": "3",
+        "B": "5",
+        "C": "24",
+        "D": "4",
+        "E": "√24"
+      },
+      "answer": "D",
+      "explanation": "Multiply each term by its conjugate: 1/(√k + √(k+1)) = √(k+1) − √k. The sum telescopes to √25 − √1 = 4.",
+      "explanation_visual": "content/math/sequences-telescoping.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0017",
+      "subtopic": "math.algebra.inequalities",
+      "difficulty": 1,
+      "stem": "An oven's temperature error (in degrees squared) is modeled as D(t) = t² − 6t + 11 for t minutes after preheating. What is the smallest possible value of D(t)?",
+      "visual": null,
+      "choices": {
+        "A": "0",
+        "B": "-2",
+        "C": "5",
+        "D": "2",
+        "E": "11"
+      },
+      "answer": "D",
+      "explanation": "Complete the square: t² − 6t + 11 = (t − 3)² + 2 ≥ 2, because a square is never negative. Equality at t = 3.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0018",
+      "subtopic": "math.algebra.inequalities",
+      "difficulty": 1,
+      "stem": "For x > 0, what is the smallest possible value of x + 16/x?",
+      "visual": null,
+      "choices": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "17",
+        "E": "20"
+      },
+      "answer": "B",
+      "explanation": "AM-GM: x + 16/x ≥ 2√(x · 16/x) = 2·4 = 8, with equality when x = 16/x, i.e. x = 4.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0019",
+      "subtopic": "math.algebra.inequalities",
+      "difficulty": 1,
+      "stem": "Two sides of a triangle are 5 and 9. How many whole-number lengths are possible for the third side?",
+      "visual": null,
+      "choices": {
+        "A": "4",
+        "B": "8",
+        "C": "9",
+        "D": "10",
+        "E": "14"
+      },
+      "answer": "C",
+      "explanation": "Triangle inequality: 9 − 5 < x < 9 + 5, so 4 < x < 14, giving x = 5, 6, …, 13: nine values.",
+      "explanation_visual": "content/math/inequalities-triangle-sticks.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0020",
+      "subtopic": "math.algebra.inequalities",
+      "difficulty": 2,
+      "stem": "You rope off a rectangular kids' paddling area in the pool using exactly 40 m of rope around all four sides. What is the largest possible area, in m²?",
+      "visual": null,
+      "choices": {
+        "A": "80",
+        "B": "99",
+        "C": "120",
+        "D": "100",
+        "E": "200"
+      },
+      "answer": "D",
+      "explanation": "Width w, length 20 − w, area w(20 − w). By AM-GM this is at most ((w + 20 − w)/2)² = 100, reached by the 10 m × 10 m square.",
+      "explanation_visual": "content/math/inequalities-rim-area.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0021",
+      "subtopic": "math.algebra.inequalities",
+      "difficulty": 2,
+      "stem": "What is the harmonic mean 2ab/(a + b) of 4 and 12?",
+      "visual": null,
+      "choices": {
+        "A": "4",
+        "B": "6",
+        "C": "8",
+        "D": "10",
+        "E": "√48"
+      },
+      "answer": "B",
+      "explanation": "2·4·12/(4 + 12) = 96/16 = 6. Check the order HM ≤ GM ≤ AM: 6 ≤ √48 ≈ 6.93 ≤ 8.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0022",
+      "subtopic": "math.algebra.inequalities",
+      "difficulty": 2,
+      "stem": "On a Valorant map, a triangular loop is made from three corridors of lengths 6 m, 11 m and x m, where x is a whole number. What is the greatest possible x?",
+      "visual": null,
+      "choices": {
+        "A": "5",
+        "B": "15",
+        "C": "17",
+        "D": "16",
+        "E": "18"
+      },
+      "answer": "D",
+      "explanation": "Need 11 − 6 < x < 11 + 6, i.e. 5 < x < 17. The greatest whole number is 16 (17 would make the corridors collapse into a straight line).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0023",
+      "subtopic": "math.algebra.inequalities",
+      "difficulty": 3,
+      "stem": "Positive numbers a and b satisfy a + b = 1. What is the smallest possible value of 1/a + 1/b?",
+      "visual": null,
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "5",
+        "D": "4",
+        "E": "8"
+      },
+      "answer": "D",
+      "explanation": "(a + b)(1/a + 1/b) ≥ (by AM-GM or Cauchy) 4, and a + b = 1, so 1/a + 1/b ≥ 4, with equality at a = b = ½.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0024",
+      "subtopic": "math.algebra.inequalities",
+      "difficulty": 3,
+      "stem": "Positive numbers x and y satisfy xy = 36. What is the smallest possible value of 4x + 9y?",
+      "visual": null,
+      "choices": {
+        "A": "36",
+        "B": "72",
+        "C": "78",
+        "D": "90",
+        "E": "144"
+      },
+      "answer": "B",
+      "explanation": "AM-GM: 4x + 9y ≥ 2√(4x·9y) = 2√(36·36) = 72. Equality when 4x = 9y, i.e. x = 9 and y = 4.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0025",
+      "subtopic": "math.algebra.functions",
+      "difficulty": 1,
+      "stem": "Four swimmers must each get their own lane in a 4-lane heat (a bijection from swimmers to lanes). In how many ways can the lanes be assigned?",
+      "visual": null,
+      "choices": {
+        "A": "24",
+        "B": "4",
+        "C": "12",
+        "D": "16",
+        "E": "256"
+      },
+      "answer": "A",
+      "explanation": "A bijection matches each swimmer to a different lane: 4·3·2·1 = 24. (256 = 4⁴ counts all functions, including ones where two swimmers share a lane.)",
+      "explanation_visual": "content/math/functions-who-sits-where.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0026",
+      "subtopic": "math.algebra.functions",
+      "difficulty": 1,
+      "stem": "What is ⌊−2.3⌋ + ⌈2.3⌉?",
+      "visual": null,
+      "choices": {
+        "A": "0",
+        "B": "-1",
+        "C": "1",
+        "D": "-2",
+        "E": "2"
+      },
+      "answer": "A",
+      "explanation": "⌊−2.3⌋ is the greatest integer ≤ −2.3, which is −3 (not −2). ⌈2.3⌉ = 3. The sum is 0.",
+      "explanation_visual": "content/math/functions-floor-ceiling.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0027",
+      "subtopic": "math.algebra.functions",
+      "difficulty": 1,
+      "stem": "What is sin 60° · cos 30°?",
+      "visual": null,
+      "choices": {
+        "A": "√3/4",
+        "B": "1/2",
+        "C": "3/4",
+        "D": "√3/2",
+        "E": "1"
+      },
+      "answer": "C",
+      "explanation": "sin 60° = cos 30° = √3/2, so the product is (√3/2)² = 3/4.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0028",
+      "subtopic": "math.algebra.functions",
+      "difficulty": 2,
+      "stem": "A function satisfies 2f(x) + f(1 − x) = x for every real x. What is f(1)?",
+      "visual": null,
+      "choices": {
+        "A": "2/3",
+        "B": "1/3",
+        "C": "1",
+        "D": "−1/3",
+        "E": "2"
+      },
+      "answer": "A",
+      "explanation": "Put x = 0: 2f(0) + f(1) = 0. Put x = 1: 2f(1) + f(0) = 1. From the first, f(1) = −2f(0); substitute: −4f(0) + f(0) = 1, so f(0) = −1/3 and f(1) = 2/3.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0029",
+      "subtopic": "math.algebra.functions",
+      "difficulty": 2,
+      "stem": "How many of these six functions are even? x² + 1,  x³,  x⁴ − x²,  x + 1,  |x|,  x⁵ + x",
+      "visual": null,
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "C",
+      "explanation": "Even means f(−x) = f(x): x² + 1, x⁴ − x² and |x| are even (3). x³ and x⁵ + x are odd, and x + 1 is neither.",
+      "explanation_visual": "content/math/functions-even-odd.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0030",
+      "subtopic": "math.algebra.functions",
+      "difficulty": 2,
+      "stem": "A yeast culture of 1000 cells doubles every 30 minutes. After how many hours does it first reach 64 000 cells?",
+      "visual": null,
+      "choices": {
+        "A": "1.5",
+        "B": "3",
+        "C": "2",
+        "D": "6",
+        "E": "12"
+      },
+      "answer": "B",
+      "explanation": "64 000 = 1000 · 2⁶, so it takes 6 doublings. At 30 minutes each, that is 3 hours (equivalently log₂ 64 = 6 doublings).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0031",
+      "subtopic": "math.algebra.functions",
+      "difficulty": 3,
+      "stem": "How many functions from {1, 2, 3, 4} onto {a, b, c} are surjective (every one of a, b, c is hit at least once)?",
+      "visual": null,
+      "choices": {
+        "A": "6",
+        "B": "36",
+        "C": "18",
+        "D": "24",
+        "E": "81"
+      },
+      "answer": "B",
+      "explanation": "All functions: 3⁴ = 81. Subtract those missing at least one value: 3·2⁴ − 3·1⁴ = 45 (inclusion-exclusion). 81 − 45 = 36.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0032",
+      "subtopic": "math.algebra.functions",
+      "difficulty": 3,
+      "stem": "In a made-up Valorant mode your shield bonus after round k is ⌊k/3⌋ points. What is the sum of the bonuses after rounds 1 to 20?",
+      "visual": null,
+      "choices": {
+        "A": "57",
+        "B": "60",
+        "C": "63",
+        "D": "66",
+        "E": "70"
+      },
+      "answer": "C",
+      "explanation": "k = 1,2 give 0; k = 3,4,5 give 1; … k = 18,19,20 give 6. Sum = 3(1+2+3+4+5) + 3·6 − 0 = 45 + 18 = 63. (70 would be the sum of k/3 without rounding down.)",
+      "explanation_visual": "content/math/functions-floor-ceiling.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0033",
+      "subtopic": "math.number-theory.modular",
+      "difficulty": 1,
+      "stem": "A pool clock reads 9 o'clock. What does the (12-hour) clock read 50 hours later?",
+      "visual": null,
+      "choices": {
+        "A": "7",
+        "B": "9",
+        "C": "10",
+        "D": "12",
+        "E": "11"
+      },
+      "answer": "E",
+      "explanation": "50 = 4·12 + 2, so only the 2 extra hours matter: 9 + 2 = 11 (equivalently 59 ≡ 11 mod 12).",
+      "explanation_visual": "content/math/modular-round-clock.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0034",
+      "subtopic": "math.number-theory.modular",
+      "difficulty": 1,
+      "stem": "Five agents act as the spotter in a repeating cycle: agent 1 on round 1, agent 2 on round 2, …, agent 5 on round 5, then agent 1 again on round 6. Which agent is the spotter on round 2027?",
+      "visual": null,
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "4",
+        "E": "5"
+      },
+      "answer": "B",
+      "explanation": "Shift to start at 0: (2027 − 1) mod 5 = 2026 mod 5 = 1, so it is the 2nd agent in the cycle (2027 ≡ 2 mod 5).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0035",
+      "subtopic": "math.number-theory.modular",
+      "difficulty": 1,
+      "stem": "How many positive divisors does 360 have?",
+      "visual": null,
+      "choices": {
+        "A": "12",
+        "B": "18",
+        "C": "24",
+        "D": "20",
+        "E": "30"
+      },
+      "answer": "C",
+      "explanation": "360 = 2³ · 3² · 5, so the number of divisors is (3 + 1)(2 + 1)(1 + 1) = 24.",
+      "explanation_visual": "content/math/modular-prime-tree.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0036",
+      "subtopic": "math.number-theory.modular",
+      "difficulty": 2,
+      "stem": "What is the last digit of 3²⁰²⁷?",
+      "visual": null,
+      "choices": {
+        "A": "1",
+        "B": "2",
+        "C": "3",
+        "D": "9",
+        "E": "7"
+      },
+      "answer": "E",
+      "explanation": "Last digits of powers of 3 repeat with period 4: 3, 9, 7, 1. Since 2027 ≡ 3 (mod 4), the last digit is the 3rd in the cycle, 7.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0037",
+      "subtopic": "math.number-theory.modular",
+      "difficulty": 2,
+      "stem": "Cookies are packed 4 per box with 3 left over, and also 5 per box with 2 left over. If there are between 10 and 40 cookies, how many are there?",
+      "visual": null,
+      "choices": {
+        "A": "27",
+        "B": "17",
+        "C": "23",
+        "D": "32",
+        "E": "37"
+      },
+      "answer": "A",
+      "explanation": "n ≡ 3 (mod 4) gives 11, 15, 19, 23, 27, … and n ≡ 2 (mod 5) gives 12, 17, 22, 27, … The only common value is 27 (the next would be 47).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0038",
+      "subtopic": "math.number-theory.modular",
+      "difficulty": 2,
+      "stem": "What is the smallest positive integer x with 5x ≡ 1 (mod 13)?",
+      "visual": null,
+      "choices": {
+        "A": "2",
+        "B": "5",
+        "C": "10",
+        "D": "8",
+        "E": "12"
+      },
+      "answer": "D",
+      "explanation": "Test 5, 10, 15, 20, 25, 30, 35, 40, …: 40 = 3·13 + 1, so x = 8. (8 is the multiplicative inverse of 5 mod 13.)",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0039",
+      "subtopic": "math.number-theory.modular",
+      "difficulty": 3,
+      "stem": "With how many zeros does 50! end?",
+      "visual": null,
+      "choices": {
+        "A": "10",
+        "B": "11",
+        "C": "13",
+        "D": "50",
+        "E": "12"
+      },
+      "answer": "E",
+      "explanation": "Each zero comes from a factor 10 = 2·5, and there are plenty of 2s. Count the 5s: ⌊50/5⌋ + ⌊50/25⌋ = 10 + 2 = 12.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0040",
+      "subtopic": "math.number-theory.modular",
+      "difficulty": 3,
+      "stem": "What are the last two digits of 7²⁰²⁶?",
+      "visual": null,
+      "choices": {
+        "A": "49",
+        "B": "01",
+        "C": "07",
+        "D": "43",
+        "E": "69"
+      },
+      "answer": "A",
+      "explanation": "7¹ = 07, 7² = 49, 7³ = 343 → 43, 7⁴ = 2401 → 01, so the last two digits repeat every 4 powers. 2026 ≡ 2 (mod 4), so the answer is 49.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0041",
+      "subtopic": "math.number-theory.misc",
+      "difficulty": 1,
+      "stem": "A custom Valorant game displays its timer code as the binary number 1011001. What is that in ordinary (decimal) numbers?",
+      "visual": null,
+      "choices": {
+        "A": "77",
+        "B": "81",
+        "C": "91",
+        "D": "101",
+        "E": "89"
+      },
+      "answer": "E",
+      "explanation": "Place values 64, 32, 16, 8, 4, 2, 1: 64 + 16 + 8 + 1 = 89.",
+      "explanation_visual": "content/math/misc-bases.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0042",
+      "subtopic": "math.number-theory.misc",
+      "difficulty": 1,
+      "stem": "A rectangular baking tray measures 30 cm by 40 cm. How long is its diagonal?",
+      "visual": null,
+      "choices": {
+        "A": "35 cm",
+        "B": "50 cm",
+        "C": "45 cm",
+        "D": "60 cm",
+        "E": "70 cm"
+      },
+      "answer": "B",
+      "explanation": "30-40-50 is a 3-4-5 triple scaled by 10, so the diagonal is 50 cm.",
+      "explanation_visual": "content/math/misc-triples.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0043",
+      "subtopic": "math.number-theory.misc",
+      "difficulty": 1,
+      "stem": "A right triangle has hypotenuse 25 and one leg 7. What is the other leg?",
+      "visual": null,
+      "choices": {
+        "A": "18",
+        "B": "20",
+        "C": "24",
+        "D": "32",
+        "E": "√674"
+      },
+      "answer": "C",
+      "explanation": "7-24-25 is a Pythagorean triple: 7² + 24² = 49 + 576 = 625 = 25².",
+      "explanation_visual": "content/math/misc-triples.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0044",
+      "subtopic": "math.number-theory.misc",
+      "difficulty": 2,
+      "stem": "Write 345 in base 7.",
+      "visual": null,
+      "choices": {
+        "A": "1002",
+        "B": "1020",
+        "C": "1111",
+        "D": "1200",
+        "E": "2001"
+      },
+      "answer": "A",
+      "explanation": "7³ = 343 fits once, leaving 2: 345 = 1·343 + 0·49 + 0·7 + 2, so 1002 in base 7.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0045",
+      "subtopic": "math.number-theory.misc",
+      "difficulty": 2,
+      "stem": "A swim coach builds a 100-lap plan from warm-up sets of 7 laps and sprint sets of 4 laps, using at least one of each. How many different (warm-up sets, sprint sets) plans are there?",
+      "visual": null,
+      "choices": {
+        "A": "2",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "3"
+      },
+      "answer": "E",
+      "explanation": "7x + 4y = 100 needs 7x ≡ 0 (mod 4), so x is a multiple of 4: x = 4, 8, 12 give y = 18, 11, 4. That is 3 plans.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0046",
+      "subtopic": "math.number-theory.misc",
+      "difficulty": 2,
+      "stem": "A right triangle has hypotenuse 41 and a leg of 9. What is its area?",
+      "visual": null,
+      "choices": {
+        "A": "90",
+        "B": "180",
+        "C": "184.5",
+        "D": "360",
+        "E": "369"
+      },
+      "answer": "B",
+      "explanation": "9-40-41 is a Pythagorean triple (81 + 1600 = 1681). Area = ½ · 9 · 40 = 180.",
+      "explanation_visual": "content/math/misc-triples.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0047",
+      "subtopic": "math.number-theory.misc",
+      "difficulty": 3,
+      "stem": "How many ordered pairs (x, y) of positive integers satisfy 1/x + 1/y = 1/6?",
+      "visual": null,
+      "choices": {
+        "A": "6",
+        "B": "8",
+        "C": "12",
+        "D": "9",
+        "E": "18"
+      },
+      "answer": "D",
+      "explanation": "Clear fractions: xy = 6x + 6y, so (x − 6)(y − 6) = 36. 36 has 9 positive divisors (1, 2, 3, 4, 6, 9, 12, 18, 36), each giving one pair.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0048",
+      "subtopic": "math.number-theory.misc",
+      "difficulty": 3,
+      "stem": "How many positive integers up to 1000 have only the digits 0 and 1 when written in base 3?",
+      "visual": null,
+      "choices": {
+        "A": "95",
+        "B": "115",
+        "C": "127",
+        "D": "22",
+        "E": "105"
+      },
+      "answer": "E",
+      "explanation": "Numbers with only the digits 0 and 1 in base 3 correspond to sums of distinct powers of 3. Up to 7 digits (below 3⁷ = 2187) there are 2⁷ − 1 = 127 positive ones. Those that use 3⁶ = 729 and also more than 271 from the smaller powers exceed 1000: there are 22 of them. 127 − 22 = 105.",
+      "explanation_visual": "content/math/misc-bases.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0049",
+      "subtopic": "math.geometry.triangles",
+      "difficulty": 1,
+      "stem": "A triangle has sides 13, 14 and 15. What is its area?",
+      "visual": null,
+      "choices": {
+        "A": "42",
+        "B": "91",
+        "C": "105",
+        "D": "168",
+        "E": "84"
+      },
+      "answer": "E",
+      "explanation": "Heron: s = 21, area = √(21·8·7·6) = √7056 = 84. (It is a 5-12-13 and a 9-12-15 triangle glued side by side.)",
+      "explanation_visual": "content/math/triangles-special.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0050",
+      "subtopic": "math.geometry.triangles",
+      "difficulty": 1,
+      "stem": "A triangular pizza slice has two straight edges of 8 cm and 10 cm meeting at a 30° angle. What is its area?",
+      "visual": null,
+      "choices": {
+        "A": "10 cm²",
+        "B": "20 cm²",
+        "C": "34.6 cm²",
+        "D": "40 cm²",
+        "E": "80 cm²"
+      },
+      "answer": "B",
+      "explanation": "Area = ½ab sin C = ½ · 8 · 10 · ½ = 20 cm². Forgetting the ½ gives 40; using sin 60° gives 34.6.",
+      "explanation_visual": "content/math/triangles-special.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0051",
+      "subtopic": "math.geometry.triangles",
+      "difficulty": 1,
+      "stem": "The centroid of a triangle lies on a median that is 18 cm long. How far is the centroid from the vertex at the end of that median?",
+      "visual": null,
+      "choices": {
+        "A": "6 cm",
+        "B": "9 cm",
+        "C": "12 cm",
+        "D": "13.5 cm",
+        "E": "15 cm"
+      },
+      "answer": "C",
+      "explanation": "The centroid splits every median 2 : 1 counting from the vertex, so it is 2/3 · 18 = 12 cm from the vertex (and 6 cm from the midpoint of the side).",
+      "explanation_visual": "content/math/triangles-centers.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0052",
+      "subtopic": "math.geometry.triangles",
+      "difficulty": 2,
+      "stem": "What is the inradius of the triangle with sides 13, 14 and 15?",
+      "visual": null,
+      "choices": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "8.125",
+        "E": "4"
+      },
+      "answer": "E",
+      "explanation": "Area = r · s, where s = 21 is the semi-perimeter. r = 84/21 = 4. (8.125 is the circumradius R = abc/(4K), a different circle.)",
+      "explanation_visual": "content/math/triangles-special.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0053",
+      "subtopic": "math.geometry.triangles",
+      "difficulty": 2,
+      "stem": "Three teammates stand at (0, 0), (12, 0) and (6, 9) on a Valorant map grid. Where is the centroid of their triangle?",
+      "visual": null,
+      "choices": {
+        "A": "(6, 0)",
+        "B": "(6, 4.5)",
+        "C": "(6, 9)",
+        "D": "(9, 3)",
+        "E": "(6, 3)"
+      },
+      "answer": "E",
+      "explanation": "The centroid is the average of the vertices: x = (0 + 12 + 6)/3 = 6 and y = (0 + 0 + 9)/3 = 3.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0054",
+      "subtopic": "math.geometry.triangles",
+      "difficulty": 2,
+      "stem": "In triangle ABC, ∠A = 50°, ∠B = 60° and ∠C = 70°. The angle bisectors meet at the incenter I. What is ∠BIC?",
+      "visual": null,
+      "choices": {
+        "A": "100°",
+        "B": "115°",
+        "C": "110°",
+        "D": "125°",
+        "E": "130°"
+      },
+      "answer": "B",
+      "explanation": "In triangle BIC, ∠IBC = 30° and ∠ICB = 35°, so ∠BIC = 180° − 65° = 115° (formula: 90° + A/2).",
+      "explanation_visual": "content/math/triangles-centers.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0055",
+      "subtopic": "math.geometry.triangles",
+      "difficulty": 3,
+      "stem": "In the 6-8-10 right triangle, how far apart are the circumcenter and the incenter?",
+      "visual": null,
+      "choices": {
+        "A": "√2",
+        "B": "2",
+        "C": "3",
+        "D": "√13",
+        "E": "√5"
+      },
+      "answer": "E",
+      "explanation": "Put the right angle at the origin with the legs along the axes. The circumcenter is the midpoint of the hypotenuse, (3, 4). The inradius is (6 + 8 − 10)/2 = 2, so the incenter is (2, 2). Distance = √(1² + 2²) = √5.",
+      "explanation_visual": "content/math/triangles-centers.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0056",
+      "subtopic": "math.geometry.triangles",
+      "difficulty": 3,
+      "stem": "A triangular pool-toy sail has area 30 cm² and an inscribed circle of radius 2 cm. What is the perimeter of the sail?",
+      "visual": null,
+      "choices": {
+        "A": "15 cm",
+        "B": "30 cm",
+        "C": "32 cm",
+        "D": "45 cm",
+        "E": "60 cm"
+      },
+      "answer": "B",
+      "explanation": "Area = r · s with s the semi-perimeter: 30 = 2s, so s = 15. The perimeter is 2s = 30 cm.",
+      "explanation_visual": "content/math/triangles-special.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0057",
+      "subtopic": "math.geometry.circles",
+      "difficulty": 1,
+      "stem": "An inscribed angle intercepts an arc of 100°. How big is the inscribed angle?",
+      "visual": null,
+      "choices": {
+        "A": "25°",
+        "B": "100°",
+        "C": "130°",
+        "D": "200°",
+        "E": "50°"
+      },
+      "answer": "E",
+      "explanation": "An inscribed angle is half of the arc (central angle) it intercepts: 100°/2 = 50°.",
+      "explanation_visual": "content/math/circles-angles.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0058",
+      "subtopic": "math.geometry.circles",
+      "difficulty": 1,
+      "stem": "ABCD is a cyclic quadrilateral with ∠A = 70°. What is ∠C?",
+      "visual": null,
+      "choices": {
+        "A": "110°",
+        "B": "20°",
+        "C": "70°",
+        "D": "90°",
+        "E": "290°"
+      },
+      "answer": "A",
+      "explanation": "Opposite angles of a cyclic quadrilateral add up to 180°: ∠C = 180° − 70° = 110°.",
+      "explanation_visual": "content/math/circles-angles.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0059",
+      "subtopic": "math.geometry.circles",
+      "difficulty": 1,
+      "stem": "A swimmer treads water at a point on the edge of a circular pool, 6 m from one end of a 10 m diameter. How far is she from the other end of that diameter?",
+      "visual": null,
+      "choices": {
+        "A": "4 m",
+        "B": "8 m",
+        "C": "7 m",
+        "D": "16 m",
+        "E": "√136 m"
+      },
+      "answer": "B",
+      "explanation": "An angle inscribed in a semicircle is 90°, so the triangle is right-angled with hypotenuse 10: √(10² − 6²) = 8 m.",
+      "explanation_visual": "content/math/circles-angles.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0060",
+      "subtopic": "math.geometry.circles",
+      "difficulty": 2,
+      "stem": "Two chords AB and CD of a circle cross at P. PA = 4, PB = 9 and PC = 6. What is PD?",
+      "visual": null,
+      "choices": {
+        "A": "7.5",
+        "B": "6",
+        "C": "13",
+        "D": "24",
+        "E": "36"
+      },
+      "answer": "B",
+      "explanation": "Power of a point: PA · PB = PC · PD, so 4·9 = 6·PD and PD = 6.",
+      "explanation_visual": "content/math/circles-power.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0061",
+      "subtopic": "math.geometry.circles",
+      "difficulty": 2,
+      "stem": "Two round pans with radii 4 cm and 25 cm touch each other on a table. How long is their common outer tangent line segment between the two touching points on the pans?",
+      "visual": null,
+      "choices": {
+        "A": "10 cm",
+        "B": "21 cm",
+        "C": "20 cm",
+        "D": "29 cm",
+        "E": "40 cm"
+      },
+      "answer": "C",
+      "explanation": "The centers are 4 + 25 = 29 apart. The tangent length is √(29² − (25 − 4)²) = √(841 − 441) = 20 cm (or 2√(4·25) = 20).",
+      "explanation_visual": "content/math/circles-tangent.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0062",
+      "subtopic": "math.geometry.circles",
+      "difficulty": 2,
+      "stem": "In a made-up Valorant map, a smoke covers a circle of radius 8 m. You stand 17 m from its center. How long is your straight line of sight that just touches the edge of the smoke (the tangent length)?",
+      "visual": null,
+      "choices": {
+        "A": "9 m",
+        "B": "12 m",
+        "C": "15 m",
+        "D": "17 m",
+        "E": "25 m"
+      },
+      "answer": "C",
+      "explanation": "The tangent is perpendicular to the radius, giving a right triangle with hypotenuse 17 and a leg 8: √(17² − 8²) = 15 m.",
+      "explanation_visual": "content/math/circles-tangent.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0063",
+      "subtopic": "math.geometry.circles",
+      "difficulty": 3,
+      "stem": "From an outside point P, a tangent PT of length 12 touches a circle, and a secant from P meets the circle at A (nearer) and B (farther) with PA = 8. What is the length of chord AB?",
+      "visual": null,
+      "choices": {
+        "A": "4.5",
+        "B": "6",
+        "C": "14",
+        "D": "10",
+        "E": "18"
+      },
+      "answer": "D",
+      "explanation": "Tangent-secant: PT² = PA · PB, so 144 = 8 · PB and PB = 18. The chord is AB = PB − PA = 18 − 8 = 10.",
+      "explanation_visual": "content/math/circles-power.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0064",
+      "subtopic": "math.geometry.circles",
+      "difficulty": 3,
+      "stem": "ABCD is a cyclic quadrilateral with ∠BAC = 40° and ∠CBD = 30°. What is ∠BCD?",
+      "visual": null,
+      "choices": {
+        "A": "70°",
+        "B": "100°",
+        "C": "110°",
+        "D": "120°",
+        "E": "140°"
+      },
+      "answer": "C",
+      "explanation": "∠BAC = 40° means arc BC = 80°, and ∠CBD = 30° means arc CD = 60°. The arc from B through C to D is 140°, so ∠BAD = 70°. The other arc BD (through A) is 360° − 140° = 220°, so ∠BCD = 220°/2 = 110°. Check: 70° + 110° = 180°.",
+      "explanation_visual": "content/math/circles-angles.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0065",
+      "subtopic": "math.geometry.transformations",
+      "difficulty": 1,
+      "stem": "The point (3, −2) is rotated 90° counterclockwise about the origin. Where does it land?",
+      "visual": null,
+      "choices": {
+        "A": "(−2, −3)",
+        "B": "(−2, 3)",
+        "C": "(−3, 2)",
+        "D": "(2, 3)",
+        "E": "(3, 2)"
+      },
+      "answer": "D",
+      "explanation": "A 90° counterclockwise rotation sends (x, y) to (−y, x): (3, −2) → (2, 3).",
+      "explanation_visual": "content/math/transformations-four.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0066",
+      "subtopic": "math.geometry.transformations",
+      "difficulty": 1,
+      "stem": "The point (−3, 8) is reflected in the line y = x. Where does it land?",
+      "visual": null,
+      "choices": {
+        "A": "(−8, 3)",
+        "B": "(−3, −8)",
+        "C": "(3, −8)",
+        "D": "(3, 8)",
+        "E": "(8, −3)"
+      },
+      "answer": "E",
+      "explanation": "Reflecting in y = x swaps the coordinates: (−3, 8) → (8, −3).",
+      "explanation_visual": "content/math/transformations-four.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0067",
+      "subtopic": "math.geometry.transformations",
+      "difficulty": 1,
+      "stem": "The point (2, 5) is translated by the vector (−4, 3). Where does it land?",
+      "visual": null,
+      "choices": {
+        "A": "(−6, 8)",
+        "B": "(−2, 2)",
+        "C": "(2, 8)",
+        "D": "(−2, 8)",
+        "E": "(6, 2)"
+      },
+      "answer": "D",
+      "explanation": "Add the vector: (2 − 4, 5 + 3) = (−2, 8).",
+      "explanation_visual": "content/math/transformations-four.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0068",
+      "subtopic": "math.geometry.transformations",
+      "difficulty": 2,
+      "stem": "A cookie cutter makes cookies of area 12 cm². A bigger cutter is a dilation of it by scale factor 2.5. What is the area of a cookie from the bigger cutter?",
+      "visual": null,
+      "choices": {
+        "A": "75 cm²",
+        "B": "30 cm²",
+        "C": "36 cm²",
+        "D": "60 cm²",
+        "E": "150 cm²"
+      },
+      "answer": "A",
+      "explanation": "Lengths scale by 2.5, areas scale by 2.5² = 6.25: 12 · 6.25 = 75 cm².",
+      "explanation_visual": "content/math/transformations-four.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0069",
+      "subtopic": "math.geometry.transformations",
+      "difficulty": 2,
+      "stem": "The point (4, 2) is reflected in the y-axis and then translated by (3, 1). Where does it end up?",
+      "visual": null,
+      "choices": {
+        "A": "(−7, 3)",
+        "B": "(−1, 3)",
+        "C": "(−1, 1)",
+        "D": "(1, 3)",
+        "E": "(7, 3)"
+      },
+      "answer": "B",
+      "explanation": "Reflect in the y-axis: (4, 2) → (−4, 2). Translate: (−4 + 3, 2 + 1) = (−1, 3).",
+      "explanation_visual": "content/math/transformations-four.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0070",
+      "subtopic": "math.geometry.transformations",
+      "difficulty": 2,
+      "stem": "The point (4, 3) is rotated 180° about the point (1, 1). Where does it land?",
+      "visual": null,
+      "choices": {
+        "A": "(−4, −3)",
+        "B": "(−3, −2)",
+        "C": "(−2, −1)",
+        "D": "(−2, 1)",
+        "E": "(2, 1)"
+      },
+      "answer": "C",
+      "explanation": "A 180° rotation about C sends P to 2C − P: (2 − 4, 2 − 3) = (−2, −1). C is the midpoint of P and its image.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0071",
+      "subtopic": "math.geometry.transformations",
+      "difficulty": 3,
+      "stem": "In a made-up Valorant map, a mirror-like wall lies along the line y = x + 1. What is the reflection of the point (5, 1) in this wall?",
+      "visual": null,
+      "choices": {
+        "A": "(−1, 6)",
+        "B": "(0, 4)",
+        "C": "(1, 5)",
+        "D": "(6, 0)",
+        "E": "(0, 6)"
+      },
+      "answer": "E",
+      "explanation": "Shift the line down by 1 so it becomes y = x, reflect (swap), shift back: (5, 1) → (5, 0) → (0, 5) → (0, 6). The midpoint (2.5, 3.5) is on the line, so the answer checks out.",
+      "explanation_visual": "content/math/transformations-four.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0072",
+      "subtopic": "math.geometry.transformations",
+      "difficulty": 3,
+      "stem": "In a pool, a ball at (0, 2) is reflected in the wall line x = 1 and then the image is reflected in the wall line x = 4. Where does it end up?",
+      "visual": null,
+      "choices": {
+        "A": "(6, 2)",
+        "B": "(−6, 2)",
+        "C": "(3, 2)",
+        "D": "(4, 2)",
+        "E": "(8, 2)"
+      },
+      "answer": "A",
+      "explanation": "Reflect in x = 1: (0, 2) → (2, 2). Reflect in x = 4: (2, 2) → (6, 2). Two reflections in parallel lines make a translation by twice the distance between them (2 · 3 = 6).",
+      "explanation_visual": "content/math/transformations-four.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0073",
+      "subtopic": "math.geometry.coordinate",
+      "difficulty": 1,
+      "stem": "On a Valorant map grid (1 unit = 1 m), a camera sits at (1, 2) and a site marker at (7, 10). How far apart are they?",
+      "visual": null,
+      "choices": {
+        "A": "6 m",
+        "B": "8 m",
+        "C": "14 m",
+        "D": "10 m",
+        "E": "√28 m"
+      },
+      "answer": "D",
+      "explanation": "Distance = √((7 − 1)² + (10 − 2)²) = √(36 + 64) = 10 m (a 6-8-10 triangle).",
+      "explanation_visual": "content/math/coordinate-lines.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0074",
+      "subtopic": "math.geometry.coordinate",
+      "difficulty": 1,
+      "stem": "Which of these points lies on the circle (x − 3)² + (y + 1)² = 25?",
+      "visual": null,
+      "choices": {
+        "A": "(7, 2)",
+        "B": "(7, 3)",
+        "C": "(−1, 1)",
+        "D": "(5, 2)",
+        "E": "(3, 5)"
+      },
+      "answer": "A",
+      "explanation": "Substitute: (7 − 3)² + (2 + 1)² = 16 + 9 = 25. ✓. The others give 32, 20, 13 and 36.",
+      "explanation_visual": "content/math/coordinate-circle-shoelace.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0075",
+      "subtopic": "math.geometry.coordinate",
+      "difficulty": 1,
+      "stem": "Which line passes through (0, 3) and (4, 11)?",
+      "visual": null,
+      "choices": {
+        "A": "y = 2x − 3",
+        "B": "y = 3x + 2",
+        "C": "y = 2x + 3",
+        "D": "y = x/2 + 3",
+        "E": "y = 8x + 3"
+      },
+      "answer": "C",
+      "explanation": "Slope = (11 − 3)/(4 − 0) = 2, and the y-intercept is the y-value at x = 0, which is 3. So y = 2x + 3.",
+      "explanation_visual": "content/math/coordinate-lines.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0076",
+      "subtopic": "math.geometry.coordinate",
+      "difficulty": 2,
+      "stem": "Where do the lines y = 2x + 1 and 3x + 2y = 16 cross?",
+      "visual": null,
+      "choices": {
+        "A": "(2, 5)",
+        "B": "(2, 3)",
+        "C": "(3, 7)",
+        "D": "(4, 9)",
+        "E": "(5, 2)"
+      },
+      "answer": "A",
+      "explanation": "Substitute y = 2x + 1: 3x + 4x + 2 = 16, so x = 2 and y = 5.",
+      "explanation_visual": "content/math/coordinate-lines.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0077",
+      "subtopic": "math.geometry.coordinate",
+      "difficulty": 2,
+      "stem": "A line passes through (4, 1) and is perpendicular to y = 2x + 5. Where does it cross the y-axis?",
+      "visual": null,
+      "choices": {
+        "A": "(0, −1)",
+        "B": "(0, 3)",
+        "C": "(0, 1)",
+        "D": "(0, 5)",
+        "E": "(0, 7)"
+      },
+      "answer": "B",
+      "explanation": "Perpendicular slopes multiply to −1, so m = −½. Then y − 1 = −½(x − 4), i.e. y = −½x + 3: it crosses the y-axis at (0, 3).",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0078",
+      "subtopic": "math.geometry.coordinate",
+      "difficulty": 2,
+      "stem": "The edge of a round paddling pool drawn on a plan is x² + y² − 6x + 8y = 0 (units: m). What is its radius?",
+      "visual": null,
+      "choices": {
+        "A": "5 m",
+        "B": "3 m",
+        "C": "4 m",
+        "D": "10 m",
+        "E": "25 m"
+      },
+      "answer": "A",
+      "explanation": "Complete the squares: (x − 3)² + (y + 4)² = 9 + 16 = 25, so the radius is √25 = 5 m (25 is r², not r).",
+      "explanation_visual": "content/math/coordinate-circle-shoelace.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0079",
+      "subtopic": "math.geometry.coordinate",
+      "difficulty": 3,
+      "stem": "A baking tray has its four corners at (0, 0), (6, 0), (8, 5) and (2, 7) (units: cm). What is its area?",
+      "visual": null,
+      "choices": {
+        "A": "19 cm²",
+        "B": "36 cm²",
+        "C": "38 cm²",
+        "D": "42 cm²",
+        "E": "76 cm²"
+      },
+      "answer": "C",
+      "explanation": "Shoelace: terms 0·0 − 6·0 = 0; 6·5 − 8·0 = 30; 8·7 − 2·5 = 46; 2·0 − 0·7 = 0. Sum = 76, area = ½ · 76 = 38 cm². (76 forgets the ½.)",
+      "explanation_visual": "content/math/coordinate-circle-shoelace.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0080",
+      "subtopic": "math.geometry.coordinate",
+      "difficulty": 3,
+      "stem": "The lines y = x and y = 8 − x and the x-axis form a triangle. What is its area?",
+      "visual": null,
+      "choices": {
+        "A": "16",
+        "B": "8",
+        "C": "12",
+        "D": "24",
+        "E": "32"
+      },
+      "answer": "A",
+      "explanation": "The vertices are (0, 0) [y = x meets the axis], (8, 0) [y = 8 − x meets the axis] and (4, 4) [the two lines meet]. Base 8, height 4: area = ½·8·4 = 16 (shoelace agrees).",
+      "explanation_visual": "content/math/coordinate-lines.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0081",
+      "subtopic": "math.geometry.solid",
+      "difficulty": 1,
+      "stem": "A cylinder has radius 3 and height 10. What is its volume?",
+      "visual": null,
+      "choices": {
+        "A": "30π",
+        "B": "90π",
+        "C": "60π",
+        "D": "180π",
+        "E": "900π"
+      },
+      "answer": "B",
+      "explanation": "V = πr²h = π · 9 · 10 = 90π.",
+      "explanation_visual": "content/math/solid-formulas.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0082",
+      "subtopic": "math.geometry.solid",
+      "difficulty": 1,
+      "stem": "A cylindrical soup pot has radius 10 cm and height 15 cm. What is its volume?",
+      "visual": null,
+      "choices": {
+        "A": "500π cm³",
+        "B": "750π cm³",
+        "C": "1500π cm³",
+        "D": "3000π cm³",
+        "E": "4500π cm³"
+      },
+      "answer": "C",
+      "explanation": "V = πr²h = π · 100 · 15 = 1500π cm³ (about 4.7 liters).",
+      "explanation_visual": "content/math/solid-formulas.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0083",
+      "subtopic": "math.geometry.solid",
+      "difficulty": 1,
+      "stem": "A square pyramid has a base of side 6 and a height of 4. What is its volume?",
+      "visual": null,
+      "choices": {
+        "A": "24",
+        "B": "72",
+        "C": "48",
+        "D": "96",
+        "E": "144"
+      },
+      "answer": "C",
+      "explanation": "V = ⅓ · base area · height = ⅓ · 36 · 4 = 48. (144 forgets the ⅓.)",
+      "explanation_visual": "content/math/solid-formulas.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0084",
+      "subtopic": "math.geometry.solid",
+      "difficulty": 2,
+      "stem": "A cone has radius 6 and height 8. What is its total surface area (base included)?",
+      "visual": null,
+      "choices": {
+        "A": "36π",
+        "B": "60π",
+        "C": "96π",
+        "D": "120π",
+        "E": "132π"
+      },
+      "answer": "C",
+      "explanation": "Slant height ℓ = √(6² + 8²) = 10. Base π·36 plus side π·r·ℓ = π·60: total 96π.",
+      "explanation_visual": "content/math/solid-nets.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0085",
+      "subtopic": "math.geometry.solid",
+      "difficulty": 2,
+      "stem": "A rectangular pool is 25 m long, 10 m wide and 2 m deep. How many m² of tile are needed for the floor and the four walls (no tile on top)?",
+      "visual": null,
+      "choices": {
+        "A": "140",
+        "B": "350",
+        "C": "500",
+        "D": "640",
+        "E": "390"
+      },
+      "answer": "E",
+      "explanation": "Floor 25·10 = 250; two long walls 2·(25·2) = 100; two short walls 2·(10·2) = 40. Total 390 m². (500 is the volume in m³.)",
+      "explanation_visual": "content/math/solid-formulas.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0086",
+      "subtopic": "math.geometry.solid",
+      "difficulty": 2,
+      "stem": "In a made-up Valorant map, a smoke ball is a sphere of radius 3 m with volume 36π m³. If an upgrade doubles the radius to 6 m, what is the new volume?",
+      "visual": null,
+      "choices": {
+        "A": "72π m³",
+        "B": "144π m³",
+        "C": "216π m³",
+        "D": "576π m³",
+        "E": "288π m³"
+      },
+      "answer": "E",
+      "explanation": "Volume scales with the cube of the length: doubling the radius multiplies the volume by 2³ = 8, so 8 · 36π = 288π. Check: 4/3 · π · 6³ = 288π.",
+      "explanation_visual": "content/math/solid-formulas.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0087",
+      "subtopic": "math.geometry.solid",
+      "difficulty": 3,
+      "stem": "A cone-shaped piece of fondant with radius 3 cm and height 12 cm is rolled into a perfect ball with no loss. What is the radius of the ball?",
+      "visual": null,
+      "choices": {
+        "A": "2 cm",
+        "B": "4 cm",
+        "C": "6 cm",
+        "D": "3 cm",
+        "E": "9 cm"
+      },
+      "answer": "D",
+      "explanation": "Cone volume = ⅓π·9·12 = 36π. Ball: 4/3·πR³ = 36π, so R³ = 27 and R = 3 cm.",
+      "explanation_visual": "content/math/solid-formulas.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0088",
+      "subtopic": "math.geometry.solid",
+      "difficulty": 3,
+      "stem": "A tennis ball (a sphere of radius 3 cm) fits snugly in a tube of the same radius and height 6 cm. What fraction of the tube is empty?",
+      "visual": null,
+      "choices": {
+        "A": "1/6",
+        "B": "1/4",
+        "C": "1/2",
+        "D": "2/3",
+        "E": "1/3"
+      },
+      "answer": "E",
+      "explanation": "Ball: 4/3·π·27 = 36π. Tube: π·9·6 = 54π. Ball fills 36/54 = 2/3, so 1/3 of the tube is empty.",
+      "explanation_visual": "content/math/solid-formulas.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0089",
+      "subtopic": "math.combinatorics.counting-principles",
+      "difficulty": 1,
+      "stem": "A sandwich needs 1 of 4 breads, 1 of 3 fillings and 1 of 2 sauces. How many different sandwiches are possible?",
+      "visual": null,
+      "choices": {
+        "A": "9",
+        "B": "12",
+        "C": "14",
+        "D": "24",
+        "E": "32"
+      },
+      "answer": "D",
+      "explanation": "Independent choices one after another multiply: 4 · 3 · 2 = 24.",
+      "explanation_visual": "content/math/counting-product-grid.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0090",
+      "subtopic": "math.combinatorics.counting-principles",
+      "difficulty": 1,
+      "stem": "For today's set you choose either one of 6 freestyle drills or one of 4 backstroke drills (not both). How many choices do you have?",
+      "visual": null,
+      "choices": {
+        "A": "2",
+        "B": "20",
+        "C": "24",
+        "D": "48",
+        "E": "10"
+      },
+      "answer": "E",
+      "explanation": "Alternatives that cannot happen together add: 6 + 4 = 10. (24 would be the product, for doing both.)",
+      "explanation_visual": "content/math/counting-product-grid.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0091",
+      "subtopic": "math.combinatorics.counting-principles",
+      "difficulty": 1,
+      "stem": "In a class of 40, 25 like cooking, 18 like swimming and 5 like neither. How many like both?",
+      "visual": null,
+      "choices": {
+        "A": "3",
+        "B": "5",
+        "C": "13",
+        "D": "8",
+        "E": "43"
+      },
+      "answer": "D",
+      "explanation": "|C ∪ S| = 40 − 5 = 35 and |C ∪ S| = 25 + 18 − |C ∩ S|, so |C ∩ S| = 43 − 35 = 8.",
+      "explanation_visual": "content/math/counting-inclusion-exclusion.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0092",
+      "subtopic": "math.combinatorics.counting-principles",
+      "difficulty": 2,
+      "stem": "In a lobby of 50 players, each picks one of 7 agents. At least how many players are guaranteed to have picked the same agent?",
+      "visual": null,
+      "choices": {
+        "A": "8",
+        "B": "6",
+        "C": "7",
+        "D": "9",
+        "E": "43"
+      },
+      "answer": "A",
+      "explanation": "Pigeonhole: 50 players into 7 boxes. If every agent had at most 7 players, there would be at most 49. So some agent has ⌈50/7⌉ = 8.",
+      "explanation_visual": "content/math/counting-pigeonhole-coloring.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0093",
+      "subtopic": "math.combinatorics.counting-principles",
+      "difficulty": 2,
+      "stem": "The numbers 1, 2, 3, …, 20 are on a board. A move erases two numbers a and b and writes a + b − 1. After 19 moves one number is left. What is it?",
+      "visual": null,
+      "choices": {
+        "A": "190",
+        "B": "200",
+        "C": "191",
+        "D": "209",
+        "E": "210"
+      },
+      "answer": "C",
+      "explanation": "Each move lowers the total by exactly 1 (a + b becomes a + b − 1). The total starts at 210, and after 19 moves it is 210 − 19 = 191, whatever order you pick.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0094",
+      "subtopic": "math.combinatorics.counting-principles",
+      "difficulty": 2,
+      "stem": "Five different positive whole numbers add up to 40. What is the largest value the biggest of them can have?",
+      "visual": null,
+      "choices": {
+        "A": "25",
+        "B": "29",
+        "C": "31",
+        "D": "30",
+        "E": "36"
+      },
+      "answer": "D",
+      "explanation": "To make one number as big as possible, make the other four as small as possible: 1 + 2 + 3 + 4 = 10, so the biggest is 40 − 10 = 30.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0095",
+      "subtopic": "math.combinatorics.counting-principles",
+      "difficulty": 3,
+      "stem": "Two opposite corners are cut off an 8 × 8 chessboard. What is the greatest number of dominoes (each covering 2 neighboring squares) that can be placed without overlapping?",
+      "visual": null,
+      "choices": {
+        "A": "28",
+        "B": "29",
+        "C": "31",
+        "D": "30",
+        "E": "32"
+      },
+      "answer": "D",
+      "explanation": "Opposite corners have the same color, so the board has 30 squares of one color and 32 of the other. Each domino covers one of each, so at most 30 dominoes fit (and 30 can be placed).",
+      "explanation_visual": "content/math/counting-pigeonhole-coloring.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0096",
+      "subtopic": "math.combinatorics.counting-principles",
+      "difficulty": 3,
+      "stem": "How many integers from 1 to 100 are divisible by 2, by 3 or by 5 (at least one of them)?",
+      "visual": null,
+      "choices": {
+        "A": "74",
+        "B": "70",
+        "C": "73",
+        "D": "78",
+        "E": "84"
+      },
+      "answer": "A",
+      "explanation": "50 + 33 + 20 − (16 + 10 + 6) + 3 = 103 − 32 + 3 = 74 (inclusion-exclusion).",
+      "explanation_visual": "content/math/counting-inclusion-exclusion.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0097",
+      "subtopic": "math.combinatorics.enumerative",
+      "difficulty": 1,
+      "stem": "From 8 toppings you pick 3 for a pizza (order does not matter). How many different pizzas can you make?",
+      "visual": null,
+      "choices": {
+        "A": "56",
+        "B": "24",
+        "C": "28",
+        "D": "336",
+        "E": "512"
+      },
+      "answer": "A",
+      "explanation": "Combinations: C(8,3) = 8·7·6/(3·2·1) = 56. (336 counts the picks in order.)",
+      "explanation_visual": "content/math/enumerative-team-pick.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0098",
+      "subtopic": "math.combinatorics.enumerative",
+      "difficulty": 1,
+      "stem": "Five swimmers are put in 5 different lanes. In how many ways can that be done?",
+      "visual": null,
+      "choices": {
+        "A": "24",
+        "B": "25",
+        "C": "60",
+        "D": "120",
+        "E": "3125"
+      },
+      "answer": "D",
+      "explanation": "Permutations: 5! = 5·4·3·2·1 = 120.",
+      "explanation_visual": "content/math/enumerative-team-pick.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0099",
+      "subtopic": "math.combinatorics.enumerative",
+      "difficulty": 1,
+      "stem": "Rows of Pascal's triangle start at row 0 (which is just 1). What is the middle number of row 6?",
+      "visual": null,
+      "choices": {
+        "A": "10",
+        "B": "15",
+        "C": "20",
+        "D": "30",
+        "E": "36"
+      },
+      "answer": "C",
+      "explanation": "Row 6 is 1, 6, 15, 20, 15, 6, 1. The middle number is C(6,3) = 20 (= 10 + 10 from the row above).",
+      "explanation_visual": "content/math/pascal-triangle.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0100",
+      "subtopic": "math.combinatorics.enumerative",
+      "difficulty": 2,
+      "stem": "In how many ways can 10 identical lemons be put into 4 bowls if a bowl may stay empty?",
+      "visual": null,
+      "choices": {
+        "A": "286",
+        "B": "40",
+        "C": "84",
+        "D": "210",
+        "E": "715"
+      },
+      "answer": "A",
+      "explanation": "Stars and bars: 10 stars and 3 dividers, C(13,3) = 286. (84 = C(9,3) would force at least one lemon per bowl.)",
+      "explanation_visual": "content/math/enumerative-stars-and-bars.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0101",
+      "subtopic": "math.combinatorics.enumerative",
+      "difficulty": 2,
+      "stem": "A Valorant team of 5 is picked from 12 agents, and one specific agent must be on it. How many different teams are possible?",
+      "visual": null,
+      "choices": {
+        "A": "220",
+        "B": "462",
+        "C": "330",
+        "D": "495",
+        "E": "792"
+      },
+      "answer": "C",
+      "explanation": "The special agent is in, so choose the other 4 from the remaining 11: C(11,4) = 330. (792 = C(12,5) ignores the rule.)",
+      "explanation_visual": "content/math/enumerative-team-pick.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0102",
+      "subtopic": "math.combinatorics.enumerative",
+      "difficulty": 2,
+      "stem": "How many different arrangements of the letters of the word BUTTER are there?",
+      "visual": null,
+      "choices": {
+        "A": "60",
+        "B": "360",
+        "C": "120",
+        "D": "180",
+        "E": "720"
+      },
+      "answer": "B",
+      "explanation": "6 letters with T repeated twice: 6!/2! = 720/2 = 360.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0103",
+      "subtopic": "math.combinatorics.enumerative",
+      "difficulty": 3,
+      "stem": "In how many ways can 7 be written as a sum of positive integers when the order does not matter? (For example 4 + 2 + 1 and 2 + 4 + 1 count as the same.)",
+      "visual": null,
+      "choices": {
+        "A": "15",
+        "B": "13",
+        "C": "14",
+        "D": "16",
+        "E": "21"
+      },
+      "answer": "A",
+      "explanation": "List by largest part: 7; 6+1; 5+2, 5+1+1; 4+3, 4+2+1, 4+1+1+1; 3+3+1, 3+2+2, 3+2+1+1, 3+1+1+1+1; 2+2+2+1, 2+2+1+1+1, 2+1+1+1+1+1; 1×7. That is 15.",
+      "explanation_visual": "content/math/enumerative-partitions.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0104",
+      "subtopic": "math.combinatorics.enumerative",
+      "difficulty": 3,
+      "stem": "How many 3-digit numbers have strictly increasing digits (like 359 or 128)?",
+      "visual": null,
+      "choices": {
+        "A": "72",
+        "B": "84",
+        "C": "90",
+        "D": "120",
+        "E": "126"
+      },
+      "answer": "B",
+      "explanation": "A 3-digit number with increasing digits is determined by choosing 3 different digits, and they must be nonzero (0 would have to be first). So C(9,3) = 84. (C(10,3) = 120 wrongly allows a 0.)",
+      "explanation_visual": "content/math/pascal-triangle.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0105",
+      "subtopic": "math.combinatorics.probability",
+      "difficulty": 1,
+      "stem": "Two fair dice are rolled. What is the probability that the sum is 8?",
+      "visual": null,
+      "choices": {
+        "A": "1/6",
+        "B": "1/9",
+        "C": "1/8",
+        "D": "7/36",
+        "E": "5/36"
+      },
+      "answer": "E",
+      "explanation": "The pairs (2,6), (3,5), (4,4), (5,3), (6,2) make 8: 5 out of 36 equally likely outcomes.",
+      "explanation_visual": "content/math/probability-sample-space.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0106",
+      "subtopic": "math.combinatorics.probability",
+      "difficulty": 1,
+      "stem": "In a made-up Valorant scrim, your team wins each round with probability 0.6, independently. What is the probability of winning two rounds in a row?",
+      "visual": null,
+      "choices": {
+        "A": "0.12",
+        "B": "0.48",
+        "C": "0.6",
+        "D": "0.84",
+        "E": "0.36"
+      },
+      "answer": "E",
+      "explanation": "Independent events multiply: 0.6 × 0.6 = 0.36. (0.84 would be the chance of winning at least one of the two.)",
+      "explanation_visual": "content/math/probability-tree.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0107",
+      "subtopic": "math.combinatorics.probability",
+      "difficulty": 1,
+      "stem": "A bag has 5 red and 3 green peppers. You pick one without looking. What is the probability it is red?",
+      "visual": null,
+      "choices": {
+        "A": "5/8",
+        "B": "1/8",
+        "C": "3/8",
+        "D": "1/2",
+        "E": "5/7"
+      },
+      "answer": "A",
+      "explanation": "5 red out of 8 peppers in total: 5/8.",
+      "explanation_visual": null,
+      "source": "original"
+    },
+    {
+      "id": "math-0108",
+      "subtopic": "math.combinatorics.probability",
+      "difficulty": 2,
+      "stem": "A fair die is rolled 3 times. What is the probability of at least one six?",
+      "visual": null,
+      "choices": {
+        "A": "1/6",
+        "B": "91/216",
+        "C": "1/2",
+        "D": "25/36",
+        "E": "125/216"
+      },
+      "answer": "B",
+      "explanation": "Complement: P(no six in 3 rolls) = (5/6)³ = 125/216, so P(at least one) = 1 − 125/216 = 91/216.",
+      "explanation_visual": "content/math/probability-tree.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0109",
+      "subtopic": "math.combinatorics.probability",
+      "difficulty": 2,
+      "stem": "Of 30 swimmers, 18 can swim butterfly, 20 can swim backstroke and 12 can do both. A swimmer who can do butterfly is chosen at random. What is the probability that she can also do backstroke?",
+      "visual": null,
+      "choices": {
+        "A": "2/5",
+        "B": "1/2",
+        "C": "1/3",
+        "D": "3/5",
+        "E": "2/3"
+      },
+      "answer": "E",
+      "explanation": "Conditional probability: only the 18 butterfly swimmers count, and 12 of them also do backstroke: 12/18 = 2/3. (3/5 = 12/20 would be P(butterfly | backstroke), the other way round.)",
+      "explanation_visual": "content/math/probability-two-way-table.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0110",
+      "subtopic": "math.combinatorics.probability",
+      "difficulty": 2,
+      "stem": "Two cards are drawn from a standard deck of 52 cards without replacement. What is the probability that both are aces?",
+      "visual": null,
+      "choices": {
+        "A": "1/169",
+        "B": "1/52",
+        "C": "4/221",
+        "D": "1/221",
+        "E": "1/13"
+      },
+      "answer": "D",
+      "explanation": "P(first ace) = 4/52, then P(second ace | first ace) = 3/51. Product: 12/2652 = 1/221.",
+      "explanation_visual": "content/math/probability-tree.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0111",
+      "subtopic": "math.combinatorics.probability",
+      "difficulty": 3,
+      "stem": "In a made-up Valorant scenario the spike is on site A with probability 0.4 and on site B otherwise. A camera spots something with probability 0.9 if the spike is on A, and 0.2 if it is on B. The camera spots something. What is the probability the spike is on A?",
+      "visual": null,
+      "choices": {
+        "A": "2/5",
+        "B": "1/2",
+        "C": "3/5",
+        "D": "9/10",
+        "E": "3/4"
+      },
+      "answer": "E",
+      "explanation": "P(spot) = 0.4·0.9 + 0.6·0.2 = 0.36 + 0.12 = 0.48. P(A | spot) = 0.36/0.48 = 3/4. (The tempting 9/10 is P(spot | A), the other direction.)",
+      "explanation_visual": "content/math/probability-tree.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0112",
+      "subtopic": "math.combinatorics.probability",
+      "difficulty": 3,
+      "stem": "Two fair dice are rolled, and you are told at least one shows a 6. What is the probability that the sum is at least 10?",
+      "visual": null,
+      "choices": {
+        "A": "5/11",
+        "B": "1/6",
+        "C": "5/36",
+        "D": "6/11",
+        "E": "1/2"
+      },
+      "answer": "A",
+      "explanation": "Given at least one six there are 11 equally likely outcomes. Sum ≥ 10 among them: (6,4), (4,6), (6,5), (5,6), (6,6) = 5. So 5/11.",
+      "explanation_visual": "content/math/probability-sample-space.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0113",
+      "subtopic": "math.combinatorics.strategies",
+      "difficulty": 1,
+      "stem": "How many 2-digit numbers (10 to 99) contain at least one digit 5?",
+      "visual": null,
+      "choices": {
+        "A": "10",
+        "B": "17",
+        "C": "19",
+        "D": "20",
+        "E": "18"
+      },
+      "answer": "E",
+      "explanation": "Complement: numbers with no 5 have a tens digit from 8 choices (1–9 without 5) and a units digit from 9 choices (0–9 without 5): 72. 90 − 72 = 18.",
+      "explanation_visual": "content/math/strategies-lanes-complement.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0114",
+      "subtopic": "math.combinatorics.strategies",
+      "difficulty": 1,
+      "stem": "How many integers x satisfy |x − 2| ≤ 3?",
+      "visual": null,
+      "choices": {
+        "A": "3",
+        "B": "5",
+        "C": "6",
+        "D": "7",
+        "E": "8"
+      },
+      "answer": "D",
+      "explanation": "Casework on the sign: x − 2 between −3 and 3, so −1 ≤ x ≤ 5. That is −1, 0, 1, 2, 3, 4, 5: seven integers.",
+      "explanation_visual": "content/math/strategies-toolbox.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0115",
+      "subtopic": "math.combinatorics.strategies",
+      "difficulty": 1,
+      "stem": "In a made-up Valorant custom game each team rolls a fair die to decide the pick order. What is the probability that team 1 rolls strictly higher than team 2?",
+      "visual": null,
+      "choices": {
+        "A": "1/6",
+        "B": "1/3",
+        "C": "5/12",
+        "D": "1/2",
+        "E": "7/12"
+      },
+      "answer": "C",
+      "explanation": "By symmetry P(team 1 higher) = P(team 2 higher). Ties have probability 6/36 = 1/6, so each side gets (1 − 1/6)/2 = 5/12.",
+      "explanation_visual": "content/math/strategies-toolbox.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0116",
+      "subtopic": "math.combinatorics.strategies",
+      "difficulty": 2,
+      "stem": "A coach picks a relay squad from 8 swimmers. How many squads have an even number of swimmers? (The empty squad counts.)",
+      "visual": null,
+      "choices": {
+        "A": "64",
+        "B": "127",
+        "C": "255",
+        "D": "128",
+        "E": "256"
+      },
+      "answer": "D",
+      "explanation": "Bijection: for any squad, toggle swimmer #1 (add or remove). This pairs every even squad with a different odd squad, so exactly half of the 2⁸ = 256 squads are even: 128.",
+      "explanation_visual": "content/math/strategies-grid-bijection.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0117",
+      "subtopic": "math.combinatorics.strategies",
+      "difficulty": 2,
+      "stem": "A pantry lock has a 4-digit code (0000 to 9999). How many codes have at least one repeated digit?",
+      "visual": null,
+      "choices": {
+        "A": "4959",
+        "B": "5000",
+        "C": "5040",
+        "D": "4960",
+        "E": "9000"
+      },
+      "answer": "D",
+      "explanation": "Complement: codes with 4 different digits are 10·9·8·7 = 5040. So 10 000 − 5040 = 4960.",
+      "explanation_visual": "content/math/strategies-lanes-complement.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0118",
+      "subtopic": "math.combinatorics.strategies",
+      "difficulty": 2,
+      "stem": "In a made-up Valorant shop you spend exactly 500 credits on shields that cost 100, 200 or 500 credits each (you may buy any number of each). How many different combinations are there? (Order does not matter.)",
+      "visual": null,
+      "choices": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6",
+        "E": "8"
+      },
+      "answer": "B",
+      "explanation": "Casework on the number of 500-credit shields and 200-credit shields: 500 alone; 200+200+100; 200+100+100+100; 100×5. That is 4 combinations.",
+      "explanation_visual": "content/math/strategies-toolbox.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0119",
+      "subtopic": "math.combinatorics.strategies",
+      "difficulty": 3,
+      "stem": "In how many arrangements of the letters S, T, R, O, K, E (each used once) does S come before T?",
+      "visual": null,
+      "choices": {
+        "A": "120",
+        "B": "180",
+        "C": "360",
+        "D": "240",
+        "E": "720"
+      },
+      "answer": "C",
+      "explanation": "Symmetry: swapping S and T pairs every arrangement with S first with one with T first. So exactly half of 6! = 720 qualify: 360.",
+      "explanation_visual": "content/math/strategies-toolbox.svg",
+      "source": "original"
+    },
+    {
+      "id": "math-0120",
+      "subtopic": "math.combinatorics.strategies",
+      "difficulty": 3,
+      "stem": "How many 4-digit numbers (1000 to 9999) have four different digits and are even?",
+      "visual": null,
+      "choices": {
+        "A": "2240",
+        "B": "2296",
+        "C": "2304",
+        "D": "2520",
+        "E": "4536"
+      },
+      "answer": "B",
+      "explanation": "Casework on the last digit. Last digit 0: 9·8·7 = 504. Last digit 2, 4, 6 or 8 (4 choices): the first digit avoids 0 and the last, so 8 choices, then 8 and 7: 4·8·8·7 = 1792. Total 504 + 1792 = 2296.",
+      "explanation_visual": "content/math/strategies-toolbox.svg",
+      "source": "original"
+    }
+  ]
+}

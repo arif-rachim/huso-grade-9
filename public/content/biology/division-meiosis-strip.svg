@@ -1,0 +1,161 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 368" role="img" aria-labelledby="t d">
+  <title id="t">Meiosis in six pictures</title>
+  <desc id="d">A cell with 2n equals 4: DNA is copied, in meiosis I homologous pairs line up and swap pieces by crossing over, the pairs separate into two cells, in meiosis II sister chromatids separate, giving four different cells with 2 chromosomes each.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="440" height="368" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Meiosis: one cell → four different cells</text>
+    <circle cx="75" cy="84" r="52" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <g transform="translate(59,70) rotate(0)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(77,70) rotate(0)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(61,102) rotate(0)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(79,102) rotate(0)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <text x="75" y="152" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">1  Start</text>
+    <text x="75" y="168" font-size="12" text-anchor="middle" fill="#111827">DNA is copied</text>
+    <text x="75" y="184" font-size="12" text-anchor="middle" fill="#6b7280">2n = 4 (4 chromosomes)</text>
+    <circle cx="220" cy="84" r="52" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <line x1="220" y1="38" x2="220" y2="130" stroke="18" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="3 3"/>
+    <g transform="translate(214,66) rotate(0)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(226,66) rotate(0)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(214,104) rotate(0)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(226,104) rotate(0)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <text x="254" y="82" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">✕</text>
+    <text x="220" y="152" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">2  Meiosis I</text>
+    <text x="220" y="168" font-size="12" text-anchor="middle" fill="#111827">pairs line up, swap bits</text>
+    <text x="220" y="184" font-size="12" text-anchor="middle" fill="#6b7280">(crossing over ✕)</text>
+    <circle cx="335" cy="84" r="27" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <g transform="translate(328,80) rotate(0)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(343,90) rotate(0)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <circle cx="395" cy="84" r="27" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <g transform="translate(388,80) rotate(0)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(403,90) rotate(0)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <text x="365" y="152" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3  End of meiosis I</text>
+    <text x="365" y="168" font-size="12" text-anchor="middle" fill="#111827">pairs pulled apart</text>
+    <text x="365" y="184" font-size="12" text-anchor="middle" fill="#6b7280">2 cells, n = 2 (X-shaped)</text>
+    <circle cx="45" cy="252" r="27" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <g transform="translate(45,242) rotate(90)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(45,262) rotate(90)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <circle cx="105" cy="252" r="27" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <g transform="translate(105,242) rotate(90)">
+    <line x1="-2.6" y1="-15.0" x2="-2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-15.0" x2="2.6" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(105,262) rotate(90)">
+    <line x1="-2.6" y1="-9.0" x2="-2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <line x1="2.6" y1="-9.0" x2="2.6" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <text x="75" y="320" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">4  Meiosis II</text>
+    <text x="75" y="336" font-size="12" text-anchor="middle" fill="#111827">chromatids line up</text>
+    <text x="75" y="352" font-size="12" text-anchor="middle" fill="#6b7280">both cells divide again</text>
+    <circle cx="190" cy="252" r="27" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <g transform="translate(190,234) rotate(90)">
+    <line x1="0" y1="-15.0" x2="0" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(190,240) rotate(90)">
+    <line x1="0" y1="-9.0" x2="0" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(190,264) rotate(90)">
+    <line x1="0" y1="-15.0" x2="0" y2="15.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(190,270) rotate(90)">
+    <line x1="0" y1="-9.0" x2="0" y2="9.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <circle cx="250" cy="252" r="27" fill="#16a34a" fill-opacity="0.07" stroke="#16a34a" stroke-width="2"/>
+    <g transform="translate(250,234) rotate(90)">
+    <line x1="0" y1="-15.0" x2="0" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(250,240) rotate(90)">
+    <line x1="0" y1="-9.0" x2="0" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(250,264) rotate(90)">
+    <line x1="0" y1="-15.0" x2="0" y2="15.0" stroke="#6b7280" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#6b7280" stroke-width="1.4"/>
+    </g>
+    <g transform="translate(250,270) rotate(90)">
+    <line x1="0" y1="-9.0" x2="0" y2="9.0" stroke="#16a34a" stroke-width="4.2" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="3" fill="#ffffff" stroke="#16a34a" stroke-width="1.4"/>
+    </g>
+    <text x="220" y="320" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">5  End of meiosis II</text>
+    <text x="220" y="336" font-size="12" text-anchor="middle" fill="#111827">chromatids pulled apart</text>
+    <text x="220" y="352" font-size="12" text-anchor="middle" fill="#6b7280">each cell splits in two</text>
+    <circle cx="339" cy="232" r="21" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="2"/>
+    <line x1="332" y1="227" x2="346" y2="227" stroke="#16a34a" stroke-width="3.2" stroke-linecap="round"/>
+    <line x1="334" y1="237" x2="344" y2="237" stroke="#6b7280" stroke-width="3.2" stroke-linecap="round"/>
+    <circle cx="391" cy="232" r="21" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="2"/>
+    <line x1="384" y1="227" x2="398" y2="227" stroke="#16a34a" stroke-width="3.2" stroke-linecap="round"/>
+    <line x1="386" y1="237" x2="396" y2="237" stroke="#16a34a" stroke-width="3.2" stroke-linecap="round"/>
+    <circle cx="339" cy="274" r="21" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="2"/>
+    <line x1="332" y1="269" x2="346" y2="269" stroke="#6b7280" stroke-width="3.2" stroke-linecap="round"/>
+    <line x1="334" y1="279" x2="344" y2="279" stroke="#6b7280" stroke-width="3.2" stroke-linecap="round"/>
+    <circle cx="391" cy="274" r="21" fill="#16a34a" fill-opacity="0.1" stroke="#16a34a" stroke-width="2"/>
+    <line x1="384" y1="269" x2="398" y2="269" stroke="#6b7280" stroke-width="3.2" stroke-linecap="round"/>
+    <line x1="386" y1="279" x2="396" y2="279" stroke="#16a34a" stroke-width="3.2" stroke-linecap="round"/>
+    <text x="365" y="320" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">6  Four gametes</text>
+    <text x="365" y="336" font-size="12" text-anchor="middle" fill="#111827">all different</text>
+    <text x="365" y="352" font-size="12" text-anchor="middle" fill="#6b7280">each n = 2</text>
+  </g>
+</svg>

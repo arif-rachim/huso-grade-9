@@ -4,6 +4,8 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+pulldown-cmark = { version = "0.13", default-features = false, features = ["html"] }
+pulldown-cmark-escape = "0.11"
 renox = { git = "https://github.com/arif-rachim/renox", rev = "3acc2d1feab8fcb9defa666d15245c314710a609" }
 serde = { version = "1", features = ["derive"] }
 

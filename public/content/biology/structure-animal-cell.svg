@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 400" role="img" aria-labelledby="t d">
+  <title id="t">Animal cell, labeled</title>
+  <desc id="d">An animal cell with nucleus, nucleolus, rough ER, Golgi, mitochondrion, lysosome, peroxisome, centrioles, a small vacuole, free ribosomes, cytoskeleton and cytoplasm inside the cell membrane. No cell wall and no chloroplasts.</desc>
+  <defs><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arM" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="440" height="400" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="24" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Animal cell</text>
+    <ellipse cx="220" cy="205" rx="112" ry="140" fill="#16a34a" fill-opacity="0.08" stroke="#16a34a" stroke-width="3"/>
+    <line x1="128" y1="263" x2="232" y2="245" stroke="#6b7280" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="132" y1="277" x2="226" y2="261" stroke="#6b7280" stroke-width="1.4" stroke-linecap="round"/>
+    <line x1="138" y1="291" x2="220" y2="277" stroke="#6b7280" stroke-width="1.4" stroke-linecap="round"/>
+    <circle cx="210" cy="190" r="40" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <circle cx="210" cy="190" r="40" fill="#16a34a" fill-opacity="0.25" stroke="#16a34a" stroke-width="0"/>
+    <circle cx="217" cy="195" r="11" fill="#16a34a" fill-opacity="0.7" stroke="#16a34a" stroke-width="1.2"/>
+    <path d="M251.0,161.3 A50,50 0 0 1 222.9,238.3" fill="none" stroke="#16a34a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M256.7,157.3 A57,57 0 0 1 224.8,245.1" fill="none" stroke="#16a34a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M262.4,153.3 A64,64 0 0 1 226.6,251.8" fill="none" stroke="#16a34a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="271.4794501689974" cy="158.67465551797127" r="2.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="277.23153447018126" cy="174.47837725027333" r="2.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="278.989490965791" cy="191.20421604417257" r="2.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="276.6488820139457" cy="207.85851411207392" r="2.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="270.3487597926183" cy="223.45186379699726" r="2.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="260.46340541172276" cy="237.0578868443124" r="2.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="247.58009341603687" cy="247.86826918823425" r="2.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="232.4642026575438" cy="255.24078171635284" r="2.2" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <rect x="197" y="101" width="26" height="8" rx="3" fill="#ffffff" stroke="#111827" stroke-width="1.3"/>
+    <rect x="206" y="88" width="8" height="24" rx="3" fill="#ffffff" stroke="#111827" stroke-width="1.3"/>
+    <g transform="translate(286,133) rotate(-25)">
+    <ellipse cx="0" cy="0" rx="23" ry="11" fill="#16a34a" fill-opacity="0.3" stroke="#16a34a" stroke-width="1.6"/>
+    <path d="M-17,0 l4,-6 l4,12 l4,-12 l4,12 l4,-12 l4,12 l4,-6" fill="none" stroke="#16a34a" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <path d="M238.0,281 q24.0,-8 48,0" fill="none" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M240.0,289 q22.0,-8 44,0" fill="none" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M242.0,297 q20.0,-8 40,0" fill="none" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M244.0,305 q18.0,-8 36,0" fill="none" stroke="#16a34a" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="148" cy="145" r="9" fill="#16a34a" fill-opacity="0.5" stroke="#16a34a" stroke-width="1.5"/>
+    <circle cx="145" cy="143" r="1.4" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="151" cy="148" r="1.4" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="146" cy="149" r="1.4" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="188" cy="309" r="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.8"/>
+    <rect x="185" y="306" width="6" height="6" rx="0" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <circle cx="300" cy="213" r="11" fill="#ffffff" fill-opacity="0.0" stroke="#16a34a" stroke-width="1.8"/>
+    <circle cx="128" cy="200" r="2.6" fill="#111827" stroke="#111827" stroke-width="1"/>
+    <g data-label="lysosome">
+    <line x1="106" y1="124" x2="140" y2="147" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="102" y="128" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">lysosome</text>
+    </g>
+    <g data-label="ribosome">
+    <line x1="106" y1="201" x2="125" y2="200" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="102" y="205" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">ribosome</text>
+    </g>
+    <g data-label="cytoskeleton">
+    <line x1="106" y1="281" x2="135" y2="271" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="102" y="285" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">cytoskeleton</text>
+    </g>
+    <g data-label="peroxisome">
+    <line x1="106" y1="326" x2="179" y2="309" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="102" y="330" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">peroxisome</text>
+    </g>
+    <g data-label="centriole">
+    <line x1="338" y1="88" x2="224" y2="105" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="342" y="92" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">centrioles</text>
+    </g>
+    <g data-label="mitochondria">
+    <line x1="338" y1="123" x2="306" y2="133" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="342" y="127" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">mitochondrion</text>
+    </g>
+    <g data-label="nucleus">
+    <line x1="338" y1="164" x2="250" y2="190" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="342" y="168" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">nucleus</text>
+    </g>
+    <g data-label="er">
+    <line x1="338" y1="199" x2="270" y2="225" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="342" y="203" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">rough ER</text>
+    </g>
+    <g data-label="vacuole">
+    <line x1="338" y1="236" x2="311" y2="213" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="342" y="240" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">small vacuole</text>
+    </g>
+    <g data-label="golgi">
+    <line x1="338" y1="296" x2="286" y2="293" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="342" y="300" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">Golgi apparatus</text>
+    </g>
+    <g data-label="cytoplasm">
+    <line x1="338" y1="266" x2="240" y2="253" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="342" y="270" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">cytoplasm</text>
+    </g>
+    <g data-label="membrane">
+    <line x1="106" y1="88" x2="140" y2="105" stroke="#6b7280" stroke-width="1.2" stroke-linecap="round"/>
+    <text x="102" y="92" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">cell membrane</text>
+    </g>
+    <text x="220" y="388" font-size="12" text-anchor="middle" fill="#6b7280">No cell wall, no chloroplasts.  Centrioles are in animal cells.</text>
+  </g>
+</svg>

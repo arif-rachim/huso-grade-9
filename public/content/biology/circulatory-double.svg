@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 470" role="img">
+<title>Double circulation</title>
+<desc>Schematic with the heart in the middle, lungs above and body below. Right heart pumps deoxygenated blood to the lungs through the pulmonary artery; pulmonary veins return oxygenated blood to the left atrium; the left ventricle pumps it through the aorta to the body; the vena cava returns deoxygenated blood to the right atrium.</desc>
+<defs><marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="600" height="470" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<marker id="sB" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="sR" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><text x="290" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold" >Double circulation: the blood passes through the heart twice per round trip</text>
+<defs><linearGradient id="gl" x1="0" x2="1"><stop offset="0" stop-color="#2563eb" stop-opacity="0.35"/><stop offset="1" stop-color="#dc2626" stop-opacity="0.35"/></linearGradient><linearGradient id="gb" x1="0" x2="1"><stop offset="0" stop-color="#2563eb" stop-opacity="0.35"/><stop offset="1" stop-color="#dc2626" stop-opacity="0.35"/></linearGradient></defs>
+<rect x="190" y="52" width="200" height="56" rx="10" fill="url(#gl)" stroke="#6b7280" stroke-width="2" />
+<text x="290" y="76" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" >LUNGS</text>
+<text x="290" y="94" font-size="12" text-anchor="middle" fill="#111827" >O₂ in, CO₂ out</text>
+<rect x="160" y="372" width="260" height="56" rx="10" fill="url(#gb)" stroke="#6b7280" stroke-width="2" />
+<text x="290" y="396" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold" >BODY (all organs)</text>
+<text x="290" y="414" font-size="12" text-anchor="middle" fill="#111827" >O₂ out, CO₂ in</text>
+<rect x="176" y="170" width="208" height="128" rx="16" fill="#f9fafb" stroke="#6b7280" stroke-width="2.5" />
+<line x1="280" y1="176" x2="280" y2="292" stroke="#6b7280" stroke-width="2" stroke-dasharray="6 4" stroke-linecap="round"/>
+<text x="230" y="162" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold" >right side</text>
+<text x="330" y="162" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold" >left side</text>
+<rect x="192" y="184" width="76" height="44" rx="8" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="2" />
+<text x="230" y="211" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold" >RA</text>
+<rect x="192" y="240" width="76" height="44" rx="8" fill="#2563eb" fill-opacity="0.2" stroke="#2563eb" stroke-width="2" />
+<text x="230" y="267" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold" >RV</text>
+<rect x="292" y="184" width="76" height="44" rx="8" fill="#dc2626" fill-opacity="0.2" stroke="#dc2626" stroke-width="2" />
+<text x="330" y="211" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold" >LA</text>
+<rect x="292" y="240" width="76" height="44" rx="8" fill="#dc2626" fill-opacity="0.2" stroke="#dc2626" stroke-width="2" />
+<text x="330" y="267" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold" >LV</text>
+<line x1="230" y1="230" x2="230" y2="238" stroke="#2563eb" stroke-width="2" marker-end="url(#aB)" stroke-linecap="round"/>
+<line x1="330" y1="230" x2="330" y2="238" stroke="#dc2626" stroke-width="2" marker-end="url(#aR)" stroke-linecap="round"/>
+<text x="230" y="312" font-size="12" text-anchor="middle" fill="#6b7280" >septum keeps the two</text>
+<text x="230" y="326" font-size="12" text-anchor="middle" fill="#6b7280" >sides apart</text>
+<path d="M192,262 L140,262 L140,80 L186,80" fill="none" stroke="#2563eb" stroke-width="4" marker-end="url(#sB)" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M394,80 L440,80 L440,206 L372,206" fill="none" stroke="#dc2626" stroke-width="4" marker-end="url(#sR)" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M372,262 L500,262 L500,400 L424,400" fill="none" stroke="#dc2626" stroke-width="4" marker-end="url(#sR)" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M156,400 L100,400 L100,206 L188,206" fill="none" stroke="#2563eb" stroke-width="4" marker-end="url(#sB)" stroke-linejoin="round" stroke-linecap="round" />
+<text x="132" y="150" font-size="12" text-anchor="end" fill="#2563eb" font-weight="bold" >Pulmonary</text>
+<text x="132" y="164" font-size="12" text-anchor="end" fill="#2563eb" font-weight="bold" >artery</text>
+<text x="132" y="180" font-size="12" text-anchor="end" fill="#2563eb" >(low O₂)</text>
+<text x="448" y="138" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold" >Pulmonary</text>
+<text x="448" y="152" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold" >veins</text>
+<text x="448" y="168" font-size="12" text-anchor="start" fill="#dc2626" >(high O₂)</text>
+<text x="508" y="310" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold" >Aorta</text>
+<text x="508" y="326" font-size="12" text-anchor="start" fill="#dc2626" >(high O₂)</text>
+<text x="92" y="300" font-size="12" text-anchor="end" fill="#2563eb" font-weight="bold" >Vena cava</text>
+<text x="92" y="316" font-size="12" text-anchor="end" fill="#2563eb" >(low O₂)</text>
+<rect x="216" y="40" width="0" height="0" rx="6" fill="none" stroke="#111827" stroke-width="2" />
+<text x="290" y="444" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold" >Systemic circulation: LV → aorta → body → vena cava → RA</text>
+<text x="290" y="458" font-size="12" text-anchor="middle" fill="#6b7280" font-weight="bold" >Pulmonary circulation: RV → pulmonary artery → lungs → pulmonary veins → LA</text>
+
+</g>
+</svg>

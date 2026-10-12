@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 332" role="img" aria-labelledby="t d">
+<title id="t">River meander</title>
+<desc id="d">Top view of a meandering river. The outer bank is eroded as a cut bank, the inner bank builds a point bar, and a cut-off meander becomes an oxbow lake.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="332" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">A meandering river (top view)</text>
+<rect x="10" y="30" width="380" height="250" fill="#92400e" fill-opacity="0.06"/>
+<path d="M10,160 C60,60 120,60 160,160 C200,260 260,260 300,160 C320,110 350,100 390,120" fill="none" stroke="#92400e" stroke-width="14" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M10,160 C60,60 120,60 160,160 C200,260 260,260 300,160 C320,110 350,100 390,120" fill="none" stroke="#ffffff" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/>
+<line x1="335" y1="118" x2="372" y2="122" stroke="#111827" stroke-width="2" marker-end="url(#ahK)"/>
+<text x="338" y="104" font-size="12" text-anchor="start" fill="#111827">flow</text>
+<circle cx="90" cy="80" r="5" fill="#111827"/>
+<line x1="90" y1="80" x2="90" y2="56" stroke="#111827" stroke-width="1.2"/>
+<text data-label="Cut bank" x="90" y="48" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Cut bank</text>
+<text x="110" y="66" font-size="12" text-anchor="start" fill="#6b7280">erosion</text>
+<polygon points="72,102 90,94 110,102 104,114 80,114" fill="#92400e" fill-opacity="0.45"/>
+<line x1="108" y1="112" x2="128" y2="128" stroke="#111827" stroke-width="1.2"/>
+<text data-label="Point bar" x="132" y="134" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Point bar</text>
+<text x="132" y="150" font-size="12" text-anchor="start" fill="#6b7280">deposition</text>
+<path d="M300,215 C305,240 345,240 350,215 C335,228 315,228 300,215 Z" fill="#92400e" fill-opacity="0.4" stroke="#92400e" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<text data-label="Oxbow lake" x="325" y="262" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Oxbow lake</text>
+<text x="325" y="277" font-size="12" text-anchor="middle" fill="#6b7280">(cut-off meander)</text>
+<text x="200" y="305" font-size="12" text-anchor="middle" fill="#6b7280">Outside of a bend: fast water, erosion.</text>
+<text x="200" y="321" font-size="12" text-anchor="middle" fill="#6b7280">Inside of a bend: slow water, deposition.</text>
+</g>
+</svg>

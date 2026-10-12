@@ -1,0 +1,67 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="{{ title }}" subtitle="12 October to 15 November: your wall calendar. Click a day to open it."/>
+
+  {% if readonly %}
+  <rx-alert kind="info" message="Read-only: you are looking at the student's calendar."/>
+  {% endif %}
+
+  <div class="plan-stats">
+    <rx-card title="Streak">
+      <p class="plan-big"><span id="streak-current">{{ streak }}</span> <small>{{ 'day' if streak == 1 else 'days' }} in a row</small></p>
+      <p class="plan-note">Record: <strong id="streak-record">{{ record }}</strong> {{ 'day' if record == 1 else 'days' }}</p>
+    </rx-card>
+    <rx-card title="Days completed">
+      <p class="plan-big"><span id="days-done">{{ days_done }}</span><small>/<span id="days-passed">{{ days_passed }}</span> so far</small></p>
+      <p class="plan-note">{{ days_total }} days in the whole plan</p>
+    </rx-card>
+    <rx-card title="Study time">
+      <p class="plan-big"><span id="minutes-done">{{ minutes_done }}</span> <small>minutes</small></p>
+      <p class="plan-note">of {{ minutes_total }} planned (partial days count in proportion)</p>
+    </rx-card>
+  </div>
+
+  <rx-card>
+    <div class="plan-cal" role="grid" aria-label="Study plan calendar">
+      <div class="plan-cal__head" aria-hidden="true">
+        <span></span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span><span>Sun</span>
+      </div>
+      {% for week in weeks %}
+      {% if week.divider %}
+      <div class="plan-cal__divider" data-phase-divider><span>{{ week.divider }} starts</span></div>
+      {% endif %}
+      <div class="plan-cal__week" role="row">
+        <span class="plan-cal__weeklabel">{{ week.label }}</span>
+        {% for cell in week.cells %}
+        {#- EXTENSION POINT (#39, Materials): a cell could show a "lessons" shortcut next to the date. -#}
+        <a class="plan-cell" role="gridcell" href="{{ route('plan.show', cell.date) }}"
+           data-date="{{ cell.date }}" data-status="{{ cell.status }}"{% if cell.is_today %} data-today="true" aria-current="date"{% endif %}
+           style="--subject-color: {{ cell.color }}; --fill: {{ cell.fill }};"
+           aria-label="{{ cell.aria }}" title="{{ cell.title }} ({{ cell.minutes }} min)">
+          <span class="plan-cell__date">{% if cell.month %}<em>{{ cell.month }}</em> {% endif %}{{ cell.day }}</span>
+          <span class="plan-cell__emoji" aria-hidden="true">{{ cell.emoji }}</span>
+          <span class="plan-cell__state">{% if cell.status == 'done' %}✓ Done{% elif cell.status == 'partial' %}{{ cell.percent }}%{% elif cell.status == 'missed' %}Missed{% elif cell.status == 'pending' %}Today{% else %}{{ cell.minutes }} min{% endif %}</span>
+        </a>
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </rx-card>
+
+  <rx-card title="Legend">
+    <ul class="plan-legend">
+      {% for s in legend %}
+      <li><span class="plan-swatch" style="background: {{ s.color }}"></span> {{ s.emoji }} {{ s.name }}</li>
+      {% endfor %}
+      <li><span class="plan-swatch plan-swatch--grey"></span> 🩺 🔀 📋 Diagnostic, mixed, prep</li>
+      <li>🏁 Exam day</li>
+    </ul>
+    <ul class="plan-legend">
+      <li><span class="plan-swatch plan-swatch--done"></span> Full color: all tasks done</li>
+      <li><span class="plan-swatch plan-swatch--partial"></span> Lighter color: part of the tasks done</li>
+      <li><span class="plan-swatch plan-swatch--grey"></span> Grey: not started or upcoming</li>
+      <li><span class="plan-swatch plan-swatch--missed"></span> Dashed: missed (a day in the past with nothing done)</li>
+      <li><span class="plan-swatch plan-swatch--today"></span> Thick border: today</li>
+    </ul>
+    <p class="plan-note">The line between week 1 and week 2 is where the 4-hour holiday ends and the 30-minute routine begins.</p>
+  </rx-card>
+</rx-page>

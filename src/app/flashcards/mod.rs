@@ -68,6 +68,8 @@ impl Module for Flashcards {
 #[derive(Deserialize, Default)]
 struct Filter {
     subject: Option<String>,
+    /// A subtopic slug: review only the cards of that subtopic.
+    subtopic: Option<String>,
 }
 
 /// A subject filter that names a subject we know; anything else means "all".
@@ -170,7 +172,17 @@ async fn review_page(
 ) -> Result<View> {
     let db = &ctx.state().db;
     let subjects = Subject::query().get(db).await?;
-    let only = known_subject(&subjects, &filter.subject);
+    let mut only = known_subject(&subjects, &filter.subject);
+    if let Some(slug) = filter.subtopic.as_deref() {
+        let found = Topic::query()
+            .where_(Topic::SLUG.eq(slug))
+            .where_(Topic::PARENT_ID.is_not_null())
+            .first(db)
+            .await?;
+        if found.is_some() {
+            only = Some(slug.to_owned());
+        }
+    }
     let session = review::new_session(db, user.id, crate::clock::today(), only.as_deref()).await?;
     let review = ctx.mount(session).await?;
     Ok(view(

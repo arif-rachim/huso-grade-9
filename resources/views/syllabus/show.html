@@ -1,0 +1,71 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="{{ topic.name }}" subtitle="{{ subtitle }}">
+    <rx-link-button route="syllabus.index" label="Back to the map" variant="secondary" icon="arrow-left"/>
+  </rx-page-header>
+
+  <div class="syl-show" style="--c: {{ subject.color }}">
+    <rx-card title="Mastery">
+      <div class="syl-big" data-band="{{ band }}">
+        <strong>{{ value }}</strong>
+        <span>{{ band_name }}</span>
+      </div>
+      <ul class="syl-facts">
+        {% if answers %}
+        <li>Questions, last {{ window_days }} days: <strong>{{ accuracy }}%</strong> right ({{ answers }} answered). A guessed answer counts half.</li>
+        {% else %}
+        <li>No questions answered in the last {{ window_days }} days.</li>
+        {% endif %}
+        {% if cards %}
+        <li>Cards: <strong>{{ known }} of {{ cards }}</strong> in box 3 or higher.</li>
+        <li>Box 1: {{ boxes[0] }} · Box 2: {{ boxes[1] }} · Box 3: {{ boxes[2] }} · Box 4: {{ boxes[3] }} · Box 5: {{ boxes[4] }} · Not started: {{ new_cards }}</li>
+        {% else %}
+        <li>No flashcards for this subtopic yet.</li>
+        {% endif %}
+      </ul>
+      {% if is_student %}
+      <div class="syl-actions">
+        <rx-form action="{{ route('practice.start') }}">
+          <input type="hidden" name="mode" value="topic">
+          <input type="hidden" name="topic_slug" value="{{ topic.slug }}">
+          <rx-button label="Practise 10 questions on this subtopic" icon="pencil"/>
+        </rx-form>
+        <rx-link-button href="{{ route('flashcards.review', subtopic=topic.slug) }}" label="Review this subtopic's cards" variant="secondary" icon="refresh-cw"/>
+        <rx-link-button href="{{ route('canvas.show', topic.slug) }}" label="Redraw from memory" variant="secondary" icon="pen-tool"/>
+      </div>
+      {% endif %}
+    </rx-card>
+
+    <rx-card title="What to know">
+      {% if topic.items %}
+      <ul class="syl-items">
+        {% for item in topic.items %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+      {% else %}
+      <rx-empty title="No syllabus points" message="This subtopic has no listed points."/>
+      {% endif %}
+      {% if has_lesson %}
+      <rx-link-button href="{{ route('lessons.show', topic.slug) }}" label="Open the lesson" icon="book-open"/>
+      {% endif %}
+    </rx-card>
+
+    <rx-card title="Open mistakes" subtitle="From the Error Log.">
+      {% if open_errors %}
+      <ul class="syl-errors">
+        {% for e in open_errors %}
+        <li><a href="{{ route('errors.show', e.id) }}">{{ e.cause }}</a> · due {{ e.due_on }}{% if e.note %} · {{ e.note }}{% endif %}</li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <rx-empty title="No open mistakes" message="Nothing waiting in the Error Log for this subtopic."/>
+      {% endif %}
+    </rx-card>
+
+    {% if links %}
+    <rx-card title="Pictures and videos" subtitle="Good places to see {{ subject.name }} in action.">
+      <ul class="syl-links">
+        {% for l in links %}<li><a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.title }}</a></li>{% endfor %}
+      </ul>
+    </rx-card>
+    {% endif %}
+  </div>
+</rx-page>

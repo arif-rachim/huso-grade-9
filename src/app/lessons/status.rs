@@ -147,10 +147,13 @@ async fn remembered_topics(db: &Db, user_id: i64) -> Result<Option<HashSet<i64>>
     Ok(Some(remembered))
 }
 
-/// INTEGRATION POINT (#28): mastery 0-100 per topic id for the student, `None` until the
-/// practice tables (`attempts`, `answers`) and the mastery calculation exist.
-async fn mastery_by_topic(_db: &Db, _user_id: i64) -> Result<Option<HashMap<i64, i64>>> {
-    Ok(None)
+/// Mastery 0-100 per topic id for the student (only the subtopics that have started), from the
+/// syllabus map's calculation.
+async fn mastery_by_topic(db: &Db, user_id: i64) -> Result<Option<HashMap<i64, i64>>> {
+    let map = crate::app::syllabus::mastery_by_topic_id(db, user_id).await?;
+    Ok(Some(
+        map.into_iter().map(|(k, v)| (k, i64::from(v))).collect(),
+    ))
 }
 
 /// The state of every subtopic the student has touched; a missing topic is `TopicState::NONE`.

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 452" role="img" aria-labelledby="t d">
+  <title id="t">Silicate structures and cleavage</title>
+  <desc id="d">Top row: silicate minerals built from tetrahedra that are isolated in olivine, in single chains in pyroxene, in double chains in amphibole, in sheets in mica and in a 3D framework in quartz and feldspar. Bottom row: cleavage patterns: one direction in mica, two directions at about 90 degrees in pyroxene, two at 56 and 124 degrees in amphibole, three at 90 degrees in halite, three not at 90 degrees in calcite, and none in quartz.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="452" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Silicate structures and cleavage</text>
+    <text x="240" y="46" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">1. The silicon–oxygen tetrahedron (a triangle here) is the building block</text>
+    <path d="M23,94.8 L45,94.8 L34,76.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M51,94.8 L73,94.8 L62,76.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M37,120.8 L59,120.8 L48,102.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M100,104.8 L122,104.8 L111,86.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M122,104.8 L144,104.8 L133,86.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M144,104.8 L166,104.8 L155,86.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M166,104.8 L188,104.8 L177,86.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M196,88.8 L218,88.8 L207,70.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M207,116.8 L229,116.8 L218,98.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M218,88.8 L240,88.8 L229,70.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M229,116.8 L251,116.8 L240,98.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M240,88.8 L262,88.8 L251,70.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M251,116.8 L273,116.8 L262,98.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M262,88.8 L284,88.8 L273,70.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M273,116.8 L295,116.8 L284,98.1 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M294,79.2 L312,79.2 L303,63.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M316,79.2 L334,79.2 L325,63.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M338,79.2 L356,79.2 L347,63.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M360,79.2 L378,79.2 L369,63.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M305,99.2 L323,99.2 L314,83.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M327,99.2 L345,99.2 L336,83.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M349,99.2 L367,99.2 L358,83.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M371,99.2 L389,99.2 L380,83.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M294,119.2 L312,119.2 L303,103.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M316,119.2 L334,119.2 L325,103.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M338,119.2 L356,119.2 L347,103.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M360,119.2 L378,119.2 L369,103.9 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M401,79.2 L419,79.2 L410,63.9 z" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M423,79.2 L441,79.2 L432,63.9 z" fill="#92400e" fill-opacity="0.30000000000000004" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M445,79.2 L463,79.2 L454,63.9 z" fill="#92400e" fill-opacity="0.4" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M401,101.2 L419,101.2 L410,85.9 z" fill="#92400e" fill-opacity="0.30000000000000004" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M423,101.2 L441,101.2 L432,85.9 z" fill="#92400e" fill-opacity="0.4" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M445,101.2 L463,101.2 L454,85.9 z" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M401,123.2 L419,123.2 L410,107.9 z" fill="#92400e" fill-opacity="0.4" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M423,123.2 L441,123.2 L432,107.9 z" fill="#92400e" fill-opacity="0.2" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M445,123.2 L463,123.2 L454,107.9 z" fill="#92400e" fill-opacity="0.30000000000000004" stroke="#92400e" stroke-width="1.2"/>
+    <text x="48" y="142" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Isolated</text>
+    <text x="48" y="157" font-size="12" text-anchor="middle" fill="#6b7280">olivine</text>
+    <text x="144" y="142" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Single chain</text>
+    <text x="144" y="157" font-size="12" text-anchor="middle" fill="#6b7280">pyroxene</text>
+    <text x="240" y="142" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Double chain</text>
+    <text x="240" y="157" font-size="12" text-anchor="middle" fill="#6b7280">amphibole</text>
+    <text x="336" y="142" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Sheets</text>
+    <text x="336" y="157" font-size="12" text-anchor="middle" fill="#6b7280">mica</text>
+    <text x="432" y="142" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Framework</text>
+    <text x="432" y="157" font-size="12" text-anchor="middle" fill="#6b7280">quartz, feldspar</text>
+    <text x="240" y="178" font-size="12" text-anchor="middle" fill="#6b7280">more shared corners = more Si–O bonds = harder to break, higher SiO₂ (felsic)</text>
+    <line x1="20" y1="190" x2="460" y2="190" stroke="#d1d5db" stroke-width="1"/>
+    <text x="240" y="212" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">2. Cleavage: smooth flat breaks along weak planes (fracture: any other break)</text>
+    <path d="M24,248 L66,248 L74,242 L32,242 z" fill="#92400e" fill-opacity="0.12" stroke="#92400e" stroke-width="1"/>
+    <path d="M24,255 L66,255 L74,249 L32,249 z" fill="#92400e" fill-opacity="0.16999999999999998" stroke="#92400e" stroke-width="1"/>
+    <path d="M24,262 L66,262 L74,256 L32,256 z" fill="#92400e" fill-opacity="0.22" stroke="#92400e" stroke-width="1"/>
+    <path d="M24,269 L66,269 L74,263 L32,263 z" fill="#92400e" fill-opacity="0.27" stroke="#92400e" stroke-width="1"/>
+    <path d="M24,276 L66,276 L74,270 L32,270 z" fill="#92400e" fill-opacity="0.32" stroke="#92400e" stroke-width="1"/>
+    <text x="48" y="298" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Mica</text>
+    <text x="48" y="313" font-size="12" text-anchor="middle" fill="#6b7280">1 direction</text>
+    <text x="48" y="328" font-size="12" text-anchor="middle" fill="#6b7280">thin sheets</text>
+    <path d="M122,240 L166,240 L166,284 L122,284 z" fill="#92400e" fill-opacity="0.15" stroke="#92400e" stroke-width="1.5"/>
+    <line x1="134" y1="240" x2="132" y2="284" stroke="#92400e" stroke-width="1.5"/>
+    <line x1="122" y1="254" x2="166" y2="256" stroke="#92400e" stroke-width="1.5"/>
+    <text x="144" y="298" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Pyroxene</text>
+    <text x="144" y="313" font-size="12" text-anchor="middle" fill="#6b7280">2 directions</text>
+    <text x="144" y="328" font-size="12" text-anchor="middle" fill="#6b7280">at about 90° (87°)</text>
+    <path d="M214,280 L236,240 L266,244 L244,284 z" fill="#92400e" fill-opacity="0.15" stroke="#92400e" stroke-width="1.5"/>
+    <line x1="225" y1="260" x2="255" y2="264" stroke="#92400e" stroke-width="1.5"/>
+    <line x1="226" y1="282" x2="248" y2="242" stroke="#92400e" stroke-width="1.5"/>
+    <text x="240" y="298" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Amphibole</text>
+    <text x="240" y="313" font-size="12" text-anchor="middle" fill="#6b7280">2 directions</text>
+    <text x="240" y="328" font-size="12" text-anchor="middle" fill="#6b7280">at 56° and 124°</text>
+    <path d="M314,254 L346,254 L346,286 L314,286 z" fill="#92400e" fill-opacity="0.12" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M314,254 L324,242 L356,242 L346,254 z" fill="#92400e" fill-opacity="0.22" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M346,254 L356,242 L356,274 L346,286 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <text x="336" y="302" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Halite, galena</text>
+    <text x="336" y="317" font-size="12" text-anchor="middle" fill="#6b7280">3 directions at 90°</text>
+    <text x="336" y="332" font-size="12" text-anchor="middle" fill="#6b7280">(cubic)</text>
+    <path d="M412,254 L440,254 L446,286 L418,286 z" fill="#92400e" fill-opacity="0.12" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M412,254 L426,242 L454,242 L440,254 z" fill="#92400e" fill-opacity="0.22" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M440,254 L454,242 L460,274 L446,286 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <text x="432" y="302" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Calcite</text>
+    <text x="432" y="317" font-size="12" text-anchor="middle" fill="#6b7280">3 directions,</text>
+    <text x="432" y="332" font-size="12" text-anchor="middle" fill="#6b7280">NOT at 90° (rhomb)</text>
+    <text x="240" y="372" font-size="12" text-anchor="middle" fill="#111827"></text>
+    <text x="240" y="400" font-size="12" text-anchor="middle" fill="#111827">Quartz has no cleavage: it breaks with curved, shell-like surfaces (conchoidal fracture).</text>
+    <text x="240" y="418" font-size="12" text-anchor="middle" fill="#6b7280">Check cleavage with a hand lens: flat, shiny, repeating faces mean cleavage.</text>
+    <text x="240" y="436" font-size="12" text-anchor="middle" fill="#6b7280">Sheets, chains and frameworks are different ways the same tetrahedron links up.</text>
+  </g>
+</svg>

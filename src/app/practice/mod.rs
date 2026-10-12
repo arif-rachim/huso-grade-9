@@ -293,6 +293,8 @@ fn subject_names_by_slug(subjects: &[Subject], slug: &str) -> String {
 struct StartForm {
     mode: String,
     topic: Option<i64>,
+    /// Topic mode on a subtopic named by its slug (the syllabus map's button).
+    topic_slug: Option<String>,
     subject: Option<String>,
     count: Option<i64>,
 }
@@ -304,10 +306,22 @@ async fn start(
 ) -> Result<Response> {
     require_student(&user)?;
     let attempt = match form.mode.as_str() {
-        TOPIC => match form.topic {
-            Some(topic) => engine::start_topic(&db, user.id, topic).await?,
-            None => None,
-        },
+        TOPIC => {
+            let topic = match (form.topic, form.topic_slug.as_deref()) {
+                (Some(id), _) => Some(id),
+                (None, Some(slug)) => Topic::query()
+                    .where_(Topic::SLUG.eq(slug))
+                    .where_(Topic::PARENT_ID.is_not_null())
+                    .first(&db)
+                    .await?
+                    .map(|t| t.id),
+                (None, None) => None,
+            };
+            match topic {
+                Some(topic) => engine::start_topic(&db, user.id, topic).await?,
+                None => None,
+            }
+        }
         SPRINT => match form.subject.as_deref() {
             Some(subject) => {
                 let count = form.count.unwrap_or(engine::SPRINT_DEFAULT);

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 200" role="img" aria-labelledby="t d">
+  <title id="t">The Coriolis deflection</title>
+  <desc id="d">In the Northern Hemisphere moving air is deflected to the right of its path, in the Southern Hemisphere to the left. A wind heading north bends toward the east in the north and toward the west in the south.</desc>
+  <rect x="0" y="0" width="440" height="200" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="20.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Coriolis: right in the north, left in the south</text>
+    <rect x="20.0" y="34.0" width="190.0" height="128.0" rx="0" fill="#eef0f3" fill-opacity="0.6" stroke="#d1d5db" stroke-width="1"/>
+    <text x="115.0" y="54.0" font-size="13" text-anchor="middle" fill="#92400e" font-weight="bold">Northern Hemisphere</text>
+    <line x1="75.0" y1="148.0" x2="75.0" y2="84.0" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <line x1="75.0" y1="84.0" x2="71.1" y2="92.1" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <line x1="75.0" y1="84.0" x2="78.9" y2="92.1" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <path d="M75 148 Q 75 104 135 82" fill="none" stroke="#92400e" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="135.0" y1="82.0" x2="127.1" y2="86.3" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="135.0" y1="82.0" x2="133.4" y2="90.9" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <text x="89.0" y="124.0" font-size="13" text-anchor="start" fill="#92400e" font-weight="bold">bends right</text>
+    <text x="89.0" y="141.0" font-size="12" text-anchor="start" fill="#92400e">(toward east)</text>
+    <rect x="230.0" y="34.0" width="190.0" height="128.0" rx="0" fill="#eef0f3" fill-opacity="0.6" stroke="#d1d5db" stroke-width="1"/>
+    <text x="325.0" y="54.0" font-size="13" text-anchor="middle" fill="#92400e" font-weight="bold">Southern Hemisphere</text>
+    <line x1="365.0" y1="148.0" x2="365.0" y2="84.0" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <line x1="365.0" y1="84.0" x2="361.1" y2="92.1" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <line x1="365.0" y1="84.0" x2="368.9" y2="92.1" stroke="#6b7280" stroke-width="3" stroke-linecap="round"/>
+    <path d="M365 148 Q 365 104 305 82" fill="none" stroke="#92400e" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="305.0" y1="82.0" x2="306.6" y2="90.9" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="305.0" y1="82.0" x2="312.9" y2="86.3" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <text x="351.0" y="124.0" font-size="13" text-anchor="end" fill="#92400e" font-weight="bold">bends left</text>
+    <text x="351.0" y="141.0" font-size="12" text-anchor="end" fill="#92400e">(toward west)</text>
+    <text x="220.0" y="184.0" font-size="12" text-anchor="middle" fill="#6b7280">Gray: straight path. Brown: real path. No Coriolis at the equator.</text>
+  </g>
+</svg>

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 432" role="img" aria-labelledby="t d">
+  <title id="t">Orion and its neighbors</title>
+  <desc id="d">A star chart of Orion with the belt stars Alnitak, Alnilam and Mintaka, red Betelgeuse and blue-white Rigel, the Orion Nebula M42 below the belt, Sirius in Canis Major reached by extending the belt, and Taurus with Aldebaran, the Pleiades M45 and the Crab Nebula M1.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="432" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Orion: the sky's best signpost</text>
+    <rect x="10" y="38" width="460" height="362" fill="#f9fafb" stroke="#6b7280" stroke-width="1"/>
+    <line x1="150.6" y1="195.1" x2="174" y2="260.6" stroke="#92400e" stroke-width="1.6"/>
+    <line x1="174" y1="260.6" x2="162.6" y2="314.7" stroke="#92400e" stroke-width="1.6"/>
+    <line x1="162.6" y1="314.7" x2="216.8" y2="304.4" stroke="#92400e" stroke-width="1.6"/>
+    <line x1="216.8" y1="304.4" x2="188.3" y2="249.1" stroke="#92400e" stroke-width="1.6"/>
+    <line x1="188.3" y1="249.1" x2="199.6" y2="202.5" stroke="#92400e" stroke-width="1.6"/>
+    <line x1="199.6" y1="202.5" x2="150.6" y2="195.1" stroke="#92400e" stroke-width="1.6"/>
+    <line x1="183.3" y1="177.5" x2="150.6" y2="195.1" stroke="#92400e" stroke-width="1.6"/>
+    <line x1="183.3" y1="177.5" x2="199.6" y2="202.5" stroke="#92400e" stroke-width="1.6"/>
+    <line x1="188.3" y1="249.1" x2="181.5" y2="255.4" stroke="#111827" stroke-width="3"/>
+    <line x1="181.5" y1="255.4" x2="174" y2="260.6" stroke="#111827" stroke-width="3"/>
+    <line x1="188.3" y1="249.1" x2="69.4" y2="364" stroke="#6b7280" stroke-width="1.2" stroke-dasharray="5 4"/>
+    <circle cx="150.6" cy="195.1" r="7" fill="#92400e" stroke="#111827" stroke-width="2"/>
+    <circle cx="216.8" cy="304.4" r="7" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <circle cx="199.6" cy="202.5" r="4.5" fill="#111827"/>
+    <circle cx="162.6" cy="314.7" r="4.5" fill="#111827"/>
+    <circle cx="174" cy="260.6" r="4.5" fill="#111827"/>
+    <circle cx="181.5" cy="255.4" r="4.5" fill="#111827"/>
+    <circle cx="188.3" cy="249.1" r="4.5" fill="#111827"/>
+    <circle cx="183.3" cy="177.5" r="4.5" fill="#111827"/>
+    <circle cx="69.4" cy="364" r="7" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <circle cx="279.6" cy="131.4" r="4.5" fill="#111827"/>
+    <circle cx="183" cy="286.7" r="9" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+    <text x="199" y="290.7" font-size="12" text-anchor="start" fill="#92400e" font-weight="bold">M42 Orion Nebula</text>
+    <circle cx="184.3" cy="92.9" r="6" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+    <text x="194.3" y="96.9" font-size="12" text-anchor="start" fill="#92400e" font-weight="bold">M1 Crab Nebula</text>
+    <circle cx="359.2" cy="78.3" r="2.4" fill="#111827"/>
+    <circle cx="364.2" cy="81.3" r="2.4" fill="#111827"/>
+    <circle cx="354.2" cy="82.3" r="2.4" fill="#111827"/>
+    <circle cx="362.2" cy="73.3" r="2.4" fill="#111827"/>
+    <circle cx="356.2" cy="75.3" r="2.4" fill="#111827"/>
+    <circle cx="366.2" cy="76.3" r="2.4" fill="#111827"/>
+    <text x="373.2" y="82.3" font-size="12" text-anchor="start" fill="#92400e" font-weight="bold">M45 Pleiades</text>
+    <text x="138.6" y="191.1" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">Betelgeuse (α Ori)</text>
+    <text x="138.6" y="205.1" font-size="12" text-anchor="end" fill="#6b7280">red supergiant</text>
+    <text x="228.8" y="308.4" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">Rigel (β Ori)</text>
+    <text x="228.8" y="322.4" font-size="12" text-anchor="start" fill="#6b7280">blue-white supergiant</text>
+    <text x="209.6" y="198.5" font-size="12" text-anchor="start" fill="#6b7280">Bellatrix</text>
+    <text x="152.6" y="320.7" font-size="12" text-anchor="end" fill="#6b7280">Saiph</text>
+    <text x="193.3" y="171.5" font-size="12" text-anchor="start" fill="#6b7280">Meissa</text>
+    <text x="202.3" y="241.1" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">the belt</text>
+    <text x="81.4" y="368" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">Sirius (α CMa)</text>
+    <text x="81.4" y="382" font-size="12" text-anchor="start" fill="#6b7280">brightest star in the night sky</text>
+    <text x="291.6" y="135.4" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">Aldebaran (α Tau)</text>
+    <text x="240" y="420" font-size="12" text-anchor="middle" fill="#6b7280">Ori = Orion, CMa = Canis Major, Tau = Taurus. Chart: RA grows to the left, Dec up.</text>
+    <text x="146.6" y="52" font-size="12" text-anchor="middle" fill="#111827"></text>
+  </g>
+</svg>

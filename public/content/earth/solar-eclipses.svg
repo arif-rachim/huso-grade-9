@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 488" role="img" aria-labelledby="t d">
+  <title id="t">Solar and lunar eclipses</title>
+  <desc id="d">Top: a solar eclipse at new moon. The Moon's dark umbra touches Earth and gives a total eclipse, the penumbra gives a partial eclipse. Middle: a lunar eclipse at full moon when the Moon passes through Earth's shadow. Bottom: the Moon's orbit is tilted 5 degrees, so eclipses only happen near the nodes where it crosses the ecliptic.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="488" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Eclipses: three bodies in a line (not to scale)</text>
+    <text x="20" y="44" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Solar eclipse: New Moon (Moon between Sun and Earth)</text>
+    <circle cx="50" cy="100" r="24" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+    <text x="50" y="140" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Sun</text>
+    <path d="M290,92.5 L444,71.6 L444,128.4 L290,107.5 z" fill="#9ca3af" fill-opacity="0.25"/>
+    <path d="M290,92.5 L290,107.5 L399.1,100 z" fill="#111827" fill-opacity="0.75"/>
+    <circle cx="290" cy="100" r="7.5" fill="#374151" stroke="#111827" stroke-width="1"/>
+    <text x="290" y="84" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Moon</text>
+    <circle cx="412" cy="100" r="16" fill="#92400e" fill-opacity="0.35" stroke="#111827" stroke-width="1.5"/>
+    <text x="412" y="136" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Earth</text>
+    <line x1="50" y1="76" x2="399.1" y2="100" stroke="#6b7280" stroke-width="1" stroke-dasharray="4 4"/>
+    <line x1="50" y1="124" x2="399.1" y2="100" stroke="#6b7280" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="370" y="70" font-size="12" text-anchor="middle" fill="#6b7280">penumbra: partial eclipse</text>
+    <text x="346" y="136" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">umbra: total</text>
+    <text x="20" y="168" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Lunar eclipse: Full Moon (Earth between Sun and Moon)</text>
+    <circle cx="50" cy="220" r="24" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+    <text x="50" y="260" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Sun</text>
+    <circle cx="180" cy="220" r="20" fill="#92400e" fill-opacity="0.35" stroke="#111827" stroke-width="1.5"/>
+    <text x="180" y="256" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Earth</text>
+    <path d="M180,200 L420,186 L420,254 L180,240 z" fill="#9ca3af" fill-opacity="0.25"/>
+    <path d="M180,200 L360,218 L360,222 L180,240 z" fill="#111827" fill-opacity="0.55"/>
+    <circle cx="310" cy="220" r="11" fill="#6b7280" fill-opacity="0.8" stroke="#111827" stroke-width="1.5"/>
+    <text x="310" y="200" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Moon</text>
+    <text x="350" y="272" font-size="12" text-anchor="middle" fill="#6b7280">Earth's shadow: the Moon turns dull red</text>
+    <text x="20" y="304" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Why not every month? The Moon's orbit is tilted 5° to the ecliptic</text>
+    <line x1="30" y1="372" x2="450" y2="372" stroke="#6b7280" stroke-width="2" stroke-dasharray="6 4"/>
+    <text x="30" y="364" font-size="12" text-anchor="start" fill="#6b7280" font-weight="bold">ecliptic</text>
+    <path d="M30,404.0 L36,403.7 L42,402.8 L48,401.4 L54,399.5 L60,397.0 L66,394.1 L72,390.8 L78,387.2 L84,383.2 L90,379.1 L96,374.9 L102,370.6 L108,366.3 L114,362.1 L120,358.1 L126,354.4 L132,350.9 L138,347.9 L144,345.3 L150,343.2 L156,341.6 L162,340.5 L168,340.0 L174,340.1 L180,340.8 L186,342.0 L192,343.8 L198,346.1 L204,348.9 L210,352.0 L216,355.6 L222,359.4 L228,363.5 L234,367.7 L240,372.0 L246,376.3 L252,380.5 L258,384.6 L264,388.4 L270,392.0 L276,395.1 L282,397.9 L288,400.2 L294,402.0 L300,403.2 L306,403.9 L312,404.0 L318,403.5 L324,402.4 L330,400.8 L336,398.7 L342,396.1 L348,393.1 L354,389.6 L360,385.9 L366,381.9 L372,377.7 L378,373.4 L384,369.1 L390,364.9 L396,360.8 L402,356.8 L408,353.2 L414,349.9 L420,347.0 L426,344.5 L432,342.6 L438,341.2 L444,340.3 L450,340.0 " fill="none" stroke="#92400e" stroke-width="2.5"/>
+    <text x="170" y="328" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">Moon's orbit</text>
+    <circle cx="100" cy="372" r="5" fill="#111827"/>
+    <text x="100" y="392" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">node</text>
+    <circle cx="240" cy="372" r="5" fill="#111827"/>
+    <text x="240" y="392" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">node</text>
+    <circle cx="380" cy="372" r="5" fill="#111827"/>
+    <text x="380" y="392" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">node</text>
+    <text x="240" y="418" font-size="12" text-anchor="middle" fill="#111827">Eclipses need the Sun, Earth and Moon in line AND the Moon near a node:</text>
+    <text x="240" y="434" font-size="12" text-anchor="middle" fill="#111827">two 'eclipse seasons' a year. Solar eclipse: new moon. Lunar eclipse: full moon.</text>
+    <text x="240" y="454" font-size="12" text-anchor="middle" fill="#6b7280">Total solar eclipse: at most about 7.5 minutes. Total lunar eclipse: up to about 1 h 47 min.</text>
+    <text x="240" y="470" font-size="12" text-anchor="middle" fill="#6b7280">Annular eclipse: the Moon is far, looks too small and leaves a ring of Sun.</text>
+  </g>
+</svg>

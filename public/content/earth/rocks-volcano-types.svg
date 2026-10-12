@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" role="img" aria-labelledby="t d">
+  <title id="t">Four volcano shapes</title>
+  <desc id="d">Shield volcano: wide and gentle, runny basalt. Stratovolcano: steep cone of alternating lava and ash, sticky andesite. Cinder cone: small steep pile of scoria. Caldera: a big hollow left after the magma chamber empties and the top collapses.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="300" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Volcano shape follows the magma</text>
+    <path d="M2,150 C30,122 48,116 60,116 C72,116 90,122 118,150 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <text x="60" y="178" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Shield</text>
+    <text x="60" y="195" font-size="12" text-anchor="middle" fill="#111827">runny basalt</text>
+    <text x="60" y="210" font-size="12" text-anchor="middle" fill="#111827">gentle slope ~5°</text>
+    <text x="60" y="225" font-size="12" text-anchor="middle" fill="#111827">quiet lava flows</text>
+    <text x="60" y="240" font-size="12" text-anchor="middle" fill="#111827">Mauna Loa</text>
+    <path d="M128,150 C152,132 168,90 174,68 L186,68 C192,90 208,132 232,150 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M148,135 Q180,118 212,135" fill="none" stroke="#92400e" stroke-width="1"/>
+    <path d="M160,113 Q180,96 200,113" fill="none" stroke="#92400e" stroke-width="1"/>
+    <text x="180" y="178" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Stratovolcano</text>
+    <text x="180" y="195" font-size="12" text-anchor="middle" fill="#111827">sticky andesite</text>
+    <text x="180" y="210" font-size="12" text-anchor="middle" fill="#111827">steep, layered</text>
+    <text x="180" y="225" font-size="12" text-anchor="middle" fill="#111827">explosive</text>
+    <text x="180" y="240" font-size="12" text-anchor="middle" fill="#111827">Merapi, Fuji</text>
+    <path d="M272,150 L295,110 L305,110 L328,150 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <circle cx="286" cy="142" r="2" fill="#92400e"/>
+    <circle cx="296" cy="128" r="2" fill="#92400e"/>
+    <circle cx="308" cy="138" r="2" fill="#92400e"/>
+    <circle cx="314" cy="146" r="2" fill="#92400e"/>
+    <circle cx="300" cy="144" r="2" fill="#92400e"/>
+    <circle cx="290" cy="148" r="2" fill="#92400e"/>
+    <circle cx="304" cy="120" r="2" fill="#92400e"/>
+    <text x="300" y="178" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Cinder cone</text>
+    <text x="300" y="195" font-size="12" text-anchor="middle" fill="#111827">gas-rich scoria</text>
+    <text x="300" y="210" font-size="12" text-anchor="middle" fill="#111827">small, steep ~30°</text>
+    <text x="300" y="225" font-size="12" text-anchor="middle" fill="#111827">short-lived</text>
+    <text x="300" y="240" font-size="12" text-anchor="middle" fill="#111827">Paricutin</text>
+    <path d="M364,150 C386,136 390,110 396,98 L404,120 L436,120 L444,98 C450,110 454,136 476,150 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M404,120 L436,120 L436,150 L404,150 z" fill="#dc2626" fill-opacity="0.0"/>
+    <text x="420" y="178" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Caldera</text>
+    <text x="420" y="195" font-size="12" text-anchor="middle" fill="#111827">collapsed top after</text>
+    <text x="420" y="210" font-size="12" text-anchor="middle" fill="#111827">a huge eruption</text>
+    <text x="420" y="225" font-size="12" text-anchor="middle" fill="#111827">often a lake</text>
+    <text x="420" y="240" font-size="12" text-anchor="middle" fill="#111827">Toba, Tambora</text>
+    <rect x="40" y="262" width="400" height="14" fill="#fde68a" fill-opacity="1.0" stroke="#6b7280" stroke-width="1"/>
+    <defs><linearGradient id="gv" x1="0" x2="1"><stop offset="0" stop-color="#fde68a"/><stop offset="1" stop-color="#92400e"/></linearGradient></defs>
+    <rect x="40" y="262" width="400" height="14" fill="url(#gv)" stroke="#6b7280" stroke-width="1"/>
+    <text x="40" y="258" font-size="12" text-anchor="start" fill="#111827">runny (mafic, hot)</text>
+    <text x="440" y="258" font-size="12" text-anchor="end" fill="#111827">sticky (felsic, cooler)</text>
+    <text x="240" y="292" font-size="12" text-anchor="middle" fill="#6b7280">stickier magma traps more gas = more explosive</text>
+  </g>
+</svg>

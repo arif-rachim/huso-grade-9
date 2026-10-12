@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 350" role="img" aria-labelledby="t d">
+  <title id="t">Surface currents form gyres in each ocean basin</title>
+  <desc id="d">A schematic ocean basin with the equator in the middle. In the Northern Hemisphere the gyre turns clockwise, in the Southern Hemisphere counterclockwise. Currents on the western side of the basin are narrow, fast and warm, for example the Gulf Stream and the Kuroshio. Currents on the eastern side are broad, slow and cold, for example the California and Humboldt currents.</desc>
+  <rect x="0" y="0" width="440" height="350" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="18.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Ocean gyres: clockwise N, counterclockwise S</text>
+    <rect x="66.0" y="30.0" width="308.0" height="270.0" rx="0" fill="#2563eb" fill-opacity="0.12"/>
+    <rect x="20.0" y="30.0" width="46.0" height="270.0" rx="0" fill="#92400e" fill-opacity="0.4"/>
+    <rect x="374.0" y="30.0" width="46.0" height="270.0" rx="0" fill="#92400e" fill-opacity="0.4"/>
+    <text x="43.0" y="160.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">land</text>
+    <text x="397.0" y="160.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">land</text>
+    <line x1="20.0" y1="165.0" x2="420.0" y2="165.0" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 4"/>
+    <text x="43.0" y="182.0" font-size="12" text-anchor="middle" fill="#6b7280">equator</text>
+    <line x1="88.0" y1="150.0" x2="88.0" y2="62.0" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <line x1="88.0" y1="62.0" x2="83.2" y2="71.9" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <line x1="88.0" y1="62.0" x2="92.8" y2="71.9" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <line x1="100.0" y1="52.0" x2="332.0" y2="52.0" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="332.0" y1="52.0" x2="323.0" y2="47.7" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="332.0" y1="52.0" x2="323.0" y2="56.3" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="352.0" y1="58.0" x2="352.0" y2="150.0" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="352.0" y1="150.0" x2="355.9" y2="141.9" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="352.0" y1="150.0" x2="348.1" y2="141.9" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="340.0" y1="158.0" x2="108.0" y2="158.0" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="108.0" y1="158.0" x2="117.0" y2="162.3" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="108.0" y1="158.0" x2="117.0" y2="153.7" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="88.0" y1="180.0" x2="88.0" y2="268.0" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <line x1="88.0" y1="268.0" x2="92.8" y2="258.1" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <line x1="88.0" y1="268.0" x2="83.2" y2="258.1" stroke="#dc2626" stroke-width="5" stroke-linecap="round"/>
+    <line x1="100.0" y1="278.0" x2="332.0" y2="278.0" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="332.0" y1="278.0" x2="323.0" y2="273.7" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="332.0" y1="278.0" x2="323.0" y2="282.3" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="352.0" y1="272.0" x2="352.0" y2="180.0" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="352.0" y1="180.0" x2="348.1" y2="188.1" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="352.0" y1="180.0" x2="355.9" y2="188.1" stroke="#2563eb" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="340.0" y1="178.0" x2="108.0" y2="178.0" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="108.0" y1="178.0" x2="117.0" y2="182.3" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="108.0" y1="178.0" x2="117.0" y2="173.7" stroke="#dc2626" stroke-width="3.5" stroke-linecap="round"/>
+    <text x="220.0" y="100.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">NORTHERN gyre</text>
+    <text x="220.0" y="116.0" font-size="12" text-anchor="middle" fill="#6b7280">clockwise</text>
+    <text x="220.0" y="232.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">SOUTHERN gyre</text>
+    <text x="220.0" y="248.0" font-size="12" text-anchor="middle" fill="#6b7280">counterclockwise</text>
+    <text x="96.0" y="124.0" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">WARM, narrow</text>
+    <text x="96.0" y="139.0" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">and fast</text>
+    <text x="344.0" y="124.0" font-size="12" text-anchor="end" fill="#2563eb" font-weight="bold">COLD, wide</text>
+    <text x="344.0" y="139.0" font-size="12" text-anchor="end" fill="#2563eb" font-weight="bold">and slow</text>
+    <text x="220.0" y="40.0" font-size="12" text-anchor="middle" fill="#92400e">winds: westerlies push water east</text>
+    <text x="220.0" y="193.0" font-size="12" text-anchor="middle" fill="#dc2626">trade winds push water west</text>
+    <text x="220.0" y="292.0" font-size="12" text-anchor="middle" fill="#92400e">westerlies push water east</text>
+    <text x="220.0" y="313.0" font-size="12" text-anchor="middle" fill="#dc2626" font-weight="bold">Western side: Gulf Stream, Kuroshio, Brazil, East Australian</text>
+    <text x="220.0" y="330.0" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold">Eastern side: California, Canary, Humboldt, Benguela</text>
+    <text x="220.0" y="346.0" font-size="12" text-anchor="middle" fill="#111827"></text>
+  </g>
+</svg>

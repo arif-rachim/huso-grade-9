@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-labelledby="t d">
+  <title id="t">Phases of the Moon</title>
+  <desc id="d">Looking down on the Earth-Moon system with sunlight arriving from the right. The Moon is shown at eight points of its orbit with the appearance from Earth outside the orbit: new, waxing crescent, first quarter, waxing gibbous, full, waning gibbous, third quarter and waning crescent.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="480" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Moon phases: always half lit, we see part of it</text>
+    <line x1="472" y1="130" x2="436" y2="130" stroke="#92400e" stroke-width="2" marker-end="url(#arB)"/>
+    <line x1="472" y1="180" x2="436" y2="180" stroke="#92400e" stroke-width="2" marker-end="url(#arB)"/>
+    <line x1="472" y1="240" x2="436" y2="240" stroke="#92400e" stroke-width="2" marker-end="url(#arB)"/>
+    <line x1="472" y1="300" x2="436" y2="300" stroke="#92400e" stroke-width="2" marker-end="url(#arB)"/>
+    <line x1="472" y1="350" x2="436" y2="350" stroke="#92400e" stroke-width="2" marker-end="url(#arB)"/>
+    <text x="454" y="112" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">sunlight</text>
+    <circle cx="240" cy="240" r="82" fill="none" stroke="#6b7280" stroke-width="1.5" stroke-dasharray="4 4"/>
+    <circle cx="240" cy="240" r="22" fill="#92400e" fill-opacity="0.35" stroke="#111827" stroke-width="1.5"/>
+    <text x="240" y="244" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Earth</text>
+    <circle cx="322" cy="240" r="9" fill="#d1d5db" stroke="#111827" stroke-width="1.2"/>
+    <path d="M322.0,231.0 A9,9 0 0 1 322.0,249.0 z" fill="#fde68a" fill-opacity="1.0"/>
+    <circle cx="400" cy="240" r="17" fill="#374151" fill-opacity="0.85" stroke="#111827" stroke-width="1.2"/>
+    <text x="400" y="271" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">New</text>
+    <circle cx="298" cy="182" r="9" fill="#d1d5db" stroke="#111827" stroke-width="1.2"/>
+    <path d="M297.9827560572969,173.01724394270312 A9,9 0 0 1 297.9827560572969,191.01724394270312 z" fill="#fde68a" fill-opacity="1.0"/>
+    <circle cx="339" cy="141" r="17" fill="#374151" fill-opacity="0.85" stroke="#111827" stroke-width="1.2"/>
+    <path d="M338.99494936611666,124.00505063388334 A17,17 0 0 1 338.99494936611666,158.00505063388334 A12.02,17 0 0 0 338.99494936611666,124.00505063388334 z" fill="#fde68a" fill-opacity="1.0"/>
+    <text x="339" y="118" font-size="12" text-anchor="middle" fill="#111827">Waxing crescent</text>
+    <circle cx="240" cy="158" r="9" fill="#d1d5db" stroke="#111827" stroke-width="1.2"/>
+    <path d="M240.0,149.0 A9,9 0 0 1 240.0,167.0 z" fill="#fde68a" fill-opacity="1.0"/>
+    <circle cx="240" cy="100" r="17" fill="#374151" fill-opacity="0.85" stroke="#111827" stroke-width="1.2"/>
+    <path d="M240.0,83.0 A17,17 0 0 1 240.0,117.0 L240.0,83.0 z" fill="#fde68a" fill-opacity="1.0"/>
+    <text x="240" y="77" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">First quarter</text>
+    <circle cx="182" cy="182" r="9" fill="#d1d5db" stroke="#111827" stroke-width="1.2"/>
+    <path d="M182.01724394270312,173.0172439427031 A9,9 0 0 1 182.01724394270312,191.0172439427031 z" fill="#fde68a" fill-opacity="1.0"/>
+    <circle cx="141" cy="141" r="17" fill="#374151" fill-opacity="0.85" stroke="#111827" stroke-width="1.2"/>
+    <path d="M141.00505063388334,124.00505063388334 A17,17 0 0 1 141.00505063388334,158.00505063388334 A12.02,17 0 0 1 141.00505063388334,124.00505063388334 z" fill="#fde68a" fill-opacity="1.0"/>
+    <text x="141" y="118" font-size="12" text-anchor="middle" fill="#111827">Waxing gibbous</text>
+    <circle cx="158" cy="240" r="9" fill="#d1d5db" stroke="#111827" stroke-width="1.2"/>
+    <path d="M158.0,231.0 A9,9 0 0 1 158.0,249.0 z" fill="#fde68a" fill-opacity="1.0"/>
+    <circle cx="80" cy="240" r="17" fill="#374151" fill-opacity="0.85" stroke="#111827" stroke-width="1.2"/>
+    <circle cx="80" cy="240" r="17" fill="#fde68a" stroke="#111827" stroke-width="1.2"/>
+    <text x="80" y="271" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Full</text>
+    <circle cx="182" cy="298" r="9" fill="#d1d5db" stroke="#111827" stroke-width="1.2"/>
+    <path d="M182.0172439427031,288.9827560572969 A9,9 0 0 1 182.0172439427031,306.9827560572969 z" fill="#fde68a" fill-opacity="1.0"/>
+    <circle cx="141" cy="339" r="17" fill="#374151" fill-opacity="0.85" stroke="#111827" stroke-width="1.2"/>
+    <path d="M141.00505063388334,321.99494936611666 A17,17 0 0 0 141.00505063388334,355.99494936611666 A12.02,17 0 0 0 141.00505063388334,321.99494936611666 z" fill="#fde68a" fill-opacity="1.0"/>
+    <text x="141" y="370" font-size="12" text-anchor="middle" fill="#111827">Waning gibbous</text>
+    <circle cx="240" cy="322" r="9" fill="#d1d5db" stroke="#111827" stroke-width="1.2"/>
+    <path d="M239.99999999999997,313.0 A9,9 0 0 1 239.99999999999997,331.0 z" fill="#fde68a" fill-opacity="1.0"/>
+    <circle cx="240" cy="380" r="17" fill="#374151" fill-opacity="0.85" stroke="#111827" stroke-width="1.2"/>
+    <path d="M239.99999999999997,363.0 A17,17 0 0 0 239.99999999999997,397.0 L239.99999999999997,363.0 z" fill="#fde68a" fill-opacity="1.0"/>
+    <text x="240" y="411" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Third quarter</text>
+    <circle cx="298" cy="298" r="9" fill="#d1d5db" stroke="#111827" stroke-width="1.2"/>
+    <path d="M297.9827560572969,288.9827560572969 A9,9 0 0 1 297.9827560572969,306.9827560572969 z" fill="#fde68a" fill-opacity="1.0"/>
+    <circle cx="339" cy="339" r="17" fill="#374151" fill-opacity="0.85" stroke="#111827" stroke-width="1.2"/>
+    <path d="M338.99494936611666,321.99494936611666 A17,17 0 0 0 338.99494936611666,355.99494936611666 A12.02,17 0 0 1 338.99494936611666,321.99494936611666 z" fill="#fde68a" fill-opacity="1.0"/>
+    <text x="339" y="370" font-size="12" text-anchor="middle" fill="#111827">Waning crescent</text>
+    <text x="240" y="432" font-size="12" text-anchor="middle" fill="#6b7280">From above the north pole the Moon goes counterclockwise: one lap = 27.3 days,</text>
+    <text x="240" y="448" font-size="12" text-anchor="middle" fill="#6b7280">but the cycle of phases takes 29.5 days (Earth moved on). The same side always faces Earth.</text>
+    <text x="240" y="464" font-size="12" text-anchor="middle" fill="#6b7280">Waxing = the lit part grows (evening sky). Waning = it shrinks (morning sky).</text>
+  </g>
+</svg>

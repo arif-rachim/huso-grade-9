@@ -36,3 +36,61 @@ fn a_broken_fixture_produces_the_expected_errors() {
         );
     }
 }
+
+#[test]
+fn every_material_file_has_a_valid_slug_and_five_check_questions() {
+    let bundle = load_all(Path::new(env!("CARGO_MANIFEST_DIR"))).expect("content files parse");
+    assert!(
+        bundle.lessons.len() >= 40,
+        "{} lessons",
+        bundle.lessons.len()
+    );
+    for lesson in &bundle.lessons {
+        assert!(
+            lesson.problems.is_empty(),
+            "{}: {:?}",
+            lesson.path,
+            lesson.problems
+        );
+        assert_eq!(lesson.questions.len(), 5, "{}", lesson.path);
+        assert!(
+            lesson
+                .questions
+                .iter()
+                .all(|q| q.choices.len() == 5 && !q.answer.is_empty())
+        );
+    }
+}
+
+#[test]
+fn a_lesson_with_a_wrong_slug_gives_a_clear_error() {
+    use huso::app::content::lesson_file::LessonFile;
+    let mut bundle = load_all(Path::new(env!("CARGO_MANIFEST_DIR"))).expect("content files parse");
+    bundle.lessons.push(LessonFile {
+        path: "materi/biology/oops.md".into(),
+        subject: "biology".into(),
+        slug: "biology.cell.nothing".into(),
+        title: "Oops".into(),
+        ..Default::default()
+    });
+    bundle.lessons.push(LessonFile {
+        path: "materi/physics/wrong-folder.md".into(),
+        subject: "physics".into(),
+        slug: "biology.cell.division".into(),
+        title: "Wrong folder".into(),
+        ..Default::default()
+    });
+    let errors = validate(&bundle).join("\n");
+    assert!(
+        errors.contains("materi/biology/oops.md: `biology.cell.nothing` is not a subtopic"),
+        "{errors}"
+    );
+    assert!(
+        errors.contains("is not in the folder `materi/physics`"),
+        "{errors}"
+    );
+    assert!(
+        errors.contains("a second lesson for `biology.cell.division`"),
+        "{errors}"
+    );
+}

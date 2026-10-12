@@ -270,6 +270,34 @@
 .redraw-thumb { display: block; width: 100%; aspect-ratio: 8 / 5; object-fit: contain; background: #fff; border: 2px solid var(--subject-color, #9ca3af); border-radius: 8px; }
 .redraw-reference { width: 100%; height: auto; background: #fff; border: 1px solid #d1d5db; border-radius: 8px; padding: 0.5rem; }
 
+/* Materials (lessons). */
+.lessons-group { margin: 0 0 1.5rem; }
+.lessons-group__title { font: var(--rx-type-heading); margin: 0 0 0.5rem; padding-left: 0.75rem; border-left: 6px solid var(--subject-color, #9ca3af); }
+.lessons-group__count { font: var(--rx-type-caption); margin-left: 0.5rem; }
+.lessons-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+.lessons-item { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 1rem; align-items: center; padding: 0.625rem 0.75rem; border: 1px solid #e5e7eb; border-left: 6px solid var(--subject-color, #9ca3af); border-radius: 8px; }
+.lessons-item__name { font: var(--rx-type-label); text-decoration: none; }
+.lessons-item__meta { display: flex; gap: 0.75rem; font: var(--rx-type-caption); }
+@media (max-width: 900px) { .lessons-item { grid-template-columns: minmax(0, 1fr) auto; } .lessons-item__meta { grid-column: 1 / -1; } }
+.lesson-head { margin-top: 0.75rem; display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin: 0 0 1rem; }
+.lesson-head__meta { font: var(--rx-type-caption); }
+.lesson-body { margin: 0 0 1rem; max-width: 60rem; font: var(--rx-type-body); }
+.lesson-body h2 { font: var(--rx-type-heading); margin: 1.5rem 0 0.5rem; padding-left: 0.75rem; border-left: 6px solid var(--subject-color, #9ca3af); }
+.lesson-body img { display: block; max-width: 100%; height: auto; margin: 1rem 0; background: #fff; border: 1px solid #d1d5db; border-radius: 8px; padding: 0.5rem; }
+.lesson-body table { border-collapse: collapse; margin: 0.75rem 0; }
+.lesson-body th, .lesson-body td { border: 1px solid #d1d5db; padding: 0.25rem 0.5rem; text-align: left; }
+.lesson-body blockquote { margin: 0.75rem 0; padding: 0.25rem 1rem; border-left: 4px solid #d1d5db; }
+.lesson-q { padding: 0.75rem 0; border-top: 1px solid #e5e7eb; }
+.lesson-q:first-of-type { border-top: 0; }
+.lesson-q.is-right { border-left: 4px solid var(--subject-biology, #16a34a); padding-left: 0.75rem; }
+.lesson-q.is-wrong { border-left: 4px solid var(--subject-physics, #dc2626); padding-left: 0.75rem; }
+.lesson-q__result { font: var(--rx-type-body); margin-top: 0.5rem; }
+.lesson-key { margin-top: 1rem; }
+.lesson-key details { border: 1px solid #d1d5db; border-radius: 8px; padding: 0.5rem 0.75rem; }
+.lesson-key summary { cursor: pointer; font: var(--rx-type-label); }
+.today-red { margin: 0; padding: 0; list-style: none; }
+.today-red__when { font: var(--rx-type-caption); margin: 0 0.5rem; }
+
 /* ---- Error Log ------------------------------------------------------------------------ */
 .errors-insights { display: grid; gap: 1rem; grid-template-columns: minmax(0, 1fr); margin-bottom: 1rem; }
 .errors-top { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }

@@ -1,3 +1,4 @@
+use super::lesson_file::WatchLink;
 use renox::chrono::NaiveDate;
 use renox::db::Json;
 use renox::prelude::*;
@@ -115,4 +116,19 @@ impl Question {
             ("E", &self.choice_e),
         ]
     }
+}
+
+/// The visual lesson of a subtopic (from `materi/<subject>/*.md`).
+#[derive(Model, Serialize, Default, Debug, Clone)]
+#[model(table = "lessons")]
+pub struct Lesson {
+    pub id: i64,
+    pub topic_id: i64,
+    pub title: String,
+    pub markdown: String,
+    pub watch_links: Json<Vec<WatchLink>>,
+    /// The file it was imported from.
+    pub source_path: String,
+    pub created_at: Option<DateTime>,
+    pub updated_at: Option<DateTime>,
 }

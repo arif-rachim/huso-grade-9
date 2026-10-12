@@ -5,6 +5,7 @@
 
 pub mod files;
 pub mod import;
+pub mod lesson_file;
 pub mod models;
 
 use renox::clap;
@@ -26,6 +27,7 @@ impl Module for Content {
         app.model::<models::PlanTask>();
         app.model::<models::Flashcard>();
         app.model::<models::Question>();
+        app.model::<models::Lesson>();
         app.typed_command::<ImportContent>();
         app.seeder(|state| async move {
             let bundle = files::load_all(&project_dir())
@@ -71,7 +73,7 @@ impl AppCommand for ImportContent {
         }
         let r = import::import(&state.db, &bundle).await?;
         println!(
-            "Imported {} subjects, {} topics, {} subtopics, {} plan days ({} tasks), {} flashcards, {} questions; archived {}.",
+            "Imported {} subjects, {} topics, {} subtopics, {} plan days ({} tasks), {} flashcards, {} questions, {} lessons; archived {}.",
             r.subjects,
             r.topics,
             r.subtopics,
@@ -79,6 +81,7 @@ impl AppCommand for ImportContent {
             r.plan_tasks,
             r.flashcards,
             r.questions,
+            r.lessons,
             r.archived
         );
         Ok(())

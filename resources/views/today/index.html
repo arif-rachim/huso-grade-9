@@ -49,9 +49,9 @@
         <ul class="rx-list today-material">
           {% for item in new_material %}
           <li style="--subject-color: {{ item.color }}">
-            {#- EXTENSION POINT (#39): once the lessons page has a named route, wrap the name in a link
-                to it, passing item.slug as the lesson. -#}
-            <span class="subject-dot" style="background: {{ item.color }}"></span> {{ item.name }}
+            <span class="subject-dot" style="background: {{ item.color }}"></span>
+            {% if item.has_lesson %}<a href="{{ route('lessons.show', item.slug) }}">{{ item.name }}</a>
+            <rx-badge kind="{{ item.status_kind }}">{{ item.status_icon }} {{ item.status_label }}</rx-badge>{% else %}{{ item.name }}{% endif %}
           </li>
           {% endfor %}
         </ul>
@@ -59,6 +59,25 @@
         <p class="rx-subtitle">No new material today. Practice and review instead.</p>
         {% endif %}
       </rx-card>
+
+      {% if red_title %}
+      <rx-card title="{{ red_title }}" subtitle="These should be READY by now: drawn, 4 of 5 right, flashcards in box 3+.">
+        {% if red_list %}
+        <ul class="rx-list today-red" id="red-list">
+          {% for item in red_list %}
+          <li style="--subject-color: {{ item.color }}">
+            <span class="subject-dot" style="background: {{ item.color }}"></span>
+            <a href="{{ route('lessons.show', item.slug) }}">{{ item.name }}</a>
+            <span class="today-red__when">{{ item.scheduled }}</span>
+            <rx-badge kind="{{ 'error' if item.status == 'not_yet' else 'warning' }}">{{ item.status_icon }} {{ item.status_label }}</rx-badge>
+          </li>
+          {% endfor %}
+        </ul>
+        {% else %}
+        <p class="rx-subtitle">Nothing is late. Everything scheduled so far is READY. 🎉</p>
+        {% endif %}
+      </rx-card>
+      {% endif %}
 
       <rx-card title="Flashcards due">
         <p class="today-big" id="flashcards-due">{{ flashcards_due }}</p>

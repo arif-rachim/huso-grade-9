@@ -1,0 +1,15 @@
+# systemd unit: copy to /etc/systemd/system/huso.service, adjust the paths and user, then
+#   sudo systemctl daemon-reload && sudo systemctl enable --now huso
+[Unit]
+Description=Huso (HUSO study app)
+After=network.target
+
+[Service]
+User=huso
+WorkingDirectory=/opt/huso
+ExecStart=/opt/huso/huso serve
+Restart=on-failure
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target

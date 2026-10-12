@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="t d">
+  <title id="t">Soil horizons</title>
+  <desc id="d">A soil profile with horizons O (organic), A (topsoil), E (leached), B (subsoil where clay and iron collect), C (weathered parent rock) and R (bedrock). Five factors form soil: climate, organisms, relief, parent material and time.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="340" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">A soil profile (O – A – E – B – C – R)</text>
+    <rect x="20" y="40" width="130" height="22" fill="#6b4423" fill-opacity="0.85" stroke="#6b7280" stroke-width="1"/>
+    <text x="35" y="57" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">O</text>
+    <text x="160" y="55" font-size="12" text-anchor="start" fill="#111827">dead leaves, humus on top</text>
+    <rect x="20" y="62" width="130" height="44" fill="#4b3621" fill-opacity="0.85" stroke="#6b7280" stroke-width="1"/>
+    <text x="35" y="90" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">A</text>
+    <text x="160" y="88" font-size="12" text-anchor="start" fill="#111827">topsoil: humus + minerals, dark, most roots</text>
+    <rect x="20" y="106" width="130" height="30" fill="#d1d5db" fill-opacity="0.8" stroke="#6b7280" stroke-width="1"/>
+    <text x="35" y="127" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">E</text>
+    <text x="160" y="125" font-size="12" text-anchor="start" fill="#111827">eluviation: water washes clay and iron OUT (pale)</text>
+    <rect x="20" y="136" width="130" height="52" fill="#b45309" fill-opacity="0.85" stroke="#6b7280" stroke-width="1"/>
+    <text x="35" y="168" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">B</text>
+    <text x="160" y="166" font-size="12" text-anchor="start" fill="#111827">subsoil: clay and iron washed IN, reddish</text>
+    <rect x="20" y="188" width="130" height="52" fill="#d6c3a0" fill-opacity="0.85" stroke="#6b7280" stroke-width="1"/>
+    <text x="35" y="220" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">C</text>
+    <text x="160" y="218" font-size="12" text-anchor="start" fill="#111827">weathered parent rock, few roots</text>
+    <rect x="20" y="240" width="130" height="40" fill="#9ca3af" fill-opacity="0.85" stroke="#6b7280" stroke-width="1"/>
+    <text x="35" y="266" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">R</text>
+    <text x="160" y="264" font-size="12" text-anchor="start" fill="#111827">solid bedrock</text>
+    <text x="300" y="232" font-size="12" text-anchor="middle" fill="#111827"></text>
+    <rect x="20" y="292" width="440" height="32" fill="#fef3c7" fill-opacity="0.6" stroke="#92400e" stroke-width="1"/>
+    <text x="240" y="313" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">5 factors: Climate · Organisms · Relief · Parent material · Time</text>
+  </g>
+</svg>

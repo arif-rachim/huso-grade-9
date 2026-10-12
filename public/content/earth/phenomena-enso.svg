@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 470" role="img" aria-labelledby="t d">
+  <title id="t">Normal, El Nino and La Nina in the Pacific</title>
+  <desc id="d">Three side views of the tropical Pacific, Indonesia on the left and South America on the right. Normal years: trade winds blow east to west, warm water piles up near Indonesia, air rises there and cold water upwells off Peru. El Nino: trade winds weaken, warm water slides east, the rain moves to the central and eastern Pacific and Indonesia gets dry. La Nina: trade winds are stronger, even more warm water piles up near Indonesia, more rain there.</desc>
+  <rect x="0" y="0" width="440" height="470" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="18.0" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">ENSO: the tropical Pacific, seen from the side</text>
+    <rect x="20.0" y="34.0" width="400.0" height="128.0" rx="0" fill="#eef0f3" fill-opacity="0.5"/>
+    <text x="30.0" y="50.0" font-size="13" text-anchor="start" fill="#92400e" font-weight="bold">NORMAL</text>
+    <path d="M20.0 90.0 L52.0 90.0 L58.0 164.0 L20.0 164.0 Z" fill="#92400e" fill-opacity="0.45"/>
+    <path d="M388.0 88.0 L420.0 80.0 L420.0 164.0 L382.0 164.0 Z" fill="#92400e" fill-opacity="0.45"/>
+    <text x="36.0" y="134.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Indo-</text>
+    <text x="36.0" y="148.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">nesia</text>
+    <text x="404.0" y="138.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Peru</text>
+    <rect x="58.0" y="94.0" width="324.0" height="70.0" rx="0" fill="#2563eb" fill-opacity="0.22"/>
+    <path d="M58.0 94.0 L382.0 94.0 L382.0 102.0 L58.0 128.0 Z" fill="#dc2626" fill-opacity="0.35"/>
+    <line x1="58.0" y1="128.0" x2="382.0" y2="102.0" stroke="#111827" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 3"/>
+    <text x="220.0" y="160.0" font-size="12" text-anchor="middle" fill="#6b7280">thermocline</text>
+    <line x1="330.0" y1="84.0" x2="240.0" y2="84.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <line x1="240.0" y1="84.0" x2="246.3" y2="87.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <line x1="240.0" y1="84.0" x2="246.3" y2="81.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <line x1="330.0" y1="77.0" x2="240.0" y2="77.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <line x1="240.0" y1="77.0" x2="246.3" y2="80.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <line x1="240.0" y1="77.0" x2="246.3" y2="74.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <text x="286.0" y="57.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">trade winds</text>
+    <line x1="350.0" y1="156.0" x2="350.0" y2="124.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="350.0" y1="124.0" x2="347.0" y2="130.3" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="350.0" y1="124.0" x2="353.0" y2="130.3" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <text x="312.0" y="144.0" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold">upwelling</text>
+    <circle cx="113.8" cy="69.6" r="9.9" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="125.5" cy="62.4" r="12.6" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="139.9" cy="64.2" r="10.8" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="149.8" cy="70.5" r="8.1" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="131.8" cy="71.4" r="10.8" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="113.8" cy="69.6" r="8.700000000000001" fill="#d1d5db"/>
+    <circle cx="125.5" cy="62.4" r="11.4" fill="#d1d5db"/>
+    <circle cx="139.9" cy="64.2" r="9.600000000000001" fill="#d1d5db"/>
+    <circle cx="149.8" cy="70.5" r="6.8999999999999995" fill="#d1d5db"/>
+    <circle cx="131.8" cy="71.4" r="9.600000000000001" fill="#d1d5db"/>
+    <line x1="118.0" y1="80.0" x2="118.0" y2="92.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="130.0" y1="80.0" x2="130.0" y2="92.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="142.0" y1="80.0" x2="142.0" y2="92.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="130.0" y1="96.0" x2="130.0" y2="84.0" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="130.0" y1="84.0" x2="127.0" y2="90.3" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="130.0" y1="84.0" x2="133.0" y2="90.3" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+    <rect x="20.0" y="176.0" width="400.0" height="128.0" rx="0" fill="#eef0f3" fill-opacity="0.5"/>
+    <text x="30.0" y="192.0" font-size="13" text-anchor="start" fill="#92400e" font-weight="bold">EL NIÑO</text>
+    <path d="M20.0 232.0 L52.0 232.0 L58.0 306.0 L20.0 306.0 Z" fill="#92400e" fill-opacity="0.45"/>
+    <path d="M388.0 230.0 L420.0 222.0 L420.0 306.0 L382.0 306.0 Z" fill="#92400e" fill-opacity="0.45"/>
+    <text x="36.0" y="276.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Indo-</text>
+    <text x="36.0" y="290.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">nesia</text>
+    <text x="404.0" y="280.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Peru</text>
+    <rect x="58.0" y="236.0" width="324.0" height="70.0" rx="0" fill="#2563eb" fill-opacity="0.22"/>
+    <path d="M58.0 236.0 L382.0 236.0 L382.0 256.0 L58.0 258.0 Z" fill="#dc2626" fill-opacity="0.35"/>
+    <line x1="58.0" y1="258.0" x2="382.0" y2="256.0" stroke="#111827" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 3"/>
+    <text x="220.0" y="302.0" font-size="12" text-anchor="middle" fill="#6b7280">thermocline</text>
+    <line x1="294.0" y1="226.0" x2="270.0" y2="226.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <line x1="270.0" y1="226.0" x2="276.3" y2="229.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <line x1="270.0" y1="226.0" x2="276.3" y2="223.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <text x="328.0" y="206.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">weak trade winds</text>
+    <circle cx="228.8" cy="211.6" r="9.9" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="240.5" cy="204.4" r="12.6" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="254.9" cy="206.2" r="10.8" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="264.8" cy="212.5" r="8.1" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="246.8" cy="213.4" r="10.8" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="228.8" cy="211.6" r="8.700000000000001" fill="#d1d5db"/>
+    <circle cx="240.5" cy="204.4" r="11.4" fill="#d1d5db"/>
+    <circle cx="254.9" cy="206.2" r="9.600000000000001" fill="#d1d5db"/>
+    <circle cx="264.8" cy="212.5" r="6.8999999999999995" fill="#d1d5db"/>
+    <circle cx="246.8" cy="213.4" r="9.600000000000001" fill="#d1d5db"/>
+    <line x1="233.0" y1="222.0" x2="233.0" y2="234.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="245.0" y1="222.0" x2="245.0" y2="234.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="257.0" y1="222.0" x2="257.0" y2="234.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="245.0" y1="238.0" x2="245.0" y2="226.0" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="245.0" y1="226.0" x2="242.0" y2="232.3" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="245.0" y1="226.0" x2="248.0" y2="232.3" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+    <rect x="20.0" y="318.0" width="400.0" height="128.0" rx="0" fill="#eef0f3" fill-opacity="0.5"/>
+    <text x="30.0" y="334.0" font-size="13" text-anchor="start" fill="#92400e" font-weight="bold">LA NIÑA</text>
+    <path d="M20.0 374.0 L52.0 374.0 L58.0 448.0 L20.0 448.0 Z" fill="#92400e" fill-opacity="0.45"/>
+    <path d="M388.0 372.0 L420.0 364.0 L420.0 448.0 L382.0 448.0 Z" fill="#92400e" fill-opacity="0.45"/>
+    <text x="36.0" y="418.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Indo-</text>
+    <text x="36.0" y="432.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">nesia</text>
+    <text x="404.0" y="422.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Peru</text>
+    <rect x="58.0" y="378.0" width="324.0" height="70.0" rx="0" fill="#2563eb" fill-opacity="0.22"/>
+    <path d="M58.0 378.0 L382.0 378.0 L382.0 384.0 L58.0 420.0 Z" fill="#dc2626" fill-opacity="0.35"/>
+    <line x1="58.0" y1="420.0" x2="382.0" y2="384.0" stroke="#111827" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="5 3"/>
+    <text x="220.0" y="444.0" font-size="12" text-anchor="middle" fill="#6b7280">thermocline</text>
+    <line x1="330.0" y1="368.0" x2="240.0" y2="368.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <line x1="240.0" y1="368.0" x2="246.3" y2="371.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <line x1="240.0" y1="368.0" x2="246.3" y2="365.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <line x1="330.0" y1="361.0" x2="240.0" y2="361.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <line x1="240.0" y1="361.0" x2="246.3" y2="364.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <line x1="240.0" y1="361.0" x2="246.3" y2="358.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <line x1="330.0" y1="354.0" x2="240.0" y2="354.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <line x1="240.0" y1="354.0" x2="246.3" y2="357.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <line x1="240.0" y1="354.0" x2="246.3" y2="351.0" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+    <text x="286.0" y="334.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">strong trade winds</text>
+    <line x1="350.0" y1="440.0" x2="350.0" y2="402.0" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="350.0" y1="402.0" x2="347.0" y2="408.3" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="350.0" y1="402.0" x2="353.0" y2="408.3" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <text x="312.0" y="428.0" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold">upwelling</text>
+    <circle cx="83.8" cy="353.6" r="9.9" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="95.5" cy="346.4" r="12.6" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="109.9" cy="348.2" r="10.8" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="119.8" cy="354.5" r="8.1" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="101.8" cy="355.4" r="10.8" fill="#d1d5db" stroke="#111827" stroke-width="1.5"/>
+    <circle cx="83.8" cy="353.6" r="8.700000000000001" fill="#d1d5db"/>
+    <circle cx="95.5" cy="346.4" r="11.4" fill="#d1d5db"/>
+    <circle cx="109.9" cy="348.2" r="9.600000000000001" fill="#d1d5db"/>
+    <circle cx="119.8" cy="354.5" r="6.8999999999999995" fill="#d1d5db"/>
+    <circle cx="101.8" cy="355.4" r="9.600000000000001" fill="#d1d5db"/>
+    <line x1="88.0" y1="364.0" x2="88.0" y2="376.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="100.0" y1="364.0" x2="100.0" y2="376.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="112.0" y1="364.0" x2="112.0" y2="376.0" stroke="#2563eb" stroke-width="2" stroke-linecap="round"/>
+    <line x1="100.0" y1="380.0" x2="100.0" y2="368.0" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="100.0" y1="368.0" x2="97.0" y2="374.3" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+    <line x1="100.0" y1="368.0" x2="103.0" y2="374.3" stroke="#92400e" stroke-width="3" stroke-linecap="round"/>
+    <text x="220.0" y="464.0" font-size="12" text-anchor="middle" fill="#6b7280">Dashed line = thermocline: warm water on top, cold below.</text>
+  </g>
+</svg>

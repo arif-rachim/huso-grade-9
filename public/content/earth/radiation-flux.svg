@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 400" role="img" aria-labelledby="t d">
+  <title id="t">Flux, distance and magnitude</title>
+  <desc id="d">The same light spreads over spheres of area 4 pi d squared, so at twice the distance the flux is one quarter and at three times it is one ninth. A table links magnitude differences to brightness ratios.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="400" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Light spreads out: F = L / (4πd²)</text>
+    <circle cx="100" cy="150" r="10" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+    <circle cx="100" cy="150" r="25" fill="none" stroke="#92400e" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <circle cx="100" cy="150" r="50" fill="none" stroke="#92400e" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <circle cx="100" cy="150" r="75" fill="none" stroke="#92400e" stroke-width="1.8" stroke-dasharray="5 4"/>
+    <text x="125" y="122" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">d</text>
+    <text x="150" y="97" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">2d</text>
+    <text x="175" y="72" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">3d</text>
+    <text x="250" y="70" font-size="13" text-anchor="start" fill="#111827">at d: flux 1</text>
+    <text x="250" y="88" font-size="13" text-anchor="start" fill="#111827">at 2d: spread over 4× the area,</text>
+    <text x="250" y="106" font-size="13" text-anchor="start" fill="#111827">flux 1/4</text>
+    <text x="250" y="124" font-size="13" text-anchor="start" fill="#111827">at 3d: flux 1/9</text>
+    <text x="250" y="160" font-size="12" text-anchor="start" fill="#92400e" font-weight="bold">Luminosity L = total power (W)</text>
+    <text x="250" y="176" font-size="12" text-anchor="start" fill="#92400e" font-weight="bold">Flux F = power per m² at distance d</text>
+    <rect x="20" y="230" width="440" height="150" fill="#fef3c7" fill-opacity="0.5" stroke="#92400e" stroke-width="1.2" rx="8"/>
+    <text x="240" y="252" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Magnitude: smaller number = brighter</text>
+    <text x="240" y="272" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">m₁ − m₂ = −2.5 log₁₀(F₁ / F₂)</text>
+    <text x="70" y="300" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Δm = 1</text>
+    <text x="70" y="316" font-size="12" text-anchor="middle" fill="#111827">2.5× brighter</text>
+    <text x="183" y="300" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Δm = 2.5</text>
+    <text x="183" y="316" font-size="12" text-anchor="middle" fill="#111827">10×</text>
+    <text x="296" y="300" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Δm = 5</text>
+    <text x="296" y="316" font-size="12" text-anchor="middle" fill="#111827">100×</text>
+    <text x="409" y="300" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Δm = 10</text>
+    <text x="409" y="316" font-size="12" text-anchor="middle" fill="#111827">10,000×</text>
+    <text x="240" y="342" font-size="12" text-anchor="middle" fill="#111827">Absolute magnitude M = magnitude at 10 parsecs.  m − M = 5 log₁₀(d / 10 pc)</text>
+    <text x="240" y="362" font-size="12" text-anchor="middle" fill="#6b7280">Sun: m = −26.7, M = +4.8.  Sirius m = −1.5.  Faintest naked-eye stars m ≈ 6.</text>
+  </g>
+</svg>

@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 520" role="img" aria-labelledby="t d">
+  <title id="t">Plate boundaries</title>
+  <desc id="d">Six panels: divergent boundary with new crust, ocean-continent convergence with a trench and volcanic arc, ocean-ocean convergence with an island arc, continent-continent collision with a mountain range, transform boundary sliding sideways, and a hotspot island chain.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="520" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Six plate settings</text>
+    <rect x="12" y="60" width="224" height="78" fill="#fde68a" fill-opacity="0.5"/>
+    <path d="M12,78 L102,78 L112,96 L112,138 L12,138 z" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M236,78 L146,78 L136,96 L136,138 L236,138 z" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M112,138 L112,96 L124,88 L136,96 L136,138 z" fill="#dc2626" fill-opacity="0.45"/>
+    <line x1="102" y1="68" x2="52" y2="68" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <line x1="146" y1="68" x2="196" y2="68" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <line x1="124" y1="134" x2="124" y2="106" stroke="#dc2626" stroke-width="2" marker-end="url(#arB)"/>
+    <text x="124" y="158" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Divergent</text>
+    <text x="124" y="173" font-size="12" text-anchor="middle" fill="#6b7280">plates move apart, new basalt crust</text>
+    <text x="124" y="188" font-size="12" text-anchor="middle" fill="#6b7280">mid-ocean ridge, rift valley</text>
+    <rect x="248" y="62" width="224" height="76" fill="#fde68a" fill-opacity="0.5"/>
+    <rect x="248" y="74" width="108" height="5" fill="#6b7280" fill-opacity="0.0"/>
+    <path d="M360,68 L472,68 L472,114 L398,114 L360,84 z" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M248,80 L348,80 L418,136 L418,130 L352,74 L248,74 z" fill="#6b7280" fill-opacity="0.55" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M348,80 L356,86 L360,84 L352,74 z" fill="#111827" fill-opacity="0.5"/>
+    <rect x="248" y="60" width="104" height="15" fill="#2563eb" fill-opacity="0.12"/>
+    <path d="M413,68 L423,52 L433,68 z" fill="#dc2626" fill-opacity="0.4" stroke="#dc2626" stroke-width="1.5"/>
+    <path d="M420,113 L420,68" fill="none" stroke="#dc2626" stroke-width="2"/>
+    <line x1="278" y1="58" x2="318" y2="66" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <text x="360" y="158" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Ocean–continent convergence</text>
+    <text x="360" y="173" font-size="12" text-anchor="middle" fill="#6b7280">dense ocean plate subducts: trench,</text>
+    <text x="360" y="188" font-size="12" text-anchor="middle" fill="#6b7280">volcanic arc on land (Andes)</text>
+    <rect x="12" y="220" width="224" height="78" fill="#fde68a" fill-opacity="0.5"/>
+    <rect x="12" y="220" width="224" height="20" fill="#2563eb" fill-opacity="0.12"/>
+    <path d="M12,244 L102,244 L162,294 L162,288 L106,238 L12,238 z" fill="#6b7280" fill-opacity="0.55" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M236,238 L236,264 L172,264 L110,242 L110,238 z" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M134,234 L142,220 L150,234 z" fill="#dc2626" fill-opacity="0.4" stroke="#dc2626" stroke-width="1.5"/>
+    <path d="M164,234 L172,220 L180,234 z" fill="#dc2626" fill-opacity="0.4" stroke="#dc2626" stroke-width="1.5"/>
+    <line x1="32" y1="220" x2="72" y2="228" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <text x="124" y="318" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Ocean–ocean convergence</text>
+    <text x="124" y="333" font-size="12" text-anchor="middle" fill="#6b7280">older, colder plate sinks: trench</text>
+    <text x="124" y="348" font-size="12" text-anchor="middle" fill="#6b7280">and island arc (Japan, Sunda arc)</text>
+    <rect x="248" y="222" width="224" height="76" fill="#fde68a" fill-opacity="0.5"/>
+    <path d="M248,238 L368,238 L368,282 L248,282 z" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M472,238 L354,238 L354,298 L472,298 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M340,238 L356,210 L372,238 z" fill="#d1d5db" fill-opacity="0.9" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="278" y1="228" x2="322" y2="228" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <line x1="442" y1="228" x2="398" y2="228" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <text x="360" y="318" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Continent–continent collision</text>
+    <text x="360" y="333" font-size="12" text-anchor="middle" fill="#6b7280">both too light to sink: crust piles up</text>
+    <text x="360" y="348" font-size="12" text-anchor="middle" fill="#6b7280">high mountains (Himalayas)</text>
+    <rect x="12" y="372" width="224" height="86" fill="#f3f4f6" stroke="#6b7280" stroke-width="1"/>
+    <rect x="24" y="380" width="200" height="32" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <rect x="24" y="418" width="200" height="32" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <line x1="24" y1="415" x2="224" y2="415" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="6 4"/>
+    <line x1="62" y1="396" x2="152" y2="396" stroke="#111827" stroke-width="2.5" marker-end="url(#arK)"/>
+    <line x1="186" y1="434" x2="96" y2="434" stroke="#111827" stroke-width="2.5" marker-end="url(#arK)"/>
+    <text x="124" y="478" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Transform (map view)</text>
+    <text x="124" y="493" font-size="12" text-anchor="middle" fill="#6b7280">plates slide past each other,</text>
+    <text x="124" y="508" font-size="12" text-anchor="middle" fill="#6b7280">no crust made or lost (San Andreas)</text>
+    <rect x="248" y="398" width="224" height="60" fill="#fde68a" fill-opacity="0.5"/>
+    <rect x="248" y="398" width="224" height="12" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M308,458 C308,428 302,418 308,410" fill="none" stroke="#dc2626" stroke-width="6"/>
+    <path d="M289.2,398 L308,376 L326.8,398 z" fill="#dc2626" fill-opacity="0.4" stroke="#92400e" stroke-width="1.5"/>
+    <text x="308" y="370" font-size="12" text-anchor="middle" fill="#111827">0</text>
+    <path d="M344,398 L360,383 L376,398 z" fill="#92400e" fill-opacity="0.4" stroke="#92400e" stroke-width="1.5"/>
+    <text x="360" y="377" font-size="12" text-anchor="middle" fill="#111827">2</text>
+    <path d="M392.4,398 L406,389 L419.6,398 z" fill="#92400e" fill-opacity="0.4" stroke="#92400e" stroke-width="1.5"/>
+    <text x="406" y="383" font-size="12" text-anchor="middle" fill="#111827">4</text>
+    <path d="M436,398 L448,393 L460,398 z" fill="#92400e" fill-opacity="0.4" stroke="#92400e" stroke-width="1.5"/>
+    <text x="448" y="387" font-size="12" text-anchor="middle" fill="#111827">6 Ma</text>
+    <line x1="398" y1="436" x2="448" y2="436" stroke="#111827" stroke-width="2.5" marker-end="url(#arK)"/>
+    <text x="423" y="450" font-size="12" text-anchor="middle" fill="#111827">plate motion</text>
+    <text x="360" y="478" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Hotspot</text>
+    <text x="360" y="493" font-size="12" text-anchor="middle" fill="#6b7280">a fixed plume; the plate moves on,</text>
+    <text x="360" y="508" font-size="12" text-anchor="middle" fill="#6b7280">island ages (Ma) grow away from it</text>
+  </g>
+</svg>

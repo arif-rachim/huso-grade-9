@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 470" role="img" aria-labelledby="t d">
+  <title id="t">Kepler's three laws</title>
+  <desc id="d">An ellipse with the Sun at one focus, the other focus empty, the semi-major axis a, perihelion and aphelion. Two shaded wedges swept in equal times have equal areas: a wide short wedge near perihelion and a long thin wedge near aphelion. The third law says T squared equals a cubed.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="470" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Kepler's laws</text>
+    <ellipse cx="240.0" cy="188.0" rx="165.0" ry="137.8" fill="none" stroke="#92400e" stroke-width="2.5"/>
+    <path d="M330.8,188 L342.2,296.2 L349.8,290.8 L357.4,284.8 L364.8,278.2 L371.9,270.8 L378.6,262.7 L384.9,253.9 L390.6,244.3 L395.5,234.1 L399.5,223.2 L402.5,211.8 L404.4,200 L405,188 L404.4,176 L402.5,164.2 L399.5,152.8 L395.5,141.9 L390.6,131.7 L384.9,122.1 L378.6,113.3 L371.9,105.2 L364.8,97.8 L357.4,91.2 L349.8,85.2 L342.2,79.8 z" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.2"/>
+    <path d="M330.8,188 L82.7,146.5 L81.4,149.9 L80.3,153.3 L79.3,156.8 L78.4,160.2 L77.6,163.6 L76.9,167.1 L76.3,170.6 L75.8,174.1 L75.5,177.5 L75.2,181 L75.1,184.5 L75,188 L75.1,191.5 L75.2,195 L75.5,198.5 L75.8,201.9 L76.3,205.4 L76.9,208.9 L77.6,212.4 L78.4,215.8 L79.3,219.2 L80.3,222.7 L81.4,226.1 L82.7,229.5 z" fill="#92400e" fill-opacity="0.35" stroke="#92400e" stroke-width="1.2"/>
+    <line x1="67" y1="188" x2="413" y2="188" stroke="#6b7280" stroke-width="1" stroke-dasharray="4 4"/>
+    <circle cx="330.8" cy="188" r="9" fill="#fde68a" stroke="#92400e" stroke-width="2"/>
+    <text x="318.8" y="214" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">Sun (focus)</text>
+    <circle cx="149.2" cy="188" r="3.5" fill="#111827"/>
+    <text x="149.2" y="206" font-size="12" text-anchor="middle" fill="#6b7280">empty focus</text>
+    <circle cx="240" cy="188" r="2.5" fill="#6b7280"/>
+    <text x="403" y="206" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">perihelion</text>
+    <text x="403" y="220" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">closest, FASTEST</text>
+    <text x="77" y="206" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">aphelion</text>
+    <text x="77" y="220" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">farthest, SLOWEST</text>
+    <line x1="240" y1="244" x2="401" y2="244" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <line x1="240" y1="236" x2="240" y2="252" stroke="#111827" stroke-width="2"/>
+    <text x="322.5" y="264" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">a = semi-major axis (half the long axis)</text>
+    <text x="220" y="90.2" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Law 1: the orbit is an ellipse</text>
+    <text x="220" y="106.2" font-size="12" text-anchor="middle" fill="#111827">with the Sun at one focus</text>
+    <text x="220" y="144" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Law 2: equal areas</text>
+    <text x="220" y="160" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">in equal times (shaded)</text>
+    <rect x="20" y="350" width="440" height="94" fill="#fef3c7" fill-opacity="0.5" stroke="#92400e" stroke-width="1.2" rx="8"/>
+    <text x="240" y="372" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Law 3:  T² = a³   (T in years, a in AU, orbiting the Sun)</text>
+    <text x="240" y="392" font-size="12" text-anchor="middle" fill="#111827">Bigger orbit → longer year.   General form: T² = 4π² a³ / (G M)</text>
+    <text x="240" y="410" font-size="12" text-anchor="middle" fill="#6b7280">Perihelion distance = a(1 − e), aphelion = a(1 + e); e = 0 is a circle.</text>
+    <text x="240" y="426" font-size="12" text-anchor="middle" fill="#6b7280">Earth: a = 1 AU, T = 1 yr. Mars: a = 1.52 AU, T = 1.88 yr.</text>
+  </g>
+</svg>

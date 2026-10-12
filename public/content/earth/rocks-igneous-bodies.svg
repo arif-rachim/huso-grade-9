@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 390" role="img" aria-labelledby="t d">
+  <title id="t">Igneous bodies in cross section</title>
+  <desc id="d">A cross section of the crust showing a batholith, a stock, a dike, a sill, a laccolith, and a volcano with a lava flow. Dikes cut across layers while sills run parallel to them.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="390" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Intrusive (underground) and extrusive (surface) bodies</text>
+    <rect x="10" y="120" width="460" height="50" fill="#fef3c7" stroke="#d1d5db" stroke-width="1"/>
+    <rect x="10" y="170" width="460" height="50" fill="#fde68a" stroke="#d1d5db" stroke-width="1"/>
+    <rect x="10" y="220" width="460" height="50" fill="#fef3c7" stroke="#d1d5db" stroke-width="1"/>
+    <rect x="10" y="270" width="460" height="90" fill="#e5e7eb" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="10" y1="120" x2="370" y2="120" stroke="#6b7280" stroke-width="1.5"/>
+    <line x1="470" y1="120" x2="470" y2="120" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M370,120 C390,120 395,108 420,108 C445,108 450,120 470,120 z" fill="#fef3c7" stroke="#6b7280" stroke-width="1.5"/>
+    <path d="M42,120 L95,58 L148,120 z" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.5"/>
+    <path d="M95,60 L146,118 L222,118" fill="none" stroke="#dc2626" stroke-width="4"/>
+    <path d="M30,350 C24,318 60,290 130,284 C190,276 260,272 330,280 C400,288 450,312 452,350 z" fill="#6b7280" fill-opacity="0.45" stroke="#6b7280" stroke-width="2"/>
+    <path d="M298,284 C296,262 306,246 322,246 C338,246 346,262 346,284 z" fill="#6b7280" fill-opacity="0.45" stroke="#6b7280" stroke-width="2"/>
+    <path d="M92,286 L98,286 L100,120 L92,120 z" fill="#dc2626" fill-opacity="0.6" stroke="#dc2626" stroke-width="1"/>
+    <path d="M92,120 L98,120 L96,70 L94,70 z" fill="#dc2626" fill-opacity="0.6" stroke="#dc2626" stroke-width="1"/>
+    <path d="M98,215 L262,215 L262,225 L98,225 z" fill="#dc2626" fill-opacity="0.6" stroke="#dc2626" stroke-width="1"/>
+    <path d="M376,170 C380,140 462,140 466,170 z" fill="#dc2626" fill-opacity="0.45" stroke="#dc2626" stroke-width="1.5"/>
+    <text x="95" y="40" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Volcano</text>
+    <text x="95" y="54" font-size="12" text-anchor="middle" fill="#111827"></text>
+    <text x="40" y="108" font-size="12" text-anchor="end" fill="#6b7280">extrusive</text>
+    <text x="228" y="108" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Lava flow</text>
+    <text x="118" y="148" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Dike</text>
+    <text x="118" y="163" font-size="12" text-anchor="start" fill="#6b7280">cuts ACROSS the layers</text>
+    <text x="270" y="212" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Sill</text>
+    <text x="270" y="227" font-size="12" text-anchor="start" fill="#6b7280">runs ALONG the layers</text>
+    <text x="420" y="90" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Laccolith</text>
+    <text x="420" y="104" font-size="12" text-anchor="middle" fill="#111827"></text>
+    <text x="420" y="158" font-size="12" text-anchor="middle" fill="#111827">dome</text>
+    <text x="354" y="258" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Stock</text>
+    <text x="354" y="273" font-size="12" text-anchor="start" fill="#6b7280">area &lt; 100 km²</text>
+    <text x="240" y="316" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Batholith</text>
+    <text x="240" y="334" font-size="12" text-anchor="middle" fill="#111827">area &gt; 100 km²</text>
+    <text x="240" y="378" font-size="12" text-anchor="middle" fill="#6b7280">Underground bodies cool slowly: coarse crystals.</text>
+  </g>
+</svg>

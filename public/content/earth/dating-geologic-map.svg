@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 440" role="img" aria-labelledby="t d">
+  <title id="t">Reading a geologic map</title>
+  <desc id="d">A geologic map of tilted layers with a strike and dip symbol, plus a cross section beneath it. Younger units lie in the direction of dip when the ground is flat. Two small maps show that an anticline has the oldest rock in the center and a syncline has the youngest in the center.</desc>
+  <defs><marker id="arB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+  <rect x="0" y="0" width="480" height="440" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="22" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">Reading a geologic map</text>
+    <rect x="24" y="50" width="70" height="120" fill="#92400e" fill-opacity="0.12" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="59" y="70" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">1</text>
+    <rect x="94" y="50" width="60" height="120" fill="#92400e" fill-opacity="0.3" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="124" y="70" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">2</text>
+    <rect x="154" y="50" width="130" height="120" fill="#92400e" fill-opacity="0.5" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="219" y="70" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">3</text>
+    <text x="154" y="42" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Map (flat ground)</text>
+    <line x1="124" y1="98" x2="124" y2="142" stroke="#111827" stroke-width="2.5"/>
+    <line x1="124" y1="120" x2="138" y2="120" stroke="#111827" stroke-width="2.5"/>
+    <text x="142" y="134" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">30</text>
+    <text x="142" y="94" font-size="12" text-anchor="start" fill="#6b7280">strike and dip</text>
+    <line x1="266" y1="150" x2="266" y2="120" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <text x="266" y="116" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">N</text>
+    <text x="24" y="184" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">A</text>
+    <text x="284" y="184" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">B</text>
+    <text x="154" y="206" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Cross section A–B</text>
+    <rect x="24" y="214" width="260" height="100" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+    <path d="M24,214 L94,214 L267.2,314 L24,314 z" fill="#92400e" fill-opacity="0.12"/>
+    <path d="M94,214 L154,214 L284,314 L267.2,314 z" fill="#92400e" fill-opacity="0.3"/>
+    <path d="M154,214 L284,214 L284,314 L284,314 z" fill="#92400e" fill-opacity="0.5"/>
+    <line x1="94" y1="214" x2="267.2" y2="314" stroke="#92400e" stroke-width="2"/>
+    <line x1="154" y1="214" x2="284" y2="289.1" stroke="#92400e" stroke-width="2"/>
+    <rect x="24" y="214" width="260" height="100" fill="none" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="54" y="234" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">1</text>
+    <text x="124" y="234" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">2</text>
+    <text x="224" y="234" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold">3</text>
+    <text x="24" y="328" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">A</text>
+    <text x="284" y="328" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">B</text>
+    <text x="134" y="344" font-size="12" text-anchor="middle" fill="#6b7280">dips 30° toward B (east)</text>
+    <text x="24" y="372" font-size="12" text-anchor="start" fill="#111827">1 = oldest, 3 = youngest (a legend lists the units, oldest at the bottom).</text>
+    <text x="24" y="388" font-size="12" text-anchor="start" fill="#111827">Flat ground: beds get younger in the direction they dip.</text>
+    <text x="384" y="44" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Folds on a map</text>
+    <rect x="300" y="54" width="84" height="66" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+    <ellipse cx="342.0" cy="87.0" rx="38" ry="28" fill="#92400e" fill-opacity="0.5" stroke="#92400e" stroke-width="1.2"/>
+    <ellipse cx="342.0" cy="87.0" rx="26" ry="19" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <ellipse cx="342.0" cy="87.0" rx="13" ry="9" fill="#92400e" fill-opacity="0.12" stroke="#92400e" stroke-width="1.2"/>
+    <line x1="342" y1="80" x2="342" y2="67" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <line x1="342" y1="94" x2="342" y2="107" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <text x="342" y="136" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Anticline</text>
+    <text x="342" y="151" font-size="12" text-anchor="middle" fill="#6b7280">oldest in center</text>
+    <text x="342" y="165" font-size="12" text-anchor="middle" fill="#6b7280">dips away</text>
+    <rect x="392" y="54" width="84" height="66" fill="#ffffff" stroke="#6b7280" stroke-width="1.2"/>
+    <ellipse cx="434.0" cy="87.0" rx="38" ry="28" fill="#92400e" fill-opacity="0.12" stroke="#92400e" stroke-width="1.2"/>
+    <ellipse cx="434.0" cy="87.0" rx="26" ry="19" fill="#92400e" fill-opacity="0.3" stroke="#92400e" stroke-width="1.2"/>
+    <ellipse cx="434.0" cy="87.0" rx="13" ry="9" fill="#92400e" fill-opacity="0.5" stroke="#92400e" stroke-width="1.2"/>
+    <line x1="434" y1="66" x2="434" y2="79" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <line x1="434" y1="108" x2="434" y2="95" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <text x="434" y="136" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Syncline</text>
+    <text x="434" y="151" font-size="12" text-anchor="middle" fill="#6b7280">youngest in center</text>
+    <text x="434" y="165" font-size="12" text-anchor="middle" fill="#6b7280">dips toward axis</text>
+  </g>
+</svg>

@@ -1,10 +1,16 @@
 <rx-page layout="layouts/app.html">
   <rx-page-header title="{{ title }}" subtitle="12 October to 15 November: your wall calendar. Click a day to open it."/>
 
-  {% if readonly %}
+  {% if guest %}
+  <rx-alert kind="info">
+    Log in to tick off tasks and save your progress.
+    <rx-link-button href="{{ route('login.required', next=route('plan.index'), why='tick') }}" label="Log in" size="small"/>
+  </rx-alert>
+  {% elif readonly %}
   <rx-alert kind="info" message="Read-only: you are looking at the student's calendar."/>
   {% endif %}
 
+  {% if not guest %}
   <div class="plan-stats">
     <rx-card title="Streak">
       <p class="plan-big"><span id="streak-current">{{ streak }}</span> <small>{{ 'day' if streak == 1 else 'days' }} in a row</small></p>
@@ -19,6 +25,7 @@
       <p class="plan-note">of {{ minutes_total }} planned (partial days count in proportion)</p>
     </rx-card>
   </div>
+  {% endif %}
 
   <rx-card>
     <div class="plan-cal" role="grid" aria-label="Study plan calendar">
@@ -55,6 +62,7 @@
       <li><span class="plan-swatch plan-swatch--grey"></span> 🩺 🔀 📋 Diagnostic, mixed, prep</li>
       <li>🏁 Exam day</li>
     </ul>
+    {% if not guest %}
     <ul class="plan-legend">
       <li><span class="plan-swatch plan-swatch--done"></span> Full color: all tasks done</li>
       <li><span class="plan-swatch plan-swatch--partial"></span> Lighter color: part of the tasks done</li>
@@ -62,6 +70,7 @@
       <li><span class="plan-swatch plan-swatch--missed"></span> Dashed: missed (a day in the past with nothing done)</li>
       <li><span class="plan-swatch plan-swatch--today"></span> Thick border: today</li>
     </ul>
+    {% endif %}
     <p class="plan-note">The line between week 1 and week 2 is where the 4-hour holiday ends and the 30-minute routine begins.</p>
   </rx-card>
 </rx-page>

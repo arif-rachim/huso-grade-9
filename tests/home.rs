@@ -65,7 +65,7 @@ async fn nobody_can_register() {
 #[renox::test]
 async fn logged_in_users_are_sent_to_today() {
     let test = seeded().await;
-    test.get("/").await.assert_redirect("/login");
+    test.get("/").await.assert_redirect("/today");
     test.acting_as(&user(&test, "student@huso.local").await);
     test.get("/").await.assert_redirect("/today");
 }

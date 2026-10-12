@@ -498,7 +498,8 @@ async fn only_the_student_reviews() {
         .get("/flashcards/review")
         .await
         .assert_redirect("/login");
-    guest.get("/flashcards").await.assert_redirect("/login");
+    // The overview is public: a guest only sees the deck.
+    guest.get("/flashcards").await.assert_ok();
 }
 
 #[renox::test]

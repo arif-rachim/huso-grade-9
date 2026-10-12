@@ -39,10 +39,7 @@ impl Module for Today {
     }
 
     fn routes(&self) -> Routes {
-        Routes::new()
-            .get("/today", index)
-            .name("today.index")
-            .require_auth()
+        Routes::new().get("/today", index).name("today.index")
     }
 }
 
@@ -145,6 +142,9 @@ pub struct TodayChecklist {
     user_id: i64,
     date: String,
     readonly: bool,
+    /// A visitor who is not logged in: nothing can be ticked, nothing personal is shown.
+    #[serde(default)]
+    guest: bool,
 }
 
 #[renox::live_component(view = "today/_checklist.html", name = "today-checklist")]
@@ -231,6 +231,17 @@ impl TodayChecklist {
             user_id,
             date: date.to_string(),
             readonly,
+            guest: false,
+        }
+    }
+
+    /// The checklist as a guest sees it: the tasks, none ticked, nothing clickable.
+    pub fn for_guest(date: NaiveDate) -> Self {
+        Self {
+            user_id: 0,
+            date: date.to_string(),
+            readonly: true,
+            guest: true,
         }
     }
 
@@ -312,6 +323,7 @@ struct NewMaterial {
     color: String,
     /// The subtopic has a lesson page (`lessons.show`).
     has_lesson: bool,
+    guest: bool,
     status_label: &'static str,
     status_icon: &'static str,
     status_kind: &'static str,
@@ -344,6 +356,8 @@ struct TodayPage {
     next_date: Option<String>,
     is_today: bool,
     readonly: bool,
+    /// Not logged in: no personal data on the page.
+    guest: bool,
     day: Option<DayHead>,
     empty: Option<EmptyState>,
     checklist: Option<Mounted>,
@@ -380,7 +394,7 @@ fn non_subject_icon(slug: &str) -> &'static str {
 
 async fn index(
     ctx: LiveContext,
-    user: AuthUser,
+    user: Option<AuthUser>,
     State(db): State<Db>,
     Query(q): Query<DateQuery>,
 ) -> Result<View> {
@@ -389,16 +403,26 @@ async fn index(
         .as_deref()
         .and_then(|d| NaiveDate::parse_from_str(d, "%Y-%m-%d").ok())
         .unwrap_or_else(crate::clock::today);
-    day_view(ctx, &user, &db, date).await
+    day_view(ctx, user.as_ref(), &db, date).await
 }
 
 /// The page of one plan day (checklist, timer, side cards). Shared by `/today` and by
-/// `/plan/{date}` (the Plan module): both show the same live checklist.
-pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDate) -> Result<View> {
+/// `/plan/{date}` (the Plan module): both show the same live checklist. A guest (`None`) sees
+/// the day's plan without any student data.
+pub async fn day_view(
+    ctx: LiveContext,
+    user: Option<&AuthUser>,
+    db: &Db,
+    date: NaiveDate,
+) -> Result<View> {
     let today = crate::clock::today();
     let (start, end) = (ymd(PLAN_START), ymd(PLAN_END));
-    let readonly = !user.has_role("student");
-    let student = student_id(db, user).await?;
+    let guest = user.is_none();
+    let readonly = user.is_none_or(|u| !u.has_role("student"));
+    let student = match user {
+        Some(u) => student_id(db, u).await?,
+        None => None,
+    };
 
     let mut page = TodayPage {
         title: "Today",
@@ -410,6 +434,7 @@ pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDat
             .then(|| (date.succ_opt().unwrap_or(date)).to_string()),
         is_today: date == today,
         readonly,
+        guest,
         day: None,
         empty: None,
         checklist: None,
@@ -440,7 +465,8 @@ pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDat
         return Ok(View::typed(page));
     }
 
-    let Some(student) = student else {
+    // A guest reads the plan itself; user 0 owns no rows, so nothing is ticked.
+    let Some(student) = student.or(guest.then_some(0)) else {
         page.empty = Some(EmptyState {
             title: "No student account yet".into(),
             message: "Run the seeder to create the household accounts.".into(),
@@ -449,8 +475,10 @@ pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDat
         });
         return Ok(View::typed(page));
     };
-    page.flashcards_due = summary::flashcards_due(db, student).await?;
-    page.errors_due = summary::errors_due(db, student).await?;
+    if !guest {
+        page.flashcards_due = summary::flashcards_due(db, student).await?;
+        page.errors_due = summary::errors_due(db, student).await?;
+    }
 
     let Some(list) = load_checklist(db, student, date).await? else {
         page.empty = Some(EmptyState {
@@ -503,7 +531,11 @@ pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDat
             .into_iter()
             .map(|l| l.topic_id)
             .collect();
-        let states = lesson_status::states(db, student).await?;
+        let states = if guest {
+            HashMap::new()
+        } else {
+            lesson_status::states(db, student).await?
+        };
         page.new_material = topics
             .into_iter()
             .map(|t| {
@@ -513,6 +545,7 @@ pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDat
                         .get(&t.subject_id)
                         .map_or_else(|| "#6b7280".to_owned(), |s| s.color.clone()),
                     has_lesson: with_lesson.contains(&t.id),
+                    guest,
                     status_label: state.status.label(),
                     status_icon: state.status.icon(),
                     status_kind: state.status.kind(),
@@ -524,7 +557,12 @@ pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDat
     }
 
     // The red list: Sundays and the last week list the subtopics that should be READY by now.
-    if let Some(scope) = lesson_status::red_list_scope(date, Some(list.day.subject.as_str())) {
+    let scope = if guest {
+        None
+    } else {
+        lesson_status::red_list_scope(date, Some(list.day.subject.as_str()))
+    };
+    if let Some(scope) = scope {
         page.red_title = Some(match &scope {
             lesson_status::RedScope::All => "Red list: not READY yet".to_owned(),
             lesson_status::RedScope::Subject(slug) => format!(
@@ -554,7 +592,11 @@ pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDat
         })
         .collect();
 
-    let checklist = TodayChecklist::new(student, date, readonly);
+    let checklist = if guest {
+        TodayChecklist::for_guest(date)
+    } else {
+        TodayChecklist::new(student, date, readonly)
+    };
     page.checklist = Some(ctx.mount(checklist).await?);
     Ok(View::typed(page))
 }

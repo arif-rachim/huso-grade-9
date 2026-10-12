@@ -16,7 +16,7 @@
 </head>
 <body class="rx-page">
   {#- The kit's navigation bar (docs/ui.md "Navigation"): add sections with rx-nav-links and rx-nav-link. -#}
-  <rx-navbar brand="{{ app.name }}" href="{{ route('home') }}">
+  <rx-navbar brand="{{ app.name }}" href="{{ route('home') }}" width="wide">
     {% if auth.check %}
       <rx-nav-links>
         <rx-nav-link route="today.index" label="{{ t('nav.today') }}" :active="route_is('today.*')"/>
@@ -31,6 +31,15 @@
         <rx-nav-link route="parent.index" label="{{ t('nav.parent') }}" :active="route_is('parent.*')"/>
         {% endif %}
       </rx-nav-links>
+    {% else %}
+      <rx-nav-links>
+        <rx-nav-link route="today.index" label="{{ t('nav.today') }}" :active="route_is('today.*')"/>
+        <rx-nav-link route="plan.index" label="{{ t('nav.plan') }}" :active="route_is('plan.*')"/>
+        <rx-nav-link route="lessons.index" label="{{ t('nav.materials') }}" :active="route_is('lessons.*')"/>
+        <rx-nav-link route="flashcards.index" label="{{ t('nav.flashcards') }}" :active="route_is('flashcards.*')"/>
+        <rx-nav-link route="practice.index" label="{{ t('nav.practice') }}" :active="route_is('practice.*')"/>
+        <rx-nav-link route="syllabus.index" label="{{ t('nav.syllabus') }}" :active="route_is('syllabus.*')"/>
+      </rx-nav-links>
     {% endif %}
     <span class="rx-spacer"></span>
     {% if huso_countdown %}<span class="huso-countdown" title="{{ t('nav.countdown_hint') }}">{{ huso_countdown }}</span>{% endif %}
@@ -40,6 +49,8 @@
         <rx-menu-separator/>
         <rx-menu-action route="logout" label="{{ t('nav.logout') }}"/>
       </rx-menu>
+    {% elif not route_is('login') %}
+      <rx-link-button route="login" label="{{ t('nav.login') }}" size="small"/>
     {% endif %}
   </rx-navbar>
   <main class="rx-container" id="main">

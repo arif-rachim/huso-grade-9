@@ -50,13 +50,12 @@ impl Module for Lessons {
     }
 
     fn routes(&self) -> Routes {
-        // Student and parent read.
+        // Everyone reads, guests included (no student data for them).
         let shared = Routes::new()
             .get("/lessons", index)
             .name("lessons.index")
             .get("/lessons/{slug}", show)
-            .name("lessons.show")
-            .require_auth();
+            .name("lessons.show");
         // Only the student saves.
         let student = Routes::new()
             .post("/lessons/{slug}/drawn", mark_drawn)
@@ -112,13 +111,18 @@ struct IndexGroup {
 struct IndexPage {
     title: &'static str,
     is_parent: bool,
+    /// Not logged in: the lessons only, without anyone's progress.
+    guest: bool,
     groups: Vec<IndexGroup>,
     ready: usize,
     total: usize,
 }
 
-async fn index(State(db): State<Db>, user: AuthUser) -> Result<View> {
-    let student = student_id(&db, &user).await?;
+async fn index(State(db): State<Db>, user: Option<AuthUser>) -> Result<View> {
+    let student = match &user {
+        Some(u) => student_id(&db, u).await?,
+        None => None,
+    };
     let states = match student {
         Some(id) => status::states(&db, id).await?,
         None => HashMap::new(),
@@ -180,7 +184,8 @@ async fn index(State(db): State<Db>, user: AuthUser) -> Result<View> {
     let total = groups.iter().map(|g| g.total).sum();
     Ok(View::typed(IndexPage {
         title: "Materials",
-        is_parent: !user.has_role(STUDENT),
+        is_parent: user.as_ref().is_some_and(|u| !u.has_role(STUDENT)),
+        guest: user.is_none(),
         groups,
         ready,
         total,
@@ -234,6 +239,7 @@ struct ShowPage {
     color: String,
     emoji: String,
     is_parent: bool,
+    guest: bool,
     body_html: String,
     key_html: String,
     watch: Vec<WatchView>,
@@ -290,9 +296,16 @@ fn question_views(questions: &[CheckQuestion], last: Option<&LessonCheck>) -> Ve
         .collect()
 }
 
-async fn show(State(db): State<Db>, user: AuthUser, Path(slug): Path<String>) -> Result<View> {
+async fn show(
+    State(db): State<Db>,
+    user: Option<AuthUser>,
+    Path(slug): Path<String>,
+) -> Result<View> {
     let (topic, lesson, subject) = find_lesson(&db, &slug).await?;
-    let student = student_id(&db, &user).await?;
+    let student = match &user {
+        Some(u) => student_id(&db, u).await?,
+        None => None,
+    };
     let mut state = TopicState::NONE;
     let mut last: Option<LessonCheck> = None;
     if let Some(id) = student {
@@ -327,7 +340,8 @@ async fn show(State(db): State<Db>, user: AuthUser, Path(slug): Path<String>) ->
         subject_name: subject.name,
         color: subject.color,
         emoji: subject.emoji,
-        is_parent: !user.has_role(STUDENT),
+        is_parent: user.as_ref().is_some_and(|u| !u.has_role(STUDENT)),
+        guest: user.is_none(),
         // The page header already shows the title, so the file's own `# Title` line is dropped.
         body_html: render::render_markdown(
             parsed

@@ -30,7 +30,6 @@ impl Module for Syllabus {
             .name("syllabus.index")
             .get("/syllabus/{slug}", show)
             .name("syllabus.show")
-            .require_auth()
     }
 }
 
@@ -87,10 +86,19 @@ struct Filter {
     only: Option<String>,
 }
 
-async fn index(State(db): State<Db>, user: AuthUser, Query(filter): Query<Filter>) -> Result<View> {
+async fn index(
+    State(db): State<Db>,
+    user: Option<AuthUser>,
+    Query(filter): Query<Filter>,
+) -> Result<View> {
+    let guest = user.is_none();
     let weak_only = filter.only.as_deref() == Some("weak");
-    let evidence = match owner_id(&db, &user).await? {
-        Some(owner) => mastery::load(&db, owner).await?,
+    // A guest sees the map with every tile grey: no personal mastery.
+    let evidence = match &user {
+        Some(user) => match owner_id(&db, user).await? {
+            Some(owner) => mastery::load(&db, owner).await?,
+            None => HashMap::new(),
+        },
         None => HashMap::new(),
     };
     let subjects = Subject::query()
@@ -154,7 +162,7 @@ async fn index(State(db): State<Db>, user: AuthUser, Query(filter): Query<Filter
     }
     Ok(view(
         "syllabus/index.html",
-        context! { title => "Syllabus map", columns, weak_only },
+        context! { title => "Syllabus map", columns, weak_only, guest },
     ))
 }
 
@@ -176,7 +184,11 @@ fn visual_links(subject: &str) -> Vec<renox::serde_json::Value> {
         .collect()
 }
 
-async fn show(State(db): State<Db>, user: AuthUser, Path(slug): Path<String>) -> Result<View> {
+async fn show(
+    State(db): State<Db>,
+    user: Option<AuthUser>,
+    Path(slug): Path<String>,
+) -> Result<View> {
     let topic = Topic::query()
         .where_(Topic::SLUG.eq(slug.as_str()))
         .where_(Topic::PARENT_ID.is_not_null())
@@ -187,7 +199,11 @@ async fn show(State(db): State<Db>, user: AuthUser, Path(slug): Path<String>) ->
         Some(id) => Topic::find(&db, id).await?,
         None => None,
     };
-    let owner = owner_id(&db, &user).await?;
+    let guest = user.is_none();
+    let owner = match &user {
+        Some(user) => owner_id(&db, user).await?,
+        None => None,
+    };
 
     let evidence: Evidence = match owner {
         Some(owner) => mastery::load(&db, owner)
@@ -275,7 +291,8 @@ async fn show(State(db): State<Db>, user: AuthUser, Path(slug): Path<String>) ->
             open_errors => errors,
             has_lesson,
             links => visual_links(&subject.slug),
-            is_student => user.has_role(STUDENT),
+            is_student => user.as_ref().is_some_and(|u| u.has_role(STUDENT)),
+            guest,
         },
     ))
 }

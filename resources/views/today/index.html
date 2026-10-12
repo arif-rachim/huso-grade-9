@@ -51,7 +51,7 @@
           <li style="--subject-color: {{ item.color }}">
             <span class="subject-dot" style="background: {{ item.color }}"></span>
             {% if item.has_lesson %}<a href="{{ route('lessons.show', item.slug) }}">{{ item.name }}</a>
-            <rx-badge kind="{{ item.status_kind }}">{{ item.status_icon }} {{ item.status_label }}</rx-badge>{% else %}{{ item.name }}{% endif %}
+            {% if not item.guest %}<rx-badge kind="{{ item.status_kind }}">{{ item.status_icon }} {{ item.status_label }}</rx-badge>{% endif %}{% else %}{{ item.name }}{% endif %}
           </li>
           {% endfor %}
         </ul>
@@ -79,6 +79,7 @@
       </rx-card>
       {% endif %}
 
+      {% if not guest %}
       <rx-card title="Flashcards due">
         <p class="today-big" id="flashcards-due">{{ flashcards_due }}</p>
         <rx-link-button href="{{ route('flashcards.index') }}" label="Open flashcards" variant="secondary" size="small"/>
@@ -88,6 +89,7 @@
         <p class="today-big" id="errors-due">{{ errors_due }}</p>
         <rx-link-button href="{{ route('errors.index') }}" label="Open error log" variant="secondary" size="small"/>
       </rx-card>
+      {% endif %}
     </aside>
   </div>
 

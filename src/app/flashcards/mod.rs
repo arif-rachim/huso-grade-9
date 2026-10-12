@@ -38,10 +38,12 @@ impl Module for Flashcards {
     }
 
     fn routes(&self) -> Routes {
-        // Student and parent: the overview and the cards they made themselves.
-        let pages = Routes::new()
+        // Everyone, guests included: the deck overview (no personal numbers for a guest).
+        let overview = Routes::new()
             .get("/flashcards", index)
-            .name("flashcards.index")
+            .name("flashcards.index");
+        // Student and parent: the cards they made themselves.
+        let pages = Routes::new()
             .get("/flashcards/manual/new", create)
             .name("flashcards.create")
             .get("/flashcards/manual/topics", topics)
@@ -61,7 +63,7 @@ impl Module for Flashcards {
             .name("flashcards.review")
             .require_role(STUDENT)
             .require_auth();
-        pages.merge(student)
+        overview.merge(pages).merge(student)
     }
 }
 
@@ -82,13 +84,19 @@ fn known_subject(subjects: &[Subject], wanted: &Option<String>) -> Option<String
 
 async fn index(
     State(state): State<AppState>,
-    user: AuthUser,
+    user: Option<AuthUser>,
     Query(filter): Query<Filter>,
 ) -> Result<View> {
     let db = &state.db;
     let today = crate::clock::today();
-    let can_review = user.has_role(STUDENT);
-    let student = deck::student_id(db, &user).await?;
+    let guest = user.is_none();
+    let can_review = user.as_ref().is_some_and(|u| u.has_role(STUDENT));
+    let is_parent = user.as_ref().is_some_and(|u| u.has_role(PARENT));
+    // A guest sees the deck itself (user 0 has no review states, so the numbers are neutral).
+    let student = match &user {
+        Some(u) => deck::student_id(db, u).await?,
+        None => Some(0),
+    };
     let mut stats = Vec::new();
     let mut queue_len = 0usize;
     let mut due_total = 0i64;
@@ -98,7 +106,11 @@ async fn index(
     if let Some(student) = student {
         let deck = Deck::load(db, student).await?;
         selected = known_subject(&deck.subjects, &filter.subject);
-        let plan = deck::plan_subject(db, today).await?;
+        let plan = if guest {
+            None
+        } else {
+            deck::plan_subject(db, today).await?
+        };
         queue_len = deck
             .queue(today, plan.as_deref(), selected.as_deref())
             .items
@@ -109,7 +121,7 @@ async fn index(
         for card in deck
             .cards
             .iter()
-            .filter(|c| c.origin == "manual")
+            .filter(|c| c.origin == "manual" && !guest)
             .filter(|c| {
                 selected.is_none() || deck.subject_of(c).map(|s| &s.slug) == selected.as_ref()
             })
@@ -159,7 +171,8 @@ async fn index(
             can_review,
             manual,
             has_student => student.is_some(),
-            is_parent => user.has_role(PARENT),
+            is_parent,
+            guest,
         },
     ))
 }

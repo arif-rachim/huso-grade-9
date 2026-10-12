@@ -8,6 +8,10 @@
   </rx-alert>
   {% endif %}
 
+  {% if guest %}
+  <rx-alert kind="info">Log in to answer questions and save your progress. You can look at the practice modes first.</rx-alert>
+  {% endif %}
+
   {% if is_parent %}
   <rx-alert kind="info">You are signed in as the parent: you can look at the results below, but only the student can start a practice.</rx-alert>
   {% else %}
@@ -22,27 +26,39 @@
 
     <div class="pq-modes">
       <rx-card title="Topic" subtitle="10 questions on one subtopic. No timer. You see the explanation right after each answer.">
+        {% if guest %}
+        <rx-link-button href="{{ route('login.required', next=route('practice.index'), why='answer') }}" label="Log in to practise a subtopic"/>
+        {% else %}
         <rx-form action="{{ route('practice.start') }}">
           <input type="hidden" name="mode" value="topic">
           <rx-select name="topic" label="Subtopic" :options="topic_options" placeholder="Choose a subtopic" required/>
           <rx-button label="Start topic practice"/>
         </rx-form>
+        {% endif %}
       </rx-card>
 
       <rx-card title="Sprint" subtitle="One subject against the clock. Explanations come at the end.">
+        {% if guest %}
+        <rx-link-button href="{{ route('login.required', next=route('practice.index'), why='answer') }}" label="Log in to start a sprint"/>
+        {% else %}
         <rx-form action="{{ route('practice.start') }}">
           <input type="hidden" name="mode" value="sprint">
           <rx-select name="subject" label="Subject" :options="subject_options" placeholder="Choose a subject" required/>
           <rx-input name="count" label="Questions" type="number" :value="sprint_default" hint="Time: Mathematics 3 min per question, Biology and Earth Science 0.9 min, the others 1 min."/>
           <rx-button label="Start sprint"/>
         </rx-form>
+        {% endif %}
       </rx-card>
 
       <rx-card title="Mixed" subtitle="15 questions from all five subjects, taken in turns. 20 minutes.">
+        {% if guest %}
+        <rx-link-button href="{{ route('login.required', next=route('practice.index'), why='answer') }}" label="Log in to start mixed practice"/>
+        {% else %}
         <rx-form action="{{ route('practice.start') }}">
           <input type="hidden" name="mode" value="mixed">
           <rx-button label="Start mixed practice"/>
         </rx-form>
+        {% endif %}
       </rx-card>
 
       <rx-card title="Round 1 simulation" subtitle="Five sections of 36 minutes, one after the other. No explanations until the end.">
@@ -51,15 +67,20 @@
           <li><span class="subject-dot" data-subject="{{ s.slug }}" style="background: {{ s.color }}"></span> {{ s.name }}: {{ s.simulation_questions }} questions</li>
           {% endfor %}
         </ul>
+        {% if guest %}
+        <rx-link-button href="{{ route('login.required', next=route('practice.index'), why='answer') }}" label="Log in to start the simulation"/>
+        {% else %}
         <rx-form action="{{ route('practice.start') }}">
           <input type="hidden" name="mode" value="simulation">
           <rx-button label="Start the simulation"/>
         </rx-form>
+        {% endif %}
       </rx-card>
     </div>
     {% endif %}
   {% endif %}
 
+  {% if not guest %}
   <rx-card title="Recent practices">
     {% if recent %}
     <ul class="pq-recent">
@@ -76,4 +97,5 @@
     <rx-empty title="Nothing yet" message="Your finished practices show up here."/>
     {% endif %}
   </rx-card>
+  {% endif %}
 </rx-page>

@@ -1,6 +1,8 @@
 <rx-page layout="layouts/app.html" title="Flashcards">
   <rx-page-header title="Flashcards" subtitle="Pictures first. A few minutes every day, and the cards come back just before you forget them.">
-    {% if can_review %}
+    {% if guest %}
+      <rx-link-button href="{{ route('login.required', next=route('flashcards.review'), why='review') }}" variant="primary" icon="refresh-cw" label="Log in to start review"/>
+    {% elif can_review %}
       {% if queue_len > 0 %}
         <rx-link-button href="{{ route('flashcards.review', subject=selected) }}" variant="primary" icon="refresh-cw" label="Start review ({{ queue_len }} cards)"/>
       {% else %}
@@ -9,7 +11,9 @@
     {% endif %}
   </rx-page-header>
 
-  {% if is_parent %}
+  {% if guest %}
+    <rx-alert kind="info">Log in to review flashcards and save your progress. Until then you can look at the deck.</rx-alert>
+  {% elif is_parent %}
     <rx-alert kind="info">You are looking at the student's progress. Only the student does the reviews.</rx-alert>
   {% endif %}
   {% if not has_student %}
@@ -21,6 +25,7 @@
     <rx-link-button rx-for="s in subjects" href="{{ route('flashcards.index', subject=s.slug) }}" size="small" variant="{{ 'primary' if s.slug == selected else 'secondary' }}" label="{{ s.emoji }} {{ s.name }}"/>
   </rx-toolbar>
 
+  {% if not guest %}
   <div class="fc-stats">
     <rx-stats columns="3">
       <rx-stat label="Due today" :value="due_total"/>
@@ -28,8 +33,16 @@
       <rx-stat label="Cards started" :value="started"/>
     </rx-stats>
   </div>
+  {% endif %}
 
-  <rx-card title="Your cards by subject" subtitle="Box 1 comes back every day, box 5 every 14 days. Graded Good? The card moves up a box.">
+  <rx-card title="{{ 'Cards by subject' if guest else 'Your cards by subject' }}" subtitle="Box 1 comes back every day, box 5 every 14 days. Graded Good? The card moves up a box.">
+    {% if guest %}
+    <rx-table :rows="stats" caption="Cards by subject">
+      <rx-column label="Subject"><span class="subject-dot" style="background: {{ row.color }}"></span> {{ row.name }}</rx-column>
+      <rx-column label="Cards" align="num">{{ row.total }}</rx-column>
+      <rx-slot name="empty"><rx-empty title="No cards yet" message="Cards appear here once the content is loaded."/></rx-slot>
+    </rx-table>
+    {% else %}
     <rx-table :rows="stats" caption="Cards by subject">
       <rx-column label="Subject"><span class="subject-dot" style="background: {{ row.color }}"></span> {{ row.name }}</rx-column>
       <rx-column label="Due today" align="num">{{ row.due }}</rx-column>
@@ -38,11 +51,13 @@
       <rx-column label="Box 1 to 5">{{ row.boxes[0] }} · {{ row.boxes[1] }} · {{ row.boxes[2] }} · {{ row.boxes[3] }} · {{ row.boxes[4] }}</rx-column>
       <rx-slot name="empty"><rx-empty title="No cards yet" message="Cards appear here once the content is loaded."/></rx-slot>
     </rx-table>
+    {% endif %}
     {% if started > 0 %}
       <rx-chart kind="bar" :labels="labels" :series="series" stacked title="Cards in each box, by subject" id="boxes-chart" height="260"/>
     {% endif %}
   </rx-card>
 
+  {% if not guest %}
   <rx-card title="Cards you made" subtitle="Add your own: a picture or a drawing prompt on the front, the answer on the back.">
     <rx-toolbar>
       <rx-link-button route="flashcards.create" variant="primary" icon="plus" label="Add a card"/>
@@ -58,4 +73,5 @@
       <rx-slot name="empty"><rx-empty title="No cards of your own yet" message="Add one when you meet something you keep forgetting."/></rx-slot>
     </rx-table>
   </rx-card>
+  {% endif %}
 </rx-page>

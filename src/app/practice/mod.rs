@@ -29,9 +29,9 @@ impl Module for Practice {
     }
 
     fn routes(&self) -> Routes {
-        Routes::new()
-            .get("/practice", index)
-            .name("practice.index")
+        // The mode picker is public: a guest can look, and logs in to start anything.
+        let picker = Routes::new().get("/practice", index).name("practice.index");
+        let gated = Routes::new()
             .post("/practice", start)
             .name("practice.start")
             .get("/practice/{attempt}", show)
@@ -42,7 +42,8 @@ impl Module for Practice {
             .name("practice.finish")
             .get("/practice/{attempt}/result", result)
             .name("practice.result")
-            .require_auth()
+            .require_auth();
+        picker.merge(gated)
     }
 }
 
@@ -149,12 +150,13 @@ fn mode_label(mode: &str) -> &'static str {
     }
 }
 
-async fn index(user: AuthUser, State(db): State<Db>) -> Result<Response> {
-    let parent = is_parent(&user);
-    let owner = if parent {
-        engine::student_user_id(&db).await?
-    } else {
-        Some(user.id)
+async fn index(user: Option<AuthUser>, State(db): State<Db>) -> Result<Response> {
+    let guest = user.is_none();
+    let parent = user.as_ref().is_some_and(|u| is_parent(u));
+    let owner = match &user {
+        None => None,
+        Some(_) if parent => engine::student_user_id(&db).await?,
+        Some(u) => Some(u.id),
     };
 
     let counts = engine::question_counts(&db).await?;
@@ -268,6 +270,7 @@ async fn index(user: AuthUser, State(db): State<Db>) -> Result<Response> {
         context! {
             title => "Practice",
             is_parent => parent,
+            guest,
             subjects => subject_infos,
             subject_options,
             topic_options,

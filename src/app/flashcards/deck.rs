@@ -118,10 +118,17 @@ impl Deck {
 
     /// Cards that are due today, then new cards (at most the day's allowance left), today's
     /// subject first.
-    /// `only` limits the queue to one subject (the overview's filter).
+    /// `only` limits the queue to one subject (the overview's filter) or, when it is not a
+    /// subject's slug, to one subtopic (the syllabus map's "Review this subtopic's cards").
     pub fn queue(&self, today: NaiveDate, plan_subject: Option<&str>, only: Option<&str>) -> Queue {
         let in_scope = |card: &Flashcard| {
-            only.is_none_or(|slug| self.subject_of(card).is_some_and(|s| s.slug == slug))
+            only.is_none_or(|slug| {
+                self.subject_of(card).is_some_and(|s| s.slug == slug)
+                    || self
+                        .topics
+                        .get(&card.topic_id)
+                        .is_some_and(|t| t.slug == slug)
+            })
         };
         let active: HashSet<i64> = self
             .cards

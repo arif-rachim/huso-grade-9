@@ -1,4 +1,40 @@
 <rx-page layout="layouts/app.html">
-  <rx-page-header title="{{ title }}"/>
-  <rx-empty title="Coming soon" message="This page is being built."/>
+  <rx-page-header title="Syllabus map" subtitle="Every subtopic as a tile. The colour shows how well you know it. Click a tile to practise it."/>
+
+  <rx-stats columns="5">
+    <rx-stat rx-for="c in columns" label="{{ c.emoji }} {{ c.name }}" :value="c.average" hint="{{ c.green }} green · {{ c.yellow }} yellow · {{ c.red }} red · {{ c.grey }} not started"/>
+  </rx-stats>
+
+  <rx-toolbar>
+    <rx-link-button href="{{ route('syllabus.index') }}" size="small" variant="{{ 'secondary' if weak_only else 'primary' }}" label="All subtopics"/>
+    <rx-link-button href="{{ route('syllabus.index', only='weak') }}" size="small" variant="{{ 'primary' if weak_only else 'secondary' }}" label="Show only red & grey"/>
+  </rx-toolbar>
+
+  <ul class="syl-legend">
+    <li><span class="syl-swatch" data-band="grey"></span> Not started</li>
+    <li><span class="syl-swatch" data-band="red"></span> Below 40%</li>
+    <li><span class="syl-swatch" data-band="yellow"></span> 40 to 69%</li>
+    <li><span class="syl-swatch" data-band="green"></span> 70% or more</li>
+  </ul>
+
+  <div class="syl-columns">
+    {% for c in columns %}
+    <section class="syl-subject" style="--c: {{ c.color }}">
+      <h2 class="syl-subject__head">{{ c.emoji }} {{ c.name }} <span>{{ c.average }}</span></h2>
+      {% for g in c.groups %}
+      <h3 class="syl-topic">{{ g.name }}</h3>
+      <div class="syl-tiles">
+        {% for t in g.tiles %}
+        <a class="syl-tile" data-band="{{ t.band }}" href="{{ route('syllabus.show', t.slug) }}" title="{{ t.band_name }}">
+          <span class="syl-tile__name">{{ t.name }}</span>
+          <strong class="syl-tile__value">{{ t.value }}</strong>
+        </a>
+        {% endfor %}
+      </div>
+      {% else %}
+      <p class="syl-none">{{ 'Nothing red or grey here. Nice!' if weak_only else 'No subtopics yet.' }}</p>
+      {% endfor %}
+    </section>
+    {% endfor %}
+  </div>
 </rx-page>

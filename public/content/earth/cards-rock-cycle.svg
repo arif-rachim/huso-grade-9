@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 344" role="img" aria-labelledby="t d">
+<title id="t">The rock cycle</title>
+<desc id="d">Magma cools to igneous rock, which weathers to sediment, which is compacted and cemented into sedimentary rock, which is changed by heat and pressure into metamorphic rock, which melts to magma.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="344" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<rect x="148" y="16" width="104" height="40" fill="#92400e" fill-opacity="0.15" stroke="#92400e" stroke-width="2" rx="8"/>
+<rect x="288" y="100" width="104" height="40" fill="#92400e" fill-opacity="0.15" stroke="#92400e" stroke-width="2" rx="8"/>
+<rect x="248" y="210" width="104" height="40" fill="#92400e" fill-opacity="0.15" stroke="#92400e" stroke-width="2" rx="8"/>
+<rect x="48" y="210" width="104" height="40" fill="#92400e" fill-opacity="0.15" stroke="#92400e" stroke-width="2" rx="8"/>
+<rect x="8" y="100" width="104" height="40" fill="#92400e" fill-opacity="0.15" stroke="#92400e" stroke-width="2" rx="8"/>
+<line x1="242.9" y1="50.4" x2="292.8" y2="103.5" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text x="330" y="52" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">cooling &amp;</text>
+<text x="330" y="66" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">crystallizing</text>
+<line x1="322.9" y1="146.3" x2="318.8" y2="199.9" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text x="345" y="178" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">weathering,</text>
+<text x="345" y="192" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">erosion,</text>
+<text x="345" y="206" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">deposition</text>
+<line x1="240" y1="230" x2="160" y2="230" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text x="200" y="262" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">compaction &amp;</text>
+<text x="200" y="276" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">cementation</text>
+<line x1="82.9" y1="203.7" x2="78.8" y2="150.1" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text x="38" y="180" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">heat &amp;</text>
+<text x="38" y="194" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">pressure</text>
+<line x1="102.9" y1="105.6" x2="152.8" y2="52.5" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text x="90" y="62" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">melting</text>
+<text data-label="Magma" x="200" y="41" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Magma</text>
+<g data-label="Igneous"><text x="340" y="118" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Igneous</text><text x="340" y="133" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">rock</text></g>
+<text data-label="Sediment" x="300" y="235" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Sediment</text>
+<g data-label="Sedimentary"><text x="100" y="228" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Sedimentary</text><text x="100" y="243" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">rock</text></g>
+<g data-label="Metamorphic"><text x="60" y="118" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Metamorphic</text><text x="60" y="133" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">rock</text></g>
+<text x="200" y="316" font-size="12" text-anchor="middle" fill="#6b7280">Any rock can take a shortcut: igneous rock can be</text>
+<text x="200" y="331" font-size="12" text-anchor="middle" fill="#6b7280">metamorphosed, and any rock can melt or be eroded.</text>
+</g>
+</svg>

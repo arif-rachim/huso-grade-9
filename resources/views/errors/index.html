@@ -1,0 +1,66 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="Error Log" subtitle="Every mistake is a free lesson. Find the cause, fix it, repeat it until it sticks.">
+    {% if is_parent %}
+      <rx-badge kind="info">Read-only</rx-badge>
+    {% else %}
+      <rx-link-button route="errors.new" label="Add mistake" variant="secondary" icon="plus"/>
+      {% if redo %}
+      <rx-form action="{{ route('practice.start') }}" class="errors-inline">
+        <input type="hidden" name="mode" value="errors">
+        <rx-button label="Redo wrong questions ({{ redo }})" variant="secondary"/>
+      </rx-form>
+      {% endif %}
+      <rx-link-button route="errors.review" label="Review {{ due }} due" variant="primary" key="r"/>
+    {% endif %}
+  </rx-page-header>
+
+  <div class="errors-insights">
+    <rx-card title="Why do I get it wrong?">
+      {% if total %}
+        <rx-chart kind="doughnut" :labels="cause_labels" :values="cause_values" title="Mistakes by cause" height="260"/>
+      {% else %}
+        <rx-empty title="No mistakes logged yet" message="Finish a practice or add a paper question and your mistakes will show up here."/>
+      {% endif %}
+    </rx-card>
+
+    <rx-card title="My top 10 mistakes">
+      {% if top %}
+      <ol class="errors-top">
+        {% for t in top %}
+        <li style="--c: {{ t.color }}">
+          <span class="errors-top__name"><span class="errors-top__dot"></span><strong>{{ t.name }}</strong> <small>{{ t.subject }}</small></span>
+          <span class="errors-top__bar"><span style="width: {{ t.width }}%"></span></span>
+          <span class="errors-top__count">{{ t.count }}</span>
+        </li>
+        {% endfor %}
+      </ol>
+      <p class="errors-print-hint">Print this page (Ctrl+P) and stick the list on your wall.</p>
+      {% else %}
+      <rx-empty title="Nothing to rank yet" message="The subtopics where you slip most often will appear here."/>
+      {% endif %}
+    </rx-card>
+  </div>
+
+  <rx-grid :page="entries">
+    {% if column.key == "dot" %}
+      <span class="subject-dot" style="background: {{ row.color }}" title="{{ row.subject_name }}"></span>
+    {% elif column.key == "topic" %}
+      <a href="{{ route('errors.show', row.id) }}">{{ row.topic_name }}</a>
+    {% elif column.key == "what" %}
+      {{ row.what }}
+    {% elif column.key == "photo" %}
+      {% if row.photo %}<a href="{{ route('errors.image', row.id) }}" target="_blank" rel="noopener"><img class="errors-thumb" src="{{ route('errors.image', row.id) }}" alt="Sketch for {{ row.topic_name }}" loading="lazy"></a>{% endif %}
+    {% elif column.key == "actions" %}
+      <rx-link-button href="{{ route('errors.show', row.id) }}" label="Open" size="small" variant="plain"/>
+      {% if not is_parent and row.is_open %}
+        <rx-action-sheet :id="'cause-' ~ row.id" label="Cause" :action="route('errors.cause', row.id)"
+                         title="Why did this go wrong?" method="PUT" size="small" submit-label="Save cause">
+          <rx-select :id="'cause-field-' ~ row.id" name="cause" label="Cause" required :options="cause_options" :selected="row.cause"/>
+        </rx-action-sheet>
+        <rx-confirm :id="'resolve-' ~ row.id" label="Resolve" :action="route('errors.resolve', row.id)" method="POST"
+                    title="Mark as resolved?" message="You will not see this mistake in your reviews any more."
+                    confirm-label="Resolve" size="small"/>
+      {% endif %}
+    {% endif %}
+  </rx-grid>
+</rx-page>

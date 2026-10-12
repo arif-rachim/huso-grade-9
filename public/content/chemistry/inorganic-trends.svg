@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 330" role="img">
+  <title>Periodic trends</title>
+  <desc>A small main-group periodic table shaded darker toward fluorine at the top right, with the trends across a period and down a group for atomic radius, ionization energy, electronegativity, electron affinity and metallic character.</desc>
+  <rect x="0" y="0" width="440" height="330" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="22" font-size="15" text-anchor="middle" font-weight="bold">Periodic trends: where is the strongest pull?</text>
+    <text x="37.5" y="46" font-size="12" text-anchor="middle" fill="#6b7280">1</text>
+    <text x="64.5" y="46" font-size="12" text-anchor="middle" fill="#6b7280">2</text>
+    <text x="91.5" y="46" font-size="12" text-anchor="middle" fill="#6b7280">13</text>
+    <text x="118.5" y="46" font-size="12" text-anchor="middle" fill="#6b7280">14</text>
+    <text x="145.5" y="46" font-size="12" text-anchor="middle" fill="#6b7280">15</text>
+    <text x="172.5" y="46" font-size="12" text-anchor="middle" fill="#6b7280">16</text>
+    <text x="199.5" y="46" font-size="12" text-anchor="middle" fill="#6b7280">17</text>
+    <text x="226.5" y="46" font-size="12" text-anchor="middle" fill="#6b7280">18</text>
+    <text x="16" y="68" font-size="12" text-anchor="middle" fill="#6b7280">1</text>
+    <rect x="24" y="52" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.46" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="51" y="52" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.5266666666666667" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="78" y="52" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.5933333333333333" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="105" y="52" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.6600000000000001" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="132" y="52" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.7266666666666666" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="159" y="52" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.7933333333333334" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="186" y="52" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.8600000000000001" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="213" y="52" width="27" height="24" rx="0" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1"/>
+    <text x="16" y="92" font-size="12" text-anchor="middle" fill="#6b7280">2</text>
+    <rect x="24" y="76" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.38000000000000006" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="51" y="76" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.4466666666666667" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="78" y="76" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.5133333333333334" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="105" y="76" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.5800000000000001" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="132" y="76" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.6466666666666667" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="159" y="76" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.7133333333333334" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="186" y="76" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.78" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="213" y="76" width="27" height="24" rx="0" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1"/>
+    <text x="16" y="116" font-size="12" text-anchor="middle" fill="#6b7280">3</text>
+    <rect x="24" y="100" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.3" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="51" y="100" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.36666666666666664" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="78" y="100" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.43333333333333335" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="105" y="100" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.5" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="132" y="100" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.5666666666666667" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="159" y="100" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.6333333333333333" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="186" y="100" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.7000000000000002" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="213" y="100" width="27" height="24" rx="0" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1"/>
+    <text x="16" y="140" font-size="12" text-anchor="middle" fill="#6b7280">4</text>
+    <rect x="24" y="124" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.22000000000000003" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="51" y="124" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.2866666666666667" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="78" y="124" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.3533333333333334" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="105" y="124" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.42000000000000004" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="132" y="124" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.4866666666666667" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="159" y="124" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.5533333333333335" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="186" y="124" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.6199999999999999" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="213" y="124" width="27" height="24" rx="0" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1"/>
+    <text x="16" y="164" font-size="12" text-anchor="middle" fill="#6b7280">5</text>
+    <rect x="24" y="148" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.14" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="51" y="148" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.2066666666666667" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="78" y="148" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.2733333333333333" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="105" y="148" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.33999999999999997" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="132" y="148" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.4066666666666667" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="159" y="148" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.4733333333333334" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="186" y="148" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.54" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="213" y="148" width="27" height="24" rx="0" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1"/>
+    <text x="16" y="188" font-size="12" text-anchor="middle" fill="#6b7280">6</text>
+    <rect x="24" y="172" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.06" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="51" y="172" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.12666666666666665" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="78" y="172" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.19333333333333333" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="105" y="172" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.26" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="132" y="172" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.32666666666666666" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="159" y="172" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.39333333333333337" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="186" y="172" width="27" height="24" rx="0" fill="#ca8a04" fill-opacity="0.46" stroke="#ca8a04" stroke-width="1"/>
+    <rect x="213" y="172" width="27" height="24" rx="0" fill="#6b7280" fill-opacity="0.1" stroke="#6b7280" stroke-width="1"/>
+    <text x="199.5" y="68" font-size="12" text-anchor="middle"></text>
+    <text x="199.5" y="68" font-size="13" text-anchor="middle" font-weight="bold">F</text>
+    <text x="37.5" y="188" font-size="12" text-anchor="middle" font-weight="bold">Cs</text>
+    <text x="226.5" y="68" font-size="12" text-anchor="middle" fill="#6b7280">He</text>
+    <line x1="24" y1="218" x2="209" y2="218" stroke="#111827" stroke-width="2.5"/>
+    <path d="M200.7 221.5 L209 218 L200.7 214.5" fill="none" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+    <text x="118.5" y="236" font-size="12" text-anchor="middle">across a period</text>
+    <line x1="254" y1="54" x2="254" y2="194" stroke="#111827" stroke-width="2.5"/>
+    <path d="M250.5 185.7 L254 194 L257.5 185.7" fill="none" stroke="#111827" stroke-width="2.5" stroke-linejoin="round"/>
+    <text transform="rotate(90 267 124)" x="267" y="128" font-size="12" text-anchor="middle">down a group</text>
+    <text x="354" y="56" font-size="13" text-anchor="middle" font-weight="bold" fill="#ca8a04">Trend table</text>
+    <rect x="268" y="72" width="164" height="38" rx="0" fill="#ca8a04" fill-opacity="0.1"/>
+    <text x="276" y="87" font-size="12" text-anchor="start" font-weight="bold">Atomic radius</text>
+    <text x="276" y="103" font-size="11" text-anchor="start">→ decreases · ↓ increases</text>
+    <rect x="268" y="116" width="164" height="38" rx="0" fill="#6b7280" fill-opacity="0.1"/>
+    <text x="276" y="131" font-size="12" text-anchor="start" font-weight="bold">Ionization energy</text>
+    <text x="276" y="147" font-size="11" text-anchor="start">→ increases · ↓ decreases</text>
+    <rect x="268" y="160" width="164" height="38" rx="0" fill="#ca8a04" fill-opacity="0.1"/>
+    <text x="276" y="175" font-size="12" text-anchor="start" font-weight="bold">Electronegativity</text>
+    <text x="276" y="191" font-size="11" text-anchor="start">→ increases · ↓ decreases</text>
+    <rect x="268" y="204" width="164" height="38" rx="0" fill="#6b7280" fill-opacity="0.1"/>
+    <text x="276" y="219" font-size="12" text-anchor="start" font-weight="bold">Electron affinity</text>
+    <text x="276" y="235" font-size="11" text-anchor="start">→ more favorable · ↓ less favorable</text>
+    <rect x="268" y="248" width="164" height="38" rx="0" fill="#ca8a04" fill-opacity="0.1"/>
+    <text x="276" y="263" font-size="12" text-anchor="start" font-weight="bold">Metallic character</text>
+    <text x="276" y="279" font-size="11" text-anchor="start">→ decreases · ↓ increases</text>
+    <text x="354" y="306" font-size="11" text-anchor="middle" fill="#6b7280">Cl has a more favorable EA than F</text>
+    <text x="120" y="262" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">darker = stronger pull on electrons</text>
+    <text x="120" y="296" font-size="12" text-anchor="middle">Two causes: nuclear pull ↑ (more protons)</text>
+    <text x="120" y="312" font-size="12" text-anchor="middle">and distance ↑ (more shells, more shielding)</text>
+  </g>
+</svg>

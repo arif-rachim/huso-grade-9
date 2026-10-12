@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 540" role="img">
+<title>The human heart</title>
+<desc>Schematic front view of the heart with the patient's right on the viewer's left: right atrium and ventricle in blue, left atrium and ventricle in red, septum, tricuspid and bicuspid valves, semilunar valves, vena cava, pulmonary trunk, aorta, pulmonary veins and coronary vessels.</desc>
+<defs><marker id="aK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="aG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker><marker id="aR" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#dc2626"/></marker><marker id="aB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker><marker id="aY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="600" height="540" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="300" y="22" font-size="16" text-anchor="middle" fill="#111827" font-weight="bold" >The heart, drawn as in a textbook</text>
+<text x="150" y="44" font-size="12" text-anchor="middle" fill="#6b7280" >Patient's right side</text>
+<text x="430" y="44" font-size="12" text-anchor="middle" fill="#6b7280" >Patient's left side</text>
+<rect x="120" y="166" width="138" height="92" rx="10" fill="#2563eb" fill-opacity="0.18" stroke="#2563eb" stroke-width="2.5" />
+<rect x="262" y="166" width="138" height="92" rx="10" fill="#dc2626" fill-opacity="0.18" stroke="#dc2626" stroke-width="2.5" />
+<rect x="112" y="262" width="148" height="144" rx="34" fill="#2563eb" fill-opacity="0.3" stroke="#2563eb" stroke-width="2.5" />
+<rect x="124" y="270" width="126" height="126" rx="24" fill="#ffffff" stroke="none" stroke-width="0" />
+<rect x="124" y="270" width="126" height="126" rx="24" fill="#2563eb" fill-opacity="0.15" stroke="none" stroke-width="0" />
+<rect x="258" y="262" width="152" height="158" rx="44" fill="#dc2626" fill-opacity="0.4" stroke="#dc2626" stroke-width="2.5" />
+<rect x="284" y="270" width="104" height="126" rx="30" fill="#ffffff" stroke="none" stroke-width="0" />
+<rect x="284" y="270" width="104" height="126" rx="30" fill="#dc2626" fill-opacity="0.15" stroke="none" stroke-width="0" />
+<rect x="250" y="266" width="34" height="112" rx="4" fill="#d1d5db" fill-opacity="0.95" stroke="none" stroke-width="0" />
+<polygon points="140,264 166,264 153,290" fill="#16a34a" fill-opacity="0.8" stroke="#16a34a" stroke-width="1.5"/>
+<polygon points="168,264 194,264 181,290" fill="#16a34a" fill-opacity="0.8" stroke="#16a34a" stroke-width="1.5"/>
+<polygon points="196,264 222,264 209,290" fill="#16a34a" fill-opacity="0.8" stroke="#16a34a" stroke-width="1.5"/>
+<polygon points="296,264 334,264 315,294" fill="#16a34a" fill-opacity="0.8" stroke="#16a34a" stroke-width="1.5"/>
+<polygon points="340,264 378,264 359,294" fill="#16a34a" fill-opacity="0.8" stroke="#16a34a" stroke-width="1.5"/>
+<path d="M150,82 L150,172" fill="none" stroke="#2563eb" stroke-width="22" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M150,82 L150,172" fill="none" stroke="#dbeafe" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M96,446 L96,212 L130,212" fill="none" stroke="#2563eb" stroke-width="22" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M96,446 L96,212 L130,212" fill="none" stroke="#dbeafe" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M234,266 L234,116" fill="none" stroke="#2563eb" stroke-width="22" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M234,266 L234,116" fill="none" stroke="#dbeafe" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M234,114 L190,98" fill="none" stroke="#2563eb" stroke-width="18" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M234,114 L190,98" fill="none" stroke="#dbeafe" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M234,114 L262,98" fill="none" stroke="#2563eb" stroke-width="18" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M234,114 L262,98" fill="none" stroke="#dbeafe" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M284,266 L284,124 Q284,92 316,92 L394,92 Q430,92 430,128 L430,150" fill="none" stroke="#dc2626" stroke-width="22" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M284,266 L284,124 Q284,92 316,92 L394,92 Q430,92 430,128 L430,150" fill="none" stroke="#fee2e2" stroke-width="14" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M470,202 L396,202" fill="none" stroke="#dc2626" stroke-width="18" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M470,202 L396,202" fill="none" stroke="#fee2e2" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M470,230 L396,230" fill="none" stroke="#dc2626" stroke-width="18" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M470,230 L396,230" fill="none" stroke="#fee2e2" stroke-width="10" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="150" y1="90" x2="150" y2="158" stroke="#2563eb" stroke-width="2" marker-end="url(#aB)" stroke-linecap="round"/>
+<path d="M96,436 L96,212 L120,212" fill="none" stroke="#2563eb" stroke-width="2" marker-end="url(#aB)" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="234" y1="258" x2="234" y2="124" stroke="#2563eb" stroke-width="2" marker-end="url(#aB)" stroke-linecap="round"/>
+<line x1="226" y1="110" x2="196" y2="100" stroke="#2563eb" stroke-width="2" marker-end="url(#aB)" stroke-linecap="round"/>
+<line x1="242" y1="110" x2="258" y2="104" stroke="#2563eb" stroke-width="2" marker-end="url(#aB)" stroke-linecap="round"/>
+<path d="M284,258 L284,124 Q284,92 316,92 L394,92 Q430,92 430,128 L430,158" fill="none" stroke="#dc2626" stroke-width="2" marker-end="url(#aR)" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="466" y1="202" x2="404" y2="202" stroke="#dc2626" stroke-width="2" marker-end="url(#aR)" stroke-linecap="round"/>
+<line x1="466" y1="230" x2="404" y2="230" stroke="#dc2626" stroke-width="2" marker-end="url(#aR)" stroke-linecap="round"/>
+<path d="M224,242 Q229,256 234,242 Q239,256 244,242" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M274,242 Q279,256 284,242 Q289,256 294,242" fill="none" stroke="#16a34a" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" />
+<path d="M298,265 L372,262 Q421,262 421,316 L421,380" fill="none" stroke="#dc2626" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="433" y1="380" x2="433" y2="288" stroke="#2563eb" stroke-width="3" marker-end="url(#aB)" stroke-linecap="round"/>
+<g data-label="right atrium">
+<text x="178" y="191" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Right atrium</text>
+</g>
+<g data-label="left atrium">
+<text x="350" y="191" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Left atrium</text>
+</g>
+<g data-label="right ventricle">
+<text x="186" y="362" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Right ventricle</text>
+</g>
+<g data-label="left ventricle">
+<text x="336" y="372" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold" >Left ventricle</text>
+</g>
+<g data-label="pulmonary valve">
+<text x="172" y="238" font-size="12" text-anchor="middle" fill="#15803d" font-weight="bold" >Pulmonary valve</text>
+<text x="172" y="252" font-size="12" text-anchor="middle" fill="#15803d" >(semilunar)</text>
+<line x1="214" y1="244" x2="222" y2="244" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g data-label="aortic valve">
+<text x="351" y="238" font-size="12" text-anchor="middle" fill="#15803d" font-weight="bold" >Aortic valve</text>
+<text x="351" y="252" font-size="12" text-anchor="middle" fill="#15803d" >(semilunar)</text>
+<line x1="303" y1="244" x2="298" y2="244" stroke="#16a34a" stroke-width="1.5" stroke-linecap="round"/>
+</g>
+<g data-label="tricuspid valve">
+<text x="186" y="318" font-size="12" text-anchor="middle" fill="#15803d" font-weight="bold" >Tricuspid valve</text>
+<text x="186" y="332" font-size="12" text-anchor="middle" fill="#15803d" >(3 flaps)</text>
+</g>
+<g data-label="bicuspid valve">
+<text x="336" y="318" font-size="12" text-anchor="middle" fill="#15803d" font-weight="bold" >Bicuspid (mitral)</text>
+<text x="336" y="332" font-size="12" text-anchor="middle" fill="#15803d" >valve (2 flaps)</text>
+</g>
+<g data-label="septum">
+<text x="267" y="326" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold" transform="rotate(-90 267 326)">Septum</text>
+</g>
+<g data-label="vena cava">
+<text x="130" y="108" font-size="12" text-anchor="end" fill="#2563eb" font-weight="bold" >Vena cava</text>
+<text x="130" y="122" font-size="12" text-anchor="end" fill="#2563eb" >(upper body)</text>
+<text x="96" y="472" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold" >Vena cava</text>
+<text x="96" y="486" font-size="12" text-anchor="middle" fill="#2563eb" >(lower body)</text>
+</g>
+<g data-label="pulmonary trunk">
+<text x="234" y="64" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold" >Pulmonary trunk</text>
+<text x="234" y="78" font-size="12" text-anchor="middle" fill="#2563eb" >(to the lungs)</text>
+</g>
+<g data-label="aorta">
+<text x="444" y="138" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold" >Aorta</text>
+<text x="444" y="152" font-size="12" text-anchor="start" fill="#dc2626" >(to the body)</text>
+</g>
+<g data-label="pulmonary veins">
+<text x="480" y="198" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold" >Pulmonary</text>
+<text x="480" y="212" font-size="12" text-anchor="start" fill="#dc2626" >veins (from</text>
+<text x="480" y="226" font-size="12" text-anchor="start" fill="#dc2626" >the lungs)</text>
+</g>
+<g data-label="coronary artery">
+<text x="446" y="322" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold" >Coronary artery</text>
+<text x="446" y="336" font-size="12" text-anchor="start" fill="#dc2626" >(feeds the heart)</text>
+</g>
+<g data-label="coronary vein">
+<text x="446" y="364" font-size="12" text-anchor="start" fill="#2563eb" font-weight="bold" >Coronary vein</text>
+<text x="446" y="378" font-size="12" text-anchor="start" fill="#2563eb" >(drains the heart)</text>
+</g>
+<text x="446" y="414" font-size="12" text-anchor="start" fill="#111827" font-weight="bold" >Thickest wall:</text>
+<text x="446" y="428" font-size="12" text-anchor="start" fill="#111827" >pumps to the body</text>
+<line x1="442" y1="414" x2="410" y2="402" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+<text x="186" y="442" font-size="12" text-anchor="middle" fill="#6b7280" >thin wall: pumps to the lungs</text>
+<line x1="186" y1="428" x2="186" y2="410" stroke="#6b7280" stroke-width="1.5" stroke-linecap="round"/>
+<rect x="40" y="496" width="520" height="28" rx="6" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5" />
+<text x="300" y="514" font-size="12" text-anchor="middle" fill="#111827" >Blue = deoxygenated blood (low O₂)   ·   Red = oxygenated blood (high O₂)   ·   Green = valves</text>
+
+</g>
+</svg>

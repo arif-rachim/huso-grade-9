@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" role="img" aria-labelledby="t d">
+  <title id="t">Enthalpy levels for burning methane, found with formation enthalpies</title>
+  <desc id="d">Energy level diagram. Elements in standard state sit at zero. Methane plus oxygen lies 74.8 kJ below. Carbon dioxide plus two liquid waters lie 965.1 kJ below. The reaction methane burning goes down 890.3 kJ, which equals the sum of formation enthalpies of products minus reactants.</desc>
+  <defs>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+    <marker id="arY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ca8a04"/></marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="420" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="250" y="24" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Hess in one picture: burning methane, CH₄ + 2O₂ → CO₂ + 2H₂O(l)</text>
+    <text x="250" y="42" font-size="12" text-anchor="middle" fill="#6b7280">(all values in kJ per mole of reaction; heights to scale)</text>
+    <line x1="30" y1="102" x2="150" y2="102" stroke="#111827" stroke-width="3.5"/>
+    <text x="90" y="76" font-size="12" text-anchor="middle" fill="#6b7280">elements (standard states)</text>
+    <text x="90" y="92" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">C + 2H₂ + 2O₂</text>
+    <text x="60" y="120" font-size="12" text-anchor="middle" fill="#6b7280">ΔHf = 0</text>
+    <line x1="190" y1="118.456" x2="310" y2="118.456" stroke="#ca8a04" stroke-width="3.5"/>
+    <text x="250" y="110.456" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">CH₄ + 2O₂</text>
+    <line x1="350" y1="314.322" x2="470" y2="314.322" stroke="#ca8a04" stroke-width="3.5"/>
+    <text x="410" y="332.322" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">CO₂ + 2H₂O(l)</text>
+    <line x1="150" y1="102" x2="470" y2="102" stroke="#d1d5db" stroke-width="1.3" stroke-dasharray="5 4"/>
+    <line x1="122" y1="105" x2="122" y2="116.456" stroke="#6b7280" stroke-width="2" marker-end="url(#arG)"/>
+    <line x1="122" y1="118.456" x2="190" y2="118.456" stroke="#d1d5db" stroke-width="1.3" stroke-dasharray="5 4"/>
+    <text x="130" y="138.456" font-size="12" text-anchor="start" fill="#6b7280">ΔHf(CH₄) = −74.8</text>
+    <line x1="250" y1="122.456" x2="250" y2="310.322" stroke="#ca8a04" stroke-width="3" marker-end="url(#arY)"/>
+    <text x="258" y="236.389" font-size="14" text-anchor="start" fill="#ca8a04" font-weight="bold">ΔH°comb</text>
+    <text x="258" y="254.389" font-size="14" text-anchor="start" fill="#ca8a04" font-weight="bold">= −890.3</text>
+    <line x1="410" y1="105" x2="410" y2="310.322" stroke="#111827" stroke-width="2" marker-end="url(#arK)"/>
+    <text x="404" y="208.161" font-size="12" text-anchor="end" fill="#111827">Σ ΔHf(products)</text>
+    <text x="404" y="224.161" font-size="12" text-anchor="end" fill="#111827">= −393.5 + 2(−285.8)</text>
+    <text x="404" y="240.161" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">= −965.1</text>
+    <rect x="20" y="352" width="460" height="54" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="30" y="372" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">ΔH°rxn = Σ n·ΔHf°(products) − Σ n·ΔHf°(reactants)</text>
+    <text x="30" y="392" font-size="12.5" text-anchor="start" fill="#111827">= (−965.1) − (−74.8) = −890.3 kJ   (O₂ is an element: ΔHf = 0)</text>
+  </g>
+</svg>

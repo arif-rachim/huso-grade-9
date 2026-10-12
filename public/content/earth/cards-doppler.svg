@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 326" role="img" aria-labelledby="t d">
+<title id="t">Doppler effect</title>
+<desc id="d">Waves from a moving source are squeezed in front of it, giving shorter wavelength and blueshift, and stretched behind it, giving longer wavelength and redshift.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="326" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Doppler effect</text>
+<circle cx="261" cy="110" r="22" fill="none" stroke="#92400e" stroke-width="1.8"/>
+<circle cx="252" cy="110" r="44" fill="none" stroke="#92400e" stroke-width="1.8"/>
+<circle cx="243" cy="110" r="66" fill="none" stroke="#92400e" stroke-width="1.8"/>
+<circle cx="234" cy="110" r="88" fill="none" stroke="#92400e" stroke-width="1.8"/>
+<circle cx="270" cy="110" r="8" fill="#92400e" stroke="#111827" stroke-width="1.5"/>
+<line x1="284" y1="110" x2="320" y2="110" stroke="#111827" stroke-width="2.5" marker-end="url(#ahK)"/>
+<text x="290" y="98" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">source</text>
+<text x="372" y="116" font-size="18" text-anchor="middle" fill="#92400e" font-weight="bold">B</text>
+<text x="40" y="116" font-size="18" text-anchor="middle" fill="#92400e" font-weight="bold">A</text>
+<text x="100" y="232" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">A: waves stretched</text>
+<text x="100" y="248" font-size="13" text-anchor="middle" fill="#92400e" font-weight="bold">longer λ → redshift</text>
+<text x="100" y="264" font-size="12" text-anchor="middle" fill="#6b7280">(source moving away)</text>
+<text x="320" y="232" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">B: waves squeezed</text>
+<text x="320" y="248" font-size="13" text-anchor="middle" fill="#92400e" font-weight="bold">shorter λ → blueshift</text>
+<text x="320" y="264" font-size="12" text-anchor="middle" fill="#6b7280">(source approaching)</text>
+<text x="200" y="294" font-size="14" text-anchor="middle" fill="#92400e" font-weight="bold">Δλ / λ = v / c   (for speeds much less than c)</text>
+<text x="200" y="312" font-size="12" text-anchor="middle" fill="#6b7280">v = radial velocity (along the line of sight)</text>
+</g>
+</svg>

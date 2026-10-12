@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 336" role="img">
+  <title>The mole road map</title>
+  <desc>Stoichiometry road map: mass, particles, gas volume at STP and solution volume convert to moles of A; moles of A convert to moles of B using the coefficient ratio; then moles of B convert to mass, particles, volume or solution.</desc>
+  <rect x="0" y="0" width="440" height="336" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="20" font-size="15" text-anchor="middle" font-weight="bold">Every calculation goes through moles</text>
+    <rect x="8" y="36" width="94" height="44" rx="6" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="55.0" y="55" font-size="11" text-anchor="middle" font-weight="bold">mass (g) of A</text>
+    <text x="55.0" y="71" font-size="11" text-anchor="middle" fill="#6b7280">÷ M  /  × M</text>
+    <line x1="55.0" y1="80" x2="106.6" y2="128.2" stroke="#6b7280" stroke-width="1.5"/>
+    <rect x="118" y="36" width="94" height="44" rx="6" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="165.0" y="55" font-size="11" text-anchor="middle" font-weight="bold">particles of A</text>
+    <text x="165.0" y="71" font-size="11" text-anchor="middle" fill="#6b7280">× 6.02×10²³</text>
+    <line x1="165.0" y1="80" x2="144.3" y2="121.4" stroke="#6b7280" stroke-width="1.5"/>
+    <rect x="228" y="36" width="94" height="44" rx="6" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="275.0" y="55" font-size="11" text-anchor="middle" font-weight="bold">gas volume of A</text>
+    <text x="275.0" y="71" font-size="11" text-anchor="middle" fill="#6b7280">× 22.4 L (STP)</text>
+    <line x1="275.0" y1="80" x2="158.8" y2="136.1" stroke="#6b7280" stroke-width="1.5"/>
+    <rect x="338" y="36" width="94" height="44" rx="6" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="385.0" y="55" font-size="11" text-anchor="middle" font-weight="bold">solution of A</text>
+    <text x="385.0" y="71" font-size="11" text-anchor="middle" fill="#6b7280">M × V (L)</text>
+    <line x1="385.0" y1="80" x2="160.9" y2="141.5" stroke="#6b7280" stroke-width="1.5"/>
+    <rect x="8" y="256" width="94" height="44" rx="6" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="55.0" y="275" font-size="11" text-anchor="middle" font-weight="bold">mass (g) of B</text>
+    <text x="55.0" y="291" font-size="11" text-anchor="middle" fill="#6b7280">÷ M  /  × M</text>
+    <line x1="55.0" y1="256" x2="280.5" y2="162.3" stroke="#6b7280" stroke-width="1.5"/>
+    <rect x="118" y="256" width="94" height="44" rx="6" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="165.0" y="275" font-size="11" text-anchor="middle" font-weight="bold">particles of B</text>
+    <text x="165.0" y="291" font-size="11" text-anchor="middle" fill="#6b7280">× 6.02×10²³</text>
+    <line x1="165.0" y1="256" x2="284.2" y2="168.9" stroke="#6b7280" stroke-width="1.5"/>
+    <rect x="228" y="256" width="94" height="44" rx="6" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="275.0" y="275" font-size="11" text-anchor="middle" font-weight="bold">gas volume of B</text>
+    <text x="275.0" y="291" font-size="11" text-anchor="middle" fill="#6b7280">× 22.4 L (STP)</text>
+    <line x1="275.0" y1="256" x2="300.0" y2="180.4" stroke="#6b7280" stroke-width="1.5"/>
+    <rect x="338" y="256" width="94" height="44" rx="6" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5"/>
+    <text x="385.0" y="275" font-size="11" text-anchor="middle" font-weight="bold">solution of B</text>
+    <text x="385.0" y="291" font-size="11" text-anchor="middle" fill="#6b7280">M × V (L)</text>
+    <line x1="385.0" y1="256" x2="328.5" y2="176.1" stroke="#6b7280" stroke-width="1.5"/>
+    <circle cx="130" cy="150" r="32" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="130" y="155" font-size="14" text-anchor="middle" font-weight="bold">mol A</text>
+    <circle cx="310" cy="150" r="32" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.5"/>
+    <text x="310" y="155" font-size="14" text-anchor="middle" font-weight="bold">mol B</text>
+    <line x1="168" y1="150" x2="272" y2="150" stroke="#111827" stroke-width="3"/>
+    <path d="M263.7 153.5 L272 150 L263.7 146.5" fill="none" stroke="#111827" stroke-width="3" stroke-linejoin="round"/>
+    <text x="220" y="141" font-size="13" text-anchor="middle" font-weight="bold">× b ÷ a</text>
+    <text x="220" y="322" font-size="11" text-anchor="middle" fill="#6b7280">a A → b B   (balanced equation):   mol B = mol A × b ÷ a</text>
+  </g>
+</svg>

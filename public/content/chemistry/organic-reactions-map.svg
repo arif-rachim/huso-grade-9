@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" role="img" aria-labelledby="t d">
+  <title id="t">Substitution or elimination? A decision table</title>
+  <desc id="d">Table with rows methyl or primary, secondary and tertiary alkyl halides and columns for a good nucleophile that is a weak base, a strong base, and a weak nucleophile in a polar protic solvent. Cells give SN2, E2, SN1 and E1 with notes.</desc>
+  <defs>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+    <marker id="arY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ca8a04"/></marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="400" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="250" y="24" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">SN1 · SN2 · E1 · E2: which one wins?</text>
+    <text x="60" y="70" font-size="12" text-anchor="middle" fill="#6b7280">alkyl halide</text>
+    <text x="172" y="58" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">good Nu, weak base</text>
+    <text x="172" y="73" font-size="11.5" text-anchor="middle" fill="#6b7280">(I⁻, CN⁻, RS⁻, N₃⁻)</text>
+    <text x="288" y="58" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">strong base</text>
+    <text x="288" y="73" font-size="11.5" text-anchor="middle" fill="#6b7280">(HO⁻, EtO⁻, t-BuO⁻)</text>
+    <text x="414" y="58" font-size="12.5" text-anchor="middle" fill="#111827" font-weight="bold">weak Nu / base</text>
+    <text x="414" y="73" font-size="11.5" text-anchor="middle" fill="#6b7280">(H₂O, ROH, heat)</text>
+    <rect x="14" y="84" width="478" height="76" fill="none" stroke="#d1d5db" stroke-width="1" />
+    <text x="60" y="114" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">methyl,</text>
+    <text x="60" y="131" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">primary</text>
+    <rect x="116" y="92" width="112" height="60" fill="#ca8a04" fill-opacity="0.16" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="172" y="120" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">SN2</text>
+    <text x="172" y="138" font-size="11.5" text-anchor="middle" fill="#6b7280">fast</text>
+    <rect x="232" y="92" width="112" height="60" fill="#ca8a04" fill-opacity="0.16" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="288" y="120" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">SN2</text>
+    <text x="288" y="138" font-size="11.5" text-anchor="middle" fill="#6b7280">(t-BuO⁻ → E2)</text>
+    <rect x="358" y="92" width="112" height="60" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5" rx="6" />
+    <text x="414" y="120" font-size="13.5" text-anchor="middle" fill="#6b7280" font-weight="bold">no reaction</text>
+    <text x="414" y="138" font-size="11.5" text-anchor="middle" fill="#6b7280">(too slow)</text>
+    <rect x="14" y="160" width="478" height="76" fill="none" stroke="#d1d5db" stroke-width="1" />
+    <text x="60" y="196" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">secondary</text>
+    <rect x="116" y="168" width="112" height="60" fill="#ca8a04" fill-opacity="0.16" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="172" y="196" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">SN2</text>
+    <rect x="232" y="168" width="112" height="60" fill="#ca8a04" fill-opacity="0.16" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="288" y="196" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">E2</text>
+    <text x="288" y="214" font-size="11.5" text-anchor="middle" fill="#6b7280">mostly</text>
+    <rect x="358" y="168" width="112" height="60" fill="#ca8a04" fill-opacity="0.16" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="414" y="196" font-size="13.5" text-anchor="middle" fill="#111827" font-weight="bold">SN1 + E1</text>
+    <text x="414" y="214" font-size="11.5" text-anchor="middle" fill="#6b7280">slow</text>
+    <rect x="14" y="236" width="478" height="76" fill="none" stroke="#d1d5db" stroke-width="1" />
+    <text x="60" y="272" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">tertiary</text>
+    <rect x="116" y="244" width="112" height="60" fill="#ffffff" stroke="#d1d5db" stroke-width="1.5" rx="6" />
+    <text x="172" y="272" font-size="15" text-anchor="middle" fill="#6b7280" font-weight="bold">no SN2</text>
+    <text x="172" y="290" font-size="11.5" text-anchor="middle" fill="#6b7280">(too crowded)</text>
+    <rect x="232" y="244" width="112" height="60" fill="#ca8a04" fill-opacity="0.16" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="288" y="272" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">E2</text>
+    <text x="288" y="290" font-size="11.5" text-anchor="middle" fill="#6b7280">only</text>
+    <rect x="358" y="244" width="112" height="60" fill="#ca8a04" fill-opacity="0.16" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="414" y="272" font-size="13.5" text-anchor="middle" fill="#111827" font-weight="bold">SN1 + E1</text>
+    <text x="414" y="290" font-size="11.5" text-anchor="middle" fill="#6b7280">(heat → E1)</text>
+    <rect x="14" y="322" width="478" height="66" fill="#ca8a04" fill-opacity="0.12" stroke="#ca8a04" stroke-width="1.5" rx="6" />
+    <text x="24" y="342" font-size="12.5" text-anchor="start" fill="#111827">SN2: 1 step, backside attack, inversion · rate = k[RX][Nu]</text>
+    <text x="24" y="359" font-size="12.5" text-anchor="start" fill="#111827">SN1: 2 steps via carbocation, racemization · rate = k[RX]</text>
+    <text x="24" y="376" font-size="12.5" text-anchor="start" fill="#111827">E2: 1 step, strong base, Zaitsev (more substituted alkene) · E1: via carbocation</text>
+  </g>
+</svg>

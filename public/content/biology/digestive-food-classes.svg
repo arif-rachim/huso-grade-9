@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 340" role="img">
+  <title>The seven classes of food</title>
+  <desc>Carbohydrates give energy, proteins build and repair, fats store energy, vitamins protect, minerals build bones and blood, water carries things around, and roughage keeps food moving.</desc>
+  <rect width="620" height="340" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="310" y="22" font-size="16" font-weight="bold" text-anchor="middle">Seven classes of food</text>
+    <g><rect x="10" y="40" width="146" height="140" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <rect x="10" y="40" width="146" height="30" rx="12" fill="#16a34a"/><rect x="10" y="58" width="146" height="12" fill="#16a34a"/>
+    <text x="83" y="61" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Carbohydrates</text>
+    <text x="20" y="90" font-size="12" fill="#6b7280" font-weight="bold">Sources</text>
+    <text x="20" y="106" font-size="12">rice, bread, potato,</text>
+    <text x="20" y="121" font-size="12">sugar</text>
+    <text x="20" y="140" font-size="12" fill="#14532d" font-weight="bold">Job</text>
+    <text x="20" y="155" font-size="12">main source of</text>
+    <text x="20" y="169" font-size="12">energy</text>
+    </g>
+    <g><rect x="163" y="40" width="146" height="140" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <rect x="163" y="40" width="146" height="30" rx="12" fill="#16a34a"/><rect x="163" y="58" width="146" height="12" fill="#16a34a"/>
+    <text x="236" y="61" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Proteins</text>
+    <text x="173" y="90" font-size="12" fill="#6b7280" font-weight="bold">Sources</text>
+    <text x="173" y="106" font-size="12">egg, meat, fish,</text>
+    <text x="173" y="121" font-size="12">beans, milk</text>
+    <text x="173" y="140" font-size="12" fill="#14532d" font-weight="bold">Job</text>
+    <text x="173" y="155" font-size="12">growth and</text>
+    <text x="173" y="169" font-size="12">repair</text>
+    </g>
+    <g><rect x="316" y="40" width="146" height="140" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <rect x="316" y="40" width="146" height="30" rx="12" fill="#16a34a"/><rect x="316" y="58" width="146" height="12" fill="#16a34a"/>
+    <text x="389" y="61" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Fats</text>
+    <text x="326" y="90" font-size="12" fill="#6b7280" font-weight="bold">Sources</text>
+    <text x="326" y="106" font-size="12">butter, oil, nuts</text>
+    <text x="326" y="140" font-size="12" fill="#14532d" font-weight="bold">Job</text>
+    <text x="326" y="155" font-size="12">energy store,</text>
+    <text x="326" y="169" font-size="12">insulation</text>
+    </g>
+    <g><rect x="469" y="40" width="146" height="140" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <rect x="469" y="40" width="146" height="30" rx="12" fill="#16a34a"/><rect x="469" y="58" width="146" height="12" fill="#16a34a"/>
+    <text x="542" y="61" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Vitamins</text>
+    <text x="479" y="90" font-size="12" fill="#6b7280" font-weight="bold">Sources</text>
+    <text x="479" y="106" font-size="12">fruits and</text>
+    <text x="479" y="121" font-size="12">vegetables</text>
+    <text x="479" y="140" font-size="12" fill="#14532d" font-weight="bold">Job</text>
+    <text x="479" y="155" font-size="12">protect the body</text>
+    <text x="479" y="169" font-size="12">(tiny amounts)</text>
+    </g>
+    <g><rect x="86" y="190" width="146" height="140" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <rect x="86" y="190" width="146" height="30" rx="12" fill="#16a34a"/><rect x="86" y="208" width="146" height="12" fill="#16a34a"/>
+    <text x="159" y="211" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Minerals</text>
+    <text x="96" y="240" font-size="12" fill="#6b7280" font-weight="bold">Sources</text>
+    <text x="96" y="256" font-size="12">milk, salt,</text>
+    <text x="96" y="271" font-size="12">leafy greens</text>
+    <text x="96" y="290" font-size="12" fill="#14532d" font-weight="bold">Job</text>
+    <text x="96" y="305" font-size="12">e.g. iron for blood,</text>
+    <text x="96" y="319" font-size="12">calcium for bones</text>
+    </g>
+    <g><rect x="239" y="190" width="146" height="140" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <rect x="239" y="190" width="146" height="30" rx="12" fill="#16a34a"/><rect x="239" y="208" width="146" height="12" fill="#16a34a"/>
+    <text x="312" y="211" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Water</text>
+    <text x="249" y="240" font-size="12" fill="#6b7280" font-weight="bold">Sources</text>
+    <text x="249" y="256" font-size="12">drinks, fruit,</text>
+    <text x="249" y="271" font-size="12">vegetables</text>
+    <text x="249" y="290" font-size="12" fill="#14532d" font-weight="bold">Job</text>
+    <text x="249" y="305" font-size="12">carries things around,</text>
+    <text x="249" y="319" font-size="12">makes sweat, urine</text>
+    </g>
+    <g><rect x="392" y="190" width="146" height="140" rx="12" fill="#ecfdf5" stroke="#16a34a" stroke-width="2"/>
+    <rect x="392" y="190" width="146" height="30" rx="12" fill="#16a34a"/><rect x="392" y="208" width="146" height="12" fill="#16a34a"/>
+    <text x="465" y="211" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">Roughage (fiber)</text>
+    <text x="402" y="240" font-size="12" fill="#6b7280" font-weight="bold">Sources</text>
+    <text x="402" y="256" font-size="12">whole grains,</text>
+    <text x="402" y="271" font-size="12">vegetables</text>
+    <text x="402" y="290" font-size="12" fill="#14532d" font-weight="bold">Job</text>
+    <text x="402" y="305" font-size="12">keeps food moving;</text>
+    <text x="402" y="319" font-size="12">not digested</text>
+    </g>
+  </g>
+</svg>

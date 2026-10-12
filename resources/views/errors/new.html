@@ -1,0 +1,19 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="Add a mistake" subtitle="For paper questions: the HUSO 2024 pack, AMC, Physics Bowl and so on." back="{{ route('errors.index') }}" back-label="Error Log"/>
+
+  <rx-form action="{{ route('errors.store') }}" enctype="multipart/form-data">
+    <rx-card>
+      <rx-form-errors/>
+      <rx-form-grid columns="2">
+        <rx-select name="topic" label="Subject and subtopic" required placeholder="Pick a subtopic" :options="subtopics"/>
+        <rx-select name="cause" label="Why did it go wrong?" required placeholder="Pick a cause" :options="cause_options"/>
+        <rx-select name="source" label="Source" placeholder="Pick a paper (optional)" :options="sources"/>
+        <rx-input name="source_other" label="Or another source" hint="For example: AMC 10A 2023"/>
+        <rx-input name="question_no" label="Question number"/>
+      </rx-form-grid>
+      <rx-textarea name="note" label="Note" rows="4" hint="What was the question, and what is the right idea? A note or a photo is required."/>
+      <rx-file name="photo" label="Sketch photo" accept="image/*" preview hint="Photo of your solution sketch on paper."/>
+      <rx-button label="Save mistake" icon="check"/>
+    </rx-card>
+  </rx-form>
+</rx-page>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" role="img" aria-labelledby="ert erd">
+  <title id="ert">Four ways organisms interact</title>
+  <desc id="erd">Four panels: mutualism (both benefit), commensalism (one benefits, the other is not affected), parasitism (parasite benefits, host harmed), predation (predator benefits, prey harmed).</desc>
+  <defs>
+    <marker id="era" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="erg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#16a34a"/></marker>
+  </defs>
+  <rect x="0" y="0" width="480" height="330" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="240" y="20" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Who gains (+), who loses (−), who is not affected (0)</text>
+    <g data-label="mutualism"><rect x="15" y="36" width="215" height="124" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="122" y="58" font-size="15" text-anchor="middle" fill="#16a34a" font-weight="bold">Mutualism</text>
+    <circle cx="75" cy="96" r="22" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+    <text x="75" y="105" font-size="22" text-anchor="middle" fill="#16a34a" font-weight="bold">+</text>
+    <circle cx="170" cy="96" r="22" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+    <text x="170" y="105" font-size="22" text-anchor="middle" fill="#16a34a" font-weight="bold">+</text>
+    <text x="122" y="140" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">bee and flower</text>
+    <text x="122" y="155" font-size="11" text-anchor="middle" fill="#6b7280">both benefit</text>
+    </g>
+    <g data-label="commensalism"><rect x="250" y="36" width="215" height="124" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="357" y="58" font-size="15" text-anchor="middle" fill="#16a34a" font-weight="bold">Commensalism</text>
+    <circle cx="310" cy="96" r="22" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+    <text x="310" y="105" font-size="22" text-anchor="middle" fill="#16a34a" font-weight="bold">+</text>
+    <circle cx="405" cy="96" r="22" fill="#ffffff" stroke="#6b7280" stroke-width="3"/>
+    <text x="405" y="105" font-size="22" text-anchor="middle" fill="#6b7280" font-weight="bold">0</text>
+    <text x="357" y="140" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">bird nesting in a tree</text>
+    <text x="357" y="155" font-size="11" text-anchor="middle" fill="#6b7280">bird gains, tree unaffected</text>
+    </g>
+    <g data-label="parasitism"><rect x="15" y="176" width="215" height="124" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="122" y="198" font-size="15" text-anchor="middle" fill="#16a34a" font-weight="bold">Parasitism</text>
+    <circle cx="75" cy="236" r="22" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+    <text x="75" y="245" font-size="22" text-anchor="middle" fill="#16a34a" font-weight="bold">+</text>
+    <circle cx="170" cy="236" r="22" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+    <text x="170" y="245" font-size="22" text-anchor="middle" fill="#dc2626" font-weight="bold">−</text>
+    <text x="122" y="280" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">tapeworm in a human</text>
+    <text x="122" y="295" font-size="11" text-anchor="middle" fill="#6b7280">parasite gains, host harmed</text>
+    </g>
+    <g data-label="predation"><rect x="250" y="176" width="215" height="124" rx="10" fill="#f9fafb" stroke="#d1d5db"/>
+    <text x="357" y="198" font-size="15" text-anchor="middle" fill="#16a34a" font-weight="bold">Predation</text>
+    <circle cx="310" cy="236" r="22" fill="#ffffff" stroke="#16a34a" stroke-width="3"/>
+    <text x="310" y="245" font-size="22" text-anchor="middle" fill="#16a34a" font-weight="bold">+</text>
+    <circle cx="405" cy="236" r="22" fill="#ffffff" stroke="#dc2626" stroke-width="3"/>
+    <text x="405" y="245" font-size="22" text-anchor="middle" fill="#dc2626" font-weight="bold">−</text>
+    <text x="357" y="280" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">lynx eats a hare</text>
+    <text x="357" y="295" font-size="11" text-anchor="middle" fill="#6b7280">predator gains, prey dies</text>
+    </g>
+    <text x="240" y="318" font-size="11" text-anchor="middle" fill="#6b7280">Parasitism and predation both help one side and hurt the other.</text>
+  <text x="240" y="332" font-size="11" text-anchor="middle" fill="#6b7280">Predators kill prey; parasites usually stay on or in a living host.</text>
+  </g>
+</svg>

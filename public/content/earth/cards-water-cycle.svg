@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 360" role="img" aria-labelledby="t d">
+<title id="t">The water cycle</title>
+<desc id="d">Evaporation from the ocean, transpiration from plants, condensation into clouds, precipitation, runoff over land and infiltration into the ground.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="360" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<circle cx="355" cy="38" r="20" fill="#92400e" fill-opacity="0.25"/>
+<text x="355" y="43" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Sun</text>
+<rect x="0" y="230" width="160" height="90" fill="#92400e" fill-opacity="0.2"/>
+<text x="80" y="300" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Ocean</text>
+<polygon points="160,230 160,320 400,320 400,200 360,150 290,230" fill="#92400e" fill-opacity="0.12"/>
+<polyline points="160,230 290,230 360,150 400,200" fill="none" stroke="#92400e" stroke-width="2" stroke-linejoin="round"/>
+<g transform="translate(190 70) scale(1.6)"><path d="M-26,8 C-38,8 -38,-8 -24,-8 C-24,-24 4,-26 8,-12 C22,-20 38,-6 28,8 Z" fill="#d1d5db" stroke="#6b7280" stroke-width="0.9375" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g transform="translate(270 52) scale(1.0)"><path d="M-26,8 C-38,8 -38,-8 -24,-8 C-24,-24 4,-26 8,-12 C22,-20 38,-6 28,8 Z" fill="#d1d5db" stroke="#6b7280" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<line x1="60" y1="225" x2="60" y2="108" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text data-label="Evaporation" x="72" y="190" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Evaporation</text>
+<text data-label="Condensation" x="190" y="22" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Condensation</text>
+<line x1="175" y1="98" x2="171" y2="128" stroke="#6b7280" stroke-width="2"/>
+<line x1="190" y1="98" x2="186" y2="128" stroke="#6b7280" stroke-width="2"/>
+<line x1="205" y1="98" x2="201" y2="128" stroke="#6b7280" stroke-width="2"/>
+<text data-label="Precipitation" x="190" y="146" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Precipitation</text>
+<line x1="300" y1="242" x2="175" y2="242" stroke="#92400e" stroke-width="3" marker-end="url(#ahB)"/>
+<text data-label="Runoff" x="237" y="262" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Runoff</text>
+<line x1="345" y1="275" x2="345" y2="312" stroke="#92400e" stroke-width="2" stroke-dasharray="4 3" marker-end="url(#ahB)"/>
+<text data-label="Infiltration" x="337" y="292" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">Infiltration</text>
+<line x1="250" y1="230" x2="250" y2="205" stroke="#111827" stroke-width="3"/>
+<circle cx="250" cy="192" r="14" fill="#92400e" fill-opacity="0.4"/>
+<line x1="250" y1="174" x2="250" y2="150" stroke="#92400e" stroke-width="2" stroke-dasharray="3 3" marker-end="url(#ahB)"/>
+<text data-label="Transpiration" x="262" y="160" font-size="13" text-anchor="start" fill="#111827" font-weight="bold">Transpiration</text>
+<text x="200" y="346" font-size="12" text-anchor="middle" fill="#6b7280">The Sun&#x27;s energy drives the whole cycle</text>
+</g>
+</svg>

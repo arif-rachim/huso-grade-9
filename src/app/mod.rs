@@ -1,1 +1,13 @@
+pub mod accounts;
+pub mod canvas;
+pub mod content;
+pub mod errors;
+pub mod flashcards;
 pub mod home;
+pub mod lessons;
+pub mod parent;
+pub mod plan;
+pub mod practice;
+pub mod progress;
+pub mod syllabus;
+pub mod today;

@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 372" role="img">
+  <title>VSEPR shapes</title>
+  <desc>Eight molecular shapes from VSEPR theory: linear, trigonal planar, bent (SO2), tetrahedral, trigonal pyramidal, bent (water), trigonal bipyramidal and octahedral, with an example, the hybridization and the bond angle for each.</desc>
+  <rect x="0" y="0" width="440" height="372" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220" y="20" font-size="14" text-anchor="middle" font-weight="bold">Shape = where the electron pairs push each other away</text>
+    <rect x="4" y="30" width="102" height="150" rx="8" fill="none" fill-opacity="1" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="55" y1="82" x2="21" y2="82" stroke="#111827" stroke-width="2"/>
+    <circle cx="21" cy="82" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="55" y1="82" x2="89" y2="82" stroke="#111827" stroke-width="2"/>
+    <circle cx="89" cy="82" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <circle cx="55" cy="82" r="10" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="55" y="134" font-size="12" text-anchor="middle" font-weight="bold">Linear</text>
+    <text x="55" y="149" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">CO₂ · sp</text>
+    <text x="55" y="164" font-size="11" text-anchor="middle" fill="#6b7280">2 domains</text>
+    <text x="55" y="178" font-size="12" text-anchor="middle">180°</text>
+    <rect x="114" y="30" width="102" height="150" rx="8" fill="none" fill-opacity="1" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="165" y1="82" x2="165.0" y2="48.0" stroke="#111827" stroke-width="2"/>
+    <circle cx="165.0" cy="48.0" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="165" y1="82" x2="135.55513627132908" y2="99.0" stroke="#111827" stroke-width="2"/>
+    <circle cx="135.55513627132908" cy="99.0" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="165" y1="82" x2="194.4448637286709" y2="99.00000000000001" stroke="#111827" stroke-width="2"/>
+    <circle cx="194.4448637286709" cy="99.00000000000001" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <circle cx="165" cy="82" r="10" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="165" y="134" font-size="11" text-anchor="middle" font-weight="bold">Trigonal planar</text>
+    <text x="165" y="149" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">BF₃ · sp²</text>
+    <text x="165" y="164" font-size="11" text-anchor="middle" fill="#6b7280">3 domains</text>
+    <text x="165" y="178" font-size="12" text-anchor="middle">120°</text>
+    <rect x="224" y="30" width="102" height="150" rx="8" fill="none" fill-opacity="1" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="275" y1="82" x2="245" y2="100" stroke="#111827" stroke-width="2"/>
+    <circle cx="245" cy="100" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="275" y1="82" x2="305" y2="100" stroke="#111827" stroke-width="2"/>
+    <circle cx="305" cy="100" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <ellipse cx="275" cy="56" rx="9" ry="6" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <circle cx="272" cy="56" r="1.8" fill="#111827"/><circle cx="278" cy="56" r="1.8" fill="#111827"/>
+    <circle cx="275" cy="82" r="10" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="275" y="134" font-size="12" text-anchor="middle" font-weight="bold">Bent</text>
+    <text x="275" y="149" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">SO₂ · sp²</text>
+    <text x="275" y="164" font-size="11" text-anchor="middle" fill="#6b7280">3 domains, 1 LP</text>
+    <text x="275" y="178" font-size="12" text-anchor="middle">≈119°</text>
+    <rect x="334" y="30" width="102" height="150" rx="8" fill="none" fill-opacity="1" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="385" y1="82" x2="353" y2="104" stroke="#111827" stroke-width="2"/>
+    <circle cx="353" cy="104" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="385" y1="82" x2="417" y2="104" stroke="#111827" stroke-width="2"/>
+    <circle cx="417" cy="104" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <path d="M385 82 L372.5 50.1 L365.5 53.9 Z" fill="#111827"/>
+    <circle cx="369" cy="52" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="385" y1="82" x2="407" y2="54" stroke="#111827" stroke-width="2" stroke-dasharray="4 3"/>
+    <circle cx="407" cy="54" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <circle cx="385" cy="82" r="10" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="385" y="134" font-size="12" text-anchor="middle" font-weight="bold">Tetrahedral</text>
+    <text x="385" y="149" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">CH₄ · sp³</text>
+    <text x="385" y="164" font-size="11" text-anchor="middle" fill="#6b7280">4 domains</text>
+    <text x="385" y="178" font-size="12" text-anchor="middle">109.5°</text>
+    <rect x="4" y="190" width="102" height="150" rx="8" fill="none" fill-opacity="1" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="55" y1="242" x2="23" y2="264" stroke="#111827" stroke-width="2"/>
+    <circle cx="23" cy="264" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="55" y1="242" x2="87" y2="264" stroke="#111827" stroke-width="2"/>
+    <circle cx="87" cy="264" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <path d="M55 242 L42.5 210.1 L35.5 213.9 Z" fill="#111827"/>
+    <circle cx="39" cy="212" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <ellipse cx="77" cy="214" rx="9" ry="6" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <circle cx="74" cy="214" r="1.8" fill="#111827"/><circle cx="80" cy="214" r="1.8" fill="#111827"/>
+    <circle cx="55" cy="242" r="10" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="55" y="294" font-size="11" text-anchor="middle" font-weight="bold">Trigonal pyramidal</text>
+    <text x="55" y="309" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">NH₃ · sp³</text>
+    <text x="55" y="324" font-size="11" text-anchor="middle" fill="#6b7280">4 domains, 1 LP</text>
+    <text x="55" y="338" font-size="12" text-anchor="middle">≈107°</text>
+    <rect x="114" y="190" width="102" height="150" rx="8" fill="none" fill-opacity="1" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="165" y1="242" x2="133" y2="264" stroke="#111827" stroke-width="2"/>
+    <circle cx="133" cy="264" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="165" y1="242" x2="197" y2="264" stroke="#111827" stroke-width="2"/>
+    <circle cx="197" cy="264" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <ellipse cx="149" cy="212" rx="9" ry="6" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <circle cx="146" cy="212" r="1.8" fill="#111827"/><circle cx="152" cy="212" r="1.8" fill="#111827"/>
+    <ellipse cx="187" cy="214" rx="9" ry="6" fill="#ca8a04" fill-opacity="0.15" stroke="#ca8a04" stroke-width="1.2" stroke-dasharray="3 2"/>
+    <circle cx="184" cy="214" r="1.8" fill="#111827"/><circle cx="190" cy="214" r="1.8" fill="#111827"/>
+    <circle cx="165" cy="242" r="10" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="165" y="294" font-size="12" text-anchor="middle" font-weight="bold">Bent</text>
+    <text x="165" y="309" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">H₂O · sp³</text>
+    <text x="165" y="324" font-size="11" text-anchor="middle" fill="#6b7280">4 domains, 2 LP</text>
+    <text x="165" y="338" font-size="12" text-anchor="middle">≈104.5°</text>
+    <rect x="224" y="190" width="102" height="150" rx="8" fill="none" fill-opacity="1" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="275" y1="242" x2="275" y2="206" stroke="#111827" stroke-width="2"/>
+    <circle cx="275" cy="206" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="275" y1="242" x2="275" y2="278" stroke="#111827" stroke-width="2"/>
+    <circle cx="275" cy="278" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="275" y1="242" x2="239" y2="246" stroke="#111827" stroke-width="2"/>
+    <circle cx="239" cy="246" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="275" y1="242" x2="311" y2="246" stroke="#111827" stroke-width="2"/>
+    <circle cx="311" cy="246" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <path d="M275 242 L257.8 257.5 L264.2 262.5 Z" fill="#111827"/>
+    <circle cx="261" cy="260" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <circle cx="275" cy="242" r="10" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="275" y="294" font-size="11" text-anchor="middle" font-weight="bold">Trigonal bipyramidal</text>
+    <text x="275" y="309" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">PCl₅ · sp³d</text>
+    <text x="275" y="324" font-size="11" text-anchor="middle" fill="#6b7280">5 domains</text>
+    <text x="275" y="338" font-size="12" text-anchor="middle">90°, 120°</text>
+    <rect x="334" y="190" width="102" height="150" rx="8" fill="none" fill-opacity="1" stroke="#d1d5db" stroke-width="1"/>
+    <line x1="385" y1="242" x2="385" y2="206" stroke="#111827" stroke-width="2"/>
+    <circle cx="385" cy="206" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="385" y1="242" x2="385" y2="278" stroke="#111827" stroke-width="2"/>
+    <circle cx="385" cy="278" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="385" y1="242" x2="349" y2="248" stroke="#111827" stroke-width="2"/>
+    <circle cx="349" cy="248" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="385" y1="242" x2="421" y2="248" stroke="#111827" stroke-width="2"/>
+    <circle cx="421" cy="248" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <path d="M385 242 L363.8 263.6 L370.2 268.4 Z" fill="#111827"/>
+    <circle cx="367" cy="266" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <line x1="385" y1="242" x2="403" y2="228" stroke="#111827" stroke-width="2" stroke-dasharray="4 3"/>
+    <circle cx="403" cy="228" r="7" fill="#6b7280" fill-opacity="0.35" stroke="#6b7280" stroke-width="1.2"/>
+    <circle cx="385" cy="242" r="10" fill="#ca8a04" fill-opacity="0.85" stroke="#6b7280" stroke-width="1.2"/>
+    <text x="385" y="294" font-size="12" text-anchor="middle" font-weight="bold">Octahedral</text>
+    <text x="385" y="309" font-size="12" text-anchor="middle" font-weight="bold" fill="#ca8a04">SF₆ · sp³d²</text>
+    <text x="385" y="324" font-size="11" text-anchor="middle" fill="#6b7280">6 domains</text>
+    <text x="385" y="338" font-size="12" text-anchor="middle">90°</text>
+    <text x="220" y="366" font-size="11" text-anchor="middle" fill="#6b7280">LP = lone pair · domain = bond (single, double or triple counts as 1) or lone pair</text>
+  </g>
+</svg>

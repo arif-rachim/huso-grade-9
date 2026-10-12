@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 330" role="img">
+  <title>Inhaled air compared with exhaled air</title>
+  <desc>Approximate percentages. Nitrogen is about 78 percent in both. Oxygen drops from about 21 to about 16 percent. Carbon dioxide rises from about 0.04 to about 4 percent, about 100 times more. Exhaled air also has more water vapor.</desc>
+  <rect width="600" height="330" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="300" y="22" font-size="16" font-weight="bold" text-anchor="middle">Air in vs air out (approximate % of the air)</text>
+    <rect x="150" y="38" width="16" height="16" rx="3" fill="#d1d5db"/><text x="172" y="51" font-size="13">inhaled</text>
+    <rect x="260" y="38" width="16" height="16" rx="3" fill="#16a34a"/><text x="282" y="51" font-size="13">exhaled</text>
+    <line x1="150" y1="68" x2="150" y2="290" stroke="#6b7280" stroke-width="1.5"/>
+    <!-- nitrogen -->
+    <text x="140" y="108" font-size="15" font-weight="bold" text-anchor="end">Nitrogen (N₂)</text>
+    <rect x="150" y="76" width="234" height="22" fill="#d1d5db"/><text x="392" y="92" font-size="13" font-weight="bold">≈ 78 %</text>
+    <rect x="150" y="102" width="234" height="22" fill="#16a34a"/><text x="392" y="118" font-size="13" font-weight="bold">≈ 78 % (about the same)</text>
+    <!-- oxygen -->
+    <text x="140" y="188" font-size="15" font-weight="bold" text-anchor="end">Oxygen (O₂)</text>
+    <rect x="150" y="150" width="63" height="22" fill="#d1d5db"/><text x="221" y="166" font-size="13" font-weight="bold">≈ 21 %</text>
+    <rect x="150" y="176" width="48" height="22" fill="#16a34a"/><text x="206" y="192" font-size="13" font-weight="bold">≈ 16 %  (about 5 points used up)</text>
+    <!-- CO2 -->
+    <text x="140" y="262" font-size="15" font-weight="bold" text-anchor="end">Carbon dioxide</text>
+    <text x="140" y="278" font-size="15" font-weight="bold" text-anchor="end">(CO₂)</text>
+    <rect x="150" y="238" width="2" height="22" fill="#d1d5db" stroke="#6b7280"/><text x="160" y="254" font-size="13" font-weight="bold">≈ 0.04 %</text>
+    <rect x="150" y="264" width="12" height="22" fill="#16a34a"/><text x="170" y="280" font-size="13" font-weight="bold">≈ 4 %  (about 100 times more)</text>
+    <text x="300" y="316" font-size="12" text-anchor="middle" fill="#6b7280">Exhaled air is also warmer and holds more water vapor. Textbooks differ a little (O₂ 14 to 16 %, CO₂ 4 to 5 %).</text>
+  </g>
+</svg>

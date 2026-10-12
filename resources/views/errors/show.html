@@ -1,0 +1,59 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="{{ topic.name }}" subtitle="{{ subject.name }}" back="{{ route('errors.index') }}" back-label="Error Log">
+    {% if not is_parent and is_open %}
+      <rx-action-sheet id="cause-sheet" label="Change cause" :action="route('errors.cause', entry.id)"
+                       title="Why did this go wrong?" method="PUT" submit-label="Save cause">
+        <rx-select id="cause-field" name="cause" label="Cause" required :options="cause_options" :selected="entry.cause"/>
+      </rx-action-sheet>
+      <rx-confirm id="resolve-sheet" label="Mark as resolved" :action="route('errors.resolve', entry.id)" method="POST"
+                  title="Mark as resolved?" message="You will not see this mistake in your reviews any more."
+                  confirm-label="Resolve"/>
+    {% endif %}
+  </rx-page-header>
+
+  <div class="errors-detail" style="--c: {{ subject.color }}">
+    <rx-card title="The mistake">
+      <rx-infolist columns="2">
+        <rx-entry label="Subject" :value="subject.name"/>
+        <rx-entry label="Cause" :value="cause_label"/>
+        <rx-entry label="Status" :value="'Resolved' if entry.status == 'resolved' else 'Open'"/>
+        <rx-entry label="Leitner box" :value="entry.box_no ~ ' of 5'"/>
+        <rx-entry label="Next review" :value="entry.due_on"/>
+        <rx-entry label="Reviews" :value="entry.reviews"/>
+        {% if entry.source %}<rx-entry label="Source" :value="entry.source"/>{% endif %}
+        {% if entry.question_no %}<rx-entry label="Question number" :value="entry.question_no"/>{% endif %}
+      </rx-infolist>
+      {% if entry.note %}<p><strong>Note:</strong> {{ entry.note }}</p>{% endif %}
+    </rx-card>
+
+    {% if question %}
+    <rx-card title="The question">
+      <p class="pq-stem">{{ question.stem }}</p>
+      {% if question.visual %}<figure class="pq-visual"><img src="/{{ question.visual }}" alt="Picture for the question"></figure>{% endif %}
+      <ul>
+        <li>A. {{ question.choice_a }}</li>
+        <li>B. {{ question.choice_b }}</li>
+        <li>C. {{ question.choice_c }}</li>
+        <li>D. {{ question.choice_d }}</li>
+        <li>E. {{ question.choice_e }}</li>
+      </ul>
+      <p><strong>Answer: {{ question.answer }}.</strong> {{ question.explanation }}</p>
+      {% if question.explanation_visual %}<figure class="pq-visual"><img src="/{{ question.explanation_visual }}" alt="Picture for the explanation"></figure>{% endif %}
+    </rx-card>
+    {% endif %}
+
+    <rx-card title="Sketch">
+      {% if entry.photo %}
+        <img class="errors-photo" src="{{ route('errors.image', entry.id) }}" alt="Your sketch for this mistake">
+      {% else %}
+        <p>No sketch yet. Solve it on paper, take a photo and add it here.</p>
+      {% endif %}
+      {% if not is_parent %}
+      <rx-form action="{{ route('errors.photo', entry.id) }}" enctype="multipart/form-data">
+        <rx-file name="photo" label="{{ 'Replace the photo' if entry.photo else 'Add a sketch photo' }}" accept="image/*" preview/>
+        <rx-button label="Save photo" variant="secondary"/>
+      </rx-form>
+      {% endif %}
+    </rx-card>
+  </div>
+</rx-page>

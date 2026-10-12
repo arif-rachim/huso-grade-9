@@ -364,6 +364,36 @@ a.pq-choice { text-decoration: none; }
 .plan-swatch--missed { background: #e5e7eb; border: 2px dashed #6b7280; }
 .plan-swatch--today { background: #e5e7eb; border: 3px solid #111827; }
 
+/* ---- Progress (#29) ---- */
+.progress-charts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0; }
+.progress-charts > .rx-card:nth-child(1), .progress-charts > .rx-card:nth-child(5) { grid-column: 1 / -1; }
+@media (max-width: 800px) { .progress-charts { grid-template-columns: minmax(0, 1fr); } }
+.progress-chart--lines .rx-series-1 { --rx-series: var(--s1, var(--subject-math)); }
+.progress-chart--lines .rx-series-2 { --rx-series: var(--s2, var(--subject-physics)); }
+.progress-chart--lines .rx-series-3 { --rx-series: var(--s3, var(--subject-chemistry)); }
+.progress-chart--lines .rx-series-4 { --rx-series: var(--s4, var(--subject-biology)); }
+.progress-chart--lines .rx-series-5 { --rx-series: var(--s5, var(--subject-earth)); }
+.progress-chart--minutes .rx-series-2 { --rx-series: #9ca3af; opacity: 0.55; }
+.progress-sim { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.4rem; }
+.progress-sim li { display: grid; grid-template-columns: 1rem 1fr auto auto 5rem; gap: 0.6rem; align-items: center; font: var(--rx-type-body); }
+.progress-sim li.is-dropped { opacity: 0.6; }
+.progress-sim__score { color: var(--rx-text-muted, #6b7280); }
+.progress-sim__total { margin: 0.75rem 0 0; font: var(--rx-type-body); }
+.progress-log { width: 100%; }
+.progress-log__actions { white-space: nowrap; }
+.progress-log small { color: var(--rx-text-muted, #6b7280); }
+.progress-sub { font: var(--rx-type-heading); margin: 1.5rem 0 0.5rem; }
+.progress-diag { width: 100%; margin: 0.75rem 0; }
+/* Bars grouped by subject (before vs after, accuracy): the subject's colour; "before" is faded. */
+.progress-chart--ba .rx-chart__band[data-index="0"] .rx-chart__bar, .progress-chart--accuracy .rx-chart__band[data-index="0"] .rx-chart__bar { --rx-series: var(--s1, var(--subject-math)); }
+.progress-chart--ba .rx-chart__band[data-index="1"] .rx-chart__bar, .progress-chart--accuracy .rx-chart__band[data-index="1"] .rx-chart__bar { --rx-series: var(--s2, var(--subject-physics)); }
+.progress-chart--ba .rx-chart__band[data-index="2"] .rx-chart__bar, .progress-chart--accuracy .rx-chart__band[data-index="2"] .rx-chart__bar { --rx-series: var(--s3, var(--subject-chemistry)); }
+.progress-chart--ba .rx-chart__band[data-index="3"] .rx-chart__bar, .progress-chart--accuracy .rx-chart__band[data-index="3"] .rx-chart__bar { --rx-series: var(--s4, var(--subject-biology)); }
+.progress-chart--ba .rx-chart__band[data-index="4"] .rx-chart__bar, .progress-chart--accuracy .rx-chart__band[data-index="4"] .rx-chart__bar { --rx-series: var(--s5, var(--subject-earth)); }
+.progress-chart--ba .rx-chart__bar.rx-series-1 { background: transparent; box-shadow: inset 0 0 0 2px var(--rx-series); opacity: 0.8; }
+.progress-chart--ba .rx-chart__key.rx-series-1 { background: transparent; box-shadow: inset 0 0 0 2px #6b7280; }
+.progress-chart--ba .rx-chart__key.rx-series-2 { background: #6b7280; }
+
 /* ---- /syllabus (issue #28): the mastery map ---- */
 .syl-legend { display: flex; flex-wrap: wrap; gap: 0.5rem 1.25rem; list-style: none; margin: 0.5rem 0 1rem; padding: 0; font: var(--rx-type-body); }
 .syl-swatch { display: inline-block; width: 1rem; height: 1rem; border-radius: 0.25rem; vertical-align: middle; }

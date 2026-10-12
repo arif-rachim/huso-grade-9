@@ -1,0 +1,9 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="Edit practice log" back="{{ route('progress.index') }}" back-label="Progress"/>
+  <rx-card>
+    <rx-form action="{{ route('progress.log.update', log.id) }}" method="PUT">
+      {% include "progress/_fields.html" %}
+      <rx-button label="Save changes" icon="check"/>
+    </rx-form>
+  </rx-card>
+</rx-page>

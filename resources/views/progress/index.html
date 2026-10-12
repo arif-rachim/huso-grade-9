@@ -1,4 +1,126 @@
 <rx-page layout="layouts/app.html">
-  <rx-page-header title="{{ title }}"/>
-  <rx-empty title="Coming soon" message="This page is being built."/>
+  <rx-page-header title="Progress" subtitle="Where you started, where you are now, and how much you practised.">
+    {% if is_parent %}
+      <rx-badge kind="info">Read-only</rx-badge>
+    {% else %}
+      <rx-link-button route="progress.log" label="Log practice" variant="primary" icon="plus"/>
+    {% endif %}
+  </rx-page-header>
+
+  <rx-stats columns="4">
+    <rx-stat label="Questions done" :value="figures.questions"/>
+    <rx-stat label="Accuracy" :value="figures.accuracy"/>
+    <rx-stat label="Cards mastered" :value="figures.cards" hint="Flashcards in box 4 or 5"/>
+    <rx-stat label="Study streak" :value="figures.streak ~ (' day' if figures.streak == 1 else ' days')" hint="{{ figures.week_minutes }} min this week"/>
+  </rx-stats>
+
+  <div class="progress-charts" style="{% for c in colors %}--s{{ loop.index }}: {{ c }}; {% endfor %}">
+    <rx-card title="Before vs after" subtitle="Percent correct: your diagnostic test (faded) against your latest result (solid).">
+      {% if has_before_after %}
+      <div class="progress-chart progress-chart--ba">
+        <rx-chart kind="bar" :labels="ba_labels" :series="ba_series" format="percent" :decimals="1" title="Diagnostic against latest percent correct per subject" :height="280" id="chart-before-after"/>
+      </div>
+      {% else %}
+      <rx-empty title="No results yet" message="Log your HUSO 2024 diagnostic test or finish a practice and the bars will appear here."/>
+      {% endif %}
+    </rx-card>
+
+    <rx-card title="HUSO score simulation" subtitle="Your latest result per subject. The best four count; the lowest is dropped.">
+      {% if simulation %}
+      <ul class="progress-sim">
+        {% for r in simulation.rows %}
+        <li class="{{ '' if r.kept else 'is-dropped' }}">
+          <span class="subject-dot" style="background: {{ r.color }}"></span>
+          <strong>{{ r.name }}</strong>
+          <span>{{ r.percent }}%</span>
+          <span class="progress-sim__score">{{ r.score }} pts</span>
+          {% if not r.kept %}<rx-badge kind="warning">Dropped</rx-badge>{% else %}<span></span>{% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+      <p class="progress-sim__total"><strong>Best four: {{ simulation.total }} of 400.0</strong>{% if simulation.dropped %} · {{ simulation.dropped }} is dropped{% endif %}</p>
+      {% else %}
+      <rx-empty title="Not enough data" :message="('Still missing a result for ' ~ (sim_missing | join(', ')) ~ '.') if sim_missing else 'Do a practice or log a paper test first.'"/>
+      {% endif %}
+    </rx-card>
+
+    <rx-card title="Percent correct per week" subtitle="One line per subject. Gaps are weeks without questions in that subject.">
+      {% if trend.labels %}
+      <div class="progress-chart progress-chart--lines">
+        <rx-chart kind="line" :labels="trend.labels" :series="trend.series" format="percent" :decimals="1" title="Percent correct per week per subject" :height="260" id="chart-trend"/>
+      </div>
+      {% else %}
+      <rx-empty title="No trend yet" message="Answer some questions and the lines will start to move."/>
+      {% endif %}
+    </rx-card>
+
+    <rx-card title="Accuracy per subject" subtitle="Everything you did, in the app and on paper.">
+      <div class="progress-chart progress-chart--accuracy">
+        <rx-chart kind="bar" :labels="accuracy.labels" :series="accuracy.series" format="percent" :decimals="1" :legend="false" title="Percent correct per subject" :height="240" id="chart-accuracy"/>
+      </div>
+    </rx-card>
+
+    <rx-card title="Minutes studied per day" subtitle="Plan checklist and logged practice. The grey bar is the target: 240 min in the intensive phase, 30 min in the daily phase.">
+      {% if minutes_day.labels %}
+      <div class="progress-chart progress-chart--minutes">
+        <rx-chart kind="bar" :labels="minutes_day.labels" :series="minutes_day.series" title="Minutes studied per day against the target" :height="260" id="chart-minutes-day"/>
+      </div>
+      {% else %}
+      <rx-empty title="The plan has not started" message="Minutes will show here from 12 October."/>
+      {% endif %}
+    </rx-card>
+
+    <rx-card title="Minutes studied per week">
+      {% if minutes_week.labels %}
+      <div class="progress-chart progress-chart--week">
+        <rx-chart kind="bar" :labels="minutes_week.labels" :series="minutes_week.series" :legend="false" title="Minutes studied per week" :height="220" id="chart-minutes-week"/>
+      </div>
+      {% else %}
+      <rx-empty title="Nothing studied yet" message="Tick tasks on the Today page or log practice."/>
+      {% endif %}
+    </rx-card>
+  </div>
+
+  <rx-card title="Practice log" subtitle="Paper tests and other practice done outside the app.">
+    {% if logs %}
+    <table class="rx-table progress-log">
+      <thead>
+        <tr><th>Date</th><th>Source</th><th>Subject</th><th>Right</th><th>Wrong</th><th>Blank</th><th>Percent</th><th>Score</th><th>Min</th>{% if not is_parent %}<th>Actions</th>{% endif %}</tr>
+      </thead>
+      <tbody>
+        {% for l in logs %}
+        <tr>
+          <td>{{ l.date }}</td>
+          <td>{{ l.source }}{% if l.note %}<br><small>{{ l.note }}</small>{% endif %}</td>
+          <td><span class="subject-dot" style="background: {{ l.color }}"></span> {{ l.subject }}{% if l.topic %}<br><small>{{ l.topic }}</small>{% endif %}</td>
+          <td>{{ l.correct }}</td>
+          <td>{{ l.wrong }}</td>
+          <td>{{ l.blank }}</td>
+          <td>{{ l.percent }}%</td>
+          <td>{{ l.score }}</td>
+          <td>{{ l.minutes }}</td>
+          {% if not is_parent %}
+          <td class="progress-log__actions">
+            <rx-link-button href="{{ route('progress.log.edit', l.id) }}" label="Edit" variant="secondary" size="small"/>
+            <rx-confirm id="delete-log-{{ l.id }}" label="Delete" action="{{ route('progress.log.destroy', l.id) }}" title="Delete this entry?" message="{{ l.source }}, {{ l.subject }}, {{ l.date }}. This cannot be undone." confirm-label="Delete" method="DELETE" size="small"/>
+          </td>
+          {% endif %}
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+
+    <h3 class="progress-sub">Totals per source</h3>
+    <table class="rx-table progress-log">
+      <thead><tr><th>Source</th><th>Entries</th><th>Questions</th><th>Percent</th><th>Score</th><th>Minutes</th></tr></thead>
+      <tbody>
+        {% for t in totals %}
+        <tr><td>{{ t.source }}</td><td>{{ t.entries }}</td><td>{{ t.questions }}</td><td>{{ t.percent }}%</td><td>{{ t.score }}</td><td>{{ t.minutes }}</td></tr>
+        {% endfor %}
+      </tbody>
+    </table>
+    {% else %}
+    <rx-empty title="Nothing logged yet" message="Did a paper test? Write the result down and it joins the charts above."/>
+    {% endif %}
+  </rx-card>
 </rx-page>

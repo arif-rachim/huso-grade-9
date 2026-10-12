@@ -1,0 +1,36 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="Log practice" subtitle="Paper tests and practice outside the app. Count every question: correct + wrong + blank." back="{{ route('progress.index') }}" back-label="Progress"/>
+
+  <rx-card title="{{ diagnostic_title }}: all 5 subjects" subtitle="Your diagnostic test. One row per subject; leave a row empty to skip it. This is the 'before' in the charts.">
+    <rx-form action="{{ route('progress.log.diagnostic') }}">
+      <rx-form-errors/>
+      <rx-input name="date" label="Date of the test" type="date" required min="{{ first_day }}" max="{{ last_day }}" value="{{ today }}"/>
+      <table class="rx-table progress-diag">
+        <thead><tr><th>Subject</th><th>Correct</th><th>Wrong</th><th>Blank</th><th>Minutes</th></tr></thead>
+        <tbody>
+          {% for r in diagnostic_rows %}
+          <tr>
+            <td>
+              <span class="subject-dot" style="background: {{ r.color }}"></span> <strong>{{ r.name }}</strong>
+              {% if r.questions %}<br><small>{{ r.questions }} questions</small>{% endif %}
+              <input type="hidden" name="rows[{{ r.index }}][subject]" value="{{ r.slug }}">
+            </td>
+            <td><rx-input name="rows[{{ r.index }}][correct]" label="Correct" type="number" min="0"/></td>
+            <td><rx-input name="rows[{{ r.index }}][wrong]" label="Wrong" type="number" min="0"/></td>
+            <td><rx-input name="rows[{{ r.index }}][blank]" label="Blank" type="number" min="0"/></td>
+            <td><rx-input name="rows[{{ r.index }}][minutes]" label="Minutes" type="number" min="0"/></td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+      <rx-button label="Save the diagnostic" icon="check"/>
+    </rx-form>
+  </rx-card>
+
+  <rx-card title="Any other practice" subtitle="One subject at a time: AMC 10, Physics Bowl, USNCO, a chapter test ...">
+    <rx-form action="{{ route('progress.log.store') }}">
+      {% include "progress/_fields.html" %}
+      <rx-button label="Save practice" icon="check"/>
+    </rx-form>
+  </rx-card>
+</rx-page>

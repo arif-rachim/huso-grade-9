@@ -1,0 +1,14 @@
+{#- The fields of one practice log. `log` is the row being edited (or none). -#}
+<rx-form-errors/>
+<rx-form-grid columns="2">
+  <rx-input name="date" label="Date" type="date" required min="{{ first_day }}" max="{{ last_day }}" value="{{ log.date if log else today }}"/>
+  <rx-select name="subject" label="Subject" required placeholder="Pick a subject" :options="subjects" :selected="log.subject if log else ''"/>
+  <rx-select name="source" label="Source" placeholder="Pick a paper or set" :options="sources" :selected="log.source if (log and source_known) else ''"/>
+  <rx-input name="source_other" label="Or another source" hint="For example: AMC 10A 2023" value="{{ '' if (not log or source_known) else log.source }}"/>
+  <rx-select name="topic" label="Subtopic (optional)" placeholder="Not sure / mixed" :options="subtopics" :selected="(log.topic_id | string) if (log and log.topic_id) else ''"/>
+  <rx-input name="minutes" label="Minutes spent" type="number" min="0" value="{{ log.minutes if log else '' }}"/>
+  <rx-input name="correct" label="Correct" type="number" min="0" value="{{ log.correct if log else '' }}"/>
+  <rx-input name="wrong" label="Wrong" type="number" min="0" value="{{ log.wrong if log else '' }}"/>
+  <rx-input name="blank" label="Blank" type="number" min="0" value="{{ log.blank if log else '' }}"/>
+</rx-form-grid>
+<rx-textarea name="note" label="Note" rows="3" value="{{ log.note if log else '' }}"/>

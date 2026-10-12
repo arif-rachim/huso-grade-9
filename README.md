@@ -56,16 +56,16 @@ Stack: [Renox](https://github.com/arif-rachim/renox) 1.1 (Rust + Axum + HTMX + A
 |---|---|---|---|
 | Foundation: layout, navigation, accounts, countdown | [#16](../../issues/16) | P0 | ✅ |
 | Content model and seeder | [#17](../../issues/17) | P0 | ✅ |
-| Today page | [#18](../../issues/18) | P0 | 🚧 |
-| Illustrated flashcards (Leitner) | [#19](../../issues/19) | P0 | 🚧 |
-| Question bank with HUSO scoring | [#20](../../issues/20) | P0 | 🚧 |
-| Error log | [#21](../../issues/21) | P0 | ⏳ |
-| 35-day plan and tracker | [#27](../../issues/27) | P1 | ⏳ |
-| Syllabus map | [#28](../../issues/28) | P1 | ⏳ |
-| Progress charts | [#29](../../issues/29) | P1 | ⏳ |
-| Parent dashboard | [#30](../../issues/30) | P1 | ⏳ |
-| Materials page and READY status | [#39](../../issues/39) | P1 | ⏳ |
-| "Redraw from memory" canvas | [#31](../../issues/31) | P2 | ⏳ |
+| Today page | [#18](../../issues/18) | P0 | ✅ |
+| Illustrated flashcards (Leitner) | [#19](../../issues/19) | P0 | ✅ |
+| Question bank with HUSO scoring | [#20](../../issues/20) | P0 | ✅ |
+| Error log | [#21](../../issues/21) | P0 | ✅ |
+| 35-day plan and tracker | [#27](../../issues/27) | P1 | ✅ |
+| Syllabus map | [#28](../../issues/28) | P1 | ✅ |
+| Progress charts | [#29](../../issues/29) | P1 | ✅ |
+| Parent dashboard | [#30](../../issues/30) | P1 | ✅ |
+| Materials page and READY status | [#39](../../issues/39) | P1 | ✅ |
+| "Redraw from memory" canvas | [#31](../../issues/31) | P2 | 🚧 draw, save and compare done; recall scoring pending |
 
 ## Running the app
 

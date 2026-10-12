@@ -1,4 +1,79 @@
 <rx-page layout="layouts/app.html">
-  <rx-page-header title="{{ title }}"/>
-  <rx-empty title="Coming soon" message="This page is being built."/>
+  <rx-page-header title="Practice" subtitle="Pick a mode. Every question has five choices (A to E): right = +1, wrong = −0.25, blank = 0."/>
+
+  {% if running %}
+  <rx-alert kind="info">
+    You have a {{ running.mode_label | lower }} in progress.
+    <a href="{{ route('practice.show', running.id) }}"><strong>Continue</strong></a>
+  </rx-alert>
+  {% endif %}
+
+  {% if is_parent %}
+  <rx-alert kind="info">You are signed in as the parent: you can look at the results below, but only the student can start a practice.</rx-alert>
+  {% else %}
+    {% if not any_questions %}
+    <rx-empty title="No questions yet" message="The question bank is being filled. Come back soon." icon="book-open"/>
+    {% else %}
+    <div class="pq-subjects">
+      {% for s in subjects %}
+      <span class="pq-chip" style="--c: {{ s.color }}">{{ s.emoji }} {{ s.name }} <strong>{{ s.questions }}</strong></span>
+      {% endfor %}
+    </div>
+
+    <div class="pq-modes">
+      <rx-card title="Topic" subtitle="10 questions on one subtopic. No timer. You see the explanation right after each answer.">
+        <rx-form action="{{ route('practice.start') }}">
+          <input type="hidden" name="mode" value="topic">
+          <rx-select name="topic" label="Subtopic" :options="topic_options" placeholder="Choose a subtopic" required/>
+          <rx-button label="Start topic practice"/>
+        </rx-form>
+      </rx-card>
+
+      <rx-card title="Sprint" subtitle="One subject against the clock. Explanations come at the end.">
+        <rx-form action="{{ route('practice.start') }}">
+          <input type="hidden" name="mode" value="sprint">
+          <rx-select name="subject" label="Subject" :options="subject_options" placeholder="Choose a subject" required/>
+          <rx-input name="count" label="Questions" type="number" :value="sprint_default" hint="Time: Mathematics 3 min per question, Biology and Earth Science 0.9 min, the others 1 min."/>
+          <rx-button label="Start sprint"/>
+        </rx-form>
+      </rx-card>
+
+      <rx-card title="Mixed" subtitle="15 questions from all five subjects, taken in turns. 20 minutes.">
+        <rx-form action="{{ route('practice.start') }}">
+          <input type="hidden" name="mode" value="mixed">
+          <rx-button label="Start mixed practice"/>
+        </rx-form>
+      </rx-card>
+
+      <rx-card title="Round 1 simulation" subtitle="Five sections of 36 minutes, one after the other. No explanations until the end.">
+        <ul class="pq-plan">
+          {% for s in subjects %}
+          <li><span class="subject-dot" data-subject="{{ s.slug }}" style="background: {{ s.color }}"></span> {{ s.name }}: {{ s.simulation_questions }} questions</li>
+          {% endfor %}
+        </ul>
+        <rx-form action="{{ route('practice.start') }}">
+          <input type="hidden" name="mode" value="simulation">
+          <rx-button label="Start the simulation"/>
+        </rx-form>
+      </rx-card>
+    </div>
+    {% endif %}
+  {% endif %}
+
+  <rx-card title="Recent practices">
+    {% if recent %}
+    <ul class="pq-recent">
+      {% for a in recent %}
+      <li>
+        <a href="{{ route('practice.result', a.id) }}"><strong>{{ a.mode_label }}</strong>{% if a.detail %} · {{ a.detail }}{% endif %}</a>
+        <span class="pq-recent__when">{{ a.when | since }}</span>
+        <span class="pq-recent__score">{{ a.tally.correct }} right · {{ a.tally.wrong }} wrong · {{ a.tally.blank }} blank</span>
+        <strong>{{ a.tally.raw }} pts · {{ a.tally.percent }}%</strong>
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+    <rx-empty title="Nothing yet" message="Your finished practices show up here."/>
+    {% endif %}
+  </rx-card>
 </rx-page>

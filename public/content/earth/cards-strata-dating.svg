@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 364" role="img" aria-labelledby="t d">
+<title id="t">Relative dating and unconformity</title>
+<desc id="d">Tilted older layers 1 to 3 are cut off by an erosion surface, an angular unconformity. Younger horizontal layers 4 and 5 lie on top. A dike cutting through every layer is the youngest feature.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="364" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<defs><clipPath id="cl"><rect x="20" y="150" width="360" height="140"/></clipPath></defs>
+<text x="200" y="18" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Relative dating: which came first?</text>
+<rect x="20" y="60" width="360" height="45" fill="#92400e" fill-opacity="0.1" stroke="#111827" stroke-width="1.2"/>
+<rect x="20" y="105" width="360" height="45" fill="#92400e" fill-opacity="0.28" stroke="#111827" stroke-width="1.2"/>
+<g clip-path="url(#cl)"><polygon points="20,-60 380,102 380,222 20,60" fill="#92400e" fill-opacity="0.12" stroke="#111827" stroke-width="1.2" stroke-linejoin="round"/><polygon points="20,60 380,222 380,332 20,170" fill="#92400e" fill-opacity="0.28" stroke="#111827" stroke-width="1.2" stroke-linejoin="round"/><polygon points="20,170 380,332 380,502 20,340" fill="#92400e" fill-opacity="0.5" stroke="#111827" stroke-width="1.2" stroke-linejoin="round"/></g>
+<polyline points="20,150 380,150" fill="none" stroke="#92400e" stroke-width="3.5" stroke-linejoin="round" stroke-dasharray="9 5"/>
+<polygon points="283,60 297,60 297,290 283,290" fill="#111827" fill-opacity="0.7"/>
+<text x="30" y="85" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">5  youngest layer</text>
+<text x="30" y="132" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">4</text>
+<text x="330" y="180" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">3</text>
+<text x="130" y="195" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">2</text>
+<text x="30" y="255" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">1  oldest</text>
+<g data-label="Angular unconformity"><text x="302" y="124" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">Angular</text><text x="302" y="138" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">unconformity</text></g>
+<g data-label="Dike"><text x="290" y="48" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">Dike (youngest: cuts all layers)</text></g>
+<text x="200" y="316" font-size="12" text-anchor="middle" fill="#6b7280">Gap in time: older layers were tilted and eroded,</text>
+<text x="200" y="332" font-size="12" text-anchor="middle" fill="#6b7280">then new horizontal layers were laid on top.</text>
+<text x="200" y="352" font-size="13" text-anchor="middle" fill="#92400e" font-weight="bold">Oldest → youngest: 1, 2, 3, gap, 4, 5, dike</text>
+</g>
+</svg>

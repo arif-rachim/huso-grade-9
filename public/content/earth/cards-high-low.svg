@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 288" role="img" aria-labelledby="t d">
+<title id="t">High and low pressure systems</title>
+<desc id="d">In the Northern Hemisphere air spirals counterclockwise and inward around a low, where it rises and makes clouds, and clockwise and outward around a high, where it sinks.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="288" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="16" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Pressure systems (Northern Hemisphere, from above)</text>
+<circle cx="105" cy="105" r="70" fill="#92400e" fill-opacity="0.08"/><polyline points="168.9,81.7 161.3,74.1 153,68.2 144.2,64 135.4,61.6 126.8,60.8 118.7,61.6 111.4,63.7 105,67" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ahB)"/><polyline points="81.7,41.1 74.1,48.7 68.2,57 64,65.8 61.6,74.6 60.8,83.2 61.6,91.3 63.7,98.6 67,105" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ahB)"/><polyline points="41.1,128.3 48.7,135.9 57,141.8 65.8,146 74.6,148.4 83.2,149.2 91.3,148.4 98.6,146.3 105,143" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ahB)"/><polyline points="128.3,168.9 135.9,161.3 141.8,153 146,144.2 148.4,135.4 149.2,126.8 148.4,118.7 146.3,111.4 143,105" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ahB)"/><text x="105" y="114" font-size="26" text-anchor="middle" fill="#111827" font-weight="bold">L</text>
+<circle cx="295" cy="105" r="70" fill="#92400e" fill-opacity="0.08"/><polyline points="295,67 301.4,63.7 308.7,61.6 316.8,60.8 325.4,61.6 334.2,64 343,68.2 351.3,74.1 358.9,81.7" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ahB)"/><polyline points="257,105 253.7,98.6 251.6,91.3 250.8,83.2 251.6,74.6 254,65.8 258.2,57 264.1,48.7 271.7,41.1" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ahB)"/><polyline points="295,143 288.6,146.3 281.3,148.4 273.2,149.2 264.6,148.4 255.8,146 247,141.8 238.7,135.9 231.1,128.3" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ahB)"/><polyline points="333,105 336.3,111.4 338.4,118.7 339.2,126.8 338.4,135.4 336,144.2 331.8,153 325.9,161.3 318.3,168.9" fill="none" stroke="#92400e" stroke-width="2.5" stroke-linejoin="round" marker-end="url(#ahB)"/><text x="295" y="114" font-size="26" text-anchor="middle" fill="#111827" font-weight="bold">H</text>
+<text x="105" y="198" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">LOW pressure</text>
+<text x="105" y="215" font-size="12" text-anchor="middle" fill="#111827">air spirals in</text>
+<text x="105" y="230" font-size="12" text-anchor="middle" fill="#111827">counterclockwise, rises</text>
+<text x="105" y="246" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">clouds, rain, storms</text>
+<text x="295" y="198" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">HIGH pressure</text>
+<text x="295" y="215" font-size="12" text-anchor="middle" fill="#111827">air spirals out</text>
+<text x="295" y="230" font-size="12" text-anchor="middle" fill="#111827">clockwise, sinks</text>
+<text x="295" y="246" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">clear, calm, dry</text>
+<text x="200" y="275" font-size="12" text-anchor="middle" fill="#6b7280">Southern Hemisphere: both directions reversed (Coriolis effect).</text>
+</g>
+</svg>

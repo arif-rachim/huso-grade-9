@@ -217,8 +217,8 @@ async fn days_can_be_browsed_with_the_date_query() {
         .await
         .assert_ok()
         .assert_see("Wednesday, 14 October 2026")
-        .assert_see("date=2026-10-13")
-        .assert_see("date=2026-10-15");
+        .assert_see("/plan/2026-10-13")
+        .assert_see("/plan/2026-10-15");
     // A bad date falls back to today.
     test.get("/today?date=nonsense").await.assert_ok();
 }
@@ -237,12 +237,13 @@ async fn non_subject_days_get_a_grey_chip() {
 }
 
 #[renox::test]
-async fn the_side_cards_count_zero_without_the_other_modules() {
+async fn the_side_cards_count_what_is_due() {
     let test = seeded().await;
     let student = user(&test, "student@huso.local").await;
     huso::app::today::summary::flashcards_due(test.db(), student.id)
         .await
-        .map(|n| assert_eq!(n, 0))
+        // Nothing was reviewed yet: only the capped number of new cards is due.
+        .map(|n| assert!((0..=20).contains(&n), "{n}"))
         .unwrap();
     huso::app::today::summary::errors_due(test.db(), student.id)
         .await

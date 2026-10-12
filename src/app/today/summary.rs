@@ -16,19 +16,12 @@ async fn table_exists(db: &Db, name: &str) -> Result<bool> {
     Ok(n > 0)
 }
 
-/// Flashcards due for the student today. EXTENSION POINT for #19: once `card_states` exists
-/// this counts its rows with `due_on <= today`.
+/// Flashcards due for the student today, plus the new cards still allowed today.
 pub async fn flashcards_due(db: &Db, user_id: i64) -> Result<i64> {
     if !table_exists(db, "card_states").await? {
         return Ok(0);
     }
-    Ok(
-        renox::db::sql("SELECT COUNT(*) FROM card_states WHERE user_id = ? AND due_on <= ?")
-            .bind(user_id)
-            .bind(crate::clock::today().to_string())
-            .scalar(db)
-            .await?,
-    )
+    crate::app::flashcards::due_count(db, user_id, crate::clock::today()).await
 }
 
 /// Error log entries due for the student today. EXTENSION POINT for #21: once `error_entries`

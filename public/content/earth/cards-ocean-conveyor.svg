@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 274" role="img" aria-labelledby="t d">
+<title id="t">Overturning circulation</title>
+<desc id="d">Cold salty water sinks near the poles, flows slowly at depth, rises elsewhere and returns as warm surface water.</desc>
+<defs><marker id="ahB" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#92400e"/></marker><marker id="ahK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker><marker id="ahG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker></defs>
+<rect x="0" y="0" width="400" height="274" fill="#ffffff"/>
+<g font-family="sans-serif" fill="#111827">
+<text x="200" y="18" font-size="14" text-anchor="middle" fill="#111827" font-weight="bold">Ocean conveyor belt (overturning circulation)</text>
+<rect x="20" y="40" width="360" height="160" fill="#92400e" fill-opacity="0.15"/>
+<rect x="20" y="40" width="360" height="22" fill="#92400e" fill-opacity="0.15"/>
+<text x="30" y="56" font-size="12" text-anchor="start" fill="#111827">warm surface water</text>
+<line x1="70" y1="72" x2="340" y2="72" stroke="#92400e" stroke-width="3.5" marker-end="url(#ahB)"/>
+<line x1="330" y1="175" x2="60" y2="175" stroke="#92400e" stroke-width="3.5" stroke-dasharray="6 4" marker-end="url(#ahB)"/>
+<line x1="50" y1="80" x2="50" y2="165" stroke="#92400e" stroke-width="3.5" marker-end="url(#ahB)"/>
+<text data-label="Deep water formation" x="62" y="125" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">cold, salty water sinks</text>
+<line x1="350" y1="165" x2="350" y2="80" stroke="#92400e" stroke-width="3.5" marker-end="url(#ahB)"/>
+<text data-label="Upwelling" x="340" y="125" font-size="13" text-anchor="end" fill="#111827" font-weight="bold">Upwelling</text>
+<text x="200" y="168" font-size="12" text-anchor="middle" fill="#111827">cold deep water flows slowly</text>
+<text x="200" y="96" font-size="12" text-anchor="middle" fill="#111827">warm surface current (wind driven)</text>
+<text x="50" y="218" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">North Atlantic</text>
+<text x="375" y="218" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">Tropics</text>
+<text x="200" y="245" font-size="12" text-anchor="middle" fill="#6b7280">Density: colder and saltier water is denser, so it sinks.</text>
+<text x="200" y="262" font-size="12" text-anchor="middle" fill="#6b7280">One full loop takes about 1000 years.</text>
+</g>
+</svg>

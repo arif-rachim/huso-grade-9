@@ -1,0 +1,83 @@
+<rx-page layout="layouts/app.html">
+  <rx-page-header title="Review mistakes" back="{{ route('errors.index') }}" back-label="Error Log">
+    {% if not done %}<rx-badge kind="info">{{ remaining }} due</rx-badge>{% endif %}
+  </rx-page-header>
+
+  {% if done %}
+    <rx-empty title="Nothing is due. Nice work!"
+              :message="('Your next review is on ' ~ next_due ~ '.') if next_due else 'No open mistakes left.'"
+              action-href="{{ route('errors.index') }}" action-label="Back to the Error Log" icon="check"/>
+  {% else %}
+  <div class="pq errors-review" style="--c: {{ subject.color }}">
+    <header class="pq-head">
+      <div class="pq-head__title">
+        <span class="pq-head__dot"></span>
+        <strong>{{ subject.emoji }} {{ subject.name }}</strong>
+        <span class="pq-head__sub">{{ topic.name }}</span>
+      </div>
+      <div class="pq-head__meta"><span>Box {{ entry.box_no }} of 5</span>{% if not needs_cause %}<span>Cause: {{ cause_label }}</span>{% endif %}</div>
+    </header>
+
+    {% if needs_cause %}
+    <rx-card title="First: why did this go wrong?">
+      <p>Pick the cause of this mistake before you try it again. Be honest, it helps you most.</p>
+      <div class="errors-causes">
+        {% for c in causes %}
+        <rx-form action="{{ route('errors.review_cause') }}">
+          <input type="hidden" name="id" value="{{ entry.id }}">
+          <input type="hidden" name="cause" value="{{ c.value }}">
+          <rx-button label="{{ c.label }}" variant="secondary" key="{{ loop.index }}"/>
+          <small>{{ c.hint }}</small>
+        </rx-form>
+        {% endfor %}
+      </div>
+    </rx-card>
+    {% else %}
+    <div class="pq-card">
+      {% if question %}
+        <p class="pq-stem">{{ question.stem }}</p>
+        {% if question.visual %}<figure class="pq-visual"><img src="/{{ question.visual }}" alt="Picture for the question"></figure>{% endif %}
+        <div class="pq-choices">
+          {% for c in choices %}
+          {% if reveal %}
+          <div class="pq-choice{% if c.state %} pq-choice--{{ c.state }}{% endif %}">
+          {% else %}
+          <a class="pq-choice" href="{{ c.href }}">
+          {% endif %}
+            <span class="pq-choice__letter">{{ c.letter }}</span>
+            <span class="pq-choice__text">{{ c.text }}</span>
+            {% if c.state == "correct" %}<span class="pq-choice__mark">Correct</span>{% elif c.state == "wrong" %}<span class="pq-choice__mark">Your answer</span>{% endif %}
+          {% if reveal %}</div>{% else %}</a>{% endif %}
+          {% endfor %}
+        </div>
+      {% else %}
+        <p class="pq-stem">{% if entry.source %}{{ entry.source }}{% endif %}{% if entry.question_no %}, question {{ entry.question_no }}{% endif %}</p>
+        <p>Solve this paper question again on paper. Then check your sketch and note.</p>
+        {% if reveal %}
+          {% if entry.note %}<p><strong>Note:</strong> {{ entry.note }}</p>{% endif %}
+          {% if entry.photo %}<img class="errors-photo" src="{{ route('errors.image', entry.id) }}" alt="Your sketch">{% endif %}
+        {% endif %}
+      {% endif %}
+
+      {% if not reveal %}
+        <p class="errors-reveal"><a class="rx-btn" href="{{ route('errors.review') }}?reveal=1">{{ "I do not know, show the answer" if question else "Show my sketch and note" }}</a></p>
+      {% else %}
+        {% if was_right == true %}<rx-alert kind="success">Correct! Now rate how easy it was.</rx-alert>
+        {% elif was_right == false %}<rx-alert kind="error">Not this time. Read the explanation, then rate it.</rx-alert>{% endif %}
+        {% if question %}
+          <p><strong>Why:</strong> {{ question.explanation }}</p>
+          {% if question.explanation_visual %}<figure class="pq-visual"><img src="/{{ question.explanation_visual }}" alt="Picture for the explanation"></figure>{% endif %}
+        {% endif %}
+        <form class="errors-rate" method="post" action="{{ route('errors.rate', entry.id) }}">
+          {{ csrf_field() }}
+          <rx-button name="grade" value="again" label="Again (1)" variant="danger" key="1"/>
+          <rx-button name="grade" value="hard" label="Hard (2)" variant="secondary" key="2"/>
+          <rx-button name="grade" value="good" label="Good (3)" variant="primary" key="3"/>
+          <rx-button name="grade" value="easy" label="Easy (4)" variant="secondary" key="4"/>
+        </form>
+      {% endif %}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+</rx-page>

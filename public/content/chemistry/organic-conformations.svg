@@ -1,0 +1,121 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 410" role="img" aria-labelledby="t d">
+  <title id="t">Butane conformations and their energy</title>
+  <desc id="d">Energy of butane against the CH3-C-C-CH3 dihedral angle from 0 to 360 degrees. Anti at 180 is the lowest at zero, gauche at 60 and 300 is about 3.8 kilojoules per mole, eclipsed at 120 and 240 is about 16, fully eclipsed at 0 and 360 is about 19. Newman projections are drawn under the curve.</desc>
+  <defs>
+    <marker id="arK" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#111827"/></marker>
+    <marker id="arG" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#6b7280"/></marker>
+    <marker id="arY" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#ca8a04"/></marker>
+  </defs>
+  <rect x="0" y="0" width="500" height="410" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="250" y="24" font-size="14.5" text-anchor="middle" fill="#111827" font-weight="bold">Rotating around the C2–C3 bond of butane</text>
+    <line x1="48" y1="222" x2="472" y2="222" stroke="#111827" stroke-width="2"/>
+    <line x1="48" y1="222" x2="48" y2="50" stroke="#111827" stroke-width="2"/>
+    <line x1="44" y1="222" x2="48" y2="222" stroke="#111827" stroke-width="1.5"/>
+    <text x="40" y="226" font-size="12" text-anchor="end" fill="#6b7280">0</text>
+    <line x1="44" y1="179.368" x2="48" y2="179.368" stroke="#111827" stroke-width="1.5"/>
+    <text x="40" y="183.368" font-size="12" text-anchor="end" fill="#6b7280">5</text>
+    <line x1="44" y1="136.737" x2="48" y2="136.737" stroke="#111827" stroke-width="1.5"/>
+    <text x="40" y="140.737" font-size="12" text-anchor="end" fill="#6b7280">10</text>
+    <line x1="44" y1="94.1053" x2="48" y2="94.1053" stroke="#111827" stroke-width="1.5"/>
+    <text x="40" y="98.1053" font-size="12" text-anchor="end" fill="#6b7280">15</text>
+    <line x1="44" y1="60" x2="48" y2="60" stroke="#111827" stroke-width="1.5"/>
+    <text x="40" y="64" font-size="12" text-anchor="end" fill="#6b7280">19</text>
+    <text x="14" y="141" font-size="12.5" text-anchor="middle" fill="#111827" transform="rotate(-90 14 141)">energy (kJ/mol)</text>
+    <polyline points="70.0,60.0 72.1,60.4 74.2,61.7 76.3,63.6 78.4,66.3 80.6,69.6 82.7,73.5 84.8,77.9 86.9,82.7 89.0,88.0 91.1,93.6 93.2,99.5 95.3,105.6 97.4,111.9 99.6,118.3 101.7,124.8 103.8,131.3 105.9,137.7 108.0,144.0 110.1,150.1 112.2,156.0 114.3,161.6 116.4,166.9 118.6,171.7 120.7,176.1 122.8,180.0 124.9,183.3 127.0,186.0 129.1,187.9 131.2,189.2 133.3,189.6 133.3,189.6 135.4,189.3 137.6,188.3 139.7,186.7 141.8,184.5 143.9,181.9 146.0,178.8 148.1,175.3 150.2,171.4 152.3,167.1 154.4,162.6 156.6,157.9 158.7,153.0 160.8,147.9 162.9,142.8 165.0,137.6 167.1,132.4 169.2,127.2 171.3,122.2 173.4,117.3 175.6,112.5 177.7,108.0 179.8,103.8 181.9,99.9 184.0,96.4 186.1,93.3 188.2,90.6 190.3,88.5 192.4,86.9 194.6,85.9 196.7,85.6 196.7,85.6 198.8,86.0 200.9,87.3 203.0,89.4 205.1,92.2 207.2,95.7 209.3,99.8 211.4,104.4 213.6,109.5 215.7,115.0 217.8,120.9 219.9,127.2 222.0,133.6 224.1,140.2 226.2,147.0 228.3,153.8 230.4,160.6 232.6,167.4 234.7,174.0 236.8,180.4 238.9,186.6 241.0,192.5 243.1,198.1 245.2,203.2 247.3,207.8 249.4,211.9 251.6,215.4 253.7,218.2 255.8,220.3 257.9,221.6 260.0,222.0 260.0,222.0 262.1,221.6 264.2,220.3 266.3,218.2 268.4,215.4 270.6,211.9 272.7,207.8 274.8,203.2 276.9,198.1 279.0,192.5 281.1,186.6 283.2,180.4 285.3,174.0 287.4,167.4 289.6,160.6 291.7,153.8 293.8,147.0 295.9,140.2 298.0,133.6 300.1,127.2 302.2,120.9 304.3,115.0 306.4,109.5 308.6,104.4 310.7,99.8 312.8,95.7 314.9,92.2 317.0,89.4 319.1,87.3 321.2,86.0 323.3,85.6 323.3,85.6 325.4,85.9 327.6,86.9 329.7,88.5 331.8,90.6 333.9,93.3 336.0,96.4 338.1,99.9 340.2,103.8 342.3,108.0 344.4,112.5 346.6,117.3 348.7,122.2 350.8,127.2 352.9,132.4 355.0,137.6 357.1,142.8 359.2,147.9 361.3,153.0 363.4,157.9 365.6,162.6 367.7,167.1 369.8,171.4 371.9,175.3 374.0,178.8 376.1,181.9 378.2,184.5 380.3,186.7 382.4,188.3 384.6,189.3 386.7,189.6 386.7,189.6 388.8,189.2 390.9,187.9 393.0,186.0 395.1,183.3 397.2,180.0 399.3,176.1 401.4,171.7 403.6,166.9 405.7,161.6 407.8,156.0 409.9,150.1 412.0,144.0 414.1,137.7 416.2,131.3 418.3,124.8 420.4,118.3 422.6,111.9 424.7,105.6 426.8,99.5 428.9,93.6 431.0,88.0 433.1,82.7 435.2,77.9 437.3,73.5 439.4,69.6 441.6,66.3 443.7,63.6 445.8,61.7 447.9,60.4 450.0,60.0" fill="none" stroke="#ca8a04" stroke-width="3.2" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="70" cy="60" r="4.5" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="70" y1="222" x2="70" y2="228" stroke="#111827" stroke-width="1.5"/>
+    <text x="70" y="242" font-size="12" text-anchor="middle" fill="#6b7280">0°</text>
+    <circle cx="70" cy="290" r="17" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="70" y1="290" x2="70" y2="264" stroke="#111827" stroke-width="2.2"/>
+    <line x1="70" y1="290" x2="47.4833" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="70" y1="290" x2="92.5167" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="66.4655" y1="273.371" x2="64.5943" y2="264.568" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="57.3665" y1="301.375" x2="50.6782" y2="307.397" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="86.168" y1="295.253" x2="94.7275" y2="298.034" stroke="#6b7280" stroke-width="2.2"/>
+    <text x="70" y="260" font-size="11.5" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="70" y="335" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">fully</text>
+    <text x="70" y="349" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">eclipsed</text>
+    <text x="70" y="366" font-size="12" text-anchor="middle" fill="#6b7280">≈ 19</text>
+    <circle cx="133.333" cy="189.6" r="4.5" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="133.333" y1="222" x2="133.333" y2="228" stroke="#111827" stroke-width="1.5"/>
+    <text x="133.333" y="242" font-size="12" text-anchor="middle" fill="#6b7280">60°</text>
+    <circle cx="133.333" cy="290" r="17" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="133.333" y1="290" x2="133.333" y2="264" stroke="#111827" stroke-width="2.2"/>
+    <line x1="133.333" y1="290" x2="110.817" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="133.333" y1="290" x2="155.85" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="118.611" y1="281.5" x2="110.817" y2="277" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="133.333" y1="307" x2="133.333" y2="316" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="148.056" y1="281.5" x2="155.85" y2="277" stroke="#6b7280" stroke-width="2.2"/>
+    <text x="133.333" y="260" font-size="11.5" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="133.333" y="335" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">gauche</text>
+    <text x="133.333" y="352" font-size="12" text-anchor="middle" fill="#6b7280">≈ 3.8</text>
+    <circle cx="196.667" cy="85.5789" r="4.5" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="196.667" y1="222" x2="196.667" y2="228" stroke="#111827" stroke-width="1.5"/>
+    <text x="196.667" y="242" font-size="12" text-anchor="middle" fill="#6b7280">120°</text>
+    <circle cx="196.667" cy="290" r="17" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="196.667" y1="290" x2="196.667" y2="264" stroke="#111827" stroke-width="2.2"/>
+    <line x1="196.667" y1="290" x2="174.15" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="196.667" y1="290" x2="219.183" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="184.033" y1="301.375" x2="177.345" y2="307.397" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="212.835" y1="295.253" x2="221.394" y2="298.034" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="193.132" y1="273.371" x2="191.261" y2="264.568" stroke="#6b7280" stroke-width="2.2"/>
+    <text x="196.667" y="260" font-size="11.5" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="196.667" y="335" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">eclipsed</text>
+    <text x="196.667" y="352" font-size="12" text-anchor="middle" fill="#6b7280">≈ 16</text>
+    <circle cx="260" cy="222" r="4.5" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="260" y1="222" x2="260" y2="228" stroke="#111827" stroke-width="1.5"/>
+    <text x="260" y="242" font-size="12" text-anchor="middle" fill="#6b7280">180°</text>
+    <circle cx="260" cy="290" r="17" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="260" y1="290" x2="260" y2="264" stroke="#111827" stroke-width="2.2"/>
+    <line x1="260" y1="290" x2="237.483" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="260" y1="290" x2="282.517" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="260" y1="307" x2="260" y2="316" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="274.722" y1="281.5" x2="282.517" y2="277" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="245.278" y1="281.5" x2="237.483" y2="277" stroke="#6b7280" stroke-width="2.2"/>
+    <text x="260" y="260" font-size="11.5" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="260" y="335" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">anti</text>
+    <text x="260" y="352" font-size="12" text-anchor="middle" fill="#6b7280">0</text>
+    <circle cx="323.333" cy="85.5789" r="4.5" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="323.333" y1="222" x2="323.333" y2="228" stroke="#111827" stroke-width="1.5"/>
+    <text x="323.333" y="242" font-size="12" text-anchor="middle" fill="#6b7280">240°</text>
+    <circle cx="323.333" cy="290" r="17" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="323.333" y1="290" x2="323.333" y2="264" stroke="#111827" stroke-width="2.2"/>
+    <line x1="323.333" y1="290" x2="300.817" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="323.333" y1="290" x2="345.85" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="339.501" y1="295.253" x2="348.061" y2="298.034" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="319.799" y1="273.371" x2="317.928" y2="264.568" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="310.7" y1="301.375" x2="304.012" y2="307.397" stroke="#6b7280" stroke-width="2.2"/>
+    <text x="323.333" y="260" font-size="11.5" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="323.333" y="335" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">eclipsed</text>
+    <text x="323.333" y="352" font-size="12" text-anchor="middle" fill="#6b7280">≈ 16</text>
+    <circle cx="386.667" cy="189.6" r="4.5" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="386.667" y1="222" x2="386.667" y2="228" stroke="#111827" stroke-width="1.5"/>
+    <text x="386.667" y="242" font-size="12" text-anchor="middle" fill="#6b7280">300°</text>
+    <circle cx="386.667" cy="290" r="17" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="386.667" y1="290" x2="386.667" y2="264" stroke="#111827" stroke-width="2.2"/>
+    <line x1="386.667" y1="290" x2="364.15" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="386.667" y1="290" x2="409.183" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="401.389" y1="281.5" x2="409.183" y2="277" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="371.944" y1="281.5" x2="364.15" y2="277" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="386.667" y1="307" x2="386.667" y2="316" stroke="#6b7280" stroke-width="2.2"/>
+    <text x="386.667" y="260" font-size="11.5" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="386.667" y="335" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">gauche</text>
+    <text x="386.667" y="352" font-size="12" text-anchor="middle" fill="#6b7280">≈ 3.8</text>
+    <circle cx="450" cy="60" r="4.5" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="450" y1="222" x2="450" y2="228" stroke="#111827" stroke-width="1.5"/>
+    <text x="450" y="242" font-size="12" text-anchor="middle" fill="#6b7280">360°</text>
+    <circle cx="450" cy="290" r="17" fill="#ffffff" stroke="#111827" stroke-width="2"/>
+    <line x1="450" y1="290" x2="450" y2="264" stroke="#111827" stroke-width="2.2"/>
+    <line x1="450" y1="290" x2="427.483" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="450" y1="290" x2="472.517" y2="303" stroke="#111827" stroke-width="2.2"/>
+    <line x1="446.466" y1="273.371" x2="444.594" y2="264.568" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="437.367" y1="301.375" x2="430.678" y2="307.397" stroke="#6b7280" stroke-width="2.2"/>
+    <line x1="466.168" y1="295.253" x2="474.727" y2="298.034" stroke="#6b7280" stroke-width="2.2"/>
+    <text x="450" y="260" font-size="11.5" text-anchor="middle" fill="#111827" font-weight="bold">CH₃</text>
+    <text x="450" y="335" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">fully</text>
+    <text x="450" y="349" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">eclipsed</text>
+    <text x="450" y="366" font-size="12" text-anchor="middle" fill="#6b7280">≈ 19</text>
+    <text x="250" y="396" font-size="12" text-anchor="middle" fill="#6b7280">Newman view: black = front carbon · gray = back carbon · energies in kJ/mol</text>
+  </g>
+</svg>

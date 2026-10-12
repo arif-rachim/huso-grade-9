@@ -95,7 +95,7 @@ Compare with the page and mark what you missed in red.
 ## 🎥 Watch / try
 - [Solar System 101](https://www.youtube.com/watch?v=libKVRa01L8) — National Geographic · 4:11 · see the planets, belts and the Sun in one tour
 - [Why Aren't There Eclipses Every Month?](https://www.youtube.com/watch?v=vIZyuXl-91U) — minutephysics · 2:23 · watch the tilt of the Moon's orbit decide when eclipses happen
-- [The Sidereal and Synodic Months](https://www.youtube.com/watch?v=c-N3u3IufK4) — Sumanas, Inc. · 1:25 · compare the two lunar months in an animation
+- [What Are The Differences Between Sidereal And Synodic Orbital Periods?](https://www.youtube.com/watch?v=cMPQX1b5r0s) — AstroPhil · 2:45 · compare the two kinds of period
 
 ## ✅ Check your understanding (5 questions)
 Do these without looking at the material. You are **READY** if you get at least 4 of 5 right.

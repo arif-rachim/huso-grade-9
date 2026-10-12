@@ -419,3 +419,20 @@ a.pq-choice { text-decoration: none; }
 .syl-big strong { font-size: 2.5rem; }
 .syl-facts, .syl-items, .syl-errors, .syl-links { margin: 0.75rem 0; padding-left: 1.25rem; font: var(--rx-type-body); }
 .syl-actions { display: flex; flex-wrap: wrap; gap: 0.5rem; align-items: center; }
+
+/* ---- Parent dashboard (#30) ---- */
+.parent-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; margin: 1rem 0; }
+@media (max-width: 800px) { .parent-grid { grid-template-columns: minmax(0, 1fr); } }
+.parent-today__title { font: var(--rx-type-heading); margin: 0; }
+.parent-bar { display: block; height: 0.6rem; border-radius: 0.3rem; background: #e5e7eb; overflow: hidden; margin: 0.5rem 0; }
+.parent-bar > span { display: block; height: 100%; }
+.parent-cal { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 0.4rem; }
+.parent-cell { min-height: 3.5rem; padding: 0.2rem; overflow: hidden; }
+.parent-subjects, .parent-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.6rem; }
+.parent-subjects li { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 0.2rem 0.75rem; }
+.parent-subjects .parent-bar { grid-column: 1 / -1; margin: 0; }
+.parent-cell .plan-cell__state { font-size: 0.62rem; }
+.parent-cell .plan-cell__date { font-size: 0.8rem; }
+.parent-list li { display: flex; align-items: center; justify-content: space-between; gap: 0.75rem; border-left: 4px solid var(--subject-color); padding-left: 0.6rem; }
+.parent-lessons { display: flex; flex-wrap: wrap; gap: 1.25rem; font: var(--rx-type-body); }
+.parent-lessons strong { font-size: 1.6rem; }

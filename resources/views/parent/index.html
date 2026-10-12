@@ -1,4 +1,106 @@
 <rx-page layout="layouts/app.html">
-  <rx-page-header title="{{ title }}"/>
-  <rx-empty title="Coming soon" message="This page is being built."/>
+  <rx-page-header title="{{ title }}" :subtitle="('How ' ~ student_name ~ ' is doing. Read-only: nothing on this page changes any data.') if has_student else 'No student account yet.'"/>
+
+  {% if warn_inactive %}
+  <rx-alert kind="warning" title="No activity for 2 days" message="Nothing was ticked, reviewed or answered yesterday or the day before. A short chat may help."/>
+  {% endif %}
+  {% if warn_registration %}
+  <rx-alert kind="info" title="HUSO registration" message="Registration for HUSO Round 1 is open until the end of October. Steps and status: {{ registration_url }}"/>
+  {% endif %}
+
+  {% if has_student %}
+  <rx-stats columns="5">
+    <rx-stat label="Streak" :value="streak ~ (' day' if streak == 1 else ' days')" hint="Days in a row with some study"/>
+    <rx-stat label="Days completed" :value="days_done ~ ' / ' ~ days_elapsed" hint="Plan days fully ticked, of the days so far"/>
+    <rx-stat label="Minutes, last 7 days" :value="minutes_week"/>
+    <rx-stat label="Accuracy, last 7 days" :value="accuracy_week if accuracy_week else '-'" hint="Practice answers"/>
+    <rx-stat label="Cards due today" :value="cards_due" hint="Not reviewed yet"/>
+  </rx-stats>
+
+  <div class="parent-grid">
+    <rx-card title="Today">
+      {% if today %}
+      <p class="parent-today__title">{{ today.title }}</p>
+      <p class="plan-note">{{ today.done }} of {{ today.total }} tasks ticked ({{ today.percent }}%)</p>
+      <div class="parent-bar" role="img" aria-label="{{ today.percent }}% of today's tasks done"><span style="width: {{ today.percent }}%; background: var(--rx-accent)"></span></div>
+      {% else %}
+      <p class="plan-note">There is no plan for today.</p>
+      {% endif %}
+      <p><a href="{{ route('today.index') }}">Open today's page</a></p>
+    </rx-card>
+
+    <rx-card title="Last 14 days">
+      <div class="parent-cal">
+        {% for c in calendar %}
+        <a class="plan-cell parent-cell" href="{{ route('plan.show', c.date) }}" data-date="{{ c.date }}" data-status="{{ c.status }}"{% if c.is_today %} data-today="true" aria-current="date"{% endif %}
+           style="--subject-color: #374151; --fill: 60;" aria-label="{{ c.weekday }} {{ c.date }}: {{ c.label or c.status }}">
+          <span class="plan-cell__date">{{ c.weekday }} {{ c.day }}</span>
+          <span class="plan-cell__state">{% if c.label %}{{ c.label }}{% else %}&nbsp;{% endif %}</span>
+        </a>
+        {% endfor %}
+      </div>
+      <p class="plan-note">Dark = all done, lighter = partly done, dashed = missed, thick border = today.</p>
+    </rx-card>
+
+    <rx-card title="Subjects: latest score">
+      <ul class="parent-subjects">
+        {% for s in subjects %}
+        <li>
+          <span class="parent-subjects__name"><span aria-hidden="true">{{ s.emoji }}</span> {{ s.name }}{% if s.weakest %} <rx-badge kind="warning">Weakest</rx-badge>{% endif %}</span>
+          <strong>{{ s.percent if s.percent else 'no test yet' }}</strong>
+          <span class="parent-bar"><span style="width: {{ s.width }}%; background: {{ s.color }}"></span></span>
+        </li>
+        {% endfor %}
+      </ul>
+      {% if weakest %}<p class="plan-note">Weakest subject right now: <strong>{{ weakest }}</strong>.</p>{% endif %}
+    </rx-card>
+
+    <rx-card title="Lessons">
+      <div class="parent-lessons">
+        <span><strong>{{ lessons.ready }}</strong> ✅ READY</span>
+        <span><strong>{{ lessons.in_progress }}</strong> 🟡 In progress</span>
+        <span><strong>{{ lessons.not_yet }}</strong> 🔴 Not yet</span>
+      </div>
+      <p><a href="{{ route('lessons.index') }}">All lessons</a></p>
+    </rx-card>
+
+    <rx-card title="Reddest subtopics">
+      {% if red_subtopics %}
+      <ul class="parent-list">
+        {% for t in red_subtopics %}
+        <li style="--subject-color: {{ t.color }}">
+          <a href="{{ route('syllabus.show', t.slug) }}">{{ t.name }} <span class="plan-note">{{ t.subject_name }}</span></a>
+          <rx-badge kind="{{ 'error' if t.mastery < 40 else ('warning' if t.mastery < 70 else 'success') }}">{{ t.mastery }}%</rx-badge>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="plan-note">No subtopic has enough practice yet.</p>
+      {% endif %}
+    </rx-card>
+
+    <rx-card title="Latest mistakes">
+      {% if mistakes %}
+      <ul class="parent-list">
+        {% for e in mistakes %}
+        <li style="--subject-color: {{ e.color }}">
+          <span><strong>{{ e.subject_name }}</strong>{% if e.topic %}: {{ e.topic }}{% endif %} <span class="plan-note">{{ e.on }}</span></span>
+          <rx-badge kind="{{ 'info' if e.has_cause else 'warning' }}">{{ e.cause }}</rx-badge>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p class="plan-note">No mistakes logged yet.</p>
+      {% endif %}
+    </rx-card>
+  </div>
+
+  <rx-card title="Look closer">
+    <rx-row>
+      <rx-link-button route="progress.index" label="Progress"/>
+      <rx-link-button route="syllabus.index" label="Syllabus map"/>
+      <rx-link-button route="errors.index" label="Error log"/>
+    </rx-row>
+  </rx-card>
+  {% endif %}
 </rx-page>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 340" role="img" aria-labelledby="t d">
+  <title id="t">How much water vapor air can hold at each temperature</title>
+  <desc id="d">A curve of the maximum water vapor per cubic meter of air against temperature. Warm air holds much more. A parcel at 30 degrees Celsius holding 15 grams per cubic meter has a relative humidity of about 49 percent. Cooled to about 18 degrees Celsius it reaches the curve, so the relative humidity is 100 percent: that temperature is the dew point.</desc>
+  <rect x="0" y="0" width="440" height="340" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="20.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Warm air holds more water vapor</text>
+    <rect x="70.0" y="48.0" width="340.0" height="237.0" rx="0" fill="#eef0f3" fill-opacity="0.5"/>
+    <line x1="70.0" y1="48.0" x2="70.0" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="70.0" y="303.0" font-size="12" text-anchor="middle" fill="#6b7280">0</text>
+    <line x1="118.6" y1="48.0" x2="118.6" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="118.6" y="303.0" font-size="12" text-anchor="middle" fill="#6b7280">5</text>
+    <line x1="167.1" y1="48.0" x2="167.1" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="167.1" y="303.0" font-size="12" text-anchor="middle" fill="#6b7280">10</text>
+    <line x1="215.7" y1="48.0" x2="215.7" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="215.7" y="303.0" font-size="12" text-anchor="middle" fill="#6b7280">15</text>
+    <line x1="264.3" y1="48.0" x2="264.3" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="264.3" y="303.0" font-size="12" text-anchor="middle" fill="#6b7280">20</text>
+    <line x1="312.9" y1="48.0" x2="312.9" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="312.9" y="303.0" font-size="12" text-anchor="middle" fill="#6b7280">25</text>
+    <line x1="361.4" y1="48.0" x2="361.4" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="361.4" y="303.0" font-size="12" text-anchor="middle" fill="#6b7280">30</text>
+    <line x1="410.0" y1="48.0" x2="410.0" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="410.0" y="303.0" font-size="12" text-anchor="middle" fill="#6b7280">35</text>
+    <line x1="70.0" y1="285.0" x2="410.0" y2="285.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="64.0" y="289.0" font-size="12" text-anchor="end" fill="#6b7280">0</text>
+    <line x1="70.0" y1="225.8" x2="410.0" y2="225.8" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="64.0" y="229.8" font-size="12" text-anchor="end" fill="#6b7280">10</text>
+    <line x1="70.0" y1="166.5" x2="410.0" y2="166.5" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="64.0" y="170.5" font-size="12" text-anchor="end" fill="#6b7280">20</text>
+    <line x1="70.0" y1="107.2" x2="410.0" y2="107.2" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="64.0" y="111.2" font-size="12" text-anchor="end" fill="#6b7280">30</text>
+    <line x1="70.0" y1="48.0" x2="410.0" y2="48.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="64.0" y="52.0" font-size="12" text-anchor="end" fill="#6b7280">40</text>
+    <text x="240.0" y="323.0" font-size="12" text-anchor="middle" fill="#6b7280">air temperature (°C)</text>
+    <text x="70.0" y="40.0" font-size="12" text-anchor="start" fill="#6b7280">max vapor in g per m³ of air</text>
+    <path d="M70.0 256.3 L74.9 255.3 L79.7 254.2 L84.6 253.2 L89.4 252.1 L94.3 250.9 L99.1 249.8 L104.0 248.6 L108.9 247.3 L113.7 246.1 L118.6 244.8 L123.4 243.4 L128.3 242.0 L133.1 240.6 L138.0 239.1 L142.9 237.6 L147.7 236.1 L152.6 234.5 L157.4 232.8 L162.3 231.1 L167.1 229.4 L172.0 227.6 L176.9 225.8 L181.7 223.9 L186.6 222.0 L191.4 220.0 L196.3 217.9 L201.1 215.8 L206.0 213.7 L210.9 211.5 L215.7 209.2 L220.6 206.8 L225.4 204.4 L230.3 202.0 L235.1 199.5 L240.0 196.9 L244.9 194.2 L249.7 191.5 L254.6 188.7 L259.4 185.8 L264.3 182.8 L269.1 179.8 L274.0 176.7 L278.9 173.5 L283.7 170.3 L288.6 166.9 L293.4 163.5 L298.3 160.0 L303.1 156.4 L308.0 152.7 L312.9 148.9 L317.7 145.0 L322.6 141.1 L327.4 137.0 L332.3 132.8 L337.1 128.6 L342.0 124.2 L346.9 119.7 L351.7 115.2 L356.6 110.5 L361.4 105.7 L366.3 100.8 L371.1 95.8 L376.0 90.6 L380.9 85.3 L385.7 80.0 L390.6 74.5 L395.4 68.8 L400.3 63.1 L405.1 57.2 L410.0 51.1" fill="none" stroke="#92400e" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/>
+    <text x="79.7" y="77.6" font-size="13" text-anchor="start" fill="#92400e" font-weight="bold">Curve = air is full</text>
+    <text x="79.7" y="93.6" font-size="13" text-anchor="start" fill="#92400e" font-weight="bold">(RH = 100%)</text>
+    <circle cx="361.4" cy="196.1" r="6" fill="#111827"/>
+    <text x="369.4" y="218.1" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">air: 30 °C, 15 g/m³</text>
+    <text x="369.4" y="234.1" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">RH ≈ 49%</text>
+    <line x1="361.4" y1="105.7" x2="361.4" y2="196.1" stroke="#dc2626" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="4 3"/>
+    <text x="369.4" y="142.8" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">max</text>
+    <text x="369.4" y="157.8" font-size="12" text-anchor="start" fill="#dc2626" font-weight="bold">30 g/m³</text>
+    <line x1="353.4" y1="196.1" x2="247.4" y2="196.1" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="247.4" y1="196.1" x2="255.5" y2="200.0" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <line x1="247.4" y1="196.1" x2="255.5" y2="192.2" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="241.4" cy="196.1" r="6" fill="#ffffff" stroke="#2563eb" stroke-width="3"/>
+    <text x="221.4" y="226.1" font-size="13" text-anchor="middle" fill="#2563eb" font-weight="bold">dew point ≈ 18 °C</text>
+    <text x="221.4" y="242.1" font-size="12" text-anchor="middle" fill="#2563eb">RH 100%: dew, fog, cloud</text>
+    <text x="301.4" y="188.1" font-size="12" text-anchor="middle" fill="#2563eb" font-weight="bold">cool it</text>
+  </g>
+</svg>

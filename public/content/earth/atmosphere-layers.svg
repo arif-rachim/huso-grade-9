@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 470" role="img" aria-labelledby="t d">
+  <title id="t">Layers of the atmosphere and the temperature profile</title>
+  <desc id="d">Five layers from the ground up: troposphere to 11 km where temperature falls, stratosphere to 50 km where it rises because of the ozone layer, mesosphere to 85 km where it falls to about minus 90 degrees Celsius, thermosphere where it rises again, and the exosphere. Not to scale.</desc>
+  <rect x="0" y="0" width="440" height="470" fill="#ffffff"/>
+  <g font-family="sans-serif" fill="#111827">
+    <text x="220.0" y="22.0" font-size="15" text-anchor="middle" fill="#111827" font-weight="bold">Four layers, four temperature turns (not to scale)</text>
+    <rect x="78.0" y="40.0" width="122.0" height="28.0" rx="0" fill="#92400e" fill-opacity="0.05" stroke="#111827" stroke-width="1"/>
+    <text x="139.0" y="59.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Exosphere</text>
+    <rect x="78.0" y="68.0" width="122.0" height="80.0" rx="0" fill="#92400e" fill-opacity="0.1" stroke="#111827" stroke-width="1"/>
+    <text x="139.0" y="113.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Thermosphere</text>
+    <rect x="78.0" y="148.0" width="122.0" height="80.0" rx="0" fill="#92400e" fill-opacity="0.18" stroke="#111827" stroke-width="1"/>
+    <text x="139.0" y="193.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Mesosphere</text>
+    <rect x="78.0" y="228.0" width="122.0" height="80.0" rx="0" fill="#92400e" fill-opacity="0.28" stroke="#111827" stroke-width="1"/>
+    <text x="139.0" y="251.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Stratosphere</text>
+    <rect x="78.0" y="308.0" width="122.0" height="80.0" rx="0" fill="#92400e" fill-opacity="0.4" stroke="#111827" stroke-width="1"/>
+    <text x="139.0" y="353.0" font-size="13" text-anchor="middle" fill="#111827" font-weight="bold">Troposphere</text>
+    <text x="72.0" y="72.0" font-size="12" text-anchor="end" fill="#6b7280">600 km</text>
+    <text x="72.0" y="152.0" font-size="12" text-anchor="end" fill="#6b7280">85 km</text>
+    <text x="72.0" y="232.0" font-size="12" text-anchor="end" fill="#6b7280">50 km</text>
+    <text x="72.0" y="312.0" font-size="12" text-anchor="end" fill="#6b7280">11 km</text>
+    <text x="72.0" y="392.0" font-size="12" text-anchor="end" fill="#6b7280">0 km</text>
+    <text x="72.0" y="44.0" font-size="12" text-anchor="middle" fill="#111827"></text>
+    <rect x="78.0" y="270.0" width="122.0" height="22.0" rx="0" fill="#92400e" fill-opacity="0.55"/>
+    <text x="139.0" y="285.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">ozone layer</text>
+    <line x1="78.0" y1="148.0" x2="200.0" y2="148.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <text x="204.0" y="144.0" font-size="12" text-anchor="start" fill="#6b7280">mesopause</text>
+    <line x1="78.0" y1="228.0" x2="200.0" y2="228.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <text x="204.0" y="224.0" font-size="12" text-anchor="start" fill="#6b7280">stratopause</text>
+    <line x1="78.0" y1="308.0" x2="200.0" y2="308.0" stroke="#111827" stroke-width="2" stroke-linecap="round"/>
+    <text x="204.0" y="304.0" font-size="12" text-anchor="start" fill="#6b7280">tropopause</text>
+    <rect x="292.0" y="40.0" width="128.0" height="348.0" rx="0" fill="#eef0f3" fill-opacity="0.6"/>
+    <line x1="292.0" y1="40.0" x2="292.0" y2="388.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="292.0" y="406.0" font-size="12" text-anchor="middle" fill="#6b7280">-100 °C</text>
+    <line x1="343.2" y1="40.0" x2="343.2" y2="388.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="343.2" y="406.0" font-size="12" text-anchor="middle" fill="#6b7280">-50 °C</text>
+    <line x1="394.4" y1="40.0" x2="394.4" y2="388.0" stroke="#d1d5db" stroke-width="1" stroke-linecap="round"/>
+    <text x="394.4" y="406.0" font-size="12" text-anchor="middle" fill="#6b7280">0 °C</text>
+    <text x="356.0" y="424.0" font-size="12" text-anchor="middle" fill="#6b7280">temperature</text>
+    <path d="M409.8 388.0 L337.1 308.0 L392.4 228.0 L302.2 148.0 L402.6 68.0" fill="none" stroke="#92400e" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/>
+    <line x1="402.6" y1="68.0" x2="421.0" y2="46.0" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="421.0" y1="46.0" x2="412.8" y2="49.7" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="421.0" y1="46.0" x2="418.8" y2="54.7" stroke="#92400e" stroke-width="3.5" stroke-linecap="round"/>
+    <text x="381.1" y="60.0" font-size="12" text-anchor="middle" fill="#92400e" font-weight="bold">1000 °C +</text>
+    <text x="389.8" y="386.0" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">15 °C</text>
+    <circle cx="409.8" cy="388.0" r="4" fill="#92400e"/>
+    <circle cx="337.1" cy="308.0" r="4" fill="#92400e"/>
+    <circle cx="392.4" cy="228.0" r="4" fill="#92400e"/>
+    <circle cx="302.2" cy="148.0" r="4" fill="#92400e"/>
+    <text x="365.1" y="322.0" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">−56 °C</text>
+    <text x="400.4" y="232.0" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">−2 °C</text>
+    <text x="342.2" y="150.0" font-size="12" text-anchor="start" fill="#111827" font-weight="bold">−90 °C</text>
+    <text x="342.2" y="166.0" font-size="12" text-anchor="start" fill="#6b7280">coldest place</text>
+    <text x="139.0" y="372.0" font-size="12" text-anchor="middle" fill="#111827">weather + clouds</text>
+    <text x="220.0" y="446.0" font-size="12" text-anchor="end" fill="#111827" font-weight="bold">Dry air:</text>
+    <rect x="226.0" y="434.0" width="148.4" height="18.0" rx="0" fill="#92400e" fill-opacity="0.5" stroke="#111827" stroke-width="1"/>
+    <rect x="374.4" y="434.0" width="39.8" height="18.0" rx="0" fill="#92400e" fill-opacity="0.25" stroke="#111827" stroke-width="1"/>
+    <rect x="414.2" y="434.0" width="1.8" height="18.0" rx="0" fill="#92400e" fill-opacity="0.8" stroke="#111827" stroke-width="1"/>
+    <text x="300.1" y="448.0" font-size="12" text-anchor="middle" fill="#111827" font-weight="bold">N₂ 78%</text>
+    <text x="393.2" y="465.0" font-size="12" text-anchor="end" fill="#111827">O₂ 21%  ·  Ar 0.9%  ·  CO₂ 0.04%</text>
+  </g>
+</svg>

@@ -498,12 +498,12 @@ pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDat
         topics.sort_by_key(|t| slugs.iter().position(|s| *s == t.slug));
         let with_lesson: Vec<i64> = Lesson::query()
             .where_in("topic_id", topics.iter().map(|t| t.id).collect::<Vec<_>>())
-            .get(&db)
+            .get(db)
             .await?
             .into_iter()
             .map(|l| l.topic_id)
             .collect();
-        let states = lesson_status::states(&db, student).await?;
+        let states = lesson_status::states(db, student).await?;
         page.new_material = topics
             .into_iter()
             .map(|t| {
@@ -535,7 +535,7 @@ pub async fn day_view(ctx: LiveContext, user: &AuthUser, db: &Db, date: NaiveDat
                     .map_or(slug.as_str(), |s| s.name.as_str())
             ),
         });
-        page.red_list = lesson_status::red_list(&db, student, date, &scope).await?;
+        page.red_list = lesson_status::red_list(db, student, date, &scope).await?;
     }
     page.timer_blocks = list
         .blocks

@@ -119,19 +119,22 @@ async fn remembered_topics(db: &Db, user_id: i64) -> Result<Option<HashSet<i64>>
     }
     let mut remembered = HashSet::new();
     if has_cards {
-        let rows: Vec<(i64, i64, i64)> = renox::db::sql(
+        let rows: Vec<(i64, i64, i64, i64)> = renox::db::sql(
             "SELECT f.topic_id, COUNT(*), \
-                    SUM(CASE WHEN COALESCE(cs.box, 0) >= ? THEN 1 ELSE 0 END) \
+                    SUM(CASE WHEN COALESCE(cs.box, 0) >= ? THEN 1 ELSE 0 END), \
+                    COUNT(cs.id) \
              FROM flashcards f \
              LEFT JOIN card_states cs ON cs.flashcard_id = f.id AND cs.user_id = ? \
              WHERE f.archived_at IS NULL GROUP BY f.topic_id",
         )
         .bind(REMEMBERED_BOX)
         .bind(user_id)
-        .fetch_as::<(i64, i64, i64)>(db)
+        .fetch_as::<(i64, i64, i64, i64)>(db)
         .await?;
-        for (topic_id, total, in_box) in rows {
-            if total > 0 && in_box == total {
+        // Retention is only asked once the student has started this subtopic's cards, and
+        // then half of the cards must be in box 3 or higher (a card needs days to climb).
+        for (topic_id, total, in_box, started) in rows {
+            if total > 0 && (started == 0 || in_box * 2 >= total) {
                 remembered.insert(topic_id);
             }
         }

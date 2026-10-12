@@ -275,14 +275,6 @@ async fn once_flashcards_exist_the_cards_must_be_in_box_three() {
     let student = user(&test, "student@huso.local").await;
     test.acting_as(&student);
     let id = topic(&test, NERVOUS).await.id;
-    // The Flashcards feature's table (docs/PROJECT.md), made here by hand.
-    renox::db::sql(
-        "CREATE TABLE card_states (id INTEGER PRIMARY KEY AUTOINCREMENT, user_id INTEGER NOT NULL, \
-         flashcard_id INTEGER NOT NULL, box INTEGER NOT NULL, due_on TEXT)",
-    )
-    .execute(test.db())
-    .await
-    .unwrap();
     renox::db::sql(
         "INSERT INTO flashcards (key, topic_id, card_type, front, back, payload, tags, origin) \
          VALUES ('lesson-test-1', ?, 'basic', 'Q', 'A', '{}', '[]', 'content')",
@@ -293,8 +285,8 @@ async fn once_flashcards_exist_the_cards_must_be_in_box_three() {
     .unwrap();
     // Every card of the subtopic (the real ones too) is in box 2.
     renox::db::sql(
-        "INSERT INTO card_states (user_id, flashcard_id, box) \
-         SELECT ?, id, 2 FROM flashcards WHERE topic_id = ?",
+        "INSERT INTO card_states (user_id, flashcard_id, box, due_on, introduced_on) \
+         SELECT ?, id, 2, '2026-10-20', '2026-10-12' FROM flashcards WHERE topic_id = ?",
     )
     .bind(student.id)
     .bind(id)

@@ -121,7 +121,7 @@ pub fn streaks(days: &[(NaiveDate, bool)], today: NaiveDate) -> (i64, i64) {
 // Data
 
 /// `(plan_day_id, tasks, ticked tasks)` for every day, for one student.
-async fn day_counts(db: &Db, user_id: i64) -> Result<HashMap<i64, (i64, i64)>> {
+pub(crate) async fn day_counts(db: &Db, user_id: i64) -> Result<HashMap<i64, (i64, i64)>> {
     let rows: Vec<(i64, i64, i64)> = renox::db::sql(
         "SELECT d.id, COUNT(t.id), COUNT(c.id) FROM plan_days d \
          LEFT JOIN plan_tasks t ON t.plan_day_id = d.id \

@@ -5,22 +5,23 @@ name: Release
 # GitHub Release with one archive per platform plus the database alone.
 #
 # Run it: push a tag (git tag v0.1.0 && git push origin v0.1.0) or use
-# Actions > Release > Run workflow and type a version.
+# Actions > Release > Run workflow and type the tag of the release (for example 0.1.0).
+# If a release for that tag already exists, the archives are attached to it.
 
 on:
   push:
-    tags: ["v*"]
+    tags: ["*"]
   workflow_dispatch:
     inputs:
-      version:
-        description: "Version without the v, for example 0.1.0"
+      tag:
+        description: "Tag of the release, exactly as it is on GitHub (for example 0.1.0 or v0.1.0)"
         required: true
 
 permissions:
   contents: write
 
 env:
-  VERSION: ${{ github.event.inputs.version || github.ref_name }}
+  TAG: ${{ github.event.inputs.tag || github.ref_name }}
 
 jobs:
   build:
@@ -97,8 +98,7 @@ jobs:
       - name: Package
         run: |
           set -euo pipefail
-          v="${VERSION#v}"
-          echo "RELEASE_VERSION=$v" >> "$GITHUB_ENV"
+          v="${TAG#v}"
           mkdir -p out
           for dir in artifacts/bin-*; do
             platform="${dir#artifacts/bin-}"
@@ -110,8 +110,7 @@ jobs:
           ls -la out
       - uses: softprops/action-gh-release@v2
         with:
-          tag_name: v${{ env.RELEASE_VERSION }}
-          name: Huso ${{ env.RELEASE_VERSION }}
+          tag_name: ${{ env.TAG }}
           body: |
             One archive per computer type, each with the program and the ready-made database.
             Unpack, run `start.sh` (or `start.ps1` on Windows) and open http://127.0.0.1:3000.
